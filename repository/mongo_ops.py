@@ -33,6 +33,16 @@ def print_all_questions(mongo_connection):
         print("Q: {} \nA: {}".format(el["question"], el["answer"]))
 
 
+def iterate_questions_in_mongo(mongo_connection):
+    mongo_client = MongoClient(mongo_connection)
+    bankdomain_db = mongo_client.bankdomain
+    qa_questions_coll = bankdomain_db.qa_questions
+
+    qa_questions_in_db = qa_questions_coll.find()
+    for el in qa_questions_in_db:
+        yield (el["question"] + "\n"+ el["answer"])
+
+
 def split_qa_documents_into_questions(mongo_connection):
     mongo_client = MongoClient(mongo_connection)
     bankdomain_db = mongo_client.bankdomain
@@ -65,3 +75,17 @@ def split_qa_documents_into_questions(mongo_connection):
                     answer = answer + line
             qa_documents_coll.save(el)
 
+
+def process_questions(mongo_connection, processor, **kwargs):
+    mongo_client = MongoClient(mongo_connection)
+    bankdomain_db = mongo_client.bankdomain
+    qa_questions_coll = bankdomain_db.qa_questions
+    qa_questions_in_db = qa_questions_coll.find()
+    proc_questions_coll = bankdomain_db.proc_questions
+    proc_questions_coll.remove()
+    all_texts = []
+    for el in qa_questions_in_db :
+        to_write = {"question": processor(el["question"], **kwargs) , "answer":processor(el["answer"], **kwargs)}
+        proc_questions_coll.insert_one(to_write)
+        all_texts.append(to_write["question"]+"\n"+to_write["answer"])
+    return all_texts
