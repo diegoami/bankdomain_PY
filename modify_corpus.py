@@ -24,6 +24,6 @@ if __name__ == '__main__':
     # corpus.spacy_vocab
     count_res = new_corpus.word_doc_freqs(normalize=u'lemma',  as_strings=True)
     #count_res = corpus.word_doc_freqs(normalize=u'lemma',  as_strings=True)
-
-    for key, value in sorted(count_res.items(), key=lambda x: x[1], reverse = True):
-        print("{}: {}".format(key, value))
+    with open('data/all_terms.txt', 'w') as fw:
+        for key, value in sorted(count_res.items(), key=lambda x: x[1], reverse = True):
+            print("{}: {}".format(key, value), file=fw)
