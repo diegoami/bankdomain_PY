@@ -52,6 +52,16 @@ def iterate_proc_questions_in_mongo(mongo_connection,separator=False):
             yield "====================================================\n"
 
 
+def iterate_mod_questions_in_mongo(mongo_connection,separator=False):
+    mongo_client = MongoClient(mongo_connection)
+    bankdomain_db = mongo_client.bankdomain
+    mod_questions_coll = bankdomain_db.mod_questions
+    mod_questions_in_db = mod_questions_coll .find()
+    for el in mod_questions_in_db:
+        yield (el["question"] + "\n"+ el["answer"]+"\n")
+        if (separator):
+            yield "====================================================\n"
+
 def split_qa_documents_into_questions(mongo_connection):
     mongo_client = MongoClient(mongo_connection)
     bankdomain_db = mongo_client.bankdomain
@@ -109,7 +119,7 @@ def question_for_model(mongo_connection, processor, nlp):
     bankdomain_db = mongo_client.bankdomain
     proc_questions_coll = bankdomain_db.proc_questions
     proc_questions_in_db = proc_questions_coll.find()
-    mod_questions_coll = bankdomain_db.mod_questions_coll
+    mod_questions_coll = bankdomain_db.mod_questions
     mod_questions_coll.remove()
     all_texts = []
     for el in proc_questions_in_db:

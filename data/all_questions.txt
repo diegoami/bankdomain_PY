@@ -15930,6 +15930,1785 @@ Eine Vertragskündigung können Sie jederzeit im Menü „Verwaltung / Strategie
 Bitte senden Sie das ausgefüllte und unterschriebene Formular an uns zurück. Im Anschluss an die Kündigung des Vermögensverwaltungsvertrags werden eventuell ausstehende Restgebühren von Ihrem Verrechnungskonto abgebucht. Nach dem Verkauf der Wertpapiere überweisen wir Ihr Guthaben auf das Referenzkonto. Bei einem Wertpapierübertrag werden die Wertpapiere auf das von Ihnen angegeben Depot übertragen, die verbleibenden Bruchstücke verkauft und der Gegenwert auf Ihr Referenzkonto überwiesen. Sie bekommen ein Bestätigungsschreiben sowie ein Abschlussreporting per Post und digital im Postfach Ihres Online-Banking.
 
 ====================================================
+Benötige ich ein Referenzkonto, um bei NIBC Direct ein Konto zu eröffnen?
+
+Ja, als Kunde benötigen Sie ein Zahlungsverkehrs- oder Girokonto als Referenzkonto, auf das Sie bspw. die erwirtschafteten Zinsen oder einen fälligen Festgeldbetrag überweisen können. Dieses Referenzkonto muss bei einer Bank in Deutschland unterhalten werden.
+
+====================================================
+Welche Leistungen sind kostenfrei, welche nicht?
+
+Die Kontoführung für Tages- und Termingeldkonten sowie die Depotführung ist kostenfrei. Bei einigen wenigen Anfragen (bspw. Erstellung eines Duplikats einer Steuerbescheinigung) erhebt die NIBC Bank eine Gebühr. Die Gebühren sind im aktuellen Preisverzeichnis, das Sie im Formularcenter finden, gelistet und beziffert.
+
+====================================================
+Wann werden die Zinsen gutgeschrieben?
+
+Bei Tagesgeld werden die Zinsen am Jahresende bzw. bei Kontolöschung gutgeschrieben. Bei Festgeld mit Laufzeiten von unter einem Jahr werden die Zinsen bei Fälligkeit gutgeschrieben. Bei Laufzeiten von 1 Jahr und mehr erfolgt die Zinsgutschrift zum Jahresultimo.
+
+====================================================
+Was ist FATCA?
+
+FATCA steht für Foreign Account Tax Compliance Act und ist eine Verordnung, durch die die USA die Steuerehrlichkeit bei internationalen Sachverhalten fördern und eine Steuerumgehung über Auslandskonten durch US-Personen verhindern möchten. Da Deutschland wie zahlreiche andere Länder ein FATCA-Abkommen mit den USA geschlossen hat, müssen deutsche Kredit- und Finanzdienstleistungsunternehmen den USA steuerlich relevante Informationen zu US-Kunden zur Verfügung stellen. Hierzu muss NIBC Direct seine Kundenbeziehungen mit Blick auf sogenannte US-Indizien prüfen und dokumentieren.
+
+Was sind Beispiele für US-Indizien?
+
+    US-Staatsbürgerschaft
+
+    US-amerikanische Telefonnummer
+
+    Geburtsort in den USA
+
+    US-amerikanische Wohnanschrift
+
+    Postfach in den USA
+
+    Dauerauftrag zur Überweisung auf ein in den USA geführtes Konto
+
+    Handlungs- oder Vermögensvollmacht/Zeichnungsberechtigung zugunsten einer Person mit US-Adresse
+
+    "in care of" oder postlagernd als einzige Adresse, auch außerhalb der USA
+
+Im Rahmen des FATCA-Abkommens haben wir die Pflicht, die Daten von identifizierten Kunden über das Bundeszentralamt für Steuern an die US-Steuerbehörde Internal Revenue Service (IRS) zu melden. Die erste Meldung soll 2015 über den Meldezeitraum 2014 erfolgen.
+
+====================================================
+Warum muss ich Angaben zu FATCA im Kundenstammvertrag machen?
+
+Im Rahmen des FATCA-Abkommens ist ein Finanzdienstleistungsunternehmen dazu verpflichtet, Daten von Kunden mit US-Indizien zu melden. Eine Angabe der relevanten Daten ist daher seitens unserer Kunden im Kundenstammvertrag notwendig.
+
+====================================================
+Was muss ich als Kunde tun?
+
+Geben Sie Ihre persönlichen Daten im Kundenstammvertrag an und füllen Sie die darin befindliche Selbstauskunft gemäß Foreign Account Tax Compliance Act (FATCA) aus. Die Weiterleitung dieser Daten nimmt die Bank für Sie vor.
+
+Wenn Sie zum jetzigen Zeitpunkt bereits US-steuerpflichtig sind und dies mitsamt Ihrer US-Steuernummer in der Selbstauskunft angegeben haben, müssen Sie nichts weiter unternehmen.
+
+Wenn Sie zum jetzigen Zeitpunkt nicht US-steuerpflichtig sind, wir jedoch zu einem späteren Zeitpunkt ein US-Indiz bei Ihnen feststellen, werden Sie von uns zu dem betreffenden Zeitpunkt einen Brief mit der Bitte erhalten, das Formular W9 auszufüllen und unterschrieben an uns zurückzusenden.
+
+Sollten die Annahmen hinsichtlich der US-Indizien nicht zutreffen, beachten Sie bitte den folgenden Punkt: Was kann ich tun, um meine US-Steuerpflicht zu widerlegen?
+
+Weitere Informationen zur US-Steuerpflicht finden Sie unter:
+
+    Informationen des U.S. Department of the Treasury zu FATCA
+
+    Informationen des Internal Revenue Service (IRS) zu FATCA
+
+====================================================
+Was kann ich tun, um meine US-Steuerpflicht zu widerlegen?
+
+Bitte reichen Sie uns hierzu die folgenden Unterlagen ein:
+
+    Nachweis dafür, dass eine US-Staatsbürgerschaft derzeit nicht besteht (Negativerklärung) (Kopie)
+
+    Pass (Kopie): Der Personalausweis oder Reisepass gilt als geeignetes Legitimations- und Identifikationspapier. Wenn Sie Staatsangehöriger eines Drittstaats sind, können Sie den nationalen Reisepass bzw. Personalausweis des Drittstaats vorlegen. Die Unterlagen müssen den gesetzlichen Anforderungen an Ausweispapiere entsprechen.
+
+    Selbstauskunft zur steuerlichen Ansässigkeit durch vollständiges Ausfüllen des W-8 BEN-Formulars (unterschriebenes Original)
+
+    Bescheinigung über den Verlust der US-Staatsangehörigkeit bzw. Erklärung dazu, dass Sie trotz Geburt in den USA die US-Staatsbürgerschaft nicht erhalten haben (Kopie)
+
+====================================================
+Was sind PIN und TAN?
+
+Die PIN (persönliche Identifikationsnummer) ist eine Geheimnummer, mit der Sie sich im Online-Banking anmelden und somit Zugriff auf Ihr Konto haben. TAN bedeutet Transaktionsnummer. Für jeden TAN-pflichtigen Vorgang wie z.B. Überweisungen oder legitimierte Mitteilungen muss eine TAN zur Bestätigung eingegeben werden.
+
+====================================================
+ Welche TAN-Verfahren bietet NIBC Direct an?
+
+NIBC Direct bietet Ihnen drei verschiedene TAN-Verfahren an, mit denen Sie Ihre TAN-pflichtigen Vorgänge wie z.B. Überweisungen oder den Versand legitimierter Mitteilungen im Online-Banking tätigen können. Zur Auswahl stehen:
+
+- SecureGo-Verfahren, bei dem die TAN über die SecureGo-App erzeugt wird
+
+- mobileTAN-Verfahren (mTAN), bei dem eine Transaktionsnummer je TAN-pflichtigem Vorgang per SMS kostenlos auf Ihr mobiles Endgerät (Mobiltelefon) versendet wird
+
+- smartTAN plus-Verfahren, bei dem eine Transaktionsnummer mit Hilfe einer kostenpflichtigen Bankkundenkarte (NIBCard) und einem kostenpflichtigen TAN-Lesegerät (multibankenfähiges Lesegerät in der Version 1.4 oder höher) erzeugt wird.
+
+====================================================
+ Wie sicher sind die TAN-Verfahren SecureGo, mobileTAN und smartTAN plus?
+
+Die TAN-Verfahren SecureGo, mobileTAN und smartTAN plus gelten als die derzeit sichersten Verfahren zur Durchführung von Online-Banking.
+
+SecureGo-Verfahren
+
+Mit der TAN-App SecureGo empfangen Sie TAN (Transaktionsnummern) auf Ihrem Smartphone oder Tablet. Die TAN-Benachrichtigungen werden in der SecureGo-App angezeigt. Dazu benötigen Sie lediglich ein Smartphone oder Tablet, auf dem die TAN-App SecureGo installiert ist sowie eine Registrierung in der App und im Online-Banking bei NIBC Direct erfolgt ist.
+
+mobileTAN-Verfahren
+
+Beim mobileTAN-Verfahren (mTAN) ist die Gültigkeitsdauer der TAN auf maximal 15 Minuten und ausschließlich auf einen TAN-pflichtigen Vorgang begrenzt, und enthält alle wesentlichen Daten einer Transaktion, z.B. den zu überweisenden Betrag und die Empfänger-Kontonummer. Auf diese Weise soll eine Umleitung auf ein anderes Konto durch einen sog. Man-in-the-middle-Angriff auf die Homebanking-Internetseiten verhindert werden. Auch werden Phishing-Angriffe auf TANs, also das unerlaubte Abgreifen von TANs durch Dritte, im mTAN-Verfahren erschwert.
+
+smartTAN plus-Verfahren
+
+Beim smartTAN plus-Verfahren wird mit Hilfe einer Bankkundenkarte (NIBCard) und einem TAN-Lesegerät eine TAN pro TAN-pflichtigem Vorgang erzeugt. Nachdem z.B. eine Überweisung im Online-Banking erfasst wurde, wird ein (Start-)Code am PC-Bildschirm angezeigt. Nun muss die persönliche Bankkundenkarte (NIBCard) in das TAN-Lesegerät eingesteckt und dieser (Start-)Code über das Ziffernfeld des TAN-Lesegeräts eingetippt werden. Danach werden die Empfänger-Kontonummer sowie der Betrag der Überweisung am TAN-Lesegerät eingetippt.Aus den am TAN-Lesegerät eingegebenen Daten errechnet das TAN-Lesegerät eine auftragsbezogene TAN, die im Online-Banking erneut manuell eingegeben werden muss. Das smartTAN plus-Verfahren schützt auf diese Weise ebenso vor Phishing- bzw. Man-in-the-middle-Angriffen, nachdem die Empfänger-Kontonummer und der Betrag genauso wie am TAN-Lesegerät erneut eingegeben werden muss. Bei Nutzung des optischen Verfahrens, erscheint am PC-Bildschirm ein Barcode, der über das TAN-Lesegerät erkannt und verarbeitet wird. Das Gerät errechnet für diesen einen Vorgang eine TAN, die ebenfalls alle wesentlichen Daten der Transaktion zur Kontrolle enthält.
+
+====================================================
+ Wie hoch sind die Kosten beim SecureGo, mobileTAN- und beim smartTAN plus-Verfahren?
+
+SecureGo-Verfahren
+
+Das SecureGo-TAN-Verfahren (Nutzung und Empfang einer TAN per SecureGo-App) für die NIBC Direct Anlagekonten (Tagesgeld, Festgeld, Kombigeld, Jugend-Festgeld und Brokerage) ist für Sie als Kunden kostenfrei.
+
+mobileTAN-Verfahren
+
+Das mobileTAN-Verfahren (Nutzung und Empfang einer TAN per SMS) für die NIBC Direct Anlagekonten (Tagesgeld, Festgeld, Kombigeld, Jugend-Festgeld und Brokerage) ist für Sie als Kunden kostenfrei.
+
+smartTAN plus-Verfahren
+
+Für die Nutzung des smartTAN plus-Verfahrens wird eine Bankkundenkarte (NIBCard) sowie ein TAN-Lesegerät benötigt. Für die NIBCard fallen für Sie als Kunden EUR 11 inkl. Porto und Versand an. Sollten Sie bereits über ein multibankenfähiges TAN-Lesegerät in der Version 1.4 oder höher verfügen, können Sie dieses TAN-Lesegerät auch in Verbindung mit Ihrer NIBCard verwenden. Für die NIBCard fallen für Sie als Kunden bei der Erstbestellung (und Folgekarte jeweils nach Ablauf der Kartengültigkeit) EUR 11 inkl. Porto und Versand an.
+
+====================================================
+Kann ich die NIBCard auch für den Zahlungsverkehr (EC, Maestro, Giropay) oder zur Abhebung von Bargeld an Geldautomaten nutzen?
+
+Nein, die NIBCard kann ausschließlich in Kombination mit einem TAN-Lesegerät zur Erzeugung von TANs für die Durchführung von TAN-pflichtigen Vorgängen im Online-Banking genutzt werden.
+
+====================================================
+ Was muss ich tun, wenn die Daten der TAN in der SecureGo-App, der SMS oder im TAN-Lesegerät nicht mit der beabsichtigten Überweisung übereinstimmen?
+
+In diesem Fall geben Sie die TAN bitte nicht ein, sondern lassen sie verfallen. Falls Sie vermuten, dass ein Unbefugter Zugriff auf Ihr Onlinekonto hat, informieren Sie bitte NIBC Direct und ändern Sie die PIN nur von einem sicheren PC.
+
+====================================================
+Kann ich mit SecureGo, mobileTAN und smartTAN plus gleichzeitig arbeiten (z. B. wenn ich mal von zu Hause und mal von unterwegs arbeiten will)?
+
+Bitte beachten Sie, dass Sie das SecureGo-TAN-Verfahren und mobileTAN nicht gleichzeitig verwenden können. Wenn Sie sich beispielsweise für das SecureGo-Verfahren entscheiden, wird das bestehende mobileTAN-Verfahren abgeschaltet.
+
+Beide dieser TAN-Verfahren sind jedoch mit dem smartTAN plus-Verfahren kombinierbar.
+
+Voraussetzung ist, dass Sie für die relevanten Verfahren freigeschaltet sind.
+
+====================================================
+Wie kann ich meine für die mobileTAN-Nutzung hinterlegte Mobilfunknummer ändern?
+
+Gehen Sie im Online-Banking/Login-Bereich unter "Service" auf "TAN Verwaltung" und senden Sie uns eine legitimierte Mitteilung mit der Bitte um eine Änderung Ihrer Mobilfunknummer. Teilen Sie uns bitte auch gleich Ihre neu zu hinterlegende Mobilfunknummer mit. Sie erhalten mit der Post einen neuen Freischaltcode von uns, mit dem Sie im Online-Banking-Bereich die Freischaltung Ihrer neuen Mobilfunknummer vornehmen können.
+
+====================================================
+Ich habe bereits ein TAN-Lesegerät von einer anderen Bank. Kann ich es nutzen?
+
+Ja, Sie benötigen jedoch ein multibankenfähiges TAN-Lesegerät der jüngsten Generation in der Version 1.4 oder höher. Sie erkennen das am Aufdruck "1.4 oder höher" auf der Rückseite des TAN-Lesegeräts.
+
+====================================================
+Wir führen ein Gemeinschaftskonto. Muss jeder von uns sich für ein TAN-Verfahren entscheiden und wäre es auch möglich, dass mein Partner ein anderes TAN-Verfahren nutzt als ich?
+
+Jedes Mitglied einer sog. Personengemeinschaft muss sich für ein TAN-Verfahren entscheiden. Sie müssen allerdings nicht das gleiche TAN-Verfahren wie Ihr Partner nutzen und haben somit die freie Wahl zwischen dem SecureGo-Verfahren, mobileTAN-Verfahren und dem smartTAN plus-Verfahren.
+
+====================================================
+Ich habe mich für das smartTAN plus-Verfahren entschieden und eine NIBCard bestellt. Wann erhalte ich die NIBCard?
+
+Sie erhalten Ihre NIBCard separat per Post zugeschickt, nachdem Ihre Konto- bzw. Depoteröffnungsunterlagen vollständig bearbeitet wurden.
+
+====================================================
+Was ist bei einem Verlust oder Defekt der NIBCard zu beachten?
+
+Wir sperren Ihre NIBCard, sobald uns ein schriftlicher Auftrag, gerne auch per Fax, vorliegt. Die gesperrte NIBCard steht dann als TAN-Medium nicht mehr zur Verfügung. Ebenso bestellen wir für Sie eine Ersatz-NIBCard, sodass Sie mit der neuen Karte weiterhin am smartTAN plus-Verfahren teilnehmen können. Bitte beachten Sie, dass die Kosten für eine Ersatz-NIBCard zulasten des Kunden gehen, sofern das Verschulden des Verlusts oder der Zerstörung der NIBCard auf Seiten des Kunden liegt.
+
+====================================================
+Welche Gültigkeitsdauer hat die NIBCard?
+
+Die NIBCard ist ab Ausstellungsdatum mindestens 4 Jahre bis zum Jahresende gültig. Die genaue Gültigkeitsdauer ist auf der Karte vermerkt.
+
+====================================================
+Ich habe mich bereits für das mobileTAN-Verfahren im Online-Banking angemeldet und finde meinen Freischaltcode nicht mehr. Wie kann ich mich für das mobileTAN-Verfahren freischalten lassen?
+
+Lassen Sie uns in diesem Fall eine schriftliche Mitteilung zukommen und wir senden Ihnen den Freischaltcode in Kürze zu.
+
+====================================================
+Gibt es geographische Einschränkungen für die Nutzung der SecureGo-App?
+
+Nein, SecureGo kann weltweit genutzt werden. Es ist lediglich eine Internetverbindung erforderlich.
+
+====================================================
+Kann ich die SecureGo-App nur über das Mobilfunknetz nutzen?
+
+Für die Nutzung der SecureGo-App ist lediglich eine Internetverbindung erforderlich. Ob diese über das Mobilfunknetz oder über WLAN zustande kommt, ist dabei unerheblich.
+
+====================================================
+Mit welchen Betriebssystemen kann ich die TAN-App SecureGo nutzen?
+
+Sie können die SecureGo-App mit den Betriebssystemen iOS ab Version 7 oder Android ab Version 4.0 nutzen.
+
+====================================================
+ Warum steht die TAN nicht in der Push-Nachricht?
+
+Die TAN steht nicht in der Push-Nachricht, da diese unverschlüsselt über die Server der Anbieter Apple oder Google übertragen wird. Zudem wird die Push-Nachricht je nach Einstellung Ihres Gerätes direkt in der Vorschau angezeigt. Die TAN wird aus diesen Gründen ausschließlich in der speziell gesicherten SecureGo-App angezeigt. Dabei erfolgt die Übertragung der TAN verschlüsselt.
+
+====================================================
+ Kann ich die SecureGo-App auch mit einem Mobilfunkvertrag mit einem ausländischen Provider nutzen?
+
+Ja, das ist möglich. Zum Abruf der TAN ist nur eine bestehende Internetverbindung notwendig. Diese kann über das Mobilfunknetz oder über WLAN zustande kommen.
+
+====================================================
+ Was kann ich tun, wenn ich das Anmeldekennwort für die SecureGo-App vergessen habe?
+
+Wenn Sie das Anmeldekennwort für die SecureGo-App vergessen haben, müssen Sie diese App zuerst löschen, dann neu installieren und anschließend registrieren.
+
+====================================================
+Meine Banking App meldet sich automatisch ab, sobald ich in die SecureGo-App wechsel. Was kann ich machen?
+
+Hierzu müssen Sie in den Einstellung der Banking App die Sperrzeit einstellen. Setzen Sie diese auf die maximale Zeit von 3 Minuten.
+
+====================================================
+ Wieso steht mTAN nicht mehr zur Verfügung?
+
+Aus Sicherheitsgründen können das mTAN- und das SecureGo-Verfahren nicht gleichzeitig verwendet werden. Sobald Sie das SecureGo-Verfahren freigeschaltet haben, wird das mTAN-Verfahren automatisch abgeschaltet.
+
+====================================================
+Ist das Online-Banking bei NIBC Direct sicher? Mit welchen Standards arbeiten Sie?
+
+NIBC Direct setzt eine 128-Bit-SSL-Verschlüsselung ein, die höchste Sicherheit bietet. SSL bedeutet, dass zwischen dem Internetserver und dem eigenen Computer vor der Übertragung der Daten ein Verschlüsselungsalgorithmus sowie ein Sitzungsschlüssel ausgetauscht werden. Anschließend werden die Daten selbst übertragen. Diese werden nach dem zuvor ermittelten Verfahren verschlüsselt und sind daher vor fremdem Zugriff geschützt. Ein "https://" vor der Webadresse und das geschlossene Vorhängeschloss am unteren Bildschirmrand des Browsers zeigen Ihnen an, dass es sich um eine gesicherte Übertragung der Daten handelt.
+
+====================================================
+Was muss ich beachten, wenn ich an einem öffentlichen Computer Online-Banking betreibe?
+
+Achten Sie bitte bei der Erledigung Ihrer Bankgeschäfte auf einem öffentlichen Rechner darauf, dass dessen Virenschutz aktuell ist und die verwendete Software aus einer vertrauenswürdigen Quelle stammt. Vergewissern Sie sich, dass Ihnen bei der Eingabe der Geheimnummern niemand zusieht. Melden Sie sich unbedingt über den Button "Beenden" von der Online-Banking-Anwendung ab, um die Verbindung zum Banking-Server zu trennen.
+
+====================================================
+Wer ist NIBC Direct bzw. die NIBC Bank?
+
+Die NIBC Bank N.V. ist eine niederländische Bank. NIBC Direct ist die Marke, unter der die NIBC Bank N.V. in den Niederlanden, in Belgien und in Deutschland das Online-Banking-Geschäft betreibt. Hintergrund: NIBC war - 1945 gegründet - bis 1999 eine teilweise staatliche Organisation, ähnlich der KfW (Kreditanstalt für Wiederaufbau) in Deutschland. Heute ist NIBC eine in Nordwesteuropa führende Bank mit weltweitem Vertriebsnetzwerk, die ihren meist mittelständischen Kunden integrierte Finanzierungslösungen anbietet. Weitere Informationen zur NIBC Bank N.V. erhalten Sie unter: www.nibc.com
+
+====================================================
+Seit wann gibt es NIBC?
+
+Die Bank wurde 1945 von der niederländischen Regierung gegründet. In Deutschland gibt es seit 2005 eine Zweigniederlassung in Frankfurt am Main.
+
+====================================================
+Wer steckt hinter der NIBC Bank N.V.?
+
+Die Muttergesellschaft der NIBC Bank ist die NIBC Holding N.V. Hinter der NIBC Holding N.V. steht ein Gesellschafterkonsortium. Der größte Einzelgesellschafter ist J. C. Flowers & Co. LLC.
+
+====================================================
+Kann ich als Deutscher eine Geldanlage bei NIBC Direct Niederlande oder Belgien abschließen?
+
+Ja, das ist möglich, wenn Sie einen Wohnsitz und ein Referenzkonto in den Niederlanden bzw. in Belgien haben.
+
+====================================================
+Wann und wie kann ich über mein Geld verfügen?
+
+Über das Online-Banking können Sie bei Tagesgeldkonten jederzeit über Ihr Geld verfügen. Überweisen Sie einfach den gewünschten Betrag auf Ihr Standardreferenzkonto. Bitte beachten Sie aber, dass zu Ihrer Sicherheit Auszahlungen von Ihrem Tagesgeldkonto durch Überweisung auf das von Ihnen angegebene Referenzkonto im Online-Banking nur bis zu einem Höchstbetrag von € 100.000 pro Tag möglich sind. Bei Festgeldanlagen müssen Sie bis zum Ende der Festschreibung warten. Wenn das Festgeld fällig ist, wird der Anlagebetrag - je nach Produktausgestaltung (automatische Wiederanlage/Prolongation oder nicht) - auf Ihr Tagesgeldkonto umgebucht und Sie können darüber verfügen. Bitte beachten Sie, dass Sie bei automatischer Wiederanlage spätestens 3 Werktage vor Fälligkeit ankündigen müssen, dass Sie zukünftig nicht mehr automatisch wieder anlegen, sondern über den Anlagebetrag nebst kapitalisierten Zinsen verfügen möchten.
+
+====================================================
+Was kann ich mit meinem Tagesgeldkonto machen (Gehaltseingänge, Zahlungsverkehr etc.)?
+
+Das Tagesgeldkonto ist kein Zahlungsverkehrskonto, für das Sie bspw. eine EC-Karte erhalten oder von dem Sie Rechnungen begleichen können. Es dient ausschließlich zur Anlage des von Ihnen definierten Betrags. Lastschriften zugunsten oder zulasten Dritter sind nicht möglich. Tagesgeld- und Festgeldkonten bei NIBC Direct sind ausschließlich der privaten Nutzung vorbehalten.
+
+====================================================
+Kann ich mehrere Tagesgeldkonten unterhalten?
+
+Wenn Sie bereits ein bestehendes Konto der NIBC Direct haben, können Sie einfach im Login-Bereich ein weiteres Produkt Ihrer Wahl aussuchen und abschließen.
+
+====================================================
+Kann ich Vollmachten für mein Konto vergeben?
+
+Sie können nur für den Todesfall Vollmachten für Ihr Konto vergeben.
+
+====================================================
+Was kostet das Banking bei NIBC Direct?
+
+Die Führung von Tages- und Termingeldkonten sowie die Depotführung ist kostenfrei.
+
+====================================================
+Wann werden die Zinsen gutgeschrieben?
+
+Bei Tagesgeld werden die Zinsen am Jahresende bzw. bei Kontolöschung gutgeschrieben. Bei Festgeld mit Laufzeiten von unter 1 Jahr werden die Zinsen bei Fälligkeit gutgeschrieben. Bei Laufzeiten von 1 Jahr und mehr erfolgt die Zinsgutschrift zum Jahresultimo.
+
+====================================================
+Wie funktioniert das Online-Banking bei NIBC Direct?
+
+Das Online-Banking können Sie nur nutzen, wenn Sie bereits Kunde von NIBC Direct sind. Bitte klicken Sie auf der Website
+
+www.nibcdirect.de auf den roten Button Kunden-Login rechts oben auf der Website. Aus Sicherheitsgründen öffnet sich ein neues Fenster. Hier werden Sie aufgefordert, Ihren NIBCode sowie Ihre PIN einzugeben, um sich im Online-Banking-Bereich einzuloggen. Bei der ersten Anmeldung muss die Ihnen zugesendete PIN aus Sicherheitsgründen geändert werden. Dazu benötigen Sie eine TAN, die Sie entweder über das mobileTAN- oder über das smartTAN plus-Verfahren erzeugen. Ab diesem Moment können Sie alle Funktionalitäten des Online-Banking nutzen.
+
+====================================================
+Was brauche ich alles fürs Online-Banking bei NIBC Direct?
+
+Für das Online-Banking bei NIBC Direct benötigen Sie den NIBCode (Benutzername), eine PIN sowie TANs. Bei den TANs können Sie entweder das mobileTAN- oder das smartTAN plus-Verfahren nutzen. Diese Zugangsdaten werden Ihnen unmittelbar nach erfolgter Kontoeröffnung und Mitteilung der Kontonummer aus Sicherheitsgründen mit separater Post übersendet.
+
+====================================================
+Was ist der NIBCode?
+
+Der NIBCode ist Ihre Benutzerkennung. Nach Kontoeröffnung haben wir Ihnen diesen per Brief mitgeteilt. Im Online-Banking-Bereich melden Sie sich mit Ihrem NIBCode und Ihrer PIN an. Nach der Kontoeröffnung durch die Bank erhalten Sie den NIBCode per Post.
+
+====================================================
+Was muss ich tun, wenn ich meinen NIBCode vergessen oder verlegt habe?
+
+Wenn Sie Ihren NIBCode vergessen oder verlegt haben, melden Sie sich einfach telefonisch in unserem Servicecenter. Die Kollegen dort veranlassen dann, dass ein neuer NIBCode erstellt und Ihnen per Post zugesandt wird.
+
+====================================================
+Was muss ich tun, wenn meine PIN gesperrt ist oder ich meine PIN vergessen habe?
+
+Sie können sich telefonisch bei unserem Servicecenter melden und dort eine neue PIN anfordern.
+
+====================================================
+Wie kann ich meine persönlichen Daten verwalten?
+
+Über das Online-Banking-Portal können Sie für den von uns mitgeteilten NIBCode einen Alias-Namen vergeben oder die PIN ändern. Eine Änderung der persönlichen Daten ist entweder schriftlich oder im Online-Banking über "Service" in den persönlichen Daten oder per legitimierter Mitteilung ("Mitteilung an die Bank") möglich. Bei Änderungen über diesen Weg ist die Bestätigung durch Eingabe einer TAN erforderlich.
+
+====================================================
+Was bedeutet "Mitteilung an die Bank"?
+
+Im Online-Banking können Sie im Bereich "Postfach" eine Mitteilung an die Bank schicken. Zudem können Sie für Rückfragen angeben, dass Sie eine Antwort in Ihr elektronisches Postfach wünschen. Die bidirektionale Kommunikation ermöglicht einen Nachrichtenaustausch zwischen Bank und Kunde über das Online-Banking. Hierdurch können Sie die schriftliche Korrespondenz, welche Sie bislang z.B. per E-Mail mit uns führten, über den sicheren Kanal des elektronischen Postfachs führen. Auf diesem Wege können wir Ihnen über den gesicherten Weg des Online-Bankings auf Ihre Anfrage antworten und Sie erhalten die Antwort als Dokument in Ihr elektronisches Postfach.
+
+Zudem können Sie uns über diesen Weg Dateianhänge im PDF-Format bis zu 4MB pro Nachricht zukommen lassen.
+
+====================================================
+ Was ist die IBAN?
+
+IBAN steht für International Bank Account Number. Es handelt sich um eine international standardisierte Kontonummer, bestehend aus dem ISO-Ländercode (2-stellig), einer Prüfziffer (2-stellig), dem nationalen Bankcode (in Deutschland die Bankleitzahl) und der Kontonummer. Die Länge der IBAN ist je nach Land unterschiedlich (maximal 34 alphanumerische Zeichen), aber innerhalb eines Landes einheitlich.
+
+====================================================
+Was ist der BIC?
+
+BIC steht für Bank ldentifier Code, auch SWIFT-Code genannt: eine weltweit eindeutige Bezeichnung für ein Kreditinstitut.
+
+====================================================
+Wie lautet der BIC von NIBC Direct?
+
+Der BIC der NIBC Bank N.V. lautet NZFMDEF1XXX.
+
+====================================================
+Wie lautet die Bankleitzahl von NIBC Direct?
+
+Die Bankleitzahl von NIBC Direct lautet 512 107 00.
+
+====================================================
+Was ist HBCI?
+
+HBCI steht für Home Banking Computer Interface. Es ermöglicht Ihnen, mit Hilfe eines Online-Banking-Software-Programms gleichzeitig auf Ihre Konten bei verschiedenen Banken zuzugreifen.
+
+====================================================
+ Kann ich mit einer Online-Banking-Software und HBCI auf mein NIBC Direct Konto zugreifen?
+
+Sie können mit einigen Online-Banking-Software-Programmen und HBCI auf Ihr Mehr.Zins.Konto oder Jugend.Zins.Konto zugreifen. Weiterhin können Sie Umsätze und Salden der Mehr.Geld.Konten sowie Mehr.Kapital.Konten und Jugend.Kapital.Konten abrufen.
+
+Folgende Online-Banking-Software-Programme, die von NIBC Direct getestet wurden, unterstützen derzeit den Zugriff auf Ihr NIBC Direct Konto:
+
+- Windata
+
+- WISO
+
+- Mein Geld
+
+- S-Firm
+
+- VR Networld
+
+- StarMoney (ab Version 7.0)
+
+- Quicken
+
+- Moneyplex
+
+- ALF-BanCo 3.0 und höher
+
+- Hibiscus
+
+- Subsembly Banking 3.0 und höher
+
+- iOutBank
+
+- Saldomat
+
+- T-Online-Homebanking-Software
+
+- HomeBanking 2010 (Akademische
+
+Arbeitsgemeinschaft Verlag)
+
+- Gnucash
+
+- S-Banking
+
+- Bank X
+
+====================================================
+Was kostet das HBCI-Banking bei NIBC Direct?
+
+Die HBCI-Nutzung ist kostenfrei.
+
+====================================================
+Wie erhalte ich Eintrittskarten zu einer Hauptversammlung einer Aktiengesellschaft, bei der ich Aktionär bin?
+
+Zu Hauptversammlungen von Aktiengesellschaften, deren Aktien Sie halten, werden Ihnen die Anforderungsunterlagen für den Erhalt von Eintrittskarten und auch von Stimmbelegen für die Hauptversammlung von uns zugesandt. Alternativ können Sie die Anforderungsunterlagen auch einfach über den Serviceauftrag "Hauptversammlung" im Online-Banking-Bereich anfordern.
+
+====================================================
+Werden Dividenden automatisch auf mein Referenzkonto überwiesen?
+
+Nein, wir überweisen Ihre Dividenden automatisch auf Ihr verzinstes NIBC Direct Verrechnungskonto. Der Zinssatz des Verrechnungskontos entspricht dem des Tagesgeldkontos (Mehr.Zins.Konto).
+
+====================================================
+Wofür stehen die Buchstaben NIBC?
+
+Die Bank wurde als Nationale Investeringsbank gegründet und ist nach dem Erwerb durch zwei große Pensionsfonds Ende der 90er Jahre in NIB Capital umfirmiert worden. Nach einem weiteren Gesellschafterwechsel im Jahre 2005 wurde aus NIB Capital NIBC.
+
+====================================================
+ Was kostet das Online-Banking bei NIBC Direct?
+
+Die Führung von Tages- und Festgeldkonten sowie die Depotführung sind kostenfrei
+
+====================================================
+Warum bietet NIBC Direct in den Niederlanden und in Belgien z.T. andere Zinssätze als in Deutschland an?
+
+Die Höhe der Zinsen orientiert sich an verschiedenen Referenzzinssätzen.
+
+In den Niederlanden und in Belgien herrscht unter anderem eine andere Markt- und Wettbewerbssituation als in Deutschland. Je nach aktueller Marktlage kann der niederländische oder der belgische Zinssatz also über oder unter dem von NIBC Direct in Deutschland liegen.
+
+====================================================
+ Wie hoch ist das Überweisungslimit des Tagesgeldkontos?
+
+Zu Ihrer Sicherheit haben wir Auszahlungen von Ihrem Tagesgeldkonto durch Überweisung auf das von Ihnen angegebene Referenzkonto im Online-Banking auf einen Höchstbetrag von € 100.000 pro Tag festgelegt.
+
+Selbstverständlich haben Sie jederzeit die Möglichkeit, dieses Limit per legitimierter Mitteilung im Online-Banking anzupassen. Die Anpassung wird innerhalb eines Bankarbeitstages umgesetzt.
+
+====================================================
+Wie hoch ist die Einlagensicherung?
+
+Die NIBC Bank N.V. unterliegt den niederländischen Regelungen zur Einlagensicherung.
+
+Jeder Sparer hat Anspruch auf Entschädigung bis zu einer maximalen Höhe von insgesamt € 100.000. Dieses Maximum gilt für alle Konten jedes individuellen Sparers bei einer Bank insgesamt, nicht jedoch für jedes einzelne Konto.
+
+Das bedeutet: Wer mehr als ein Konto bei einer Bank oder einer ihrer Filialen hat, hat nur Anspruch auf eine Entschädigung von insgesamt maximal € 100.000 bei dieser Bank. Einzige Besonderheit: Im Falle von gemeinsamen, sogenannten Oderkonten hat jeder der gemeinsamen Kontoinhaber für sich Anspruch auf den Maximalbetrag von insgesamt € 100.000 bei dieser Bank.
+
+====================================================
+Was ist ein Aktiensplit?
+
+Im Fall eines Aktiensplits (Teilung der Aktien) werden die Aktien einer AG in kleinere Einheiten aufgeteilt (z.B. 2 neue Aktien für 1 alte). Dadurch steigt die Zahl der Aktien und reduziert sich im Gegenzug der Nennwert bzw. der Eigenkapitalanteil pro Aktie. In der Folge sinkt der Kurs pro Aktie. Der Depotwert bleibt durch den Split selbst unverändert. Eine höhere Anzahl an Aktien kann die Handelbarkeit und somit die Nachfrage fördern.
+
+====================================================
+ Was passiert mit meinen Wertpapieren bei einem Aktiensplit?
+
+Im Falle eines Aktiensplits werden die Aktien eines Werts in einem bestimmten Verhältnis gesplittet, also geteilt: Die Anzahl der Aktien nimmt in diesem Verhältnis zu und der Wert des Papiers im selben Verhältnis ab. Diese Änderungen werden automatisch in Ihrem Depot vorgenommen; es besteht also Ihrerseits kein Handlungsbedarf.
+
+Ein einfaches Beispiel: Der Aktienkurs vor dem Split notiert bei € 100 pro Aktie, die Anzahl der Aktien im Beispieldepot beträgt 10 Stück, das Splitverhältnis wird auf 1 : 4 festgelegt. Hieraus ergibt sich ein neuer Aktienkurs von 100/4 (Anwendung des Splitverhältnisses) = € 25 pro Aktie und eine Anzahl von 10 x 4 = 40 Stück. Der Gesamtwert Ihrer Position bleibt somit unverändert.
+
+====================================================
+Was kostet eine Order in Bezugsrechten?
+
+Eine Order in Bezugsrechten kostet Sie lediglich die Standardordergebühren, ggf. zuzüglich fremder Spesen. Zusätzliche Gebühren fallen bei NIBC Direct nicht an.
+
+====================================================
+Wie kann ich ein Jugendfestgeldkonto (Jugend.Kapital.Konto) eröffnen?
+
+Gehen Sie auf der Internetseite zum Festgeldangebot unter
+
+https://www.nibcdirect.de/produkte/sparen-anlegen/jugend-festgeld.aspx und klicken Sie dort auf "Jugendfestgeldkonto eröffnen". Anschließend gelangen Sie in den Kontoantragsprozess, geben dort alle abgefragten Daten an und folgen den weiteren Schritten. Bitte beachten Sie, dass für die Eröffnung eines Jugendfestgeldkontos (Jugend.Kapital.Konto) in jedem Fall auch ein kostenloses Tagesgeldkonto (Jugend.Zins.Konto) als Verrechnungskonto für den minderjährigen Kontoinhaber eröffnet wird.
+
+====================================================
+ Wie läuft die Eröffnung eines Jugendfestgeldkontos (Jugend.Kapital.Konto) genau ab?
+
+Als Interessent füllen Sie den Kontoeröffnungsantrag auf der Website unter Jugendfestgeldkonto mit allen erforderlichen Daten des Minderjährigen und der gesetzlichen Vertreter aus. Danach senden Sie die Daten per Klick auf den Button "Antrag absenden" an NIBC Direct und drucken den Kontoeröffnungsantrag mitsamt den Vertragsanlagen aus. Nur Elternteile, die Neukunden von NIBC Direct sind, und Minderjährige zwischen 17 und 18 Jahren müssen sich zusätzlich per PostIdent Verfahren der Deutschen Post legitimieren (www.nibcdirect.de/postident)
+
+Den von allen gesetzlichen Vertretern unterschriebenen Kontoeröffnungsantrag, ggf. mit erfolgtem PostIdent (nur bei Neukunden und Minderjährigen zwischen 17 und 18 Jahren), Ihren Ausweispapieren, einer Kopie der Geburtsurkunde des Minderjährigen und weiteren Nachweisen, falls Sie allein erziehungsberechtigt sind, senden Sie dann an NIBC Direct.
+
+Wenn alle gesetzlichen Vertreter bereits Kunden von NIBC Direct sind und der Minderjährige unter 17 Jahre alt ist, senden Sie uns bitte die Antragsunterlagen mit einer Kopie der Geburtsurkunde und weiteren Nachweisen, falls Sie allein erziehungsberechtigt sind, jedoch ohne Legitimierung mittels PostIdent zu.
+
+Wenige Tage danach erhalten Sie per Post den Willkommensbrief von NIBC Direct.
+
+Ihre Benutzerkennung (NIBCode), PIN und TAN (bei mobileTAN und SecureGO der Freischaltcode und bei smartTAN plus die NIBCard) werden jeweils mit getrennter Post verschickt. Beide gesetzlichen Vertreter erhalten jeweils einen eigenen NIBCode, eine PIN und TAN (bei mobileTAN und SecureGo der Freischaltcode und bei smartTAN plus die NIBCard). Nach Erhalt der PIN können Sie mit dieser und dem NIBCode alle Funktionen des Online-Banking-Portals unter www.nibcdirect.de nutzen. Bitte beachten Sie, dass mit der Erstanmeldung im Online-Banking-Bereich eine Änderung Ihrer PIN erforderlich ist. Weitere Informationen zur Erst-PIN-Änderung finden Sie in unseren FAQs unter "Wieso benötige ich beim ersten Anmelden im Online-Banking-Bereich schon eine TAN?".
+
+Den Anlagebetrag von mindestens € 1.000 können Sie von Ihrem Girokonto auf das Jugendtagesgeldkonto (Jugend.Zins.Konto) überweisen. Die Kontonummer können Sie im Online-Banking-Portal einsehen. Sobald der Anlagebetrag bei uns eingegangen ist, eröffnet NIBC Direct das Jugendfestgeldkonto (Jugend.Kapital.Konto).
+
+Der Minderjährige erhält keine eigenen Zugangsdaten für das Jugendtages- und Festgeldkonto (Jugend.Zins.Konto und Jugend.Kapital.Konto), da bis zur Volljährigkeit des Minderjährigen ausschließlich die gesetzlichen Vertreter über die Konten verfügen dürfen. Bei bestehenden NIBC Direct Kunden werden die Konten des Minderjährigen der Benutzerkennung der gesetzlichen Vertreter zugeordnet.
+
+====================================================
+Ich bin allein sorgeberechtigt. Was muss ich bei der Eröffnung eines Jugendfestgeldkontos (Jugend.Kapital.Konto) beachten?
+
+Nachdem Sie den Kontoeröffnungsantrag online ausgefüllt, sich über das PostIdent Verfahren der Deutschen Post legitimiert (www.nibcdirect.de/postident) und die Antragsunterlagen unterschrieben haben, legen Sie bitte Ihren Ausweispapieren eine Kopie der Geburtsurkunde des Minderjährigen mit einem der folgenden Nachweise vor:
+
+a) schriftliche Versicherung - sofern Sie als Mutter des Minderjährigen allein sorgeberechtigt sind und den Vater, der auf der Geburtsurkunde ausgewiesen ist, nie geheiratet haben.
+
+b) Kopie des Gerichtsurteils - sofern Sie geschieden sind und das Gericht Ihnen das alleinige Sorgerecht zuerkannt hat.
+
+c) Sterbeurkunde - sofern der andere Elternteil verstorben ist.
+
+====================================================
+ Kann ich gleichzeitig ein Festgeldkonto für den Minderjährigen und für mich eröffnen?
+
+Nein, da die Kontoeröffnungsprozesse für Erwachsene und für Minderjährige getrennt ablaufen, ist keine gemeinsame Kontoeröffnung möglich. Bitte eröffnen Sie in diesem Fall erst ein Festgeldkonto für sich selbst unter
+
+Festgeldkonto
+
+und anschließend ein Jugendfestgeldkonto (Jugend.Kapital.Konto) für den Minderjährigen unter
+
+Jugendfestgeldkonto
+
+====================================================
+Ich möchte ein Jugendfestgeldkonto (Jugend.Kapital.Konto) für mein minderjähriges Enkelkind eröffnen. Ist das möglich?
+
+Nein, das ist leider nicht möglich, sofern Sie nicht der gesetzliche Vertreter für Ihr Enkelkind sind. Das Jugendfestgeldkonto (Jugend.Kapital.Konto) kann nur durch die oder den gesetzlichen Vertreter, i.d.R. die Eltern, eröffnet werden.
+
+====================================================
+Kann ich ein Jugendtagesgeldkonto (Jugend.Zins.Konto) ohne ein Jugendfestgeldkonto (Jugend.Kapital.Konto) für den Minderjährigen eröffnen?
+
+Nein, das ist leider nicht möglich. Ein Jugendtagesgeldkonto (Jugend.Zins.Konto) wird als Verrechnungskonto nur in Kombination mit einem Jugendfestgeldkonto (Jugend.Kapital.Konto) eröffnet. Nachdem die erste Festgeldanlage auf dem Jugendfestgeldkonto erfolgt ist, können Sie das Jugendtagesgeldkonto für Sparbeträge ab € 1 zu den jeweils aktuell gültigen Tagesgeldzinskonditionen nutzen.
+
+====================================================
+Welche Referenzkontonummer soll ich im Kontoeröffnungsantrag für das Jugendfestgeldkonto (Jugend.Kapital.Konto) angeben? Die der gesetzlichen Vertreter oder die des Minderjährigen?
+
+Sie haben die Wahl: Entweder geben Sie Ihr Referenzkonto an oder das des Minderjährigen. Beide Varianten sind möglich.
+
+====================================================
+Wir haben gerade erst ein Jugendfestgeldkonto (Jugend.Kapital.Konto) eröffnet, möchten dies aber widerrufen und nur das Jugendtagesgeldkonto (Jugend.Zins.Konto) nutzen. Ist das möglich?
+
+Dies ist leider nicht möglich. Ein Widerruf der Kontoeröffnung betrifft sowohl das Jugendfestgeldkonto (Jugend.Kapital.Konto) als auch das Jugendtagesgeldkonto (Jugend.Zins.Konto).
+
+====================================================
+Ist die Eröffnung eines Jugendfestgeldkontos (Jugend.Kapital.Konto) möglich, wenn aktuell das Vormundschaftsgericht die gesetzliche Vertretung innehat?
+
+Dies ist leider nicht möglich.
+
+====================================================
+Ist die Eröffnung eines Jugendfestgeldkontos (Jugend.Kapital.Konto) möglich, wenn aktuell ein vom Gericht ernannter Betreuer die gesetzliche Vertretung innehat?
+
+Ja, das ist möglich. Der vom Gericht ernannte Betreuer wird wie ein Elternteil behandelt.
+
+====================================================
+Was passiert, wenn der Minderjährige unter Betreuung gestellt wird?
+
+In diesem Fall erlöschen alle Verfügungsrechte der bisherigen gesetzlichen Vertreter. Stattdessen wird der Betreuer als gesetzlicher Vertreter geführt und in unseren Unterlagen vermerkt.
+
+====================================================
+Ich habe als gesetzlicher Vertreter eine andere Wohnanschrift als der Minderjährige. Kann ich trotzdem ein Jugendfestgeldkonto (Jugend.Kapital.Konto) eröffnen?
+
+Ja, das ist problemlos möglich. Sie können bei der Kontoeröffnung verschiedene Adressen für den Minderjährigen und die gesetzlichen Vertreter angeben. Die Kommunikation in Bezug auf das Jugendfestgeldkonto (Jugend.Kapital.Konto) erfolgt bis zur Volljährigkeit ausschließlich über die Kontaktdaten der gesetzlichen Vertreter.
+
+====================================================
+ Welche Konten kann ich nach Eröffnung und Anlage eines Jugendfestgeldkontos (Jugend.Kapital.Konto) noch eröffnen?
+
+Wenn Sie als Neu- oder Bestandskunde erstmals ein Jugendfestgeldkonto (Jugend.Kapital.Konto) für den Minderjährigen eröffnet haben, können Sie im Online-Banking-Bereich weitere Jugendfestgeldkonten im Namen des Minderjährigen anlegen. Bitte achten Sie bei der Kontoanlage im Online-Banking-Bereich darauf, dass Sie das Konto im Namen des Minderjährigen als des wirtschaftlich Berechtigten anlegen und nicht auf Ihren eigenen Namen, falls Sie auch Kunde bei NIBC Direct sind.
+
+Eine Schritt-für-Schritt-Anleitung zur Eröffnung eines Jugendfestgeldkontos im Online-Banking-Bereich finden Sie hier:
+
+====================================================
+Wer muss den Kundenstammvertrag für das Jugendfestgeldkonto (Jugend.Kapital.Konto) unterschreiben?
+
+Der Kundenstammvertrag für das Jugendfestgeldkonto (Jugend.Kapital.Konto) muss von allen gesetzlichen Vertretern unterschrieben werden. Die Unterschrift des Minderjährigen ist nicht erforderlich. Wurde er nicht von allen gesetzlichen Vertretern oder vom Minderjährigen unterschrieben, ist der Kundenstammvertrag ungültig und es kann kein Jugendfestgeldkonto eröffnet werden.
+
+====================================================
+Wer muss den Freistellungsauftrag für das Jugendfestgeldkonto (Jugend.Kapital.Konto) unterschreiben?
+
+Der Freistellungsauftrag für das Jugendfestgeldkonto (Jugend.Kapital.Konto) muss von allen gesetzlichen Vertretern unterschrieben werden. Die Unterschrift des Minderjährigen ist nicht erforderlich. Wurde er nicht von allen gesetzlichen Vertretern oder vom Minderjährigen unterschrieben, ist der Freistellungsauftrag ungültig.
+
+====================================================
+Was ist ein Jugendfestgeldkonto (Jugend.Kapital.Konto) und welchen Unterschied gibt es zum Festgeldkonto für Erwachsene?
+
+Das Jugendfestgeldkonto (Jugend.Kapital.Konto) ist ein Festgeldkonto für alle Personen unter 18 Jahren. Grundsätzlich gelten die gleichen Zinssätze wie beim Festgeldkonto für Erwachsene, jedoch sind beim Jugendfestgeldkonto nur Laufzeiten ab 2 Jahren möglich. Wie beim Festgeldkonto für Erwachsene wird beim Jugendfestgeldkonto auch ein entsprechendes kostenloses Tagesgeldkonto (Jugend.Zins.Konto) als Verrechnungskonto eröffnet. Die Eröffnung eines reinen Jugendtagesgeldkontos ist nicht möglich.
+
+Das Jugendfestgeldkonto (Jugend.Kapital.Konto) wird als Einzelkonto im Namen des Minderjährigen angelegt und von beiden gesetzlichen Vertretern des minderjährigen Kontoinhabers verwaltet und geführt. Es handelt sich um ein sogenanntes Oderkonto, d.h., beide gesetzlichen Vertreter sind bevollmächtigt, den minderjährigen Kontoinhaber im Geschäftsverkehr mit NIBC Direct jeweils allein zu vertreten. Diese Vollmacht kann jederzeit von einem der gesetzlichen Vertreter schriftlich widerrufen werden. Aufträge können danach bis zur nächsten Fälligkeit nur gemeinsam und nur in schriftlicher Form erteilt werden.
+
+====================================================
+Wem gehört das Jugendfestgeldkonto (Jugend.Kapital.Konto)? Und wer darf darauf zugreifen?
+
+Das Jugendfestgeldkonto (Jugend.Kapital.Konto) wird als Einzelkonto im Namen des Minderjährigen angelegt und von beiden gesetzlichen Vertretern des minderjährigen Kontoinhabers verwaltet und geführt. Es handelt sich um ein sogenanntes Oderkonto, d.h., beide gesetzlichen Vertreter sind bevollmächtigt, den minderjährigen Kontoinhaber im Geschäftsverkehr mit NIBC Direct jeweils allein zu vertreten. Bis zur Volljährigkeit des Minderjährigen können also ausschließlich die gesetzlichen Vertreter über das Jugendfestgeldkonto verfügen.
+
+====================================================
+Ist es im Ausnahmefall möglich, dass der Minderjährige über das Jugendfestgeldkonto (Jugend.Kapital.Konto) verfügen kann?
+
+Nein, Minderjährige dürfen nie über das Jugendfestgeldkonto (Jugend.Kapital.Konto) verfügen. Es dürfen ausschließlich die gesetzlichen Vertreter über das Jugendfestgeldkonto verfügen.
+
+====================================================
+Kann der Minderjährige der Vertretungs- und Verfügungsberechtigung durch die gesetzlichen Vertreter widersprechen?
+
+Nein, das ist nicht möglich. Die Vertretungs- und Verfügungsberechtigung ist nicht genehmigungspflichtig, sondern wird automatisch bei Eröffnung eines Jugendfestgeldkontos (Jugend.Kapital.Konto) erteilt.
+
+====================================================
+Ich möchte mobile TAN nutzen, habe aber kein eigenes Handy und möchte die Handynummer des Minderjährigen angeben. Ist das möglich?
+
+Aus rechtlichen Gründen haben nur Sie als gesetzlicher Vertreter Zugriff auf das Jugendfestgeldkonto (Jugend.Kapital.Konto). Der Minderjährige ist nicht berechtigt, Kontotransaktionen durchzuführen. Bitte verwenden Sie als einer der gesetzlichen Vertreter für mobileTAN-Vorgänge nur Ihre eigene Handynummer.
+
+====================================================
+Was muss ich beachten, wenn der Minderjährige 18 Jahre alt wird?
+
+Mit dem 18. Geburtstag wird aus dem Minderjährigen ein Volljähriger, aus dem Jugend.Kapital.Konto wird ein Mehr.Kapital.Konto und Ihre gesetzliche Vertretungsmacht fällt weg. Der gerade volljährig Gewordene ist dann allein befugt, über das Konto zu verfügen. Die Zugangsdaten der Eltern zu dem Konto, wie PINs und TANs, verlieren ihre Gültigkeit. Wir sind verpflichtet, auch von dem jungen Erwachsenen die Ausweisdaten aufzunehmen. Wir werden dem Minderjährigen daher zum 18. Geburtstag neue Antragsunterlagen mit einem eigenen Kundenstammvertrag zuschicken. Dann muss nur noch die Legitimation via PostIdent über die Deutschen Post erfolgen (www.nibcdirect.de/postident). Sobald wir alle Unterlagen erhalten haben, verschicken wir die neuen Zugangsdaten an den dann Volljährigen.
+
+====================================================
+Wann muss der Kundenstammvertrag, den NIBC Direct im Zuge der Volljährigkeit versendet, vom Minderjährigen unterschrieben werden?
+
+NIBC Direct versendet zum 18. Geburtstag neue Antragsunterlagen mit einem eigenen Kundenstammvertrag für den dann Volljährigen. Sobald uns der vollständig ausgefüllte und unterschriebene Kundenstammvertrag vorliegt, verschicken wir die eigenen Zugangsdaten an den Volljährigen. Wurde der Kundenstammvertrag vom Minderjährigen mit Datum vor dem 18. Geburtstag unterschrieben, werden die gesetzlichen Vertreter kontaktiert und aufgefordert, eine erneute Unterschrift des nun Volljährigen zu veranlassen.
+
+====================================================
+Was passiert, wenn der Kundenstammvertrag nach dem 18. Geburtstag des dann volljährigen Kontoinhabers nicht bei NIBC Direct eingeht?
+
+Sobald der Minderjährige volljährig wird, werden die Zugangsdaten der gesetzlichen Vertreter gesperrt, bis die neuen Unterlagen (Kundenstammvertrag, ggf. PostIdent-Legitimation) des nun Volljährigen vollständig vorliegen. Erst dann erhält der volljährige Kontoinhaber seine eigenen Zugangsdaten zu den Konten.
+
+====================================================
+Der Minderjährige ist volljährig geworden. Ich möchte trotzdem weiterhin eine Vollmacht haben, um über das Konto des nun Volljährigen zu verfügen.
+
+Das ist nicht möglich. Der Kontoinhaber kann ausschließlich eine Vollmacht für den Todesfall vergeben.
+
+====================================================
+Der Minderjährige ist zwischen 17 und 18 Jahren alt und ich möchte ein Jugendfestgeldkonto (Jugend.Kapital.Konto) mit einer Laufzeit von mindestens 2 Jahren anlegen. Ist das möglich?
+
+Ja, das ist möglich. Ist der Minderjährige schon bei der Kontoeröffnung zwischen 17 und 18 Jahren alt, muss er sich allerdings mit Erhalt der Antragsunterlagen via PostIdent Verfahren bei der Deutschen Post (www.nibcdirect.de/postident) legitimieren. Mit dem 18. Geburtstag wird aus dem Jugend.Kapital.Konto ein Mehr.Kapital.Konto und Ihre gesetzliche Vertretungsmacht fällt weg. NIBC Direct versendet zum 18. Geburtstag neue Antragsunterlagen mit einem eigenen Kundenstammvertrag. Sobald uns der von dem dann volljährigen Kontoinhaber vollständig ausgefüllte und unterschriebene Kundenstammvertrag vorliegt, verschicken wir die eigenen Zugangsdaten an den dann Volljährigen.
+
+====================================================
+Wie früh/spät muss ich mein Festgeld kündigen?
+
+Wir bitten Sie, das Festgeld (bei automatischer Wiederanlage/Prolongation) 3 Werktage vor der Wiederanlage per autorisierter Nachricht im Online-Banking zu kündigen.
+
+====================================================
+Was ist eine Mobile-Banking-App / Mobile Brokerage?
+
+Eine Mobile-Banking-App / Brokerage-App
+
+(Applikation) ermöglicht auch unterwegs den Zugriff auf ein Bankkonto bzw. ein Depot. Je nach Funktionsumfang der App besteht dabei die Möglichkeit, sich den Kontostand, Umsätze oder Depotbestände anzeigen zu lassen und Überweisungen und Orders durchzuführen.
+
+====================================================
+Was bietet die NIBC Direct Mobile-Banking-App (Einfach.Mehr.App) / Mobile Brokerage-App?
+
+Mit der Einfach.Mehr.App haben NIBC Direct Kunden ihre Konten stets im Überblick und können sogar Überweisungen mittels SecureGo oder smartTAN plus-Verfahren durchführen. Dank Multibankenfähigkeit gilt dies auch für Konten anderer Banken, die den HBCI-/FinTS-Standard unterstützen.
+
+Alle Funktionen der Einfach.Mehr.App im Überblick:
+
+    Sicherer Zugang zum Online-Banking und Online-Brokerage
+
+    Kontostand- und Umsatzabfrage für Tagesgeld, Festgeld, Jugendfestgeld und Kombigeld
+
+    Depotübersicht und Einsicht ins Orderbuch
+
+    Überweisungen mittels SecureGo oder smartTAN plus-Verfahren vom Tagesgeldkonto (Mehr.Zins.Konto) oder vom flexiblen Teil des Kombigeldkontos (Kombi.Zins.Konto) aufs Referenzkonto
+
+    Erfassung von Orders mittels SecureGo oder smartTAN plus-Verfahren
+
+    Informationen über aktuelle Kurse und Börsennachrichten einsehen
+
+    Multibankenfähigkeit (Verwaltung der Konten bei anderen Banken, die den HBCI-/FinTS-Standard unterstützen)
+
+    Direkter Kontakt zum Kundenservice per legitimierter Mitteilung oder Telefon
+
+    Über die Funktion "Meine Bank" können Sie sich über Neuigkeiten und aktuelle Angebote von NIBC Direct informieren
+
+====================================================
+Was kostet die Einfach.Mehr.App?
+
+Die Einfach.Mehr.App ist kostenlos und kann im Apple Store oder im Google Play Store kostenlos heruntergeladen werden.
+
+====================================================
+Welche Voraussetzungen muss ich erfüllen, um die Einfach.Mehr.App nutzen zu können?
+
+Die Einfach.Mehr.App wird derzeit für das iPhone, den iPod touch, das iPad und für Android-Endgeräte (ab Version 2.1) angeboten. Bitte beachten Sie, dass die App nicht für die Nutzung mit Android-basierten Tablet-Computern optimiert ist. Das bedeutet, dass die Darstellung auf einem solchen Endgerät leicht verpixelt sein kann. Die Funktionen der App sind davon aber nicht betroffen und sie sind somit einwandfrei. Darüber hinaus benötigen Sie mindestens ein Tagesgeldkonto (Mehr.Zins.Konto) bei NIBC Direct, um die App nutzen zu können.
+
+====================================================
+Werden weitere Betriebssysteme wie Windows Phone, BlackBerry u.a. durch die Einfach.Mehr.App unterstützt?
+
+Die Einfach.Mehr.App unterstützt derzeit ausschließlich das Betriebssystem iOS von Apple und das Google-Betriebssystem Android (ab Version 2.1). Eine Unterstützung weiterer Betriebssysteme ist in Planung. Ein genauer Termin kann leider nicht genannt werden.
+
+====================================================
+ Wie kann ich mit Hilfe der Einfach.Mehr.App Überweisungen durchführen bzw. Orders aufgeben?
+
+Mit der für Smartphones angebotenen Version der Einfach.Mehr.App können Überweisungen mittels SecureGo oder smartTAN plus-Verfahren durchgeführt werden. Das mobileTAN-Verfahren ist zur Durchführung von TAN-pflichtigen Vorgängen mit der Einfach.Mehr.App aus Sicherheitsgründen nicht zugelassen. Dies ist damit begründet, dass ein Smartphone mit Mobilfunkempfang das Sicherheitsmerkmal des mobileTAN-Verfahrens umgehen würde, und zwar mit der Bereitstellung der mobileTAN über einen zweiten Kanal, das Mobiltelefon.
+
+Als Kunde, der ausschließlich das mobileTAN-Verfahren nutzt, können Sie zwar Ihre Konten einsehen, aber keine Transaktionen tätigen. Das SecureGo-Verfahren und das smartTAN plus-Verfahren können Sie jederzeit im Online-Banking beantragen. Alternativ können Sie das mobileTAN-Verfahren mit der iPad-Version der Einfach.Mehr.App nutzen.
+
+====================================================
+Wie sicher ist die Nutzung der Einfach.Mehr.App?
+
+Die Einfach.Mehr.App entspricht denselben hohen Sicherheitsanforderungen wie denen fürs Online-Banking bei NIBC Direct. Darüber hinaus ist die Durchführung von Transaktionen (Überweisungen / Orders) mit der für Smartphones angebotenen Einfach.Mehr.App mittels SecureGo oder smartTAN plus-Verfahren möglich. Das mobileTAN-Verfahren ist aus Sicherheitsgründen nur bei der iPad-Version der Einfach.Mehr.App zugelassen.
+
+====================================================
+Wo kann ich die Einfach.Mehr.App kostenlos herunterladen?
+
+Apple Store
+
+iPhone-App
+
+iPad-App
+
+Google Play Store
+
+Android-App
+
+====================================================
+ Kann ich auch mein Wertpapierdepot mit der Einfach.Mehr.App verwalten?
+
+Ja, über das Mobile Brokerage können Sie auch Ihr Wertpapierdepot über die Einfach.Mehr.App verwalten. Sie können Orders aufgeben, Ihre Depotübersicht und Ihr Orderbuch einsehen und sich über aktuelle Kurse und Börsennachrichten informieren.
+
+====================================================
+Was kann ich tun, wenn ich die Mobile Brokerage Funktion in der Einfach.Mehr.App nicht sehen?
+
+Das Mobile Brokerage steht allen Kunden, die ein Wertpapierdepot bei der NIBC Direct haben, zur Verfügung. Wenn Sie die Funktion des Mobile Brokerage in der Einfach.Mehr.App dennoch nicht sehen können, schauen Sie bitte auf Ihrem mobilen Endgerät nach, ob es zwischenzeitlich ein Update für die App gab und führen dieses durch. Das Mobile Brokerage ist eine Ergänzung der bestehenden App und wird durch ein Update zusätzlich zur Verfügung gestellt.
+
+====================================================
+Kann ich auch Konten anderer Banken mit der Einfach.Mehr.App verwalten?
+
+Ja, Sie können Konten anderer Banken verwalten, die den HBCI-/FinTS-Standard unterstützen.
+
+====================================================
+ Wo finde ich weitere Informationen und Bilder zur Einfach.Mehr.App?
+
+Weitere Informationen zur Einfach.Mehr.App finden Sie auf unserer Internetseite unter:
+
+https://www.nibcdirect.de/services/apps
+
+oder im
+
+Apple Store
+
+bzw. im
+
+Google Play Store
+
+====================================================
+3999: Auf dem Sicherheitsmedium fehlt noch die Kundensystem-ID.
+
+Bitte prüfen Sie, ob die richtige PIN mit genau 5 Stellen eingegeben wurde.
+
+====================================================
+ 9000: Der Status des Auftrags ist indifferent. Es wurde keine Antwort empfangen.
+
+In diesem Fall ist nicht klar, ob der HBCI-Auftrag verarbeitet wurde, da vom Bankrechner keine Rückmeldung kam bzw. das Zahlungsverkehrsprogramm sie nicht abgewartet hat.
+
+Rufen Sie die Kontoauszüge ab, um zu prüfen, ob der Auftrag ausgeführt wurde.
+
+====================================================
+9010: Bis-Datum ist größer als das heutige Datum.
+
+Das Programm versucht, Umsätze abzurufen, deren Datum in der Zukunft liegt. Falls Sie mit Home cash oder Profi cash arbeiten, gehen Sie in die Datenübertragung und klicken dort den Job für die Umsatzabfrage doppelt an. Hier aktivieren Sie die Option "bis Tagesdatum".
+
+====================================================
+9140: Syntaxfehler.
+
+In den meisten Fällen entspricht ein hinterlegter Wert nicht dem erwarteten Format. Prüfen Sie beim Konto bzw. bei den HBCI-Einstellungen, ob die richtige Kontonummer sowie die korrekte PIN mit genau 5 Stellen erfasst wurde.
+
+====================================================
+ 9340: Benutzer hat keine Kontoberechtigung. Auftrag abgelehnt.
+
+Prüfen Sie bitte zuerst die im Programm hinterlegten Angaben:
+
+BLZ (Nach Fusionen z.B. ist die alte Bankleitzahl nur noch eine begrenzte Zeit lang gültig. Arbeiten Sie daher bitte immer mit den aktuellen Daten.)
+
+Kontonummer
+
+Benutzerkennung
+
+Sollten alle Angaben korrekt sein, setzen Sie sich bitte mit Ihrer Bank in Verbindung, um den Zugang zu überprüfen.
+
+====================================================
+9370: Keine Berechtigung für diesen Geschäftsvorfall. Auftrag abgelehnt.
+
+In diesem Fall ist der gewünschte Geschäftsvorfall (z.B. Lastschrift) von der Bank nicht freigeschaltet worden.
+
+====================================================
+ 9380: Benutzer hat keine Auftragsberechtigung.
+
+Falls diese Meldung bei der Erstinitialisierung erscheint, sind vermutlich die Zugangsdaten nicht korrekt oder nicht vollständig hinterlegt worden. Prüfen Sie bitte insbesondere, ob folgende Angaben mit der 19-stelligen Benutzerkennung laut INI-Brief erfasst wurden:
+
+Benutzerkennung
+
+Kundennummer/-ID
+
+====================================================
+ 9999: Es ist ein Fehler beim Öffnen des Transportwegs aufgetreten.
+
+In diesem Fall konnte das Zahlungsverkehrsprogramm keine Verbindung zum Bankrechner herstellen. Folgende Punkte sollten in diesem Fall überprüft werden:
+
+Funktioniert die Interneteinwahl?
+
+Blockiert eine Firewall den Port 3000 (HBCI-Chipkarte/Schlüsseldatei) bzw. den Port 443 (HBCI-PIN/mobileTAN)?
+
+Blockiert eine persönliche Firewall alle Aktivitäten der Software?
+
+Ist die Internetadresse des Bankrechners korrekt? (Versuchsweise statt DNS-Name die IP-Adresse hinterlegen)
+
+====================================================
+Informationen zu Steuern und Bescheinigungen
+
+Was ist die Abgeltungssteuer?
+
+Abgeltungssteuer bedeutet, dass alle Kapitalerträge, die nicht in einem Unternehmen anfallen, mit einem einheitlichen Steuersatz von 25% besteuert werden. Hinzu kommen Solidaritätszuschlag und ggf. Kirchensteuer. Dies gilt seit Januar 2009.
+
+====================================================
+Ist mein Konto bei NIBC Direct von der Abgeltungssteuer betroffen?
+
+Da alle Kapitalerträge, die nicht in einem Unternehmen anfallen, der Abgeltungssteuerpflicht unterliegen, ist auch Ihr Konto davon betroffen. Wir sind verpflichtet, die pauschale Steuer von den Ihnen zustehenden Kapitalerträgen einzubehalten und an das Finanzamt abzuführen. Hiervon sind wir nur befreit, wenn Sie uns entweder eine Nichtveranlagungsbescheinigung Ihres zuständigen Wohnsitzfinanzamtes vorlegen oder uns einen Freistellungsauftrag bis zur Höhe des Sparer-Pauschbetrags auf unserem Formblatt einreichen.
+
+====================================================
+Welche Vor- oder Nachteile hat die Abgeltungssteuer für mich?
+
+Die pauschale Steuer auf Kapitalerträge wird von der Bank einbehalten und an das Finanzamt abgeführt. Damit ist die Kapitalertragsteuer abgegolten; daher der Begriff Abgeltungssteuer. Der Ihnen zustehende Sparer-Pauschbetrag wird berücksichtigt, wenn Sie uns einen entsprechenden Freistellungsauftrag erteilen. Sie müssen die Kapitalerträge dann nicht mehr in Ihrer Einkommensteuererklärung deklarieren.
+
+Sofern Ihr persönlicher Steuersatz unter 25% liegt, können Sie die Kapitalerträge nach wie vor in Ihrer Steuererklärung angeben. Die Differenz zwischen der einbehaltenen Abgeltungssteuer und dem nach Ihrem persönlichen Steuersatz abzuführenden Betrag erhalten Sie dann erstattet.
+
+====================================================
+Muss ich trotz Abgeltungssteuer einen Freistellungsauftrag ausfüllen?
+
+Nur wenn Sie uns einen Freistellungsauftrag erteilen, können wir den darin angegebenen Betrag bis zur Höhe Ihres Sparer-Pauschbetrags von der Abgeltungssteuer ausnehmen.
+
+====================================================
+Muss ich den Freistellungsauftrag per Post schicken?
+
+Wenn Sie zum ersten Mal einen Freistellungsauftrag einreichen, benötigen wir diesen entweder per Post im Original oder per Fax. Eine Änderung können Sie einfach selbst im Online-Banking vornehmen.
+
+Das erforderliche Dokument finden Sie in unserem Formularcenter auf der Website oder über diesen Link:
+
+https://www.nibcdirect.de/uploads/files/freistellungsauftrag.pdf
+
+====================================================
+Wo kann ich sehen, ob mein eingereichter Freistellungsauftrag angelegt ist?
+
+Einen angelegten Freistellungsauftrag kann man in der Online-Banking-Umgebung sehen. Loggen Sie sich am besten mit NIBCode und PIN ein. In der Rubrik Banking und der dortigen Kategorie Service finden Sie den Freistellungsauftrag. Unter der angezeigten Tabelle wird der Betrag Ihres eingereichten Freistellungsauftrags in der Spalte "Erteilter Sparer-Pauschbetrag" ausgewiesen.
+
+====================================================
+Kann ich auch eine Nichtveranlagungsbescheinigung einreichen?
+
+Sie können auch eine Nichtveranlagungsbescheinigung einreichen. Bitte senden Sie uns diese im Original oder als amtlich beglaubigte Kopie per Post zu.
+
+====================================================
+Schickt NIBC Direct das Original der Nichtveranlagungsbescheinigung wieder zurück?
+
+Ja, gerne senden wir Ihnen das Original wieder zurück. Bitte vermerken Sie dies auf dem Anschreiben bei der Einreichung.
+
+====================================================
+Was muss bei Änderungen hinsichtlich der Kirchensteuer (z.B. der Religionsgemeinschaft, des Kirchensteuersatzes oder des Aufteilungsverhältnisses bei Ehegatten) beachtet werden?
+
+Bei Änderungen der Religionsgemeinschaft, des Kirchensteuersatzes, des Aufteilungsverhältnisses bei Ehegatten oder anderer kirchensteuerrelevanter Aspekte ist ein neuer Antrag zu erteilen. Unterjährige Änderungen - einschließlich Widerruf eines einmal erteilten Antrags - können aufgrund der Besonderheiten des Kapitalertragsteuerverfahrens dabei vom Kreditinstitut nur mit Wirkung ab dem Folgejahr berücksichtigt werden. Die Kirchensteuer kann in diesen Fällen für das Jahr der Änderung oder des Widerrufs nur in der Steuerveranlagung durch das Wohnsitzfinanzamt in der vom Gesetz vorgesehenen Höhe festgesetzt werden; ggf. zu viel erhobene Kirchensteuer wird auf diesem Wege erstattet.
+
+====================================================
+Was bedeutet für mich als Kunde das Finanzkonten-Informationsaustauschgesetz (FKAustG)?
+
+Das neue Gesetz (FKAustG) trat am 1. Januar 2016 in Kraft. Weltweit über 90 Staaten und Gebiete haben sich drauf verständigt, dass die jeweiligen Finanzbehörden zukünftig steuerrelevante Kundendaten untereinander austauschen. Warum nehmen alle wichtigen Finanzzentren der Welt und alle Staaten der EU daran teil? Das neue Gesetz ist ein wichtiger Schritt hin zu mehr Transparenz und zur Bekämpfung von Steuerhinterziehung. Weitere Infos zu den teilnehmenden Staaten erhalten Sie unter:
+
+http://www.oecd.org/tax/transparency/AEOI-commitments.pdf
+
+Das neue Gesetz verpflichtet alle Banken, ihre Kunden ab 1. Januar 2016 nach ihrer steuerli-chen Ansässigkeit zu befragen. Wenn Sie ein neues Konto oder Depot eröffnen, müssen Sie angeben, in welchem Land Sie Einkünfte versteuern (steuerliche Ansässigkeit) und die entsprechende Steueridentifikationsnummer mitteilen. Auch wenn Sie Bestandskunde sind, sind die Banken verpflichtet, eine mögliche steuerliche Ansässigkeit im Ausland zu überprüfen. Das geschieht z.B. mittels der aktuellen Anschrift oder eines Postfachs. Befinden sich diese im Ausland, nimmt die Bank Kontakt mit dem Kunden auf.
+
+====================================================
+ Wann genau bin ich steuerlich im Ausland ansässig?
+
+Das richtet sich grundsätzlich nach den Vorschriften des jeweiligen Staates. Anknüpfungs-punkte sind dabei Merkmale wie Ihr Wohnsitz, Ihr ständiger Aufenthalt oder – bei Gesellschaften – der Sitz der Geschäftsleitung. Es ist möglich, in mehreren Staaten gleichzeitig steuerlich ansässig zu sein, z.B. wenn jemand mehrere Wohnsitze unterhält. Miet- und Pachteinnahmen, Einnahmen aus Kapitalvermögen in anderen Staaten führen jedoch in der Regel nicht zu einer steuerlichen Ansässigkeit im Ausland.
+
+====================================================
+ Wo kann ich mich über meine steuerliche Ansässigkeit genauer informieren?
+
+Das Gesetz verbietet es uns, Ihnen bei der Angabe Ihrer steuerlichen Ansässigkeit zu helfen. Oft kann das Finanzamt Sie dabei unterstützen. Auch Ihr Steuerberater oder ein auf Steuerrecht spezialisierter Rechtsanwalt kann weiterhelfen. Wenn es um die anzugebenden Identifikationsnummern geht, können Sie diese hier abrufen:
+
+http://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/#d.en.347759.
+
+====================================================
+ Wie läuft die Meldung und der Datenaustausch im Rahmen des Common Reporting Standard (CRS) ab?“
+
+Wenn Sie steuerlich in einem anderen Staat außer Deutschland ansässig sind, sind wir verpflichtet, Ihre Daten an das Bundeszentralamt für Steuern zu melden. Diese Meldepflicht gilt ab dem Jahr 2017 jeweils für das zurückliegende Kalenderjahr. Sollten Sie davon betroffen sein, informieren wir Sie zuvor darüber. Grundsätzlich gemeldet werden Bankkonten (Gehaltskonten, Girokonten, Sparbücher) und Depots. Dabei werden Kapitalerträge, wie Zinsen, Dividenden und ähnliche Erträge gemeldet. Außerdem werden Erlöse aus der Veräußerung von Finanzvermögen und Konto-/ Depotguthaben gemeldet. Aufgrund unseres Geschäftsmodells treffen auf NIBC Direct nur Teile dieser Meldeinformationen zu. Die deutsche Finanzverwaltung leitet ab 2017 die Daten an die teilnehmenden Staaten weiter. Deutschland erhält im Gegenzug Daten über die Konten in Deutschland ansässiger Personen.
+
+====================================================
+Was ist Phishing?
+
+Phishing ist der kriminelle Versuch, mittels gefälschter Webseiten an Ihre Zugangsdaten für das Online-Banking zu gelangen. Meist erhalten Sie dabei eine E-Mail, in der Sie angeblich von Ihrer Bank dazu aufgefordert werden, Ihre Bankdaten, Passwörter und TANs einzugeben. Mit diesen Daten könnten Fremde Überweisungen von Ihrem Konto tätigen.
+
+NIBC wird Sie jedoch niemals per E-Mail oder telefonisch dazu auffordern, Ihre Passwörter wie z.B. Ihre PIN oder TAN anzugeben.
+
+====================================================
+Wie hoch bin ich bei Schäden durch Phishing versichert?
+
+Als Kunde sind Sie zu einem sorgsamen Umgang mit NIBCode, PIN und TANs verpflichtet. Eine besondere Versicherung für Schäden gibt es nicht. Allerdings haben wir bei der Auswahl der Systeme auf größtmögliche Sicherheitsvorkehrungen geachtet. So können bspw. Überweisungen vom Tagesgeldkonto nur auf das von Ihnen angegebene Referenzkonto vorgenommen werden und hier muss der Kontoinhaber identisch mit dem Kontoinhaber der NIBC sein.
+
+====================================================
+Was passiert, wenn ich im Online-Banking-Bereich eingeloggt bin und der Server abstürzt? Kann dann jeder auf meine Daten zugreifen?
+
+Bitte beachten Sie hierzu die Sicherheitshinweise auf dieser Seite: https://www.onlinebanking-nibcdirect.de
+
+====================================================
+Was ist HBCI?
+
+HBCI steht für Home Banking Computer Interface. Das bedeutet, Sie können mit Hilfe eines Online-Banking Software Programms gleichzeitig auf Ihre Konten bei verschiedenen Banken zugreifen.
+
+====================================================
+Kann ich mit einer Online-Banking Software und HBCI auf mein NIBC Direct Konto zugreifen?
+
+Sie können mit einigen Online-Banking Software Programmen und HBCI auf Ihr Mehr.Zins.Konto oder Jugend.Zins.Konto zugreifen. Weiterhin können Sie Umsätze und Salden der Mehr.Geld.Konten sowie Mehr.Kapital.Konten und Jugend.Kapital.Konten abrufen.
+
+Folgende Online-Banking Software Programme, die von NIBC Direct getestet wurden, unterstützen derzeit den Zugriff auf Ihr NIBC Direct Konto:
+
+- Windata
+
+- WISO
+
+- Mein Geld
+
+- S-Firm
+
+- VR Networld
+
+- StarMoney (ab Version 7.0)
+
+- Quicken
+
+- Moneyplex
+
+- ALF-BanCo 3.0 und höher
+
+- Hibiscus
+
+- Subsembly Banking 3.0 und höher
+
+- iOutBank
+
+- Saldomat
+
+- T-Online Homebanking Software
+
+- HomeBanking 2010 (akademische arbeitsgemeinschaft verlag)
+
+- Gnucash
+
+- S-Banking
+
+- Bank X
+
+====================================================
+Welche HBCI-Verfahren bietet NIBC Direct an?
+
+NIBC Direct bietet das HBCI-Verfahren mittels PIN und mobileTAN an.
+
+====================================================
+ Wie kann ich das HBCI-Verfahren nutzen?
+
+Mit Ihrem NIBCode sowie PIN und mobileTANs, die Sie nach der Kontoeröffnung erhalten haben, können Sie das HBCI-Verfahren nutzen.
+
+NIBC Direct hat das Verfahren Fin TS V3.0 im Einsatz.
+
+====================================================
+Wie lauten die Zugangsdaten für HBCI?
+
+Bitte geben Sie die Bankleitzahl 512 107 00 in die Suchmaske der HBCI-Software ein. Danach sollten die folgenden Angaben erscheinen:
+
+HBCI URL: HBCI01.fiducia.de
+
+Pin Tan URL: https://hbci11.fiducia.de/cgi-bin/hbciservlet
+
+Port TCP/IP: 443
+
+Bitte übernehmen Sie - wenn möglich - die Einstellungen Ihres Programms und ändern Sie nur bei Fehlern diese Vorgaben.
+
+Benutzerkennung: Ihr NIBCode (die Eingabe Ihres selbstgewählten Alias ist nicht möglich)
+
+Ggf. Kundennummer: Ihr NIBCode (die Eingabe Ihres selbstgewählten Alias ist nicht möglich)
+
+PIN: Ihre Online-Banking-PIN
+
+====================================================
+Was kostet das HBCI Banking bei NIBC Direct?
+
+Die HBCI Nutzung ist kostenfrei.
+
+====================================================
+Gibt es auch HBCI mit Chipkarte oder Schlüsseldatei?
+
+HBCI wird aktuell nur als PIN/mobileTAN-Version angeboten.
+
+====================================================
+Warum muss ich mich als Bestandskunde für das HBCI-Banking gesondert anmelden?
+
+Wir müssen Ihr Konto für das HBCI-Banking freischalten.
+
+====================================================
+Was passiert, wenn ich mich nicht für das HBCI-Banking anmelde?
+
+Ohne die Anmeldung für das HBCI-Banking können Sie nur die Salden und Umsätze Ihrer Konten bei NIBC Direct abrufen. Es sind dann keinerlei Buchungen möglich.
+
+====================================================
+Wie sicher ist HBCI-Banking mit PIN/mobileTAN?
+
+Online-Banking mittels HBCI und PIN/mobileTAN gilt als besonders sicher, da die Homebanking-Software auf dem Endgerät des Anwenders installiert ist und eine direkte Verbindung zum Rechenzentrum der Bank besteht. Das mobileTAN-Verfahren erzeugt für jeden TAN-pflichtigen Vorgang genau 1 TAN, die maximal 15 Minuten lang gültig ist.
+
+====================================================
+Kann ich auch legitimierte Mitteilungen schreiben, Festgelder anlegen oder meinen Freistellungsauftrag ändern?
+
+Nein, das ist nicht möglich. In der HBCI-Umgebung sind nur die Umsatz- und Saldenabfrage und Überweisungen auf das Referenzkonto bei Ihrer Hausbank möglich.
+
+====================================================
+ Warum kann ich mich mit der Initialisierungs-PIN nicht anmelden?
+
+Die PIN ist bei der Erstanmeldung zu ändern; diese Funktion ist nur direkt unter
+
+https://www.onlinebanking-nibcdirect.de/banking-private/entry
+
+möglich.
+
+====================================================
+Muss ich mich gesondert anmelden, um HBCI-Banking zu nutzen?
+
+Ja. Wenn Sie bereits Kunde sind, müssen Sie eine legitimierte Mitteilung an NIBC Direct schicken und um die Freischaltung des HBCI-Banking bitten. Für Neukunden wird diese Möglichkeit automatisch mit eingerichtet.
+
+====================================================
+Kann ich HBCI bei NIBC Direct mit PIN/mobileTAN benutzen und bei meiner Hausbank mit Chipkarte?
+
+Ja, für jeden Bankkontakt oder Eintrag in Ihrer Software wird das entsprechende Sicherheitsmedium hinterlegt.
+
+====================================================
+ Was muss ich tun, wenn sich mein Referenzkonto bei meiner Hausbank ändert?
+
+Sie können uns die neuen Kontodaten unter
+
+https://www.onlinebanking-nibcdirect.de/banking-private/entry
+
+als legitimierte Mitteilung hinterlassen. Wir werden die Änderungen unverzüglich eintragen. Sobald Sie eine schriftliche Bestätigung über die Änderung der Referenzkontoverbindung erhalten haben, ist diese Bankverbindung auch mit HBCI nutzbar.
+
+====================================================
+Ich kann mein neues Festgeld nicht in der Kontenübersicht der Online-Banking-Software sehen.
+
+Es kann sein, dass Sie den Bankeintrag oder Bankkontakt erneut synchronisieren müssen. Danach sollte das zusätzliche Konto sichtbar sein.
+
+====================================================
+Was ist ein Kombigeld (Kombi.Kapital.Konto in Verbindung mit Kombi.Zins.Konto)?
+
+Bei dem Kombigeld von NIBC Direct (Kombi.Kapital.Konto in Verbindung mit Kombi.Zins.Konto) handelt es sich um ein Produkt, das die Vorteile eines Tagesgeld- und eines Festgeldkontos miteinander kombiniert. Das Kombigeld wird zu einem festen Zinssatz verzinst und mit einer vom Kunden frei wählbaren Laufzeit zwischen 2 und 10 Jahren angelegt. Sie haben dabei die Möglichkeit, über bis zu 50% des angelegten Betrags vor Ablauf der vereinbarten Laufzeit vorzeitig zu verfügen. Das Kombigeld befindet sich auf 2 Konten: einem Kombi.Kapital.Konto und einem Kombi.Zins.Konto.
+
+====================================================
+Wie hoch ist die Mindestanlagesumme und welche Laufzeiten gibt es beim Kombigeld?
+
+Die Mindestanlagesumme beträgt € 5.000 und folgende Laufzeiten stehen beim Kombigeld zur Verfügung: 2, 3, 4, 5, 6, 7, 8, 9 und 10 Jahre.
+
+====================================================
+Warum besteht das Kombigeld (Kombi.Kapital.Konto in Verbindung mit Kombi.Zins.Konto) aus 2 Konten?
+
+Das Kombigeld befindet sich auf 2 Konten: dem Kombi.Kapital.Konto und dem Kombi.Zins.Konto. Ihr Anlagebetrag wird bei der Eröffnung eines Kombigelds zu je 50% auf beide Konten aufgeteilt. Die ersten 50% Ihres Anlagebetrags auf dem Kombi.Kapital.Konto werden wie bei einem Festgeld für eine bestimmte Laufzeit und zu einem festen Zinssatz angelegt. Die übrigen 50% Ihres Anlagebetrags werden ebenfalls zu der von Ihnen zuvor ausgewählten Laufzeit und dem entsprechenden Zinssatz dem Kombi.Zins.Konto gutgeschrieben. Vorzeitige Verfügungen, d.h. Entnahmen vor Ablauf der vereinbarten Laufzeit, können ausschließlich vom Kombi.Zins.Konto vorgenommen werden.
+
+====================================================
+Wie kann ich vorzeitig über bis zu 50% meines angelegten Kombigeldes verfügen?
+
+Ihr Anlagebetrag wird bei der Eröffnung eines Kombigeldes zu je 50% auf zwei Konten aufgeteilt: dem Kombi.Kapital.Konto und dem Kombi.Zins.Konto Vorzeitige Verfügungen sind ausschließlich vom Kombi.Zins.Konto möglich auf dem sich 50% Ihres Anlagebetrags befinden. Sie können mittels Online-Banking jederzeit und beliebig oft kostenlos Überweisungen von Ihrem Kombi.Zins.Konto zugunsten Ihres Referenzkontos vornehmen, bis der Anlagebetrag auf dem Kombi.Zins.Konto vollständig erschöpft ist.
+
+====================================================
+ Kann ich bzw. können wir ein bestehendes Depot oder mehrere Depots zu NIBC Direct übertragen?
+
+Ja, Sie können ein bereits bestehendes Depot kostenfrei zu NIBC Direct übertragen. Die Abwicklung übernehmen wir. Wünschen Sie einen Depotübertrag von einem anderen depotführenden Institut zu uns, dann füllen Sie das Formular "Depotübertrag" elektronisch an Ihrem Bildschirm aus, drucken Sie es aus (auch für Ihre Ablage) und senden Sie das Formular vollständig ausgefüllt und unterzeichnet an folgende Anschrift:
+
+NIBC Direct
+
+Postfach 41 07 40
+
+76207 Karlsruhe
+
+Falls Sie das Formular nicht mehr zur Verfügung haben sollten, können Sie es über unser Formularcenter herunterladen oder direkt unten aufrufen. Sobald wir Ihren vollständig ausgefüllten und unterzeichneten Depotübertrag erhalten, veranlassen wir bei Ihrer bisherigen depotführenden Bank den Übertrag. Dieser Service ist für Sie kostenfrei.
+
+Wenn Sie ein Gemeinschaftsdepot übertragen wollen, müssen beide Depotinhaber auf dem Formular unterzeichnen.
+
+Wenn Sie mehrere Depots übertragen möchten, benötigen Sie für jedes Depot ein Formular "Depotübertrag".
+
+====================================================
+Muss bei einem Depotübertrag das depotführende Institut zustimmen?
+
+Nein, Ihr depotführendes Institut muss dem Depotübertrag nicht zustimmen, damit dieser vollzogen werden kann. Gerne veranlassen wir den Depotübertrag mit Ihrem derzeitigen Depotinstitut für Sie, wenn Sie NIBC Direct mit dieser Aufgabe beauftragen. Eine Extragebühr für die Abwicklung Ihres Depotübertrags veranschlagen wir nicht. Der Übertrag unsererseits ist für Sie kostenfrei.
+
+====================================================
+Kostet ein Depotübertrag zusätzlich Gebühren?
+
+Die Bearbeitung des Depotübertrags ist immer kostenlos. Es können aber Fremdspesen entstehen, auf deren Beträge NIBC Direct keinen Einfluss hat. Sie fallen z.B. bei der Umschreibung von Namensaktien an. Für den Übertrag von im Ausland hinterlegten Wertpapieren, die nicht bei Clearstream Banking Frankfurt oder Clearstream Banking Luxembourg verwahrt werden oder verwahrt werden können, behält sich NIBC Direct vor, eine Gebühr in Höhe von € 75 zusätzlich zu erheben.
+
+====================================================
+Werden die ursprünglichen Anschaffungskosten meiner Wertpapiere mit übertragen?
+
+Ja. Aus steuerlichen Gründen werden die Anschaffungskurse für Ihren übertragenen Wertpapierbestand von NIBC Direct übernommen. Vor dem 1. Januar 2009 angeschaffte Wertpapiere werden hierbei nicht berücksichtigt. Wertpapiere, die von Ihnen vor dem 1. Januar 2009 erworben wurden, werden i.d.R. von der übertragenden Bank besonders gekennzeichnet.
+
+====================================================
+Ich bin schon Kunde von NIBC Direct und habe ein Anlagekonto. Wie eröffne ich ein Depot bei NIBC Direct?
+
+Wenn Sie bereits ein Tagesgeldkonto als alleiniger Kontoinhaber bei NIBC Direct führen, wird dieses Konto ab Depoteröffnung als Ihr Verrechnungskonto geführt. Für gemeinsam geführte Tagesgeldkonten gilt: Falls Sie ein Gemeinschaftsdepot mit dem derzeitigen Mitkontoinhaber Ihres Tagesgeldkontos eröffnen möchten, wird Ihr derzeitiges Konto automatisch zum Verrechnungskonto Ihres Depots. Selbstverständlich gelten weiterhin die gleichen attraktiven Konditionen wie bisher für Ihr Tagesgeldkonto
+
+Wenn Sie ein Festgeldkonto als alleiniger Kontoinhaber führen, wird Ihr mit dem Festgeld- automatisch eröffnetes Tagesgeldkonto zu Ihrem Verrechnungskonto. Dasselbe gilt für Gemeinschaften, die zusammen auch ein Gemeinschaftsdepot eröffnen wollen. Das dem Festgeld- zugrunde liegende Tagesgeldkonto wird zum Verrechnungskonto.
+
+Unter dem Reiter "Angebote" finden Sie den Menüpunkt "Wertpapiere und Depot". Über den Link "Hier geht es zu den Produkten" können Sie ganz bequem unter "Neues Depot eröffnen" Ihr erstes Einfach.Invest.Depot oder ein weiteres eröffnen.
+
+Eine Schritt-für-Schritt-Anleitung zur Eröffnung eines Depots im Online-Banking-Bereich finden Sie hier.
+
+Hinweis: Bei Gemeinschaften, die im Online-Banking-Bereich zusammen ein Gemeinschaftsdepot eröffnen wollen, müssen beide Depotantragsteller separat mit ihren individuellen Login-Daten die Antragstrecke durchlaufen und jeweils das Depot aktivieren.
+
+Falls Sie mit einer Person ein Konto eröffnen möchten, die noch kein Kunde bei NIBC Direct ist oder ein NIBC Direct Produkt hat, auf das Sie keinen Zugriff haben, klicken Sie
+
+hier, um ein Depot zu eröffnen.
+
+====================================================
+Ich bin noch kein Kunde von NIBC Direct, möchte aber ein Depot eröffnen. Wie kann ich ein Depot bei NIBC Direct eröffnen?
+
+Zur Eröffnung eines NIBC Direct Depots klicken Sie bitte auf den unten stehenden Button und Sie werden direkt auf die Antragstrecke geleitet.
+
+Depot eröffnen
+
+====================================================
+Kann ich mehrere Depots bei NIBC Direct halten?
+
+Bei NIBC Direct können Sie gerne mehrere Depots eröffnen. Es gibt keinerlei Restriktionen.
+
+====================================================
+ Wie funktioniert die Depotaktivierung?
+
+Unter dem Reiter "Angebote" finden Sie den Menüpunkt "Wertpapiere und Depot". Über den Link "Hier geht es zu den Produkten" können Sie per Serviceauftrag unter "Depot aktivieren" ganz bequem Ihr Einfach.Invest.Depot aktivieren.
+
+Dann müssen Sie nur noch Vor- und Nachnamen und Ihre E-Mail-Adresse eingeben, die Basisinformationen elektronisch anfordern und den Erhalt bestätigen. Sobald Ihr Depot aktiviert ist, erhalten Sie eine Bestätigungs-E-Mail von unserem Kundenservice.
+
+====================================================
+Kann ich mein gewähltes TAN-Verfahren auch für mein Depot nutzen?
+
+Ja, in Ihrer Produktübersicht sehen Sie nach erfolgreicher Eröffnung Ihres Depots über NIBC Direct (Mehr.Invest.Depot) ein Verrechnungskonto, das auf Ihrem Tagesgeldkonto (Mehr.Zins.Konto) basiert. Ihr TAN-Verfahren können Sie gleichermaßen für Ihre Handelsaktivitäten nutzen.
+
+Wenn Sie ein Gemeinschaftskonto führen, können Sie mit dem zweiten Kontoinhaber auch ein Gemeinschaftsdepot eröffnen.
+
+====================================================
+Kann man auch ein Gemeinschaftsdepot eröffnen?
+
+Gerne können Sie ein NIBC Direct Depot als Gemeinschaftsdepot führen. Wenn Sie ein Depot eröffnen möchten, klicken Sie bitte hier und Sie werden direkt in die Antragstrecke geleitet.
+
+Wenn Sie ein Tagesgeld- oder ein Festgeldkonto bei NIBC Direct bereits gemeinschaftlich führen und gemeinschaftlich ein Depot eröffnen wollen, wird Ihr existierendes Tagesgeldkonto (Mehr.Zins.Konto) automatisch zu Ihrem Verrechnungskonto. Als Kunden mit einem gemeinsamen Tages-, Fest- oder Kombigeldkonto können Sie Ihr Gemeinschaftsdepot ganz bequem in Ihrem Online-Banking-Account eröffnen.
+
+Hinweis: Bei Gemeinschaften, die im Online-Banking zusammen ein Gemeinschaftsdepot eröffnen wollen, müssen beide Depotantragsteller separat mit ihren individuellen Login-Daten die Antragstrecke durchlaufen und jeweils das Depot aktivieren.
+
+Falls Sie mit einer Person ein Konto eröffnen möchten, die noch kein Kunde bei NIBC Direct ist oder die über ein NIBC Direct Produkt verfügt, auf das Sie keinen Zugriff haben, klicken Sie auf den folgenden Button, um ein Depot zu eröffnen.
+
+Depot eröffnen
+
+WICHTIG: Bei NIBC Direct führen Sie Ihr Gemeinschaftsdepot grundsätzlich als Oderdepot. Bitte beachten Sie, dass die niedrigere Risikoklasse der Gemeinschaft als Grundlage für Ordererfassungen dient. Aus diesem Grunde ist es auch wichtig, dass bei einem Gemeinschaftsdepot beide Mitdepotinhaber je einen eigenen WpHG-Bogen einreichen.
+
+====================================================
+Wird das Verrechnungskonto bei NIBC Direct verzinst?
+
+Ja, als Verrechnungskonto dient Ihr Tagesgeldkonto (Mehr.Zins.Konto). Hierfür gelten selbstverständlich unsere attraktiven Tagesgeldkonditionen.
+
+====================================================
+Was ist, wenn Wertpapiere in meinem Depot fehlen?
+
+Es ist möglich, dass offene Orders vorliegen. Gleichen Sie bitte in Ihrem "Orderbuch" ab, ob die betreffende Order noch den Status "offen" hat. Das bedeutet nicht, dass die Order nicht ausgeführt wird; es kommt lediglich zu einer Verzögerung. Insbesondere bei Fondsorders kann es aufgrund variierender Ausführungszeiten zu einer zeitlichen Abweichung zwischen Ordererteilung und -ausführung kommen.
+
+====================================================
+Wo erhalte ich eine Übersicht über meine Wertpapiere?
+
+Eine Übersicht der in Ihrem Depot verwahrten Wertpapiere ist jederzeit im Online-Brokerage-Bereich innerhalb Ihres Online-Banking-Accounts abrufbar. Melden Sie sich mit Ihrem NIBCode oder Alias sowie PIN an und klicken Sie dann auf Ihrer Online-Banking-Startseite auf das gewünschte Depot. Zudem erhalten Sie einmal im Jahr per Post einen Depotauszug mit den bewerteten Beständen zum Jahresultimo (31. Dezember).
+
+====================================================
+Wird mein Konto nach deutschem oder nach niederländischem Recht geführt?
+
+Das Konto wird nach deutschem Recht geführt.
+
+====================================================
+Ich habe Fragen zu meiner Baufinanzierung.
+
+Hier helfen Ihnen die Kollegen von der Baufinanzierungsbetreuung unter 069 50600570 gerne weiter.
+
+====================================================
+Was kostet das Online-Banking bei NIBC Direct?
+
+Die Führung von Tages- und Festgeldkonten sowie die Depotführung sind kostenfrei.
+
+====================================================
+Welche Wertpapiere sind bei NIBC Direct handelbar?
+
+Folgende Wertpapiere können Sie bei NIBC Direct handeln: Aktien, Anleihen, Wandel- und Optionsanleihen, Indexzertifikate, Genussscheine, Optionsscheine, Investmentfonds und ETFs.
+
+====================================================
+Ich bin noch kein Kunde von NIBC Direct, möchte aber ein Depot eröffnen. Wie kann ich ein Depot bei NIBC Direct eröffnen?
+
+Zur Eröffnung eines NIBC Direct Depots klicken Sie bitte auf den unten stehenden Link und Sie werden direkt auf die Antragstrecke geleitet.
+
+Depot eröffnen
+
+====================================================
+Welches Verrechnungskonto wird für das NIBC Direct Depot hinterlegt?
+
+Als Verrechnungskonto wird unser kostenloses NIBC Direct Tagesgeldkonto (Mehr.Zins.Konto) verwendet, das zu den aktuell gültigen Konditionen für Tagesgeld verzinst wird.
+
+====================================================
+Wird von NIBC Direct eine Angemessenheitsprüfung (WpHG) durchgeführt?
+
+Gesetzliche Vorgaben verpflichten NIBC Direct, vor Ordererfassung die sogenannte Angemessenheitsprüfung mittels des WpHG-Bogens durchzuführen. Grundlage hierfür sind Ihre Angaben zu Kenntnissen und Erfahrungen in den einzelnen Produktgruppen, die Sie bei Depoteröffnung oder bei einer späteren eigenen Neueinstufung auf dem WpHG-Bogen angeben.
+
+====================================================
+ Warum sollte ich Angaben nach WpHG machen?
+
+Gemäß § 31 Absatz 5 Wertpapierhandelsgesetz (WpHG) hat die Bank vor der Durchführung von Wertpapierdienstleistungen von den Kunden Informationen über deren Kenntnisse und Erfahrungen in Bezug auf Geschäfte mit bestimmten Arten von Finanzinstrumenten oder Wertpapierdienstleistungen (z.B. Kauf oder Verkauf von Wertpapieren) einzuholen, soweit diese Informationen erforderlich sind, um die Angemessenheit der Finanzinstrumente oder Wertpapierdienstleistungen für die Kunden beurteilen zu können.
+
+Die Angaben liegen im Interesse des Kunden.
+
+Erlangt die Bank die Informationen nicht, ist eine Beurteilung der Angemessenheit nicht möglich. Eventuelle Änderungen sollte der Kunde der Bank zeitnah mitteilen, damit die Daten aktualisiert werden können. Alle Angaben sind freiwillig. Alle Wertpapiere werden von der Bank in Risikoklassen eingeteilt. Die Einstufung eines Wertpapiers kann sich im Einzelfall ändern.
+
+Bitte beachten Sie, dass Sie bei Käufen eines Wertpapiers einen Warnhinweis bekommen, falls dessen Risikoklasse über Ihrer von der Bank eingestuften Risikoklasse liegt. Nach diesem Warnhinweis treffen Sie die Entscheidung darüber, ob Sie den Kauf trotzdem tätigen wollen. Somit haben Sie die volle Transparenz hinsichtlich des Risikos Ihrer Orderwünsche und können entsprechend handeln. Wenn Sie Ihre Erfahrungen und Kenntnisse nach einiger Zeit vertieft haben, können Sie eine erneute Risikoklasseneinstufung einreichen. Das entsprechende Dokument "Protokoll nach WpHG" finden Sie im Formularcenter.
+
+Bitte senden Sie Ihre neue Einstufung vollständig ausgefüllt und unterschrieben an:
+
+NIBC Direct
+
+Postfach 41 07 40
+
+76207 Karlsruhe
+
+Alternativ können Sie Ihre Neueinstufung auch im Online-Banking-Bereich unter dem Reiter "Angebote" bei "Wertpapiere und Depot" mit "Hier geht es zu den Produkten" per Serviceauftrag ändern.
+
+====================================================
+ Was passiert, wenn die Risikoklasse aus der Angemessenheitsprüfung (WpHG) und die beauftragte Order nicht übereinstimmen?
+
+Entspricht die Risikoklasse der von Ihnen beauftragten Order nicht den von Ihnen im WpHG-Formular getätigten Angaben über Ihre Erfahrungen und Kenntnisse, so erhalten Sie im Online-Brokerage-Portal einen entsprechenden Hinweis. Wenn Sie Ihr Erfahrungsprofil anpassen möchten, können Sie Ihre Angaben laut WpHG-Formular jederzeit neu erfassen. Sie finden das Formular auch hier in unserem Formularcenter.
+
+Bitte senden Sie das Dokument unterschrieben an:
+
+NIBC Direct
+
+Postfach 41 07 40
+
+76207 Karlsruhe
+
+Alternativ können Sie Ihre Neueinstufung auch im Online-Banking-Bereich unter dem Reiter "Angebote" bei "Wertpapiere und Depot" mit "Hier geht es zu den Produkten" per Serviceauftrag ändern.
+
+====================================================
+Wann erhalte ich meinen Depotjahresauszug und meine Bescheinigung für die Steuererklärung?
+
+NIBC Direct sendet Ihnen automatisch einen Depotjahresauszug und die Jahressteuerbescheinigung über Ihre Einkünfte aus Kapitalvermögen jeweils zu Beginn des neuen Kalenderjahres für das abgelaufene Kalenderjahr zu.
+
+====================================================
+ Gilt die Einlagensicherung auch für mein NIBC Direct Depot?
+
+Die Wertpapiere in Ihrem Depot (Einfach.Invest.Depot) werden gemäß § 34a WpHG als Sonderbestand getrennt verwahrt und zählen - im Gegensatz zu Einlagekonten - nicht zum Vermögen der Bank. In einem etwaigen Insolvenzfall können Sie die Wertpapiere jederzeit herausverlangen oder Ihren Depotbestand auf ein anderes Institut übertragen lassen, sofern der Bank keine Sicherungsrechte zustehen. Somit ist es ausgeschlossen, dass der Wertpapierbestand von Kunden im Insolvenzfall zur Begleichung von Außenständen der Bank gegenüber Dritten verwendet wird. Als Sondervermögen ist Ihr Depot vor derartigen Fällen sicher.
+
+Einlagekonten bei NIBC Direct, zu denen auch das Verrechnungskonto für das NIBC Direct Depot zählt, unterliegen den niederländischen Regelungen zur Einlagensicherung (Depositogarantiestelsel). Demnach hat jeder Sparer Anspruch auf Entschädigung von insgesamt maximal € 100.000. Dieses Maximum gilt für alle Konten jedes individuellen Sparers bei einer Bank insgesamt, nicht jedoch für jedes einzelne Konto.
+
+Das bedeutet: Wer mehr als ein Konto bei einer Bank oder einer ihrer Filialen hat, hat nur Anspruch auf eine Entschädigung von insgesamt maximal € 100.000 bei dieser Bank. Einzige Besonderheit: Im Falle von gemeinsamen sogenannten Oderkonten hat jeder der gemeinsamen Kontoinhaber für sich Anspruch auf den Maximalbetrag in Höhe von insgesamt € 100.000 bei dieser Bank.
+
+====================================================
+Was bedeutet beratungsfreies Geschäft?
+
+Beratungsfreies Geschäft bedeutet, dass Sie als Kunde bei NIBC Direct Ihre Anlageentscheidungen selbst treffen. Eine Wertpapierberatung bietet NIBC Direct nicht an.
+
+====================================================
+Habe ich die Möglichkeit, bei NIBC Direct Realtime-Kurse abzufragen?
+
+Ja, damit Sie noch näher am Börsengeschehen sind, bieten wir Ihnen als Depotinhaber kostenlose Realtime-Kurse der Börsenplätze Frankfurt am Main, Stuttgart und XETRA® an. Das ist bei anstehenden Anlageentscheidungen ein entscheidender Vorteil im Vergleich zu der sonst üblichen 15-minütigen Zeitverzögerung.
+
+====================================================
+Wie ändere ich meine WpHG-Risikoklasse?
+
+Für die Anpassung Ihrer persönlichen WpHG-Einstufung füllen Sie bitte die WpHG-Abfrage in Ihrem Online-Banking erneut aus und bestätigen Sie Ihre Eingaben mit einer TAN.
+
+Alternativ können Sie das WpHG-Formular auch im Formularcenter herunterladen und am Bildschirm "elektronisch" ausfüllen, ausdrucken und unterschrieben senden an:
+
+NIBC Direct
+
+Postfach 41 07 40
+
+76207 Karlsruhe
+
+Die meisten Fonds unserer Kooperationspartner können Sie mit einem Nachlass auf den regulären Aufgabeaufschlag erhalten. Weitere Informationen und eine Übersicht aller erhältlichen Fonds finden Sie im Online-Brokerage.
+
+====================================================
+Gibt es Fonds mit reduziertem Ausgabeaufschlag bei NIBC Direct?
+
+Ja, die meisten Fonds unserer Kooperationspartner können Sie mit einem Nachlass auf den regulären Ausgabeaufschlag erhalten. Weitere Informationen und eine Übersicht aller erhältlichen Fonds finden Sie im Online-Brokerage-Bereich.
+
+====================================================
+Wie läuft die Kontoeröffnung genau ab?
+
+Als Interessent füllen Sie die Kontoeröffnungsformulare auf der Website mit allen erforderlichen Daten aus. Es sind hier bereits Pflichtfelder und Kannfelder definiert. Danach senden Sie die Daten an NIBC Direct und drucken den Kontoeröffnungsantrag mitsamt den Bedingungswerken (z.B. Information nach dem Fernabsatzgesetz) aus, unterschreiben den Antrag und legitimieren sich ganz einfach und bequem per Video-Chat (weitere Informationen erhalten Sie unter www.nibcdirect.de/services/video-ident/) oder Post-Ident Verfahren bei der Deutschen Post (www.nibcdirect.de/postident). Im Falle des Post-Ident Verfahrens schickt der Postmitarbeiter Ihre Unterlagen an NIBC Direct, woraufhin Ihr Konto eröffnet wird.  Im Anschluss erhalten Sie innerhalb weniger Tage den NIBC Direct Willkommensbrief mit Ihrer neuen Kontonummer. Den gewünschten Anlagebetrag können Sie dann von Ihrem Girokonto auf Ihr NIBC Direct Tagesgeldkonto überweisen.
+
+Benutzerkennung (NIBCode), PIN und TAN (bei mobileTAN und SecureGo ist es der Freischaltcode und bei smartTAN plus die NIBCard) werden in jeweils getrennter Post verschickt. Nach Erhalt der PIN und der TAN können Sie mit diesen und dem NIBCode alle Funktionen des Online-Banking-Portals unter www.nibcdirect.de nutzen.
+
+Bei Fragen zur Identifikation wenden Sie sich bitte an unseren Kundenservice unter der Nummer: +49 69 244 37 200
+
+====================================================
+Kann man das Konto bei NIBC Direct gleich online eröffnen?
+
+NIBC Direct muss bei Neukunden aufgrund gesetzlicher Anforderungen zunächst auf ihre Legitimation per PostIdent-Verfahren warten. Außerdem müssen der Bank die unterschriebenen Kontoeröffnungsunterlagen (d.h. Kundenstammvertrag inklusive Antrag auf Eröffnung eines Tagesgeldkontos und ggf. Antrag auf Eröffnung eines Festgeld- oder Kombigeldkontos oder Depots) vorliegen. Dann kann die Bank das Konto eröffnen und dem Kontoinhaber alle Informationen für den Zugang zum Online-Banking zusenden. Wer schon Kunde ist, kann über das Online-Banking-Portal selbständig weitere Festgeld- oder Kombigeldkonten sowie Depots eröffnen.
+
+====================================================
+Wie funktioniert das PostIdent-Verfahren?
+
+NIBC nutzt das PostIdent Verfahren des Vertragspartners Deutsche Post AG. Dieses bietet zwei Legitimationsverfahren an:
+
+Video-Chat: Die Legitimation ist kostenfrei und per PC, Tablet oder Smartphone von überall möglich. Benötigt werden lediglich ein gültiges Ausweisdokument, ein PC mit aktuellem Browser, Webcam und Mikrofon sowie das Mobiltelefon für den Erhalt des Ident-Codes. Die Videolegitimation funktioniert alternativ zum PC auch mit einem Smartphone oder Tablet. Das Verfahren unterstützt sowohl Android- als auch iOS-Betriebssysteme.
+
+PostIdent-Coupon: Für unsere Kunden erstellen wir einen sogenannten PostIdent-Coupon. In einer Filiale der Deutschen Post AG legen Sie als Kunde Ihren Personalausweis oder Reisepass vor. Der Coupon kann in allen Postfilialen und -agenturen angenommen und verarbeitet werden, in denen ein Elektronischer Postschalter (EPOS) vorhanden ist. Der Postmitarbeiter überträgt die Daten des Ausweispapiers in den Coupon, welchen Sie als Kunde anschließend prüfen und unterschreiben. Diese Unterschrift wird durch Stempel und Unterschrift des Postmitarbeiters bestätigt und an NIBC Direct gesendet.
+
+Das PostIdent-Verfahren ist in der Regel für den Kunden kostenfrei.
+
+====================================================
+Benötige ich ein Referenzkonto, um bei NIBC Direct ein Konto zu eröffnen?
+
+Ja, als Kunde benötigen Sie ein Zahlungsverkehrs- oder Girokonto als Referenzkonto, auf das Sie bspw. die erwirtschafteten Zinsen oder einen fälligen Festgeldbetrag überweisen können. Dieses Referenzkonto muss bei einer Bank in Deutschland unterhalten werden.
+
+====================================================
+ Wer darf ein Konto bei NIBC Direct eröffnen?
+
+Jeder, der volljährig ist und einen festen Wohnsitz in Deutschland hat und hier steuerpflichtig ist, kann ein Konto eröffnen. Tagesgeld-, Festgeld- und Kombigeldkonten sowie Depots bei NIBC Direct sind ausschließlich der privaten Nutzung vorbehalten.
+
+Wenn Sie ausländischer Staatsbürger sind, benötigen wir für die Bearbeitung des eingereichten Antrags auf Kontoeröffnung außerdem eine Meldebescheinigung im Original (nicht älter als zwei Monate), aus der ein Wohnsitz in Deutschland hervorgeht.
+
+====================================================
+Kann ich ein Gemeinschaftskonto eröffnen?
+
+Ja, bei NIBC Direct kann man Gemeinschaftskonten eröffnen. Allerdings sind maximal 2 Kontoinhaber möglich.
+
+====================================================
+ Kann ich mehrere Konten bei Ihnen führen? Wenn ja: Gibt es eine Höchstanzahl für Tagesgeld-, Festgeld- und Kombigeldkonten bzw. Depots?
+
+Es gibt keine maximale Anzahl von Konten pro Kunde. Sie können gerne mehrere Konten bei uns führen.
+
+====================================================
+ Wie hoch ist das Überweisungslimit des Tagesgeldkontos?
+
+Zu Ihrer Sicherheit haben wir Auszahlungen von Ihrem Tagesgeldkonto durch Überweisung auf das von Ihnen angegebene Referenzkonto im Online-Banking auf einen Höchstbetrag von € 100.000 pro Tag festgelegt.
+
+Selbstverständlich haben Sie jederzeit die Möglichkeit, dieses Limit per legitimierter Mitteilung im Online-Banking anzupassen. Die Anpassung wird innerhalb eines Bankarbeitstages umgesetzt.
+
+====================================================
+Nach welcher Zinsmethode werden die Zinsen berechnet?
+
+Die Zinsen auf unseren Anlagekonten werden nach der deutschen Zinsmethode 30/360 berechnet. Somit erhält ein Zinsmonat stets 30 und ein Zinsjahr stets 360 Tage.
+
+====================================================
+Muss ich ein Tagesgeldkonto eröffnen, wenn ich ein Festgeldkonto abschließen will?
+
+Ja, Sie müssen ein Tagesgeldkonto eröffnen, um ein Festgeldkonto bei uns führen zu können. In diesem Fall übersenden Sie uns mit den Unterlagen auf Eröffnung eines Tagesgeldkontovertrags den ausgefüllten und unterzeichneten "Antrag auf Eröffnung des Festgeldkontos".
+
+====================================================
+Bucht NIBC Direct den Anlagebetrag für mein Festgeld von meinem Referenzkonto ab?
+
+Nein, Abbuchungen und Lastschriften sind aus Sicherheitsgründen leider nicht möglich. Bitte überweisen Sie den für die Festgeld- oder die Kombigeldanlage gewünschten Betrag auf Ihr Tagesgeldkonto (Mehr.Zins.Konto). Wenn uns bereits ein Festgeld- oder Kombigeldauftrag vorliegt, legen wir das Fest- bzw. Kombigeld für Sie an. Schneller und einfacher geht es, wenn Sie dies per Online-Banking selbst erledigen.
+
+====================================================
+Wie und bis wann kann ich die Kontoeröffnung widerrufen?
+
+Innerhalb einer Frist von 2 Wochen kann der Verbraucher seine Willenserklärung widerrufen und ist dann nicht mehr an den Vertrag gebunden. Die früher als Fernabsatzgesetz bekannten Regelungen der §§ 312b ff. BGB finden Anwendung auf Fernabsatzverträge, also auf Kauf- oder Dienstverträge, die per Telefon, per Internet oder über andere Fernkommunikationsmittel abgeschlossen werden bzw. wurden. Bei Fernabsatzverträgen wird dem Verbraucher ein grundsätzliches Widerrufsrecht eingeräumt.
+
+====================================================
+Was bedeutet MiFID II für NIBC Direct Kunden?
+
+Bereits unter MiFID I waren Banken und so auch NIBC Direct gefordert, eine Einstufung ihrer Kunden in verschiedene Anlegertypen vorzunehmen. MiFID II dehnt die Anforderungen des Anlegerschutzes auf sämtliche Kundenkategorien aus. NIBC Direct erbringt Wertpapierdienstleistungen und -nebendienstleistungen ausschließlich für Privatkunden, die im eigenen wirtschaftlichen Interesse handeln.
+
+Außerdem besteht die Anforderung, sämtliche an Kunden herausgegebene Informationen klar und verständlich zu gestalten.
+
+====================================================
+Kann ich als Depotkunde die aktualisierte Auflage der “Basisinformationen über Wertpapiere und andere Kapitalanlagen” bei NIBC Direct bekommen?
+
+Ja, bitte loggen Sie sich in Ihr Online-Banking ein. Unter Angebote > Depot > Abruf der aktuellen Broschüre „Basisinformationen über Wertpapiere und weitere Kapitalanlagen“ können Sie unter Angabe Ihres Namens und Ihrer Depotnummer die aktuelle Auflage der “Basisinformationen über Wertpapiere und andere Kapitalanlagen” abrufen.
+
+====================================================
+Was ändert sich bei der Depoteröffnung?
+
+Aufgrund geänderter Vorschriften gibt es kein Protokoll nach Wertpapierhandelsgesetz mehr, sondern eine sogenannte Geeignetheitserklärung. Die Geeignetheitserklärung begründet nunmehr die Angemessenheit eines Finanzinstruments für den jeweiligen Kunden. Im beratungsfreien Geschäft von NIBC Direct bedeutet dies, dass die Kenntnissen und Erfahrungen eines Antragsstellers in Bezug auf Geschäfte mit bestimmten Arten von Finanzinstrumenten oder Wertpapierdienstleistungen abgefragt werden. Außerdem erfolgt die Einstufung als Privatkunde.
+
+====================================================
+Wieso werde ich als Privatkunde eingestuft?
+
+NIBC Direct erbringt Wertpapierdienstleistungen und Wertpapiernebendienstleistungen ausschließlich für Privatkunden, die im eigenen wirtschaftlichen Interesse handeln
+
+====================================================
+Ist eine Heraufstufung zum professionellen Kunden möglich?
+
+Nein, NIBC Direct erbringt Wertpapierdienstleistungen und Wertpapiernebendienstleistungen ausschließlich für Privatkunden, die in eigenem wirtschaftlichen Interesse handeln. Die Möglichkeit einer Heraufstufung vom Privatkunden zum professionellen Kunden besteht bei der Bank nicht.
+
+====================================================
+Was sind PRIIPs?
+
+PRIIPs sind Basisinformationsblätter für verpackte Anlageprodukte für Kleinanleger und Versicherungsanlageprodukte. Diese stellen wir Ihnen ab dem 1.1.2018 vor dem Erwerb eines entsprechenden PRIIP-Produkts im Rahmen der gesetzlichen Vorgaben im Online-/Mobile Brokerage unter anderem im Erwerbsorder-Prozess nach Eingabe der entsprechenden WKN über den Textlink "Basisinformationsblatt (BIB)" kostenlos zur Verfügung.
+
+Dieses können Sie von dort aus kostenlos aufrufen und auf einem Datenträger speichern. Ab dem 3. Januar 2018 stellen wir Ihnen zudem die „Kosteninformation gemäß § 63 Absatz 7 Wertpapierhandelsgesetz“ vor jeder Ordererteilung (Erwerb und Veräußerung) zur Verfügung
+
+====================================================
+Wie funktioniert die Videoidentifikation mittels POSTIDENT durch Video-Chat?
+
+Am Ende des Antragsprozesses werden Sie zur Legitimation in das Portal der Deutschen Post weitergeleitet. Entscheiden Sie sich hier für die Legitimation via Video-Chat, werden Sie mit einem Mitarbeiter der Deutschen Post verbunden. Dieser stellt Ihre Identität anhand eines Ausweisdokumentes fest. Der Prozess dauert nur wenige Minuten und Sie können ihn ganz bequem an PC, Tablet oder Smartphone durchführen.
+
+====================================================
+Welche Ausweisdokumente werden für POSTIDENT akzeptiert?
+
+    Gültige deutsche Personalausweise (auch vorläufige)
+
+    Gültige deutsche Reisepässe (auch vorläufige)
+
+    Gültige deutsche elektronische Aufenthaltstitel
+
+    Ausländische Reisepässe der folgenden Länder: Albanien, Australien, Belgien, Bosnien und Herzegowina, Bulgarien, Dänemark, Deutschland, Estland, Finnland, Frankreich, Griechenland, Irland, Island, Italien, Japan, Kanada, Kosovo, Kroatien, Lettland, Liechtenstein, Litauen, Luxemburg, Malta, Mazedonien, Montenegro, Neuseeland, Niederlande, Norwegen, Österreich, Polen, Portugal, Rumänien, Russische Föderation, Schweden, Schweiz, Serbien, Slowakei, Slowenien, Spanien, Tschechische Republik, Türkei, Ukraine, Ungarn, Vatikanstaat, Vereinigtes Königreich Großbritannien und Nordirland, Vereinigte Staaten von Amerika, Zypern
+
+    Ausländische Personalausweise der folgenden Länder: Albanien, Belgien, Bosnien und Herzegowina, Bulgarien, Estland, Finnland, Italien, Kosovo, Kroatien, Lettland, Liechtenstein, Litauen, Malta, Niederlande, Österreich, Polen, Schweden, Schweiz, Slowakei, Spanien, Tschechische Republik, Ungarn, Zypern
+
+====================================================
+Was benötige ich für die Videoidentifikation?
+
+Sie benötigen ein gültiges Ausweisdokument, einen PC mit aktuellem Browser, Webcam und Mikrofon sowie das Mobiltelefon für den Erhalt des Ident-Codes. Die Videolegitimation funktioniert alternativ zum PC auch mit einem Smartphone oder Tablet. Das Verfahren unterstützt sowohl Android- als auch iOS-Betriebssysteme.
+
+====================================================
+Was benötige ich für die Videoidentifikation am Smartphone/Tablet?
+
+Für die mobile Identifikation benötigen Sie ein gültiges Ausweisdokument und ein Smartphone oder Tablet mit Android oder iOS Betriebssystem.
+
+====================================================
+Wie sicher ist dieses Verfahren?
+
+Sowohl die NIBC Direct als auch die Deutsche Post, über die die Legitimation vorgenommen wird, stehen für Sicherheit und Vertrauen im Informationsaustausch. Die Deutsche Post bietet bei der Identifizierung ein Höchstmaß an Sicherheit. Alle Daten werden ausschließlich auf Servern in Deutschland verarbeitet und gespeichert. Zudem wird der Datenaustausch während der Videokommunikation verschlüsselt.
+
+====================================================
+Kann ich bei Eingabe meiner Order die anfallenden Gebühren sehen?
+
+Nein, die Gebühren können Sie bei Ordereingabe nicht sehen. Bei der Ordereingabe sehen Sie nur einen vorläufigen Ordergegenwert. Dieser setzt sich aus dem letzten (Referenz-)Kurs, multipliziert mit der Stückzahl der Anteile, zusammen. Eventuelle Kursänderungen und eventuell anfallende Entgelte können aus technischen Gründen nicht berücksichtigt werden. Die Ordergebühr ist abhängig vom Ausführungskurs Ihrer Order. Da dieser zur Aufgabezeit der Order noch nicht vorhanden ist, ist keine Anzeige der Gebührenhöhe möglich.
+
+====================================================
+ Wie hoch sind die börslichen Transaktionsgebühren? Wie sind die aktuellen Konditionen?
+
+Grundsätzlich beziehen sich die Transaktions-/Handelsgebühren auf den Gegenwert einer börslichen Order. Bei NIBC Direct besteht eine Mindestordergebühr von € 9,90 sowie eine maximale Ordergebühr von € 44,90. Diese Gebühr erhöht sich ab dem Schwellenwert von € 17.500 Ordervolumen nicht weiter. Sie bleibt, unabhängig von der Höhe des Ordergegenwerts, ab € 17.500 unverändert. Die untere Tabelle zeigt die NIBC Direct Ordergebühren (ohne fremde Spesen) am Beispiel von Aktien und aktienähnlichen Produkten, die auf den Kurswert notieren.
+
+Ordergegenwert
+
+Ordergebühr
+
+  € 1.000
+
+  € 9,90
+
+Minimale Ordergebühr
+
+  € 2.000
+
+  € 9,90
+
+  € 5.000
+
+  € 17,40
+
+  € 8.000
+
+  € 24,90
+
+  € 10.000
+
+  € 29,90
+
+  € 15.000
+
+  € 42,40
+
+  € 16.000
+
+  € 44,90
+
+  € 20.000
+
+  € 44,90
+
+Maximale Ordergebühr
+
+====================================================
+ Wie hoch sind die bankfremden Gebühren - die fremden Spesen - der Börsenplätze?
+
+Die Höhe und die Preisänderung der fremden Spesen können von NIBC Direct nicht beeinflusst werden. Informationen zu der Höhe von fremden Spesen erhalten Sie in der Regel auf den jeweiligen Webseiten der jeweiligen Handelsplätze.
+
+Berlin:
+
+Hier finden Sie Preislisten unter dem Hauptmenüpunkt "Gebühren".
+
+Düsseldorf:
+
+Unter dem Hauptmenüpunkt "Die Börse" finden Sie den Menüpunkt "Informationen". Dort finden Sie sämtliche relevanten Details rund um den Handel.
+
+Frankfurt am Main:
+
+Frankfurt: Gehen Sie unter dem Menüpunkt „Wissen“ auf „Börsenwissen“, dann „Handeln an der Frankfurter Börse“ und hier auf „Handelskosten“.
+
+Hamburg - Hannover:
+
+Unter dem Hauptmenüpunkt "Über uns" finden Sie den Untermenüpunkt "Regelwerke". Dort finden Sie derzeit die Gebührenordnung der Börse.
+
+München:
+
+Wenn Sie den Begriff "Organisation" anklicken, können Sie über "Regelwerke" die Gebührenordnung einsehen.
+
+Scoach:
+
+Unter dem Hauptmenüpunkt "Über uns" finden Sie den Untermenüpunkt "Zulassung & Regelwerke". Hier befindet sich derzeit ein Preisverzeichnis.
+
+Stuttgart:
+
+Wählen Sie in der Kopfzeile der Website den Link "Regelwerke" unter "Unternehmen" aus. Hier finden Sie derzeit das Dokument "Gebührenordnung".
+
+Tradegate:
+
+Derzeit finden Sie in der Fußzeile den Link "Regelwerk/Bekanntmachungen". Hier finden Sie Ausführungen zur Gebührenordnung.
+
+XETRA®:
+
+In der Kopfzeile finden Sie derzeit der Link "Regelwerke der FWB". Hier ist die Gebührenordnung einsehbar.
+
+Alle Angaben zu den Börsenplätzen sind ohne Gewähr. Umstrukturierungen der jeweiligen Internetseiten sowie Änderungen der Gebührenordnungen der Börsen liegen nicht im Verantwortungsbereich von NIBC Direct.
+
+Falls Sie weitergehende Fragen zu der Gebühren-/Handelsordnung der jeweiligen Börsenplätze haben, wenden Sie sich bitte direkt an diese.
+
+====================================================
+Wird mir im Online-Brokerage-Bereich das genaue Ordervolumen angezeigt?
+
+Bei der Ordereingabe wird der vorläufige Ordergegenwert auf der Basis des letzten Referenzkurses des Wertpapiers berechnet. Dieser enthält keine Entgelte. Der tatsächliche Ausführungskurs wird erst mit der Orderausführung ermittelt und kann daher von dem zugrunde gelegten Referenzkurs abweichen.
+
+====================================================
+ Wie wurde meine Order ausgeführt?
+
+Die Orderausführung können Sie im Online-Banking-Bereich prüfen. Bitte melden Sie sich über www.nibcdirect.de unter Login mit Ihren Zugangsdaten an. Unter dem Reiter Online-Brokerage finden Sie die Orderfunktionalitäten Ihres NIBC Direct Depots. Hier können Sie Informationen zu Ihrem Orderstatus abfragen und den Ausführungskurs Ihrer Order einsehen.
+
+====================================================
+Welche Ordergültigkeiten kann ich erfassen?
+
+Unlimitierte Orders (Orders ohne vom Anleger festgelegte Kurslimite) ohne Gültigkeitsangabe sind grundsätzlich sofort und über den Jahresultimo hinaus gültig. Sie haben die Möglichkeit, beim Kauf und Verkauf von Wertpapieren selbst eine Gültigkeit zu bestimmen. Wählen Sie dazu einfach aus dem Auswahlfeld "Gültig bis". Bitte beachten Sie die maximal mögliche Ordergültigkeit: 90 Tage für XETRA® und Scoach oder bis Jahresende für alle anderen nationalen Börsen.
+
+====================================================
+ Für welche Börsenplätze kann ich eine Order erfassen?
+
+Über NIBC Direct können Sie bei folgenden Börsenplätzen Ordereingaben platzieren:
+
+Börse
+
+Handelszeiten
+
+Berlin
+
+08:00-20:00 Uhr
+
+Düsseldorf
+
+08:00-20:00 Uhr
+
+Frankfurt am Main
+
+09:00-20:00 Uhr
+
+Hamburg - Hannover
+
+08:00-20:00 Uhr
+
+München
+
+09:00-20:00 Uhr
+
+Scoach
+
+09:00-20:00 Uhr
+
+Stuttgart
+
+09:00-20:00 Uhr
+
+Tradegate
+
+08:00-22:00 Uhr
+
+XETRA®
+
+09:00-17:35 Uhr
+
+====================================================
+Was kann ich alles über mein NIBC Direct Depot kaufen?
+
+Mit dem kostenlosen Depot haben Sie die Möglichkeit, Wertpapiere (Aktien, Fonds, ETFs, Anleihen, Zertifikate, Optionsscheine) über alle deutschen Präsenzbörsen und XETRA® zu handeln, zu kaufen oder zu verkaufen. Zusätzlich können Sie ca. 12.000 Fonds handeln, viele davon zu einem reduzierten Ausgabeaufschlag.
+
+====================================================
+Was ist eine Teilausführung?
+
+Wenn eine erteilte Order wegen der Marktlage nicht vollständig ausgeführt werden konnte, kann es bis zum Ende der Gültigkeitsdauer der Order zu mehreren Teilausführungen kommen. Beim Handelssystem XETRA® werden Kauf- und Verkaufsaufträge von Wertpapieren standardmäßig dann in Einzeltransaktionen aufgeteilt, wenn eine Order nicht auf ein ausreichend großes Aktienangebot trifft.
+
+====================================================
+Kann es bei meiner Order zu einer Teilausführung kommen?
+
+Ja, infolge entsprechender Marktverhältnisse kann es zu Teilausführungen kommen. Wenn mehrere Teilausführungen an einem Tag erfolgen, werden sie zusammengefasst und mit einem Mischkurs abgerechnet (inklusive Auflistung der einzelnen Kurse mit Stückzahl). Somit zahlen Sie nicht mehrfach Ordergebühren am selben Handelstag.
+
+====================================================
+ Welche Orderzusätze kann ich bei NIBC Direct erfassen?
+
+Folgende Handelszusätze können Sie bei NIBC Direct erfassen:
+
+Stop-Loss-Order
+
+Eine Stop-Loss-Order ist ein bedingter Verkaufsauftrag. Durch das Setzen einer Stop-Loss-Order können bereits erzielte Gewinne gesichert oder Verluste eingeschränkt werden. Dabei setzt der Anleger ein Stop-Loss-Limit. Sobald eine Kursfeststellung (mit Umsatz) dieses gesetzte Limit erreicht oder unterschritten hat, werden die Wertpapiere zum nächstmöglichen Zeitpunkt bestens verkauft. Es gibt keine Garantie für den zu erzielenden Verkaufskurs. Dieser kann unter, aber auch über dem gesetzten Stop-Loss-Limit liegen.
+
+Auction only (XETRA®, elektronischer Handel)
+
+Sie können eine Order mit dem Zusatz "Auction only" erfassen. Diese Order wird innerhalb des fortlaufenden Börsenhandels nicht beachtet und bezieht sich nur auf elektronische Börsenplätze (XETRA®). Erst bei einer Auktion wird diese Order bei der Kursfeststellung berücksichtigt. Eine Auktion findet außerhalb des gewöhnlichen fortlaufenden Handels statt, mindestens 3-mal am Tag: zur Handelseröffnung, zur Kasse (13:00-13:30 Uhr) und zum Abschluss des Handelstages.
+
+Fill or Kill (FoK)
+
+Bezeichnung einer Variante eines Kauf- oder Verkaufsauftrags im elektronischen Handelssystem XETRA®. Solche Aufträge müssen sofort entweder vollständig ausgeführt werden oder gar nicht; eine Teilausführung existiert nicht. Dies bedeutet, dass die Order gelöscht wird, wenn eine vollständige und sofortige Ausführung nicht möglich ist.
+
+Hinweis: Die Erteilung eines Auftrags mit dem Zusatz "Fill or Kill" außerhalb der Handelszeit führt automatisch zu einer Orderablehnung. Während der Handelszeit kann eine Order ebenfalls abgelehnt werden, was zu einer automatischen Streichung des Auftrags führt. Gründe hierfür sind u.a. laufende Auktionen auf XETRA® mit dem jeweiligen Wertpapier. Aus diesem Grund ist die Erteilung des Zusatzes "Fill or Kill" nur in der Zeit von 09:05 bis 17:25 Uhr möglich.
+
+Immediate or Cancel (IoC)
+
+Eine Order im elektronischen Handelssystem XETRA® mit dem Zusatz "Immediate or Cancel" wird sofort (Immediate) und möglichst vollständig ausgeführt. Der Teil der Order, der nicht ausgeführt werden konnte, wird sofort gestrichen (Cancel). Bitte beachten Sie, dass auch bei diesem Orderzusatz Teilausführungen (mehrere Transaktionen zum Erhalt des Ordervolumens durch zum Zeitpunkt der Order nicht vorhandenes Wertpapierangebot) möglich sind.
+
+Hinweis: Die Erteilung eines Auftrags mit dem Zusatz "Immediate or Cancel" außerhalb der Handelszeit führt automatisch zu einer Orderablehnung. Während der Handelszeit kann eine Order ebenfalls abgelehnt werden, was auch zu einer automatischen Streichung des Auftrags führt. Gründe hierfür sind u.a. laufende Auktionen auf XETRA® in dem jeweiligen Wertpapier. Aus diesem Grund ist die Erteilung des Zusatzes "Immediate or Cancel" nur in der Zeit von 09:05 bis 17:25 Uhr möglich.
+
+====================================================
+Kann ich Day-Trading betreiben?
+
+Das Tätigen von Leerverkäufen oder von Wertpapierleihe ist nicht Teil des Leistungsangebots von NIBC Direct. Daher kann dieses Handelsintervall über das NIBC Direct Brokerage nicht in Anspruch genommen werden.
+
+====================================================
+Kann man Fondssparpläne einrichten?
+
+Derzeit bietet NIBC Direct die Einrichtung von Fondssparplänen nicht an.
+
+====================================================
+Wann erhalte ich eine Orderbestätigung?
+
+Nach erfolgreicher Orderausführung wird Ihnen eine elektronische Orderbestätigung in Ihre Postbox (elektronischer Briefkasten) innerhalb des Online-Banking-Bereichs zugestellt.
+
+====================================================
+Wann wird meine Fondsorder ausgeführt?
+
+In der Regel haben Fonds einen täglichen Orderannahmeschluss. In individuellen Fällen - je nach Beschaffenheit des Fonds - variiert der Ausführungszeitpunkt und somit der Orderannahmeschluss. Derzeit bietet NIBC Direct ca. 12.000 außerbörsliche Fonds an.
+
+====================================================
+Wie sind die Konditionen beim Fondskauf ausgestaltet?
+
+Bei den meisten Fonds bieten wir Ihnen einen Kundenrabatt von bis zu 40% auf den regulären Ausgabeaufschlag an. Bei Erteilung der Fondsorder über die Kapitalanlagegesellschaft (KAG) fallen zudem keine zusätzlichen Ordergebühren an. Bei NIBC Direct können Sie derzeit Anteile von ca. 12.000 außerbörslichen Fonds kaufen.Bei den meisten Fonds bieten wir Ihnen einen Kundenrabatt von bis zu 40% auf den regulären Ausgabeaufschlag an. Bei Erteilung der Fondsorder über die Kapitalanlagegesellschaft (KAG) fallen zudem keine zusätzlichen Ordergebühren an. Bei NIBC Direct können Sie derzeit Anteile von ca. 12.000 außerbörslichen Fonds kaufen.
+
+====================================================
+Wie viele Fonds werden über NIBC Direct angeboten?
+
+NIBC Direct bietet aktuell ca. 12.000 zumeist außerbörsliche Fonds zum Handel an, viele davon zu einem reduzierten Ausgabeaufschlag.
+
+====================================================
+Welche Wertpapiere sind bei NIBC Direct handelbar?
+
+Folgende Wertpapiere können Sie bei NIBC Direct handeln: Aktien, Anleihen, Wandel- und Optionsanleihen, Indexzertifikate, Genussscheine, Optionsscheine, Investmentfondsanteile und ETFs.
+
+====================================================
+Kann ich bei NIBC Direct Neuemissionen (IPOs) zeichnen?
+
+Die Zeichnung von Neuemissionen (Aktien, Renten) ist bei NIBC Direct möglich. Bei erfolgter Zuteilung werden die Wertpapiere an Ihr Depot übertragen.
+
+====================================================
+Wie erfahre ich, ob ich bei einer Neuemission (IPO) eine Zuteilung erhalten habe?
+
+Die Zuteilung neuer Wertpapiere im Rahmen einer Neuemission erfolgt oft am späten Nachmittag des Vortages der ersten Börsennotiz. Ob Sie eine Zuteilung erhalten haben, können Sie in Ihrem Depot erfahren. Rufen Sie dort unter "Brokerage" das "Orderbuch" auf. Im Falle einer Zuteilung wird Ihre Order als ausgeführt ausgewiesen. Sollte noch keine Zuteilung erfolgt sein, so bleibt der Orderstatus weiterhin als offen vermerkt. Falls Sie bei der Zuteilung nicht berücksichtigt worden sind, wird Ihre Order aus dem Orderbuch gelöscht. Das zur Deckung der Zeichnung reservierte Anlagekapital wird entweder im Umfang der Zuteilung von Ihrem Tagesgeldkonto (Mehr.Zins.Konto) als Verrechnungskonto abgebucht oder aber wieder freigestellt.
+
+====================================================
+Was ist die US-Quellensteuer?
+
+Die USA erheben derzeit auf bestimmte Einnahmen aus Kapitalvermögen aus US-amerikanischen Wertpapieren eine Steuer von 30%, wenn diese Einnahmen an einen aus US-amerikanischer Perspektive ausländischen Empfänger gezahlt werden. Da diese Steuer gleich am Entstehungsort - also an der Quelle - abgezogen und an die zuständige Finanzbehörde der USA, den Internal Revenue Service (IRS), abgeführt wird, wird sie Quellensteuer genannt.
+
+====================================================
+ Welche Wertpapieranlagen unterliegen der US-Quellensteuer?
+
+Der US-Quellensteuerpflicht unterliegen im Depotgeschäft grundsätzlich alle Erträge aus US-Wertpapieren, d.h. Dividenden aus US-Aktien und Zinsen aus US Registered Bonds (Anleihen, Namenspapiere). "US-Wertpapiere" sind Wertpapiere, die ein in den USA ansässiges Unternehmen emittiert hat. Hierzu zählen auch deutsche und ausländische Zertifikate über US-Aktien.
+
+Pauschal werden von Erwerbern solcher US-Wertpapiere 30% der Einkünfte aus diesen Papieren vom Finanzamt einbehalten. Für eine steuerspezifische Behandlung konsultieren Sie am besten Ihren Steuerberater.
+
+====================================================
+Wie kann ich bei Kapitalmaßnahmen meine Weisungen abgeben?
+
+Ihre Weisungen bei Kapitalmaßnahmen geben Sie am besten elektronisch per Serviceauftrag innerhalb Ihres Online-Banking-Zugangs ab, da diese zeitkritisch sind.
+
+====================================================
+Sind telefonische Orders möglich?
+
+Nein, NIBC Direct bietet eine reine Online-Handelsplattform an und gibt so Kostenvorteile an die Kunden weiter. Ordererfassungen und -änderungen erfolgen ausschließlich online durch die Depotinhaber selbst.
+
+====================================================
+Kann ich eine Order per E-Mail oder per Fax aufgeben?
+
+Nein, NIBC Direct bietet eine reine Online-Handelsplattform an und gibt so Kostenvorteile an die Kunden weiter. Ordererfassungen und  änderungen sind ausschließlich online durch die Depotinhaber nach Anmeldung mit den Zugangsdaten möglich.
+
+====================================================
+Bin ich mit meiner Orderaufgabe an Börsenzeiten gebunden?
+
+Sie können Ihre Order im Internet rund um die Uhr an 7 Tagen die Woche aufgeben. Die Ausführung der Order richtet sich jedoch nach den Öffnungszeiten der jeweiligen Börse.
+
+====================================================
+Bekomme ich eine Ausführungsbestätigung per E-Mail?
+
+NIBC Direct übermittelt keine vertraulichen Informationen per E-Mail. Ihre Abrechnungen erhalten Sie von uns automatisch in Ihrer Postbox (elektronischer Briefkasten) innerhalb der sicheren Online-Banking-Umgebung zugestellt.
+
+====================================================
+Was ist das Orderbuch?
+
+Das Orderbuch enthält alle aktuell vorhandenen Orders. Es zeigt bei Aufruf immer sämtliche noch offenen Orders an.
+
+====================================================
+Was geschieht mit einer Order, die ich nach Handelsschluss als tagesgültig eingebe?
+
+Eine tagesgültige Order, die nach dem Ende der Handelszeiten einer Parkettbörse aufgegeben wurde, wird von der Börse abgewiesen. Eine tagesgültige Order für den Börsenplatz XETRA® wird nach Handelsschluss NICHT an einen anderen Börsenplatz übermittelt.
+
+====================================================
+Was ist eine Stop-Loss-Order?
+
+Eine Stop-Loss-Order ist ein bedingter Verkaufsauftrag. Durch das Setzen einer Stop-Loss-Order können bereits erzielte Gewinne gesichert oder Verluste eingeschränkt werden. Dabei setzt der Anleger ein Stop-Loss-Limit. Sobald eine Kursfeststellung (mit Umsatz) dieses gesetzte Limit erreicht oder unterschritten hat, werden die Wertpapiere zum nächstmöglichen Zeitpunkt bestens verkauft. Es gibt keine Garantie für den zu erzielenden Verkaufskurs. Dieser kann unter, aber auch über dem gesetzten Stop-Loss-Limit liegen.
+
+====================================================
+Was ist eine Stop-Buy-Order?
+
+Eine Stop-Buy-Order ist ein bedingter Kaufauftrag. Sie ist für den Anleger interessant, der erst bei steigendem Kurs die entsprechenden Wertpapiere kaufen möchte. Dabei setzt der Anleger ein Stop-Buy-Limit. Sobald eine Kursfeststellung (mit Umsatz) dieses gesetzte Stop-Buy-Limit erreicht oder überschreitet, werden die Wertpapiere zum nächstmöglichen Zeitpunkt billigst gekauft. Dabei gibt es keine Garantie für den zu erzielenden Kaufkurs. Dieser kann über, aber auch unter dem gesetzten Stop-Buy-Limit liegen.
+
+====================================================
+Wie sehe ich, ob meine Order zum Handel an eine Börse weitergeleitet wurde?
+
+In Ihrem Depot können Sie im "Orderbuch" den Status Ihrer Order einsehen.
+
+====================================================
+Kann ich eine bereits aufgegebene Order löschen?
+
+Ja, falls die Order bisher nicht ausgeführt wurde. Ob eine Order noch gelöscht werden kann, erkennen Sie im Orderbuch an dem Status "Offen". Wird dieser Status bei der gewünschten Order nicht mehr angezeigt, so kann diese nicht mehr gestrichen werden, da sie bereits ausgeführt wurde bzw. die Börse keine Löschungen mehr annimmt. Grundsätzlich benötigen Sie für die Orderstreichung zur Bestätigung eine TAN.
+
+====================================================
+Ist bei Fonds eine Orderstreichung möglich?
+
+Ja, Fondsorders können gestrichen werden, wenn sie den Status "Offen" aufweisen. Das gilt auch für alle anderen Wertpapiergattungen.
+
+====================================================
+Warum ist die Gültigkeit bei Fondsorders auf "Bis Ausführungstag" voreingestellt, wenn die Order taggleich ausgeführt wird?
+
+Bei außerbörslichen Fonds ist die Gültigkeit vorab immer auf "Bis Ausführungstag" eingestellt. Die unterschiedlichen Ausführungszeiten der verschiedenen Fondsgesellschaften werden somit gewürdigt. Es gibt Fonds, deren Kurs nur einmal wöchentlich festgestellt wird. Ohne den Zusatz "Bis Ausführungstag" würde die Order hier nicht zur Ausführung kommen. Daher ist er für Fonds im System voreingestellt.
+
+====================================================
+Was ist ein Mistrade?
+
+Bei einem "Mistrade" kommt ein Geschäft an der Börse zu einem nicht marktgerechten Preis zustande. Solche Geschäfte werden i.d.R. automatisch rückabgewickelt. Beide Handelsparteien werden dann so gestellt, als ob das Geschäft nicht stattgefunden hätte.
+
+====================================================
+Wieso erhalte ich anstatt Realtime-Kursen nur Neartime-Kurse?
+
+NIBC Direct gewährt Ihnen im Online-Brokerage grundsätzlich kostenlose Realtime-Kurse. In einem bestimmten Fall kann es sein, dass Sie anstatt der Realtime-Kurse Neartime-Kurse geliefert bekommen:
+
+Die Handelsplätze, die die Kursversorgung übernehmen und die Daten bereitstellen, setzen für die private Nutzung der Kurse ein monatliches Maximalkontingent von 1.000 Suchabfragen an. Wird dieses Kontingent innerhalb eines Monats überschritten, dann erfolgen die zusätzlichen Suchabfragen - also die, die in diesem Zeitraum über die 1.000. Abfrage hinausgehen - als Neartime-Kurse. Sobald eine neue 4-Wochen-Periode beginnt, erhalten Sie wieder Realtime-Kurse, bis Sie das Maximalkontingent von 1.000 Abfragen pro Monat erneut ausgeschöpft haben.
+
+====================================================
+Wie hoch ist die Einlagensicherung?
+
+Die NIBC Bank N.V. unterliegt den niederländischen Regelungen zur Einlagensicherung.
+
+Jeder Sparer hat Anspruch auf Entschädigung bis zu einer maximalen Höhe von insgesamt € 100.000. Dieses Maximum gilt für alle Konten jedes individuellen Sparers bei einer Bank insgesamt, nicht jedoch für jedes einzelne Konto.
+
+Das bedeutet: Wer mehr als ein Konto bei einer Bank oder einer ihrer Filialen hat, hat nur Anspruch auf eine Entschädigung von insgesamt maximal € 100.000 bei dieser Bank. Einzige Besonderheit: Im Falle von gemeinsamen, sogenannten Oderkonten hat jeder der gemeinsamen Kontoinhaber für sich Anspruch auf den Maximalbetrag von insgesamt € 100.000 bei dieser Bank.
+
+====================================================
+Wie funktioniert das niederländische Einlagensicherungssystem?
+
+Die NIBC Bank N.V. und ihre Niederlassungen in der Europäischen Union unterliegen dem niederländischen Einlagensicherungssystem, welches durch De Nederlandsche Bank N.V. (DNB) beaufsichtigt und umgesetzt wird. Die DNB ist das niederländische Aufsichtsorgan, vergleichbar mit der Deutschen Bundesbank und der Bundesanstalt für Finanzdienstleistungsaufsicht, und übt die Tätigkeiten beider Institute aus. Das Einlagensicherungssystem ist in den Niederlanden seit 1978 gesetzlich verankert, um die Interessen der Einleger zu schützen. Das Einlagensicherungssystem wird vom niederländischen Gesetzeswerk des sogenannten Wft geregelt (Wet op het financieel toezicht) und ist seit dem 1. Januar 2007 als Depositengarantiesystem (niederländisch: Depositogarantiestelsel) bekannt.
+
+====================================================
+Wer sichert die Zahlungsfähigkeit dieses Systems?
+
+Für das von der DNB verwaltete Einlagensicherungssystem kommen die Banken im Grundsatz gemeinschaftlich auf. Seit dem 1. Juli 2013 sind die Banken verpflichtet, einen vierteljährlichen Beitrag in einen Fonds des Einlagensicherungssystems zu zahlen. Im dem Fall, dass das System greift, wird der Fonds ausgezahlt. Ist der Fonds nicht ausreichend, werden die restlichen Kosten - analog zur früheren Vorgehensweise - auf die Banken verteilt.
+
+====================================================
+Welche Entschädigung wird gewährt?
+
+Die NIBC Bank N.V. unterliegt den niederländischen Regelungen zur Einlagensicherung. Diese sehen pro Sparer eine maximale Entschädigung von insgesamt € 100.000 pro Bank vor. Im Falle von gemeinsamen, sogenannten Oderkonten hat jeder der gemeinsamen Kontoinhaber für sich Anspruch auf den Maximalbetrag.
+
+====================================================
+Wann wird die Entschädigung gezahlt?
+
+Die Ausgleichszahlung erfolgt in der Regel innerhalb von 20 Werktagen nach Inkrafttreten der Einlagensicherung. Dafür muss ein Anspruch auf die Entschädigung bei der DNB geltend gemacht werden. Dies kann entweder online oder postalisch erfolgen. In Ausnahmefällen kann die DNB die Frist einmal um maximal 10 Werktage verlängern. Bei Stellung des Anspruchs per E-Mail muss mit längeren Bearbeitungszeiten gerechnet werden. Kunden haben bis zu 3 Monate Zeit, den Anspruch auf die Ausgleichszahlung bei der DNB geltend zu machen.
+
+====================================================
+Können die Aktivitäten der NIBC Bank N.V. am Finanzmarkt Auswirkungen auf die Einlagensicherung haben?
+
+Nein. Im Rahmen des niederländischen Einlagensicherungssystems ist die Sicherheit der Einlagen unabhängig von den Aktivitäten der NIBC Bank N.V. am Finanzmarkt garantiert.
+
+====================================================
+Gibt es bei der De Nederlandsche Bank (DNB) einen deutschsprachigen Ansprechpartner zum Thema Einlagensicherung?
+
+Die auf den Seiten der DNB verwendeten Sprachen sind Niederländisch und Englisch. Sollten Sie eine spezielle Frage zur Einlagensicherung haben, die nicht durch die Fragen und Antworten und andere Informationen auf unserer Website www.nibcdirect.de abgedeckt ist, können Sie diese gerne schriftlich an unser ServiceCenter richten. Wir beantworten diese dann. Uns ist es wichtig, Sie in Fragen der Einlagensicherung präzise und passgenau zu informieren.
+
+====================================================
+ Wie ist die EU-Richtlinie zur Einlagensicherung in nationale niederländische Gesetzgebung umgesetzt worden?
+
+Die EU Richtlinie (2014/49/EU), welche die Einlagensicherung regelt, ist in der nationalen niederländischen Gesetzgebung in drei Stufen umgesetzt worden:
+
+====================================================
+Innerhalb welcher Fristen erfolgt eine Ausgleichszahlung im Einlagensicherungsfall?
+
+Im Einlagensicherungsfall erfolgt eine Ausgleichszahlung in der Regel innerhalb von 20 Werktagen nach Inkrafttreten der Einlagensicherung. Ab 2019 werden die Erstattungsfristen sukzessive verkürzt: 15 Arbeitstage ab dem 1. Januar 2019 bzw. 10 Arbeitstage ab dem 1. Januar 2021 bzw. 7 Arbeitstage ab dem 1. Januar 2024. Dies ist auch auf dem Informationsbogen für Einleger ausgeführt, den wir einmal jährlich in das Online-Banking Postfach unserer Kunden einstellen.
+
+====================================================
+Wie geht eine Ausgleichszahlung im Einlagensicherungsfall konkret von statten?
+
+Eine Ausgleichszahlung erfolgt in der Regel innerhalb von 20 Werktagen nach Inkrafttreten des Einlagensicherungsfalles (in den Folgejahren entsprechend der dann geltenden gesetzlichen Regelung). Dafür muss ein Anspruch auf die Entschädigung bei der De Nederlandsche Bank (DNB) geltend gemacht werden. Die DNB veröffentlicht im Einlagensicherungsfall auf geeignete Weise alle Informationen, die Sie für eine Beantragung Ihres Anspruches benötigen. Für NIBC Direct  ist grundsätzlich zu sagen, dass die Auszahlung der Entschädigung durch ein deutsches Einlagensicherungssystem erfolgt, hier die EdB (Entschädigungseinrichtung deutscher Banken), die im Namen des Einlagensicherungssystems der Niederlande, also der DNB handelt. Der Einleger in Deutschland muss sich also nicht selbst an die Sicherungseinrichtung in den Niederlanden wenden, sondern kann das Entschädigungsverfahren in Deutschland abwickeln (vgl. § 57 EinSiG).
+
+====================================================
 Warum wird das eBanking erneuert und was sind Ihre Vorteile?
 
 Der Markt ändert sich ständig aufgrund der sich wandelnden Technologien und Bedürfnisse der Kunden. Freuen Sie sich über ein einfaches, übersichtliches und modernes Valiant eBanking mit neuen Funktionen. Mit dem neuen Finanzassistenten haben Sie jederzeit den Überblick über Ihre Einnahmen und Ausgaben. Neu sehen Sie zudem Ihre Kreditkartentransaktionen direkt im eBanking und haben ausserdem alle wichtigen Funktionen direkt auf der Startseite bereit. Der Zahlungsassistent erkennt anhand der eingegebenen Kontonummer automatisch die Zahlungsart oder einen bereits bekannten Zahlungsempfänger. Die Wahl des Einzahlungsscheins ist nicht mehr notwendig.
