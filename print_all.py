@@ -16,3 +16,4 @@ if __name__ == '__main__':
 
     with open('data/proc_questions.txt', 'w') as f:
         f.writelines(iterate_proc_questions_in_mongo(mongo_connection, separator=True))
+

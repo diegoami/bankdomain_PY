@@ -1,6 +1,6 @@
 
 import yaml
-from repository.mongo_ops import copy_into_qa_documents, split_qa_documents_into_questions, print_all_questions, iterate_questions_in_mongo, process_questions
+from repository.mongo_ops import copy_into_qa_documents, split_qa_documents_into_questions, print_all_questions, iterate_questions_in_mongo, process_questions, question_for_model
 from preprocess.txt_preprocess import create_corpus, load_corpus, print_corpus, custom_preprocess
 from textacy.preprocess import preprocess_text
 import spacy

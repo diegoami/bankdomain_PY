@@ -98,7 +98,23 @@ def process_questions(mongo_connection, processor, **kwargs):
     proc_questions_coll.remove()
     all_texts = []
     for el in qa_questions_in_db :
-        to_write = {"question": processor(el["question"], **kwargs) , "answer":processor(el["answer"], **kwargs)}
+        to_write = {"question": processor(el["question"], **kwargs) , "answer":processor(el["answer"], **kwargs), "ref_qa": el["_id"] }
         proc_questions_coll.insert_one(to_write)
         all_texts.append(to_write["question"]+"\n"+to_write["answer"])
     return all_texts
+
+
+def question_for_model(mongo_connection, processor, nlp):
+    mongo_client = MongoClient(mongo_connection)
+    bankdomain_db = mongo_client.bankdomain
+    proc_questions_coll = bankdomain_db.proc_questions
+    proc_questions_in_db = proc_questions_coll.find()
+    mod_questions_coll = bankdomain_db.mod_questions_coll
+    mod_questions_coll.remove()
+    all_texts = []
+    for el in proc_questions_in_db:
+        to_write = {"question": processor(el["question"],nlp) , "answer":processor(el["answer"], nlp), "ref_proc": el["_id"],  "ref_qa": el["ref_qa"]}
+        mod_questions_coll.insert_one(to_write)
+        all_texts.append(to_write["question"]+"\n"+to_write["answer"])
+    return all_texts
+

@@ -161,6 +161,7 @@ CUSTOM_LOOKUP = {
     "Referenzkontos" : "Referenzkonto",
     "Referenzkonten" : "Referenzkonto",
     "richtige": "richtig",
+    "SCHUFA" : "Schufa",
     "Selbstauskünfte" :"Selbstauskunft",
     "Shops" : "Shop",
     "Sicherheitsgründen" : "Sicherheitsgrund" ,
