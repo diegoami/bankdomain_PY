@@ -21,6 +21,7 @@ if __name__ == '__main__':
     new_corpus.spacy_lang.Defaults.lemma_lookup.update(CUSTOM_LOOKUP)
     new_corpus.add_texts([doc.text for doc in corpus] )
 
+
     # corpus.spacy_vocab
     count_res = new_corpus.word_doc_freqs(normalize=u'lemma',  as_strings=True)
     #count_res = corpus.word_doc_freqs(normalize=u'lemma',  as_strings=True)
