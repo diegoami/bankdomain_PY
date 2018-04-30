@@ -1,6 +1,6 @@
 
 import yaml
-from repository.mongo_ops import copy_into_qa_documents, split_qa_documents_into_questions, print_all_questions, iterate_questions_in_mongo, iterate_proc_questions_in_mongo
+from repository.mongo_ops import copy_into_qa_documents, split_qa_documents_into_questions, print_all_questions, iterate_questions_in_mongo, iterate_proc_questions_in_mongo, iterate_mod_questions_in_mongo
 
 
 
@@ -17,3 +17,5 @@ if __name__ == '__main__':
     with open('data/proc_questions.txt', 'w') as f:
         f.writelines(iterate_proc_questions_in_mongo(mongo_connection, separator=True))
 
+    with open('data/mod_questions.txt', 'w') as f:
+        f.writelines(iterate_mod_questions_in_mongo(mongo_connection, separator=True))
