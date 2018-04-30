@@ -22,4 +22,5 @@ if __name__ == '__main__':
     new_corpus.add_texts([doc.text for doc in corpus] )
     #print_corpus(corpus)
     # corpus.spacy_vocab
+
     print(new_corpus.word_doc_freqs(normalize=u'lemma',  as_strings=True))
