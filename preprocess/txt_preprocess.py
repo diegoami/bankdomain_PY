@@ -8,7 +8,7 @@ def create_corpus(text_stream):
     corpus = Corpus('de', texts=text_stream)
     return corpus
 
-def load_corpus(filename):
+def load_corpus( filename):
     corpus = Corpus.load(filename)
     return corpus
 
