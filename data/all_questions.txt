@@ -946,7 +946,7 @@ Sie können die Kontoauszüge wie gewohnt im elektronischen Postfach des neuen O
 ====================================================
 Wie kann ich mTAN oder SecureApp beantragen?
 
-Die mTAN und SecureApp können Sie mit einem aktiven Autorisierungsverfahren im Online- Banking beantragen. Sofern Sie noch kein mTAN oder SecureApp Verfahren eingerichtet haben und Ihnen kein Freischaltcode vorliegt, können Sie uns telefonisch kontaktieren. Wir werden Ihnen den Freischaltcode per Post zusenden. Weitere Informationen zu den Autorisierungsverfahren finden Sie hier.
+Die mTAN und SecureApp können Sie mit einem aktiven Autorisierungsverfahren im Online-Banking beantragen. Sofern Sie noch kein mTAN oder SecureApp Verfahren eingerichtet haben und Ihnen kein Freischaltcode vorliegt, können Sie uns telefonisch kontaktieren. Wir werden Ihnen den Freischaltcode per Post zusenden. Weitere Informationen zu den Autorisierungsverfahren finden Sie hier.
 
 ====================================================
 Wie gebe ich eine Transaktion in der netbank SecureApp frei?
@@ -11974,7 +11974,7 @@ Wenn Sie ein Girokonto direkt in einer Bank-Filiale abschließen benötigen Sie 
 ====================================================
 Onlinebanking- Wie funktioniert das?
 
-Online- Banking ist mittlerweile sehr sicher geworden. Der Kunde erhält einen PIN und eine Liste mit Transaktionsnummern. Das kann von Bank zu Bank unterschiedlich sein, aber der Pin in Verbindung mit den transaktionsnummern ist eine der besten Varianten. Der Kunde logt sich mit seiner Kontonummer und seinen PIN auf der Internetseite seiner Bank ein und kann dann Überweisungen in Auftrag geben. Jede getätigte Kontobewegung muss mit einer von der Bank vorgegebenen Transaktionsnummer bestätigt werden. Jede Transaktionsnummer wird nur einmal benutzt. Die Sicherheitsstandards sind sehr hoch und variieren von Bank zu Bank. Neben den Transaktionslisten ist auch eine Anmeldung mit Chipkarte möglich.
+Online-Banking ist mittlerweile sehr sicher geworden. Der Kunde erhält einen PIN und eine Liste mit Transaktionsnummern. Das kann von Bank zu Bank unterschiedlich sein, aber der Pin in Verbindung mit den transaktionsnummern ist eine der besten Varianten. Der Kunde logt sich mit seiner Kontonummer und seinen PIN auf der Internetseite seiner Bank ein und kann dann Überweisungen in Auftrag geben. Jede getätigte Kontobewegung muss mit einer von der Bank vorgegebenen Transaktionsnummer bestätigt werden. Jede Transaktionsnummer wird nur einmal benutzt. Die Sicherheitsstandards sind sehr hoch und variieren von Bank zu Bank. Neben den Transaktionslisten ist auch eine Anmeldung mit Chipkarte möglich.
 
 ====================================================
 Kann ich mein Girokonto kündigen?
@@ -42151,6 +42151,445 @@ In Deutschland bezahlst Du bis zu einem Betrag von 25 Euro grundsätzlich ohne P
 Wo kann ich mit meiner IKEA Kreditkarte kontaktlos bezahlen?
 
 Die meisten großen Einzelhändler und Tankstellen in Deutschland bieten das kontaktlose Bezahlen bereits an. Ob eine kontaktlose Zahlung möglich ist, kann man an dem wellenförmigen Kontaktlos-Symbol erkennen, das am Bezahlterminal aufgedruckt ist.
+
+====================================================
+Wie kann ich meine persönlichen Daten ändern?
+
+Änderungen Ihrer persönlichen Informationen, wie Anschrift oder E-Mail-Adresse, können Sie jederzeit online in Ihrem geschützten Bereich vornehmen.
+
+Änderung meiner Mobilfunknummer
+
+a. Ich möchte meine aktuelle Mobilfunknummer ändern, kann aber noch auf meine alte Nummer zugreifen
+
+Hat sich Ihre Telefonnummer geändert, können Sie diese in Ihrem persönlichen Online-banking-Bereich (im Abschnitt „Daten“) ändern. Die Bestätigungs-SMS für diese Änderung bekommen Sie dann auf Ihre alte Nummer. Ist die Änderung gespeichert, können Sie das mTan-Verfahren wie gewohnt mit der neuen Nummer benutzen.
+
+b. Ich möchte meine aktuelle Mobilfunknummer ändern, kann aber nicht mehr auf meine alte Nummer zugreifen
+
+Wenn Ihre alte Mobilfunknummer bereits deaktiviert wurde, kontaktieren Sie bitte unseren Kundenservice telefonisch oder per E-Mail und teilen Sie uns auf diesem Wege Ihre neue Handynummer mit, damit wir die alte Mobilfunknummer für Transaktionen sperren können.
+
+Aus Sicherheitsgründen ist es notwendig, die neue Handynummer nochmals zu bestätigen. Darum tätigen Sie im Anschluss bitte eine Überweisung (mind. 0,01 Euro) von Ihrem Referenzkonto auf Ihr Tagesgeldkonto und geben Sie beim Verwendungszweck die neue Handynummer an. Sobald die Zahlung auf Ihrem Tagesgeldkonto eingegangen ist, aktivieren wir Ihre neue Handynummer für das mTAN-Verfahren.
+
+c. Ich habe mein Telefon verloren oder es wurde mir gestohlen
+
+Haben Sie Ihr Telefon verloren oder wurde es gestohlen, kontaktieren Sie bitte unseren Kundenservice telefonisch oder per E-Mail, damit wir die Telefonnummer für das mTAN-Verfahren sperren können. Haben Sie Ihr Telefon gefunden oder ein neues Gerät gekauft und die alte Nummer mitgenommen, setzen Sie sich mit uns in Verbindung, damit wir Ihre Mobilfunknummer wieder für das mTAN-Verfahren freischalten können.
+
+Änderung des Referenzkontos
+
+Wenn Sie Ihr Referenzkonto ändern möchten, ist das jederzeit über Ihren Online Banking-Bereich möglich (im Abschnitt „Daten“). Um die Änderung abzuschließen und zu speichern, überweisen Sie einen beliebigen Betrag vom neuen Referenzkonto auf Ihr Tagesgeldkonto.
+
+Bitte beachten Sie, dass auch Ihr neues Referenzkonto ein aktuelles Konto ist, welches Sie in Ihrem Namen bei einer Bank führen.
+
+Änderung meiner Adresse
+
+Um Ihre Anschrift zu ändern, loggen Sie sich über das Onlinebanking ein und wählen Sie „Daten“. Dort können Sie direkt Ihre neue Anschrift hinterlegen. Bestätigt und gespeichert wird Ihre Änderung über das mTAN-Verfahren.
+
+Änderung meiner E-Mail-Adresse
+
+Um Ihre E-Mail-Adresse zu ändern, loggen Sie sich über das Online-Banking ein und wählen Sie „Daten“. Dort können Sie direkt Ihre neue E-Mail-Adresse hinterlegen. Bestätigt und gespeichert wird Ihre Änderung über das mTAN-Verfahren.
+
+Änderung des Kennworts
+
+Um Ihr Kennwort zu ändern, loggen Sie sich über das Online-Banking ein und wählen „Änderung des Kennworts“. Bestätigt und gespeichert wird Ihre Änderung über das mTAN-Verfahren.
+
+Änderung meines Benutzernamens
+
+Aus Sicherheitsgründen können wir die Benutzernamen nicht ändern. Wenn Sie Ihre Benutzernamen verloren haben, setzen Sie sich bitte mit uns in Kontakt.
+
+====================================================
+Was ist ein Referenzkonto?
+
+Das Referenzkonto zu Ihrem Tagesgeldkonto ist Ihr Girokonto, welches Sie in Ihrem Namen bei einer Bank führen; bei Gemeinschaftstagesgeldkonten wird es auf beide Namen geführt. Als Referenzkonto ist nur ein Girokonto zugelassen.
+
+Für Einzahlungen zu Ihrem Tagesgeldkonto verwenden Sie ausschließlich Ihr angegebenes Referenzkonto. Alle Auszahlungen von Ihrem Tagesgeldkonto werden ausschließlich zugunsten des gleichen Referenzkontos gebucht. Das Referenzkonto dient daher Ihrer zusätzlichen Sicherheit.
+
+Ihr Referenzkonto können Sie im persönlichen Kundenbereich ändern, wenn Sie eingeloggt sind.
+
+====================================================
+Wie erhalte ich meinen Kontoauszug?
+
+Sie erhalten Ihren Kontoauszug bei der East West Direkt in elektronischer Form . Sie können den Kontoauszug einfach auf Ihrem Computer speichern oder ausdrucken. Der Kontoauszug wird Ihnen monatsweise zur Verfügung gestellt.
+
+Sie erhalten Ihre Jahressteuerbescheinigung bei der East West Direkt in elektronischer Form. Sie können die Jahressteuerbescheinigung einfach auf Ihrem Computer speichern oder ausdrucken. Die Jahressteuerbescheinigung wird Ihnen jahresweise ab Januar zur Verfügung gestellt.
+
+====================================================
+Wo versteuere ich meine Zinserträge?
+
+Sie wohnen in Deutschland:
+
+Wenn Sie Ihr Geld bei der East West Direkt anlegen und Sie Ihren Wohnsitz in Deutschland haben, müssen Sie beachten, dass die Zinserträge nicht automatisch versteuert werden, weil sich der Hauptsitz der East West Direkt in Luxemburg befindet. Das bedeutet, dass Sie Ihre Zinserträge nach den gesetzlichen Vorgaben jährlich versteuern müssen. Der Zinsertrag wird Ihrem Konto ohne Abzug von Steuern gutgeschrieben. Im Rahmen des automatischen Informationsaustausches erfolgt seitens der East West Direkt jährlich die Meldung über die Höhe Ihres Zinsertrages an die zuständigen Finanzbehörden. Dieser Informationsaustausch entbindet Sie jedoch nicht von der eigenständigen Meldung Ihres Zinsertrages in Ihrer jährlichen Steuererklärung.
+
+Sie wohnen in Luxemburg:
+
+Für Kunden mit Wohnsitz in Luxemburg wird der Zinsertrag ihrem Konto mit Abzug von Steuern (20 %) gutgeschrieben.
+
+====================================================
+Kann ich einen Freistellungsauftrag stellen?
+
+Da die East West Direkt ihren Sitz in Luxemburg hat, ist die Einrichtung eines Freistellungsauftrags nicht möglich. Ihre Zinserträge werden an das für Sie zuständige Finanzamt gemeldet. Somit werden keine Steuern abgeführt. Dies ist ähnlich wie bei einem Freistellungsauftrag, jedoch ist der Betrag nicht begrenzt. Ist der gesetzliche Freibetrag erschöpft, wird das Finanzamt sich gegebenenfalls mit Ihnen in Verbindung setzen.
+
+====================================================
+Kann ich meine Nichtveranlagungsbescheinigung einreichen?
+
+Da die East West Direkt ihren Sitz in Luxemburg hat, ist die Einreichung einer Nichtveranlagungsbescheinigung nicht möglich. Die Zinserträge können jedoch an das für Sie zuständige Finanzamt gemeldet werden. Dennoch: Es werden bei Kunden, die ihren Wohnsitz nicht in Luxemburg haben, keine Steuern abgeführt. Nur Kunden mit Wohnsitz in Luxemburg erhalten ihren Zinsertrag mit Abzug von Steuern (20 %) gutgeschrieben.
+
+Erhalte ich von der East West Direkt eine Bescheinigung über die abgeführten Steuern eines Kalenderjahres?
+
+In Ihrem persönlichen Online-Banking Bereich wird jedes Jahr im Januar eine Jahresübersicht angegeben. Diese Übersicht umfasst alle Zinserträge, die Sie während des Jahres erhalten haben, und (falls zutreffend) den Betrag der einbehaltenen Steuern.
+
+====================================================
+Was muss ich bei meiner Steuererklärung berücksichtigen?
+
+Bitte beachten Sie, dass Zinserträge aus Anlagen bei der East West Direkt bei Kunden, die keinen Wohnsitz in Luxemburg haben, nicht automatisch versteuert werden. Das bedeutet: Die Zinserträge müssen von Ihnen entsprechend den gesetzlichen Vorgaben angemeldet werden.
+
+====================================================
+Wer steht hinter der East West Direkt?
+
+East West Direkt ist eine Marke der luxemburgischen East-West United Bank S.A. Wenn Sie ein Konto bei East West Direkt eröffnen, bedeutet dies, dass Ihr Konto bei der East-West United Bank S.A. in Luxemburg geführt wird. Ihr Vertragspartner ist die
+
+East-West United Bank S.A.
+
+10 Boulevard Joseph II
+
+L-1840 Luxemburg
+
+Da die East-West United Bank S.A. eine luxemburgische Bank ist, ist Ihr Guthaben durch das luxemburgische Einlagensicherungssystem abgesichert. Dieses garantiert einen Betrag von 100.000 Euro pro Person und Bank. Dies gilt selbstverständlich auch für deutsche Anleger. Haben Sie ein Gemeinschaftskonto eröffnet, gilt die Absicherung von 100.000 Euro pro Person.
+
+Schon seit der Gründung 1974 bietet die East-West United Bank sowohl Unternehmen als auch Privatpersonen Finanzdienstleistungen. Seit 2016, bietet die East-West United Bank via East West Direkt auch ausgewählte Online Sparprodukte in Luxemburg und Deutschland – und zwar ohne Gebühren.
+
+Die East-West United Bank ist Teil der Sistema JSFC, eines der größten börsennotierten Investmentgesellschaften Russlands. Die Gruppe investiert in einer Vielzahl von Branchen und ihre Unternehmen beschäftigen mehr als 100.000 Menschen. Sistema ist an der London Stock Exchange (unter dem Symbol „SSA“) und an der Moskauer Börse (unter dem Symbol „AFKS“) aufgeführt.
+
+Weitere Informationen finden Sie hier:
+
+www.ewub.lu
+
+www.sistema.com
+
+====================================================
+Was ist das Einlagensicherungssystem?
+
+Das Einlagensicherungssystem sichert bis zu einem bestimmten Betrag die Rückzahlung von Guthaben auf Bankkonten, falls die Bank, bei der das Geld angelegt ist, zahlungsunfähig wird. Die Regelungen zur Einlagensicherheit gelten in der gesamten Europäischen Union.
+
+Ihr Erspartes ist bei East West Direkt in guten Händen. Alle East West Direkt Konten werden bei der East-West United Bank S.A. geführt. Da die East-West United Bank S.A. eine luxemburgische Bank ist, ist Ihr Guthaben durch das luxemburgische Einlagensicherungssystem abgesichert. Die Bank ist Mitglied der Fonds de Garantie des Dépôts (FGDL – Luxemburgische Einlageversicherungsgesellschaft). Dieses garantiert einen Betrag von 100.000 Euro pro Person und Bank. Dies gilt selbstverständlich auch für deutsche Sparer.
+
+Pro Sparer sind die Einlagen bei East West Direkt bis zu 100.000 Euro abgesichert. Haben Sie ein Gemeinschaftskonto eröffnet, gilt die Absicherung von 100.000 Euro pro Person.
+
+====================================================
+Wer kann ein Konto bei der East West Direkt eröffnen?
+
+Das East West Direkt Tagesgeldkonto richtet sich ausschließlich an Privatpersonen. Sie können ein Tagesgeldkonto eröffnen, wenn Sie folgende Voraussetzungen erfüllen:
+
+    Sie sind mindestens 18 Jahre alt.
+
+    Sie handeln nur auf eigene Rechnung.
+
+    Sie haben Ihren permanenten und steuerlichen Wohnsitz in Deutschland oder in Luxemburg.
+
+    Sie verfügen über ein Konto bei einer Bank in Deutschland oder in Luxemburg.
+
+    Sie besitzen eine gültige E-Mail-Adresse.
+
+    Sie besitzen ein Mobiltelefon mit einer deutschen oder luxemburgischen Handynummer.
+
+    Sie besitzen nicht die amerikanische Staatsangehörigkeit (einschließlich doppelter Staatsangehörigkeit), sind nicht Inhaber einer Greencard und unterliegen nicht dem US-amerikanischen Steuerrecht.
+
+    Sie unterliegen nicht dem FATCA (Foreign Account Tax Compliance Act).
+
+Es is ebenfalls möglich ein Gemeinschaftskonto zu eröffnen.
+
+====================================================
+Welche Produkte bietet die East West Direkt an?
+
+Die East West Direkt ist eine reine Onlinebank und konzentriert sich auf das Angebot von attraktiven Tages- und Festgeldkonten.
+
+Was muss ich beachten, wenn ich mein Geld in Luxemburg anlege?
+
+Wenn Sie Ihr Geld bei der East West Direkt anlegen und Sie keinen Wohnsitz in Luxemburg haben, müssen Sie beachten, dass die Zinserträge nicht direkt versteuert werden. Steuern werden nicht automatisch abgeführt. In Luxemburg gilt eine andere steuerrechtliche Grundlage als in Deutschland. Das bedeutet: Ihre Zinserträge müssen von Ihnen im Rahmen der Steuererklärung versteuert werden. Für Kunden mit Wohnsitz in Luxemburg wird der Zinsertrag Ihrem Konto monatlich mit Abzug von Steuern (20 %) gutgeschrieben. Weitere Informationen zu Steuern finden Sie im Abschnitt Steuern.
+
+East West Direkt unterliegt den luxemburgischen Einlagensicherungsregelungen – auch in Deutschland. Der luxemburgische Einlagensicherungsfonds sieht für Privatanleger pro Bank eine Garantie für 100.000 Euro vor. Dies gilt selbstverständlich auch für deutsche Anleger. Pro Sparer sind die Einlagen bei East West Direkt mit bis zu 100.000 Euro abgesichert. Haben Sie ein Gemeinschaftskonto eröffnet, gilt die Absicherung von 100.000 Euro pro Person.
+
+====================================================
+Wen kontaktiere ich, wenn ich Fragen habe oder ein Problem melden will?
+
+Haben Sie noch offene Fragen? Dann empfehlen wir Ihnen einen Blick in unsere Fragen & Antworten sektion. Dort finden Sie alle wichtigen Informationen zur East West Direkt – von der Kontoeröffnung bis zur Versteuerung Ihrer Zinserträge.
+
+Sollten trotzdem Fragen offenbleiben, zögern Sie nicht und nehmen Sie mit uns Kontakt auf.
+
+====================================================
+Wen sollte ich kontaktieren, wenn ich eine Beschwerde einreichen möchte?
+
+Wir bei East West Direkt geben qualitativ hochwertigen Dienstleistungen Vorrang und geben dem Feedback in dieser Hinsicht hohe Bedeutung. Für den Fall, dass Sie eine Beschwerde über East West Direkt vorlegen möchten, können Sie dies anhand des unten beschriebenen Verfahrens durchführen:
+
+Sie können eine Beschwerde schriftlich per Post oder E-Mail an unseren Leiter der Compliance Abteilung einreichen
+
+East-West United Bank
+
+Compliance Department
+
+10 Boulevard Joseph II L-1840 Luxembourg
+
+E-mail : compliance@ewub.lu
+
+Bei Reklamationen müssen die Kontaktdaten des Kunden eindeutig angegeben werden sowie eine kurze Beschreibung des Grundes der Beschwerde. Unsere Compliance Abteilung wird den Empfang der Beschwerde innerhalb von 10 Werktagen bestätigen und so schnell wie möglich auf Ihre Bedenken eingehen. Auf Wunsch kann unsere Richtlinie zu Beschwerden kostenlos bezogen werden.
+
+Wenn Sie mit der von East West Direkt erteilten Lösung oder Antwort nicht zufrieden sind, können Sie gemäß den Regelungen des Abschnitts 16-07 der Luxemburger Finanzregulierung (CSSF) einen Antrag auf eine außergerichtliche Beilegung der Beschwerde stellen.
+
+Commission de Surveillance du Secteur Financier
+
+Département juridique II L-1150 Luxembourg
+
+Fax : (+352) 26 25 1 – 601
+
+E-mail: reclamation@cssf.lu
+
+Weitere Details auf der Website der CSSF:
+
+www.cssf.lu/consommateur/reclamations
+
+====================================================
+Ich kann mich nicht mehr einloggen, weil ich mein Kennwort vergessen habe. Was kann ich tun?
+
+Gehen Sie bitte auf die East West Direkt Website, klicken Sie auf Login und auf der Login-Seite auf den Link „Kennwort vergessen?“
+
+Geben Sie bitte zunächst Ihren Benutzernamen und den angezeigten Sicherheitscode ein. Falls Sie den Code nicht lesen können, klicken Sie bitte rechts auf die Taste und Sie erhalten einen neuen Sicherheitscode. Wiederholen Sie diesen Vorgang einfach so lange, bis ein für Sie gut lesbarer Code angezeigt wird, und geben Sie diesen dann ein.
+
+Beantworten Sie als Nächstes bitte Ihre persönliche Sicherheitsfrage. Wir senden Ihnen dann umgehend ein neues zeitlich begrenztes Kennwort zu. Sollten Sie das Kennwort aus der empfangenen E-Mail kopieren, achten Sie bitte darauf, keine Leerzeichen mitzukopieren.
+
+====================================================
+Der Zugriff zu meinem Onlinekonto wurde gesperrt. Was soll ich jetzt machen?
+
+Aus Sicherheitsgründen wird Ihr Zugang automatisch gesperrt, falls Ihr Kennwort fünfmal in Folge falsch eingegeben wurde. Wenden Sie sich in diesem Fall bitte direkt telefonisch an unser Service-Center.
+
+====================================================
+Welche Kriterien muss mein Kennwort erfüllen?
+
+Das Kennwort für Ihr East West Direkt muss folgende Anforderungen erfüllen:
+
+    zwischen 8 und 16 Zeichen
+
+    mindestens eine Zahl
+
+Bitte beachten Sie, dass das neue Kennwort nicht identisch mit den letzten drei Kennwörtern sein darf und auch Groß- und Kleinschreibung berücksichtigt werden.
+
+====================================================
+Wozu dient die persönliche Sicherheitsfrage?
+
+Sollten Sie einmal Ihr Kennwort für das Login vergessen haben, kann Ihr Kennwort zurückgesetzt werden. Aus Sicherheitsgründen wird Ihnen dafür Ihre persönliche Frage gestellt, die nur Sie beantworten können. Per E-Mail erhalten Sie dann ein Kennwort, das Sie nach dem Login direkt ändern müssen.
+
+====================================================
+Ist das Onlinebanking bei der East West Direkt sicher?
+
+Die East West Direkt legt großen Wert auf Sicherheit. Das Onlinesparen ist selbstverständlich sicher.
+
+Bei der Kontoeröffnung geben Sie zum Beispiel ein Referenzkonto bei einer Bank an, das auf Ihren Namen eingetragen ist. Als Sicherheitsmaßnahme können Sie von Ihrem East West Direkt Tagesgeldkonto aus nur Überweisungen auf Ihr Referenzkonto durchführen.
+
+Weiterhin haben Sie ausschließlich mittels Benutzername und Kennwort Zugang zu Ihrem Konto. Transaktionen bestätigen Sie durch eine Transaktionsnummer (mTAN), welche wir Ihnen speziell für jede einzelne Transaktion auf Ihr Handy senden.
+
+====================================================
+Was kann ich selbst tun, damit mein Onlinebanking möglichst sicher ist?
+
+Damit Ihr Onlinebanking möglichst sicher ist, beachten Sie bitte folgende Punkte:
+
+    Überprüfen Sie die Endgeräte, auf denen Sie sich einloggen, regelmäßig auf Computerviren mit einem aktuellen Virenscanner plus Firewall. Öffnen Sie keine Anhänge oder installieren Sie keine Software von unbekannten Absendern oder Quellen.
+
+    Wählen Sie ein sicheres Kennwort und schreiben Sie es keinesfalls auf oder teilen es Dritten mit. Mitarbeiter der East West Direkt fragen Sie niemals nach Ihrem Kennwort. Achten Sie während des Logins darauf, dass Ihnen dabei niemand zuschaut.
+
+    Überprüfen Sie die Verschlüsselung und das Zertifikat der Website. Loggen Sie sich direkt nach jeder Sitzung aus. Als zusätzliche Sicherheitsmaßnahme loggt das System Sie automatisch aus, wenn Sie länger als zehn Minuten inaktiv sind.
+
+    Öffnen Sie bitte niemals den Anhang einer E-Mail, wenn Sie den Inhalt nicht einschätzen können oder Zweifel an ihm haben – auch wenn Sie den Absender der E-Mail kennen. Bitte beachten Sie: Die East West Direkt verschickt unaufgefordert keine E-Mails mit Anhang an Kunden.
+
+    Kontrollieren Sie bitte direkt nach dem Login in Ihr Konto, ob die Internetadresse mit „https“ anfängt. Das „s“ in https steht für „secure“. Es zeigt an, dass Sie sich im gesicherten Bereich der East West Direkt befinden.
+
+====================================================
+Was mache ich, wenn ich vermute, dass jemand unbefugt auf mein Konto zugegriffen hat?
+
+Wenden Sie sich in diesem Fall bitte direkt telefonisch an unser Service-Center – ein Mitarbeiter der East West Direkt wird Ihr Konto dann prüfen und gegebenenfalls sperren.
+
+====================================================
+Was mache ich, wenn ich mein Handy verloren habe oder es mir gestohlen wurde?
+
+Haben Sie Ihr Telefon verloren oder wurde es gestohlen, kontaktieren Sie bitte unseren Kundenservice telefonisch oder per E-Mail, damit wir die Telefonnummer für das mTAN-Verfahren sperren können.
+
+====================================================
+Was ist ein mobiles TAN?
+
+Die East West Direkt nutzt aus Sicherheitsgründen für Überweisungen und andere sensible Vorgänge das mobileTAN-Verfahren (auch mTAN genannt). Per SMS erhalten Sie eine sechsstellige Zahlenkombination, die sogenannte mTAN, mit der Sie Ihre Transaktionen bestätigen können.
+
+Das mobileTAN-Verfahren ist ein etabliertes und sehr fortschrittliches Sicherheitsverfahren. Jede mobileTAN kann nur einmal verwendet werden und verliert nach zwei Minuten ihre Gültigkeit. Für jede Online-Transaktion wird Ihnen eine neue mobileTAN auf Ihr Mobiltelefon zugestellt. Ein Missbrauch Ihres Kontozugangs ist in Verbindung mit Ihrem Referenzkonto nahezu ausgeschlossen, denn dies erfordert nicht nur Ihre persönlichen Zugangsdaten und Ihr Kennwort, sondern auch noch den gleichzeitigen Zugang zu Ihrem Mobiltelefon und Ihrem Referenzkonto.
+
+Das Angebot der East West Direkt können ausschließlich Personen nutzen, die zum Zeitpunkt der Kontoeröffnung über eine gültige deutsche (bei Wohnsitz in Deutschland) oder eine luxemburgische Handynummer (bei Wohnsitz in Luxemburg) verfügen.
+
+====================================================
+Ich kann ein PDF-Dokument nicht herunterladen bzw. öffnen. Woran kann das liegen?
+
+Dies kann mit der Version Ihres Browsers zu tun haben. Wir unterstützen die gängigen Browser Internet Explorer, Firefox, Safari und Google Chrome.
+
+Bitte aktualisieren Sie den von Ihnen verwendeten Internetbrowser auf die neueste Version, um Probleme mit einer veralteten Browserversion zu vermeiden. Sollten Probleme beim Download einer East West Direkt Datei auftreten, überprüfen Sie bitte auch die Sicherheitseinstellungen Ihres Browsers. Die Sicherheitseinstellung können Sie kurzzeitig für den Downloadprozess herabsetzen, sollte Ihr Browser das Herunterladen aufgrund der Sicherheitseinstellungen blockieren.
+
+====================================================
+Wie eröffne ich ein Konto?
+
+Sie wohnen in Deutschland:
+
+Die Kontoeröffnung erfolgt ausschließlich online. Ihr Tagesgeldkonto ist schnell und unkompliziert eingerichtet: Klicken Sie auf der Internetseite auf den Button „Konto eröffnen“ und geben Sie Ihre Daten ein.
+
+Die nächsten Schritte bis zur erfolgreichen Kontoeröffnung:
+
+    Sie erhalten von uns innerhalb weniger Minuten eine Auftragsbestätigung per E-Mail mit Ihren Login-Daten und der IBAN-Nummer Ihres neuen Tagesgeldkontos.
+
+    Kunden aus Deutschland identifizieren sich bei der East West Direkt mit dem Postident-Verfahren der Deutschen Post. Dazu loggen Sie sich bitte in Ihren persönlichen Kundenbereich mit Ihren Login-Daten (https://www.eastwestdirekt.lu/thclu/policyenforcer/pages/loginB2C.jsf) ein. Bitte klicken Sie auf den Postident-Link und Sie werden für das Identifizierungs-verfahren zur Website der Deutschen Post weitergeleitet. Bitte folgen Sie den entsprechenden Anweisungen. Dort erfahren Sie auch, wie Sie das Postident-Verfahren über Video abschließen können.
+
+    Sie tӓtigen eine erste Überweisung von Ihrem angegebenen Referenzkonto (z. B. Ihrem Girokonto bei Ihrer Hausbank) auf Ihr East West Direkt Tagesgeldkonto.
+
+Sie wohnen in Luxembourg:
+
+Die Kontoeröffnung erfolgt ausschließlich online. Ihr Tagesgeldkonto ist schnell und unkompliziert eingerichtet: Klicken Sie auf der Internetseite auf den Button „Konto eröffnen“ und geben Sie Ihre Daten ein.
+
+Die nächsten Schritte bis zur erfolgreichen Kontoeröffnung:
+
+    Sie erhalten von uns innerhalb weniger Minuten eine Auftragsbestätigung per E-Mail mit Ihren Login-Daten und der IBAN-Nummer Ihres neuen Tagesgeldkontos.
+
+    Sie schicken uns eine Kopie Ihres Reisepasses oder eine doppelseitige Kopie Ihres Personalausweises per E-Mail.
+
+    Sie tӓtigen eine erste Überweisung von Ihrem angegebenen Referenzkonto (z. B. Ihrem Girokonto bei Ihrer Hausbank) auf Ihr East West Direkt Tagesgeldkonto.
+
+====================================================
+Wie funktioniert das Identifizierungs-Verfahren?
+
+Sie wohnen in Deutschland:
+
+Kunden aus Deutschland identifizieren sich bei der East West Direkt mit dem Postident-Verfahren der Deutschen Post. Dazu loggen Sie sich bitte in Ihren persönlichen Kundenbereich mit Ihren Login-Daten (https://www.eastwestdirekt.lu/thclu/policyenforcer/pages/loginB2C.jsf) ein. Bitte klicken Sie auf den Postident-Link und Sie werden für das Identifizierungsverfahren zur Website der Deutschen Post weitergeleitet. Bitte folgen Sie den entsprechenden Anweisungen. Dort erfahren Sie auch, wie Sie das Postident-Verfahren über Video abschließen können.
+
+Sie wohnen in Luxemburg:
+
+Kunden aus Luxemburg identifizieren sich bei der East West Direkt mit der Kopie ihres Reisepasses oder Personalausweises. Dazu schicken Sie uns einfach eine Kopie Ihres Reisepasses oder Personalausweises (doppelseitig) per E-Mail.
+
+====================================================
+Ist es notwendig, ein gemeinschaftliches Referenzkonto zu haben, um ein Gemeinschaftskonto zu eröffnen?
+
+Ja, um ein Gemeinschaftskonto bei der East West Direkt zu eröffnen, benötigen Sie unbedingt auch ein gemeinschaftliches Referenzkonto, welches Sie auf den Namen beider Gemeinschaftskontoinhaber führen.
+
+Kann ich auch für einen Minderjährigen ein Konto eröffnen?
+
+Leider ist es zurzeit nicht möglich, ein Tages- oder Festgeldkonto für minderjährige Kontoinhaber einzurichten. Das Angebot der East West Direkt richtet sich aktuell ausschließlich an volljährige natürliche Personen.
+
+====================================================
+Wozu wird meine Mobilnummer benötigt?
+
+Die East West Direkt nutzt aus Sicherheitsgründen für Überweisungen und andere sensible Vorgänge das mobile TAN-Verfahren. Per SMS erhalten Sie eine sechsstellige Zahlenkombination, die sogenannte mTAN, mit der Sie Ihre Transaktionen bestätigen können.
+
+Wie lautet der BIC der East West Direkt?
+
+Der BIC für East West Direkt lautet EWUBLUL2.
+
+====================================================
+Ich habe keine Bestätigungsmail erhalten. Was mache ich nun?
+
+Bitte schauen Sie in Ihrem Spampostfach nach. Es kann in Ausnahmefällen vorkommen, dass E-Mails der East West Direkt im Spamordner landen.
+
+Sollte sich die Bestätigungsmail auch nicht in Ihrem Spamordner befinden, haben Sie vielleicht versehentlich eine falsche E-Mail-Adresse angegeben. Kontaktieren Sie in diesem Fall bitte unser Service-Center telefonisch oder per E-Mail.
+
+====================================================
+Welche technischen Voraussetzungen müssen erfüllt sein?
+
+Ihr PC, Tablet oder Smartphone muss über eine stabile Internetverbindung und einen aktuellen Internetbrowser verfügen. Wir empfehlen die Nutzung einer aktuellen Version der folgenden Browser:
+
+    Internet Explorer (ab Version 9+)
+
+    Mozilla Firefox (ab Version 32+)
+
+    Chrome (ab Version 37+)
+
+    Safari (Version 7 für MAC OS X / Version 5.1.7 unter Windows 7)
+
+Um alle Funktionen korrekt nutzen zu können, sollten Sie in Ihrem Browser Java Script aktivieren. Wir empfehlen Cookies zuzulassen, damit wir unsere Angebote Ihren Interessen besser anpassen können.
+
+====================================================
+Was ist ein Tagesgeldkonto?
+
+Das Tagesgeldkonto ist eine unkomplizierte und effektive Methode, um Geldbeträge flexibel und gewinnbringend anzulegen. Im Gegensatz zum klassischen Sparbuch oder zum Festgeldkonto können Sie beim Tagesgeldkonto jederzeit frei über Ihr Geld verfügen. Der Zinssatz ist dabei variabel und kann auf Tagesbasis geändert werden. Den aktuellen Zinssatz finden Sie hier.
+
+Die Kontoführung ist kostenfrei. Die Zinsen werden jeweils zum Ende eines Monats dem Tagesgeldkonto gutgeschrieben. Das Konto wird als reines Guthabenkonto geführt und ist nicht für den Zahlungsverkehr zugelassen.
+
+====================================================
+Was ist ein Festgeldkonto?
+
+Bei einem Festgeldkonto legen Sie Ihr Geld kurzfristig – oder auch über einen längeren Zeitraum zu einem garantierten Zinssatz an. Dabei gilt in der Regel, dass Sie einen höheren Zinssatz garantiert bekommen, je höher die Laufzeit ist.
+
+Während der Laufzeit kann das Konto nicht gekündigt werden. Über das Guthaben kann während der Laufzeit nicht verfügt werden und die Anlagesumme kann nicht verändert werden. Gutschriften zugunsten eines Festgeldkontos werden nicht ausgeführt.
+
+Die Zinsen sind festgeschrieben und werden monatlich dem Tagesgeldkonto gutgeschrieben. Das Guthaben wird bei Fälligkeit automatisch Ihrem Tagesgeldkonto gutgeschrieben. Eine zusätzliche Kündigung ist nicht erforderlich.
+
+Die aktuellen Zinssätze für die verschiedenen Festgelder finden Sie hier.
+
+Ein Festgeldkonto bei der East West Direkt ist kostenlos, genauso wie ein Tagesgeldkonto.
+
+====================================================
+Wie lange ist der Zinssatz garantiert?
+
+Kunden der East West Direkt erhalten auf ihrem Tagesgeldkonto einen garantierten Festzins für den Zeitraum von 3 Monaten nach der Kontoeroffnungsantrags.
+
+Das bedeutet für Sie als Kunde: Auch wenn der East West Direkt Zins sinkt, erhalten Sie im garantierten Zeitraum die vorher festgelegte Zinsrate auf den gesamten Betrag auf Ihrem Tagesgeldkonto – auch für neu eingezahltes Geld.
+
+Für Festgeld gilt der Zinssatz, der zu Beginn der Laufzeit vereinbart wird. Dieser Zinssatz wird Ihnen dann über die vereinbarte Zeit garantiert.
+
+====================================================
+Was ist der Unterschied zwischen Festgeld- und Tagesgeldkonto?
+
+Das Tagesgeldkonto ist eine unkomplizierte und effektive Methode, um Geldbeträge sehr flexibel und dabei gewinnbringend anzulegen. Im Gegensatz zum klassischen Sparbuch oder zum Festgeldkonto können Sie beim Tagesgeldkonto jederzeit frei über Ihr Geld verfügen. Der Zinssatz ist dabei variabel und kann auf Tagesbasis geändert werden.
+
+Bei einem Festgeldkonto ist das anders: Dort hinterlegen Sie Ihr Geld zu einem zuvor fest vereinbarten Zinssatz. Dieser wird Ihnen dann über die vereinbarte Laufzeit garantiert. Während der Laufzeit kann das Festgeldkonto nicht gekündigt werden. Über das Guthaben kann während der Laufzeit nicht verfügt und die Anlagesumme kann nicht verändert werden.
+
+====================================================
+Kann ich auch vorzeitig über mein Festgeld verfügen?
+
+Während der Laufzeit kann das Konto nicht gekündigt werden. Über das Guthaben kann während der Laufzeit nicht verfügt werden und die Anlagesumme kann nicht verändert werden. Gutschriften zugunsten eines Festgeldkontos werden nicht ausgeführt.
+
+====================================================
+Wie kann ich ein Festgeldkonto eröffnen?
+
+Die primäre Voraussetzung für die Eröffnung eines Festgeldkontos ist, dass Sie bereits ein East West Direkt Tagesgeldkonto haben. Sobald dieses Konto geöffnet und aktiviert wurde, können Sie ein Festgeldkonto wie folgt eröffnen:
+
+Melden Sie sich in Ihrem persönlichen Bereich auf der East West Direkt Website an und klicken Sie auf 'Festgeldkonto erstellen'.
+
+Geben Sie den Betrag ein, den Sie investieren möchten, und wählen Sie einen festen Zeitraum.
+
+Es wird dann automatisch eine Transaktionsnummer (mTAN) als SMS an Ihr Mobiltelefon gesendet. Geben Sie diese Nummer in das entsprechende Feld ein und bestätigen Sie dies. Der Prozess wird dann abgeschlossen und Ihr neues Festgeldkonto wird in Ihrer Übersicht angezeigt.
+
+====================================================
+Wie viel Geld muss ich mindestens bzw. wie viel kann ich maximal anlegen?
+
+Für das East West Direkt Tagesgeldkonto gibt es keine Mindesteinlage. Für das Festgeldkonto beträgt die Mindestanlagesumme 1.000 Euro.
+
+Bei der East West Direkt können Sie bis zu 250.000 Euro pro Kunde anlegen (Festgeldkontos und Tagesgeldkonto insgesamt). Wenn Sie planen, eine größere Summe bei uns anzulegen, setzen Sie sich bitte per E-Mail oder telefonisch mit uns in Verbindung.
+
+====================================================
+Wie erfolgt die Zinsgutschrift?
+
+Die Zinsgutschrift Ihrer Tagesgeldanlage erfolgt monatlich am letzten Geschäftstag.
+
+Die Zinsgutschrift Ihrer Festgeldanlage erfolgt monatlich vom Datum der Erstellung berechnet. Die Zinsen werden dem Tagesgeldkonto gutgeschrieben.
+
+====================================================
+Wie hoch sind die Zinserträge?
+
+Den aktuellen Zinssatz finden Sie hier.
+
+Den anzuwendenden Zinssatz für die Verzinsung Ihrer Konten können Sie jederzeit über das Online-Banking Menü erfahren.
+
+====================================================
+Wie berechne ich meine Zinsen?
+
+Die Zinsberechnung erfolgt nach der 30/360 Zinsmethode. Das bedeutet, jeder Monat wird mit 30 Zinstagen, das Zinsjahr mit 360 Tagen berechnet.
+
+====================================================
+Kann ich mehrere Konten bei der East West Direkt eröffnen?
+
+Es kann zeitgleich nur ein Tagesgeldkonto bei der East West Direkt geführt werden. Dafür können Sie mehrere Festgeldkonten bei der East West Direkt eröffnen.
+
+====================================================
+Wie unterscheiden sich Nominal- und Effektivzins
+
+Da die East West Direkt die Zinsen monatlich zahlt, ist der tatsächliche Zins (Effektivzins), den ein Kunde erhält, sogar noch höher. Hier macht sich der Zinseszinseffekt bemerkbar, da die monatlich gezahlten Zinsen weiter mitverzinst werden.
 
 ====================================================
     Was ist bei Diebstahl oder Verlust der Karte zu tun?

@@ -3,14 +3,18 @@ from textacy.preprocess import preprocess_text
 import spacy
 from components.custom_lemmas import CUSTOM_LOOKUP
 
-first_banks = ["PostBank", "PSD", "EthikBank", "TARGOBANK", "Triodos", "Sparda-Bank", "targobank", "FerratumBank", "GarantiBank", "Hanseatic Bank", "Keytrade Bank", "Deutsche Bank", "MERKUR BANK", "Skatbank", "VR-Bank", "norisbank", "Skatbank"]
+POS_IGNORE = ["CONJ", "CCONJ", "DET", "NUM", "PRON", "PUNCT", "SYM", "PART"]
+
+PUNKT_PREPROCESS = ["/", "<", ">", "*", "=", "–"]
+
+first_banks = ["PostBank", "PSD", "EthikBank", "TARGOBANK", "Triodos", "Sparda-Bank", "targobank", "FerratumBank", "GarantiBank", "Hanseatic Bank", "Keytrade Bank", "Deutsche Bank", "MERKUR BANK", "Skatbank", "VR-Bank", "norisbank", "Skatbank", "BLKB"]
 second_banks  = ["solarisBank" "SWK Bank", "DNB", "ING DiBa", "RCI Banque", "Commerzbank"]
-companies = ["comdirect","CIM","Volkswagen", "Opel", "Renault", "Dacia", "Nissan","GRENKE", "Santander", "Fidor", "Credit Europe", "DKB", "HOB", "IKEA" ,"OKB", "Rabo", "Sparda", "Ferratum", "NIBC", "Shaufelonline", "EdB", "GLS", "HVB", "PayPal" ,"East West Direkt", "COMPEON", "DHB", "FINAVI", "Finavi"]
+companies = ["comdirect","CIM","Volkswagen", "Opel", "Renault", "Dacia", "Nissan","GRENKE", "Santander", "Fidor", "Credit Europe", "DKB", "HOB", "IKEA" ,"OKB", "Rabo",  "Ferratum", "NIBC", "Shaufelonline", "EdB", "GLS", "HVB", "PayPal" ,"East West Direkt", "COMPEON", "DHB", "FINAVI", "Finavi", "Fiducia GAD"]
 first_products = ["Kash Reserv", "ROBIN", "VR-FinanzPlan", "NIBCard", "SpardaSecure", "Sparkassen-Card"]
 second_products = ["Kash Borgen", "maxblue", "SecureGo", "SpardaNet", "Kleeblatt", "S-Card"]
 third_products = ["Kash Borgen", "TWINT", "easyKonto", "E-Rechnung", "EB-Banking", "RabDirect"]
-countries = ["Deutschland", "Schweiz", "Österreich", "Luxembourg", "Malta", "Belgien"]
-towns = ["Berlin", "München", "Frankfurt", "Hamburg", "Hannover", "Karslruhe", "Stuttgart", "Köln", "Düsseldorf", "Duisburg", "Mannheim", "Dresden", "Ingolstadt"]
+countries = ["Deutschland", "Schweiz", "Österreich", "Luxembourg", "Malta", "Belgien", "Ruhr", "Hessen"]
+towns = ["Berlin", "München", "Frankfurt", "Hamburg", "Hannover", "Karlsruhe", "Stuttgart", "Köln", "Düsseldorf", "Duisburg", "Mannheim", "Dresden", "Ingolstadt", "Münster"]
 first_bank_name = "DidiBank"
 second_bank_name = "AmbiBank"
 first_product_name = "Dodo"
@@ -19,9 +23,14 @@ third_product_name = "Mimi"
 
 company_name = "Didi "
 country = "Poltawien"
+#
 town = "Oglietzen"
 
-possible_integrator = ["girokonto",  "konto", "einlagen", "behörden", "einstellung","verzeichnis","name", "namens", "bank","banken","prozess","verhältnisse","vereinbarungen", "checks", "check", "fristen", "beratung", "kunde", "kunden", "adresse", "daten", "informationen", "spanne", "sprachen", "sprache", "planung", "bescheid", "situation", "verwaltung", "amt", "schulden", "zahlung", "gefühle", "beratungsstelle", "stunden", "beschluss", "schaden", "pfändung", "versicherung", "vertrag", "abtretung", "anteil", "verfahren", "gesellschaft", "datum", "kosten", "kurs", "transaktion", "order" , "verbot", "freiheit", "nummer", "gremium", "kammer", "unabhängig", "system"]
+possible_integrator = ["girokonto",  "konto", "einlagen", "behörden", "einstellung","verzeichnis","name", "namens", "bank","banken","prozess","verhältnisse","vereinbarungen", "checks", "check", "fristen", "beratung", "kunde", "kunden", "adresse", "daten", "informationen", "spanne", "sprachen", "sprache", "planung", "bescheid", "situation", "verwaltung", "amt", "schulden", "zahlung", "gefühle", "beratungsstelle", "stunden", "beschluss", "schaden", "pfändung", "versicherung", "vertrag", "abtretung", "anteil", "verfahren", "gesellschaft", "datum", "kosten", "kurs", "transaktion", "order" , "verbot", "freiheit", "nummer", "gremium", "kammer", "unabhängig", "system", "limit", "eingang", "ausgang", "gang"]
+
+characters_to_space = ['/', "*"]
+characters_spaced = [' / ', ' * ']
+
 
 def create_corpus(text_stream):
     corpus = Corpus('de', texts=text_stream)
@@ -36,6 +45,11 @@ def print_corpus(corpus):
         print(text)
 
 def replace_bank_names(text):
+    def replace_strings(text, banks, bank_name):
+        for bank in banks:
+            if bank in text:
+                text = text.replace(bank, bank_name)
+        return text
 
     text = replace_strings(text, first_products, first_product_name)
     text = replace_strings(text, second_products, second_product_name)
@@ -47,17 +61,17 @@ def replace_bank_names(text):
     text = replace_strings(text, towns, town)
     return text
 
-
-def replace_strings(text, banks, bank_name):
-    for bank in banks:
-        if bank in text:
-            text = text.replace(bank, bank_name)
+def replace_characters_to_space(text):
+    for index, ctos in enumerate(characters_to_space):
+        text = text.replace(ctos , characters_spaced[index])
     return text
 
 
 def custom_preprocess(text):
+
     text = replace_bank_names(text)
     processed_text = preprocess_text(text, fix_unicode = True, lowercase = False, no_urls = True, no_emails = True, no_phone_numbers = True, no_punct = False, no_numbers=False)
+    text = replace_characters_to_space(text)
     return processed_text
 
 
@@ -66,11 +80,15 @@ def model_process(text, nlp):
     curr_trunc = None
     keep_toks = []
     for token in doc:
-        if (token.pos_ in ["CONJ", "CCONJ", "DET", "NUM", "PRON", "PUNCT", "SYM", "PART"]):
+
+        if (token.text in PUNKT_PREPROCESS):
+            pass
+        elif (token.pos_ in POS_IGNORE):
             pass
         elif curr_trunc:
             found_ende = [p for p in possible_integrator if token.lemma_.endswith(p)]
             if (len(found_ende) > 0):
+
                 keep_toks.append(curr_trunc+found_ende[0])
             else:
                 keep_toks.append(curr_trunc)
@@ -82,7 +100,10 @@ def model_process(text, nlp):
             elif (token.pos_ in ["VERB", "AUX"]):
                 sep_part = [x for x in token.children if x.tag_ == "PTKVZ"]
                 if (len(sep_part) > 0):
-                    keep_toks.append(sep_part[0].text+token.lemma_)
+                    to_app = sep_part[0].text+token.lemma_.lowercase()
+ #                   if (to_app[-1] != 'n'):
+ #                       to_app = to_app + "n"
+                    keep_toks.append(to_app)
                 elif token.pos_ == "VERB":
                     keep_toks.append(token.lemma_)
             else:
@@ -111,5 +132,13 @@ if __name__ == '__main__':
     print(model_process(
         "Schutz für Giro- und Sparkonten (Tagesgeld- und Festgeldkonten)",
         nlp))
+    print(model_process(
+        "Wichtig dabei ist, dass die Gutschrift von Ihrem Arbeitgeber korrekt als Lohn / Gehalt verschlüsselt wurde. Anderenfalls kann diese maschinell nicht als Lohn- / Gehaltseingang erkannt werden.",
+        nlp))
 
-
+    print(model_process(
+        "Wenn Sie einen Computer benutzen, an dem auch andere arbeiten und Sie das ungute Gefühl haben, dass diese eventuell versteckte Seiten einsehen könnten, nachdem Sie die Station verlassen haben, beenden / verlassen Sie Ihre Browser-Software.",
+        nlp))
+    print(model_process(
+        "Reichen Sie uns hierzu den Antrag der anderen Bank mit dem Hinweis auf Auszahlung der Niedrigzins-Garantie ein.",
+        nlp))
