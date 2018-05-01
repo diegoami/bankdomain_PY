@@ -91,6 +91,7 @@ CUSTOM_LOOKUP = {
     "individuelle" : "individuell",
     "Internetzahlungen" : "Internetzahlung",
     "Internetseiten" : "Internetseite",
+    "Investmentgesellschaften" : "Investmentgesellschaft",
     "Jugendfestgeldkontos": "Jugendfestgeldkonto",
     "Jugendfestgeldkonten": "Jugendfestgeldkonto",
     "Jugendtagesgeldkontos": "Jugendtagesgeldkonto",
