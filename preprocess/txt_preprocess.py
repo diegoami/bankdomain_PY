@@ -7,9 +7,9 @@ POS_IGNORE = ["CONJ", "CCONJ", "DET", "NUM", "PRON", "PUNCT", "SYM", "PART"]
 
 PUNKT_PREPROCESS = ["/", "<", ">", "*", "=", "–"]
 
-first_banks = ["PostBank", "PSD", "EthikBank", "TARGOBANK", "Triodos", "Sparda-Bank", "targobank", "FerratumBank", "GarantiBank", "Hanseatic Bank", "Keytrade Bank", "Deutsche Bank", "MERKUR BANK", "Skatbank", "VR-Bank", "norisbank", "Skatbank", "BLKB", "ABN AMRO"]
-second_banks  = ["solarisBank" "SWK Bank", "DNB", "ING DiBa","ING-DiBa" "RCI Banque", "Commerzbank","Postbank", "AmExCo", "DB PGK"]
-companies = ["comdirect","CIM","Volkswagen", "Opel", "Renault", "Dacia", "Nissan","GRENKE", "Santander", "Fidor", "Credit Europe", "DKB", "HOB", "IKEA" ,"OKB", "Rabo",  "Ferratum", "NIBC", "Shaufelonline", "EdB", "GLS", "HVB", "PayPal" ,"East West Direkt", "COMPEON", "DHB", "FINAVI", "Finavi", "Fiducia GAD", "AMRO"]
+first_banks = ["PostBank", "PSD", "EthikBank", "TARGOBANK", "Triodos", "Sparda-Bank", "targobank", "FerratumBank", "GarantiBank", "Hanseatic Bank", "Keytrade Bank", "Deutsche Bank", "MERKUR BANK", "Skatbank", "VR-Bank", "norisbank", "Skatbank", "BLKB", "ABN AMRO", "Austrian Anadi Bank"]
+second_banks  = ["solarisBank" "SWK Bank", "DNB", "ING DiBa","ING-DiBa" "RCI Banque", "Commerzbank","Postbank", "AmExCo", "DB PGK", "UnionInvestment","FinReach", "Crédit Mutuel", "CIC Bank"]
+companies = ["comdirect","CIM","Volkswagen", "Opel", "Renault", "Dacia", "Nissan","GRENKE", "Santander", "Fidor", "Credit Europe", "DKB", "HOB", "IKEA" ,"OKB", "Rabo",  "Ferratum", "NIBC", "Shaufelonline", "EdB", "GLS", "HVB", "PayPal" ,"East West Direkt", "COMPEON", "DHB", "FINAVI", "Finavi", "Fiducia GAD", "AMRO", "Anadi"]
 
 
 products_map = {
@@ -31,7 +31,11 @@ products_map = {
     "TWINT" : "DidiPay",
     "easyKonto" :"DidiEasy",
     "SpardaApp" : "DidiApp",
-    "EB-Banking App": "DidiApp"
+    "EB-Banking App": "DidiApp",
+    "Fleks Horten" : "DidiTagesgeld",
+    "Anadi-Konto" : "DidiKonto",
+    "CrontoPush" : "DidiLogin",
+    "VRNetKey" : "DidiLogin"
 
 }
 countries = ["Deutschland", "Schweiz", "Österreich", "Luxembourg", "Malta", "Belgien", "Ruhr", "Hessen"]
@@ -45,11 +49,11 @@ country = "Poltawien"
 
 town = "Oglietzen"
 
-possible_integrator = ["girokonto",  "konto", "einlagen", "behörden", "einstellung","verzeichnis","name", "namens", "bank","banken","prozess","verhältnisse","vereinbarungen", "checks", "check", "fristen", "beratung", "kunde", "kunden", "adresse", "daten", "informationen", "spanne", "sprachen", "sprache", "planung", "bescheid", "situation", "verwaltung", "amt", "schulden", "zahlung", "gefühle", "beratungsstelle", "stunden", "beschluss", "schaden", "pfändung", "versicherung", "vertrag", "abtretung", "anteil", "verfahren", "gesellschaft", "datum", "kosten", "kurs", "transaktion", "order" , "verbot", "freiheit", "nummer", "gremium", "kammer", "unabhängig", "system", "limit", "eingang", "ausgang", "gang"]
+possible_integrator = ["girokonto",  "konto", "einlagen", "behörden", "einstellung","verzeichnis","name", "namens", "bank","banken","prozess","verhältnisse","vereinbarungen", "checks", "check", "fristen", "beratung", "kunde", "kunden", "adresse", "daten", "informationen", "spanne", "sprachen", "sprache", "planung", "bescheid", "situation", "verwaltung", "amt", "schulden", "zahlung", "gefühle", "beratungsstelle", "stunden", "beschluss", "schaden", "pfändung", "versicherung", "vertrag", "abtretung", "anteil", "verfahren", "gesellschaft", "datum", "kosten", "kurs", "transaktion", "order" , "verbot", "freiheit", "nummer", "gremium", "kammer", "unabhängig", "system", "limit", "eingang", "ausgang", "gang", "Verfahren"]
 
 characters_to_space = ['/', "*"]
 characters_spaced = [" / ", " * "]
-
+GERMAN_SEPARABLE = ["an", "ab", "auf", "aus", "ein", "bei", "heim", "her", "heraus", "herein", "herauf", "hin", "hinauf", "hinaus", "hinein", "los", "mit", "nach", "vor", "weg", "zu", "zurück", "durch", "über", "um", "unter", "wider", "wieder"]
 
 def create_corpus(text_stream):
     corpus = Corpus('de', texts=text_stream)
@@ -121,8 +125,9 @@ def model_process(text, nlp):
         else:
             if (token.tag_ == "TRUNC"):
                 curr_trunc = token.text[:-1]
-            elif (token.pos_ in ["VERB", "AUX"]):
-                sep_part = [x for x in token.children if x.tag_ == "PTKVZ"]
+            elif (token.pos_ in ["VERB"]):
+                sep_part = [x for x in token.children if x.tag_ == "PTKVZ"
+                            and x.text in GERMAN_SEPARABLE ]
                 if (len(sep_part) > 0):
                     to_app = sep_part[0].text+token.lemma_.lower()
  #                   if (to_app[-1] != 'n'):
@@ -165,4 +170,7 @@ if __name__ == '__main__':
         nlp))
     print(model_process(
         "Reichen Sie uns hierzu den Antrag der anderen Bank mit dem Hinweis auf Auszahlung der Niedrigzins-Garantie ein.",
+        nlp))
+    print(model_process(
+        "Ein Dispo Antrag ist bei uns einfacher als bei vielen Filialbanken. Bonität vorausgesetzt, verläuft die Einrichtung Deines Disporahmens schnell und mit nur wenigen Angaben. Der Dispo hilft Dir, wenn Du Dein Konto kurzfristig überziehen möchtest.",
         nlp))
