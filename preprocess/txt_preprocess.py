@@ -7,8 +7,8 @@ POS_IGNORE = ["CONJ", "CCONJ", "DET", "NUM", "PRON", "PUNCT", "SYM", "PART"]
 
 PUNKT_PREPROCESS = ["/", "<", ">", "*", "=", "–"]
 
-first_banks = ["PostBank", "PSD", "EthikBank", "TARGOBANK", "Triodos", "Sparda-Bank", "targobank", "FerratumBank", "GarantiBank", "Hanseatic Bank", "Keytrade Bank", "Deutsche Bank", "MERKUR BANK", "Skatbank", "VR-Bank", "norisbank", "Skatbank", "BLKB", "ABN AMRO", "Austrian Anadi Bank"]
-second_banks  = ["solarisBank" "SWK Bank", "DNB", "ING DiBa","ING-DiBa" "RCI Banque", "Commerzbank","Postbank", "AmExCo", "DB PGK", "UnionInvestment","FinReach", "Crédit Mutuel", "CIC Bank"]
+first_banks = ["PostBank", "PSD", "EthikBank", "TARGOBANK", "Triodos", "Sparda-Bank", "targobank", "FerratumBank", "GarantiBank", "Hanseatic Bank", "Keytrade Bank", "Deutsche Bank", "MERKUR BANK", "Skatbank", "VR-Bank", "norisbank", "Skatbank", "BLKB", "ABN AMRO", "Austrian Anadi Bank", "De Nederlandsche Bank", "HypoVereinsbank", "L-Bank", "Deutschen Handelsbank"]
+second_banks  = ["solarisBank" "SWK Bank", "DNB", "ING DiBa","ING-DiBa" "RCI Banque", "Commerzbank","Postbank", "AmExCo", "DB PGK", "UnionInvestment","FinReach", "Crédit Mutuel", "CIC Bank", "Unicredit", "Tigerstarker"]
 companies = ["comdirect","CIM","Volkswagen", "Opel", "Renault", "Dacia", "Nissan","GRENKE", "Santander", "Fidor", "Credit Europe", "DKB", "HOB", "IKEA" ,"OKB", "Rabo",  "Ferratum", "NIBC", "Shaufelonline", "EdB", "GLS", "HVB", "PayPal" ,"East West Direkt", "COMPEON", "DHB", "FINAVI", "Finavi", "Fiducia GAD", "AMRO", "Anadi"]
 
 
@@ -35,11 +35,14 @@ products_map = {
     "Fleks Horten" : "DidiTagesgeld",
     "Anadi-Konto" : "DidiKonto",
     "CrontoPush" : "DidiLogin",
-    "VRNetKey" : "DidiLogin"
+    "VRNetKey" : "DidiLogin",
+    "boon." : "DidiPay",
+    "Anadi mobilePAY" :  "DidiApp",
+    "ZOIN" : "DidiPay"
 
 }
-countries = ["Deutschland", "Schweiz", "Österreich", "Luxembourg", "Malta", "Belgien", "Ruhr", "Hessen"]
-towns = ["Berlin", "München", "Frankfurt", "Hamburg", "Hannover", "Karlsruhe", "Stuttgart", "Köln", "Düsseldorf", "Duisburg", "Mannheim", "Dresden", "Ingolstadt", "Münster"]
+countries = ["Deutschland", "Schweiz", "Österreich", "Luxembourg", "Malta", "Belgien", "Ruhr", "Hessen", "España", "Spanien", "Niederlanden", "Niederlande"]
+towns = ["Berlin", "München", "Frankfurt am Main", "Hamburg", "Hannover", "Karlsruhe", "Stuttgart", "Köln", "Düsseldorf", "Duisburg", "Mannheim", "Dresden", "Ingolstadt", "Münster", "Amsterdam "]
 first_bank_name = "DidiBank"
 second_bank_name = "AmbiBank"
 
@@ -51,8 +54,8 @@ town = "Oglietzen"
 
 possible_integrator = ["girokonto",  "konto", "einlagen", "behörden", "einstellung","verzeichnis","name", "namens", "bank","banken","prozess","verhältnisse","vereinbarungen", "checks", "check", "fristen", "beratung", "kunde", "kunden", "adresse", "daten", "informationen", "spanne", "sprachen", "sprache", "planung", "bescheid", "situation", "verwaltung", "amt", "schulden", "zahlung", "gefühle", "beratungsstelle", "stunden", "beschluss", "schaden", "pfändung", "versicherung", "vertrag", "abtretung", "anteil", "verfahren", "gesellschaft", "datum", "kosten", "kurs", "transaktion", "order" , "verbot", "freiheit", "nummer", "gremium", "kammer", "unabhängig", "system", "limit", "eingang", "ausgang", "gang", "Verfahren"]
 
-characters_to_space = ['/', "*"]
-characters_spaced = [" / ", " * "]
+characters_to_space = ['/', "*", "(", ")"]
+characters_spaced = [" / ", " * ", " ( ", " ) "]
 GERMAN_SEPARABLE = ["an", "ab", "auf", "aus", "ein", "bei", "heim", "her", "heraus", "herein", "herauf", "hin", "hinauf", "hinaus", "hinein", "los", "mit", "nach", "vor", "weg", "zu", "zurück", "durch", "über", "um", "unter", "wider", "wieder"]
 
 def create_corpus(text_stream):
@@ -130,8 +133,8 @@ def model_process(text, nlp):
                             and x.text in GERMAN_SEPARABLE ]
                 if (len(sep_part) > 0):
                     to_app = sep_part[0].text+token.lemma_.lower()
- #                   if (to_app[-1] != 'n'):
- #                       to_app = to_app + "n"
+    #                if (to_app[-1] != 'n'):
+    #                    to_app = to_app + "n"
                     keep_toks.append(to_app)
                 elif token.pos_ == "VERB":
                     keep_toks.append(token.lemma_)
