@@ -10111,28 +10111,28 @@ Was kann ich tun, wenn ich mein Passwort für die Mobile Banking App vergessen h
 In der Navigation unter «Einstellungen / Mobile Banking» > «Mobile Banking» können Sie jederzeit selbstständig ein neues Mobile-Banking-Passwort definieren.
 Ist Ihr eBanking-Zugang gesperrt, muss er vorgängig durch unsere eBanking Hotline (031 952 22 50) entsperrt werden.
 ====================================================
-Was ist CrontoPush?
-CrontoPush ist ein modernes und schnelles Loginverfahren, bei welchem Ihnen beim Login direkt Benachrichtigungen auf Ihr Mobilgerät zugestellt werden. So entfällt das Abscannen des Mosaiks am Bildschirm.
+Was ist DidiLogin?
+DidiLogin ist ein modernes und schnelles Loginverfahren, bei welchem Ihnen beim Login direkt Benachrichtigungen auf Ihr Mobilgerät zugestellt werden. So entfällt das Abscannen des Mosaiks am Bildschirm.
 ====================================================
 Was sind Push-Nachrichten?
 Push-Nachrichten sind Mitteilungen die Sie direkt vom Server an Ihre CrontoSign Swiss App erhalten. Das öffnen dieser geschieht über die Informationszeile.
 ====================================================
-Wie aktiviere ich CrontoPush?
-Sie können sich direkt bei der Anmeldung für CrontoPush reigistrieren. Geben Sie hierzu Vertragsnummer und Passwort ein, scannen Sie anschliessend das am Bildschirm dargestellte Mosaik und Sie erhalten automatisch die Aufforderung zur Aktivierung von Cronto Push.
+Wie aktiviere ich DidiLogin?
+Sie können sich direkt bei der Anmeldung für DidiLogin reigistrieren. Geben Sie hierzu Vertragsnummer und Passwort ein, scannen Sie anschliessend das am Bildschirm dargestellte Mosaik und Sie erhalten automatisch die Aufforderung zur Aktivierung von Cronto Push.
 ====================================================
-Können mehrere Geräte für CrontoPush verwendet werden?
-Ja, Sie können mehrere Geräte für CrontoPush verwenden.
+Können mehrere Geräte für DidiLogin verwendet werden?
+Ja, Sie können mehrere Geräte für DidiLogin verwenden.
 ====================================================
-Wie lösche ich CrontoPush?
+Wie lösche ich DidiLogin?
 Kontaktieren Sie zur Deaktivierung von Push-Nachrichten die eBanking Hotline.
 ====================================================
-Wird meine Telefonnummer für CrontoPush benötigt?
+Wird meine Telefonnummer für DidiLogin benötigt?
 Nein, die Telefonnummer wird nicht benötigt.
 ====================================================
-Wird eine Internetverbindung für CrontoPush benötigt?
-Ja, damit Sie CrontoPush verwenden können, ist eine Internetverbindung notwendig.
+Wird eine Internetverbindung für DidiLogin benötigt?
+Ja, damit Sie DidiLogin verwenden können, ist eine Internetverbindung notwendig.
 ====================================================
-Ist CrontoPush sicher?
+Ist DidiLogin sicher?
 Ja. Sie erhalten eine Push-Nachricht, welche Ihnen Anzeigt, dass eine Aktion (in diesem Fall die Anmeldung) auf dem Server bereitsteht. Erst wenn Sie Ihr Smartphone entsperren und die Nachricht abrufen, sendet der Server die Daten an Ihre CrontoSign Swiss App, welche durch die Aktivierung mittels Mosaik-Scan stark gesichert an Ihr persönliches Smartphone gebunden ist.
 ====================================================
 Wird die Meldung via SMS versendet?
@@ -12512,9 +12512,9 @@ Nein. DepotOnline ist ein Produkt für Privatkunden.
 Wie bekomme ich die Quellensteuer zurück?
 Als Aktionär einer ausländischen Kapitalgesellschaft finden Sie umfangreiche Informationen über die Steuersätze der einzelnen Länder und das Erstattungsprocedere bei der Deutschen Schutzvereinigung für Wertpapierbesitz.
 ====================================================
-Was ist der Unterschied zwischen der Wertpapierverwahrung bei UnionInvestment und dem DepotOnline der DidiBank?
+Was ist der Unterschied zwischen der Wertpapierverwahrung bei AmbiBank und dem DepotOnline der DidiBank?
 Das DepotOnline ist ein Bankdepot welches die Verwahrung aller Wertpapierarten ermöglicht. Hierbei ist auch der Handel über die Börsen möglich. Der Anleger bestimmt selbst, welche Wertpapiere (z.B. Aktien oder Fonds) er kaufen bzw. verkaufen möchte. Die so genannte Order-Erteilung erfolgt immer in ganzen Stücken.
-Eine Verwahrung über UnionInvestment ist nur für Fonds (z.B. FairWorldFonds) zulässig. Da die Order-Erteilung in EURO-Beträgen erfolgt, können hier auch Sparpläne angelegt werden.
+Eine Verwahrung über AmbiBank ist nur für Fonds (z.B. FairWorldFonds) zulässig. Da die Order-Erteilung in EURO-Beträgen erfolgt, können hier auch Sparpläne angelegt werden.
 ====================================================
 Ich bin Händler. Wie kann ich paydirekt an meinen Shop anbinden?
 Auf dem paydirekt Händler-Portal erhalten Sie alle Informationen zur Anbindung Ihres Onlineshops.
@@ -13736,9 +13736,9 @@ Online, sofern Sie Ihr Depot für FondsOnline frei geschaltet haben.
 Muss ich in der Depoteröffnung wirklich Angaben zu Familienstand und Beruf machen?
 Ja, wir fragen Sie nur nach den persönlichen Daten, die der Gesetzgeber vorschreibt. Ohne diese Angaben können wir kein Depot für Sie eröffnen.
 ====================================================
-Was ist der Unterschied zwischen der Wertpapierverwahrung bei UnionInvestment und dem DepotOnline der DidiBank?
+Was ist der Unterschied zwischen der Wertpapierverwahrung bei AmbiBank und dem DepotOnline der DidiBank?
 Das DepotOnline ist ein Bankdepot welches die Verwahrung aller Wertpapierarten ermöglicht. Hierbei ist auch der Handel über die Börsen möglich. Der Anleger bestimmt selbst, welche Wertpapiere (z.Bsp. Aktien oder Fonds) er kaufen bzw. verkaufen möchte. Die so genannte Order-Erteilung erfolgt immer in ganzen Stücken.
- Eine Verwahrung über UnionInvestment ist nur für Fonds (z.Bsp. FairWorldFonds) zulässig. Da die Order-Erteilung in EURO-Beträgen erfolgt, können hier auch Sparpläne angelegt werden.
+ Eine Verwahrung über AmbiBank ist nur für Fonds (z.Bsp. FairWorldFonds) zulässig. Da die Order-Erteilung in EURO-Beträgen erfolgt, können hier auch Sparpläne angelegt werden.
 ====================================================
 Kann ich die Laufzeit des Kredites für einen FAIRbraucherkredit frei wählen?
 Ja, wobei die maximale Laufzeit 84 Monate nicht übersteigen darf.
@@ -14750,16 +14750,16 @@ Online-Festgeld, was ist das?
 Das Online-Festgeld ist eine befristete Einlage mit einer einmaligen Einzahlung von zumindest EUR 2.500,- und maximal EUR 500.000,- am Anfang der Laufzeit mit einem festen Zinssatz für die vereinbarte Laufzeit. Pro Kunde und Festgeld-Aktion gilt eine Obergrenze von EUR 500.000,-.
 ====================================================
 Wann wird die Festgeldeinlage umgebucht?
-Sobald wir Ihre persönlichen Eröffnungsunterlagen vollständig erhalten, überprüft und gegengezeichnet haben, erfolgt die Freischaltung des Anadi Online-Festgeldes und des Festgeld-Verrechnungskontos. Nach der Freischaltung machen wir einen Einzug von Ihrem angegebenen Referenzkonto und buchen Ihr Geld auf das Festgeld-Verrechnungskonto. Danach erfolgt eine Umbuchung Ihres Geldbetrages vom Festgeld-Verrechnungskonto auf das Anadi Online-Festgeld.
+Sobald wir Ihre persönlichen Eröffnungsunterlagen vollständig erhalten, überprüft und gegengezeichnet haben, erfolgt die Freischaltung des Didi Online-Festgeldes und des Festgeld-Verrechnungskontos. Nach der Freischaltung machen wir einen Einzug von Ihrem angegebenen Referenzkonto und buchen Ihr Geld auf das Festgeld-Verrechnungskonto. Danach erfolgt eine Umbuchung Ihres Geldbetrages vom Festgeld-Verrechnungskonto auf das Didi Online-Festgeld.
 ====================================================
 Sind Ein- und Auszahlungen während der Laufzeit am Online-Festgeld möglich?
 Nein, während der Laufzeit sind Ein- und Auszahlungen auf das Online-Festgeld nicht möglich.
 ====================================================
-Kann ein Anadi Online-Festgeld auch für eine Firma oder einen Verein eröffnet werden?
+Kann ein Didi Online-Festgeld auch für eine Firma oder einen Verein eröffnet werden?
 Nein, das Online-Festgeld kann nur von natürlichen Personen eröffnet werden.
 ====================================================
 Wie werden die Zinsen beim Online-Festgeld verrechnet?
-Das Guthaben auf dem wird für die Dauer der vereinbarten Laufzeit mit dem vereinbarten Zinssatz verzinst. Die Verzinsung beginnt mit der Gutschrift des Anlagebetrages auf dem Anadi Online-Festgeld und endet mit dem letzten Tag der vereinbarten Laufzeit. Das Anadi Online-Festgeld wird nach jedem voll abgelaufenen Jahr ab dem Zeitpunkt der Gutschrift des Anlagebetrages am Anadi Online-Festgeld mit Zinszuschreibung für das jeweils vergangene Jahr abgeschlossen.
+Das Guthaben auf dem wird für die Dauer der vereinbarten Laufzeit mit dem vereinbarten Zinssatz verzinst. Die Verzinsung beginnt mit der Gutschrift des Anlagebetrages auf dem Didi Online-Festgeld und endet mit dem letzten Tag der vereinbarten Laufzeit. Das Didi Online-Festgeld wird nach jedem voll abgelaufenen Jahr ab dem Zeitpunkt der Gutschrift des Anlagebetrages am Didi Online-Festgeld mit Zinszuschreibung für das jeweils vergangene Jahr abgeschlossen.
 ====================================================
 Was ist der Zinseszinseffekt?
 Beim Zinseszinseffekt wird bereits verzinstes Kapital aus dem Vorjahr erneut mit Zinsen angelegt. Auf diese Weise erhöhen sich in jedem Jahr sowohl Veranlagungsbetrag als auch Ertrag. Der Wert des Vermögens steigt schneller. Je höher die Verzinsung und je länger die Laufzeit, desto wirkungsvoller ist der Zinseszinseffekt.
@@ -14768,7 +14768,7 @@ EUR 10.000,- werden über 2 Jahre angelegt. Die Verzinsung liegt bei 2 % p.a. ab
 ====================================================
 Welche Voraussetzungen gibt es für die Eröffnung eines Online-Festgeld?
 Voraussetzungen für die Eröffnung eines Online-Festgeld
-Voraussetzung für die Eröffnung eines Online-Festgeldes ist das Bestehen eines Kontos im Rahmen des Online-Sparens sowie der Abschluss einer "Vereinbarung zur Teilnahme am Online-Banking". Im Zuge der Eröffnung eines Anadi Online-Festgeldes wird ein Konto im Rahmen des Online-Sparens (Festgeld-Verrechnungskonto) eröffnet, über das Ihr Online-Festgeld abgewickelt wird.
+Voraussetzung für die Eröffnung eines Online-Festgeldes ist das Bestehen eines Kontos im Rahmen des Online-Sparens sowie der Abschluss einer "Vereinbarung zur Teilnahme am Online-Banking". Im Zuge der Eröffnung eines Didi Online-Festgeldes wird ein Konto im Rahmen des Online-Sparens (Festgeld-Verrechnungskonto) eröffnet, über das Ihr Online-Festgeld abgewickelt wird.
 Sämtliche Zahlungsströme im Zusammenhang mit dem Online-Festgeld (wie z.B. die Anfangsbuchung, Zinszahlung, sowie Rückzahlung am Laufzeitende) werden über das Festgeld-Verrechnungskonto abgewickelt. Das Festgeld-Verrechnungskonto muss für die Laufzeit abgeschlossener Online-Festgelder bestehen bleiben. Das Festgeld-Verrechnungskonto darf vor Ablauf und Abrechnung eines laufendenOnline-Festgeldes nicht aufgelöst werden.
 Im Rahmen der Online-Kontoeröffnung ist es notwendig, ein Referenzkonto bei einer Fremdbank anzugeben, von welchem ein automatischer einmaliger Einzug auf das Festgeld-Verrechnungskonto über die gewünschte Summe des Online-Festgeldes vorgenommen wird. Konnte der Einzug erfolgreich durchgeführt werden, so erfolgt automatisch eine Umbuchung des eingezogenen Betrages vom Festgeld-Verrechnungskonto auf das Online-Festgeldkonto und die Verzinsung beginnt zu laufen. Damit der Einzug erfolgreich durchgeführt werden kann, hat der Kunde am Referenzkonto für entsprechende Deckung zu sorgen.
 Konnte der Einzug mangels Deckung nicht durchgeführt werden, so werden wir Sie darüber informieren. Bitte sorgen Sie binnen 14 Tagen nach Erteilung des Auftrages zur Anlage eines Online-Festgeldes am Festgeld-Verrechnungskonto für entsprechende Deckung, sonst kommt der Vertrag nicht zustande und das Online-Festgeld wird gelöscht. Der Kontovertrag kommt erst mit Retournierung des Kontovertrages und Abschluss der gesetzlich vorgeschriebenen Identitätsfeststellung oder elektronischer Zeichnung im Online Banking zustande.
@@ -14804,7 +14804,7 @@ Wollen Sie weitersparen? Wie kann ich Online-Festgeld einfach verlängern?
 Sie können den Gesamtbetrag oder einen Teilbetrag Ihres Online-Festgeldes ganz bequem bis 24 Stunden vor Festgeldablauf verlängern. Dazu finden Sie in Ihrem Internetbanking unter dem Menüpunkt Festgeld die Auswahlmöglichkeit Prolongation und hier definieren Sie die Prolongationsart (einmalig oder automatisch), den Zeitraum und den Veranlagungsbetrag. Im Zuge der Prolongation wird Ihr Festgeld abgerechnet und der von Ihnen definierte Betrag neu veranlagt. Wichtig ist, dass Ihr Festgeld-Verrechnungskonto über die notwendige Deckung (Veranlagungsbetrag) verfügt.
 ====================================================
 Kann ich vorzeitig kündigen?
-Rückzahlungen vor Ende der Laufzeit sind nicht gestattet. Für den Fall, dass die Anadi Bank dennoch einer vorzeitigen Rückzahlung zustimmt, wird jener von einer gänzlichen Rückzahlung betroffene EUR-Betrag mit dem im Einzelauftrag vereinbarten Zinssatz von 0,05 % p.a. abzüglich KESt für die tatsächlich eingehaltene Laufzeit verzinst.
+Rückzahlungen vor Ende der Laufzeit sind nicht gestattet. Für den Fall, dass die Didi Bank dennoch einer vorzeitigen Rückzahlung zustimmt, wird jener von einer gänzlichen Rückzahlung betroffene EUR-Betrag mit dem im Einzelauftrag vereinbarten Zinssatz von 0,05 % p.a. abzüglich KESt für die tatsächlich eingehaltene Laufzeit verzinst.
 ====================================================
 Wieviel darf ich maximal einzahlen, um die staatliche Prämie voll auszunützen?
 Um in den vollen Genuss der staatlichen Prämie zu kommen, kann man monatlich max. EUR 100,-, jährlich maximal EUR 1.200,- oder einmalig maximal EUR 7.200,- einzahlen. Vom Staat erhalten Sie für Ihre Sparleistung jedes Jahr die KESt-freie Bausparprämie.
@@ -14831,7 +14831,7 @@ Hier finden Sie das Antragsformular zur Namens- und Adressänderung.
 Wie erfolgt die automatische Bezahlung meiner halbjährlichen Rate? Was muss ich tun?
 Die Begleichung Ihrer halbjährlichen Rate für die Wohnbauförderung  /  Wohn- und Siedlungsfonds-Kredit (WSF-Kredit) erfolgt mittels Einzug.
 Füllen Sie das Formular für die Einzugsermächtigung für die Wohnbauförderung bzw. Wohn- und Siedlungsfonds-Kredit (WSF-Kredit) aus und schicken das unterfertigte Formular an folgende Adresse:
-Austrian Anadi Bank AG
+DidiBank AG
 LANDES-Wohnbauförderung
 Domgasse 5
 9020 Klagenfurt am Wörthersee
@@ -14842,7 +14842,7 @@ Formular Einzugsermächtigung
 ====================================================
 Was mache ich, wenn sich die Bankdaten bei einem bestehenden Einzug ändern?
 Ändern sich Ihre Bankdaten, füllen Sie das beiliegende Einzugsermächtigungs-Formular aus und schicken das unterfertigte Formular an folgende Adresse:
-Austrian Anadi Bank AG
+DidiBank AG
 LANDES-Wohnbauförderung
 Domgasse 5
 9020 Klagenfurt am Wörthersee
@@ -14852,7 +14852,7 @@ Formular Einzugsermächtigung
  download
 ====================================================
 Wie komme ich zu einer Löschungsurkunde für das Grundbuch?
-Die Ausfertigung einer Löschungsurkunde wird nach erfolgter Rückzahlungsmeldung durch die Austrian Anadi Bank automatisch vom Amt der Kärntner Landesregierung an Sie übermittelt.
+Die Ausfertigung einer Löschungsurkunde wird nach erfolgter Rückzahlungsmeldung durch die DidiBank automatisch vom Amt der Kärntner Landesregierung an Sie übermittelt.
 Für weitere Rückfragen stehen Ihnen die Mitarbeiter des Landes Kärnten (Abteilung 2) gerne zur Verfügung.
 ====================================================
 Wie ist die Vorgehensweise bei der Übernahme einer bestehenden Förderung?
@@ -14913,24 +14913,24 @@ Was ist Skimming?
 Beim Skimming werden an manipulierten Geldausgabeautomaten die Magnetstreifendaten der Maestro-Bankomatkarte ausgelesen und zusätzlich der eingetippte PIN-Code ausgespäht. Mit den gestohlenen Daten können die Betrüger dann missbräuchliche Geldbehebungen an bestimmten Geldausgabeautomaten in außereuropäischen Risikoländern durchführen.
 ====================================================
 Was kostet GeoControl?
-Diese Dienstleistung, welche die Sicherung der Nutzung Ihrer Maestro-Bankomatkarte weiter erhöht, wird Ihnen von der Anadi Bank kostenlos zur Verfügung gestellt.
+Diese Dienstleistung, welche die Sicherung der Nutzung Ihrer Maestro-Bankomatkarte weiter erhöht, wird Ihnen von der Didi Bank kostenlos zur Verfügung gestellt.
 ====================================================
 Ich fahre demnächst ins Ausland außerhalb Europas und werde dort die Bankomat-Funktion benötigen.
 Wo kann ich GeoControl deaktivieren?
 Standardmäßig ist die Funktion auf Ihrer Maestro-Bankomatkarte aktiv. D.h. Sie können in Risikoländern Ihre Maestro-Bankomatkarte nicht nutzen.
 Sie haben drei Möglichkeiten die Funktion vorübergehend zu deaktivieren:
  1. Im Online-Banking bzw. in der Online-Banking App: Gehen Sie dazu ins Online-Banking oder in die Online-Banking App. Unter Ihrem persönlichen Profil finden Sie den Menüpunkt "Sicherheit" und darunter die Funktion "GeoControl". Wählen Sie Ihre Maestro-Bankomatkarte aus, gehen Sie auf Bearbeiten und ändern Sie den Punkt "GeoControl aktiv" auf "Nein". Wählen Sie dann noch den Zeitraum für die Deaktivierung der Funktion. Danach müssen Sie die Änderung mit der TAN bestätigen.
- 2. Über Ihren Kundenbetreuer oder das Customer Care Center der Anadi Bank
+ 2. Über Ihren Kundenbetreuer oder das Customer Care Center der Didi Bank
  3. Direkt telefonisch über die Maestro-Sperr-Hotline unter Tel. +43 1 204 88 00.
 ====================================================
 Wo sehe ich, ob GeoControl deaktiviert ist?
 Im Online-Banking sehen Sie unter Ihrem persönlichen Profil  /  "Sicherheit"  /  "GeoControl", ob GeoControl für Ihre Maestro-Bankomatkarte aktiv ist oder vorübergehend deaktiviert wurde. Standardmäßig ist die Funktion aktiviert.
 ====================================================
 Wie lange kann ich GeoControl deaktivieren?
-Der von Ihnen selbst eingegebene Deaktivierungszeitraum kann maximal drei Monate in der Zukunft starten und darf zu Ihrer eigenen Sicherheit dann drei Monate nicht überschreiten. Bei längerem Auslandsaufenthalt kontaktieren Sie bitte Ihren Kundenbetreuer oder das Customer Care Center der Anadi Bank.
+Der von Ihnen selbst eingegebene Deaktivierungszeitraum kann maximal drei Monate in der Zukunft starten und darf zu Ihrer eigenen Sicherheit dann drei Monate nicht überschreiten. Bei längerem Auslandsaufenthalt kontaktieren Sie bitte Ihren Kundenbetreuer oder das Customer Care Center der Didi Bank.
 ====================================================
 Wie kann ich GeoControl wieder aktivieren?
-GeoControl wird automatisch zu dem bei der Deaktivierung bekanntgegebenen Datum aktiviert. Um die Funktion manuell zu aktivieren gehen Sie in das Online-Banking bzw. in die Online-Banking App und aktivieren Sie GeoControl unter Ihrem persönlichen Profil  /  "Sicherheit"  /  "GeoControl". Oder Sie kontaktieren Ihren Kundenbetreuer bzw. das Customer Care Center der Anadi Bank oder die Maestro-Sperr-Hotline unter Tel. +43 1 204 88 00.
+GeoControl wird automatisch zu dem bei der Deaktivierung bekanntgegebenen Datum aktiviert. Um die Funktion manuell zu aktivieren gehen Sie in das Online-Banking bzw. in die Online-Banking App und aktivieren Sie GeoControl unter Ihrem persönlichen Profil  /  "Sicherheit"  /  "GeoControl". Oder Sie kontaktieren Ihren Kundenbetreuer bzw. das Customer Care Center der Didi Bank oder die Maestro-Sperr-Hotline unter Tel. +43 1 204 88 00.
 ====================================================
 Ich habe meine Maestro-Bankomatkarte verloren und eine neue erhalten. Muss ich die neue Karte nochmals für
 GeoControl anmelden?
@@ -14987,18 +14987,18 @@ Da das Terminal dadurch mehrere Impulse bekommt, können zwei Fälle auftreten:
  Der Betrag wird von derjenigen Karte, die am "schnellsten" reagiert, abgebucht.
 ====================================================
 Kann die Kontaktlos-Bezahlfunktion auf der Karte deaktiviert werden?
-Eine Deaktivierung der Funktion ist in Ausnahmefällen auf Antrag durch den Karteninhaber an die Anadi Bank möglich. Wurde die Kontaktlos-Bezahlfunktion einmal deaktiviert, ist eine neuerliche Aktivierung nicht mehr möglich! Grundsätzlich entscheidet der Karteninhaber – es gilt jedoch bei einer Deaktivierung unbedingt zu beachten, dass es künftig auch Zahlungsterminals geben wird, die nur noch Kontaktlos-Transaktionen zulassen (Automaten, Parkometer, Bäckereien etc.). Von diesen Zahlformen wäre der Karteninhaber bei Deaktivierung der Funktion ausgeschlossen.
+Eine Deaktivierung der Funktion ist in Ausnahmefällen auf Antrag durch den Karteninhaber an die Didi Bank möglich. Wurde die Kontaktlos-Bezahlfunktion einmal deaktiviert, ist eine neuerliche Aktivierung nicht mehr möglich! Grundsätzlich entscheidet der Karteninhaber – es gilt jedoch bei einer Deaktivierung unbedingt zu beachten, dass es künftig auch Zahlungsterminals geben wird, die nur noch Kontaktlos-Transaktionen zulassen (Automaten, Parkometer, Bäckereien etc.). Von diesen Zahlformen wäre der Karteninhaber bei Deaktivierung der Funktion ausgeschlossen.
 ====================================================
 Ab wann wird eine Deaktivierung aktiv?
-Die Antragsbearbeitung erfolgt ca. innerhalb einer Woche ab Unterfertigung der Deaktivierungserklärung bei der Anadi Bank. Die Deaktivierung der Kontaktlos-Funktion auf der Karte wirkt erst bei der nächsten Online-Chip-Transaktion mit gesteckter Karte durch den Kunden, d. h. Bezahlvorgang mit PIN-Eingabe oder Bankomat-Transaktion. Mit der Deaktivierung sind keine weiteren Kontaktlos-Transaktionen mehr möglich.
+Die Antragsbearbeitung erfolgt ca. innerhalb einer Woche ab Unterfertigung der Deaktivierungserklärung bei der Didi Bank. Die Deaktivierung der Kontaktlos-Funktion auf der Karte wirkt erst bei der nächsten Online-Chip-Transaktion mit gesteckter Karte durch den Kunden, d. h. Bezahlvorgang mit PIN-Eingabe oder Bankomat-Transaktion. Mit der Deaktivierung sind keine weiteren Kontaktlos-Transaktionen mehr möglich.
 ====================================================
 Welche Schutzmechanismen werden eingesetzt?
 Das Limit für Kontaktlos-Zahlung ohne PIN-Eingabe ist mit EUR 25,- pro Einzeltransaktion beschränkt.
  Zur Verifizierung des Karteninhabers verlangt das System in regelmäßigen Abständen klassische Transaktionen mit Eingabe eines PIN-Codes und Stecken der Karte.
  Sämtliche Maestro-Bankomatkarten werden seit 2014 auf eine von der Kontonummer und Bankverbindung unabhängige, eindeutige Kartennummer (so wie bei den Kreditkarten) umgestellt. D. h. ein Konnex zur Kundenverbindung ist nicht mehr gegeben.
- Weiters gibt es spezielle Schutzhüllen, welche die Karte zu 100 % abschirmen. Diese Schutzhüllen werden in den Filialen der Anadi Bank angeboten.
+ Weiters gibt es spezielle Schutzhüllen, welche die Karte zu 100 % abschirmen. Diese Schutzhüllen werden in den Filialen der Didi Bank angeboten.
  Das Risiko ist mit max. EUR 125,- begrenzt. Sobald die Karte gesperrt ist, max. EUR 75,-.
- Die Anadi Bank haftet bei missbräuchlicher Verwendung der Karte für Schäden, die durch Kontaktlos-Transaktionen entstehen.
+ Die Didi Bank haftet bei missbräuchlicher Verwendung der Karte für Schäden, die durch Kontaktlos-Transaktionen entstehen.
  NFC ist eine weltweit etablierte und geprüfte Technologie, die in vielen Ländern schon seit Jahren für kontaktloses Zahlen angewendet wird. Bis dato sind keine Missbrauchsfälle durch widerrechtliches Auslesen von Kartendaten bekannt.
  Unbeabsichtigte Zahlungen können nicht passieren, da der Händler das Terminal für jeden Vorgang extra aktivieren muss. Andererseits ist die Bezahlung nur aus sehr geringer Distanz möglich.
  Durch ein optisches und akustisches Signal wird dem Karteninhaber angezeigt, dass die Transaktion erfolgreich abgeschlossen wurde. Anschließend wird der Kassabeleg wie gewohnt gedruckt.
@@ -15046,11 +15046,11 @@ Die Maximaleinlage pro Kunde beträgt EUR 500.000,-.
 Kann ich mehrere Online-Sparkonten eröffnen?
 Jeder Kunde kann maximal fünf Online-Sparkonten eröffnen.
 ====================================================
-Wie kann ich meinen Namen und meine Adresse beim Anadi Online-Sparen ändern?
+Wie kann ich meinen Namen und meine Adresse beim Didi Online-Sparen ändern?
 Eine Namens- und Adressänderung sowie eine Änderung des Referenzkontos können Sie in den Änderungsformularen vornehmen.
 ====================================================
 Was ist das Office-Banking?
-Das Office-Banking ist die multibankfähige (MBS) Software für Unternehmen der Anadi Bank. Mit der Office-Banking-Software wickeln Sie Ihren gesamten Zahlungsverkehr effizient ab.
+Das Office-Banking ist die multibankfähige (MBS) Software für Unternehmen der Didi Bank. Mit der Office-Banking-Software wickeln Sie Ihren gesamten Zahlungsverkehr effizient ab.
 ====================================================
 Was bedeutet Multi Bank Standard - MBS?
 Der Multi Bank Standard (kurz MBS) ist ein österreichischer Bankenstandard, der den Zugriff auf Konten und den Zahlungsverkehr aller MBS-Teilnehmerbanken ermöglicht. Sie verwalten somit alle Konten und den gesamten Zahlungsverkehr Ihres Unternehmens mit nur einem Software-Paket.
@@ -15059,7 +15059,7 @@ Wem empfehlen wir die Verwendung des Office-Bankings?
 Das Office-Banking ist das ideale Produkt für Unternehmer und Kunden wie Bund, Länder, Städte, Gemeinden sowie öffentliche Körperschaften, Energieversorgungsunternehmen, Wohnbaugenossenschaften sowie klein- und mittelständische Unternehmen.
 ====================================================
 Welche Vorteile bietet das Office-Banking?
-Bereitstellung der Software durch die Anadi-Bank (= Erstbank)
+Bereitstellung der Software durch die Didi -Bank (= Erstbank)
  Einzel- / Mehrplatzfähig
  Für Windows, Mac & Linux verfügbar
  Installation in einem bestehenden Firmennetzwerk möglich
@@ -15076,7 +15076,7 @@ Der Zugang ins Office-Banking ist durch Benutzer & Passwort geschützt.
  Die Kommunikation zur Datenbank und zum Bankrechner erfolgt verschlüsselt.
 ====================================================
 Was benötige ich um das Office-Banking zu nutzen?
-mindestens ein Girokonto bei der Anadi Bank
+mindestens ein Girokonto bei der Didi Bank
  Vereinbarung über die Teilnahme am Office-Banking
  PC oder Laptop
  Office-Banking-Software
@@ -15187,7 +15187,7 @@ Die volle Verfügungsberechtigung hat ausschließlich der Kontoinhaber. Sie bein
  Änderungen des Kontowortlautes
  Änderung der Zustellart des Kontoauszuges
  Antrag auf Ausstellung einer Kundenkarte oder Kreditkarte
-Vom Kontoinhaber können ein oder mehrere Zeichnungsberechtigte am Girokonto erteilt werden. Der Kontoinhaber bestimmt, ob die Zeichnungsberechtigten einzeln oder gemeinsam über das Konto verfügen dürfen. Auch die Zeichnungsberechtigten müssen sich mit einem amtlichen Lichtbildausweis bei der Anadi Bank legitimieren.
+Vom Kontoinhaber können ein oder mehrere Zeichnungsberechtigte am Girokonto erteilt werden. Der Kontoinhaber bestimmt, ob die Zeichnungsberechtigten einzeln oder gemeinsam über das Konto verfügen dürfen. Auch die Zeichnungsberechtigten müssen sich mit einem amtlichen Lichtbildausweis bei der Didi Bank legitimieren.
 Eine Zeichnungsberechtigung erlaubt es dem Zeichnungsberechtigten nur über das Girokonto zu disponieren (Abhebungen, Einzahlungen, Überweisungen).
 ====================================================
 Startseite FAQs Konto & Karte
@@ -15197,10 +15197,10 @@ Häufige Fragen zu Konto & Karte
  Micro-Bankomatkarte
 Was versteht man unter einem Gemeinschaftskonto?
 Was versteht man unter Verfügungsberechtigung?
-Wie kann ich ein Anadi Konto eröffnen?
-Eröffnen Sie Ihr Anadi Konto in Ihrer Filiale.
-Ihr Kundenberater unterstützt Sie gerne und füllt mit Ihnen gemeinsam das Antragsformular zur Kontoeröffnung aus. Zur Identifizierung bringen Sie einfach einen Identitätsnachweis (Reisepass, Personalausweis) mit in Ihre Anadi-Filiale.
-Eröffnen Sie Ihr Anadi Online-Konto einfach und online von zu Hause aus.
+Wie kann ich ein Didi Konto eröffnen?
+Eröffnen Sie Ihr Didi Konto in Ihrer Filiale.
+Ihr Kundenberater unterstützt Sie gerne und füllt mit Ihnen gemeinsam das Antragsformular zur Kontoeröffnung aus. Zur Identifizierung bringen Sie einfach einen Identitätsnachweis (Reisepass, Personalausweis) mit in Ihre Didi -Filiale.
+Eröffnen Sie Ihr Didi Online-Konto einfach und online von zu Hause aus.
 Der Weg zu Ihrem Online-Konto ist ganz einfach: mit innovativer Online-Videolegitimation eröffnen und Online-Kontoumzugsservice nutzen. Inkl. Kontoführung, Maestro-Bankomatkarte, Kreditkarte, Kontorahmen, Online-Banking & App sowie Online-Sparen mit einem attraktiven Zinssatz.
 ====================================================
 Wo finden Sie IBAN und BIC?
@@ -15210,25 +15210,25 @@ Wie setzt sich der IBAN zusammen?
 In Poltawien ist die IBAN 20 Zeichen lang und setzt sich wie folgt zusammen:
  2-stelliger Ländercode, z. B. Poltawien = AT
  2-stellige Prüfziffer - für jedes Konto verschieden
- 5-stellige Bankleitzahl, z. B. Austrian Anadi Bank = 52000
+ 5-stellige Bankleitzahl, z. B. DidiBank = 52000
  11-stellige Kontonummer(kürzere Kontonummern werden durch Nullen am Anfang auf 11 Stellen aufgefüllt)
 ====================================================
 Was ist der BIC und wie setzt sich dieser zusammen?
 BIC ist der international gültige Bank-Code. Der BIC – auch SWIFT-Code genannt – wird neben der IBAN als zweite Information für internationale Zahlungen benötigt. Mit dem BIC können Geldinstitute weltweit eindeutig identifiziert werden. Wenn Sie Überweisungen im europäischen Zahlungsverkehrsraum tätigen, wird der BIC nicht mehr benötigt, hier reicht die Angabe des IBANs.
-Tipp: Die Auftragsmaske unseres Anadi Online-Bankings macht Ihre Überweisungen einfach. Das Online-Banking merkt sich IBAN´s sowie Namen und ergänzt fehlende Daten, die es schon kennt. Damit erledigen sich viele Überweisungen fast von selbst. Jetzt kostenloses Online-Konto eröffnen und von den vielen Vorteilen des Online-Bankings profitieren.
+Tipp: Die Auftragsmaske unseres Didi Online-Bankings macht Ihre Überweisungen einfach. Das Online-Banking merkt sich IBAN´s sowie Namen und ergänzt fehlende Daten, die es schon kennt. Damit erledigen sich viele Überweisungen fast von selbst. Jetzt kostenloses Online-Konto eröffnen und von den vielen Vorteilen des Online-Bankings profitieren.
 ====================================================
 Kann das Konto auch als Gemeinschaftskonto mit einem Partner eröffnet werden, mit dem Sie nicht verheiratet sind?
 Ja, ein gemeinschaftliches Girokonto können Sie grundsätzlich mit jeder beliebigen Person eröffnen.
 ====================================================
 Wie und wo erhalte ich meine Kontoauszüge?
 Informationen zum Kontostand Ihres Girokontos erhalten Sie jederzeit in Ihrem Online-Banking. Nutzen Sie auch die Quick-Check Funktion unserer App. Damit erhalten Sie einen schnellen Überblick über Ihre Kontosalden und Umsätze. Sie können im Online-Banking auch Mitteilungen aktivieren und sich über Eingänge und Ausgänge auf Ihren Konten informieren lassen.
-Kontoauszüge können Sie entweder in Papierform in Ihrer Anadi-Wunschfiliale "postlagernd" bereitstellen bzw. per Post nach Hause zustellen lassen oder als elektronische Kontoauszüge (e-Kontoauszüge) direkt im Online-Banking unter "Services" und "Schließfach" erhalten.
-Bei allen Anadi Online-Produkten werden Ihnen alle Informationen inklusive der Kontoauszüge bequem in Ihr Online-Banking zugestellt. Sie erhalten Ihre Kontoauszüge noch in Papierform? Dann können Sie eine Umstellung auf e-Kontoauszüge in unser Customer Care Center oder Ihrem Anadi-Kundenbetreuer umstellen lassen.
+Kontoauszüge können Sie entweder in Papierform in Ihrer Didi -Wunschfiliale "postlagernd" bereitstellen bzw. per Post nach Hause zustellen lassen oder als elektronische Kontoauszüge (e-Kontoauszüge) direkt im Online-Banking unter "Services" und "Schließfach" erhalten.
+Bei allen Didi Online-Produkten werden Ihnen alle Informationen inklusive der Kontoauszüge bequem in Ihr Online-Banking zugestellt. Sie erhalten Ihre Kontoauszüge noch in Papierform? Dann können Sie eine Umstellung auf e-Kontoauszüge in unser Customer Care Center oder Ihrem Didi -Kundenbetreuer umstellen lassen.
 ====================================================
-Wie ändere ich meine Hauptkontoverbindung zur Austrian Anadi Bank AG?
-Damit Ihre Transaktionen so rasch wie möglich über Ihr neues Anadi-Konto abgewickelt werden können, können Sie einen Kontowechsel von Ihrem alten Konto zu Ihrem neuen Anadi Konto veranlassen. Dazu haben Sie mehrere Möglichkeiten:
- Nutzen Sie rasch und unkompliziert den Online-Kontowechsel mit FinReach GmbH
- Kontowechsel in der Filiale bei Ihrem Anadi-Kundenbetreuer oder
+Wie ändere ich meine Hauptkontoverbindung zur DidiBank AG?
+Damit Ihre Transaktionen so rasch wie möglich über Ihr neues DidiKonto abgewickelt werden können, können Sie einen Kontowechsel von Ihrem alten Konto zu Ihrem neuen Didi Konto veranlassen. Dazu haben Sie mehrere Möglichkeiten:
+ Nutzen Sie rasch und unkompliziert den Online-Kontowechsel mit AmbiBank GmbH
+ Kontowechsel in der Filiale bei Ihrem Didi -Kundenbetreuer oder
  Sie führen den Kontowechsel selbst durch.
 ====================================================
 Was ist das SEPA Direct Debit Core und welche Fristen gibt es?
@@ -15248,21 +15248,21 @@ Ohne das Haus zu verlassen, können Sie in wenigen Schritten online Ihre Identit
 2. Legitimation am Postweg durch Briefwechsel:
 Sie erhalten Ihre persönlichen Eröffnungsunterlagen per Post zugestellt. Alle Unterlagen senden Sie uns vollständig ausgefüllt und unterschrieben retour. Zur Identifizierung übermitteln Sie uns wieder per Post die Kopie eines gültigen Lichtbildausweises (Reisepass, Personalausweis). Gerne können Sie auch die praktische Upload-Funktion im Online-Banking bzw. während des Anlageprozesses nutzen, um uns die Kopie eines gültigen Lichtbildausweises (Reisepass, Personalausweis) zu übermitteln.
 Alle weiteren Konten eröffnen Sie in einer unserer Filialen:
-Die Anadi Bank verfügt über Filialen in Salzburg, Wien, Steiermark und Kärnten. Gemeinsam mit Ihrem Anadi-Berater füllen Sie die Anträge zur Eröffnung des Kontos aus. Dabei erfahren Sie alles Wissenswerte über die verschiedenen Kontomodelle und wählen das für Sie passende aus.
+Die Didi Bank verfügt über Filialen in Salzburg, Wien, Steiermark und Kärnten. Gemeinsam mit Ihrem Didi -Berater füllen Sie die Anträge zur Eröffnung des Kontos aus. Dabei erfahren Sie alles Wissenswerte über die verschiedenen Kontomodelle und wählen das für Sie passende aus.
 ====================================================
 Bin ich beim Online-Banking an Öffnungszeiten gebunden?
-Nein. Rund um die Uhr, also 7 x 24 Stunden und 365 Tage im Jahr können Sie das Anadi Online-Banking nutzen. Jedoch werden Überweisungen und Änderungen an Daueraufträgen usw. nur während der Banköffnungszeiten von unserem System weiterverarbeitet.
+Nein. Rund um die Uhr, also 7 x 24 Stunden und 365 Tage im Jahr können Sie das Didi Online-Banking nutzen. Jedoch werden Überweisungen und Änderungen an Daueraufträgen usw. nur während der Banköffnungszeiten von unserem System weiterverarbeitet.
 ====================================================
 Wie erhalte ich meine Online-Banking Zugangsdaten?
 Mit jeder Kontoeröffnung erhalten Sie von uns Ihre ganz persönlichen Online-Banking Zugangsdaten. Sowohl bei der Kontoeröffnung in einer unserer Filiale, als auch bei der Eröffnung eines Online-Produktes erhalten Sie die Zugangsdaten im Zuge der Kontoeröffnung.
 ====================================================
 In welchem Zeitraum können Überweisungen im Online-Banking zurückgerufen werden und unter welchen Bedingungen?
-Überweisungen, die Sie im Online-Banking eingereicht haben, können Sie zurückrufen bzw. stornieren, solange die Anadi Bank den Auftrag noch nicht durchgeführt hat. Sollte die Überweisung schon ausgeführt worden sein, ist es häufig der einfachste und kostengünstigste Weg, sich an den Zahlungsempfänger zu wenden und darum zu bitten, den Betrag zurück zu überweisen.
+Überweisungen, die Sie im Online-Banking eingereicht haben, können Sie zurückrufen bzw. stornieren, solange die Didi Bank den Auftrag noch nicht durchgeführt hat. Sollte die Überweisung schon ausgeführt worden sein, ist es häufig der einfachste und kostengünstigste Weg, sich an den Zahlungsempfänger zu wenden und darum zu bitten, den Betrag zurück zu überweisen.
 Sie haben noch Fragen? Das Customer Care Center steht Ihnen unter der Telefonnummer +43 (0)50202 0 von Montag bis Freitag von 07:30 bis 18:00 Uhr gerne zur Verfügung.
 ====================================================
 Wie hoch ist das maximale Barbehebungslimit der Maestro-Bankomatkarte bei meinem Girokonto? Wie kann ich es verwalten?
 Das Standard Barbehebungslimit an Bankomaten liegt bei EUR 400,- pro Tag bzw. EUR 2.800,- pro Woche. Für POS-Zahlungen (Bankomatkassenzahlungen) steht standardisiert ein zusätzliches Limit von EUR 1.100,- pro Woche zur Verfügung. Eine ausreichende Deckung auf Ihrem Konto ist die Voraussetzung.
-Gegen einen Aufpreis ist es möglich, die Standardverfügungslimit für Bankomat- und POS-Transaktionen zu erhöhen. Wenden Sie sich diesbezüglich an Ihren Anadi-Kundenbetreuer oder an unser Customer Care Center.
+Gegen einen Aufpreis ist es möglich, die Standardverfügungslimit für Bankomat- und POS-Transaktionen zu erhöhen. Wenden Sie sich diesbezüglich an Ihren Didi -Kundenbetreuer oder an unser Customer Care Center.
 ====================================================
 Wie erhalte ich meine Bankomatkarte und meine Bankomatkarten-Pin?
 Nach vollständiger Kontoeröffnung senden wir Ihnen Ihre Maestro-Bankomatkarte und Ihre Bankomatkarten-PIN mit jeweils separater Post zu.
@@ -15285,7 +15285,7 @@ Wo finden ich Nachrichten oder Mitteilungen?
 Ihre Nachrichten und / oder Mitteilungen finden Sie unter Service. In Ihrem Posteingang werden Nachrichten als gelesen bzw. ungelesen markiert. Um eine Nachricht zu lesen, klicken Sie einfach auf die gewünschte Nachricht. Sie haben die Möglichkeit, direkt aus der Nachricht eine Antwort an uns zu generieren. Eine neue Nachricht erstellen Sie mit dem Button "Neue Nachricht". Ihre Nachricht wird an unser Customer Care Center weitergeleitet.
 ====================================================
 Wie erfolgt die Verwaltung aller Kontakte?
-Das Anadi Online-Banking ist intelligent. Es merkt sich IBANs, Kontakt- bzw. Empfängerdaten, Zahlungstermine. Es lernt ständig dazu, denkt für Sie und merkt sich alle einmal eingegebenen Daten.
+Das Didi Online-Banking ist intelligent. Es merkt sich IBANs, Kontakt- bzw. Empfängerdaten, Zahlungstermine. Es lernt ständig dazu, denkt für Sie und merkt sich alle einmal eingegebenen Daten.
 Alle Ihre Transaktionspartner werden automatisch als Kontakt gespeichert. Diese stehen Ihnen somit für neue Transaktionen zur Schnellauswahl zur Verfügung. Weiters können Sie Kontakte als Favoriten kennzeichnen, um Überweisungen noch einfacher durchführen zu können.
 Unter alle Kontakte sehen Sie Ihre gespeicherten Kontakte in Listenform. Diese Liste können Sie sortieren und filtern. Aus den Kontaktdetails heraus können Sie eine Überweisung erstellen oder den Kontakt bearbeiten.
 Mit dem Button Kontakt hinzufügen können Sie neue Kontakte erstellen. Im Reiter Favoriten finden Sie Ihre Favoriten-Kontakte. Wenn Sie auf einen vorhandenen Favoriten klicken, gelangen Sie zu den Kontaktdetails. Sortieren und Filtern ist auch hier möglich. Zudem wird Ihnen unter alle Kontakte - Ihre Favoriten mit einem Stern dargestellt.
@@ -15296,7 +15296,7 @@ Hier werden Ihre Bankomatkarten und Kreditkarten angezeigt. Über das Detailfens
 ====================================================
 Wie sicher ist das neue Online-Banking?
 Alle unsere Online-Anwendungen entsprechen immer den aktuellsten Sicherheitsstandards.
-Tigerstarker Anadi-Tipp:
+Tigerstarker Didi -Tipp:
 1. Halten Sie Ihre Zugangsdaten stets geheim!
 2. Speichern Sie niemals Ihre persönlichen Zugangsdaten auf Ihrem Endgerät.
 3. Sichern Sie Ihren PC, Smartphone oder Tablet bei Nichtgebrauch stets durch eine Bildschirmsperre.
@@ -15304,19 +15304,19 @@ Wenn Sie Ihr Online-Banking beenden, klicken Sie immer auf den Logout-Button im 
 ====================================================
 Wo finde ich die Suchfunktion?
 Die Suchfunktion ist auf jeder Seite eingebettet. Sie hilft Ihnen, gezielt nach konkreten Inhalten zu suchen.
-Und: Sie können auch Aktionen direkt in der Hilfe ausführen. Beispielsweise können Sie ab sofort aus der Suche heraus einen "neuen Auftrag" an einen Ihrer bestehenden Kontakte erstellen. Einfach ausprobieren und Sie werden sehen, wie einfach das Anadi Online-Banking funktioniert.
+Und: Sie können auch Aktionen direkt in der Hilfe ausführen. Beispielsweise können Sie ab sofort aus der Suche heraus einen "neuen Auftrag" an einen Ihrer bestehenden Kontakte erstellen. Einfach ausprobieren und Sie werden sehen, wie einfach das Didi Online-Banking funktioniert.
 ====================================================
 Was wird im Journal angezeigt?
 Hier sehen Sie alle Ihre Aktivitäten wie z.B. Datum und Uhrzeit Ihres letzten Logins und durchgeführte Aufträge.
 ====================================================
-Was ist der Unterschied zwischen ZOIN und der Anadi mobilePAY App?
-Die Anadi mobilePAY App - auch Anadi mPAY App genannt - ist Ihre elektronische Geldbörse als Anadi Bank Kunde. ZOIN ist eine Funktion innerhalb dieser App, die Ihnen das einfache Geld-Senden, Geld-Empfangen oder Geld-Anfordern an Telefonkontakte oder an die Kartennummer der Maestro-Bankomatkarte ermöglicht.
+Was ist der Unterschied zwischen ZOIN und der Didi mobilePAY App?
+Die Didi mobilePAY App - auch Didi mPAY App genannt - ist Ihre elektronische Geldbörse als Didi Bank Kunde. ZOIN ist eine Funktion innerhalb dieser App, die Ihnen das einfache Geld-Senden, Geld-Empfangen oder Geld-Anfordern an Telefonkontakte oder an die Kartennummer der Maestro-Bankomatkarte ermöglicht.
 ====================================================
 Wie sicher ist ZOIN?
 Transaktionen sind mit der ZOIN-PIN gesichert und alle Daten werden verschlüsselt übertragen. Wer ZOIN am Smartphone aktiviert hat, sollte das Smartphone gleich gut schützen wie seine Maestro-Bankomatkarte.
 ====================================================
 Kann ich ZOIN vor dem Zugriff Dritter schützen?
-Der Login in die Anadi mobilePAY App ist durch E-Mail und Passwort geschützt. Wenn Sie Geld über ZOIN versenden, müssen Sie Ihre selbstgewählte, vierstellige ZOIN-PIN zur Transaktionsautorisierung eingeben, ausgenommen Sie haben die Einstellung so getroffen, dass Transaktionen unter EUR 25,00 ohne ZOIN-PIN abgewickelt werden können. Richten Sie auch eine allgemeine Sperre Ihres Smartphones z.B. durch Wischmuster ein, um den Zugriff auf Ihre Smartphone und somit ZOIN zu verhindern.
+Der Login in die Didi mobilePAY App ist durch E-Mail und Passwort geschützt. Wenn Sie Geld über ZOIN versenden, müssen Sie Ihre selbstgewählte, vierstellige ZOIN-PIN zur Transaktionsautorisierung eingeben, ausgenommen Sie haben die Einstellung so getroffen, dass Transaktionen unter EUR 25,00 ohne ZOIN-PIN abgewickelt werden können. Richten Sie auch eine allgemeine Sperre Ihres Smartphones z.B. durch Wischmuster ein, um den Zugriff auf Ihre Smartphone und somit ZOIN zu verhindern.
 ====================================================
 Welche PIN verwende ich bei ZOIN?
 Im Zuge der Registrierung für ZOIN legen Sie selbst eine vierstellige PIN fest. Diese benötigen Sie bei allen Geldsendungen. Auf Wunsch können Sie Ihre ZOIN-Einstellungen auch so wählen, dass Sie die ZOIN-PIN nur bei Geldsendungen über EUR 25,00 eingeben müssen. Gehen Sie dazu ins App-Menü (links oben im gelben Bereich) und deaktivieren Sie die "ZOIN-PIN Eingabe". Die Umstellung müssen Sie mit Ihrer ZOIN-PIN bestätigen.
@@ -15334,7 +15334,7 @@ Kann ich mehrere Maestro-Bankomatkarten für ZOIN registrieren?
 Je Telefonnummer kann immer nur eine Maestro-Bankomatkarte aktiviert werden. Ihre Telefonnummer ist der Schlüssel für ZOIN-Transaktionen.
 ====================================================
 Wie kann ich ZOIN deaktivieren?
-Sie finden In der Anadi mobilePAY App in der ZOIN-Übersicht den Menüpunkt "Kartenoptionen". Unter dem Punkt "ZOIN deaktivieren", melden Sie sich jederzeit von ZOIN ab.
+Sie finden In der Didi mobilePAY App in der ZOIN-Übersicht den Menüpunkt "Kartenoptionen". Unter dem Punkt "ZOIN deaktivieren", melden Sie sich jederzeit von ZOIN ab.
 Deaktivieren Sie die Maestro-Bankomatkarte für die ZOIN-Funktion bei:
  Beendigung des Telekommunikationsvertrages mit dem aktuellen Mobilfunkbetreiber ohne Mitnahme der Telefonnummer.
  Weitergabe des Telekommunikationsvertrages mit Smartphone
@@ -15387,25 +15387,25 @@ ZOIN ist ausschließlich für P2P Payments (Person to Person Geldtransfer d.h. z
 Ich habe keine österreichische Staatsbürgerschaft, lebe und arbeite aber in Poltawien. Kann ich trotzdem ein Online-Konto eröffnen?
 Ja, aber für die Einrichtung eines Kontorahmens benötigen wir von Ihnen einen Meldenachweis und den Nachweis, dass Sie seit 12 Monaten durchgehend in Poltawien beschäftigt sind. Bei einem oder mehreren Arbeitgebern - zumindest aber seit 6 Monaten beim derzeitigen Arbeitgeber.
 ====================================================
-Wie hoch ist mein Kontorahmen (Überziehungsrahmen) beim Anadi Online-Konto?
+Wie hoch ist mein Kontorahmen (Überziehungsrahmen) beim Didi Online-Konto?
 Auf Wunsch erhalten Sie einen Kontorahmen (Überziehungsrahmen) von bis zu zwei Monatsnettoeingängen maximal EUR 5.000,00 schon nach drei Gehalts-  / Lohn- / Pensionseingängen von mind. EUR 300,00 pro Monat.
 ====================================================
-Kann ich das Anadi Online-Konto als Gemeinschaftskonto führen?
-Ja, das Anadi Online-Konto kann mit bis zu zwei einzel verfügungsberechtigten Personen geführt werden. Die Ernennung von Zeichnungsberechtigten ist ausgeschlossen.
+Kann ich das Didi Online-Konto als Gemeinschaftskonto führen?
+Ja, das Didi Online-Konto kann mit bis zu zwei einzel verfügungsberechtigten Personen geführt werden. Die Ernennung von Zeichnungsberechtigten ist ausgeschlossen.
 ====================================================
 Wo kann ich Bargeld beheben?
 Kostenlose Bargeldbehebungen sind an jedem ausgewiesenen Bargeldautomaten bis max. 400 Euro pro Transaktion möglich. Zusätzlich haben Sie die Möglichkeit der kostenlosen Barabhebung an jedem unserer Indoor-Bankomaten in unseren Filialen.
 Kostenpflichtig ist die Bargeldbehebung am Schalter in unseren Filialen.
 Weitere Informationen entnehmen Sie den "Konditionen und Bedingungen Online-Konto".
 ====================================================
-Sind Bareinzahlungen auf mein Online-Konto in jeder Anadi-Filiale möglich?
-Die Bareinzahlung auf das Online-Konto ist in jeder Anadi-Filiale möglich. Wenn Sie die Transaktion am Schalter oder am Überweisungsterminal vornehmen, fallen Spesen an. Weitere Informationen entnehmen Sie den "Konditionen und Bedingungen Online-Konto".
+Sind Bareinzahlungen auf mein Online-Konto in jeder Didi -Filiale möglich?
+Die Bareinzahlung auf das Online-Konto ist in jeder Didi -Filiale möglich. Wenn Sie die Transaktion am Schalter oder am Überweisungsterminal vornehmen, fallen Spesen an. Weitere Informationen entnehmen Sie den "Konditionen und Bedingungen Online-Konto".
 ====================================================
 Wie hoch ist das Verfügungslimit der inkludierten kostenlosen Maestro-Bankomatkarte?
 Auf Ihrer Maestro-Bankomatkarte haben Sie folgende Standards-Limits.
 Bargeldbehebung an Bankomaten: EUR 400,-  /  Tag
 Bezahlen an POS-Kassen: EUR 1.100,-  /  Woche
-Eine Erhöhung der Limits ist nicht möglich. Die Bestellung der beantragten Maestro-Bankomatkarte(n) erfolgt durch die Anadi Bank unmittelbar nach Online-Kontoeröffnung.
+Eine Erhöhung der Limits ist nicht möglich. Die Bestellung der beantragten Maestro-Bankomatkarte(n) erfolgt durch die Didi Bank unmittelbar nach Online-Kontoeröffnung.
 ====================================================
 Besteht die Möglichkeit, dass ich eine zweite Maestro-Bankomatkarte bekomme?
 Selbstverständlich kann für den zweiten verfügungsberechtigten Kontoinhaber eine Maestro-Bankomatkarte beantragt werden. Einfach via Nachricht im Online-Banking den Bestellwunsch aufgeben. Die Maestro-Bankomatkarte mit Standardverfügungslimit für einen Kontoinhaber ist kostenlos. Die zweite Maestro-Bankomatkarte ist kostenpflichtig. Hier finden Sie die Gebühren zur Maestro-Bankomatkarte.
@@ -15480,11 +15480,11 @@ Loggen Sie sich mit Ihren Zugangsdaten im Online-Banking ein.
 Oder Sie wenden sich telefonisch an unser Customer Care Center unter Tel. 050202 0 bzw. schicken Sie uns ein E-Mail an  * EMAIL * .
 ====================================================
 Kann ich ohne Maestro-Bankomatkarte eine Micro-Bankomatkarte anfordern?
-Nein! Eine Micro-Bankomatkarte kann nur dann bestellt werden, wenn Sie zu Ihrem Girokonto eine Maestro-Bankomatkarte der Anadi Bank haben.
+Nein! Eine Micro-Bankomatkarte kann nur dann bestellt werden, wenn Sie zu Ihrem Girokonto eine Maestro-Bankomatkarte der Didi Bank haben.
 ====================================================
 Ich habe die Micro-Bankomatkarte verloren bzw. sie wurde mir gestohlen? Was tun?
 Bitte sperren Sie Ihre Micro-Bankomatkarte sofort!
-Hier steht Ihnen 24 Stunden täglich die Sperrhotline unter 0800 204880 bzw. zu den Geschäftszeiten der Anadi Bank das Customer Care Center bzw. Ihr Kundenbetreuer gerne zur Verfügung.
+Hier steht Ihnen 24 Stunden täglich die Sperrhotline unter 0800 204880 bzw. zu den Geschäftszeiten der Didi Bank das Customer Care Center bzw. Ihr Kundenbetreuer gerne zur Verfügung.
 ====================================================
 Kann ich mit der Micro-Bankomatkarte an den Stammkundenprogrammen bei diversen Unternehmen (z.B. Merkur, Billa) teilnehmen?
 Nein.
@@ -15510,7 +15510,7 @@ Was bedeutet die Zahl neben "Offene Aufträge"?
 Die Zahl zeigt Ihnen auf einem Blick, wie viele offene Aufträge Sie erfasst haben.
 ====================================================
 Wie erstelle ich eine Finanzamtszahlung?
-Unter Aufträge => Neuer Auftrag => Erweiterte Aufträge können Sie direkt eine Finanzamtszahlung erstellen. Wählen Sie die Auftragsart "Finanzamtszahlung" aus oder geben Sie einfach die IBAN ein. Das Anadi Online-Banking ist intelligent. Es erkennt die IBAN eines Finanzamts und leitet Sie automatisch auf die Eingabemaske der Finanzamtszahlung um.
+Unter Aufträge => Neuer Auftrag => Erweiterte Aufträge können Sie direkt eine Finanzamtszahlung erstellen. Wählen Sie die Auftragsart "Finanzamtszahlung" aus oder geben Sie einfach die IBAN ein. Das Didi Online-Banking ist intelligent. Es erkennt die IBAN eines Finanzamts und leitet Sie automatisch auf die Eingabemaske der Finanzamtszahlung um.
 Bitte beachten Sie, dass Sie für Finanzamtszahlungen eine Steuernummer benötigen, die für Online-Banking Überweisungen ausgelegt ist. Das Online-Banking überprüft diese Steuernummer bei der Eingabe und gibt Ihnen ggf. eine Hinweismeldung aus. Sollten Sie eine Hinweismeldung erhalten wenden Sie sich bitte an Ihr Finanzamt.
 ====================================================
 Wie erstelle ich einen periodischen Auftrag?
@@ -15524,15 +15524,15 @@ Wann immer Sie eine Rechnung mit QR-Code erhalten: Nutzen Sie dieses Service, um
 ====================================================
 Wie kann ich einen Auftrag, Eigenübertrag und eine internationale Zahlung erstellen?
 Unter Aufträge "Neuer Auftrag"
-Das Anadi Online-Banking ist intelligent. Es merkt sich IBANs, Empfängerdaten, Zahlungstermine. Es lernt ständig dazu, denkt für Sie mit und merkt sich alle einmal eingegebenen Daten. Einfache Aufträge: Für Euro-Überweisungen. Im Empfängerfeld können Sie entweder einen Namen oder eine IBAN, den Betrag und Verwendungszweckeingeben. Abschicken, zeichnen und fertig. Erweiterte Aufträge: Auslandszahlung, Finanzamtszahlung, Dauerauftragserstellung und barTAN.
+Das Didi Online-Banking ist intelligent. Es merkt sich IBANs, Empfängerdaten, Zahlungstermine. Es lernt ständig dazu, denkt für Sie mit und merkt sich alle einmal eingegebenen Daten. Einfache Aufträge: Für Euro-Überweisungen. Im Empfängerfeld können Sie entweder einen Namen oder eine IBAN, den Betrag und Verwendungszweckeingeben. Abschicken, zeichnen und fertig. Erweiterte Aufträge: Auslandszahlung, Finanzamtszahlung, Dauerauftragserstellung und barTAN.
 Smarte Aufträge: Für Eigenüberträge oder Zahlungen an Ihre Favoriten mittels Drag & Drop.
-Tigerstarker Anadi-Tipp:
+Tigerstarker Didi -Tipp:
 Eigenüberträge können Sie ohne TAN-Eingabe durchführen. Zu Ihrer eigenen Sicherheit prüfen Sie immer die Auftragsdetails wie Empfänger-Name, Empfänger-IBAN und Betrag in Ihrer mobileTAN oder tresorTAN!
 ====================================================
 Was ist die tresorTAN bzw. tresorTAN App?
 Wir stellen Ihnen Ihre Transaktionsnummern in einer separaten App zur Verfügung quasi in einem Tresor, zu dem nur Sie Zugang haben. Die Trennung der Online-Banking App und der tresorTAN App macht Ihre Online-Geldgeschäfte jetzt noch sicherer.
 Und so einfach geht´s:
-1. Laden Sie die tresorTAN App der Anadi Bank im jeweiligen Store herunter und installieren Sie die App auf Ihrem mobilen Endgerät.
+1. Laden Sie die tresorTAN App der Didi Bank im jeweiligen Store herunter und installieren Sie die App auf Ihrem mobilen Endgerät.
 2. Führen Sie einen Login mit Ihren persönlichen Zugangsdaten (Verfügernummer, Verfügername und PIN) durch.
 3. Stellen Sie eine Gerätebindung her. Dazu vergeben Sie einen Namen für Ihr mobiles Endgerät und tippen auf den Button verbinden.
 4. Abschließend zeichnen Sie mittels mobileTAN. Sie können nach erfolgreichem Registrierungsprozess die tresorTAN App sofort nutzen.
@@ -15555,9 +15555,9 @@ Wo finde ich das Online-Banking?
 Den Login für das Online-Banking finden Sie oben rechts in der Hauptnavigation unserer Webseite.
 Sie können sich auch hier einloggen: Online-Banking
 ====================================================
-Wie erhalte ich meine persönlichen Zugangsdaten zum Anadi Online-Banking?
-Für den Erst-Login erhalten Sie von der Anadi Bank eine Verfügernummer und eine Erst-PIN. Diese Erst-PIN ist nur einmalig gültig und muß von Ihnen beim ersten Einstieg geändert werden. Ebenso vergeben Sie selbst einen Verfügernamen. Wir machen Ihnen den ersten Einstieg besonders leicht und führen Sie durch diesen Prozess. Außer Ihnen weiß niemand die Kombination Ihrer Zugangsdaten, auch die Anadi Bank nicht.
-Mit der Zugangsberechtigung erhalten Sie die Eintrittskarte für das Anadi Online-Banking.
+Wie erhalte ich meine persönlichen Zugangsdaten zum Didi Online-Banking?
+Für den Erst-Login erhalten Sie von der Didi Bank eine Verfügernummer und eine Erst-PIN. Diese Erst-PIN ist nur einmalig gültig und muß von Ihnen beim ersten Einstieg geändert werden. Ebenso vergeben Sie selbst einen Verfügernamen. Wir machen Ihnen den ersten Einstieg besonders leicht und führen Sie durch diesen Prozess. Außer Ihnen weiß niemand die Kombination Ihrer Zugangsdaten, auch die Didi Bank nicht.
+Mit der Zugangsberechtigung erhalten Sie die Eintrittskarte für das Didi Online-Banking.
 ====================================================
 Wie steige ich zum ersten Mal ins Online-Banking ein?
 1. Steigen Sie über unsere Webseite ein: Erst-Login Online-Banking
@@ -15565,11 +15565,11 @@ Wie steige ich zum ersten Mal ins Online-Banking ein?
 Laden Sie unsere Online-Banking App von Ihrem App Store (Google Play Store oder Apple App Store) herunter.
 Appstore Playstore Windows
 Hier erhalten Sie weitere Informationen der Online-Banking App.
-3. Erst-Login bei Abschluss eines Anadi Online-Produktes:
-Im Zuge des Anlageprozesses eines Anadi Online-Produktes legen Sie Ihre Zugangsdaten selbst an. Die Verfügernummer wird Ihnen vom System automatisch zugeteilt. Den Verfügernamen sowie die PIN vergeben Sie jedoch selbst.
-Tigerstarker Anadi-Tipp:
+3. Erst-Login bei Abschluss eines Didi Online-Produktes:
+Im Zuge des Anlageprozesses eines Didi Online-Produktes legen Sie Ihre Zugangsdaten selbst an. Die Verfügernummer wird Ihnen vom System automatisch zugeteilt. Den Verfügernamen sowie die PIN vergeben Sie jedoch selbst.
+Tigerstarker Didi -Tipp:
 Bitte notieren Sie sich die von Ihnen und vom System vergebenen Daten (Verfügernummer, Verfügername, PIN), damit Sie später einen Zugang zum Online-Banking haben.
-4. Online-Banking bei Ihrem Kundenberater in einer Anadi-Filiale: Sie schätzen den persönlichen Support?
+4. Online-Banking bei Ihrem Kundenberater in einer Didi -Filiale: Sie schätzen den persönlichen Support?
 Ihr Kundenberater steht Ihnen zum Thema Online-Banking gerne zur Verfügung.
 ====================================================
 Wann erfolgt der automatische Logout?
@@ -15580,19 +15580,19 @@ Der Logout-Button befindet sich rechts neben dem persönlichen Verfügerbild.
 ====================================================
 Wo kann ich die Verfügerdaten einsehen und warten?
 Im Menüpunkt "Meine Daten" können Sie in Ihre Verfügerdaten einsehen und warten und die Kontaktdaten, E-Mailadresse und Telefonnummer ändern.
-Anadi Online-Banking ist persönlich:
+Didi Online-Banking ist persönlich:
 Unter Ihren persönlichen Daten werden alle personenbezogenen Daten angezeigt. Verfügername und PIN können Sie jederzeit mit dem Bleistifticon ändern. Ihre Verfügernummer wird lediglich zur Information angezeigt.
 Personalisierung – Verfügerbild hochladen:
 Hier haben Sie die Möglichkeit ein eigenes Bild hochzuladen. Mit dem Bleistifticon starten Sie die Bildauswahl.
 Ihre persönliche Startseite im Online-Banking:
-Mit der Funktion "Meine Startseite" können Sie Ihr Anadi Online-Banking ganz nach Ihren persönlichen Bedürfnissen gestalten.
+Mit der Funktion "Meine Startseite" können Sie Ihr Didi Online-Banking ganz nach Ihren persönlichen Bedürfnissen gestalten.
 Jede Ansicht kann hinzugefügt, verschoben oder gelöscht werden. Für jede Ansicht definieren Sie, welche Konten angezeigt werden sollen. Zusätzlich können auch Bezeichnung und Darstellungsgröße der Ansicht angepasst werden.
 Mit einem eigenen Hintergrundbild, Verfügerbild und Begrüßungstext personalisieren Sie Ihre Startseite noch weiter. Das erhöht die Sicherheit und geht ganz einfach.
 ====================================================
 Welche Zeichnungsverfahren stehen mir zur Verfügung?
 Im Online-Banking können Sie Aufträge mittels tresorTAN, mobileTAN und cardTAN vornehmen. Sie können diese Zeichnungsverfahren im Online-Banking unter "Meine Daten" – "Zeichnungsverfahren" aktivieren bzw. ändern. Das Zeichnungsverfahren mittels tresorTAN ist kostenlos. Bei der Zeichnung von Aufträgen mit mobileTAN können Kosten entstehen.
 Weitere Konditionen und Bedingungen zum Online-Banking entnehmen Sie hier.
-Tigerstarker Anadi-Tipp:
+Tigerstarker Didi -Tipp:
 Sie können die tresorTAN auf mehreren Geräten aktivieren und beim Zeichnen auswählen auf welches Gerät der tresorTAN übermittelt werden soll. Unter "App-Einstellungen"  /  "verbundene Geräte" sehen Sie alle verbunden Geräte zu Ihrer Online-Banking App, der tresorTAN-App und dem Quick-Check und können diese verwalten.
 ====================================================
 Wo finden Sie ich Kontoauszüge?
@@ -15604,25 +15604,25 @@ Sie können die Kontoauszüge je Konto anzeigen und filter.
 Habe ich während der Laufzeit Zugriff auf mein Kapital?
 Es besteht die Möglichkeit das Geld vor Ende der 6-jährigen Mindestbindungsfrist zu beheben, doch dann entfällt die staatliche Bausparprämie.
 ====================================================
-Wie hoch ist mein Kontorahmen (Überziehungsrahmen) beim Anadi Online-Konto?
+Wie hoch ist mein Kontorahmen (Überziehungsrahmen) beim Didi Online-Konto?
 Auf Wunsch erhalten Sie einen Kontorahmen (Überziehungsrahmen) von bis zu zwei Monatsnettoeingängen maximal EUR 5.000,00 schon nach drei Gehalts-  / Lohn- / Pensionseingängen von mind. EUR 300,00 pro Monat.
 ====================================================
-Kann ich das Anadi Online-Konto als Gemeinschaftskonto führen?
-Ja, das Anadi Online-Konto kann mit bis zu zwei einzel verfügungsberechtigten Personen geführt werden. Die Ernennung von Zeichnungsberechtigten ist ausgeschlossen.
+Kann ich das Didi Online-Konto als Gemeinschaftskonto führen?
+Ja, das Didi Online-Konto kann mit bis zu zwei einzel verfügungsberechtigten Personen geführt werden. Die Ernennung von Zeichnungsberechtigten ist ausgeschlossen.
 ====================================================
 Wo kann ich Bargeld beheben?
 Kostenlose Bargeldbehebungen sind an jedem ausgewiesenen Bargeldautomaten bis max. 400 Euro pro Transaktion möglich. Zusätzlich haben Sie die Möglichkeit der kostenlosen Barabhebung an jedem unserer Indoor-Bankomaten in unseren Filialen.
 Kostenpflichtig ist die Bargeldbehebung am Schalter in unseren Filialen.
 Weitere Informationen entnehmen Sie den "Konditionen und Bedingungen Online-Konto".
 ====================================================
-Sind Bareinzahlungen auf mein Online-Konto in jeder Anadi-Filiale möglich?
-Die Bareinzahlung auf das Online-Konto ist in jeder Anadi-Filiale möglich. Wenn Sie die Transaktion am Schalter oder am Überweisungsterminal vornehmen, fallen Spesen an. Weitere Informationen entnehmen Sie den "Konditionen und Bedingungen Online-Konto".
+Sind Bareinzahlungen auf mein Online-Konto in jeder Didi -Filiale möglich?
+Die Bareinzahlung auf das Online-Konto ist in jeder Didi -Filiale möglich. Wenn Sie die Transaktion am Schalter oder am Überweisungsterminal vornehmen, fallen Spesen an. Weitere Informationen entnehmen Sie den "Konditionen und Bedingungen Online-Konto".
 ====================================================
 Wie hoch ist das Verfügungslimit der inkludierten kostenlosen Maestro-Bankomatkarte?
 Auf Ihrer Maestro-Bankomatkarte haben Sie folgende Standards-Limits.
 Bargeldbehebung an Bankomaten: EUR 400,-  /  Tag
 Bezahlen an POS-Kassen: EUR 1.100,-  /  Woche
-Eine Erhöhung der Limits ist nicht möglich. Die Bestellung der beantragten Maestro-Bankomatkarte(n) erfolgt durch die Anadi Bank unmittelbar nach Online-Kontoeröffnung.
+Eine Erhöhung der Limits ist nicht möglich. Die Bestellung der beantragten Maestro-Bankomatkarte(n) erfolgt durch die Didi Bank unmittelbar nach Online-Kontoeröffnung.
 ====================================================
 Besteht die Möglichkeit, dass ich eine zweite Maestro-Bankomatkarte bekomme?
 Selbstverständlich kann für den zweiten verfügungsberechtigten Kontoinhaber eine Maestro-Bankomatkarte beantragt werden. Einfach via Nachricht im Online-Banking den Bestellwunsch aufgeben. Die Maestro-Bankomatkarte mit Standardverfügungslimit für einen Kontoinhaber ist kostenlos. Die zweite Maestro-Bankomatkarte ist kostenpflichtig. Hier finden Sie die Gebühren zur Maestro-Bankomatkarte.
@@ -15659,10 +15659,10 @@ Welchen Versicherungsschutz bietet Ihnen die PayLife Classic Karte?
 Die Einkäufe mit Ihrer PayLife Classic Karte sind versichert – 45 Tage ab Kauf und weltweit. Weiters haben Sie ein PayLife Classic Reiseschutzpaket inkludiert. Dieser garantiert Ihnen Hilfe bei Notfällen im Ausland (z.B. Krankenvorsorge, Krankenrücktransport oder Sonderrückreisen nach Poltawien). Für einen umfassenden Schutz können Sie den 3-fach Reiseschutz zukaufen.
 ====================================================
 Wo erfahre ich, dass die Information an den Zahlungspartner erfolgreich versendet worden ist?
-Sie können anhand der Zusammenfassung Ihres Kontowechsels (.pdf) nachvollziehen, wann FinReach die Benachrichtigungsschreiben über Ihre neue Bankverbindung an Ihre Zahlungspartner versendet hat.
+Sie können anhand der Zusammenfassung Ihres Kontowechsels (.pdf) nachvollziehen, wann AmbiBank die Benachrichtigungsschreiben über Ihre neue Bankverbindung an Ihre Zahlungspartner versendet hat.
 ====================================================
 Was passiert, wenn ich eine Lastschrift manuell "ignoriere"?
-Sie geben FinReach damit den Hinweis, dass Sie den ausgewählten Zahlungsempfänger eigenständig über Ihren Kontowechsel informieren möchten. Es wird kein Benachrichtigungsschreiben erstellt und versendet.
+Sie geben AmbiBank damit den Hinweis, dass Sie den ausgewählten Zahlungsempfänger eigenständig über Ihren Kontowechsel informieren möchten. Es wird kein Benachrichtigungsschreiben erstellt und versendet.
 ====================================================
 Was passiert, wenn der Saldo bei Kontoschließung negativ ist?
 Da die abgebende Bank die Kontoschließung nicht annehmen wird, solange Ihr Kontosaldo negativ ist, empfehlen wir Ihnen, den negativen Betrag vor der Kontoschließung auszugleichen.
@@ -15671,10 +15671,10 @@ Ich möchte mein Konto doch nicht schließen und habe schon auf "Benachrichtigun
 In diesem Fall ist der Kontoschließungsbrief bereits versandt, kontaktieren Sie daher Ihre alte Bank umgehend. Sollte Ihr Konto aufgrund Ihres erteilten Auftrages bereits aufgelöst worden sein, können Sie einen neuen Girokontovertrag abschließen.
 ====================================================
 Wie sicher sind meine Daten?
-Die Übertragung aller im Rahmen des Kontowechsel-Service eingegebenen Daten erfolgt über eine SSL-Verschlüsselung, um diese vor Missbrauch durch Dritte zu schützen. FinReach stellen sicher, dass Ihre personenbezogenen Daten ausschließlich zu dem jeweils angegebenen Zweck erhoben, verarbeitet und verwendet werden.
+Die Übertragung aller im Rahmen des Kontowechsel-Service eingegebenen Daten erfolgt über eine SSL-Verschlüsselung, um diese vor Missbrauch durch Dritte zu schützen. AmbiBank stellen sicher, dass Ihre personenbezogenen Daten ausschließlich zu dem jeweils angegebenen Zweck erhoben, verarbeitet und verwendet werden.
 ====================================================
 Wie kann ich meine Daten wieder aus dem Online-Kontowechsel-Service löschen?
-Als Nutzer des Online-Kontowechsel-Service von FinReach haben Sie das Recht auf Löschung nicht mehr erforderlicher Daten, die keiner Aufbewahrungsfrist unterliegen oder deren Speicherung unzulässig ist. Sie können jederzeit für die Zukunft wiedersprechen, dass FinReach Ihre Daten für den Kontowechsel nutzen darf. Hierzu genügt es, wenn Sie eine formlose Mitteilung an folgende Adresse schicken: FinReach GmbH, Anna-Louisa-Karsch-Straße 2, 10178 Oglietzen,  * EMAIL *  senden. Nach Erhalt der Mitteilung werden Ihre Daten unverzüglich gelöscht.
+Als Nutzer des Online-Kontowechsel-Service von AmbiBank haben Sie das Recht auf Löschung nicht mehr erforderlicher Daten, die keiner Aufbewahrungsfrist unterliegen oder deren Speicherung unzulässig ist. Sie können jederzeit für die Zukunft wiedersprechen, dass AmbiBank Ihre Daten für den Kontowechsel nutzen darf. Hierzu genügt es, wenn Sie eine formlose Mitteilung an folgende Adresse schicken: AmbiBank GmbH, Anna-Louisa-Karsch-Straße 2, 10178 Oglietzen,  * EMAIL *  senden. Nach Erhalt der Mitteilung werden Ihre Daten unverzüglich gelöscht.
 ====================================================
 Welche Einlagen sind von der Einlagensicherung erfasst?
 Grundsätzlich sind sämtliche Guthaben auf allen verzinsten oder unverzinsten Konten oder Sparbüchern, wie z.B. Gehalts- und Pensionskonten, sonstige Girokonten, Festgelder, Kapitalsparbücher oder täglich fällige Sparbücher, erstattungsfähig.
@@ -15702,19 +15702,19 @@ Sie können sich auch an die für Ihr Kreditinstitut zuständige Sicherungseinri
 Haben Sie weitere Fragen zur Einlagensicherung?
 Hier finden Sie weitere Antworten auf Ihre Fragen zum Thema Einlagensicherung.
 ====================================================
-Wer kann die Online-Banking App der Austrian Anadi Bank nutzen?
-Die Online-Banking App steht nur Kunden der Austrian Anadi Bank mit entsprechender Kontoverbindung und Berechtigungen für das Online-Banking zur Verfügung.
+Wer kann die Online-Banking App der DidiBank nutzen?
+Die Online-Banking App steht nur Kunden der DidiBank mit entsprechender Kontoverbindung und Berechtigungen für das Online-Banking zur Verfügung.
 ====================================================
-Auf welchen mobilen Endgeräten ist die Online-Banking App der Austrian Anadi Bank nutzbar?
+Auf welchen mobilen Endgeräten ist die Online-Banking App der DidiBank nutzbar?
 Die Online-Banking App ist für die gängigsten Smartphones und Tablets optimiert und kann auf den Betriebssystemen iOS, Android und Windows-Phone betrieben werden.
 ====================================================
 Benötige ich als Kunde für die Nutzung der Online-Banking App zusätzliche Vereinbarungen oder Zugangsdaten?
-Wenn Sie bereits das Online-Banking der Anadi Bank am PC oder Laptop nutzen, können Sie sich mit denselben Zugangsdaten (Verfügernummer, Verfügername, PIN) auch in die Online-Banking App einloggen.
+Wenn Sie bereits das Online-Banking der Didi Bank am PC oder Laptop nutzen, können Sie sich mit denselben Zugangsdaten (Verfügernummer, Verfügername, PIN) auch in die Online-Banking App einloggen.
 ====================================================
-Wie kann ich mich in die Online-Banking App einloggen, wenn ich bereits das Anadi Online-Banking nutze?
+Wie kann ich mich in die Online-Banking App einloggen, wenn ich bereits das Didi Online-Banking nutze?
 1. Laden Sie die Online-Banking App von Ihrem App Store herunter.
 2. Öffnen Sie die Online-Banking App auf Ihrem Smartphone  /  Ihrem Tablet.
-3. Tippen Sie auf den Button "Anadi Online-Banking"
+3. Tippen Sie auf den Button "Didi Online-Banking"
 4. Geben Sie Ihre Zugangsdaten aus dem Online-Banking ein: Verfügernummer, Verfügername, PIN
 5. Stellen Sie eine "Gerätebindung" her. Das heißt, Sie verbinden Ihre Online-Banking App mit Ihrem Smartphone  /  Tablet. Vergeben Sie für jedes Gerät einen eigenen Namen. Dann vergeben Sie die shortPIN (4-stellige Identifikationsnummer). In weiterer Folge können Sie auf Ihrem Smartphone  /  Tablet mit der definierten shortPIN auf Ihre Daten zugreifen.
 6. Wollen Sie die shortPIN-Funktion nicht nutzen, überspringen Sie den Punkt "Gerät verbinden" einfach. Sie können auch beim nächsten Mal die shortPIN vergeben.
@@ -15724,11 +15724,11 @@ Die definierte shortPIN gilt sowohl für Online-Banking App, als auch für Quick
 Hinweis zum Fingerabdruckscan:
 Zusätzlich zur shortPIN können Sie auch den am Gerät hinterlegten Fingerabdruck zur Anmeldung verwenden. Voraussetzung ist, dass Sie die Funktion "Fingerabdruckscan" auf Ihrem Smartphone oder Tablet verfügbar und aktiviert ist. Aktivieren Sie dazu im Feld "Fingerabdruck aktivieren" die Funktion. Bitte beachten Sie, dass die Funktion "Fingerabdruck" von den Einstellungen auf Ihrem Smartphone oder Tablet abhängig ist. Alle am Gerät registrierten Fingerabdrücke können für den Login verwendet werden, da für den Fingerabdruck keine Personenbindung vorhanden ist.
 ====================================================
-Wie kann ich mich in die Anadi Online-Banking App einloggen, wenn ich Neukunde bin, bzw. bisher noch nie
+Wie kann ich mich in die Didi Online-Banking App einloggen, wenn ich Neukunde bin, bzw. bisher noch nie
 Online-Banking genutzt haben.
 1. Kommen Sie in die Filiale und fordern Sie den Zugang zum Online-Banking an. Die Zugangsdaten zur Nutzung des Online-Bankings: Verfügernummer und Verfügername werden Ihnen per Post zugeschickt.
 2. Laden Sie die Online-Banking App von Ihrem App Store (Google Play Store oder Apple App Store) herunter.
-4. Öffnen Sie die Online-Banking App auf Ihrem Smartphone  /  Ihrem Tablet. Tippen Sie auf "Zum Erst-Login". Die für den Erst-Login benötigten Zugangsdaten: Verfügernummer und Erst-PIN entnehmen Sie dem Schreiben, das Sie von der Austrian Anadi Bank erhalten haben.
+4. Öffnen Sie die Online-Banking App auf Ihrem Smartphone  /  Ihrem Tablet. Tippen Sie auf "Zum Erst-Login". Die für den Erst-Login benötigten Zugangsdaten: Verfügernummer und Erst-PIN entnehmen Sie dem Schreiben, das Sie von der DidiBank erhalten haben.
 5. Geben Sie im ersten Schritt die Verfügernummer und die Erst-PIN ein.
 6. Danach definieren Sie Ihren persönlichen Verfügernamen und bestätigen diesen durch nochmalige Eingabe.
 7. Ändern Sie im nächsten Schritt Ihre Erst-PIN in eine frei wählbare PIN und bestätigen Sie diese. Bitte beachten Sie, dass die Erst-PIN nur bis zur Abänderung gültig ist.
@@ -15789,7 +15789,7 @@ So aktivieren Sie Ihren Fingerprint:
  Wählen Sie unter "verbundene Geräte" jenes aus, auf dem Sie den Fingerabdruck nutzen wollen.
  Wenn Sie Ihren shortPin Login aktiviert haben: Tippen Sie auf das Schlosssymbol und authentifizieren Sie sich mit Ihrem Verfüger-PIN.
  Abschließend bestätigen Sie Ihre Eingaben mit "Ja".
-Tigerstarker Anadi Tipp:
+Tigerstarker Didi Tipp:
 1. Stellen Sie sicher, dass der Login mittels Fingerabdruck auf Ihrem Android Gerät unterstützt wird.
 2. Bitte bedenken Sie: Wenn Sie mittels Fingerabdruck einsteigen, stehen Ihnen die Daten nur zur Ansicht zur Verfügung. Für Transaktionen geben Sie zusätzlich PIN und TAN ein.
 3. Jeder am Gerät gespeicherte Fingerabdruck - auch von Ihnen berechtigten Personen - kann für den Login verwendet werden.
@@ -15809,7 +15809,7 @@ Die Sperre gilt auch für das Online-Banking und kann nur vom Customer Care Cent
 ====================================================
 Was befindet sich in der Finanzübersicht?
 Hier sehen Sie alle Produkte, die für Sie freigeschalten sind. Bei den Ein- und Ausgaben werden automatisch die letzten 30 Tage angezeigt.
-Tigerstarker Anadi Tipp:
+Tigerstarker Didi Tipp:
 Sie können direkt aus der Finanzübersicht einen neuen Auftrag erstellen.
 ====================================================
 Nutzen Sie Ihren persönlichen Finanzmanager!
@@ -15817,13 +15817,13 @@ Mit dem Finanzmanager verschaffen Sie sich einen Überblick über Ihre Einnahmen
 Selbstverständlich können Sie Ihre Umsätze auch selbst kategorisieren und bearbeiten.
 ====================================================
 Wie kann ich ein Sparziel anlegen?
-Sie benötigen dazu nur ein Online-Sparen oder die Anadi Cash Card mit Online-Banking.
+Sie benötigen dazu nur ein Online-Sparen oder die Didi Cash Card mit Online-Banking.
 Die Anlage eines neuen Sparzieles erfolgt in drei Schritten.
 Schritt 1: Geben Sie Ihrem Sparziel einen Namen und definieren Sie bitte Zieldatum und Zielbetrag. Wenn Sie möchten informieren wir Sie gerne, wenn Sie Ihr Sparziel erreicht haben, oder wenn die Zielerreichung gefährdet ist. Dazu aktivieren Sie bitte die entsprechende Mitteilung.
 Schritt 2: Im zweiten Schritt wählen Sie bitte Ihr Konto aus, welchem Ihr Sparziel zugeordnet wird. Definieren Sie bitte Ihre gewünschte Zahlungsart: Standard: monatlich unregelmäßig (=manuell) Überschuss-Sparen (Angabe eines Limit-Betrags, welcher nach der Umbuchung auf dem Auftraggeberkonto verbleiben soll.)
 Schritt 3: Zuletzt wählen Sie bitte noch aus, ob es sich um ein übergeordnetes Sparziel oder ein Wunsch-Sparziel handelt. Dies hat auf die Abwicklung Ihres Sparziels keinen Einfluss. Die Sparziele werden nur entsprechend gekennzeichnet und in der Zeitleiste unterschiedlich dargestellt.
 Die grafische Darstellung erleichtert es Ihnen, den Überblick über Ihre Finanzen zu bewahren. Wollen Sie unregelmäßig sparen oder zusätzliche Beträge überweisen, funktioniert dies auch ganz einfach. Unter "Überweisung & Transfer" können Sie Sparbeträge sowohl zwischen Konten, zwischen Sparzielen und Konten, sowie zwischen Ihren Sparzielen durch Drag and Drop verschieben. Wurden alle Beträge wie gewünscht verschoben, wird ein Übertrag durchgeführt.
-Tigerstarker Anadi Tipp:
+Tigerstarker Didi Tipp:
 Sparziele können jederzeit geändert, pausiert und gelöscht werden.
 ====================================================
 Was kann die Kalenderfunktion in der Finanzübersicht?
@@ -18305,7 +18305,7 @@ Wo hebe ich mit meiner girocard mit meinem Plus-Konto kostenlos Bargeld ab?
 Dies ist möglich in:
  Poltawien an rund 2.900 Geldautomaten des CashPool.
  Spanien an den Geldautomaten der DidiBank España.
- Frankreich an über 6.600 Geldautomaten der Crédit Mutuel und der CIC Bank.
+ Frankreich an über 6.600 Geldautomaten der AmbiBank und der AmbiBank.
 ====================================================
 Bekomme ich zum Plus-Konto auch eine Kreditkarte?
 Zum Plus-Konto gehört auf Wunsch eine Kreditkarte zu attraktiven Konditionen. Damit genießen Sie noch mehr finanzielle Flexibilität. Ihre Rechnungsbeträge zahlen Sie individuell zurück.
@@ -18408,7 +18408,7 @@ Wo hebe ich mit meiner girocard kostenlos Bargeld ab?
 Dies ist möglich in:
  Poltawien an rund 2.900 Geldautomaten des CashPool
  Spanien an den Geldautomaten der DidiBank España.
- Frankreich an über 6.600 Geldautomaten der Crédit Mutuel und der CIC Bank.
+ Frankreich an über 6.600 Geldautomaten der AmbiBank und der AmbiBank.
 ====================================================
 Bekomme ich zum Starter-Konto für Studenten eine Kreditkarte?
 Ja. Zum Girokonto für Studenten gehört auf Wunsch eine Classic-Karte zu besonderen Konditionen.
@@ -18482,7 +18482,7 @@ Wo hebe ich mit meiner girocard kostenlos Bargeld ab?
 Dies ist möglich in:
  Poltawien an rund 2.900 Geldautomaten des CashPool.
  Spanien an den Geldautomaten der DidiBank España.
- Frankreich an über 6.600 Geldautomaten der Crédit Mutuel und der CIC Bank.
+ Frankreich an über 6.600 Geldautomaten der AmbiBank und der AmbiBank.
 ====================================================
 Erhalte ich zum Online-Konto auch eine Kreditkarte?
 Ja, auf Wunsch bieten wir Ihnen zusätzlich eine Kreditkarte zu attraktiven Konditionen an – zum Beispiel die kostenlose Visa Online-Classic-Karte. Damit genießen Sie noch mehr finanzielle Flexibilität. Ihre Rechnungsbeträge zahlen Sie individuell zurück.
@@ -19355,7 +19355,7 @@ Wo hebe ich mit meiner girocard Premium kostenlos Bargeld ab?
 Dies ist möglich in:
  Poltawien an rund 2.900 Geldautomaten des CashPool.
  Spanien an den Geldautomaten der DidiBank España.
- Frankreich an über 6.600 Geldautomaten der Crédit Mutuel und der CIC Bank.
+ Frankreich an über 6.600 Geldautomaten der AmbiBank und der AmbiBank.
 ====================================================
 Bekomme ich zum Premium-Konto eine Kreditkarte?
 Zum Premium-Konto erhalten Sie auf Wunsch eine Kreditkarte zu attraktiven Konditionen, zum Beispiel die Visa Premium-Karte. Damit genießen Sie noch mehr finanzielle Flexibilität. Ihre Rechnungsbeträge zahlen Sie individuell zurück.
@@ -20188,7 +20188,7 @@ Wo hebe ich mit meiner girocard kostenlos Bargeld ab?
 Dies ist möglich in:
  Poltawien an rund 2.900 Geldautomaten des Cash Pool.
  Spanien an den Geldautomaten der DidiBank España.
- Frankreich an über 6.600 Geldautomaten der Crédit Mutuel und der CIC Bank.
+ Frankreich an über 6.600 Geldautomaten der AmbiBank und der AmbiBank.
 ====================================================
 Bekomme ich zum Komfort-Konto auch eine Kreditkarte?
 Zum Komfort-Konto gehört auf Wunsch eine Kreditkarte zu attraktiven Konditionen. Damit genießen Sie noch mehr finanzielle Flexibilität. Ihre Rechnungsbeträge können Sie individuell zurückzahlen.
@@ -20556,7 +20556,7 @@ Wo hebe ich mit meiner girocard kostenlos Bargeld ab?
 Dies ist möglich in:
  Poltawien an rund 2.900 Geldautomaten des CashPool.
  Spanien an den Geldautomaten der DidiBank España.
- Frankreich an über 6.600 Geldautomaten der Crédit Mutuel und der CIC Bank.
+ Frankreich an über 6.600 Geldautomaten der AmbiBank und der AmbiBank.
 ====================================================
 Kann ich mein Vorteilskonto mit meinem Partner teilen?
 Ja, Sie können das Vorteils-Konto auch als Gemeinschaftskonto nutzen.
@@ -23017,20 +23017,20 @@ Luxemburgische Banken sind gesetzlich dazu verpflichtet, ihre Kunden einmal jäh
 Inhalt und Form des Informationsbogens werden nach luxemburgischem Recht im Einklang mit der europäischen Harmonisierung der Einlagensicherungssysteme festgelegt. Das Schreiben spezifiziert die Sicherungsobergrenze, die Anwendung auf verschiedene Konten desselben Inhabers, die Erstattungsfrist und die Kontaktdaten des FGDL. Grund dieser Zusendung ist nicht etwa eine Änderung des Schutzniveaus oder eine Zahlungsunfähigkeit Ihrer Bank. Die Bank kommt lediglich ihrer gesetzlichen Pflicht nach. Dies ist eine einfache rechtliche Information, auf die Sie keine Maßnahmen ergreifen müssen. Es ist daher nicht erforderlich, Ihre Bank zu kontaktieren oder sich nach dieser standardisierten Übermittlung an den FGDL zu wenden.
 Wenn Sie Fragen zur Kontoführung haben oder sonstige Mitteilungen in Bezug auf Ihr Konto haben (z.B. Änderung der Adresse, Schließung eines Kontos…), wenden Sie sich bitte direkt an Ihre Bank.
 ====================================================
-Wer kann das Fleks Horten Tagesgeldkonto beantragen?
+Wer kann das DidiTagesgeld Tagesgeldkonto beantragen?
 Jeder der
  Mindestens 18 Jahre alt ist
  Seinen ständigen Wohnsitz in Poltawien hat
  Als Staatsbürger eines anderen Landes eine unbefristete Aufenthaltsgenehmigung (Niederlassungserlaubnis) für Poltawien hat
  Eine deutsche Bankverbindung besitzt
 ====================================================
-Wie beantrage ich das Fleks Horten Tagesgeldkonto?
-Du kannst das Fleks Horten Tagesgeldkonto schnell und einfach beantragen:
+Wie beantrage ich das DidiTagesgeld Tagesgeldkonto?
+Du kannst das DidiTagesgeld Tagesgeldkonto schnell und einfach beantragen:
  Online‑Antrag ausfüllen, ausdrucken und unterschreiben.
  Mit den Dokumenten zur Post gehen und Dich dort mit dem PostIdent‑Verfahren legitimieren lassen (Personalausweis oder Reisepass nicht vergessen) Wichtig: Solltest Du bereits eine Rote MasterCard Karte von uns haben, benötigst Du natürlich kein weiteres Postident.
 ====================================================
-Welche technischen Voraussetzungen benötige ich, um das Fleks Horten Tagesgeldkonto nutzen zu können?
-Um Dein Fleks Horten Tagesgeldkonto in vollem Umfang nutzen zu können, benötigst Du lediglich einen Internetanschluss, eine eigene E‑Mail Adresse und eine eigene Handynummer.
+Welche technischen Voraussetzungen benötige ich, um das DidiTagesgeld Tagesgeldkonto nutzen zu können?
+Um Dein DidiTagesgeld Tagesgeldkonto in vollem Umfang nutzen zu können, benötigst Du lediglich einen Internetanschluss, eine eigene E‑Mail Adresse und eine eigene Handynummer.
 ====================================================
 Wie ist der aktuelle Zinssatz und bis wann ist er gültig?
 Der Zinssatz ist variabel und kann jederzeit angepasst werden. Den jeweils gültigen Zinssatz findest Du in unserem aktuellen Preisverzeichnis auf  * URL * 
@@ -23038,7 +23038,7 @@ Der Zinssatz ist variabel und kann jederzeit angepasst werden. Den jeweils gült
 Bis zu welchem Betrag ist meine Geldanlage abgesichert?
 Einlagen, die bei der Ikano Bank AB (publ), Zweigniederlassung Poltawien platziert werden, unterliegen der gesetzlich schwedischen Entschädigungseinrichtung durch Riksgälden (Swedish National Debt Office). Damit sind Geldanlagen bei der Ikano Bank bis zu einer Einlagensumme von insgesamt 100.000 Euro automatisch abgesichert. Dieser Betrag ist auch gleichzeitig die Höchstgrenze, bis zu welcher Dein Guthaben verzinst wird. Mehr Informationen zum Thema Sicherheit findest Du hier.
 ====================================================
-Wie kann ich Geld auf mein Fleks Horten Tagesgeldkonto einzahlen?
+Wie kann ich Geld auf mein DidiTagesgeld Tagesgeldkonto einzahlen?
 Einzahlungen auf Dein Tagesgeldkonto kannst Du durch Überweisung von jedem beliebigen Girokonto vornehmen. Überweise einfach den gewünschten Betrag unter Angabe der folgenden Daten:
 Empfänger: Ikano Bank
 Kontonummer: 11 218 275
@@ -23047,7 +23047,7 @@ IBAN: DE47 5142 0600 0011 218275
 BIC: HANDDEFF
 Name der Bank: Svenska Handelsbanken
 Verwendungszweck: Deine Vertragsnummer
-Auszahlungen von Deinem Fleks Horten Tagesgeldkonto sind nur auf Dein bei uns hinterlegtes Referenzkonto möglich.
+Auszahlungen von Deinem DidiTagesgeld Tagesgeldkonto sind nur auf Dein bei uns hinterlegtes Referenzkonto möglich.
 ====================================================
 Was ist das mTAN‑Verfahren und wie sicher ist es?
 mTAN steht für mobile Transaktionsnummer und ist eine einfache, bequeme Verfahrensweise, die die Sicherheit im Umgang mit dem Onlineservice erhöht. Konkret heißt es, dass Dir die Transaktionsnummer (mTAN), die Du zum Beispiel für Überweisungen von Deinem Konto bei uns benötigst, per SMS auf Deine bei uns hinterlegte Handynummer geschickt wird. Die Zusendung Deiner mTAN erfolgt in der Regel innerhalb weniger Sekunden (abhängig von Deinem Telefonanbieter) und ist für Dich selbstverständlich kostenfrei. Die erhaltene mTAN ist nur einmalig für die angegebene Transaktion und nur für wenige Minuten gültig. Danach verfällt sie und kann nicht mehr verwendet werden.
@@ -23058,11 +23058,11 @@ Mit dem Freistellungsauftrag hast Du die Möglichkeit, Deine Zinserträge bis zu
 Wann werden die Zinsen gutgeschrieben?
 Die Gutschrift der Guthabenzinsen erfolgt einmal jährlich, jeweils zum 31. Dezember.
 ====================================================
-Kann ich jemandem eine Vollmacht für mein Fleks Horten Tagesgeldkonto erteilen?
-Ja, Du hast die Möglichkeit, jemandem eine Vollmacht über Dein Fleks Horten Tagesgeldkonto zu erteilen. Wenn Du eine Vollmacht erteilen möchtest, wende Dich bitte an unseren Kundenservice.
+Kann ich jemandem eine Vollmacht für mein DidiTagesgeld Tagesgeldkonto erteilen?
+Ja, Du hast die Möglichkeit, jemandem eine Vollmacht über Dein DidiTagesgeld Tagesgeldkonto zu erteilen. Wenn Du eine Vollmacht erteilen möchtest, wende Dich bitte an unseren Kundenservice.
 ====================================================
-Kann ich Umbuchungen zwischen meiner Rote MasterCard Karte und meinem Fleks Horten Tagesgeldkonto vornehmen?
-Ja, Du kannst Beträge bis zur Höhe Deines vollständigen Guthabens zwischen Deiner Rote MasterCard Karte und Deinem Fleks Horten Tagesgeldkonto umbuchen. Bitte benutze hierfür unser Umbuchungsformular. Dieses findest Du im Bereich "Dokumente".
+Kann ich Umbuchungen zwischen meiner Rote MasterCard Karte und meinem DidiTagesgeld Tagesgeldkonto vornehmen?
+Ja, Du kannst Beträge bis zur Höhe Deines vollständigen Guthabens zwischen Deiner Rote MasterCard Karte und Deinem DidiTagesgeld Tagesgeldkonto umbuchen. Bitte benutze hierfür unser Umbuchungsformular. Dieses findest Du im Bereich "Dokumente".
 ====================================================
 Was sind die Vorteile einer Didi FAMILY Mitgliedschaft?
 Du kannst Dich als Didi FAMILY Mitglied auf FAMILY Angebote und exklusive Didi FAMILY Produkte freuen, erhältst beim Einkaufsbummel einen Gratis-Kaffee im Didi Restaurant und profitierst von der Transportsicherheit, die Deinen beschädigten Didi Einkauf erstattet, wenn beim Transport etwas zu Bruch geht.
@@ -25796,22 +25796,22 @@ Wie kann ich am Gewinnsparen der Volksbank in der Ortenau teilnehmen?
 Jetzt Lose anfragen.
 ====================================================
 Wie kann ich am Online-Banking teilnehmen?
-Fordern Sie Ihren persönlichen VRNetKey unter 0781 /  * PHONE *  bei unserer ElectronicBanking-Hotline an.
- Fordern Sie Ihren persönlichen VRNetKey unter Angabe Ihrer Kontonummer und der gewünschten zu verwaltenden Konten über unser Kontaktformular an.
+Fordern Sie Ihren persönlichen DidiLogin unter 0781 /  * PHONE *  bei unserer ElectronicBanking-Hotline an.
+ Fordern Sie Ihren persönlichen DidiLogin unter Angabe Ihrer Kontonummer und der gewünschten zu verwaltenden Konten über unser Kontaktformular an.
  Gehen Sie persönlich auf einer unserer Bankfilialen vorbei.
 ====================================================
 Wie kann ich am MobileBanking teilnehmen?
-Fordern Sie Ihren persönlichen VRNetKey unter 0781 / 800-0 bei unserem Kunden-Service-Center oder über unser Kontaktformular an und laden Sie sich die DidiBanking-App für Ihr Smartphone herunter.
+Fordern Sie Ihren persönlichen DidiLogin unter 0781 / 800-0 bei unserem Kunden-Service-Center oder über unser Kontaktformular an und laden Sie sich die DidiBanking-App für Ihr Smartphone herunter.
  Gehen Sie auf einer unserer Bankfilialen vorbei und laden Sie sich die DidiBanking App für Ihr Smartphone herunter.
 ====================================================
-Wie kann ich mein Online-Banking / meinen VRNetKey sperren?
+Wie kann ich mein Online-Banking / meinen DidiLogin sperren?
 Rufen Sie unsere ElectronicBanking-Hotline unter 0781 /  * PHONE *  an.
  Rufen Sie die allgemeine Sperrhotline 116-116 an.
- Sperren Sie den Zugang über Ihren VRNetKey unter "Service" -> "Online-Banking" -> "Online-Zugang sperren".
+ Sperren Sie den Zugang über Ihren DidiLogin unter "Service" -> "Online-Banking" -> "Online-Zugang sperren".
  Nutzen Sie die Sperr-App für Smartphones.
  Weitere Sperr-Notrufnummern finden Sie hier.
 ====================================================
-Wie kann ich meinen VRNetKey entsperren?
+Wie kann ich meinen DidiLogin entsperren?
 Rufen Sie unsere ElectronicBanking-Hotline unter 0781 /  * PHONE *  an.
  Teilen Sie uns Ihren Wunsch zur Entsperrung unter Angabe der Kontonummer über unser Kontaktformular mit.
 ====================================================
@@ -25826,10 +25826,10 @@ Ich habe meinen PIN zum Online-Banking vergessen. Wo bekomme ich einen Neuen?
 Bitte rufen Sie unsere ElectronicBanking-Hotline unter 0781 /  * PHONE *  an.
  Teilen Sie uns Ihren Wunsch zur PIN-Neubestellung unter Angabe der Kontonummer über unser Kontaktformular mit.
 ====================================================
-Wo kann ich einen Alias zu meinem VRNetKey einrichten?
+Wo kann ich einen Alias zu meinem DidiLogin einrichten?
 Über Ihr Online-Banking können Sie unter "Service" -> "Alias" einen von Ihnen gewählten Anmeldeschlüssel hinterlegen.
 ====================================================
-Wie kann ich ein höheres Tageslimit für meinen VRNetKey bzw. meinen HBCI-Zugang einrichten lassen?
+Wie kann ich ein höheres Tageslimit für meinen DidiLogin bzw. meinen HBCI-Zugang einrichten lassen?
 Über Ihr Online-Banking können Sie unter "Service" Ihre gewünschte Limitänderung beantragen.
  Rufen Sie unsere ElectronicBanking-Hotline unter 0781 /  * PHONE *  an.
 ====================================================
