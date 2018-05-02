@@ -7,29 +7,48 @@ POS_IGNORE = ["CONJ", "CCONJ", "DET", "NUM", "PRON", "PUNCT", "SYM", "PART"]
 
 PUNKT_PREPROCESS = ["/", "<", ">", "*", "=", "–"]
 
-first_banks = ["PostBank", "PSD", "EthikBank", "TARGOBANK", "Triodos", "Sparda-Bank", "targobank", "FerratumBank", "GarantiBank", "Hanseatic Bank", "Keytrade Bank", "Deutsche Bank", "MERKUR BANK", "Skatbank", "VR-Bank", "norisbank", "Skatbank", "BLKB"]
-second_banks  = ["solarisBank" "SWK Bank", "DNB", "ING DiBa", "RCI Banque", "Commerzbank"]
-companies = ["comdirect","CIM","Volkswagen", "Opel", "Renault", "Dacia", "Nissan","GRENKE", "Santander", "Fidor", "Credit Europe", "DKB", "HOB", "IKEA" ,"OKB", "Rabo",  "Ferratum", "NIBC", "Shaufelonline", "EdB", "GLS", "HVB", "PayPal" ,"East West Direkt", "COMPEON", "DHB", "FINAVI", "Finavi", "Fiducia GAD"]
-first_products = ["Kash Reserv", "ROBIN", "VR-FinanzPlan", "NIBCard", "SpardaSecure", "Sparkassen-Card"]
-second_products = ["Kash Borgen", "maxblue", "SecureGo", "SpardaNet", "Kleeblatt", "S-Card"]
-third_products = ["Kash Borgen", "TWINT", "easyKonto", "E-Rechnung", "EB-Banking", "RabDirect"]
+first_banks = ["PostBank", "PSD", "EthikBank", "TARGOBANK", "Triodos", "Sparda-Bank", "targobank", "FerratumBank", "GarantiBank", "Hanseatic Bank", "Keytrade Bank", "Deutsche Bank", "MERKUR BANK", "Skatbank", "VR-Bank", "norisbank", "Skatbank", "BLKB", "ABN AMRO"]
+second_banks  = ["solarisBank" "SWK Bank", "DNB", "ING DiBa","ING-DiBa" "RCI Banque", "Commerzbank","Postbank", "AmExCo", "DB PGK"]
+companies = ["comdirect","CIM","Volkswagen", "Opel", "Renault", "Dacia", "Nissan","GRENKE", "Santander", "Fidor", "Credit Europe", "DKB", "HOB", "IKEA" ,"OKB", "Rabo",  "Ferratum", "NIBC", "Shaufelonline", "EdB", "GLS", "HVB", "PayPal" ,"East West Direkt", "COMPEON", "DHB", "FINAVI", "Finavi", "Fiducia GAD", "AMRO"]
+
+
+products_map = {
+    "Kash Reserv" : "DidiRahmenkredit",
+    "ROBIN" : "DidiVermögen",
+    "VR-FinanzPlan" : "DidiVermögen",
+    "NIBCard" : "DidiCard",
+    "SpardaSecure" : "DidiSecure",
+    "Sparkassen-Card" : "DidiCard",
+    "RaboSpar90" : "DidiSuperSparkonto",
+    "RaboSpar30" : "DidiSparkonto",
+    "Kash Borgen" : "DidiRatenkredit",
+    "DispoEasy" : "DidiDispo",
+    "maxblue" : "DidiInvestor",
+    "SpardaNet" : "DidiOnline",
+    "S-Card" : "DidiCard",
+    "Kleeblatt" : "Didi",
+    "sparSmart" : "DidiSuperSparkonto",
+    "TWINT" : "DidiPay",
+    "easyKonto" :"DidiEasy",
+    "SpardaApp" : "DidiApp",
+    "EB-Banking App": "DidiApp"
+
+}
 countries = ["Deutschland", "Schweiz", "Österreich", "Luxembourg", "Malta", "Belgien", "Ruhr", "Hessen"]
 towns = ["Berlin", "München", "Frankfurt", "Hamburg", "Hannover", "Karlsruhe", "Stuttgart", "Köln", "Düsseldorf", "Duisburg", "Mannheim", "Dresden", "Ingolstadt", "Münster"]
 first_bank_name = "DidiBank"
 second_bank_name = "AmbiBank"
-first_product_name = "Dodo"
-second_product_name = "Bambi"
-third_product_name = "Mimi"
+
 
 company_name = "Didi "
 country = "Poltawien"
-#
+
 town = "Oglietzen"
 
 possible_integrator = ["girokonto",  "konto", "einlagen", "behörden", "einstellung","verzeichnis","name", "namens", "bank","banken","prozess","verhältnisse","vereinbarungen", "checks", "check", "fristen", "beratung", "kunde", "kunden", "adresse", "daten", "informationen", "spanne", "sprachen", "sprache", "planung", "bescheid", "situation", "verwaltung", "amt", "schulden", "zahlung", "gefühle", "beratungsstelle", "stunden", "beschluss", "schaden", "pfändung", "versicherung", "vertrag", "abtretung", "anteil", "verfahren", "gesellschaft", "datum", "kosten", "kurs", "transaktion", "order" , "verbot", "freiheit", "nummer", "gremium", "kammer", "unabhängig", "system", "limit", "eingang", "ausgang", "gang"]
 
 characters_to_space = ['/', "*"]
-characters_spaced = [' / ', ' * ']
+characters_spaced = [" / ", " * "]
 
 
 def create_corpus(text_stream):
@@ -50,10 +69,15 @@ def replace_bank_names(text):
             if bank in text:
                 text = text.replace(bank, bank_name)
         return text
-
-    text = replace_strings(text, first_products, first_product_name)
-    text = replace_strings(text, second_products, second_product_name)
-    text = replace_strings(text, third_products, third_product_name)
+    def map_products(text, map_product):
+        for key, value in map_product.items():
+            if key in text:
+                text = text.replace(key, value)
+        return text
+    text = map_products(text, products_map)
+    #text = replace_strings(text, first_products, first_product_name)
+    #text = replace_strings(text, second_products, second_product_name)
+    #text = replace_strings(text, third_products, third_product_name)
     text = replace_strings(text, first_banks, first_bank_name)
     text = replace_strings(text, second_banks, second_bank_name)
     text = replace_strings(text, companies, company_name)
@@ -70,9 +94,9 @@ def replace_characters_to_space(text):
 def custom_preprocess(text):
 
     text = replace_bank_names(text)
-    processed_text = preprocess_text(text, fix_unicode = True, lowercase = False, no_urls = True, no_emails = True, no_phone_numbers = True, no_punct = False, no_numbers=False)
+    text = preprocess_text(text, fix_unicode = True, lowercase = False, no_urls = True, no_emails = True, no_phone_numbers = True, no_punct = False, no_numbers=False)
     text = replace_characters_to_space(text)
-    return processed_text
+    return text
 
 
 def model_process(text, nlp):
@@ -100,7 +124,7 @@ def model_process(text, nlp):
             elif (token.pos_ in ["VERB", "AUX"]):
                 sep_part = [x for x in token.children if x.tag_ == "PTKVZ"]
                 if (len(sep_part) > 0):
-                    to_app = sep_part[0].text+token.lemma_.lowercase()
+                    to_app = sep_part[0].text+token.lemma_.lower()
  #                   if (to_app[-1] != 'n'):
  #                       to_app = to_app + "n"
                     keep_toks.append(to_app)
