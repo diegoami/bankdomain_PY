@@ -1130,17 +1130,17 @@ Für Minderjährige werden keine Geschäftskonten eröffnet.
 ====================================================
 Ist eine Kontoanlage auf eine Gesellschaft bürgerlichen Rechts möglich?
 
-Aktuell können wir Geschäftskunden noch kein Konto für eine Gesellschaft bürgerlichen Rechts anbieten. Wir arbeiten kontinuierlich an der Verbesserung und Ergänzung unserer Produktpalette. Dazu nehmen wir gerne Ihre Meinung und Ihre Vorschläge an und freuen uns über Ihre Nachricht. Wenn Sie an Informationen über Produkte und Dienstleistungen interssiert sind bestellen Sie bitte unseren Newsletter
+Aktuell können wir Geschäftskunden noch kein Konto für eine Gesellschaft bürgerlichen Rechts anbieten. Wir arbeiten kontinuierlich an der Verbesserung und Ergänzung unserer Produktpalette. Dazu nehmen wir gerne Ihre Meinung und Ihre Vorschläge an und freuen uns über Ihre Nachricht. Wenn Sie an Informationen über Produkte und Dienstleistungen interessiert sind bestellen Sie bitte unseren Newsletter
 
 ====================================================
 Ist eine Kontoanlage auf eine juristische Person (UG, GmbH, OHG, KG, AG, etc.) möglich?
 
-Aktuell können wir Geschäftskunden noch kein Konto für eine juristische Person (UG, GmbH, OHG, KG, AG, etc.) anbieten. Wir arbeiten kontinuierlich an der Verbesserung und Ergänzung unserer Produktpalette. Dazu nehmen wir gerne Ihre Meinung und Ihre Vorschläge an und freuen uns über Ihre Nachricht. Wenn Sie an Informationen über Produkte und Dienstleistungen interssiert sind bestellen Sie bitte unseren Newsletter
+Aktuell können wir Geschäftskunden noch kein Konto für eine juristische Person (UG, GmbH, OHG, KG, AG, etc.) anbieten. Wir arbeiten kontinuierlich an der Verbesserung und Ergänzung unserer Produktpalette. Dazu nehmen wir gerne Ihre Meinung und Ihre Vorschläge an und freuen uns über Ihre Nachricht. Wenn Sie an Informationen über Produkte und Dienstleistungen interessiert sind bestellen Sie bitte unseren Newsletter
 
 ====================================================
 Wie bekomme ich einen Kontokorrentkredit?
 
-Aktuell können wir Geschäftskunden noch keinen Kontokorrentkredit anbieten. Wir arbeiten kontinuierlich an der Verbesserung und Ergänzung unserer Produktpalette. Dazu nehmen wir gerne Ihre Meinung und Ihre Vorschläge an und freuen uns über Ihre Nachricht. Wenn Sie an Informationen über Produkte und Dienstleistungen interssiert sind bestellen Sie bitte unseren Newsletter
+Aktuell können wir Geschäftskunden noch keinen Kontokorrentkredit anbieten. Wir arbeiten kontinuierlich an der Verbesserung und Ergänzung unserer Produktpalette. Dazu nehmen wir gerne Ihre Meinung und Ihre Vorschläge an und freuen uns über Ihre Nachricht. Wenn Sie an Informationen über Produkte und Dienstleistungen interessiert sind bestellen Sie bitte unseren Newsletter
 
 ====================================================
 Wie wird mein Kontoguthaben verzinst?
@@ -1762,7 +1762,7 @@ Nein, für bestehende Lastschrifteinzüge zu Lasten Ihres Referenzkontos (Sparpl
 ====================================================
 Wie kann ich Lastschriften auf mein Geschäftskonto einziehen?
 
-Aktuell können wir Geschäftskunden noch keinen Lastschrifteinzug anbieten. Wir arbeiten kontinuierlich an der Verbesserung und Ergänzung unserer Produktpalette. Dazu nehmen wir gerne Ihre Meinung und Ihre Vorschläge an und freuen uns über Ihre Nachricht. Wenn Sie an Informationen über Produkte und Dienstleistungen interssiert sind bestellen Sie bitte unseren Newsletter
+Aktuell können wir Geschäftskunden noch keinen Lastschrifteinzug anbieten. Wir arbeiten kontinuierlich an der Verbesserung und Ergänzung unserer Produktpalette. Dazu nehmen wir gerne Ihre Meinung und Ihre Vorschläge an und freuen uns über Ihre Nachricht. Wenn Sie an Informationen über Produkte und Dienstleistungen interessiert sind bestellen Sie bitte unseren Newsletter
 
 ====================================================
 Wo finde ich die IBAN und BIC für mein Tagesgeldkonto/Anlage/Sparbrief
@@ -2073,7 +2073,7 @@ Ausführliche Informationen zu der virtuellen Kreditkarte finden Sie hier.
 ====================================================
 Wie kann ich als Geschäftskunde ein Depot eröffnen?
 
-Aktuell können wir Geschäftskunden kein Depot anbieten. Wir arbeiten kontinuierlich an der Verbesserung und Ergänzung unserer Produktpalette. Dazu nehmen wir gerne Ihre Meinung und Ihre Vorschläge an und freuen uns über Ihre Nachricht. Wenn Sie an Informationen über Produkte und Dienstleistungen interssiert sind bestellen Sie bitte unseren Newsletter
+Aktuell können wir Geschäftskunden kein Depot anbieten. Wir arbeiten kontinuierlich an der Verbesserung und Ergänzung unserer Produktpalette. Dazu nehmen wir gerne Ihre Meinung und Ihre Vorschläge an und freuen uns über Ihre Nachricht. Wenn Sie an Informationen über Produkte und Dienstleistungen interessiert sind bestellen Sie bitte unseren Newsletter
 
 ====================================================
 Wie nutze ich die Umbuchungsfunktion im Tagesgeldkonto?
@@ -3052,6 +3052,896 @@ Nein, Sie können über den Webservice so viele Prüfungen durchführen, wie Sie
 Können auch ausländische Bankverbindungen validiert werden?
 
 Neben der Prüfung deutscher Bankverbindungen (bestehend aus Bankleitzahl und Kontonummer) können mit easyKonto auch internationale IBANs sowie deutsche BIC (SWIFT-Codes) geprüft werden. Die Prüfung nationaler Bankverbindungen anderer Länder außer Deutschland wird von easyKonto nicht unterstützt. In vielen Ländern gibt es entweder überhaupt keine zentralen Richtlinien zur Validierung von Bankverbindungen oder diese werden von den Banken nicht veröffentlicht.
+
+====================================================
+Wie ist eine Sortenbestellung über die MLP Banking AG möglich?
+
+Sorten bestellen Sie schriftlich bei der MLP Banking AG. Bitte senden Sie uns hierzu das Formular zur Sortenbestellung vollständig ausgefüllt und mit Ihrer Originalunterschrift versehen an die nachstehende Adresse der MLP Banking AG oder an die Faxnummer (06222) 3169 8611.
+
+Formular Sortenbestellung MLP-Konto
+
+MLP Banking AG
+
+Postfach 1328
+
+69154 Wiesloch
+
+Geht Ihre Bestellung werktags bis 13.00 Uhr bei uns ein, erfolgt die Auslieferung per Kurier im Regelfall am nächsten Bankarbeitstag (Montag bis Freitag). Bei Bestellungen nach 13.00 Uhr erfolgt diese spätestens am zweiten Bankarbeitstag nach der Bestellung.
+
+Die Kosten für Ihre Sortenbestellung entnehmen Sie bitte unserem Preis-und Leistungsverzeichnis
+
+====================================================
+Wie lautet die Internationale Bank Account Number (IBAN) meines MLP-Girokontos?
+
+Die IBAN Ihres MLP Girokontos finden Sie rechts oben auf Ihrem Kontoauszug oder alternativ über Ihren MLP Financepilot Banking im linksbündigen Menüpunkt "Banking" -> "Kontoinformationen".
+
+Wie lautet der Internationale Bankcode (BIC) der MLP Banking AG ?
+
+Der BIC der MLP Banking AG lautet MLPBDE61.
+
+====================================================
+Welche Daten benötige ich, um eine Überweisung aus dem Ausland auf mein MLP Konto zu bekommen?
+
+Bei Zahlungseingängen aus dem Ausland nutzen Sie bitte folgende Bankverbindung: Empfänger:
+
+Ihr Vor- und Zuname
+
+IBAN: Ihre persönliche IBAN (International Bank Account Number)*
+
+SWIFT Code: MLPBDE61 via GENODEFF
+
+*Ihre persönliche IBAN können Sie über den MLP Financepilot Banking im Menüpunkt „Banking“ –> "Kontoinformationen" abfragen oder dem Kontoauszug Ihres MLP-Kontos entnehmen.
+
+Die Voraussetzungen für eine günstigere EURO-Überweisung (SEPA) sind
+
+    Grenzüberschreitende Zahlungen in die Staaten der Europäischen Union und des Europäischen Wirtschaftsraumes sowie der Schweiz
+
+    Überweisungsbetrag in Euro
+
+    Angabe des BIC (Bank Identifier Code) der Empfängerbank. Der BIC (Bank Identifier Code) der MLP Banking AG ist ebenfalls auf Ihren Kontoauszügen vermerkt und lautet: MLPBDE61
+
+    Als Entgeltregelung muss SHARE (Entgeltteilung) vereinbart werden. Das bedeutet, dass die inländischen Gebühren der
+
+    Auftraggeber, die Gebühren im Ausland der Zahlungsempfänger übernimmt.
+
+Hinweis: Für vollständig und korrekt erfasste Überweisungsaufträge über die entsprechende Funktion "EURO-Überweisung (SEPA)" im MLP Financepilot Banking, berechnet die MLP Banking AG keine Gebühren.
+
+Aufgrund der vorgeschriebenen Kostenregelung "Entgeltteilung" können im Zielland Gebühren vom Überweisungsbetrag einbehalten werden, deren Höhe individuell geregelt und uns daher nicht bekannt sind.
+
+====================================================
+Wie tätige ich eine Überweisung ins Ausland?
+
+Für eine Zahlung ins Ausland außerhalb der Staaten der Europäischen Union und des Europäischen Wirtschaftsraums sowie der Schweiz nutzen Sie im MLP Financepilot Report die Funktion "Auslandsüberweisung".
+
+Eine EURO-Überweisung (SEPA) (=Grenzüberschreitende Zahlung in die Staaten der Europäischen Union und des Europäischen Wirtschaftsraumes sowie der Schweiz) erfassen Sie im MLP Financepilot Banking in dem linksbündigen Menüpunkt „Banking“ -> „Überweisung Inland/EU“. Die Kriterien für EURO-Überweisungen (SEPA) entnehmen Sie bitte der zugehörigen Hilfeseite.
+
+====================================================
+Was sind die Grundlagen für das SEPA-Verfahren?
+
+Einheitliche Verfahren für Europa
+
+Der von der europäischen Kreditwirtschaft 2002 gegründete European Payments Council (EPC) hat einheitliche Standards und Regelungen für europäische Überweisungen, Lastschriften sowie Kartenzahlungen entwickelt und verabschiedet.
+
+Die neuen SEPA-Produkte sollen vorrangig innerhalb der Europäischen Union (EU), den drei Mitgliedstaaten des Europäischen Wirtschaftsraumes (EWR) und der Schweiz gelten.
+
+Die 31 Länder im Überblick
+
+Belgien, Bulgarien, Dänemark, Deutschland, Estland, Finnland, Frankreich, Griechenland, Großbritannien und Nordirland, Irland, Italien, Island (EWR), Lettland, Liechtenstein (EWR), Litauen, Luxemburg, Malta, Niederlande, Norwegen (EWR), Österreich, Polen, Portugal, Rumänien, Schweden, Slowakei, Slowenien, Spanien, Tschechien, Ungarn, Zypern und die Schweiz (ab 2008 für Überweisungen, weitere Umsetzungen erfolgen Schrittweise).
+
+Nationale Verfahren existieren zunächst weiter
+
+Die neuen Zahlungs-Instrumente für den europäischen Binnenmarkt werden zunächst zusätzlich zu den nationalen Verfahren angeboten. Bei inländischen Zahlungen kann deshalb seit 2008 zwischen nationalen und europäischen Verfahren gewählt werden.
+
+====================================================
+Was ist eine EURO-Überweisung (SEPA)?
+
+Die SEPA (Single Euro Payments Area) ist ein einheitlicher Euro-Zahlungsverkehrsraum, in dem alle Zahlungen wie inländische Zahlungen behandelt werden.
+
+Bereits in der Vergangenheit existierte in Deutschland mit der "EU-Standardüberweisung" ein vergleichbar standardisiertes Verfahren zur Abwicklung von Euro-Überweisungen bis 50.000 € in andere EU- und EWR-Staaten. Die entsprechenden Standards wurden vom EPC (European Payments Council) weiterentwickelt und sind auf alle EURO-Überweisungen (SEPA) anzuwenden. So werden Auftraggeber und Zahlungsempfänger, sowie deren Kreditinstitute durch IBAN und BIC identifiziert. Nach Umsetzung der PSD (EU Payment Services Directive) können Sie als Kunde nach einer maximalen Abwicklungszeit von drei Bankgeschäftstagen (seit dem Jahr 2012 nach einem Bankgeschäftstag) über den Überweisungsbetrag verfügen. Dies ist unabhängig davon, in welchem Land des SEPA-Raums das Empfänger-Konto unterhalten wird.
+
+Wie beauftrage ich eine EURO-Überweisung (SEPA) und was kostet sie?
+
+EURO-Überweisungen (SEPA) erfassen Sie im MLP Financepilot Banking unter „Überweisung Inland/EU“ im Menüpunkt "Banking". Wählen Sie das entsprechende Konto und die Überweisungsart „EURO-Überweisung" (SEPA) aus und erfassen Sie dort Ihre Überweisung.
+
+Die Angabe von BIC und IBAN des Zahlungsempfängers sind dabei zwingend erforderlich.
+
+Die MLP Banking AG berechnet für die Entgegennahme und Weiterleitung der EURO-Überweisungen keine Gebühr.
+
+====================================================
+Was bedeuten die Abkürzungen rund um die SEPA?
+
+BIC
+
+Der BIC (Bank Identifier Code) ist die internationale Bankleitzahl. Bitte erfragen Sie die persönliche IBAN und den entsprechenden BIC immer direkt beim Zahlungsempfänger.
+
+EPC
+
+EPC (European Payments Council), frei übersetzt: "Europäischer-Zahlungsverkehrs-Ausschuss", ist das von der europäischen Kreditwirtschaft gegründete Gremium, das die einheitlichen Standards für SEPA entwickelt.
+
+EU
+
+Die Europäische Union besteht aus 28 Mitgliedsstaaten. Seit Januar 2008 haben insgesamt 19 EU-Mitgliedsstaaten den Euro als Währung eingeführt.
+
+EWR
+
+EWR steht für "Europäischer Wirtschaftsraum". Dazu gehören die 28 EU-Mitgliedsstaaten sowie Island, Liechtenstein und Norwegen.
+
+IBAN
+
+Die IBAN (International Bank Account Number) ist die internationale Kontonummer.
+
+Bitte erfragen Sie diese sowie den entsprechenden BIC immer direkt beim Zahlungsempfänger.
+
+SEPA
+
+Das Kürzel SEPA ("Single Euro Payments Area") bezeichnet das Projekt eines europaweit einheitlichen Zahlungsraums, in dem seit 2008 die neuen Standards gelten. Es nehmen 34 Länder an SEPA teil. Dazu gehören neben den Mitgliedern der Europäischen Union auch die drei Länder des Europäischen Wirtschaftsraumes (EWR), die Schweiz, Monaco und San Marino.
+
+SWIFT
+
+Die SWIFT ist die "Society for Worldwide Interbank Financial Telecommunications". Die Gesellschaft regelt den internationalen Datenaustausch zwischen Banken. Sie betreibt ein weltweites Leitungsnetz und definiert Nachrichten-Standards. Jede teilnehmende Bank bekommt eine eindeutige Kennung, den BIC.
+
+====================================================
+Welche Wertpapiere können im MLP Online-Wertpapierdepot gehandelt werden?
+
+Zur Zeit können sämtliche Aktien, Renten, Zertifikate, Optionsscheine, Bezugsrechte, sowie Bundesschatzbriefe und Finanzierungsschätze, die an deutschen Börsen handelbar sind, im MLP Online-Wertpapierdepot gehandelt, d.h. gekauft, verkauft und eingeliefert werden.
+
+Investmentfonds können eingeliefert oder verkauft werden. Der Kauf von Investmentfondsanteilen über das MLP Online-Wertpapierdepot ist jedoch nicht möglich.
+
+====================================================
+Wie erkenne ich, dass meine Order ausgeführt wurde?
+
+In der Orderliste ist die entsprechende Order mit dem Status "ausgeführt" und einem Ausführungskurs versehen.
+
+====================================================
+Können Order-Limite geändert werden, bzw. können Wertpapierorders gestrichen werden?
+
+Order-Limite können geändert werden, allerdings nur so lange die Orders noch nicht ausgeführt wurden. Die Order gilt so lange als vorläufig geändert bis eine Limitänderungsbestätigung von der Börse kommt.
+
+Erteilte Orders können ebenfalls nur gestrichen werden, so lange sie noch nicht ausgeführt wurden. Die Order gilt so lange als vorläufig gestrichen bis eine Streichungsbestätigung von der Börse kommt.
+
+====================================================
+Wie gehe ich vor, wenn meine Kreditkartendaten per E-Mail abgefragt werden?
+
+Derzeit versuchen Betrüger, durch E-Mails mit Absendernamen MasterCard, Kundeninformationen von Kreditkarteninhabern zu erfragen. Die Täter wollen hierdurch an vertrauliche Kundendaten gelangen, um anschließend missbräuchliche Transaktionen tätigen zu können.
+
+Bitte beachten Sie, dass weder die MLP Banking AG, noch die Kartenorganisationen wie Mastercard oder andere Institutionen – per E-Mail oder auf anderem Wege – zu Karteninhabern Kontakt aufnehmen, um persönliche oder kartennutzungsrelevante Informationen wie Name, Vorname, komplette Kartennummer, Ablaufdatum, Abrechnungskonto oder Kartenprüfnummern (CVC2) zu erfragen. Wir raten Ihnen in einem solchen Fall, weder auf die darin enthaltenen Links zu klicken oder Anhänge zu öffnen, noch die E-Mail zu beantworten und sich im Zweifelsfall an den MLP Kundenservice zu wenden.
+
+Die Kartenorganisationen wie MasterCard gehen vehement gegen Datenkriminalität vor. Rund um die Uhr durchsuchen Expertenteams das Internet nach verdächtigen Betrug-Mails.
+
+Sind Sie Empfänger einer solchen angeblich von MasterCard versendeten E-Mail, leiten Sie diese bitte weiter an stopIT@mastercard.com
+
+====================================================
+Wie nehme ich die kostenlose Bargeldverfügung mit meiner MLP Kreditkarte in Anspruch?
+
+Die Möglichkeit, fast an allen Geldautomaten weltweit kostenlos über Bargeld zu verfügen, gilt für alle Kreditkarteninhaber, sofern sie im Besitz eines MLP Girokontos sind.
+
+Es fallen ggf. Kosten seitens der Fremdbank an. Kunden werden auf eine eventuelle Gebührenerhebung vor Ort hingewiesen und müssen diese bestätigen. Aktuell sind im Inland vereinzelt Volks- und Raiffeisenbanken bekannt, die institutsfremden Kunden ein zusätzliches Entgelt für die Nutzung ihrer Geldautomaten belasten. Bei Bargeldverfügungen an diesen inländischen Geldautomaten erstattet Ihnen MLP automatisch die angefallene Gebühr, maximal jedoch 1,95 Euro. Bei Transaktionen im Nicht-Euro-Ausland wird ein Auslandseinsatzentgelt in Höhe von 1,5 % für die Umrechnung der Fremdwährung in Euro berechnet.
+
+Je Kalendermonat (bezogen auf den Kalendertag der Abhebung) können, sowohl für die Haupt- als auch für die Zusatzkarte 4 kostenlose Bargeldabhebungen (bei gleichzeitigem führen eines MLP Girokontos) - an fast allen Geldautomaten weltweit - getätigt werden. Jede weitere Verfügung (ab der 5.) kostet 3 EUR. Die Bargeldabhebungen werden immer sofort dem hinterlegten Referenzkonto (beliebiges Girokonto) belastet. Einen Mindestabhebebetrag gibt es nicht.
+
+Die vollständigen Leistungen und Konditionen finden Sie im Preis- und Leistungsverzeichnis
+
+====================================================
+Wie überweise ich Geld von meiner MLP Kreditkarte zurück?
+
+Bitte wenden Sie sich telefonisch an das Servicetelefon von MLP CARD, um Beträge von Ihrem Kreditkartenguthaben oder aus Ihrem Kreditrahmen vom Kreditkartenkonto auf Ihr Referenzkonto überweisen zu lassen.
+
+Sie erreichen MLP CARD von montags bis freitags von 8:00 bis 20:00 Uhr und samstags von 9:00 bis 18:00 Uhr unter der Rufnummer +49(0)721/664 99 500.
+
+====================================================
+Wie überweise ich Geld auf meine MLP Kreditkarte?
+
+Eine Einzahlung auf Ihr MLP Kreditkartenkonto ist per Überweisung möglich. Bitte verwenden Sie hierzu die nachstehenden Daten, damit die MLP Banking AG eine korrekte Verbuchung gewährleisten kann:
+
+Empfänger: Ihr Name
+
+IBAN: Kreditkartenkontonummer (gemäß Abrechnung bzw. MLP Financepilot)
+
+BIC: MLPBDE61
+
+Verwendungszweck: Ihre Kreditkartennummer und Ihr Name
+
+Bitte beachten Sie in diesem Zusammenhang, dass getätigte Umsätze zuerst dem Guthaben Ihres MLP Kreditkartenkontos belastet werden. Erst wenn das Guthaben aufgezehrt wurde, erfolgt die Belastung mittels der monatlichen Kreditkartenabrechnung von Ihrem Referenzkonto.
+
+====================================================
+Sehe ich die Einzelumsätze und Abrechnungen meiner MLP Kreditkarte im MLP Financepilot?
+
+Die Einzelumsätze der MLP Kreditkarte sehen Sie im MLP Financepilot Banking. Nach Ihrem Login wählen Sie bitte "Personen-/Vertragsübersicht". Mit Anklicken der "Umsatzanzeige" gelangen Sie direkt zu der Umsatzübersicht der Kreditkarte.
+
+Sofern Sie Ihre Kreditkartenabrechnungen elektronisch als PDF erhalten, stehen Ihnen diese 12 Monate im Postfach des MLP Financepilot Banking zur Verfügung. Erhalten Sie die Kreditkartenabrechnungen per Post, haben Sie die Möglichkeit auf elektronischen Versand umzustellen.
+
+Formular Vereinbarung zum elektronischen Versand
+
+Mit Anklicken der "Kontoinformationen" in Ihrer Personen-/Vertragsübersicht im MLP Financepilot Banking gelangen Sie zur Detailansicht mit allen wichtigen Vertragsinformationen zu Ihrer MLP Kreditkarte.
+
+====================================================
+Ich habe die PIN für meine MLP Kreditkarte nicht mehr, wie beantrage ich eine Neue?
+
+Die PIN für Ihre MLP Kreditkarte bestellen Sie entweder telefonisch oder über einen „Freien Auftrag“ über Ihren MLP Financepilot Report. Für eine telefonische Bestellung erreichen Sie MLP CARD montags bis freitags von 8:00 bis 20:00 Uhr und samstags von 9:00 bis 18:00 Uhr unter der Servicenummer +49(0)721/664 99 500. Bitte beachten Sie in diesem Zusammenhang, dass wir hierfür ein Entgelt berechnen.
+
+====================================================
+Zählen die Bargeldumsätze in den Vertragsjahresumsatz?
+
+Zu den Vertragsjahresumsätzen zählen die reinen Handelsumsätze, wie das Bezahlen zum Beispiel an einer Tankstelle oder im Restaurant. Bargeldverfügungen an Geldautomaten und Bankschaltern sowie Einzahlungen und Rücküberweisungen von der MLP Kreditkarte auf das Referenzkonto sind davon ausgenommen.
+
+====================================================
+Wie werden die Bargeldverfügungen mit der MLP Kreditkarte abgebucht?
+
+Wie Sie es von Ihrer MLP Maestro-Girocard kennen, werden die Bargeldverfügungen sofort Ihrem Girokonto belastet. Handelsumsätze (z.B. Tankstelle, Restaurant) laufen weiterhin monatlich über die Kreditkartenabrechnung.
+
+====================================================
+Wann bekomme ich eine Folgekreditkarte?
+
+Eine Folgekarte zu Ihrer aktuellen MLP Kreditkarte erhalten Sie ca. vier bis sechs Wochen vor Gültigkeitsablauf an Ihre bei uns hinterlegte Anschrift. Bitte unterschreiben Sie die Folgekarte sofort nach Erhalt auf der Rückseite (auf dem dafür vorgesehenen Unterschriftsfeld unter dem Magnetstreifen).
+
+Bitte vernichten Sie die abgelaufene MLP Kreditkarte, indem Sie diese zerschneiden. Zur sicheren Entsorgung können Sie die entwertete Karte anschließend gerne an MLP CARD senden.
+
+====================================================
+Warum sehe ich in meinem Financepilot Banking ein neues Konto?
+
+Diese neunstellige Kontonummer ist Ihr individuelles Konto zur neuen MLP Kreditkarte. Über dieses Konto können Sie als Hauptkarteninhaber einer MLP Kreditkarte zukünftig via App und Financepilot Banking Ihre Umsätze einsehen, sofern Sie die Onlineabrechnung mit uns vereinbart haben.
+
+====================================================
+An wen kann ich mich bei Fragen zur Karte wenden?
+
+Sie erreichen bei Fragen zur MLP Kreditkarte den MLP Card Service montags bis freitags in der Zeit von 8:00 bis 20:00 Uhr und samstags von 9:00 bis 18:00 Uhr unter der neuen Rufnummer +49 (0)721 664 99 500.
+
+====================================================
+Wie lege ich meine individuelle Wunsch-PIN fest?
+
+Nach Erhalt der PIN zu Ihrer MLP Kreditkarte können Sie mit dieser an über 19.000 Geldautomaten der Volks-und Raiffeisenbanken in Deutschland die PIN kostenlos auf Ihre individuelle Wunsch-PIN abändern.
+
+====================================================
+Wo finde ich die Abrechnungen zur MLP Kreditkarte?
+
+Sofern Sie Onlineabrechnung mit uns vereinbart haben, finden Sie die Abrechnungen Ihrer neuen MLP Kreditkarte künftig im Postfach des Financepilot Banking. Ein vereinbarter Postversand bleibt unverändert bestehen.
+
+MLP MasterCard für Studenten: Mein Konto weist immer den Saldo 0,00 Euro auf. Warum?
+
+Inhaber einer MLP MasterCard für Studenten bekommen zwar ein Konto angezeigt, jedoch keine Umsätze. Die getätigten Kreditkartenumsätze werden sofort vom MLP-Girokonto eingezogen.
+
+====================================================
+Was muss ich bei Verlust meiner MLP Kreditkarte tun?
+
+Bitte veranlassen Sie bei Verlust Ihrer MLP Kreditkarte sofort die Sperrung der Karte unter der Rufnummer +49(0)721 664 99 500.
+
+Den Verlust Ihrer Karte müssen Sie aus Sicherheits- und Haftungsgründen auch der zuständigen Polizeibehörde melden. Für die Sperrung Ihrer MLP Kreditkarte benötigen Sie Ihre persönliche Kreditkartennummer.
+
+====================================================
+Welchen Betrag kann ich maximal mit meiner Maestro-Girocard verfügen?
+
+Die MLP Maestro-Girocard verfügt über ein Wochenlimit (Kalenderwoche) von 3.500,00 EUR. Dieses gilt für PIN-bestätigte Zahlungen sowie Abhebungen am Geldautomaten.
+
+Bitte beachten Sie hierbei, dass Verfügungen in dieser Höhe nicht unbedingt durch den Geldautomaten- bzw. Terminalbetreiber freigeschaltet wurden.
+
+Wie entsperre ich meine Maestro-Girocard, wenn ich die PIN drei Mal falsch eingegeben habe?
+
+Die MLP Maestro-Girocard wird bei dreifacher Fehleingabe der PIN gesperrt, jedoch am Automaten nicht eingezogen, sondern lediglich abgewiesen. Bei Kenntnis der korrekten PIN lassen Sie die PIN-Sperre mittels "Freien Auftrag" aus dem MLP Financepilot Report oder formlos schriftlich mit Unterschrift bei der MLP Banking AG aufheben. Nach erfolgter Freischaltung Ihrer MLP Maestro-Girocard müssen Sie diese an einem Geldautomaten einer Volks- bzw. Raiffeisenbank zur endgültigen Freischaltung einsetzen. Ihre Karte müssen Sie nicht bei der MLP Banking AG vorlegen.
+
+Ausnahme: .
+
+Sollten Sie sich im Ausland aufhalten, ist eine Rücksetzung des PIN ohne Vorlage der Karte bei der MLP Banking AG leider nicht möglich.
+
+In oben genannten Fall senden Sie Ihre Karte bitte mit einem entsprechenden Auftrag an folgende Anschrift:
+
+MLP Banking AG
+
+Kontoführung
+
+Postfach 1379
+
+69154 Wiesloch
+
+Ihre MLP Maestro-Girocard senden wir Ihnen umgehend nach der Freischaltung per Einschreiben zurück.
+
+====================================================
+Was muss ich bei Verlust meiner Maestro-Girocard tun?
+
+Bitte veranlassen Sie bei Verlust Ihrer Maestro-Girocard sofort die Sperrung der Karte unter einer der unten aufgeführten Telefonnummern.
+
+Den Verlust Ihrer Karte müssen Sie aus Sicherheits- und Haftungsgründen auch der zuständigen Polizeibehörde melden. Bei der Sperrung Ihrer Maestro-Girocard geben Sie bitte die Bankleitzahl der MLP Banking AG (672 300 00) an.
+
+Karte sperren unter: (018 05) 02 10 21 (12 ct/Min. aus dem Festnetz der DTAG, max. 42 ct/Min. aus Mobilfunknetzen) oder (069) 740 987.
+
+====================================================
+Wie bestelle ich eine neue Maestro-Girocard?
+
+Die Bestellung veranlassen Sie per "Freien Auftrag" über den MLP Financepilot Report oder mittels formlos schriftlichen Auftrag.
+
+====================================================
+Wie lade bzw. entlade ich meinen Geldkartenchip?
+
+Das Laden des Geldkartenchips Ihrer Maestro-Girocard ist kostenfrei an allen Ladeterminals möglich. Den Geldkartenchip laden Sie an speziell dafür eingerichteten Automaten (sie tragen das Geldkartensymbol) mit einem Betrag von bis zu 200,00 EUR auf.
+
+Ersatzkarten und Karten für Neukunden werden standardmäßig ohne Geldkartenfunktion ausgeliefert. Karten mit Gültigkeit 2015 oder später werden im Rahmen des jährlichen Regelaustausches ebenfalls standardmäßig ohne Geldkartenfunktion ausgegeben. Spätestens ab dem 01.01.2018 befinden sich somit keine gültigen MLP Maestro-Girocards mehr im Markt, die die Geldkartenfunktion unterstützen. Karten mit Gültigkeit 2017 können noch bis zum 30.06.2018 zum Bezahlen mit der Geldkarte genutzt werden, wenn sich noch ein Restguthaben auf dem Chip befindet. Das Aufladen dieser Karten wird ab dem 01.01.2018 nicht mehr möglich sein.
+
+Zum Entladen senden Sie Ihre Karte bitte mit einem entsprechenden Auftrag an folgende Anschrift:
+
+MLP Banking AG
+
+Postfach 1379
+
+69154 Wiesloch
+
+Die Gutschrift des entladenen Betrags erfolgt direkt auf Ihrem MLP-Girokonto.
+
+====================================================
+Wie und von wem kann ein Freistellungsauftrag gestellt werden?
+
+Jede natürliche Person (ab Geburt) kann einen Freistellungsauftrag einreichen und den gesamten Freistellungsbetrag dabei auf mehrere Kreditinstitute aufteilen. Die optimale und korrekte Verteilung obliegt dem Steuerpflichtigen selbst. Dabei dürfen die nachstehenden Höchstbeträge nicht überschritten werden:
+
+Höchstbeträge gültig seit 01.01.2009
+
+Ledige 801 EUR
+
+Verheiratete 1.602 EUR
+
+Ein Freistellungsauftrag kann nicht auf einzelne Konten / Depots beschränkt werden, sondern gilt generell für alle Konten und Depots, die bei einem Kreditinstitut bestehen.
+
+Bei Ehepartnern ist zudem eine gemeinschaftliche als auch eine getrennte Freistellung der Konten und Depots möglich. Ein gemeinsam erteilter Freistellungsauftrag hat den Vorteil, dass neben Gemeinschaftskonten und -depots auch die Einzelverträge freigestellt sind. Ferner erfolgt bei der gemeinschaftlichen Freistellung automatisch eine ehegattenübergreifende Verlustverrechnung.
+
+Sofern der Sparerpauschbetrag bereits ausgeschöpft wurde, ist im Rahmen des Freistellungsformulars auch nur die Beauftragung der ehegattenübergreifenden Verlustverrechnung möglich. Hierbei ist auf dem gemeinsamen Freistellungsauftrag der Betrag 0,00 EUR anzugeben.
+
+====================================================
+Wie kann ich einen Freistellungsauftrag bei der MLP Banking AG einreichen?
+
+Ein Freistellungsauftrag muss generell mit dem entsprechenden Formular eingereicht werden. Freistellungsauftrag einschließlich Antrag auf ehegattenübergreifende Verlustrechnung
+
+====================================================
+Wie hoch ist mein gestellter Freistellungsauftrag bei der MLP Banking AG ?
+
+Sie finden die Daten Ihres Freistellungsauftrags für Ihre Konten und Depots bei der MLP Banking AG im MLP Financepilot Banking im Menü "Banking" -> "Freistellungsauftrag".
+
+====================================================
+Wie ist mein Geld bzw. sind meine Einlagen bei der MLP Banking AG abgesichert?
+
+Kundeneinlagen sind bei der MLP Banking AG durch ein zweistufiges Einlagensicherungssystem gesichert.
+
+    Die gesetzlich vorgeschriebene Einlagensicherung erfolgt durch die Entschädigungseinrichtung deutscher Banken GmbH (EdB).
+
+    Diese Sicherungseinrichtung deckt Einlagen bis zu einer Höhe von max. 100.000 EUR pro Person pro Kreditinstitut, unabhängig von der Anzahl der Konten (auch Gemeinschaftskonten). Weitere Informationen finden Sie unter www.bdb.de
+
+    Darüber hinaus ist die MLP Banking AG Mitglied im Einlagensicherungsfonds des Bundesverbandes deutscher Banken e.V.
+
+    Über die gesetzliche Sicherung in Höhe von 100.000 EUR pro Person hinaus schützt der Einlagensicherungsfonds Einlagen von Privatpersonen, Wirtschaftsunternehmen und öffentlichen Stellen. Geschützt werden z.B. Sicht-, Termin und Spareinlagen (also Guthaben auf Giro-, Spar-, Tagesgeld, Festgeldkonten und Liquiditäts-, Abwicklungskonten) sowie auf den Namen lautende Sparbriefe.
+
+    Die Grenze dieser Einlagensicherung bemisst sich an der Eigenkapitalausstattung der jeweiligen Mitgliedsbank und wird daher jährlich angepasst.
+
+    Die Sicherungsgrenze beträgt derzeit 20 % des maßgeblich haftenden Eigenkapitals und wird über einen Zeitraum von 10 Jahren weiter abgesenkt (ab 01.01.2020: 15 % und ab dem 01.01.2025: 8,75 %).
+
+    Die aktuell vom Einlagensicherungsfonds festgelegte Sicherungsgrenze für die MLP Banking AG beträgt 14.799.000,00 Euro je Kunde.
+
+    Weitere Informationen sowie die aktuelle Sicherungsgrenze finden Sie unter www.bankenverband.de/einlagensicherung
+
+Für Wertpapierdepots ist dieser Schutz nicht notwendig, denn die dort befindlichen Wertpapiere bleiben im Eigentum des Kunden und werden von der Bank lediglich verwahrt. Sie können jederzeit die Herausgabe Ihrer Wertpapiere verlangen. Das gilt auch, falls Ihre Depotbank insolvent sein sollte.
+
+====================================================
+Wie mache ich eine getätigte Überweisung rückgängig?
+
+Überweisungen, die Sie online erteilen, werden durch PIN und TAN von Ihnen autorisiert. Ein Widerruf oder eine Stornierung der Überweisungsaufträge ist nur bis zur Annahme des Auftrages durch die MLP Banking AG möglich. Mit der Belastung Ihres Kontos ist die Überweisung angenommen und ausgeführt. Eine Stornierung ist nicht mehr möglich.
+
+Wir können versuchen, einen Rückruf bei der Empfängerbank zu erwirken. Wir sind hier jedoch auf das Entgegenkommen der Empfängerbank und des Empfängers angewiesen, um den Überweisungsbetrag wieder Ihrem Konto gutschreiben zu können (ohne Gewähr). Dieser Auftrag ist entgeltpflichtig. Die Höhe des Entgeltes entnehmen Sie bitte unserem Preis- und Leistungsverzeichnis. Das Entgelt fällt auch an, sollte der Überweisungsrückruf nicht erfolgreich sein.
+
+Zur Ausführung eines Überweisungsrückrufes senden Sie uns bitte einen "Freien Auftrag" aus dem MLP Financepilot Report oder ein im Original unterzeichnetes Fax an den MLP Kundenservice an die Fax-Nr. 06222 3169 8933.
+
+====================================================
+Wie lange dauert eine Überweisung?
+
+Hier gelten die vorgeschriebenen Fristen des BGB §676s: Soweit keine anderen Fristen vereinbart werden, sind Überweisungen schnellstmöglich zu bewirken.
+
+    Grenzüberschreitende Überweisungen in Mitgliedstaaten der Europäischen Union und in Vertragsstaaten des Abkommens über den Europäischen Wirtschaftsraum, die auf deren Währung oder Währungseinheit oder auf Euro lauten, sind, soweit nichts anderes vereinbart ist, binnen fünf Werktagen, an denen alle beteiligten Kreditinstitute gewöhnlich geöffnet haben (Bankgeschäftstage), ausgenommen Samstage, auf das Konto des Kreditinstituts des Begünstigten zu bewirken.
+
+    Inländische Überweisungen in Inlandswährung sind längstens binnen zwei Bankgeschäftstagen auf das Konto des Kreditinstituts des Begünstigten zu bewirken.
+
+====================================================
+Wie reiche ich einen Verrechnungsscheck auf mein MLP Girokonto ein?
+
+Den Scheck senden Sie bitte mit einem Scheckeinreichungsformular an die MLP Banking AG, Postfach 1379, 69154 Wiesloch.
+
+Formular Scheckeinreichung MLP Konto
+
+====================================================
+Wie nehme ich Bargeldeinzahlungen / -auszahlungen bei meinem MLP Girokonto vor?
+
+Einzahlungen
+
+Bargeldeinzahlungen sind bei jeder Filiale der Reisebank möglich. Hierzu müssen Sie generell die IBAN Ihres MLP Kontos angeben.
+
+Bargeldeinzahlungen können Sie auch an nahezu jedem Post-, Bank- oder Sparkassenschalter vornehmen, sofern diese "Bargeldeinzahlungen für einen Nichtkunden" annehmen.
+
+Die Gebühr pro Einzahlung beträgt 3 Euro.
+
+Auszahlungen
+
+Mit Ihrer MLP Kreditkarte können Sie an fast allen Geldautomaten weltweit kostenfrei Bargeld abheben.* Je Kalendermonat (bezogen auf den Kalendertag der Abhebung) können, sowohl für die Haupt- als auch für die Zusatzkarte 4 kostenlose Bargeldabhebungen (bei gleichzeitigem Führen eines MLP Girokontos) - an fast allen Geldautomaten weltweit kostenfrei - getätigt werden. Jede weitere Verfügung (ab der 5.) kostet 3 EUR. Die Bargeldabhebungen werden immer sofort dem hinterlegten Referenzkonto (beliebiges Girokonto) belastet. Einen Mindestabhebebetrag gibt es nicht.
+
+Mit der Maestro-Girocard haben Sie Bargeldverfügung an jedem Geldautomaten gegen die dort ausgewiesenen Gebühren des Geldautomatenbetreibers.
+
+Kostenlose Bargeldverfügungen ab 1.000,00 EUR bieten wir Ihnen auch über die Filialen der Reisebank an. Diese Bargeldauszahlungen müssen jedoch vorab bei der MLP Banking AG bestellt werden. Benutzen Sie hierfür bitte folgendes Formular.
+
+Formular Bargeldauszahlung MLP Girokonto
+
+Finden Sie hier eine Übersicht über die Filialen der Reisebank
+
+*Für MLP-Kreditkarteninhaber mit einem MLP-Girokonto. Es können ggf. Kosten seitens der Fremdbank anfallen. Kunden werden auf eine eventuelle Gebührenerhebung vor Ort hingewiesen und müssen diese bestätigen. Bei Transaktionen im Nicht-Euro-Ausland wird ein Auslandseinsatzentgelt in Höhe von 1,5 % für die Umrechnung der Fremdwährung in Euro berechnet.
+
+Die vollständigen Leistungen und Konditionen finden Sie im Preis- und Leistungsverzeichnis
+
+====================================================
+Wie kündige ich eine Einzugsermächtigung oder widerspreche einer abgebuchten Lastschrift?
+
+Einzugsermächtigungen sind grundsätzlich eine Vereinbarung zwischen Ihnen und der jeweiligen Firma bzw. Gesellschaft. Zur Kündigung setzen Sie sich daher bitte direkt mit der genannten Gesellschaft in Verbindung.
+
+Sollten auch nach der Kündigung Ihrer Einzugsermächtigung noch ungerechtfertigte Lastschrifteinzüge vorgenommen werden, geben Sie diese wie nachstehend beschrieben zurück.
+
+Einer Belastungsbuchung aus einer Lastschrift per Einzugsermächtigung bis zu einer Höhe von 3.000,00 Euro können Sie bis zu acht Wochen direkt in Ihrem MLP Financepilot Banking unter dem Menüpunkt "Banking --> Lastschriftrückgabe" widersprechen. Möchten Sie einer Lastschrift widersprechen, die über die Summe von 3.000,00 Euro hinausgeht, erteilen Sie zur Rückgabe bitte einen Freien Auftrag aus dem MLP Financepilot Report. Sie finden diese Funktion im MLP Financepilot Report nach Anklicken des linksbündigen Menüpunktes "Service".
+
+Einer Buchung aus einer Lastschrift, für die Sie dem Gläubiger eine Einzugsermächtigung erteilt haben, können Sie generell bis zu acht Wochen nach Belastung widersprechen. Falls für die Abbuchung seitens des Abbuchenden keine Berechtigung vorliegt, können Sie die Lastschrift innerhalb von 13 Monaten nach Belastung zurückgeben. Diese Regelungen finden Sie in den Allgemeinen Geschäftsbedingungen und den Bedingungen für Zahlungen mittels Lastschrift der MLP Banking AG. Lediglich die Rückgabefunktion im MLP Financepilot Banking kann nur bis zu acht Wochen nach Belastung genutzt werden. Lastschriften, die innerhalb der Rückgabefrist liegen, jedoch älter als acht Wochen sind, stornieren Sie bitte über die Funktion "Freier Auftrag".
+
+====================================================
+Wie führe ich eine Überweisung außerhalb meines Onlinelimits durch?
+
+Jedes MLP Girokonto hat aus Sicherheitsgründen ein Onlinelimit. Überweisungen über die Überweisungsmaske des MLP Financepilot Banking sind nur bis zu dieser Größe möglich. Das Onlinelimit beträgt in der Regel 15.000,00 EUR pro Tag und Konto. Alternativ ist eine Erhöhung Ihres Onlinelimits auf max. 25.000,00 EUR pro Konto möglich.
+
+Überweisungen über Ihr tägliches Onlinelimit hinaus, können Sie selbst über die Auszahlungsfunktion im Financepilot Report in der Vermögensübersicht kostenfrei durchführen.
+
+====================================================
+Welche Unterlagen muss ich bei Namensänderung bei derMLP Banking AG einreichen?
+
+Bei Namensänderungen bitten wir Sie für die Aktualisierung Ihrer Daten sowie ggf. für den Versand einer neuen Maestro-Girocard bzw. MLP Kreditkarte um eine Kopie Ihrer Heiratsurkunde und eine aktuelle Unterschriftenprobe an die nachstehende Postfachadresse oder an die Fax-Nr. 06222 308-8933.
+
+Gerne können Sie hierfür folgendes Formular verwenden.
+
+Formular Änderung des Namens
+
+MLP Banking AG
+
+Abteilung Stammdaten
+
+Postfach 1379
+
+69154 Wiesloch
+
+====================================================
+Wie beantrage bzw. kündige ich ein MLP Konto?
+
+Zur Eröffnung eines neuen MLP Kontos, bzw. Zusatzkontos setzen Sie sich bitte mit Ihrem MLP Berater in Verbindung. Zur Kündigung Ihres Girokontos in unserem Haus senden Sie uns bitte nachfolgendes Kündigungsformular an untenstehende Anschrift.
+
+Formular Kontoauflösung MLP-Konto
+
+Gerne können Sie den Auftrag zur Kündigung auch formlos schriftlich erteilen.
+
+Bitte vermerken Sie auf dem Auftrag eine Bankverbindung, über die der Auflösungsbetrag Ihres MLP-Kontos verrechnet werden soll. Senden Sie bitte Ihre entwertete (gelochter Magnetstreifen) MLP Maestro-Girocard zusammen mit dem Kündigungsauftrag an die MLP Banking AG.
+
+Beachten Sie ferner, dass die Auflösung des MLP-Girokontos ohne Einhaltung einer Kündigungsfrist erfolgt. Lediglich das MLP PremiumKonto und dessen Zusatzkonten können aufgrund der Zinskompensation nur zum Monatsende aufgelöst werden. Die Auflösung eines Hauptkontos erfordert generell die Auflösung der Zusatzkonten.
+
+Der MLP Financepilot steht Ihnen weiterhin kostenfrei zur Verfügung, falls Sie diesen nicht explizit kündigen. War Ihr MLP-Girokonto bislang das Referenzkonto zu Ihrer MLP-Kreditkarte, können Sie dieses Referenzkonto ebenfalls per schriftlichen bzw. "Freien Auftrag" aus dem MLP Financepilot Report ändern lassen.
+
+MLP Banking AG
+
+Kontoführung
+
+Postfach 1379
+
+69154 Wiesloch
+
+====================================================
+Wie rufe ich meine Kontoauszüge, Kreditkartenabrechnungen und MLP Reportings ab?
+
+Kontoauszüge
+
+Die Kontoauszüge sämtlicher MLP Konten stellen wir standardmäßig als PDF kostenfrei im Postfach des MLP Financepilot Banking zur Verfügung. Die Bereitstellungsdauer im MLP Financepilot Banking beträgt jeweils 36 Monate. Wünschen Sie die Auszüge per Post, verwenden Sie bitte nachfolgendes Formular. Bitte beachten Sie, dass wir die verauslagten Portokosten für die Postzustellung erheben.
+
+Formular Vereinbarung Postversand
+
+Ausnahme: Für MLP-Sparkonten und alle vor dem 1.September 2009 eröffneten MLP Liquiditäts- und Tagesgeldkonten senden wir die Kontoauszüge standardmäßig kostenfrei per Post.
+
+Abrechnungen der MLP Kreditkarten
+
+Die MLP Kreditkartenabrechnungen stellen wir standardmäßig als PDF kostenfrei in der Postbox im MLP Financepilot Report bereit. Bitte beachten Sie, dass ungelesene Dokumente in der Rubrik „Postbox Neu“ eingestellt werden. Gelesene Dokumente sind in der „Postbox Ordner“ einsehbar.
+
+Die Bereitstellungsdauer im MLP Financepilot Report beträgt jeweils 24 Monate. Wünschen Sie dennoch einen Auszug in Papierform, beantragen Sie diesen bitte mit unserem Serviceformular. Bitte beachten Sie, dass wir die verauslagten Portokosten für die Postzustellung erheben.
+
+Ausnahme: Für alle vor dem 1. September 2009 eröffneten MLP Kreditkarten senden wir die Abrechnungen standardmäßig kostenfrei per Post.
+
+Bei der kostenfreien MLP MasterCard für Studenten werden generell keine Abrechnungen erstellt, da die Kartenumsätze direkt dem MLP CampusGirokonto für Studenten belastet und dort auf den Kontoauszügen ausgewiesen werden.
+
+MLP Reporting
+
+Das MLP Reporting stellen wir quartalsweise standardmäßig als PDF kostenfrei im Financepilot Report zur Verfügung.
+
+====================================================
+Wie nehme ich Zuzahlungen in meinen Vermögensaufbauplan bei der FIL Fondsbank vor?
+
+Zuzahlungen sind ab einer Höhe von 50,00 EUR pro Fonds möglich und auf folgendes Sonderkonto von der FIL Fondsbank GmbH (FFB) zu überweisen:
+
+Empfänger: FIL Fondsbank GmbH (FFB)
+
+IBAN: DE96 5002 1120 0000 2006 00
+
+BIC: FFBKDEFFTHK
+
+Verwendungszweck: vollständige Depotnummer
+
+Bitte geben Sie im Verwendungszweck Ihre Depotnummer an und zusätzlich den Fondsnamen, falls direkt in einen Fonds und nicht in die Fondskombination investiert werden soll. Diese Angabe ist zwingend erforderlich.
+
+====================================================
+Wie nehme ich Auszahlungen aus meinem Vermögensaufbauplan bei der FIL Fondsbank vor?
+
+Bitte senden Sie hierzu einen formlosen, unterzeichneten Auftrag direkt an die FIL Fondsbank. Gerne können Sie hierfür nachfolgenden Serviceauftrag verwenden.
+
+Auszahlplan MLP Vermögensaufbauplan
+
+Auszahlung / Kündigung MLP Vermögensaufbauplan
+
+Bitte achten Sie auf die genaue Angabe Ihrer Depotnummer sowie des Fondsnamens.
+
+FIL Fondsbank GmbH (FFB)
+
+Postfach 110663
+
+(Fax-Nr.: 069-77060-555)
+
+60041 Frankfurt am Main
+
+Hinweis: Auszahlungen erfolgen nur an den Depotinhaber selbst. Auszahlungen zugunsten Dritter sind nicht möglich. Ab einem Auszahlungsbetrag von 50.000,00 EUR wird kein Faxauftrag akzeptiert. Von der Gesellschaft wird nur ein Originalauftrag angenommen.
+
+Auszahlungen können börsentäglich beauftragt werden. Nach Orderabwicklung (in der Regel zwei bis drei Bankarbeitstage) wird der gewünschte Auszahlungsbetrag auf Ihr Kundenkonto überwiesen.
+
+====================================================
+Wie bestelle ich den postalischen Versand bei der FIL Fondsbank ab?
+
+Mit nachfolgendem Formular stellen Sie den Postversand Ihres MLP Vermögensaufbauplan auf den elektronischen Versand um.
+
+Formular Vereinbarung zum elektronischen Versand
+
+Bitte füllen Sie hierzu das Formular mit Ihren persönlichen Angaben aus und leiten dieses per Fax an die FIL Fondsbank weiter. Somit können Sie Ihre Depotauszüge bequem in Ihrem MLP Financepilot Report abrufen.
+
+====================================================
+Wie nehme ich Zuzahlungen in mein top portfolio bei der FIL Fondsbank vor?
+
+Zuzahlungen sind ab einer Höhe von 500,00 EUR möglich und müssen auf folgendes Sonderkonto der FIL Fondsbank erfolgen:
+
+Empfänger: FFB-Sonderkonto
+
+IBAN: DE96500211200000200600
+
+BIC: FFBKDEFFTHK
+
+Verwendungszweck: Vollständige Depotnummer und Name des Depotinhabers
+
+====================================================
+Wie nehme ich Auszahlungen aus meinem top portfolio bei der FIL Fondsbank vor?
+
+Bitte senden Sie hierzu den nachfolgenden Serviceauftrag unterzeichnet direkt an die FIL Fondsbank.
+
+Formular Auszahlung / Kündigung / Auszahlplan top portfolio
+
+Gerne können Sie den Auftrag auch formlos schriftlich erteilen.
+
+Der Auftrag ist zwingend im Original erforderlich, wenn:
+
+    die Bankverbindung auf dem Auftrag von der bei der FIL Fondsbank vorliegenden Referenzbankverbindung abweicht.
+
+    bisher noch keine Referenzbankverbindung bei der FIL Fondsbank hinterlegt ist.
+
+FIL Fondsbank GmbH
+
+Postfach 110663
+
+60041 Frankfurt am Main
+
+Fax 069 77060 555
+
+Tel. 069 77060 200
+
+Hinweis: Auszahlungen aus dem MLP top portfolio sind erst ab einem Gegenwert von 75,00 EUR unter Beibehaltung der Portfoliostruktur möglich. Ein Mindestbestand von 5 % des Depotbestands bei Verkauf darf im Portfolio nicht unterschritten werden, ansonsten erfolgt ein Gesamtverkauf. Ein Verkauf einzelner Investmentfonds aus dem Portfolio ist nicht möglich. Auszahlungen können Sie börsentäglich beauftragen. Sofern Sie diese zu Gunsten einer dritten Person wünschen, senden Sie den Auftrag bitte im Original ein.
+
+Nach Eingang des Auszahlungsauftrages wird der gewünschte Auszahlungsbetrag in der Regel nach fünf Bankarbeitstagen auf Ihr Konto überwiesen.
+
+====================================================
+Wie bestelle ich den postalischen Versand bei der FIL Fondsbank ab?
+
+Mit nachfolgendem Formular stellen Sie den Postversand Ihres MLP top portfolio auf den elektronischen Versand um.
+
+Formular Vereinbarung zum elektronischen Versand
+
+Bitte füllen Sie das Formular mit Ihren persönlichen Angaben aus und leiten dieses per Fax direkt an die FIL Fondsbank GmbH weiter. Somit können Sie Ihre Depotauszüge bequem in Ihrem MLP Financepilot Report abrufen. Gesetzlich vorgeschriebene Dokumente (Jahressteuerbescheinigung, Jahresbescheinigung, Erträgnisaufstellung) erhalten Sie weiterhin per Post.
+
+====================================================
+Wie kann ich bei der MLP Banking AG ein Basiskonto eröffnen?
+
+Drucken Sie den Antrag auf Abschluss eines Basiskontovertrags aus. Diesen senden Sie uns bitte ausgefüllt im Original an die MLP Banking AG, Abteilung Antrag & Service, Postfach 1379 in 69154 Wiesloch. Nach Erhalt und Prüfung übersenden wir Ihnen alle erforderlichen Antragsunterlagen und weitere Informationen zur Eröffnung eines Basiskontos bei der MLP Banking AG.
+
+====================================================
+Was kostet das Basiskonto?
+
+Die Gebühren des Basiskontos finden Sie im jeweils aktuellen Preis- und Leistungsverzeichnis.
+
+====================================================
+Was beinhaltet das Basiskonto?
+
+Das Basiskonto richtet sich an Verbraucher, die bisher noch über kein Zahlungskonto verfügen. Davon profitieren insbesondere Personen ohne festen Wohnsitz und Asylsuchende, die sich rechtmäßig in der EU aufhalten. Mit dem Basiskonto haben Sie Zugang zum bargeldlosen Zahlungsverkehr.
+
+Der Leistungsumfang des Basiskontos
+
+    Bareinzahlungen im Inland
+
+    Barauszahlungen im Inland
+
+    Überweisungen
+
+    Lastschriften
+
+    Zahlungen mit der Maestro-Girocard
+
+    Online-Banking
+
+Dispositionskredit und Kreditkarte gehören grundsätzlich nicht zum Leistungsumfang eines Basiskontos.
+
+====================================================
+Wie sind die Kreditlimite und Rückzahlungsmodalitäten der MLP Kreditkarten?
+
+Für unsere MLP Kreditkarten gelten unterschiedliche Kreditlimite und Rückzahlungsmodalitäten
+
+MLP MasterCard für Studenten
+
+Der Verfügungsrahmen beträgt 1.500 EUR.
+
+Rückzahlungsmodalität: keine Kreditfunktion – alle Umsätze werden direkt dem MLP CampusGirokonto belastet.
+
+MLP MasterCard
+
+Das Standard-Kreditlimit beträgt 5.000 EUR.
+
+Rückzahlungsmodalität: Vollzahlung oder ggf. Teilzahlung möglich - Begleichung des aufgelaufenen Saldos aus Handelsumsätzen einmal im Monat oder Rückführung des Saldos in Teilraten von 3,5% mind. 75,00 Euro
+
+MLP MasterCard Platinum
+
+Das Standard-Kreditlimit beträgt 7.500 EUR.
+
+Rückzahlungsmodalität: Vollzahlung oder ggf. Teilzahlung möglich - Begleichung des aufgelaufenen Saldos aus Handelsumsätzen einmal im Monat oder Rückführung des Saldos in Teilraten von 3,5% mind. 75,00 Euro
+
+Den Kreditrahmen Ihrer MLP Kreditkarte zeigen wir Ihnen im MLP Financepilot Report an. Bitte rufen Sie diesen direkt in der Detailansicht Ihrer MLP-Kreditkarte in der "Vermögensübersicht" auf.
+
+====================================================
+Wie widerspreche ich einem Umsatz auf meiner MLP Kreditkartenabrechnung?
+
+Für eine Reklamationsbearbeitung müssen Sie zwingend Ihre MLP Kreditkarte sperren.
+
+Bitte veranlassen Sie dies, falls noch nicht geschehen, über die Sperrhotline unter +49(0)721/664 99 500.
+
+Des Weiteren senden Sie bitte den folgenden Serviceauftrag vollständig ausgefüllt an nachstehende Adresse oder per Fax an die Nummer +49 (0) 721/664 99 433.
+
+Formular Reklamation Abbuchung
+
+MLP CARD
+
+Postfach 410672
+
+76206 Karlsruhe
+
+====================================================
+Wie kündige ich die MLP Kreditkarte?
+
+Die Kündigung veranlassen Sie mit nachfolgenden Formular.
+
+Formular Kündigung
+
+Oder senden Sie uns alternativ einen schriftlichen Auftrag an die unten stehende Postfachadresse von MLP CARD oder einen Freien Auftrag aus dem MLP Financepilot Report.
+
+Bitte vernichten Sie die abgelaufene MLP Kreditkarte, indem Sie diese zerschneiden. Zur sicheren Entsorgung können Sie die entwertete Karte anschließend gerne an MLP CARD senden.
+
+MLP Banking AG
+
+Postfach 13 79
+
+69154 Wiesloch
+
+====================================================
+Wie rufe ich meine Kontoauszüge, Kreditkartenabrechnungen und MLP Reportings ab?
+
+Kontoauszüge
+
+Die Kontoauszüge sämtlicher MLP Konten stellen wir standardmäßig als PDF kostenfrei im Postfach des MLP Financepilot Banking zur Verfügung. Die Bereitstellungsdauer im MLP Financepilot beträgt jeweils 36 Monate. Wünschen Sie die Auszüge per Post, verwenden Sie bitte nachfolgendes Formular. Bitte beachten Sie, dass wir die verauslagten Portokosten für die Postzustellung erheben.
+
+Formular Vereinbarung Postversand
+
+Ausnahme: Für MLP Sparkonten und alle vor dem 1.September 2009 eröffneten MLP Liquiditäts- und Tagesgeldkonten senden wir die Kontoauszüge standardmäßig kostenfrei per Post.
+
+Abrechnungen der MLP Kreditkarten
+
+Die MLP Kreditkartenabrechnungen stellen wir standardmäßig als PDF kostenfrei im Postfach des MLP Financepilot Banking bereit.
+
+Die Bereitstellungsdauer im MLP Financepilot beträgt jeweils 12 Monate. Wünschen Sie dennoch einen Auszug in Papierform, beantragen Sie diesen bitte mit unserem Serviceformular. Bitte beachten Sie, dass wir die verauslagten Portokosten für die Postzustellung erheben.
+
+Ausnahme: Für alle vor dem 1.September 2009 eröffneten MLP Kreditkarten senden wir die Abrechnungen standardmäßig kostenfrei per Post.
+
+Bei der kostenfreien MLP Card für Studenten werden generell keine Abrechnungen erstellt, da die Kartenumsätze direkt dem MLP CampusGirokonto für Studenten belastet und dort auf den Kontoauszügen ausgewiesen werden.
+
+MLP Reporting
+
+Das MLP Reporting stellen wir quartalsweise standardmäßig als PDF kostenfrei im Financepilot Report zur Verfügung.
+
+====================================================
+Wie ist mein Geld bzw. sind meine Einlagen bei der MLP Banking AG abgesichert?
+
+Kundeneinlagen sind bei der MLP Banking AG durch ein zweistufiges Einlagensicherungssystem gesichert.
+
+    Die gesetzlich vorgeschriebene Einlagensicherung erfolgt durch die Entschädigungseinrichtung deutscher Banken GmbH (EdB).
+
+    Diese Sicherungseinrichtung deckt Einlagen bis zu einer Höhe von max. 100.000 EUR pro Person pro Kreditinstitut, unabhängig von der Anzahl der Konten (auch Gemeinschaftskonten). Weitere Informationen finden Sie unter www.bdb.de
+
+    Darüber hinaus ist die MLP Banking AG Mitglied im Einlagensicherungsfonds des Bundesverbandes deutscher Banken e.V.
+
+    Über die gesetzliche Sicherung in Höhe von 100.000 EUR pro Person hinaus schützt der Einlagensicherungsfonds Einlagen von Privatpersonen, Wirtschaftsunternehmen und öffentlichen Stellen. Geschützt werden z.B. Sicht-, Termin und Spareinlagen (also Guthaben auf Giro-, Spar-, Tagesgeld, Festgeldkonten und Liquiditäts-, Abwicklungskonten) sowie auf den Namen lautende Sparbriefe.
+
+    Die Grenze dieser Einlagensicherung bemisst sich an der Eigenkapitalausstattung der jeweiligen Mitgliedsbank und wird daher jährlich angepasst.
+
+    Die Sicherungsgrenze beträgt derzeit 20 % des maßgeblich haftenden Eigenkapitals und wird über einen Zeitraum von 10 Jahren weiter abgesenkt (ab 01.01.2020: 15 % und ab dem 01.01.2025: 8,75 %).
+
+    Die aktuell vom Einlagensicherungsfonds festgelegte Sicherungsgrenze für die MLP Banking AG beträgt 14.799.000,00 Euro je Kunde.
+
+    Weitere Informationen sowie die aktuelle Sicherungsgrenze finden Sie unter www.bankenverband.de/einlagensicherung
+
+Für Wertpapierdepots ist dieser Schutz nicht notwendig, denn die dort befindlichen Wertpapiere bleiben im Eigentum des Kunden und werden von der Bank lediglich verwahrt. Sie können jederzeit die Herausgabe Ihrer Wertpapiere verlangen. Das gilt auch, falls Ihre Depotbank insolvent sein sollte.
+
+====================================================
+Wie nehme ich Auszahlungen von meinem MLP Tagesgeldkonto oder MLP Sparkonto vor?
+
+Auszahlungen von Ihrem MLP Tagesgeldkonto oder Ihrem MLP Sparkonto veranlassen Sie jederzeit auf Konten, die auf Ihren Namen lauten.
+
+MLP Tagesgeldkonto
+
+Für das MLP Tagesgeldkonto bietet Ihnen der MLP Financepilot Report eine eigene Funktion. Klicken Sie dazu in Ihrer Vermögensübersicht im MLP Financepilot Report rechts neben der Anzeige Ihres MLP Tagesgeldkontos auf das Symbol "Auszahlung". In der folgenden Maske beauftragen Sie die Auszahlung, auf ein von Ihnen zu definierendes und auf Ihren Namen lautendes Referenzkonto. Die Auswahlmaske zeigt Inhabern einer MLP Kreditkarte oder eines Geldanlageprodukts auch diese Auszahlungsmöglichkeiten an.
+
+Alternativ verwenden Sie bitte das nachfolgende Serviceformular.
+
+Formular Auszahlung MLP Tagesgeldkonto
+
+MLP Sparkonto
+
+Eine Auszahlung von Ihrem MLP Sparkonto veranlassen Sie jederzeit formlos schriftlich oder per "Freien Auftrag" über Ihren Financepilot Report.
+
+====================================================
+Wie rufe ich meine Kontoauszüge, Kreditkartenabrechnungen und MLP Reportings ab?
+
+Kontoauszüge
+
+Die Kontoauszüge sämtlicher MLP Konten stellen wir standardmäßig als PDF kostenfrei im Postfach des MLP Financepilot Banking zur Verfügung. Die Bereitstellungsdauer im MLP Financepilot beträgt jeweils 36 Monate. Wünschen Sie die Auszüge per Post, verwenden Sie bitte nachfolgendes Formular. Bitte beachten Sie, dass wir die verauslagten Portokosten für die Postzustellung erheben.
+
+Formular Vereinbarung Postversand
+
+Die MLP-Kreditkartenabrechnungen stellen wir standardmäßig als PDF kostenfrei im Postfach im MLP Financepilot Banking bereit.
+
+Die Bereitstellungsdauer im MLP Financepilot beträgt jeweils 12 Monate. Wünschen Sie dennoch einen Auszug in Papierform, beantragen Sie diesen bitte mit unserem Serviceformular. Bitte beachten Sie, dass wir die verauslagten Portokosten für die Postzustellung erheben.
+
+Ausnahme: Für alle vor dem 1. September 2009 eröffneten MLP Kreditkarten senden wir die Abrechnungen standardmäßig kostenfrei per Post.
+
+Bei der kostenfreien MLP MasterCard für Studenten werden generell keine Abrechnungen erstellt, da die Kartenumsätze direkt dem MLP CampusGirokonto für Studenten belastet und dort auf den Kontoauszügen ausgewiesen werden.
+
+MLP Reporting
+
+Das MLP Reporting stellen wir quartalsweise standardmäßig als PDF kostenfrei im Financepilot Report zur Verfügung.
+
+====================================================
+Wie nehme ich Zuzahlungen in meine Geldanlagekonzepte bei der MLP Banking AG vor?
+
+Der MLP Financepilot Report ermöglicht schnell und komfortabel Zuzahlungen in Ihr
+
+    MLP flaggschiff/premium/absolute return portfolio
+
+    Vermögensdepot und
+
+    MLP Modulares Vermögensmanagement
+
+Durch Anklicken des Einzahlungssymbols in der Vermögensübersicht gelangen Sie in die Kontoauswahl. Dort wählen Sie das Konto aus, von dem Sie die Zahlung per Lastschrift tätigen möchten. Danach wählen Sie die Höhe der Einzahlung. Zu Ihrer Sicherheit wird eine TAN abgefragt, mit der Sie die Transaktion bestätigen müssen. Sofern Sie keinen Einzugstermin festlegen, erfolgt die Belastung des Einzahlungsbetrages spätestens am nächsten Arbeitstag.
+
+Durch Anklicken des Einzahlungssymbols in der Vermögensübersicht bei Ihrem MLP Individuellen Vermögensmanagement bekommen Sie komfortabel sämtliche Überweisungsdaten für eine Zuzahlung per Überweisung angezeigt.
+
+Je nach Geldanlageprodukt gelten folgende Mindestbeträge für Zuzahlungen:
+
+Vermögensdepot:
+
+500,00 EUR / Eine Zuzahlung in einen Liquiditätsfonds ist bereits ab 50,00 EUR möglich.
+
+MLP premium portfolio:
+
+500,00 EUR
+
+MLP absolute return portfolio:
+
+500,00 EUR
+
+MLP flaggschiff portfolio:
+
+500,00 EUR
+
+MLP Modulares Vermögensmanagement:
+
+500,00 EUR
+
+MLP Individuelles Vermögensmanagement:
+
+5000,00 EUR
+
+Ihre Zuzahlung überweisen Sie bitte auf folgende Bankverbindung:
+
+Empfänger: Ihr Vor- und Nachname
+
+IBAN: Erhalten Sie mit Ihrer Eröffnungsbestätigung per Post
+
+BLZ: 672 300 00 (MLP Banking AG)
+
+Verwendungszweck: Vertragsnummer sowie der Vermerk "Kauf" Ausnahmen:
+
+Bei Zuzahlungen in Ihr Vermögensdepot ist die Angabe der zu kaufenden Wertpapierkennnummer (WKN) im Verwendungszweck zusätzlich erforderlich. Beispiel: "123456 Kauf"
+
+Die Liquiditätskontonummer und Vertragsnummer erhalten Sie in Ihrem Begrüßungsanschreiben. Sie finden diese ebenso im MLP Financepilot.
+
+====================================================
+Wie nehme ich Auszahlungen aus meinen Anlagen bei der MLP Banking AG vor?
+
+Der MLP Financepilot Report ermöglicht schnell und komfortabel Auszahlungen aus Ihrem
+
+    MLP flaggschiff/premium/absolute return portfolio
+
+    Vermögensdepot und MLP Modulares Vermögensmanagement
+
+Bitte klicken Sie in der "Vermögensübersicht" hinter dem jeweiligen Geldanlagekonzept auf das Auszahlungssymbol. Danach wählen Sie das von Ihnen zu definierende Konto aus, auf welches die Auszahlung erfolgen soll. Nach Abschluss Ihrer Eingaben wird eine TAN abgefragt, mit der Sie die Transaktion bestätigen.
+
+Alternativ können Sie Ihre Auszahlung auch über einen "Freien Auftrag" aus dem MLP Financepilot Report beauftragen oder einen formlosen unterzeichneten Auftrag an unten stehende Anschrift bzw. Faxnummer 06222 3169 8631 senden.
+
+MLP Banking AG
+
+Postfach 1379
+
+69154 Wiesloch
+
+Je nach Geldanlageprodukt gelten folgende Mindestbeträge für Auszahlungen:
+
+Vermögensdepot:
+
+50,00 EUR
+
+MLP premium portfolio:
+
+500,00 EUR
+
+MLP absolute return portfolio:
+
+500,00 EUR
+
+MLP flaggschiff portfolio:
+
+50,00 EUR
+
+MLP Modulares Vermögensmanagement:
+
+50,00 EUR
+
+MLP Individuelles Vermögensmanagement:
+
+5000,00 EUR
+
+Ferner ist ein Mindestbestand von 10% des Depotwertes, mindestens 250,00 EUR, im Portfolio erforderlich, sofern der Vertrag nicht aufgelöst wird. Erfassen Sie eine Auszahlung, welche einen größeren Verkauf als 90% des Depotbestandes vorsieht, wird der Betrag automatisch durch uns auf 90% reduziert. Hierüber informieren wir Sie schriftlich.
+
+Ausnahme: Im Vermögensdepot ist kein Mindestbestand erforderlich. Wird jedoch bei einem einzelnen Wertpapier mehr als 99% des vorhandenen Anteilsguthabens veräußert, findet automatisch ein Verkauf des Gesamtbestandes dieses Wertes statt.
+
+Auszahlungen sind börsentäglich möglich. Eingehende Serviceaufträge leiten wir binnen zwei Geschäftstagen an die Kapitalverwaltungsgesellschaft weiter. Die Abwicklung des Verkaufs nimmt nach Weiterleitung an die Emittentin zwischen zwei und fünf Bankarbeitstage in Anspruch. Danach wird der Auszahlungsbetrag auf das angegebene Konto überwiesen. Der Betrag kann durch anfallende Steuern, Entgelte, Kosten und Auslagen vom gewünschten Betrag abweichen.
+
+====================================================
+Wie rufe ich meine Kontoauszüge und MLP-Reportings ab?
+
+Kontoauszüge
+
+Die Kontoauszüge sämtlicher MLP-Konten stellen wir standardmäßig als PDF kostenfrei im Postfach des MLP Financepilot Banking zur Verfügung. Die Bereitstellungsdauer im MLP Financepilot beträgt jeweils 36 Monate. Wünschen Sie die Auszüge per Post, verwenden sie bitte nachfolgendes Formular. Bitte beachten Sie, dass wir die verauslagten Portokosten für die Postzustellung erheben.
+
+Formular Vereinbarung Postversand
+
+Ausnahme: Für MLP-Sparkonten und alle vor dem 1.September 2009 eröffneten MLP Liquiditäts- und Tagesgeldkonten senden wir die Kontoauszüge standardmäßig kostenfrei per Post.
+
+Das MLP-Reporting stellen wir standardmäßig als PDF kostenfrei im Financepilot Report zur Verfügung.
 
 ====================================================
 Was bedeutet es für Unternehmer oder ein Unternehmen, Mitglied der Bank zu sein?
@@ -9350,6 +10240,99 @@ Möchten Sie Ihren Kredit jedoch mit einer einmaligen Zahlung komplett zurückza
 Was passiert, wenn Sie eine Kreditrate nicht bezahlen können?
 
 Um eine Lösung bei Zahlungsschwierigkeiten zu finden, setzen Sie sich bitte mit uns in Verbindung. Hierzu steht Ihnen unser Kundenservice unter  +49 341 985 855 55 zur Verfügung.
+
+====================================================
+Wieso kann schlau-finanziert.at die besten Konditionen anbieten?
+
+Als ungebundener Kreditmakler können wir als schlau-finanziert.at mit jedem Anbieter am österreichischen Kreditmarkt kooperieren und haben bereits ein beträchtliches Netzwerk von mehr als 50 Partnerinstituten aufgebaut. Die Kooperationen mit den maßgeblichen Banken und Bausparkassen verschaffen uns den Zugriff zu den besten Konditionen und maßgeschneiderten Finanzierungslösungen für unsere Kunden.
+
+====================================================
+Wie lange dauert es, bis ich ein Angebot für meine Immobilienfinanzierung erhalte?
+
+Schlau-finanziert.at arbeitet schnell und effizient – Ihre Anfrage wird rasch und zielgerichtet bearbeitet. Um das passende Angebot für Sie zu finden, benötigen unsere ExpertInnen möglichst genaue Angaben von Ihnen – die Wartezeit hängt auch von der Vollständigkeit Ihrer Unterlagen ab!
+
+====================================================
+Welche Kosten entstehen, wenn Sie sich an schlau-finanziert.at wenden?
+
+Sie können sich unbesorgt informieren – für die Benutzung unserer Plattform und Ihre Anfragen entstehen Ihnen keine Kosten! Eine Vermittlungsvergütung im gesetzlichen Rahmen fällt nur bei erfolgreicher Finanzierungsvermittlung an, die entweder separat oder über die Bearbeitungsgebühr des Kredites abgerechnet wird.
+
+====================================================
+Wie sicher sind meine Daten bei schlau-finanziert.at?
+
+Ihre Angaben und Unterlagen sind für uns streng vertraulich. Die benötigten Daten werden verschlüsselt per 256 Bit SSL-Protokoll übertragen, eine Weitergabe erfolgt ausschließlich im Rahmen der Bearbeitung Ihrer Kreditanfrage an ausgewählte Kreditinstitute. Ihre Anfrage und Registrierung können Sie überdies jederzeit beenden und Ihre Daten löschen lassen.
+
+====================================================
+Kann ich Zinsen und Kreditrückzahlungen steuerlich absetzen?
+
+Kosten für die Schaffung neuen Wohnraums können Sie in Österreich ebenso wie Versicherungsprämien steuerlich absetzen – üblicherweise bis zu 3.000 Euro pro Jahr, bei Alleinverdienern und Familien mit mehr als drei Kindern steigt diese Grenze an. Sie können Ausgaben für die Errichtung eines Eigenheims oder einer Wohnung geltend machen, also auch Kreditrückzahlungen und Zinsen. Bei endfälligen Krediten mit Tilgungsträger leisten Sie keine Ratenzahlungen, hier sind nur die laufenden Zinsen steuerlich absetzbar.
+
+    Achtung: Der Kauf bestehender Wohnungen oder Häuser fällt NICHT unter die Schaffung neuen Wohnraums, ebenso wenig die Neugestaltung von Einrichtungen. Eine steuerliche Absetzbarkeit ist in diesen Fällen nicht gegeben.
+
+====================================================
+Wird die mehrfache Angebotseinholung in den KSV eingetragen?
+
+Mehrfache Kreditanfragen verschlechtern üblicherweise die Bonität und damit die Konditionen bei der Kreditvergabe. Diesen Nachteil müssen Sie bei schlau-finanziert.at nicht befürchten: Die Einholung von Angeboten durch uns wird nicht beim Kreditschutzverband eingetragen – Sie scheinen demnach nicht in der Konsumenten-Kredit-Evidenz auf.
+
+====================================================
+Wie viel Eigenkapital benötige ich?
+
+Theoretisch können Sie Ihre Immobilie auch ganz ohne Eigenkapital finanzieren, sofern Sie über ein ausreichendes fixes und belegbares Einkommen oder/und genügend sonstiges Vermögen verfügen. Allerdings wird Ihr Zinssatz umso günstiger ausfallen, je mehr Eigenkapital Sie in die Finanzierung einbringen. Wir als Experten raten zu einem Eigenkapitalanteil von zumindest 20% um Zinsaufschläge zu minimieren. Unabhängig vom Eigenanteil den Sie leisten, sollte die entscheidende Frage lauten: Kann ich die monatlich vereinbarten Darlehensrückzahlungen langfristig gesehen aufbringen?
+
+====================================================
+Welche Unterlagen sind erforderlich?
+
+Kreditkonditionen sind an Ihre persönliche Situation gebunden. Zur Einholung von Angeboten benötigen wir Ihre persönlichen Daten (Kopie von Pass oder Personalausweis), einen aktuellen Nachweis Ihres Einkommens (monatliche Lohn-/Gehaltsabrechnung), den letzten Steuerbescheid (Jahreseinkommen), den Nachweis zu Ihrem Eigenkapital (beispielsweise Depot- oder Kontoauszüge) sowie Angaben zur Immobilie (Grundbuchauszug, Grundriss, Lageplan…). Dieser Aufwand ist leider unumgänglich, für Sie allerdings nur einmal zur Einholung der Angebote bei unterschiedlichen Kreditgebern erforderlich.
+
+====================================================
+Vermittelt schlau-finanziert.at auch Darlehen an Selbständige?
+
+Bei schlau-finanziert.at können auch Selbstständige Anfragen und Anträge stellen. Wir benötigen in diesem Fall die letzten drei Einkommenssteuerbescheide und eine aktuelle vom Steuerberater bestätigte Saldenübersicht des laufenden Geschäftsjahres.
+
+====================================================
+Kann ich auch nur ein Grundstück finanzieren?
+
+Selbstverständlich unterstützt Sie schlau-finanziert.at auch beim Erwerb von Grundstücken. Grund und Boden stellen ebenso wie Haus oder Wohnung Immobilienwerte dar, allerdings stehen Ihnen beim Grundstückserwerb ohne Bauvorhaben keine begünstigten Darlehen zur Wohnraumschaffung zur Verfügung.
+
+====================================================
+Kann ich auch eine Immobilie im Ausland finanzieren?
+
+schlau-finanziert.at kann Ihnen auch für Immobilien im Ausland geeignete Finanzierungsangebote vermitteln. Ferienhäuser oder Altersdomizile im Ausland lassen sich über heimische Kreditgeber meist günstiger finanzieren als vor Ort, allerdings sollte ein höherer Eigenkapitalanteil gegeben sein. Am einfachsten ist es, wenn Sie ein – schuldenfreies – Eigenheim im Inland als Sicherheit einsetzen können. Eine solche Hypothek hat den Vorteil, dass Sie sich nicht mit ausländischen Gepflogenheiten auseinandersetzen müssen und Notar- oder Gerichtskosten im Ausland sparen.
+
+Eine Finanzierung über das Ausland ist häufig erheblich teurer. Die Darlehenszinsen sind meist höher als in Österreich, und Baufinanzierungen unterliegen in manchen Ländern ausschließlich risikoreicheren variablen Zinssätzen; außerhalb des Euro-Raums gehen Sie überdies ein Fremdwährungsrisiko ein. Währungsschwankungen können zwar mitunter einen Schnäppchenpreis zur Folge haben, die Immobilie aber auch extrem verteuern.
+
+Die Finanzierung im Inland bietet demgegenüber mehr Sicherheit. Die heimischen Anbieter übernehmen alle Formalitäten, kümmern sich um Kaufvertrag, Gutachter, Grundbucheintragung und Hypothekenbestellung, die Kosten dafür werden über Zinsaufschlag oder direkt abgerechnet.
+
+Einige Tipps vor dem Kauf
+
+    Hände weg vor Spontanentschlüssen. In Spanien etwa ist bereits die Unterzeichnung eines Kauf-Vorvertrages bindend.
+
+    Wenn Ihnen Schnäppchen angeboten werden, schließen Sie mögliche Haken an der Sache aus: Klären Sie beispielsweise, ob der Verkäufer alle Steuern bezahlt hat!
+
+    Vorsicht vor betrügerischen Immobilienmaklern. Mit Rohbauruinen, Grundstücken oder Häusern ohne Baugenehmigung können Sie später nicht viel anfangen. Sichern Sie sich vor Bezahlung zudem mit einer Grundbucheintragung vor Doppelverkäufen ab …
+
+    Nehmen Sie das angepeilte Objekt genau unter die Lupe. Gibt es Nutzungseinschränkungen, sind Umbauten rechtlich möglich oder ändert sich zukünftig die Flächenwidmung im Umfeld? Bedenken Sie auch den Instandhaltungsaufwand für Haus, Garten oder Swimmingpool …
+
+    Informieren Sie sich über Finanzierungsnebenkosten, die in manchen Ländern erheblich sind.
+
+====================================================
+Ist die Umschuldung einer bestehenden Baufinanzierung sinnvoll?
+
+Diese Frage klären unsere Experten für Sie. Aus Erfahrung können wir sagen, dass eine Umschuldung durch schlau-finanziert.at und eine gleichzeitige Verbesserung der Konditionen in den meisten Fällen mehr bringt, als die Fortführung der bestehenden Baufinanzierung!
+
+====================================================
+Wer bietet die beste Baufinanzierung?
+
+Die beste Baufinanzierung ist jene, die Sie im Vergleich mehrerer Anbieter auswählen können. Angebote der Finanzinstitute variieren stark, zudem verändern sich Zinsen, Raten, Laufzeiten, Nebenkosten und Tilgungsanteil laufend. Die Finanzierungsexperten von schlau-finanziert.at suchen für Sie die jeweils besten Angebote für Ihre persönlichen Situation. Das erspart Ihnen viel Zeit und Geld.
+
+====================================================
+Wie aktuell sind die angegebenen Zinssätze der Rechner?
+
+Die schlau-finanziert.at Kredit- und Zinsenrechner beziehen sich auf die jeweils aktuellen Konditionen, auch wenn die angegebenen Zinssätze noch nicht verbindlich sind – die Bank prüft vor Kreditabschluss noch Ihre Angaben. Stimmen die Daten überein, können Sie vom online berechneten Zinssatz ausgehen und gehen jedenfalls kein Risiko ein: Erst wenn beide Seiten den Kreditvertrag annehmen, wird er verbindlich.
+
+====================================================
+Welche Laufzeit ist am besten?
+
+Dafür lässt sich keine generelle Aussage treffen. Lange Finanzierungsfristen bringen eine geringere monatliche Belastung, aber in Summe eine höhere Gesamtzinsbelastung mit sich. Eine schnellere Tilgung mit höheren Darlehensraten wiederum senkt die Gesamtkosten. Wo das Optimum im Einzelfall liegt, hängt von der jeweiligen Situation, vom Einkommen und Vermögen des Einzelnen ab – die Rate sollte jedenfalls so bemessen sein, dass sie auch längerfristig gesehen für Sie leistbar bleibt.
 
 ====================================================
 Was ist wirtschaftlicher Berechtigter?
@@ -25968,6 +26951,158 @@ Warum wünscht die Bank von mir eine SCHUFA-Auskunft?
 Die Bank möchte sich einen Überblick über Ihr Zahlungsverhalten verschaffen.
 
 Die SCHUFA speichert Daten über das Zahlungsverhalten der Bürger. Sie erhält diese Daten von ihren ca. 4.500 Vertragspartnern, zu denen vor allem Banken, Kreditkartenunternehmen, Leasingfirmen und Telekommunikationsunternehmen gehören. Haben Sie sich als Bankkunde vertragswidrig verhalten (z.B. wenn Ihre Bank Ihnen wegen des Vorwurfs eines Kreditkartenmissbrauchs Ihr Girokonto gekündigt hat), wird dieser Umstand in Ihrer SCHUFA eingetragen. Sie haben dann ein negatives Merkmal in der SCHUFA stehen. Beantragen Sie dann bei einer anderen Bank ein neues Konto, müssen Sie damit rechnen, dass die Bank Ihren Antrag wegen Ihrer negativen SCHUFA-Auskunft ablehnt. Sie haben dann allenfalls Anspruch auf Einrichtung eines Basisgirokontos im Guthabenbereich.
+
+====================================================
+Was ist kontaktloses Zahlen?
+
+Beim Bezahlen halten Sie Ihre BankCard einfach vor ein Lese
+
+gerät an der Kassa. Ihre Daten werden verschlüsselt per Funk
+
+übertragen. Das war’s.
+
+Welche Vorteile hat kontaktloses Zahlen?
+
+Kontaktloses Zahlen vereinfacht und beschleunigt den Zahlungsvorgang, weil Sie keine PIN mehr eingeben müssen – es geht
+
+also sicher, schneller und einfacher.
+
+====================================================
+Was bedeutet NFC?
+
+NFC steht für „Near Field Communication“ und bedeutet auf Deutsch „Nahfeldkommunikation“. Dabei werden Daten
+
+kontaktlos
+
+über Strecken von maximal wenigen Zentimetern übertragen.
+
+====================================================
+Ist das kontaktlose Zahlen sicher?
+
+Ja. Das kontaktlose Zahlen ist eine geprüfte Technologie, die schon seit Jahren weltweit in vielen Ländern genutzt wird. Sie
+
+wurde in unabhängigen internationalen Sicherheitslabors auf Risiken geprüft und entspricht den vorgegebenen strengen
+
+Standards. Damit ist kontaktloses Zahlen ebenso sicher wie Transaktionen mit Chip und PIN.
+
+Die Sicherheitsmerkmale im Überblick:
+
+•
+
+Die Daten werden verschlüsselt übertragen.
+
+•
+
+Sie können höchstens fünfmal hintereinander kontaktlos zahlen, danach müssen Sie wieder Ihre PIN eingeben.
+
+Dadurch wird
+
+der „Zähler“ zurückgesetzt, und Sie können wieder fünfmal kontaktlos bezahlen.
+
+•
+
+Die Zahlungsbeträge sind mit maximal 25 Euro begrenzt.
+
+•
+
+Die Bank Austria haftet bei Missbrauch Ihrer BankCard, wenn Sie nicht grob fahrlässig damit umgegangen sind.
+
+====================================================
+Wo kann ich kontaktlos zahlen?
+
+Weltweit an allen Kassen mit dem Kontaktlos-Symbol oder dem PayPass-Logo – in Österreich unter
+
+anderem in allen Filialen von Hofer, Zielpunkt, Spar, BILLA, MPreis usw. In Zukunft werden immer mehr
+
+Unternehmen das kontaktlose Bezahlen unterstützen.
+
+====================================================
+Wie funktioniert kontaktloses Zahlen?
+
+1.
+
+An der Kassa erscheint auf der Anzeige des Lesegerätes der Zahlungsbetrag.
+
+2.
+
+Sie werden aufgefordert, Ihre Karte an die sogenannte „Landing-Zone“ zu halten. Diese erkennen Sie an dem
+
+ Kontaktlos-Zeichen.
+
+3. Wenn ein grünes Licht leuchtet und ein Signal ertönt, war das Bezahlen erfolgreich, und Ihr Beleg wird gedruckt.
+
+Wichtig:
+
+Ihre Karte darf höchstens vier Zentimeter von der Landing-Zone entfernt und nicht in der Geldbörse sein.
+
+====================================================
+Woran erkenne ich, dass das kontaktlose Zahlen erfolgreich war?
+
+•
+
+Sie sehen ein grünes Licht leuchten.
+
+•
+
+Sie hören ein akustisches Signal.
+
+•
+
+Ihr Kassa-Beleg wird gedruckt.
+
+====================================================
+Mit welchen Karten der Bank Austria kann ich kontaktlos bezahlen?
+
+Alle BankCards und MegaCards, die ein Bankomatkassen-Limit besitzen, sind mit der Kontaktlos-Funktion ausgestattet. Die
+
+Karte wird dadurch nicht teurer.
+
+====================================================
+Wie kann ich so rasch wie möglich kontaktlos bezahlen?
+
+Bestellen Sie Ihre neue Karte in Ihrer Bank Austria Filiale. Ihre PIN bleibt gleich. Mit der neuen Karte muss die erste Zahlung
+
+mittels PIN-Eingabe erfolgen, ab dann ist die kontaktlose Zahlung möglich. Somit ist sichergestellt, dass nur Sie als berechtigter
+
+Karteninhaber die Kontaktlos-Funktion freischalten können.
+
+====================================================
+Woran erkenne ich, ob ich mit meiner Karte kontaktlos
+
+bezahlen kann?
+
+Am Kontaktlos-Logo auf der Kartenvorderseite.
+
+====================================================
+Kann ich auch mit einer Kreditkarte kontaktlos bezahlen?
+
+Ja, alle VISA und MasterCard Kreditkarten werden mit der
+
+Kontaktlos-Bezahlfunktion ausgegeben, und auch hier gilt das Limit
+
+von 25 Euro.
+
+====================================================
+Kann ich auch eine Bankkarte ohne Kontaktlos-Funktion erhalten?
+
+Ja, wenn Sie es wünschen, bestellen wir für Sie eine neue
+
+BankCard ohne Kontaktlos-Funktion. Wenden Sie sich bitte an Ihre
+
+Betreuerin bzw. Ihren Betreuer, die 24h ServiceLine unter 05 05
+
+05-25 oder geben Sie Ihren Wunsch im OnlineBanking bekannt.
+
+====================================================
+Funktioniert kontaktloses Bezahlen auch mit Quick?
+
+Ja, an gekennzeichneten Kassen kann auch mit Quick kontaktlos bezahlt werden – voraus
+
+gesetzt, der Quick-Chip wurde
+
+im Vorhinein geladen. Der Betrag wird automatisch vom Quick-Guthaben abgezogen. Reicht der geladene Quick-Betrag
+
+nicht aus, wird der Bezahlbetrag direkt vom Konto abgebucht.
 
 ====================================================
 Ist das Online-Banking der Deutschen Handelsbank sicher? Was soll ich beachten?
@@ -42835,6 +43970,116 @@ Selbstverständlich – oft ist das auch ratsam. Die Kreditvergabe ist in keinem
 Insbesondere ist es auch nicht erforderlich, stets eine Versicherung gegen die drei Risiken Arbeitslosigkeit, Berufsunfähigkeit und Tod abzuschließen. Es ist auch möglich, nur einen Todesfallschutz zu vereinbaren und dadurch die Hinterbliebenen zu schützen. Derselbe Schutz kann durch den Abschluss einer reinen Risikolebensversicherung in der Höhe des Kreditbetrags erreicht werden.
 
 ====================================================
+Was ist eine Legitimation?
+
+Mit der gesetzlich vorgeschriebenen Legitimationsprüfung wird die Identität aller neuen Kunden vor einer Kreditvergabe überprüft. Die Legitimation erfolgt anhand Ihres gültigen Personalausweises oder Reisepasses.
+
+====================================================
+Warum muss eine Legitimationsprüfung erfolgen?
+
+Wie alle Banken ist unsere Partnerbank gesetzlich verpflichtet, eine Legitimationsprüfung durchzuführen. Diese Prüfung dient auch Ihrer eigenen Sicherheit.
+
+====================================================
+Was ist das Postident-Verfahren?
+
+Beim Postident-Verfahren erfolgt die Legitimation durch einen Mitarbeiter der Deutschen Post AG. Mit dem Ausdruck Ihrer Kreditunterlagen und den Legitimationshinweisen erhalten Sie auch ein Postident-Formular. Mit diesem Postident-Formular, Ihren Kreditunterlagen und Ihrem gültigen Reisepass oder Personalausweis gehen Sie zur nächsten Filiale der Deutschen Post AG. Ein Postmitarbeiter erledigt alles Weitere für Sie und schickt Ihre unterschriebenen Kreditunterlagen an unsere Partnerbank.
+
+====================================================
+ Was ist CashBack?
+
+Mit jedem Einkauf, den Sie mit Ihrer CashCard bezahlen, sammeln Sie jetzt automatisch CashBack-Punkte. Punkte, die Sie ganz leicht in Geld umwandeln können. Für jeden Euro, den Sie mit Ihrem Einkaufskonto bezahlen, erhalten Sie 1 CashBack-Punkt gutgeschrieben. Beim Tanken bekommen Sie sogar 3 CashBack-Punkte gutgeschrieben. Die Gutschrift erfolgt in Form von Punkten mit einem Gegenwert von jeweils 1 Cent, die eingelöst werden können (max. 250 pro Kalenderjahr). Gilt nicht für Überweisungen und Barabhebungen.
+
+====================================================
+Was ist die SCHUFA?
+
+Die SCHUFA ist die Schutzgemeinschaft für Allgemeine Kreditsicherung. Sie speichert Daten über die Kreditbeantragung, -aufnahme und -abwicklung und unterliegt dabei den Vorschriften über den Datenschutz. Gegen Entgelt kann der Kreditnehmer seine bei der SCHUFA gespeicherten persönlichen Daten abfragen. Voraussetzung für die Krediteinräumung ist Ihr Einverständnis mit der Übermittlung von Daten an die SCHUFA.
+
+====================================================
+Wie funktioniert die SCHUFA?
+
+Die SCHUFA speichert Daten jedes Kreditnehmers über die Kreditbeantragung, -aufnahme und -abwicklung. Banken benötigen diese Informationen um die Kreditwürdigkeit zu beurteilen.
+
+====================================================
+Kann ich den Kreditvertrag widerrufen?
+
+Ja. Sie haben ein 14-tägiges Widerrufsrecht hinsichtlich des Kaufvertrages, das frühestens mit Erhalt der Ware beginnt. Üben Sie dieses aus, sind Sie auch an den Kreditvertrag nicht mehr gebunden. Sie können auch unmittelbar den Darlehensvertrag widerrufen, sind dann aber auch nicht mehr an den Kaufvertrag gebunden; wollen Sie diesen aufrecht erhalten, setzen Sie sich bitte mit uns in Verbindung. Näheres entnehmen Sie bitte den Widerrufsbelehrungen im Kreditvertrag.
+
+====================================================
+Wer kann eine Finanzierung beantragen?
+
+Alle Personen ab 18 Jahren mit einem festen Wohnsitz in Deutschland, die ein regelmäßiges Einkommen aus nichtselbständiger Tätigkeit beziehen und seit mindestens 3 Monaten beim derzeitigen Arbeitgeber beschäftigt sind.
+
+====================================================
+Was passiert, wenn ich in Zahlungsschwierigkeiten komme?
+
+Sollten Schwierigkeiten mit der Ratenrückzahlung auftreten, setzen Sie sich bitte sofort mit der BNP Paribas S.A. unter der Telefonnummer +49 203 34695016 in Verbindung, um eine Lösung zu finden. Wir empfehlen Ihnen, sich bei Kreditvertragsabschluss für eine Restschuldversicherung zu entscheiden. So sind Sie und Ihre Familie bei unverschuldeter Arbeitslosigkeit oder Arbeitsunfähigkeit und im Todesfall auf der sicheren Seite. Einzelheiten entnehmen Sie bitte den allgemeinen Versicherungsbedingungen.
+
+====================================================
+Wie wird der Kredit zurückbezahlt?
+
+Die vereinbarten Raten werden monatlich bequem per Lastschrifteinzug von Ihrem Girokonto eingezogen.
+
+====================================================
+Schließe ich mit dem Ausfüllen des Online-Formulars gleich einen Vertrag ab?
+
+Nein. Das Online-Formular stellt lediglich eine unverbindliche Anfrage dar. Ein verbindlicher Vertrag kommt erst zustande, nachdem Sie unserer Partnerbank ein unterschriebenes Exemplar des Kreditantrags sowie die weiteren erforderlichen Unterlagen zugesandt haben und diese nach abschließender Prüfung Ihren Antrag angenommen haben. In jedem Fall verfügen Sie über das gesetzlich geregelte Recht, Ihre Vertragserklärung binnen 14 Tagen zu widerrufen. Näheres zum Widerrufsrecht entnehmen Sie bitte dem Antragsformular.
+
+====================================================
+Ist der Zinssatz für die gesamte Laufzeit eines Ratenkredits fest?
+
+Ja. So können Sie die monatlichen Raten gut in Ihr Budget einplanen.
+
+====================================================
+Sind Sondertilgungen oder vollständige Rückführung des Kredits vor Ende der vereinbarten Laufzeit möglich?
+
+Ja. Sondertilgungen oder vollständige Rückführung des Kredits sind entsprechend der gesetzlichen Regelung möglich. Bei Fragen zu diesem Thema wenden Sie sich bitte an den Kundenservice unserer Partnerbank unter der Telefonnummer +49 203 34695016.
+
+====================================================
+Was ist der effektive Jahreszins?
+
+Der effektive Jahreszins ist ein Messwert, in den alle Kreditkosten einfließen, die bei Vertragsabschluss feststehen. Er soll Ihnen einen einfachen Vergleich mit anderen Krediten ermöglichen. Die Kosten einer Restschuldversicherung sind im effektiven Jahreszins nicht eingeschlossen, soweit deren Abschluss – wie bei uns – optional ist.
+
+====================================================
+Was ist ein Sollzinssatz?
+
+Der Sollzinssatz ist der Prozentsatz, mittels dessen der laufzeitabhängige Preis für die Darlehensüberlassung berechnet wird.
+
+====================================================
+Was ist ein "gebundener", was ein "veränderlicher" Sollzinssatz?
+
+Ein Sollzins ist "gebunden", wenn er über die gesamte Laufzeit fest ist. Dies ist der Fall bei unseren Ratenkrediten. Beim Einkaufskonto ist der Sollzins abhängig von der Inanspruchnahme des Kreditrahmens und damit "veränderlich".
+
+====================================================
+Was ist das Sorglos-Paket (Restschuldversicherung)?
+
+Das Sorglos-Paket besteht in einer Restschuldversicherung gegen verschiedene Risiken. Es bedeutet für Sie und Ihre Angehörigen eine Entlastung bei unverschuldeter Arbeitslosigkeit, Arbeitsunfähigkeit oder im Todesfall. Die Ratenzahlung wird – unter bestimmten Voraussetzungen – während der Arbeitslosigkeit (zeitlich befristet) und der Arbeitsunfähigkeit (ggf. nach Ablauf bestimmter Karenzzeiten) sichergestellt. Im Todesfall werden alle restlichen Raten vom Versicherer übernommen, sofern der Schadensfall rechtzeitig genug angezeigt wurde. Einzelheiten entnehmen Sie bitte den allgemeinen Versicherungsbedingungen.
+
+====================================================
+Warum eine Restschuldversicherung abschließen?
+
+Kredit mit Restschuldversicherung bedeutet Kredit mit Versicherungsschutz. Durch den Abschluss eines Kreditvertrags entstehen für Sie ggf. auch längerfristige Rückzahlungsverpflichtungen. Ihre heutige Situation lässt eine Kreditaufnahme zu. Aber wer kann in die Zukunft schauen? Solange Sie gesund sind und Arbeit haben, können Sie die vereinbarten Rückzahlungsraten für den Kredit sicherlich mühelos aufbringen. Doch was passiert, wenn Sie durch Krankheit oder Unfall für längere Zeit arbeitsunfähig werden, Ihre Arbeit verlieren oder im Todesfall Ihre Hinterbliebenen mit den Rückzahlungsverpflichtungen konfrontiert sind? In diesen Fällen bietet die Restschuldversicherung Schutz.
+
+====================================================
+Wie hoch sind die Kosten der Restschuldversicherung?
+
+Die Kosten der Restschuldversicherung sind abhängig von der Kredithöhe und werden bei Erstellung des Kreditantrags konkret berechnet. Sie können sich vor Unterzeichnung Ihres Kreditantrags also überlegen, ob Ihnen der Versicherungsschutz die ausgewiesene Prämie wert ist.
+
+====================================================
+Wie kann man sich den Versicherungsschutz der Restschuldversicherung konkret vorstellen?
+
+Die Restschuldversicherung übernimmt – unter Berücksichtigung etwaiger Karenz- und Wartezeiten – für die Dauer der Arbeitsunfähigkeit bzw. bei unverschuldeter Arbeitslosigkeit für maximal 12 Monate die Ratenzahlung oder die ausstehende Restschuld im Todesfall.
+
+====================================================
+Kann ich die Restschuldversicherung widerrufen?
+
+Sie können den Beitritt zur Restschuldversicherung innerhalb von 30 Tagen widerrufen (Näheres entnehmen Sie bitte den allgemeinen Versicherungsbedingungen). Wenn Sie sich für eine Restschuldversicherung entschieden haben, können Sie also auch noch nach Vertragsabschluss auf den Versicherungsschutz verzichten. Der Abschluss des Kreditvertrags ist von der Restschuldversicherung unabhängig.
+
+====================================================
+Was ist das Einkaufskonto
+
+Mit dem Abschluss Ihrer Finanzierung erhalten Sie automatisch das Einkaufskonto unserer Partnerbank. Das Einkaufskonto ist Ihre individuelle, zusätzliche bonitätsabhängige Geldreserve von bis zu 5.000 . Passend zum Einkaufskonto gibt es die CashCard, eine Maestro-Karte. Damit können Sie weltweit zahlen und Geld abheben. Das Einkaufskonto steht Ihnen immer ohne erneute Bonitätsprüfung zur Verfügung. Sie zahlen den in Anspruch genommenen Betrag in kleinen monatlichen Raten zurück und haben jederzeit die Möglichkeit, Sondertilgungen zu leisten. Zinsen werden natürlich nur für die in Anspruch genommenen Beträge fällig.
+
+====================================================
 Kann ich auch mittels App auf das Online-Banking für Firmenkunden oder Vereine zugreifen?
 
 Ja mit der App "Online-Filiale" verwalten Sie alle Konten der Genossenschaftlichen FinanzGruppe Volksbanken Raiffeisenbanken. Mit der App "Online-Filiale+" verwalten Sie Konten unterschiedlicher Banken.
@@ -45243,6 +46488,61 @@ Die RaboDirect ist eine reine Sparbank. Sparbanken zielen auf die Förderung und
 Falls Sie noch Sicherheitsbedenken haben, kontaktieren Sie uns bitte unter der kostenfreien Servicenummer 0800 7226 100. Unsere Geschäftszeiten sind montags bis freitags von 09.00 bis 18.00 Uhr. Sie können uns auch gerne eine E-Mail im geschützten Bereich schreiben, die wir schnellstmöglich beantworten werden!
 
 ====================================================
+Welche Kreditkarten gibt es?
+
+Bei der Revolving Card Kreditkarte haben Sie die Möglichkeit die Kreditsumme in Raten abzubezahlen. Sie können die Abrechnungssumme jedoch auch monatlich begleichen, um keine Zinsen zahlen zu müssen. Eine Charge Card Kreditkarte kann hingegen nicht in Teilbeträgen beglichen werden. Eine Prepaid Kreditkarte ist dagegen nur nach Aufladung von Guthaben nutzbar.
+
+====================================================
+Was kostet mich eine Kreditkarte?
+
+Bei einer Kreditkarte kann unter anderem eine Jahreskartengebühr berechnet werden. Aber auch für eine Bargeldabhebung oder die Nutzung der Kreditkarte außerhalb der Eurozone können Ihnen Kosten berechnet werden. Für die Ratenzahlung bei einer Revolving Card Kreditkarte fallen Sollzinsen auf die Abrechnungssumme an.
+
+====================================================
+Kann ich auch Bargeld mit der Kreditkarte abheben?
+
+Mit einer Kreditkarte ist es Ihnen möglich weltweit an Bargeld zu gelangen. Dabei fällt bei einigen Karten eine Bargeldabhebegebühr in Höhe von zwei bis vier Prozent der Abhebungssumme an und es werden in der Regel mindestens vier bis sechs Euro in Rechnung gestellt. Bei manchen Anbietern kann man allerdings auch mit der Kreditkarte kostenlos Geld abheben. Für die Nutzung im Ausland kann Ihnen zudem eine Auslandseinsatzgebühr berechnet werden.
+
+====================================================
+Was muss ich beachten, wenn ich die Karte im Ausland verwende?
+
+Mit einer Kreditkarte können Sie weltweit bargeldlos zahlen oder an Bargeld gelangen. Dabei kann Ihnen die Bank verschiedene Gebühren berechnen. Für die das Abheben von Bargeld im In- und Ausland werden nicht selten Bargeldgebühren veranschlagt. Bei der Nutzung außerhalb der Eurozone gibt die Bank häufig auch eine Auslandseinsatzgebühr an Sie weiter.
+
+====================================================
+Wann muss ich die Abrechnung der Karte bezahlen?
+
+Die Abrechnung Ihrer Kreditkarte wird häufig monatlich erstellt. Die Summe wird anschließend entweder sofort von Ihrem Girokonto eingezogen oder kann sie kann je nach Art Ihrer Kreditkarte auch in Raten beglichen werden. Eine Prepaid Kreditkarte muss hingegen im Vorfeld mit Guthaben aufgeladen werden.
+
+====================================================
+Wie funktioniert eine Prepaid-Kreditkarte?
+
+Eine Prepaid Kreditkarte können Sie immer nutzen, wenn ein Händler den jeweiligen Anbieter wie beispielsweise Visa, MasterCard oder American Express akzeptiert. Um die Karte nutzen zu können, muss im Vorfeld ein Guthaben in Höhe der benötigten Zahlungssumme aufgeladen worden sein.
+
+====================================================
+Wie funktioniert der Einkauf mit einer Kreditkarte?
+
+Kreditkarten können Sie weltweit für bargeldlose Zahlungen nutzen. Dabei gibt es vielfältige Einsatzmöglichkeiten wie Hotels, Taxis oder Ladengeschäfte. In der Regel sind Ihre Unterschrift und die Vorlage Ihres Ausweises notwendig. Auch im Internet können Onlinekäufe getätigt werden. Dort benötigen Sie unter anderem den Kartenverifizierungscode.
+
+====================================================
+Kann jeder eine Kreditkarte bekommen?
+
+Um eine Kreditkarte mit Kreditrahmen zu nutzen müssen Sie volljährig sein und über einen Wohnsitz in Deutschland verfügen. Auch Ihre Kreditwürdigkeit wird die Bank unter anderem durch eine Abfrage bei der Schutzgemeinschaft für allgemeine Kreditsicherung (Schufa ) überprüfen. Je besser dabei Ihre Bonität ausfällt, desto höher fällt meist auch Ihr Kreditrahmen aus.
+
+====================================================
+Bonuspunkte und Versicherungen - lohnt sich das?
+
+Bonuspunkte und Versicherungen sind häufig als Zusatzleistung in die Konditionen einer Kreditkarte integriert. Dabei können beispielsweise Rabatte erzielt oder Flugmeilen gesammelt werden. Auch Versicherungen werden häufig geboten, wie z. B. eine Auslandskrankenversicherung. Wenn Sie häufig verreisen oder oft bei einem bestimmten Händler einkaufen kann sich dies lohnen.
+
+====================================================
+Was sind Visa, MasterCard und American Express?
+
+Visa, MasterCard und American Express sind Anbieter von Kreditkarten. Dabei werden die Karten von Visa und MasterCard nicht selbst herausgegeben, sondern über verschiedene Kreditinstitute vertrieben. Die Akzeptanz dieser Karten ist weltweit sehr hoch. Visa und MasterCard werden jeweils in mehr als 200 Ländern angenommen.
+
+====================================================
+Welche speziellen Premium-Kreditkarten gibt es?
+
+Der Kreditkarten-Markt ist breit gefächert, für fast jede Zielgruppe gibt es das passende Angebot. Die goldene, schwarze und die Platin-Kreditkarte richten sich an die besonders exklusive Kundschaft. Erfahren Sie hier, wo genau die Unterschiede liegen und ob auch Sie die Voraussetzungen erfüllen, eine dieser exklusiven Kreditkarten zu besitzen.
+
+====================================================
 Was ist der Konto-Sofortcheck?
 
 Mit dem Konto-Sofortcheck kann die solarisBank AG Ihre Bonität schnell und einfach online prüfen. Dies erfolgt durch Zugriff auf den digitalen Kontoauszug Ihres Gehaltskontos und erspart Ihnen das Kopieren, Ausdrucken und Versenden von Gehaltsnachweisen.
@@ -45765,6 +47065,283 @@ Sie finden Ihre IBAN sowie unseren BIC (DHBNDEDDXXX) auch auf Ihrem Kontoauszug.
 Betreffen Änderungen durch die SEPA auch das DHB NetBanking?
 
 Im NetBanking wird Ihnen die SEPA-Überweisung ebenfalls angeboten. Alle bisherigen Funktionen und Layouts bleiben unverändert.
+
+====================================================
+Was kann ich tun, wenn ich mein Passwort vergessen habe?
+
+Wähle im Login-Bereich „Passwort vergessen?“. Um das Passwort zurückzusetzen, musst Du die bei der Anmeldung gewählte Sicherheitsfrage beantworten. Du bekommst dann ein neues Passwort per SMS, mit dem Du Dich einmalig einloggen kannst. Anschließend kannst Du ein neues Passwort eingeben.
+
+====================================================
+Wie kann ich mein Passwort ändern?
+
+Öffne hierzu den Menüpunkt „Mein Profil“ (links oben), wähle zuerst „Einstellungen“ und dann „Passwort ändern“ aus, um Dein Passwort zu ändern.
+
+====================================================
+Was kann ich tun, wenn ich meine PIN vergessen habe?
+
+Bitte wende Dich an das Serviceteam, die Mitarbeiter werden Dir gerne dabei behilflich sein, Deine PIN zurückzusetzen.
+
+====================================================
+Wie kann ich meine PIN ändern?
+
+Öffne hierzu den Menüpunkt „Mein Profil“, wähle zuerst „Einstellungen“ und dann „PIN ändern“ aus, um Deine PIN zu ändern.
+
+====================================================
+Warum muss ich hin und wieder eine neue PIN festlegen?
+
+Da aus Sicherheitsgründen die PIN nicht in der App gespeichert wird, wirst Du hin und wieder gebeten, eine neue PIN festzulegen.
+
+====================================================
+Wo kann ich meine vergangenen Transaktionen einsehen?
+
+Deine Transaktionshistorie kannst Du über einen Button rechts oben in der boon. App öffnen. Über das Kalender-Icon kannst Du dabei nach bestimmten Zeiträumen filtern.
+
+====================================================
+Wie kann ich boon. aufladen?
+
+Du kannst boon. per MasterCard oder Visa Kreditkarte und Überweisung aufladen.
+
+Bitte beachte, dass eine Aufladung mit einer Prepaidkarte nicht möglich ist. Vorteil der Kreditkarte: Das Geld ist unmittelbar verfügbar, bei Überweisung dauert es bis zu zwei Tage bis das Geld bei boon. verfügbar ist. Zur Aufladung per Kreditkarte musst Du die Kreditkarte in Deinem boon. Account registrieren; das geht entweder manuell oder über einen Scan der Karte. Falls Du Deine Kreditkarte noch nicht bei 3D Secure registriert hast, empfehlen wir, dies vorab über die Website Deiner Bank durchzuführen. Aus Sicherheitsgründen ist das Aufladen von boon. nur mit Kreditkarten möglich, die 3D Secure unterstützen.
+
+====================================================
+Kann ich Geld an andere boon. Nutzer senden und von ihnen empfangen?
+
+Ja, wenn du boon. PLUS verwendest, kannst du Geld an andere boon. PLUS Nutzer senden und von ihnen empfangen. Um dieses Feature zu nutzen, gehst du über das „+“ auf dem Homescreen auf „Geld senden“ und wählst anschließend die E-Mail-Adresse oder Handynummer des Empfängers aus.
+
+Die Limits für den Versand und Empfang von Geld findest du auf unserer Seite mit dem Verzeichnis der Gebühren und Limits.
+
+====================================================
+Kann ich Überweisungen von Dritten empfangen?
+
+Als boon. BASIC Kunde kannst Du nur Überweisungen empfangen, die von einem Konto, welches auf Deinen Namen läuft, getätigt wurden. Als boon. PLUS Kunde kannst Du auch Überweisungen von Fremdkonten empfangen.
+
+====================================================
+Was ist 3D Secure?
+
+3D Secure ist ein Sicherheitsstandard, der bei Kreditkartentransaktionen eingesetzt wird. Dieses Authentifizierungsverfahren stellt sicher, dass der rechtmäßige Karteninhaber sowie der rechtmäßige Händler an einer Transaktion teilnehmen. So lassen sich Betrugsrisiken wirksam minimieren. Ist ein Kreditkarteninhaber über eine der Registrierungsmethoden am 3D Secure-Verfahren angemeldet, wird ihm während des Aufladevorgangs eine Eingabeseite seiner Bank angezeigt, auf der er sein Passwort eingibt. Nur mit dem korrekten Passwort, welches ausschließlich dem Karteninhaber und seiner Bank bekannt ist, wird die Zahlung durchgeführt.
+
+====================================================
+Kann ich boon. nur auf Guthabenbasis nutzen?
+
+Ja, aber sobald Du eine Kreditkarte hinterlegt hast, kannst Du auch eine automatische Aufladung einrichten. Hierbei wird boon. auf einen vorab festgelegten Betrag aufgeladen, sobald eine frei wählbare Guthabengrenze unterschritten wird.
+
+====================================================
+Was kann ich tun, wenn das Bezahlen mit boon. nicht funktioniert?
+
+Bitte öffne die boon. App und prüfe den aktuellen Stand Deines Guthabens sowie Deine Internetverbindung, bzw. die Anzahl der noch verfügbaren Codes. Prüfe zudem, ob NFC aktiviert ist. Bei zahlreichen Smartphones wird das NFC Signal deaktiviert, sobald der Bildschirm gesperrt oder in den Flugmodus gewechselt wird. Bei manchen Modellen ist die NFC Antenne vorne angebracht, diese müssen dann entsprechend mit der Vorderseite auf das Terminal gehalten werden. Sollten bei der Zahlung dennoch Probleme auftreten, wende Dich bitte an unser Serviceteam.
+
+====================================================
+Wieviel Guthaben kann ich maximal aufladen?
+
+Eine Übersicht über Gebühren, maximales Guthaben und Aufladelimits findest Du hier.
+
+====================================================
+Was passiert mit meinem Account, wenn ich mein Smartphone wechsle?
+
+Mit boon. ist der Smartphonewechsel kein Problem, da die Identifikation über die Rufnummer erfolgt. Sobald Du boon. auf dem neuen Smartphone (NFC-fähig, Android 4.4 oder höher) installiert hast, kannst Du Dich mit Deinen existierenden Zugangsdaten einloggen.
+
+====================================================
+Was passiert, wenn sich meine Rufnummer ändert?
+
+In diesem Fall kannst Du Deinen Benutzernamen (bei boon. die Rufnummer) bequem über das Serviceteam ändern.
+
+====================================================
+Was sind reservierte Beträge?
+
+Reservierte Beträge sind Beträge, die zwar vom Händler “gesichert”, aber noch nicht abgebucht sind. In den meisten Fällen wirst Du solche Beträge nicht sehen, teilweise kann es aber eine Zeit lang dauern, bis eine Transaktion komplett abgeschlossen ist.
+
+====================================================
+Wie lange dauert es, bis ich Aktionsguthaben in meiner App sehen kann?
+
+In manchen Fällen kann es einige Minuten dauern, bis Aktionsguthaben (z.B. Cashback) in der App angezeigt wird.
+
+====================================================
+Wie kann ich meinen boon. Account kündigen?
+
+Du kannst Deinen boon. Account jederzeit schriftlich per Email oder Post kündigen. Nutze dazu einfach die Kontaktmöglichkeiten unseres Serviceteams. Damit Dein Konto geschlossen werden kann, teile bitte die folgenden Informationen mit:
+
+    Die Antwort auf Deine Sicherheitsfrage
+
+    Deine Mobiltelefonnummer
+
+Ein einmal gekündigtes Konto kann nicht wieder aktiviert werden.
+
+====================================================
+Was bedeutet NFC?
+
+NFC bedeutet „Near Field Communication“ und ist ein internationaler Standard um Daten zwischen zwei Endgeräten ohne direkte Kabelverbindung auszutauschen.
+
+====================================================
+Was bedeutet HCE?
+
+Die Softwaretechnologie HCE bedeutet „Host Card Emulation“ und ist heute Standard in den meisten Android-Geräten ab Version 4.4 und höher. Der HCE Standard bietet eine sichere Verschlüsselung aller gesendeten Daten.
+
+====================================================
+Wie kann ich das Serviceteam von boon. erreichen?
+
+Du erreichst das boon. Serviceteam per E-Mail und telefonisch.
+
+Um sicher zu gehen, dass wir mit dem Eigentümer des boon. Accounts sprechen, wirst Du von unserem Serviceteam gefragt nach Vor- und Zuname, Mobilfunknummer und nach der Antwort auf die Sicherheitsfrage.
+
+====================================================
+Was ist boon.?
+
+boon. ist eine Bezahl-App für Smartphones. Die App kommuniziert per Near-Field-Communication (NFC) mit den Kassenterminals im Handel. Um mit boon. zu bezahlen, hältst Du Dein Smartphone einfach mit ca. 1 cm Abstand über das Display des Bezahl-Terminals oder nutzt die boon. Card fürs Online Shopping.
+
+====================================================
+Was sind die Vorteile von boon.?
+
+    Einfach, smart und sicher bezahlen per Smartphone
+
+    Die Ausgaben immer im Überblick
+
+    Verkäufer bekommt Bankverbindung und Kreditkartendaten nicht zu sehen
+
+    Nach dem App-Download kann boon. sofort genutzt werden
+
+    Einfache Aufladung über die Kreditkarte
+
+    boon. kann mit allen Mobilfunkanbietern genutzt werden.
+
+====================================================
+ Wie kann ich die boon. Card aktivieren?
+
+Drücke in deiner boon. App den „+“ Button und wähle „boon. Card“ aus. Aus Sicherheitsgründen musst Du, um in diesen Bereich zu gelangen, immer Dein Passwort eingeben. Nachdem Du die akutalisierten AGBs akzeptiert hast, wird Deine boon. Card generiert. Bitte schließe die App in dieser Zeit nicht und stelle sicher, dass du mit dem Internet verbunden bist. Um online bezahlen zu können, muss deine boon. Card aktiviert sein.
+
+====================================================
+Was kostet boon.?
+
+Eine Übersicht über Gebühren, maximales Guthaben und Aufladelimits findest Du hier. Diese gelten sowohl für Zahlungen im Handel, als auch online mit der boon. Card.
+
+====================================================
+Für welche Smartphones ist boon. verfügbar?
+
+Die boon. App ist im Google Play Store verfügbar für alle NFC-fähigen Smartphones, die mit Android 4.4 oder höher laufen.
+
+====================================================
+Wie kann ich mit boon. bezahlen?
+
+Du kannst mit boon. an jedem NFC-fähigen Bezahlterminal bezahlen, das Mastercard akzeptiert. Du kannst Deine boon. Card auch beim Online-Shopping verwenden.
+
+boon. Card stellt eine Kartennummer und CVC bereit, die du beim Online-Checkout-Vorgang verwenden kannst.
+
+====================================================
+Woran erkenne ich ein NFC-fähiges Terminal?
+
+Ein NFC-fähiges Kassenterminal erkennst Du daran, dass ein NFC Symbol NFC Symbol auf dem Terminal abgebildet ist. Je nach Kassenterminal kann das Symbol oben, seitlich oder auch nur klein auf dem Display abgebildet sein. Ein weiteres Erkennungsmerkmal sind die PayPass-Logos am Eingang einiger Geschäfte.
+
+====================================================
+Wie kann ich mit boon. an einem NFC-fähigen Terminal bezahlen?
+
+Du hast zwei Möglichkeiten an einem NFC-fähigen Terminal mit boon. zu bezahlen:
+
+    Öffne die App, tippe auf den weißen „Tap & Pay“ Bereich und gib anschließend deine PIN ein bzw. entsperre die App mit deinem Fingerabdruck (möglich ab Android 6.0). Halte dann dein Smartphone mit ca. 1 cm Abstand an das Display des Bezahl-Terminals, bis der Bezahlvorgang abgeschlossen ist.
+
+    Alternativ kannst du die App öffnen und dein Smartphone direkt an das Terminal halten. Du wirst dann aufgefordert, deine PIN einzugeben bzw. das Handy mit deinem Fingerabdruck zu entsperren. Anschließend hältst du dein Smartphone erneut an das Terminal. Erfahrungsgemäß gibt es einige Terminals, die diese Variante nicht unterstützen. Bitte nutze in einem solchen Fall die erste Variante.
+
+====================================================
+Kann ich boon. auch im Ausland nutzen?
+
+Ja, Du kannst boon. an allen NFC-fähigen Kassenterminals im In- und Ausland nutzen, die MasterCard akzeptieren.
+
+Bitte beachte, dass boon. BASIC aufgrund gesetzlicher Auflagen in Deutschland und Spanien dort nur für inländische Transaktionen verwendet werden kann.
+
+====================================================
+Kann ich mit boon. Bargeld am Automaten abheben?
+
+Eine Bargeldauszahlung am Automaten ist aktuell nicht möglich.
+
+Kann ich mit boon. bezahlen, wenn ich gerade offline bin und keine Internetverbindung habe?
+
+Ja, Du kannst auch dann mit boon. bezahlen, wenn der mobile Daten- oder WLAN-Empfang deaktiviert ist. Für jeden Bezahlvorgang wird ein vorab generierter Code verwendet, der aus Sicherheitsgründen nur einmal benutzt werden kann. Du kannst immer fünf Bezahlvorgänge im Offline-Modus durchführen, danach benötigst Du wieder eine Internetverbindung, um neue Codes zu generieren.
+
+====================================================
+Werde ich benachrichtigt, wenn ich keine Codes mehr habe?
+
+Sobald nur noch ein Bezahlvorgang möglich ist, erhältst Du eine Benachrichtigung von Deiner boon. App.
+
+====================================================
+Gibt es ein Mindestalter für die Nutzung von boon.?
+
+Ja, das Mindestalter beträgt 18 Jahre.
+
+====================================================
+Welche Angaben sind bei der Registrierung erforderlich?
+
+Für die Registrierung musst Du neben Deiner Telefonnummer nur ein selbst gewähltes Passwort, eine PIN und eine Sicherheitsfrage eingeben.
+
+====================================================
+Warum sind für die Aufladung von Guthaben weitere Informationen nötig?
+
+Sowohl aus Sicherheits- als auch aus rechtlichen Gründen, kannst Du Deinen boon. Account nur dann aufladen, wenn Du valide persönliche Informationen hinterlegt hast.
+
+====================================================
+Welche Dokumente sind für ein Upgrade auf boon. PLUS erforderlich?
+
+Identitätsnachweis:
+
+    gültiger Reisepass (empfohlen)
+
+    gültiger Personalausweis
+
+    gültiger Führerschein (muss ein Ablaufdatum haben)
+
+Adressnachweis:
+
+    Gültiger Personalausweis (empfohlen, soweit dieser nicht schon als Identitätsnachweis verwendet wurde – d. h., ein Reisepass oder Führerschein wurden zum Identitätsnachweis verwendet)
+
+    Gültiger Kontoauszug, Kredit- oder Debitkartenabrechnung (nicht älter als 3 Monate, von einem beaufsichtigten Finanzunternehmen ausgestellt, darf nicht aus dem Internet heruntergeladen werden –> Papierrechnung erforderlich)
+
+    Gültiger Steuerbescheid (nicht älter als 12 Monate)
+
+    Versorgerrechnung z. B. Gas-, Strom- oder Festnetztelefonrechnung (nicht älter als 3 Monate, keine Mobilfunkrechnungen, darf nicht aus dem Internet heruntergeladen werden –> Papierrechnung erforderlich)
+
+    2 Versorgerrechnungen von unterschiedlichen Versorgern (z. B. nicht 2-mal Strom), wie Gas, Strom oder Festnetz (nicht älter als 3 Monate, keine Mobilfunkrechnung, dürfen aus dem Internet heruntergeladen werden)
+
+    Gerichtliche Anordnung , z. B. Testamentsvollstreckung, Schreiben des Insolvenzverwalters (nicht älter als 3 Monate)
+
+    Nachweis über behördliche Leistung, z. B. Wohngeld, Steuergutschrift, Pensionszahlung (nicht älter als 3 Monate)
+
+    Aufenthaltstitel (nicht älter als 12 Monate, für die Schweiz ist auch eine Aufenthaltsbewilligung möglich)
+
+    Meldebescheinigung (nicht älter als 3 Monate)
+
+====================================================
+Wie sicher ist das Bezahlen mit boon.?
+
+Beim Bezahlen mit boon. werden die gleichen hohen Sicherheitsmerkmale angewendet wie bei Zahlungen mit Chip-Karten. Jede Bezahlung wird verschlüsselt übertragen.
+
+====================================================
+Muss ich bei jedem Bezahlvorgang im Geschäft meine PIN eingeben?
+
+Ja, wie bei der Bezahlung mit der EC-Karte dient auch hier die Eingabe der PIN der eigenen Sicherheit. Sollte Deine Smartphone in fremde Hände gelangen, bietet die PIN-Eingabe einen zusätzlichen Schutz für Dein Guthaben. Daher musst Du Deine PIN bei jedem Bezahlvorgang eingeben.
+
+====================================================
+Sind die Geldbeträge auf meinem Smartphone gespeichert?
+
+Wenn Du Dich anmeldest, wird im Hintergrund ein Prepaid Konto angelegt. Daher liegen die Geldbeträge nicht auf dem Gerät, wie es beispielsweise beim Chip einer Geldkarte der Fall ist.
+
+====================================================
+Was passiert, wenn mein Smartphone gestohlen wird, oder ich es verliere?
+
+Passwort und PIN bieten hier einen ersten Schutz, Du solltest Deinen boon. Account im Falle des Verlusts/Diebstahls dennoch schnellstmöglich über die Notfallhotline des Serviceteams sperren lassen:
+
+00800 94 73 22 70
+
+====================================================
+Wie kann ich meine boon. Card dauerhauft sperren lassen?
+
+Du kannst Deine boon. Card jederzeit temporär in der App deaktiveren. Um Deine boon. Card dauerhauft sperren zu lassen oder neue Kartendaten zu erhalten, kontaktiere bitte unser Serviceteam.
+
+====================================================
+Kann ich mich auf mehreren Smartphones gleichzeitig bei boon. anmelden?
+
+Nein, ein gleichzeitiger Login auf mehreren Smartphones ist nicht möglich. Es kann immer nur ein aktives Device geben. Dies minimiert das Risiko, dass Dein boon. Account gehackt wird, sollten Rufnummer und Passwort einmal in falsche Hände gelangen.
+
+====================================================
+Welche Daten werden gespeichert?
+
+Hier kannst Du unsere Datenschutzerklärung lesen
 
 ====================================================
 Wie bekomme ich Ersatzauszüge oder Monatsübersichten von meinem Konto?
@@ -46717,6 +48294,211 @@ Es können keine Auszüge älter als 01.10.2010 erstellt werden.
 Wie aktiviere ich meinen PayPen im E-Banking?
 
 Klicken Sie unter „Zahlung erfassen“ ins oberste Feld (Nach IBAN, Kontonummer oder Empfänger suchen). Jetzt kann der PayPen wie gewohnt verwendet werden.
+
+====================================================
+Was für Vorteile haben Kreditkarten & brauche ich eine?
+
+Die Vorteile einer Kreditkarte liegen klar auf der Hand: Man muss kein Bargeld mit sich tragen, eine Bezahlung ist demnach immer möglich. Mittlerweile nehmen fast alle Restaurants, Tankstellen und Geschäfte die Kreditkarte an. Ferner gibt es Hotels, die auf eine Bezahlung per Kreditkarte bestehen.
+
+Gleiches gilt zum Beispiel für eine Reisebuchung über das Internet. Viele Plattformen akzeptieren eine Buchung nur noch, wenn eine Kreditkarte genutzt wird.
+
+Sie fahren gerne ins Ausland? Auch hier bietet die Kreditkarte nützliche Eigenschaften: Sie müssen Ihr Bargeld nicht in die fremde Währung tauschen, Sie müssen bei der Abholung eines Mietwagens eine Kaution hinterlegen. Im letzteren Fall fordern die meisten Mietwagenanbieter eine Kreditkarte, da sie den Kautionsbetrag auf der Karte blocken.
+
+====================================================
+Kann jeder eine Kreditkarte beantragen?
+
+Ob der Antrag auf Kreditkarte angenommen wird, hängt von vielen Faktoren ab: Banken ziehen als Sicherheit Ihre Bonität heran. Ihre Chancen, eine Kreditkarte zu erhalten, sind höher, je besser Ihre Bonität eingestuft wird. Alternativ können Sie eine Prepaid-Kreditkarte anfordern. Diese werden auch an Personen mit einem negativen Schufaeintrag ausgehändigt.
+
+====================================================
+Worauf muss ich achten, wenn ich eine Kreditkarte beantrage?
+
+Es gibt eine große Anzahl von verschiedenen Kreditarten. Diese unterscheiden sich bezüglich des Zeitpunktes der Abbuchung und ihrer Gebühren. Wenn Sie eine Kreditkarte beantragen, sollten Sie die Jahresgebühr, Fremdwährungsgebühren und die Transaktionsgebühren (fallen bei der Nutzung der Kreditkarte an) verschiedener Kreditkarten miteinander vergleichen.
+
+Desweiteren werden nicht alle Kreditkarten von jedem Land akzeptiert. Legen Sie vorher fest, in welchen Situationen Sie eine Kreditkarte benötigen und suchen Sie sich anhand dieser Kriterien die für Sie passende Kreditkarte heraus.
+
+====================================================
+Haben kostenlose Kreditkarten Nachteile?
+
+Kostenlose Kreditkarten besitzen keinerlei Nachteile. Diese warten mit den gleichen Funktionen wie Kreditkarten mit Jahresgebühr auf.  Sie unterscheiden sich lediglich in der Tatsache, dass bei einer kostenlosen Kreditkarte keine Jahresgebühr erhoben wird.
+
+In der Regel handelt es sich um eine VISA oder MasterCard. Diese wird weltweit anerkannt und wird von namhaften Kreditinstituten ausgestellt. Ein Girokonto bei diesen Kreditinstituten ist nicht nötig, die Abrechnung erfolgt über Ihr bestehendes Konto.
+
+====================================================
+Wie erkenne ich eine gute kostenlose Kreditkarte?
+
+Hinter einer kostenlosen Kreditkarte stehen namhafte Kreditinstitute, beispielsweise Hanseatic Bank oder BarclayBank. Weitere Feinheiten zeugen von einer guten kostenlosen Kreditkarte: die Gebühren für Bargeld oder Fremdwährung werden niedrig angesetzt und eine Ratenzahlung ist möglich.
+
+Desweiteren bieten gute Kreditkarten einen zinsfreien Zeitrahmen, in dem keine Sollzinsen berechnet werden, als auch einen individuell festlegbaren Kreditbetrag. Die Akzeptanz einer guten kostenlosen Kreditkarte ist sehr hoch; in der Regel handelt es sich um eine VISA oder MasterCard.
+
+Auszeichnungen von der Stiftung Warentest und weiteren neutralen Instituten bekräftigen eine gute Kreditkarte. Gute Kreditkarten werden immer per Hochprägung hergestellt.
+
+====================================================
+Wie kann ich eine Kreditkarte beantragen?
+
+Es gibt diverse Möglichkeiten, eine Kreditkarte zu beantragen. Sie können diese persönlich bei Ihrem Bankberater beantragen oder Sie nutzen das Internet. Die einfachste Variante ist der Kreditkartenvergleich, bei dem Sie per Klick auf die Internetseite des Anbieters geleitet werden. Anschließend können Sie den Antrag auf eine Kreditkarte online ausfüllen und erhalten in der Regel sofort eine Entscheidung, ob Ihr Antrag angenommen wird.
+
+====================================================
+Wie lange ist beim Kreditkarte beantragen die Dauer bis zur Ausstellung?
+
+Die Zeit, bis Sie Ihre beantragte Kreditkarte in der Hand halten dürfen, ist vom Anbieter abhängig. Regulär dauert die Zusendung der Kreditkarte ein paar Tage, ab und zu kann es bis zu sechs Wochen dauern. Manche Kreditkartenanbieter verlangen eine Online-Identitätsprüfung oder eine ID-Prüfung per Post. Diese Prüfung muss innerhalb von 14 Tagen nach dem Antrag erfolgen. Anschließend wird dann die Kreditkarte per Post versandt.
+
+====================================================
+Wie sicher ist der Einsatz von Kreditkarten?
+
+Die Sicherheit Ihrer Kreditkarte ist gewährleistet, wenn Sie die gebotenen Sicherheitsvorschriften einhalten. Jede Kreditkarte besitzt eine 16stellige Kartennummer und eine dreistellige Prüfnummer, die zur Sicherheit bei Zahlungen im Internet angegeben werden muss – zusätzlich zum Gültigkeitsdatum. Achten Sie darauf, dass Sie diese Daten nur verschlüsselt übersenden.
+
+Eine sichere Internetseite erkennen Sie an der Bezeichnung https. Beim Bezahlen im Geschäft müssen Sie entweder Ihre PIN-Nummer eintippen oder den Beleg unterschreiben. Auch dies dient Ihrer eigenen Sicherheit. Geben Sie niemals Ihre Kreditkarte aus der Hand, dann kann Ihnen nichts passieren. Löschen Sie E-mails, die Sie zu irgendeiner Tätigkeit bezüglich Ihrer Kreditkarte anweisen, immer sofort.
+
+====================================================
+Kann ich mit einer Kreditkarte Bargeld abheben?
+
+Je nach Kreditkarte können Sie EU-weit oder sogar weltweit an einem Bankautomaten Bargeld abheben. Gegenüber einer Girocard fallen für eine Bargeldabhebung keine Gebühren an; teilweise werden Fremdwährungsgebühren berechnet. Eine VISA oder MasterCard wird an allen Geldautomaten akzeptiert. Gleiches gilt für die American Express Card. Zum Abheben von Bargeld müssen Sie Ihre PIN-Nummer eintippen.
+
+====================================================
+Kann ich mit einer Kreditkarte bezahlen?
+
+Kreditkarten besitzen eine hohe Akzeptanz. So können in allen größeren Geschäften, an Tankstellen, in Restaurants und auch in Hotels mit Kreditkarten gezahlt werden.  Des Weiteren können Sie Einkäufe im Internet mit der Kreditkarte tätigen. Aber auch Mietwagenfirmen nehmen gerne eine Kreditkarte an. Achten Sie bei Ihrem Einkauf darauf, ob das Geschäft ein Lesegerät besitzt. Dann ist eine Bezahlung mit der Kreditkarte möglich.
+
+====================================================
+Was muss ich beachten, wenn ich eine Kreditkarte im Ausland verwende?
+
+Wenn Sie im Ausland mit Ihrer Kreditkarte Geld abheben, dann fällt in der Regel eine Fremdwährungsgebühr an. Diese Gebühr fällt je nach Anbieter unterschiedlich hoch aus. Teilweise ist die Nutzung in europäischen Ländern kostenlos; falls am Automaten Gebühren anfallen, ist dies dort vermerkt.
+
+Achten Sie beim Geldabheben auf ein sicheres Eintippen Ihrer PIN; niemand sollte Ihnen hierbei zusehen. Beim Bezahlen im Restaurant bitten Sie darum, dass die Kreditkarte in Ihrem Beisein in das Lesegerät eingesteckt wird. Speichern Sie Ihre PIN auf geistigem Wege ab, schreiben Sie diese niemals auf einen Zettel.
+
+====================================================
+Werden Kreditkarten weltweit akzeptiert?
+
+Die bekannten, großen Kreditarten wie VISA-, Master und American Express Card werden weltweit akzeptiert. Bei kleineren, unbekannteren Kreditkarten gibt es Einschränkungen, manche werden nur EU-Weit akzeptiert. Die Girocard wird in der Regel nur von der eigenen Bank akzeptiert, beziehungsweise von angeschlossenen Banken. In diesem Fall kann die EC-Karte auch in den europäischen Nachbarländern, zumindest Österreich, genutzt werden.
+
+====================================================
+MasterCard, Visa oder American Express?
+
+Unterschiede zwischen den drei großen Kreditkarten bestehen hinsichtlich der Akzeptanz und der Gebühren. Eine American Express Card wird weltweit akzeptiert, während es bei der VISA oder MasterCard zu Einschränkungen kommen kann.
+
+Die Gebühren für eine AmericanExpress Card sind in der Regel höher als bei den beiden anderen Karten. Je nach Ihren persönlichen Bedürfnissen können Sie zwischen MasterCard/VisaCard oder einer American Express Card entscheiden. Visa und MasterCard sind  im Grunde genommen ähnlich.
+
+====================================================
+Was sind Prepaid-Kreditkarten & sind sie sinnvoll?
+
+Bei einer Prepaid-Karte wird die Kreditkarte aufgeladen, indem Sie Geld auf die Kreditkarte überweisen.  Dieses Guthaben kann von Ihnen genutzt werden, um mit Ihrer Kreditkarte zu bezahlen. Sobald das Guthaben verbraucht ist, müssen Sie Ihre Kreditkarte erneut aufladen.
+
+Der Vorteil von Prepaid-Kreditkarten besteht in der vollen Kostenkontrolle. Sie können hiermit Ihr Girokonto nicht überziehen und können sich selbst einen Rahmen setzen, den Sie ausgeben möchten. Sie bietet eine Alternative, wenn wegen fehlender Bonität keine reguläre Kreditkarte ausgestellt wird.
+
+====================================================
+Wann nutze ich besser eine EC-Karte (Girocard) und wann eine Kreditkarte?
+
+Eine EC-Karte können Sie bei Ihrer eigenen Bank und deren angeschlossenen Filialen beziehungsweise weiteren angeschlossenen Banken kostenlos zum Bargeldabheben nutzen. Des Weiteren können Sie mit dieser auch in vielen Geschäften vor Ort bezahlen – im Internet wird eine EC-Karte nicht akzeptiert.
+
+Wenn Sie Geld bei fremden Banken abheben oder im Internet bezahlen möchten, dann müssen Sie eine Kreditkarte nutzen. Informieren Sie sich vorher, bei welchen Banken Sie Ihre Girocard kostenlos nutzen können. Auf diese Weise zahlen Sie keine unnötigen Gebühren, wenn Sie die Kreditkarte benutzen.
+
+====================================================
+Ist eine zweite Kreditkarte zusätzlich sinnvoll?
+
+Eine zweite Kreditkarte kann sich immer lohnen. Nachdem nicht alle Kreditkarten überall akzeptiert werden, steht Ihnen bei zwei verschiedenen Kreditkarten immer eine zur Verfügung. Des Weiteren können Sie eine zweite Kreditkarte zum Sparen nutzen.
+
+Ein Guthaben auf einer VISA Card wird mit einem Guthabenzins belohnt, der monatlich ausgezahlt wird – im Gegensatz zu einem regulären Girokonto. Achten Sie dabei darauf, dass die Kreditkarte kostenlos ist.
+
+====================================================
+Lohnen sich Versicherungen & Boni bei Kreditkarten?
+
+In besonderen Kreditkarten sind Versicherungen inbegriffen, zum Beispiel bei  den Gold- oder Platinvarianten. Gegen Aufpreis können im Zusammenhang mit der Kreditkarte ebenfalls Versicherungen abgeschlossen werden. Entweder erhöht sich dann die Jahresgebühr oder es fallen je nach Versicherung zusätzliche Gebühren an.
+
+Gleiches gilt für die angebotenen Bonisysteme. Meistens sind hieran Mindestumsätze gekoppelt oder es fällt bei ansonsten kostenlosen Kreditkarten eine Gebühr an. Ein eventueller finanzieller Vorteil sollte hier mit den höheren Kosten verglichen werden.
+
+====================================================
+Welche Kosten fallen mit Kreditkarten an?
+
+Kreditkarten können bei der Ausstellung Gebühren nach sich ziehen und in der Folge die sogenannten Jahresgebühren. Diese werden für die Ausstellung und die Möglichkeit der Nutzung der Kreditkarte erhoben.  Manche Kreditkartenanbieter berechnen Gebühren, wenn Sie in einem außereuropäischen Land Geld abheben – hierbei handelt es sich um die sogenannte Fremdwährungsgebühr.
+
+Innerhalb der EU sind die meisten Kreditkarten kostenlos, teilweise werden auch Bargeldgebühren erhoben. Letztere können auch in Deutschland anfallen, die Höhe dessen sind aber auf den Geldautomaten vermerkt. Als dritte Kostenart können Sollzinsen für den eingeräumten Kreditrahmen anfallen. Hierbei bestehen erhebliche Unterschiede, abhängig von dem Zeitpunkt und der Art der Rückzahlung.
+
+====================================================
+Wann muss ich die Abrechnung der Karte zahlen?
+
+Der Zeitpunkt der Abrechnung hängt vom Anbieter und von der Kartenvariante ab. Bei regulären Kreditkarten erfolgt die Abrechnung einmal im Monat, entweder am Monatsende oder am Monatsanfang.
+
+Die meisten Anbieter stellen einen zinslosen Zeitraum zur Verfügung, innerhalb dessen die Abrechnung erfolgt, aber keine Sollzinsen berechnet werden – diese fallen erst bei einer Zahlung nach diesem Zeitraum an (zwischen vier und acht Wochen).
+
+Viele Kreditkartenanbieter warten mit einer Ratenzahlung auf. Bei der sogenannten Debit Kreditkarte erfolgt die Abrechnung sofort. Hier wird der Rechnungsbetrag sofort von Ihrem Bankkonto eingezogen.
+
+====================================================
+Wie hoch ist der Kreditrahmen einer Kreditkarte?
+
+Die Höhe des Kreditrahmens ist vom Anbieter der Kreditkarte abhängig. Dieser schwankt zwischen ein paar Hundert Euros und ein paar Tausend Euros. Beantragen Sie eine Kreditkarte über eine Bank, so richtet sich der Kreditrahmen an Ihrem monatlichen Einkommen.
+
+Besondere Karten besitzen einen hohen Kreditrahmen, setzen jedoch eine entsprechende Bonität voraus. Hier handelt es sich um die  Varianten Gold oder Platin einer Kreditartenart, zum Beispiel Visa Card Gold.
+
+====================================================
+Was muss ich bei Einkäufen im Internet beachten?
+
+Einkäufe im Internet können auf verschiedene Art durchgeführt werden. Zur Zahlung stehen neben der Kreditkarte meistens auch die Sofortüberweisung, eine Zahlung per PayPal oder ein Lastschrifteinzug zur Verfügung. Verwenden Sie nur Internetseiten die mit https beginnen. Dann ist eine sichere Übertragung Ihrer Daten gewährleistet.
+
+====================================================
+Brauche ich eine Kreditkarte, um einen Mietwagen zu leihen?
+
+Die USA verlangt in der Regel eine Kreditkarte, um einen Mietwagen leihen zu können. In Europa können die meisten Mietwägen auch per Bargeld bezahlt werden, die meisten Mietwagenanbieter blocken die anfallende Kaution gerne auf der Kreditkarte.
+
+Dies ist deshalb sinnvoll, da die Kaution sehr hoch ausfallen kann und kaum einer diesen Betrag als Bargeld dabei hat. Des Weiteren wird eine Reservierung eines Mietwagens im Internet nur per Kreditkarte akzeptiert.
+
+====================================================
+Warum gibt es Kreditkarten mit und ohne Schufa?
+
+Bevor eine Kreditkarte genehmigt wird, holt der Kreditkartenanbieter immer eine Auskunft bei der Schufa an. Sollten Sie dort negative Einträge haben, dann wird Ihnen wahrscheinlich die Kreditkarte verwehrt. In diesem Fall können Sie eine Prepaid-Karte beantragen. Mit dieser können Sie keinen Kredit in Anspruch nehmen; Sie müssen diese Karte vielmehr aufladen und können lediglich das vorhandene Guthaben nutzen.
+
+====================================================
+Was muss ich tun, wenn ich die Kreditkarte verliere oder sie geklaut wird?
+
+Sobald Sie Ihre Kreditkarte verloren oder diese Ihnen gestohlen wurde, dann sollten Sie sie sofort sperren lassen.  Sie haben bei der Auslieferung Ihrer Kreditkarte eine Telefonnummer erhalten, an die Sie sich wenden können. Alternativ können Sie auch die Nummer 116 116 wählen.
+
+Diese ist rund um die Uhr besetzt und kann eine Kreditkartensperrung vornehmen lassen. Wenn Sie die Kreditkarte über Ihre Bank erhalten haben, dürfen Sie natürlich auch dort anrufen.
+
+Tragen Sie Ihre Kreditkarte immer in Ihrer Nähe. Nehmen Sie sie bei Flügen immer mit ins Handgepäck, in Hostels immer in Ihre Nähe. So haben Sie die bestmögliche Gewissheit, dass Sie die Kreditkarte bei sich haben, auch auf Reisen.
+
+====================================================
+Worauf muss ich bei Einkäufen mit Kreditkarte im Internet achten?
+
+Achten Sie beim Kaum im Internet auf die Internetadresse. Sichere Seiten beginnen nicht mit http, sondern mit https. Des Weiteren ist eine sichere Verschlüsselung bei der Übertragung der Daten zwingend erforderlich.
+
+Sie müssen bei der Zahlung im Internet alle wichtigen Daten Ihrer Kreditkarte eingeben: die Kartennummer, die Gültigkeitsdauer und meistens die Prüfziffer. Sobald fremde Personen an diese Daten geraten, könnten Sie mit Ihrer Kreditkarte bezahlen.
+
+====================================================
+Was ist die Kartenprüfnummer?
+
+Die Kartenprüfnummer stellt ein weiteres Sicherheitsmerkmal der Kreditkarte dar. Diese Nummer befindet sich normalerweise auf der Rückseite der Karte und ist nur aufgedruckt, aber nicht geprägt. Auf diese Weise können Maschinen wie Automaten oder Lesegeräte diese Nummer nicht lesen.
+
+Die Prüfnummer wird meistens beim Einkaufen im Internet abgefragt. Dadurch wird sichergestellt, dass sich  die Kreditkarte in der Tat in den Händen des Einkäufers/Inhabers befindet.
+
+====================================================
+Was ist eine Partnerkarte & lohnt sie sich?
+
+Eine Partnerkarte ist eine zweite Kreditkarte, die beispielsweise für den Ehepartner oder für die Kinder ausgestellt wird. Zahlungen mit dieser Karte werden vom  gleichen Girokonto wie bei der Hauptkarte abgebucht. Ebenfalls enthält die Karte alle Leistungen wie die Hauptkarte.
+
+Sie wurde eingeführt, um dem Partner unabhängig vom Hauptkarteninhaber zusätzlich die Möglichkeit zu geben, Geld abzuheben oder mit der Karte zu bezahlen. Der Kreditrahmen erhöht sich hierdurch nicht. Normalerweise fallen für eine Partnerkarte geringere Jahresgebühren wie für die Hauptkarte an; alle anderen Gebühren bleiben gleich.
+
+====================================================
+Muss ich für eine neue Kreditkarte die Bank wechseln?
+
+Um eine Kreditkarte beantragen zu können, muss kein Girokonto beim Kreditkartenanbieter bestehen. Die Rechnungsbeträge werden vom bestehenden Girokonto abgebucht, ein zweites Konto muss daher nicht eröffnet werden.
+
+Sollten Sie kein Girokonto besitzen, so können Sie sich für eine Prepaid-Karte entscheiden, die zuvor aufgeladen wird. Oder Sie geben mit Zustimmung des Inhabers ein anderes Girokonto an, beispielsweise das Ihres Partners oder Ihrer Eltern.
+
+====================================================
+Was mache ich, wenn mir die Bank keine Kreditkarte geben will?
+
+Wenn Ihr Antrag auf Kreditkarte abgelehnt wird, so beantragen Sie die Kreditkarte bei einem anderen Kreditinstitut oder Sie beantragen eine Kreditkarte direkt beim Anbieter. Die funktioniert auf einfache Weise über das Internet.
+
+Eine sinnvolle Alternative zu der eigenen Hausbank stellt die Kreditkarte von Number 26 dar. Diese wird kostenlos geführt und genießt als MasterCard eine weltweite Akzeptanz. Alternativ können Sie sich für eine Prepaid-Karte entscheiden.
+
+====================================================
+Welche Kreditkarte ist für Studenten sinnvoll?
+
+Die DKB bietet eine spezielle Kreditkarte für Studenten an. Diese wird ohne Jahresgebühren geführt und bietet weitere Leistungen: sie kann gleichzeitig als Studentenausweis verwendet werden, so dass sich der Eintritt öffentlicher Plätze reduziert. Sie bietet auch Reduzierungen für spezielle Reisen, beim Shoppen und wartet mit einem Cashback auf. Guthaben auf dem zugehörigen Girokonto/Kreditkarte werden verzinst.
+
+====================================================
+Welche ist die beste Kreditkarte?
+
+Die Auswahl der Kreditkarte hängt von Ihren persönlichen Bedürfnissen ab. Erstellen Sie sich am besten eine Liste mit allen Fakten, beispielsweise Ihrem Urlaubsverhalten oder Ihrer beruflichen Situation. Anschließend sollten Sie sich über die anfallenden Gebühren informieren und dann eine Auswahl treffen. Beziehen Sie den Abrechnungszeitpunkt sowie die Möglichkeit zur Ratenzahlung in Ihre Überlegungen mit ein. Nutzen Sie auch gerne unsere Empfehlungen und Vergleichstabelle zu Kreditkarten.
 
 ====================================================
 Was bedeutet Disagio bei meiner Baufinanzierung?

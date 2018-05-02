@@ -1,15 +1,16 @@
 from textacy.corpus import Corpus
 from textacy.preprocess import preprocess_text
 import spacy
-from components.custom_lemmas import CUSTOM_LOOKUP
+from components.custom_lemmas import CUSTOM_LOOKUP, CUSTOM_REMOVES
+import regex
+FLOAT_REGEX = regex.compile('\b\d+\b')
+POS_IGNORE = ["CONJ", "CCONJ", "DET", "NUM", "PRON", "PUNCT", "SYM", "PART",  ]
 
-POS_IGNORE = ["CONJ", "CCONJ", "DET", "NUM", "PRON", "PUNCT", "SYM", "PART"]
+PUNKT_PREPROCESS = ["/", "<", ">", "*", "=", "–", "+"]
 
-PUNKT_PREPROCESS = ["/", "<", ">", "*", "=", "–"]
-
-first_banks = ["PostBank", "PSD", "EthikBank", "TARGOBANK", "Triodos", "Sparda-Bank", "targobank", "FerratumBank", "GarantiBank", "Hanseatic Bank", "Keytrade Bank", "Deutsche Bank", "MERKUR BANK", "Skatbank", "VR-Bank", "norisbank", "Skatbank", "BLKB", "ABN AMRO", "Austrian Anadi Bank", "De Nederlandsche Bank", "HypoVereinsbank", "L-Bank", "Deutschen Handelsbank"]
-second_banks  = ["solarisBank" "SWK Bank", "DNB", "ING DiBa","ING-DiBa" "RCI Banque", "Commerzbank","Postbank", "AmExCo", "DB PGK", "UnionInvestment","FinReach", "Crédit Mutuel", "CIC Bank", "Unicredit", "Tigerstarker"]
-companies = ["comdirect","CIM","Volkswagen", "Opel", "Renault", "Dacia", "Nissan","GRENKE", "Santander", "Fidor", "Credit Europe", "DKB", "HOB", "IKEA" ,"OKB", "Rabo",  "Ferratum", "NIBC", "Shaufelonline", "EdB", "GLS", "HVB", "PayPal" ,"East West Direkt", "COMPEON", "DHB", "FINAVI", "Finavi", "Fiducia GAD", "AMRO", "Anadi"]
+first_banks = ["PostBank", "PSD", "EthikBank", "TARGOBANK", "Triodos", "Sparda-Bank", "targobank", "FerratumBank", "GarantiBank", "Hanseatic Bank", "Keytrade Bank", "Deutsche Bank", "MERKUR BANK", "Skatbank", "VR-Bank", "norisbank", "Skatbank", "BLKB", "ABN AMRO", "Austrian Anadi Bank", "De Nederlandsche Bank", "HypoVereinsbank", "L-Bank", "Deutschen Handelsbank","schlau-finanziert.at", "Ikano Bank AB", "KSK Köln"]
+second_banks  = ["solarisBank AG", "SWK Bank", "DNB", "ING DiBa","ING-DiBa" "RCI Banque", "Commerzbank","Postbank", "AmExCo", "DB PGK", "UnionInvestment","FinReach", "Crédit Mutuel", "CIC Bank", "Unicredit", "Tigerstarker", "RBd", "Shell", "Ikano Bank", "Svenska Handelsbanken", "Yapı Kredi Bank", "DekaBank"]
+companies = ["comdirect","CIM","Volkswagen", "Opel", "Renault", "Dacia", "Nissan","GRENKE", "Santander", "Fidor", "Credit Europe", "DKB", "HOB", "IKEA" ,"OKB", "Rabo",  "Ferratum", "NIBC", "Shaufelonline", "EdB", "GLS", "HVB", "PayPal" ,"East West Direkt", "COMPEON", "DHB", "FINAVI", "Finavi", "Fiducia GAD", "Fiducia & GAD", "AMRO", "Anadi", "MLP", "Interhyp", "Ikano",  "Deka", "LBS"]
 
 
 products_map = {
@@ -26,6 +27,8 @@ products_map = {
     "maxblue" : "DidiInvestor",
     "SpardaNet" : "DidiOnline",
     "S-Card" : "DidiCard",
+    "SparkassenCard": "DidiCard",
+
     "Kleeblatt" : "Didi",
     "sparSmart" : "DidiSuperSparkonto",
     "TWINT" : "DidiPay",
@@ -38,11 +41,21 @@ products_map = {
     "VRNetKey" : "DidiLogin",
     "boon." : "DidiPay",
     "Anadi mobilePAY" :  "DidiApp",
-    "ZOIN" : "DidiPay"
+    "ZOIN" : "DidiPay",
+    "MLP-Konto" : "DidiKonto",
+    "S-direkt" : "DidiInvestor",
+    "girogo-Funktion": "DidiPay",
+    "girogo" : "DidiEasy",
+    "S-Depot" : "DidiVermögen",
+    "S-Broker" : "DidiBroker",
+    "SPG-Verein" : "DidiVerein",
+    "SFirm" : "DidiApp",
+    "sfirm" : "didiapp",
+    "S-Tagesgeld" : "DidiTagesgeld"
 
 }
-countries = ["Deutschland", "Schweiz", "Österreich", "Luxembourg", "Malta", "Belgien", "Ruhr", "Hessen", "España", "Spanien", "Niederlanden", "Niederlande"]
-towns = ["Berlin", "München", "Frankfurt am Main", "Hamburg", "Hannover", "Karlsruhe", "Stuttgart", "Köln", "Düsseldorf", "Duisburg", "Mannheim", "Dresden", "Ingolstadt", "Münster", "Amsterdam "]
+countries = ["Deutschland", "Schweiz", "Österreich", "Luxembourg", "Malta", "Belgien", "Ruhr", "Hessen", "España", "Spanien", "Niederlanden", "Niederlande", "Island", "Lichtenstein", "Australien", "Finnland", "Norwegen"]
+towns = ["Berlin", "München", "Frankfurt am Main", "Hamburg", "Hannover", "Karlsruhe", "Stuttgart", "Köln", "Düsseldorf", "Duisburg", "Mannheim", "Dresden", "Ingolstadt", "Münster", "Amsterdam", "Helsinki", "Freiburg"]
 first_bank_name = "DidiBank"
 second_bank_name = "AmbiBank"
 
@@ -52,10 +65,10 @@ country = "Poltawien"
 
 town = "Oglietzen"
 
-possible_integrator = ["girokonto",  "konto", "einlagen", "behörden", "einstellung","verzeichnis","name", "namens", "bank","banken","prozess","verhältnisse","vereinbarungen", "checks", "check", "fristen", "beratung", "kunde", "kunden", "adresse", "daten", "informationen", "spanne", "sprachen", "sprache", "planung", "bescheid", "situation", "verwaltung", "amt", "schulden", "zahlung", "gefühle", "beratungsstelle", "stunden", "beschluss", "schaden", "pfändung", "versicherung", "vertrag", "abtretung", "anteil", "verfahren", "gesellschaft", "datum", "kosten", "kurs", "transaktion", "order" , "verbot", "freiheit", "nummer", "gremium", "kammer", "unabhängig", "system", "limit", "eingang", "ausgang", "gang", "Verfahren"]
+possible_integrator = ["girokonto",  "konto", "einlagen", "behörden", "einstellung", "auszahlung", "verzeichnis","name", "namens", "bank","banken","prozess","verhältnisse","vereinbarungen", "checks", "check", "fristen", "beratung", "kunde", "kunden", "adresse", "daten", "informationen", "spanne", "sprachen", "sprache", "planung", "bescheid", "situation", "verwaltung", "amt", "schulden", "zahlung", "gefühle", "beratungsstelle", "stunden", "beschluss", "schaden", "pfändung", "versicherung", "vertrag", "abtretung", "anteil", "verfahren", "gesellschaft", "datum", "kosten", "kurs", "transaktion", "order" , "verbot", "freiheit", "nummer", "gremium", "kammer", "unabhängig", "system", "limit", "eingang", "ausgang", "gang", "Verfahren", "posten", "vereinbarung", "form"]
 
-characters_to_space = ['/', "*", "(", ")"]
-characters_spaced = [" / ", " * ", " ( ", " ) "]
+characters_to_space = ['/', "*", "(", ")", "+"]
+characters_spaced = [" / ", " * ", " ( ", " ) ", " + "]
 GERMAN_SEPARABLE = ["an", "ab", "auf", "aus", "ein", "bei", "heim", "her", "heraus", "herein", "herauf", "hin", "hinauf", "hinaus", "hinein", "los", "mit", "nach", "vor", "weg", "zu", "zurück", "durch", "über", "um", "unter", "wider", "wieder"]
 
 def create_corpus(text_stream):
@@ -107,12 +120,19 @@ def custom_preprocess(text):
 
 
 def model_process(text, nlp):
+
     doc = nlp(text)
+    docl = nlp(text.lower())
     curr_trunc = None
     keep_toks = []
-    for token in doc:
-
-        if (token.text in PUNKT_PREPROCESS):
+    for index, token in enumerate(doc):
+        if (token.is_stop):
+            pass
+        elif (index < len(docl) and docl[index].is_stop):
+            pass
+        elif (FLOAT_REGEX.match(token.text) ):
+            pass
+        elif (token.text in PUNKT_PREPROCESS):
             pass
         elif (token.pos_ in POS_IGNORE):
             pass
@@ -128,16 +148,25 @@ def model_process(text, nlp):
         else:
             if (token.tag_ == "TRUNC"):
                 curr_trunc = token.text[:-1]
-            elif (token.pos_ in ["VERB"]):
+            elif (token.pos_ == "VERB"):
                 sep_part = [x for x in token.children if x.tag_ == "PTKVZ"
                             and x.text in GERMAN_SEPARABLE ]
                 if (len(sep_part) > 0):
                     to_app = sep_part[0].text+token.lemma_.lower()
-    #                if (to_app[-1] != 'n'):
-    #                    to_app = to_app + "n"
+
                     keep_toks.append(to_app)
-                elif token.pos_ == "VERB":
+                else:
                     keep_toks.append(token.lemma_)
+
+            elif (index < len(docl) and docl[index].pos_ == "VERB") and any([x for x in docl[index].children if x.tag_ == "PTKVZ" and x.text in GERMAN_SEPARABLE ]):
+                sep_part = [x for x in docl[index].children if x.tag_ == "PTKVZ"
+                            and x.text in GERMAN_SEPARABLE]
+                if (len(sep_part) > 0):
+                    to_app = sep_part[0].text + docl[index].lemma_.lower()
+
+                    keep_toks.append(to_app)
+            elif (index < len(docl)      and docl[index].pos_ == "VERB") and (docl[index].lemma_ != docl[index].text):
+                keep_toks.append(docl[index].lemma_)
             else:
                 keep_toks.append(token.lemma_)
 
@@ -147,7 +176,12 @@ def model_process(text, nlp):
 
 if __name__ == '__main__':
     nlp = spacy.load('de')
+    map(nlp.Defaults.lemma_lookup.pop, CUSTOM_REMOVES)
     nlp.Defaults.lemma_lookup.update(CUSTOM_LOOKUP)
+    print(model_process(
+        "Fallen zusätzliche Kosten bei der Nutzung der Versicherungen meiner Karten an?",
+        nlp))
+
     print(model_process("Ferner bieten wir interessante und leistungsstarke Fonds sowie ein wachsendes Angebot attraktiver Fonds von führenden Investmentgesellschaften an.", nlp))
     print(model_process(
         "Was sollte ich tun, wenn ich glaube, dass auf mein Konto zugegriffen wurde?",
@@ -177,3 +211,20 @@ if __name__ == '__main__':
     print(model_process(
         "Ein Dispo Antrag ist bei uns einfacher als bei vielen Filialbanken. Bonität vorausgesetzt, verläuft die Einrichtung Deines Disporahmens schnell und mit nur wenigen Angaben. Der Dispo hilft Dir, wenn Du Dein Konto kurzfristig überziehen möchtest.",
         nlp))
+
+
+    print(model_process(
+        "Häufig reicht es auch, eine längere Laufzeit zu wählen, und dadurch die monatliche Belastung zu reduzieren.",
+        nlp))
+
+    print(model_process(
+        "Genossenschaftsbanken, Sparkassen und die Groß- und Privatbanken haben ein eigenes Online-Bezahlverfahren \"paydirekt\" entwickelt. Mit paydirekt können Sie mit Ihrem Girokonto im Internethandel direkt, sicher und einfach bezahlen.",nlp))
+
+    print(model_process(
+        "Sondertilgungen und vorzeitige Rückzahlungen von Teilbeträgen sind jederzeit kostenfrei möglich.",nlp))
+    print(model_process(
+        "Wann wird eine Entschädigung für Einlagen gezahlt?", nlp))
+    print(model_process(
+        "Falls Du Deine Kreditkarte noch nicht bei 3D Secure registriert hast, empfehlen wir, dies vorab über die Website Deiner Bank durchzuführen", nlp))
+    print(model_process(
+        "Sobald Du DidiPay auf dem neuen Smartphone  ( NFC-fähig, Android 4.4 oder höher )  installiert hast, kannst Du Dich mit Deinen existierenden Zugangsdaten einloggen.", nlp))
