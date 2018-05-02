@@ -7488,7 +7488,7 @@ Sie können zu einem gewünschten Ausführungstermin den Gesamtbetrag, einen Tei
 Bei einem Dauerauftrag wird exakt der Betrag überwiesen, den Sie vorab eingegeben haben, mehr nicht.
 
 ====================================================
-Kann man nach Einrichtung eines Daueraufrages im Online-Banking der Postbank das Auftragslimit für die Daueraufträge wieder auf 0,00 Euro setzen, ohne das der gerade eingegebene Dauerauftrag ungültig wird?
+Kann man nach Einrichtung eines Dauerauftrages im Online-Banking der Postbank das Auftragslimit für die Daueraufträge wieder auf 0,00 Euro setzen, ohne das der gerade eingegebene Dauerauftrag ungültig wird?
 
 Ja, das Auftragslimit im Online-Banking kann sofort wieder auf Null gesetzt werden.
 
@@ -46150,6 +46150,573 @@ Was bedeutet das P-Konto für “meine” SCHUFA?
 Das P-Konto ist in der SCHUFA ersichtlich. Dies soll zum einen unmöglich machen, dass ein Schuldner mehrere P-Konten einrichtet, denn er ist nur berechtigt, ein Konto als Pfändungsschutzkonto zu führen. Es bedeutet aber auch, dass diejenigen Schuldner, die vor 2012 auf die Einrichtung eines P-Kontos nur deshalb verzichtet haben, um die Eintragung desselben in der sonst (möglicherweise) “blütenreinen SCHUFA” (das kommt gar nicht so selten vor) zu vermeiden, seither den bitteren Happen doch schlucken mussten. Vorher war es möglich, den unpfändbaren Betrag durch einen Antrag bei Gericht zu schützen. Dieser Antrag und die daraufhin erfolgte gerichtliche Freigabe waren natürlich nicht in der SCHUFA ersichtlich.
 
 Diese Speicherung bei den Auskunfteien (SCHUFA) soll aber allein die Aufgabe erfüllen, eine mehrfache Einrichtung von P-Konten zu verhindern. Der Gesetzgeber hat daher gleichzeitig geregelt, dass diese Eintragung ausschließlich dazu verwendet werden darf, Anfragen von Banken zu beantworten, ob bereits ein P-Konto geführt wird und verbietet jede andere Nutzung oder Verarbeitung.
+
+====================================================
+Wie sehen die E-Dokumente aus?
+
+Die Belege sehen gleich aus, ob per Post oder elektronischen versandt.
+
+====================================================
+Welche Dokumente werden elektronisch ausgeliefert?
+
+Sie erhalten alle Bankauszüge elektronisch in Ihr Postfach geliefert. Ausser das Steuerverzeichnis erhalten Sie weiterhin phyisch zugestellt.
+
+====================================================
+Wie funktioniert die Zustellung?
+
+Sie finden die E-Dokumente im Menü «Meine Dokumente». Dieser Menüpunkt wird mit einer Zahl versehen, sobald neue Bankbelege verfügbar sind. Mit einem Klick auf das ausgewählte Dokument wird Ihnen der Bankbeleg angezeigt. Sie können ihn ausdrucken, auf Ihrem PC speichern oder löschen.
+
+====================================================
+Was ist die Voraussetzung, um elektronische Bankbelege anzusehen?
+
+Elektronische Bankbelege sind als PDF-Dateien verfügbar. Um sie anzusehen, benötigen Sie den Adobe Reader, der auf den meisten Computer bereits vorhanden ist. Falls nicht, können Sie ihn kostenlos herunterladen und installieren: http://get.adobe.com/de/reader/otherversions/
+
+====================================================
+Wann und wie lange sind die elektronischen Bankbelege im E-Banking abrufbar?
+
+E-Dokumente bleiben 400 Tage in Ihrem Postfach im E-Banking (Dokumente für die Steuern sogar 1'440 Tage). Nach Ablauf dieser Frist sind sie elektronisch nicht mehr verfügbar. Speichern Sie Ihre Belege auf Ihrem Computer ab, um sie länger aufzubewahren.
+
+====================================================
+Wie muss ich vorgehen, damit ich die Bankbelege elektronisch erhalte?
+
+Die elektronische Belegzustellung können Sie direkt im E-Banking unter "Einstellungen" beantragen.
+
+====================================================
+Welche Vorteile bietet diese Dienstleistung?
+
+    Bezahlen Sie keine Portospesen mehr
+
+    Schnellere Verfügbarkeit als bei Postzustellung
+
+    Dank weniger Papierbelege leisten Sie einen aktiven Beitrag zum Umweltschutz
+
+    Sparen Sie Zeit, indem Sie die Belege elektronisch auf Ihrem Computer archivieren
+
+====================================================
+Ich finde meine Kreditkartenauszüge nicht mehr im Postfach. Wo sind sie?
+
+Die Viseca Kontoauszüge/Abrechnungen sind nicht mehr im Postfach, aber Sie finden den Link auf die Viseca-Abrechnungen im Navigationspunkt "Karten".
+
+====================================================
+Mein E-Banking-Zugang ist gesperrt. Wie kann ich ihn wieder entsperren?
+
+Wenden Sie sich in diesem Fall bitte an den E-Banking-Support (+41 61 925 95 99).
+
+====================================================
+Ich gebe mein Passwort richtig ein. Trotzdem erhalte ich eine Fehlermeldung. Was mache ich falsch?
+
+Achten Sie auf Gross- und Kleinschreibung. Vielleicht haben Sie versehentlich auf die Umschalttaste gedrückt (Feststelltaste für Grossbuchstaben). Beachten Sie zudem unsere Passwortrichtlinien:
+
+    Passwort muss beim ersten Login geändert werden.
+
+    Das Passwort muss min. 8 und max. 32 Zeichen lang sein.
+
+    Passwort muss 2 Buchstaben und Ziffern beinhalten. Klein-, Grossbuchstaben und Sonderzeichen (z.B. !, $, #, %) sind möglich.
+
+    Passwort kann nur durch BLKB zurückgesetzt werden (bitte E-Banking-Support unter +41 61 925 95 99 anrufen).
+
+    Neues Passwort muss via Postbrief zugeschickt werden.
+
+====================================================
+Wie logge ich mich aus dem E-Banking aus?
+
+Klicken Sie in der rechten oberen Ecke neben Ihrem Namen auf «Abmelden».
+
+====================================================
+Wie kann ich meine Einstellungen oder meine Adresse ändern?
+
+Loggen Sie sich dazu im E-Banking ein, klicken Sie anschliessend oben rechts auf Ihren Namen und nehmen Sie unter "Adressänderung" die gewünschten Anpassungen vor. Diese werden dann an die BLKB zur Verarbeitung weitergeleitet.
+
+====================================================
+Ich bin Kunde der BLKB, nutze aber das E-Banking noch nicht. Was tue ich?
+
+Bestellen Sie bei uns den Vertrag, rufen Sie uns auf +41 61 925 95 99 an oder besuchen Sie die nächste BLKB-Filiale.
+
+====================================================
+Wie erhalte ich die Vertragsunterlagen?
+
+Sie erhalten die Vertragsunterlagen und das Passwort per A-Post.
+
+====================================================
+Wie lange dauert es, bis ich nach der Vertragsbestellung das E-Banking nutzen kann?
+
+Nachdem der unterschriebene Vertrag bei uns eingetroffen ist, dauert es noch rund 3 Tage, bis Sie E-Banking nutzen können.
+
+====================================================
+Ich bin noch nicht Kunde der BLKB, möchte jedoch E-Banking nutzen. Was kann ich tun?
+
+Eröffnen Sie eine BLKB-Geschäftsbeziehung. Entsprechende Unterlagen können Sie bei uns bestellen . Oder besuchen Sie die nächste BLKB-Filiale.
+
+====================================================
+Wen kann ich bei Fragen anrufen?
+
+Wenden Sie sich an unsere E-Banking-Hotline unter +41 61 925 95 99.
+
+====================================================
+Kann ich E-Banking auch im Ausland nutzen?
+
+Ja. Denken Sie daran, dass die Kosten für SMS oder Internetverbindung im Ausland höher ausfallen können.
+
+====================================================
+Was kostet E-Banking?
+
+E-Banking ist eine kostenlose Dienstleistung der BLKB. Darüber hinaus profitieren Sie mit E-Banking von vergünstigten Konditionen. Zum Beispiel bei Zahlungsaufträgen.
+
+====================================================
+Kann ich E-Banking mit jedem Computer nutzen?
+
+Ja, sofern der Computer Internetanschluss hat. Wir empfehlen, E-Banking nicht in Internetcafés und an ähnlichen Orten zu nutzen.
+
+====================================================
+Kann ich am Samstag und Sonntag auch auf den Support zurückgreifen?
+
+Am Samstag helfen wir Ihnen gerne zwischen 8.30 - 12.00 Uhr weiter. In dringenden Fällen nehmen wir auch ausserhalb unserer Öffnungszeiten Ihre Anrufe entgegen.
+
+====================================================
+Ich möchte Dokumente und Daten aus Safari exportieren und speichern. Wie muss ich dabei vorgehen?
+
+Lesen Sie dazu die Anleitung.
+
+====================================================
+Ich sehe bei meinem Kontoauszug die Details der Sammelbuchungen nicht. Wie kann ich einen detaillierten Kontoauszug bestellen?
+
+Lesen Sie dazu die Anleitung.
+
+====================================================
+Wie kann ich Pop-ups für blkb.ch zulassen?
+
+Lesen Sie dazu die Anleitung.
+
+====================================================
+Wie kann ich mit dem PayMaker einen manuellen DTA-Upload durchführen?
+
+Lesen Sie dazu die Anleitung.
+
+====================================================
+Ich möchte die Dienstleistung E-Dokumente aktivieren. Wie muss ich vorgehen?
+
+Wählen Sie dazu in Ihrem E-Banking den Menüpunkt «Einstellungen», «Elektronische Belegzustellung» und die gewünschte Kundenbeziehung aus. Nach Übermittlung des Auftrags an die Bank erfolgt die Umstellung der Belegzustellung in wenigen Tagen.
+
+====================================================
+Wo finde ich meine E-Dokumente im E-Banking Vertrag?
+
+Die elektronischen Belege finden Sie im E-Banking unter dem Menüpunkt «Meine Dokumente» im Postfach. Sie können die Dokumente sowohl einzeln als auch gemeinsam herunterladen und abspeichern.
+
+====================================================
+Warum hat die BLKB ein neues E-Banking?
+
+Mitte 2016 haben wir mit der Einführung des Portals "Meine BLKB" einen wichtigen Schritt in die digitale Zukunft gemacht. Das neue E-Banking ist ein nächster Schritt in dieser Entwicklung. Unser bisheriges E-Banking war bereits 7 Jahre alt.
+
+====================================================
+Was ändert sich für mich als Kunde/Kundin?
+
+Funktional ändert sich grundsätzlich nichts. Es stehen weiterhin alle bekannten Funktionen zur Verfügung. Die Hauptänderung ist die mit dem Portal "Meine BLKB" vereinheitlichte Darstellung und Navigation. Das Design ist zudem der neusten Technologie angepasst, damit es sich jedem beliebigen Endgerät anpasst und Ihnen damit die Arbeit erleichtert. In vielen Übersichtsseiten besteht neu die Möglichkeit, direkt Aktionen auszulösen: So kann z.B. aus der Kontoübersicht eine Zahlung ausgelöst werden.
+
+====================================================
+Wie sieht das neue E-Banking aus?
+
+Das E-Banking entspricht dem Design des Portals auf "Meine BLKB". Die Seiten passen sich dank der neuen Technologie automatisch Ihrem verwendeten Endgerät an. Unabhängig ob Sie per PC, Tablet oder Smartphone darauf zugreifen. Lernen Sie das neue E-Banking bereits heute kennen und nutzen Sie die Demoversion.
+
+====================================================
+Welche Vorteile bietet mir das neue E-Banking?
+
+    Neben der gewohnten Menüführung auf der linken Seite werden die wichtigsten Funktionen in Form von Kacheln angezeigt.
+
+    Wechsel zwischen verschiedenen Kundenbeziehungen innerhalb Ihres E-Banking-Vertrags.
+
+    Die aus- und eingehenden Zahlungen auf Ihren Konten werden neu mehrmals pro Tag verbucht.
+
+    Der Benachrichtigungsdienst per E-Mail und SMS ist umfangreicher.
+
+    Der Zahlungsassistent kennt neu die Zahlungsempfänger der letzten Ausführungen, was Zahlungsvorlagen hinfällig macht.
+
+    Mit dem Pay Scanner der BLKB-Mobile-App scannen Sie auch in Zukunft einfach und schnell Ihre Einzahlungsscheine.
+
+    Sämtliche Daueraufträge finden Sie ab sofort im E-Banking und können neu erfasst, angepasst oder gelöscht werden.
+
+====================================================
+Wo finde ich die Demoversion des neuen E-Banking?
+
+Eine Demoversion zum neuen E-Banking finden Sie direkt mit folgendem Link.
+
+====================================================
+Benötige ich ein neues Login?
+
+Nein, das Login bleibt gleich wie bisher.
+
+====================================================
+Wo finde ich Informationen zu den Neuerungen?
+
+Wir haben für Sie Einführungsvideos erstellt und Sie können sich durch die Demoversion klicken. Alle Infos finden Sie unter www.blkb.ch/neues-e-banking
+
+====================================================
+Steht nach der Einführung ein Support zur Verfügung?
+
+Bei Unklarheiten wenden Sie sich bitte an unseren E-Banking-Support unter +41 61 925 95 99.
+
+====================================================
+Kann ich schriftlich eingereichte Daueraufträge im E-Banking verwalten?
+
+Die schriftlich eingereichten Daueraufträge können neu im E-Banking bearbeitet oder auch gelöscht werden.
+
+====================================================
+Für das E-Banking der BLKB benötige ich einen aktualisierten Internet-Browser. Wie kann ich diesen aktualisieren?
+
+Aktualisieren Sie Ihr Betriebssystem sowie Ihre Programme und Apps auf Ihrem Rechner, Tablet und Smartphone regelmässig mit den offiziellen Updates und Service-Patches der Hersteller. Insbesondere bei Virenschutzprogrammen, Firewalls, Browsern inkl. Plug-Ins sowie bei Programmen zum Betrachten von Dokumenten sind Updates sehr wichtig.
+
+Die minimalen Browseranforderungen sind wie folgt:
+
+    Apple Safari: Version 9
+
+    Firefox: Version 38
+
+    Google Chrome: Version 45
+
+    Microsoft Edge: Version 11
+
+    Microsoft Internet-Explorer: 11
+
+    Opera: Version 31
+
+Hier geht's zum Browsercheck
+
+====================================================
+Sehe ich alle meine Daueraufträge im E-Banking?
+
+Mit der Einführung des neuen E-Bankings können Sie ab sofort alle Daueraufträge (auch die schriftlich eingereichten) neu erfassen, bearbeiten oder löschen.
+
+Verschachtelte Portlets -
+
+Optionen
+
+    Look-and-Feel
+
+    Konfiguration
+
+    Export/Import
+
+    Zu einer Webseite hinzufügen
+
+====================================================
+Kann ich Börsenaufträge via Mitteilung an die Bank übermitteln?
+
+Leider können wir Börsenaufträge nicht entgegennehmen, die uns als neue Nachricht zugestellt werden, da wir in diesem Fall eine Realtime-Ausführung nicht garantieren können.
+
+====================================================
+Werden Börsenaufträge sofort an die entsprechende Börse weitergeleitet? Wie lange ist der Handel bei der BLKB geöffnet?
+
+Die über Internet Banking erteilten Börsenaufträge werden bis zu einem Gegenwert von CHF 100'000.- grundsätzlich während den Handelszeiten der jeweiligen Börsen automatisch an die Börsen bzw. Broker weitergeleitet.
+
+Börsenaufträge für Börsen ohne elektronische Anbindung (sämtliche asiatische Märkte) werden an Bankwerktagen von 08.00 bis 17.30 Uhr bearbeitet.
+
+====================================================
+Warum erhalte ich für einen Auftrag mehrere Abrechnungen?
+
+Bei limitierten Börsenaufträgen in Kombination mit Limiten besteht die Möglichkeit, dass der Auftrag in mehreren Teilausführungen abgewickelt wird. Die Bank berechnet dafür eine Kommission, die Courtage. Diese wird, inkl. dem Minimum, pro Abrechnung und Handelstag neu belastet.
+
+====================================================
+Kann ich Leerverkäufe über das E-Banking tätigen?
+
+Nein, Leerverkäufe sind nicht erlaubt. Sie dürfen nur Titel verkaufen, die auch im Wertschriftendepot eingebucht sind. Es liegt im Verantwortungsbereich des Kunden, den Status der getätigten Verkaufsaufträge im E-Banking unter «Auftragsübersicht» zu überprüfen.
+
+====================================================
+Der von mir gesuchte Valor ist im E-Banking nicht verfügbar. Kann ich diesen Valor eröffnen lassen?
+
+Zum E-Banking zugelassene Valoren, die nicht im E-Banking aufgeschalten sind aber an einer offiziellen Börse gehandelt werden, können durch die Bank eröffnet werden. Bitte teilen Sie uns im E-Banking über «Beratung & Kontakt», «Neue Nachricht erstellen» mit, welchen Valor Sie im E-Banking handeln möchten. Wir werden anschliessend den Valor prüfen und Ihnen mitteilen, ab wann der gewünschte Valor im E-Banking aufgeschalten sein wird.
+
+====================================================
+Welche Valoren kann ich handeln?
+
+Zugelassen sind Aktien, ETFs Fonds, Obligationen und Warrants im In- und Ausland der wichtigsten Börsen. Eurex-Derivate sind nicht handelbar. Die aktuellen Kurse* finden Sie unter «Börsen und Märkte». Mit E-Banking profitieren Sie von reduzierten Courtagesätzen. Wenn Sie einen Titel nicht finden, wenden Sie sich bitte an Ihre Beraterin oder an Ihren Berater.
+
+*Kurse: Depotkunden mit einem E-Bankingvertrag erhalten Real-Time-Kurse an der SIX Swiss Exchange (auf Anfrage). An den übrigen Aktienbörsen können die Kurse verzögert angezeigt werden.
+
+====================================================
+Was sind Conditional-Orders?
+
+Conditional-Orders sind hauptsächlich für erfahrene Anleger geeignet. Diese Auftragsvarianten sind nicht mit Absicherungsgeschäften zu verwechseln.
+
+Wir empfehlen Ihnen für diese Aufträge Ihren Kundenberater vorgängig zu kontaktieren.
+
+Die Auftragsmöglichkeiten bestehen aus:
+
+Kauf Limitierter Order
+
+Das Limit ist der maximale Betrag pro Aktie, den Sie bereit sind zu bezahlen. Somit zahlen Sie nie mehr, als den von Ihnen als Limit definierten Preis. Es kann vorkommen, dass Sie Ausführungen zu einem tieferen Preis erhalten. Wird das Limit in der entsprechenden Gültigkeit nicht erreicht, verfällt Ihr Auftrag an dem von Ihnen angegebenem Verfalltag.
+
+Ziel/Zweck: Es ist die am häufigsten eingesetzte Auftragsart. Sie wissen, was Sie bezahlen und erleben keine unangenehmen Überraschungen.
+
+Kauf Market (Bestens) Order
+
+Sie kaufen zum besten (günstigsten) am Markt angebotenen Preis. Da die Börse dynamisch ist und zum Teil auch sehr volatil, ist der Preis der Ausführung  nicht mit absoluter Bestimmtheit voraussehbar. Market-Aufträge werden immer prioritär vor den „Limitierten“ gehandelt.
+
+Ziel/Zweck: Sie möchten die Aktie unbedingt kaufen ohne feste Preisvorstellung, respektive akzeptieren die gerade geltende Marktsituation.
+
+Merke: Wenn Sie einen Market-Auftrag vor Börseneröffnung aufgeben, bezahlen Sie immer den Eröffnungskurs. Überprüfen Sie unbedingt vorgängig das Orderbuch.
+
+Kauf Stop Market Order
+
+Der „Stop“-Kauf-Auftrag ist ein Auftrag, der mit der Bedingung verknüpft ist, dass er sofort ausgeführt wird, wenn der Titel auf einen bestimmten Kurs (Triggerpreis) gestiegen ist oder diesen überschritten hat.
+
+Ziel/Zweck: Professionelle Trader warten manchmal ab, bis der Kurs z.B. einen Widerstand überwunden hat und möchten von diesem neu entstandenen möglichen Aufwärtspotential profitieren.
+
+Kauf Stop Limit Order
+
+Beim Stop Limit Kaufauftrag, kann zusätzlich noch ein Maximalpreis (Limit) definiert werden. Bei Erreichung oder Überschreitung des Triggerpreises wird daraus ein limitierter Kauf-Auftrag
+
+Ziel/Zweck: Damit kann verhindert werden, dass bei einem starken Anstieg ein zu hoher Preis bezahlt wird.
+
+Verkauf Limitierter Order
+
+Das Limit ist der minimale Betrag pro Aktie, den Sie als Gutschrift erhalten wollen. Somit bekommen Sie nie weniger als den von Ihnen als Limit definierten Preis. Es kann vorkommen, dass Sie Ausführungen zu einem höheren Preis erhalten. Wird das Limit in der entsprechenden Gültigkeit nicht erreicht, verfällt Ihr Auftrag an dem von Ihnen angegebenen Verfalltag.
+
+Ziel/Zweck: Es ist die am häufigsten eingesetzte Auftragsart. Sie wissen, was Sie erhalten und erleben keine unangenehmen Überraschungen.
+
+Verkauf Market (Bestens) Order
+
+Sie verkaufen zum besten (günstigsten) am Markt angebotenen Preis. Da die Börse dynamisch ist und zum Teil auch sehr volatil, ist der Preis der Ausführung nicht mit absoluter Bestimmtheit voraussehbar. Market-Aufträge werden immer prioritär vor den „Limitierten“ gehandelt.
+
+Ziel/Zweck: Sie möchten die Aktie unbedingt verkaufen ohne feste Preisvorstellung, respektive akzeptieren die gerade geltende Marktsituation.
+
+Merke: Wenn Sie einen Market-Auftrag vor Börseneröffnung aufgeben, erhalte Sie immer den Eröffnungskurs. Überprüfen Sie unbedingt vorgängig das Orderbuch.
+
+Verkauf Order Stop Market
+
+Der „Stop“-Verkaufs-Auftrag, ist ein Auftrag der mit der Bedingung verknüpft ist, dass er erst dann im Order Book platziert wird, wenn nach unten ein gewisser Kurs (Trigger) erreicht oder unterschritten wird.
+
+Ziel/Zweck: Professionelle Trader begrenzen Ihre Verluste. Sobald der Kurs fällt und der letzte bezahlte Preis den Trigger berührt oder unterschreitet, wird der Auftrag aktiv d.h. er wird zu einem Market Auftrag. Sie können so allenfalls einen noch grösseren Kursverlust verhindern.
+
+Verkauf Stop Limit Oder
+
+Beim Stop Limit Verkaufsauftrag , kann zusätzlich noch ein Mindestpreis (Limit) definiert werden. Bei Erreichung oder Unterschreitung des Triggerpreises wird daraus ein limitierter Verkaufs-Auftrag
+
+Ziel/Zweck: Professionelle Trader begrenzen Ihre Verluste. Sobald der Kurs fällt und der letzte bezahlte Preis den Trigger berührt oder unterschreitet, wird der Auftrag aktiv d.h. er wird zu einem Limitierten Verkaufs-Auftrag. Sie können so allenfalls einen noch grösseren Kursverlust verhindern.
+
+====================================================
+Zu welchen Zeiten kann ich handeln?
+
+Sie haben rund um die Uhr Zugriff auf Ihren aktuellen Depotbestand. Die Bewertung basiert auf dem Schlusskurs des Vortags. Aufträge für SIX Swiss Exchange und die US-amerikanischen Börsenplätze werden während der Handelszeiten in Echtzeit übermittelt. Alle übrigen Aufträge werden während der Öffnungszeiten in das Börsensystem übertragen.
+
+====================================================
+Wann erfahre ich, ob und zu welchem Preis mein Börsenauftrag ausgeführt wurde?
+
+Aufträge via SIX Swiss Exchange und US-Börsen Aufträge können Sie sofort unter «Auftragsübersicht» abfragen. Einen Tag nach der Ausführung erhalten Sie eine schriftliche Börsenabrechnung. Sie können sich auch telefonisch bei Ihrer Beraterin oder Ihrem Berater erkundigen, ob Ihr Auftrag bereits ausgeführt wurde. Erfassen Sie einen Auftrag auf keinen Fall ein zweites Mal, nur weil Sie noch keine Abrechnung erhalten haben.
+
+====================================================
+Kann ich aufgegebene Börsenaufträge noch ändern?
+
+Abgesendete, limitierte Börsenaufträge, die noch nicht ausgeführt wurden, können je nach Börsenplatz unter «Auftragsübersicht» gelöscht oder neu erfasst werden. Ist das nicht der Fall, kontaktieren Sie bitte Ihre Beraterin oder Ihren Berater. Am Wochenende und an Feiertagen können keine Aufträge bearbeitet werden.
+
+====================================================
+Was kostet ein Börsenauftrag via E-Banking?
+
+Aktuelle Courtagen & Gebühren
+
+====================================================
+Ist das neue E-Banking sicher?
+
+Wir können Ihnen bestätigen, dass die Sicherheit des neuen E-Bankings den gleich hohen Standards entspricht wie bei der bisherigen Lösung. Unsere Sicherheitsstandards werden zudem regelmässig
+
+====================================================
+Ich verfüge über eine schlechte Abdeckung bei Verwendung des Mobiltelefonss. Wie kann ich dennoch mit dem E-Banking arbeiten?
+
+In diesem Fall haben Sie die Möglichkeit, den SMS-Code über Ihren SMS-tauglichen Festnetzanschluss zu empfangen. Stellen Sie sicher, dass Ihr Festnetzanschluss tatsächlich SMS-tauglich ist.
+
+====================================================
+Ich kann auf meinem Mobiltelefon die SMS-Nachrichten der BLKB nicht mehr empfangen. Was kann ich tun?
+
+Löschen Sie alle SMS-Nachrichten der BLKB, schalten Sie Ihr Mobiltelefon aus und schalten Sie es nach einem kurzen Moment wieder ein. Anschliessend sollte die Übermittlung des SMS-Codes auf Ihr Mobiltelefon problemlos funktionieren. Sollte diese Massnahme nicht zum gewünschten Erfolg führen, könnte es sein, dass Ihre SIM-Karte nicht mehr korrekt funktioniert oder Sie einen schlechten Empfang haben. In diesem Falle bitten wir Sie, mit Ihrem Telefonanbieter Kontakt aufzunehmen.
+
+====================================================
+Wie lautet die Absender-Nummer beim Erhalt der E-Banking SMS-Codes?
+
+Die Absender-Nummer, welche Sie beim Erhalt der SMS-Codes für das Login oder die Zahlungsbestätigung erhalten, lautet +41 79 925 05 05.
+
+====================================================
+Muss ich jede Zahlung im E-Banking mittels SMS-Code bestätigen?
+
+Nein, ein komplexes Regelwerk im E-Banking-System entscheidet, wann eine Zahlungsbestätigung erforderlich ist. Die Zahlungsbestätigung stellt ein wichtiges Sicherheitsmerkmal dar, vorausgesetzt, Sie prüfen die im SMS enthaltenen Daten genau und bestätigen erst dann die Zahlung. Die Standardeinstellung der Bank können Sie ändern und damit die Sicherheit weiter erhöhen (Einstellungen -> Konto/Depot/Zahlungen -> Zahlungssignierung). In der Folge müssen aber mehr Zahlungen mit einem SMS-Code bestätigt werden.
+
+====================================================
+Kann ich die Zahlungsbestätigung mittels SMS-Code ausschalten?
+
+Die Zahlungsbestätigungsanfrage (Transaktionsbestätigung) ist aus Sicherheitsgründen notwendig und kann daher nicht deaktiviert werden.
+
+Wie kann ich eine neue Telefonnummer in meinem E-Banking Vertrag hinterlegen?
+
+Wenden sie sich bitte an den E-Banking-Support: +41 61 925 95 99
+
+====================================================
+Wie merke ich, dass mein PC mit einem Virus infiziert sein könnte?
+
+Achten Sie auf Unregelmässigkeiten beim Log-in. Zum Beispiel auf ungewohnte Zwischenseiten (weisse Seiten, Balken, unüblicher Text, ungewohnte Schrift usw.). Ein weiteres Indiz für Viren: Ihr Computer trennt die Verbindung zum E-Banking, ohne dass Sie das wollen. Weitere Informationen zu Viren und Schadsoftware und wie Sie sich dagegen schützen können, finden Sie unter www.ebankingabersicher.ch.
+
+====================================================
+Was mache ich, wenn mein PC infiziert ist oder wenn ich den Verdacht habe, dass er infiziert ist?
+
+Melden Sie sich sofort beim E-Banking-Support: +41 61 925 95 99.
+
+====================================================
+Wenn ich einer Person die Vollmacht für mein Konto streiche, ist dann automatisch auch der Zugriff zum E-Banking gelöscht?
+
+Ja. Wenn Sie einer Person die Vollmacht für Ihr Konto entziehen, kann sie auch E-Banking nicht mehr nutzen.
+
+====================================================
+Muss ich nach einer Sperrung einen neuen E-Banking-Vertrag abschliessen?
+
+Nein, Sie können den Vertrag entsperren lassen (+41 61 925 95 99) und die gleichen Identifikationsmerkmale wie bisher nutzen.
+
+====================================================
+Was muss ich machen, wenn ich mein Passwort vergessen oder die Zusatzcode-Karte verloren habe?
+
+Schreiben Sie uns oder rufen Sie unsere E-Banking-Hotline an (+41 61 925 95 99).
+
+====================================================
+Wie kann es passieren, dass sich ein Trojaner auf meinem Computer installiert?
+
+    Sie haben eine infizierte Website besucht.
+
+    Sie haben eine infizierte Datei heruntergeladen.
+
+    Sie haben eine Mail mit einem infizierten Link geöffnet.
+
+    Sie haben Ihren Computer nur ungenügend geschützt und so das Eindringen von aussen ermöglicht.
+
+Weitere Informationen zu Viren und Schadsoftware und wie Sie sich dagegen schützen können, finden Sie unter www.ebankingabersicher.ch.
+
+====================================================
+Ich habe ein Smartphone mit Jailbreak oder Root. Kann ich damit die BLKB-Mobile-Banking-App nutzen?
+
+Smartphones und Tablets enthalten standardmässig wirksame Schutzmechanismen. Diese funktionieren jedoch nur optimal, wenn die Geräte nicht durch den Benutzer modifiziert (bei IOS Geräten „Jailbreak“, bei Android Geräten „Root“ genannt) worden sind. Aus diesem Grund ist die Nutzung der BLKB-Mobile-Banking-App nur mit nicht-modifizierten Geräten empfohlen.
+
+====================================================
+Was kostet E-Rechnung?
+
+E-Rechnungen sind kostenlos.
+
+====================================================
+Welche Rechnungssteller bieten E-Rechnung an?
+
+Im Menupunkt "E-Rechnungen", "Alle Rechnungssteller" finden Sie eine Liste aller möglichen Unternehmen, bei denen Sie Ihre Rechnungen per E-Rechnung bezahlen können.
+
+====================================================
+Welche Voraussetzungen müssen erfüllt sein, damit ich meine Rechnungen elektronisch erhalte?
+
+Sie benötigen einen E-Banking-Vertrag. Zusätzlich müssen Sie sich bei den gewünschten Rechnungsstellern anmelden.
+
+====================================================
+Wer kann E-Rechnung nutzen?
+
+E-Rechnung können alle Privatpersonen mit einem E-Banking-Vertrag nutzen. Firmen haben die Möglichkeit, E-Rechnungen elektronisch direkt in ihr ERP-System zu übertragen.
+
+====================================================
+Welche Vorteile hat E-Rechnung?
+
+Mit E-Rechnung bezahlen Sie Ihre Rechnungen einfach und bequem per Mausklick. Nach dem Einloggen ins E-Banking sehen Sie auf einen Blick, ob Sie neue Rechnungen erhalten haben. Sie lesen die Rechnung, prüfen sie und lösen sie per Mausklick aus. Sie müssen sich nicht mehr mit Einzahlungsscheinen herumschlagen und verpassen keinen Zahlungstermin mehr. E-Rechnung ist so sicher wie E-Banking. Die Übermittlung erfolgt verschlüsselt und Ihr Konto wird nicht automatisch belastet – Sie allein bestimmen, ob und wann eine Rechnung bezahlt wird. E-Rechnungen können Sie mit jedem Computer mit Internetanschluss nutzen So bleiben Ihre Rechnungen auch bei längeren Auslandaufenthalten nicht liegen.
+
+Weitere Informationen finden Sie unter www.e-rechnung.ch
+
+====================================================
+Wie lange kann ich meine E-Rechnungen einsehen?
+
+E-Rechnungen können Sie bis zu 90 Tage nach der Freigabe oder Ablehnung im E-Banking einsehen, abspeichern oder ausdrucken.
+
+====================================================
+Wie steht es mit dem Datenschutz bei E-Rechnung?
+
+Alle angeschlossenen Finanzinstitute sowie die SIX Payment Services AG haben sich dazu verpflichtet, die gespeicherten Daten geheim zu halten und ausschliesslich für Dienstleistungen rund um E-Rechnung zu verwenden.
+
+====================================================
+Was ist der Unterschied zwischen E-Rechnung und LSV?
+
+E-Rechnungen erhalten Sie direkt ins E-Banking. Sie bestimmen selbst, ob und wann Sie eine Rechnung bezahlen. Dadurch haben Sie mehr Kontrolle und mehr Einfluss auf den Zahlungsprozess. Beim Lastschriftverfahren bestimmt der Rechnungssteller, wann er Ihnen welchen Betrag belastet. Sie erhalten für jede Belastung eine Abrechnung. Wenn Sie mit der Belastung nicht einverstanden sind, müssen Sie rechtzeitig Widerspruch einlegen. Häufig erhalten Sie von Ihrem Rechnungssteller auch beim LSV eine Abrechnung. So haben Sie am Ende zwei Dokumente: eines von der Bank und eines vom Rechnungssteller. Einige Rechnungssteller bieten ihren Kunden eine Kombination von E-Rechnung und LSV an. Das bedeutet, dass Sie Ihre Rechnung zum LSV-Einzug elektronisch im E-Banking erhalten. Diese Rechnungen sind speziell markiert und können nicht mehr zur Zahlung freigegeben werden. Somit ist eine doppelte Zahlung ausgeschlossen. Löschen Sie Ihre LSV-Ermächtigungen beim Rechnungssteller und bei uns, bevor Sie sich beim Rechnungssteller für E-Rechnung anmelden.
+
+====================================================
+Wie wird die Datensicherheit bei E-Rechnung garantiert?
+
+    Die SIX Payment Services AG, die Finanzinstitute und die Rechnungssteller verpflichten sich, die Systeme und die gespeicherten Daten zu schützen.
+
+    Die Sicherheitsmassnahmen entsprechen dem aktuellen Stand der Technik.
+
+    Durch die Nutzung von E-Rechnungen im E-Banking werden durch die SIX Payment Services AG die branchenüblichen, umfassenden Sicherheitsvorkehrungen und Datenschutzrichtlinien angewendet.
+
+====================================================
+Werden meine Daten zu Werbezwecken verwendet?
+
+Die SIX Payment Services AG und die angeschlossenen Finanzinstitute tauschen keine Daten zu Werbezwecken aus und geben Daten auch nicht an Dritte weiter.
+
+====================================================
+Wie kann ich die Shared-Mailbox aktivieren?
+
+Diese Funktion steht nicht mehr zur Verfügung.
+
+====================================================
+Für eine Überweisung aus dem Ausland benötige ich Clearing-Nummer und SWIFT/BIC der BLKB. Wie lauten diese Angaben?
+
+Bankenclearing-Nummer: 769
+
+SWIFT/BIC: BLKBCH22
+
+====================================================
+Wie kann ich Zahlungen freigeben?
+
+Im Menü «Zahlungen» unter «Zahlungen freigeben» die entsprechende Zahlung auswählen. Dann im Aktionsmenü ganz rechts bei der entsprechenden Zahlung «Freigeben» auswählen und dann die Freigabe bestätigen.
+
+====================================================
+Wo finde ich meine gerade erfassten Zahlungen?
+
+    Wenn die Zahlungen pendent zur Ausführung sind: unter «Pendente Zahlungen».
+
+    Wenn die Zahlungen von Ihnen noch freigegeben werden müssen: unter «Zahlungen freigeben» oder «Pendente Zahlungen».
+
+    Wenn die Zahlungen durch eine Drittperson noch freizugeben ist (z.B. bei Kollektiv-Zeichnungsrechten): unter «Zahlungsliste» und «Pendente Zahlungen»
+
+====================================================
+Warum muss ich bei einem Dauerauftrag mit einem Begünstigten im Ausland einen Zahlungszweck erfassen?
+
+Bei Daueraufträgen ins Ausland muss sich auch die BLKB an ausländische Bestimmungen halten. Dabei ist zwingend ein aussagekräftiger Zahlungsgrund anzugeben. Fehlt dieser, kann die Vergütung nicht ausgeführt werden. Diese Angaben dienen u.a. als Indizien für einen anderen steuerlichen Lebensmittelpunkt.
+
+====================================================
+Wo finde ich meine ESR-Daten zum Herunterladen?
+
+Um die ESR-Daten elektronisch abzuholen, klicken Sie im Menü «Datentransfer» auf «Daten abholen». Üblich ist die Verwendung der Option «Alle Daten seit dem letzten Download», um die seit dem letzten Abholen eingegangenen Daten zu erhalten.
+
+Kontaktieren Sie bei Unklarheiten zur Verbuchung der Daten den Hersteller Ihrer Buchhaltungssoftware.
+
+====================================================
+Was muss ich bei Auslandzahlungen beachten?
+
+Um eine Auslandzahlung im E-Banking erfassen zu können, wählen Sie bitte unter  «Zahlungen» -> «Zahlungen erfassen» -> «Bankzahlung Ausland» aus (oder für SEPA: «SEPA Zahlung». Falls Sie eine Auslandzahlung SEPA-Konform erfassen, werden Ihnen keine Spesen belastet. Weitere Informationen: Zahlungsauftrag SEPA.
+
+====================================================
+Wie überweise ich Geld auf ein Fremdwährungskonto bei der BLKB?
+
+Nutzen Sie die Funktion «Kontoübertrag» (für Konten, die am gleichen Vertrag angehängt sind) oder «Bankzahlung Inland».
+
+====================================================
+Wann werden Zahlungen verarbeitet?
+
+Zahlungen mit Ausführungsdatum "Heute" werden laufend bis 13:00 gleichentags verarbeitet. Zahlungen, die nach 13.00 Uhr erfasst werden, können erst am nächsten Bankwerktag ausgeführt werden.
+
+====================================================
+Bis zu welchem Zeitpunkt kann ich erfasste Zahlungen ändern oder löschen?
+
+Alle Zahlungen mit dem Status "pendent" können im Menü "Zahlungen", "Pendente Zahlungen" geändert oder gelöscht werden.
+
+====================================================
+Kann ich meine Zahlungen auch offline erfassen?
+
+Sie können die Zahlungsaufträge mit einer speziellen Software offline erfassen und uns das DTA-File via Filetransfer übermitteln.
+
+====================================================
+Wie weit zurück kann ich Ad-hoc-Auszüge erstellen?
+
+Es können keine Auszüge älter als 01.10.2010 erstellt werden.
+
+====================================================
+Wie aktiviere ich meinen PayPen im E-Banking?
+
+Klicken Sie unter „Zahlung erfassen“ ins oberste Feld (Nach IBAN, Kontonummer oder Empfänger suchen). Jetzt kann der PayPen wie gewohnt verwendet werden.
 
 ====================================================
 Was bedeutet Disagio bei meiner Baufinanzierung?
