@@ -6,10 +6,10 @@ import regex
 FLOAT_REGEX = regex.compile('\b\d+\b')
 POS_IGNORE = ["CONJ", "CCONJ", "DET", "NUM", "PRON", "PUNCT", "SYM", "PART",  ]
 
-PUNKT_PREPROCESS = ["/", "<", ">", "*", "=", "–", "+"]
+PUNKT_PREPROCESS = ["/", "<", ">", "*", "=", "–", "+", "·", "|", "innen", "n", "r", "1", "2", "3", "t", "x", "4", "5", "…", "#", "[", "]", "s"]
 
-first_banks = ["PostBank", "PSD", "EthikBank", "TARGOBANK", "Triodos", "Sparda-Bank", "targobank", "FerratumBank", "GarantiBank", "Hanseatic Bank", "Keytrade Bank", "Deutsche Bank", "MERKUR BANK", "Skatbank", "VR-Bank", "norisbank", "Skatbank", "BLKB", "ABN AMRO", "Austrian Anadi Bank", "De Nederlandsche Bank", "HypoVereinsbank", "L-Bank", "Deutschen Handelsbank","schlau-finanziert.at", "Ikano Bank AB", "KSK Köln"]
-second_banks  = ["solarisBank AG", "SWK Bank", "DNB", "ING DiBa","ING-DiBa" "RCI Banque", "Commerzbank","Postbank", "AmExCo", "DB PGK", "UnionInvestment","FinReach", "Crédit Mutuel", "CIC Bank", "Unicredit", "Tigerstarker", "RBd", "Shell", "Ikano Bank", "Svenska Handelsbanken", "Yapı Kredi Bank", "DekaBank"]
+first_banks = ["PostBank", "PSD", "EthikBank", "TARGOBANK", "Triodos", "Sparda-Bank", "targobank", "FerratumBank", "GarantiBank", "Hanseatic Bank", "Keytrade Bank", "Deutsche Bank", "MERKUR BANK", "Skatbank", "VR-Bank", "norisbank", "Skatbank", "BLKB", "ABN AMRO", "Austrian Anadi Bank", "De Nederlandsche Bank", "HypoVereinsbank", "L-Bank", "Deutschen Handelsbank","schlau-finanziert.at", "Ikano Bank AB", "KSK Köln", "FIL Fondsbank"]
+second_banks  = ["solarisBank AG", "SWK Bank", "DNB", "ING DiBa","ING-DiBa" ,"RCI Banque", "Commerzbank","Postbank", "AmExCo", "DB PGK", "UnionInvestment","FinReach", "Crédit Mutuel", "CIC Bank", "Unicredit", "Tigerstarker", "RBd", "Shell", "Ikano Bank", "Svenska Handelsbanken", "Yapı Kredi Bank", "DekaBank", "FGDL", "FFB"]
 companies = ["comdirect","CIM","Volkswagen", "Opel", "Renault", "Dacia", "Nissan","GRENKE", "Santander", "Fidor", "Credit Europe", "DKB", "HOB", "IKEA" ,"OKB", "Rabo",  "Ferratum", "NIBC", "Shaufelonline", "EdB", "GLS", "HVB", "PayPal" ,"East West Direkt", "COMPEON", "DHB", "FINAVI", "Finavi", "Fiducia GAD", "Fiducia & GAD", "AMRO", "Anadi", "MLP", "Interhyp", "Ikano",  "Deka", "LBS"]
 
 
@@ -51,10 +51,13 @@ products_map = {
     "SPG-Verein" : "DidiVerein",
     "SFirm" : "DidiApp",
     "sfirm" : "didiapp",
-    "S-Tagesgeld" : "DidiTagesgeld"
+    "S-Tagesgeld" : "DidiTagesgeld",
+    "meine.deutsche-bank.de" : "DidiApp",
+    "netsp@r_konto" : "DidiSparKonto",
+    "SpardaMobil-Banking" : "DidiApp"
 
 }
-countries = ["Deutschland", "Schweiz", "Österreich", "Luxembourg", "Malta", "Belgien", "Ruhr", "Hessen", "España", "Spanien", "Niederlanden", "Niederlande", "Island", "Lichtenstein", "Australien", "Finnland", "Norwegen"]
+countries = ["Deutschland", "Schweiz", "Österreich", "Luxembourg", "Malta", "Belgien", "Ruhr", "Hessen", "España", "Spanien", "Niederlanden", "Niederlande", "Island", "Lichtenstein", "Australien", "Finnland", "Norwegen", "Luxemburg", "Thüringen"]
 towns = ["Berlin", "München", "Frankfurt am Main", "Hamburg", "Hannover", "Karlsruhe", "Stuttgart", "Köln", "Düsseldorf", "Duisburg", "Mannheim", "Dresden", "Ingolstadt", "Münster", "Amsterdam", "Helsinki", "Freiburg"]
 first_bank_name = "DidiBank"
 second_bank_name = "AmbiBank"
@@ -65,10 +68,10 @@ country = "Poltawien"
 
 town = "Oglietzen"
 
-possible_integrator = ["girokonto",  "konto", "einlagen", "behörden", "einstellung", "auszahlung", "verzeichnis","name", "namens", "bank","banken","prozess","verhältnisse","vereinbarungen", "checks", "check", "fristen", "beratung", "kunde", "kunden", "adresse", "daten", "informationen", "spanne", "sprachen", "sprache", "planung", "bescheid", "situation", "verwaltung", "amt", "schulden", "zahlung", "gefühle", "beratungsstelle", "stunden", "beschluss", "schaden", "pfändung", "versicherung", "vertrag", "abtretung", "anteil", "verfahren", "gesellschaft", "datum", "kosten", "kurs", "transaktion", "order" , "verbot", "freiheit", "nummer", "gremium", "kammer", "unabhängig", "system", "limit", "eingang", "ausgang", "gang", "Verfahren", "posten", "vereinbarung", "form"]
+possible_integrator = ["girokonto",  "konto", "einlagen", "behörden", "einstellung", "auszahlung", "verzeichnis","name", "namens", "bank","banken","prozess","verhältnisse","vereinbarungen", "checks", "check", "fristen", "beratung", "kunde", "kunden", "adresse", "daten", "informationen", "spanne", "sprachen", "sprache", "planung", "bescheid", "situation", "verwaltung", "amt", "schulden", "zahlung", "gefühle", "beratungsstelle", "stunden", "beschluss", "schaden", "pfändung", "versicherung", "vertrag", "abtretung", "anteil", "verfahren", "gesellschaft", "datum", "kosten", "kurs", "transaktion", "order" , "verbot", "freiheit", "nummer", "gremium", "kammer", "unabhängig", "system", "limit", "eingang", "ausgang", "gang", "Verfahren", "posten", "vereinbarung", "form", "phase"]
 
-characters_to_space = ['/', "*", "(", ")", "+"]
-characters_spaced = [" / ", " * ", " ( ", " ) ", " + "]
+characters_to_space = ['/', "*", "(", ")", "+", "·"]
+characters_spaced = [" / ", " * ", " ( ", " ) ", " + ", " · "]
 GERMAN_SEPARABLE = ["an", "ab", "auf", "aus", "ein", "bei", "heim", "her", "heraus", "herein", "herauf", "hin", "hinauf", "hinaus", "hinein", "los", "mit", "nach", "vor", "weg", "zu", "zurück", "durch", "über", "um", "unter", "wider", "wieder"]
 
 def create_corpus(text_stream):
@@ -146,7 +149,7 @@ def model_process(text, nlp):
             keep_toks.append(token.lemma_)
             curr_trunc = None
         else:
-            if (token.tag_ == "TRUNC"):
+            if (token.tag_ == "TRUNC" and token.text[:-1] == '-'):
                 curr_trunc = token.text[:-1]
             elif (token.pos_ == "VERB"):
                 sep_part = [x for x in token.children if x.tag_ == "PTKVZ"
@@ -178,6 +181,9 @@ if __name__ == '__main__':
     nlp = spacy.load('de')
     map(nlp.Defaults.lemma_lookup.pop, CUSTOM_REMOVES)
     nlp.Defaults.lemma_lookup.update(CUSTOM_LOOKUP)
+    print(model_process(
+        "Bestätigen Sie diesen Auftrag im Anschluss mit einer iTAN oder mTAN",
+        nlp))
     print(model_process(
         "Fallen zusätzliche Kosten bei der Nutzung der Versicherungen meiner Karten an?",
         nlp))
@@ -228,3 +234,5 @@ if __name__ == '__main__':
         "Falls Du Deine Kreditkarte noch nicht bei 3D Secure registriert hast, empfehlen wir, dies vorab über die Website Deiner Bank durchzuführen", nlp))
     print(model_process(
         "Sobald Du DidiPay auf dem neuen Smartphone  ( NFC-fähig, Android 4.4 oder höher )  installiert hast, kannst Du Dich mit Deinen existierenden Zugangsdaten einloggen.", nlp))
+
+
