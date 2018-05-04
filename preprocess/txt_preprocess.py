@@ -1,16 +1,17 @@
 from textacy.corpus import Corpus
 from textacy.preprocess import preprocess_text
 import spacy
-from components.custom_lemmas import CUSTOM_LOOKUP, CUSTOM_REMOVES
+from components.custom_lemmas import CUSTOM_LOOKUP, CUSTOM_REMOVES, remove_lemmas
+from components.custom_stopwords import CUSTOM_STOP_WORDS, add_stop_words
 import regex
-FLOAT_REGEX = regex.compile('\b\d+\b')
+REGEXES = [regex.compile('\b\d+\b'),regex.compile('\b\d+\.\b'), regex.compile('\b\d+\.\d+\b')]
 POS_IGNORE = ["CONJ", "CCONJ", "DET", "NUM", "PRON", "PUNCT", "SYM", "PART",  ]
 
-PUNKT_PREPROCESS = ["/", "<", ">", "*", "=", "–", "+", "·", "|", "innen", "n", "r", "1", "2", "3", "t", "x", "4", "5", "…", "#", "[", "]", "s"]
+PUNKT_PREPROCESS = ["/", "<", ">", "*", "=", "–", "+", "·", "|",  "1", "2", "3", "t", "x", "4", "5", "…", "#", "[", "]", "_"]
 
 first_banks = ["PostBank", "PSD", "EthikBank", "TARGOBANK", "Triodos", "Sparda-Bank", "targobank", "FerratumBank", "GarantiBank", "Hanseatic Bank", "Keytrade Bank", "Deutsche Bank", "MERKUR BANK", "Skatbank", "VR-Bank", "norisbank", "Skatbank", "BLKB", "ABN AMRO", "Austrian Anadi Bank", "De Nederlandsche Bank", "HypoVereinsbank", "L-Bank", "Deutschen Handelsbank","schlau-finanziert.at", "Ikano Bank AB", "KSK Köln", "FIL Fondsbank"]
-second_banks  = ["solarisBank AG", "SWK Bank", "DNB", "ING DiBa","ING-DiBa" ,"RCI Banque", "Commerzbank","Postbank", "AmExCo", "DB PGK", "UnionInvestment","FinReach", "Crédit Mutuel", "CIC Bank", "Unicredit", "Tigerstarker", "RBd", "Shell", "Ikano Bank", "Svenska Handelsbanken", "Yapı Kredi Bank", "DekaBank", "FGDL", "FFB"]
-companies = ["comdirect","CIM","Volkswagen", "Opel", "Renault", "Dacia", "Nissan","GRENKE", "Santander", "Fidor", "Credit Europe", "DKB", "HOB", "IKEA" ,"OKB", "Rabo",  "Ferratum", "NIBC", "Shaufelonline", "EdB", "GLS", "HVB", "PayPal" ,"East West Direkt", "COMPEON", "DHB", "FINAVI", "Finavi", "Fiducia GAD", "Fiducia & GAD", "AMRO", "Anadi", "MLP", "Interhyp", "Ikano",  "Deka", "LBS"]
+second_banks  = ["solarisBank AG", "solarisBank","SWK Bank", "DNB", "ING DiBa","ING-DiBa" ,"RCI Banque", "Commerzbank","Postbank", "AmExCo", "DB PGK", "UnionInvestment","FinReach", "Crédit Mutuel", "CIC Bank", "Unicredit", "Tigerstarker", "RBd", "Shell", "Ikano Bank", "Svenska Handelsbanken", "Yapı Kredi Bank", "DekaBank", "FGDL", "FFB"]
+companies = ["comdirect","CIM","Volkswagen", "Opel", "Renault", "Dacia", "Nissan","GRENKE", "Santander", "Fidor", "Credit Europe", "DKB", "HOB", "IKEA" ,"OKB", "Rabo",  "Ferratum", "NIBC", "Shaufelonline", "EdB", "GLS", "HVB", "PayPal" ,"East West Direkt", "COMPEON", "DHB", "FINAVI", "Finavi", "Fiducia GAD", "Fiducia & GAD", "AMRO", "Anadi", "MLP", "Interhyp", "Ikano",  "Deka", "LBS", "BBVA", "Netcetera AG"]
 
 
 products_map = {
@@ -54,11 +55,16 @@ products_map = {
     "S-Tagesgeld" : "DidiTagesgeld",
     "meine.deutsche-bank.de" : "DidiApp",
     "netsp@r_konto" : "DidiSparKonto",
-    "SpardaMobil-Banking" : "DidiApp"
+    "SpardaMobil-Banking" : "DidiApp",
+    "VERIMI" : "DidiLogin",
+    "SIX Paynet AG" : "DidiPay",
+    "PostFinance AG" : "DidiEasy",
+    "CrontoSign Swiss App": "DidiApp"
+
 
 }
-countries = ["Deutschland", "Schweiz", "Österreich", "Luxembourg", "Malta", "Belgien", "Ruhr", "Hessen", "España", "Spanien", "Niederlanden", "Niederlande", "Island", "Lichtenstein", "Australien", "Finnland", "Norwegen", "Luxemburg", "Thüringen"]
-towns = ["Berlin", "München", "Frankfurt am Main", "Hamburg", "Hannover", "Karlsruhe", "Stuttgart", "Köln", "Düsseldorf", "Duisburg", "Mannheim", "Dresden", "Ingolstadt", "Münster", "Amsterdam", "Helsinki", "Freiburg"]
+countries = ["Deutschland", "Schweiz", "Österreich", "Luxembourg", "Malta", "Belgien", "Ruhr", "Hessen", "España", "Spanien", "Niederlanden", "Niederlande", "Island", "Lichtenstein", "Australien", "Finnland", "Norwegen", "Luxemburg", "Thüringen", "Bayern", "Frankreich", "Türkei", "Italien"]
+towns = ["Berlin", "München", "Frankfurt am Main", "Hamburg", "Hannover", "Karlsruhe", "Stuttgart", "Köln", "Düsseldorf", "Duisburg", "Mannheim", "Dresden", "Ingolstadt", "Münster", "Amsterdam", "Helsinki", "Freiburg", "Hannover", "Zürich"]
 first_bank_name = "DidiBank"
 second_bank_name = "AmbiBank"
 
@@ -68,7 +74,7 @@ country = "Poltawien"
 
 town = "Oglietzen"
 
-possible_integrator = ["girokonto",  "konto", "einlagen", "behörden", "einstellung", "auszahlung", "verzeichnis","name", "namens", "bank","banken","prozess","verhältnisse","vereinbarungen", "checks", "check", "fristen", "beratung", "kunde", "kunden", "adresse", "daten", "informationen", "spanne", "sprachen", "sprache", "planung", "bescheid", "situation", "verwaltung", "amt", "schulden", "zahlung", "gefühle", "beratungsstelle", "stunden", "beschluss", "schaden", "pfändung", "versicherung", "vertrag", "abtretung", "anteil", "verfahren", "gesellschaft", "datum", "kosten", "kurs", "transaktion", "order" , "verbot", "freiheit", "nummer", "gremium", "kammer", "unabhängig", "system", "limit", "eingang", "ausgang", "gang", "Verfahren", "posten", "vereinbarung", "form", "phase"]
+possible_integrator = ["girokonto",  "konto", "einlagen", "behörden", "einstellung", "auszahlung", "verzeichnis","name", "namens", "bank","banken","prozess","verhältnisse","vereinbarungen", "checks", "check", "fristen", "beratung", "kunde", "kunden", "adresse", "daten", "informationen", "spanne", "sprachen", "sprache", "planung", "bescheid", "situation", "verwaltung", "amt", "schulden", "zahlung", "gefühle", "beratungsstelle", "stunden", "beschluss", "schaden", "pfändung", "versicherung", "vertrag", "abtretung", "anteil", "verfahren", "gesellschaft", "datum", "kosten", "kurs", "transaktion", "order" , "verbot", "freiheit", "nummer", "gremium", "kammer", "unabhängig", "system", "limit", "eingang", "ausgang", "gang", "Verfahren", "posten", "vereinbarung", "form", "phase", "teile", "teil"]
 
 characters_to_space = ['/', "*", "(", ")", "+", "·"]
 characters_spaced = [" / ", " * ", " ( ", " ) ", " + ", " · "]
@@ -98,9 +104,7 @@ def replace_bank_names(text):
                 text = text.replace(key, value)
         return text
     text = map_products(text, products_map)
-    #text = replace_strings(text, first_products, first_product_name)
-    #text = replace_strings(text, second_products, second_product_name)
-    #text = replace_strings(text, third_products, third_product_name)
+
     text = replace_strings(text, first_banks, first_bank_name)
     text = replace_strings(text, second_banks, second_bank_name)
     text = replace_strings(text, companies, company_name)
@@ -133,7 +137,7 @@ def model_process(text, nlp):
             pass
         elif (index < len(docl) and docl[index].is_stop):
             pass
-        elif (FLOAT_REGEX.match(token.text) ):
+        elif any([regex.match(token.text) for regex in REGEXES ]):
             pass
         elif (token.text in PUNKT_PREPROCESS):
             pass
@@ -149,7 +153,7 @@ def model_process(text, nlp):
             keep_toks.append(token.lemma_)
             curr_trunc = None
         else:
-            if (token.tag_ == "TRUNC" and token.text[:-1] == '-'):
+            if (token.tag_ == "TRUNC" and token.text[-1] == '-'):
                 curr_trunc = token.text[:-1]
             elif (token.pos_ == "VERB"):
                 sep_part = [x for x in token.children if x.tag_ == "PTKVZ"
@@ -179,11 +183,21 @@ def model_process(text, nlp):
 
 if __name__ == '__main__':
     nlp = spacy.load('de')
+    remove_lemmas(nlp)
     map(nlp.Defaults.lemma_lookup.pop, CUSTOM_REMOVES)
+
     nlp.Defaults.lemma_lookup.update(CUSTOM_LOOKUP)
+    add_stop_words(nlp)
+    print(model_process(
+        "Alle Unterlagen senden Sie uns vollständig ausgefüllt und unterschrieben retour.",
+        nlp))
+    print(model_process(
+        "Unten Ein DepotPlus können Sie ausschließlich online unter dem unten genannten Link eröffnen.",
+        nlp))
     print(model_process(
         "Bestätigen Sie diesen Auftrag im Anschluss mit einer iTAN oder mTAN",
         nlp))
+
     print(model_process(
         "Fallen zusätzliche Kosten bei der Nutzung der Versicherungen meiner Karten an?",
         nlp))

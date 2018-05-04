@@ -21653,6 +21653,95 @@ Weiterhin kann eine solche Beschwerde auch an eine Industrie- und Handelskammer 
 Darüber hinaus können Verbraucher ihre Beschwerden auch an die Zentrale zur Bekämpfung unlauteren Wettbewerbs Frankfurt am Main e.V. – kurz Wettbewerbszentrale – senden, die eigens für Verstöße gegen die SEPA-Verordnung eine Beschwerdestelle auf ihrer Webseite eingerichtet hat.
 
 ====================================================
+Wie bekomme ich einen Zugang zu easy Login?
+
+Um einen Zugang zu easy Login zu erhalten, müssen Sie sich bei der Gesellschaft melden, die auch Partner von easy Login ist. Die Gesellschaft meldet Sie dann bei uns. Im Anschluss senden wir Ihnen postalisch getrennt voneinander eine Benutzerkennung, ein Passwort und einen Token zu. Dies benötigen Sie zur Anmeldung für easy Login.
+
+====================================================
+Entstehen irgendwelche Kosten zu easy Login?
+
+Die Nutzung von easy Login ist für unabhängige Vermittler kostenfrei. Zugangsdaten wie Passwort, Benutzerkennung und Token erhalten Sie von easy Login zugeschickt. Geht Ihr Token verloren, behält sich easy Login vor, Ihnen die Kosten für eine Zweitversendung in Rechnung zu stellen.
+
+====================================================
+Wie erfolgt der erste Login?
+
+a) Die Registrierung
+
+Sie haben einen Registrierungsbrief mit Ihrer Benutzerkennung und separat ein automatisch generiertes Passwort von easy Login zugeschickt bekommen. Beides benötigen Sie, um sich bei easy Login zu registrieren. Klicken Sie bitte auf der Internetseite www.easy-login.de auf den Link „Registrierung“. Nun tragen Sie die Benutzerkennung, das Passwort und eine Sicherheitsfrage ein. Bitte erstellen Sie sich im Anschluss Ihr persönliches Passwort, das Sie sich gut merken können. Dieses muss mindestens 6-stellig sein und zur Sicherheit ein zweites Mal bestätigt werden. Nach Erstellung Ihres persönlichen Passwortes ist das von uns zugesandte Passwort ungültig. Ist die Registrierung erfolgreich abgeschlossen, erhalten Sie in den nächsten Tagen ein Token per Post. Dafür gleichen Sie bitte bei der Registrierung Ihre Versand- und E-Mailadresse ab.
+
+b) Die Aktivierung des Tokens
+
+Nachdem Sie sich erfolgreich bei easy Login registriert haben, erhalten Sie per Post Ihren persönlichen Token. Auf unserer Website www.easy-login.de gehen Sie auf den Link „Aktivierung Token“ und folgen Sie dem Dialog. Sie werden aufgefordert, die Seriennummer (SNR) des Tokens einzugeben. Diese ist immer achtstellig und befindet sich auf der Rückseite Ihres Tokens. Beim erstmaligen Gebrauch des Tokens wird die Seriennummer auch im Display mit dem Kürzel „SRN“ angezeigt. Als nächsten Schritt müssen Sie ein One-Time-Passwort (OTP) mit Ihrem Token erzeugen. Drücken Sie hierfür den Button links neben dem Display. Es erscheint eine achtstellige Nummer. Versichern Sie sich, dass wirklich ein OTP erzeugt wurde. Dies erkennen Sie an der Anzeige „OTP“ oberhalb der Nummer. Achtung: Beim Erstgebrauch des Tokens erscheint als erstes die Seriennummer, gekennzeichnet mit „SRN“. Ist dies der Fall, halten Sie den Button Ihres Tokens für längere Zeit gedrückt. Es wird dann automatisch ein OTP generiert
+
+====================================================
+Der tägliche Login
+
+Gehen Sie auf den Menüpunkt LOGIN und geben Sie Ihre Benutzerkennung, Ihr persönliches Passwort und Ihr neu generiertes OTP (One Time Password) ein. Wir empfehlen Ihnen, dass Sie mit der Eingabe Ihres OTP´s beginnen, da dieses sich nach ca. 40 Sekunden automatisch aus dem Display ausblendet. Sollte die Zeit einmal nicht ausreichen, müssen Sie ein neues OTP (One Time Password) generieren. Bei erfolgreichem Login sehen Sie nun die Logos aller teilnehmenden Gesellschaften. Die Gesellschaften, für die Sie freigeschaltet sind, sehen Sie in kräftigen Farben. Für alle grau hinterlegten Gesellschaften haben Sie bisher noch keinen Zugang zu den Extranets.
+
+====================================================
+Mein Token zeigt mir nur die Seriennummer und kein OTP an
+
+Um ein OTP (One Time Password) zu erzeugen, halten Sie bitte den Button auf Ihrem Token für ca. 15 Sekunden gedrückt. Anschließend erscheint auf dem Display im oberen rechten Teil „OTP“ und eine 8-stellige Zahl, diese ist Ihr OTP (One Time Password).
+
+====================================================
+Wie kann ich eine möglichst hohe Sicherheit für mein Passwort garantieren?
+
+Durch die zweistufige Authentifizierung ist bereits ein hohes Maß an Sicherheit gewährleistet, die durch die nachfolgenden Maßnahmen noch verbessert werden kann
+
+Das Passwort darf nicht leicht zu erraten sein. Vermeiden Sie Namen, Kfz-Kennzeichen, Geburtsdatum usw.
+
+Innerhalb des Passwortes sollte mindestens ein Zeichen verwendet werden, das kein Buchstabe ist (Sonderzeichen oder Zahl).
+
+Passwörter müssen geheim gehalten werden und sollten nur dem Benutzer persönlich bekannt sein. Speichern Sie keine Passwörter auf Ihrem PC oder Smartphone – auch nicht in einem Passwort-Manager.
+
+Das Passwort sollte regelmäßig gewechselt werden, z. B. alle 90 Tage.
+
+Ein Passwortwechsel ist durchzuführen, wenn das Passwort unautorisierten Personen bekannt geworden ist oder der Verdacht besteht.
+
+Alte Passwörter sollten nach einem Passwortwechsel nicht mehr gebraucht werden.
+
+Die Eingabe des Passwortes sollte unbeobachtet stattfinden.
+
+Bitte beachten Sie auch die Hinweise der jeweiligen Betreiber der Maklerportale, die bei easy Login mitmachen.
+
+====================================================
+Wie ändere ich mein Passwort?
+
+Beim Einloggen im easy Login-Portal muss in das erste Feld Ihre „Benutzerkennung“ und im zweiten Feld Ihr gewähltes „Passwort“ eingegeben werden. In das dritte Feld geben Sie das durch Ihren Token generierte OTP (One Time Password) ein. Danach klicken Sie auf „Passwort ändern“. Nun geben Sie Ihr altes Passwort erneut ein. Das neue Passwort muss zweimal eingegeben und der Vorgang muss nochmals mit einem neu generierten OTP bestätigt werden.
+
+====================================================
+Was muss ich tun, wenn ich mein Passwort vergessen bzw. verloren habe?
+
+Falls Sie Ihr Passwort vergessen bzw. verloren haben, bitten wir Sie, den Dialog „Passwort vergessen“ aufzurufen. Anschließend erhalten Sie ein neues Passwort per E-Mail. Bitte vergeben Sie anschließend ein neues Passwort.
+
+====================================================
+Token verloren?
+
+Sollten Sie Ihren Token verloren haben, bitten wir Sie den Dialog „Token sperren“ aufzurufen und den Hinweisen zu folgen.
+
+====================================================
+Fehler beim Login?
+
+Treten Fehlermeldungen beim Login auf, wenden Sie sich an unseren User Help Desk unter der Rufnummer 0921 75758-555.
+
+====================================================
+Muss eine Einzelanbindung an die teilnehmenden Gesellschaften vorliegen, oder genügt die Abwicklung über Pools?
+
+Es ist immer eine direkte Anbindung an das jeweilige Extranet (geschützter Bereich im Internet) notwendig. Sofern das Extranet bei easy Login angebunden ist, kann es auch über easy Login erreicht werden.
+
+====================================================
+Schließt sich ein derartiger Login mit einer bestehenden Vertriebspartnerschaft des jeweiligen Unternehmens gegenseitig aus?
+
+Nein! easy Login vereinfacht die Zusammenarbeit – also Ihre Vertriebspartnerschaft – mit den teilnehmenden Partnern, da der Zugang zentral erfolgt und Sie nur EIN Zugangsverfahren nutzen und sich nur EINMAL die Zugangsdaten merken müssen.
+
+====================================================
+User Help Desk
+
+Unser User Help Desk steht Ihnen telefonisch von Montag bis Freitag jeweils von 08:30 - 18:00 Uhr unter 0921 75758-555 zur Verfügung.
+
+Oder per E-Mail unter info@easy-login.de.
+
+====================================================
 Wie kann ich ein Konto eröffnen?
 
 Zur Eröffnung eines Credit Europe Online Tagesgeldkonto füllen Sie online den Antrag zur Kontoeröffnung aus. Sie haben dann die Möglichkeit den ausgefüllten Antrag zusammen mit dem/den Coupon(s) zur Identifikation (PostIdent-Coupon) zu Hause auszudrucken. Mit dem unterschriebenen Kontoeröffnungsantrag, dem PostIdent-Coupon und Ihrem Personalausweis oder Reisepass weisen Sie sich bitte bei einer Postfiliale aus. Die Postfiliale leitet dann alles an uns weiter. Bei zwei Kontoinhabern (diese müssen steuerlich miteinander veranlagt sein) ist jeweils eine eigene Legitimationsprüfung notwendig.
@@ -27791,6 +27880,29 @@ Bitte die exakte Schreibweise beachten!
 Benutzername: sfirm
 
 Kennwort:        sfirm
+
+====================================================
+Was ist bei dem Export der Umsatzdaten in Microsoft Excel als CSV-Datei zu beachten?
+
+Bei den meisten Versionen von Microsoft Excel genügt ein "Doppelklick" auf die zuvor gespeicherte CSV-Datei, um diese ordnungsgemäß unter Excel betrachten zu können. Sollten die Umsatzdaten hingegen unter Excel nicht korrekt dargestellt werden, befolgen Sie bitte die unten aufgeführten Schritte:
+
+ Für die Verarbeitung mit Microsoft Excel beachten Sie bitte folgende Schritte, um eine optimierte Darstellung zu erreichen:
+
+    Beim Download "Datei auf Datenträger speichern" wählen.
+
+    Datei unter dem gewünschten Pfad speichern.
+
+    Das Downloadfenster schließen.
+
+    Microsoft Excel starten.
+
+    Über "Arbeitsmappe / Datei öffnen" die zuvor gespeicherte Datei suchen und öffnen.
+
+    Zum Suchen bitte bei Dateityp die Option "alle Dateien" verwenden.
+
+    Anschließend erscheinen die gespeicherten Daten.
+
+    Im Feld "Verwendungszweck" werden mehrere Informationen dargestellt. Die Informationen sind zwar alle vorhanden, in der Regel ist in Excel aber nur die erste Zeile sichtbar. Um auch die anderen Zeilen sichtbar zu machen, markieren Sie bitte alle Zellen und wählen Sie unter "Format / Zellen / Ausrichtung" die Option "Zeilenumbruch".
 
 ====================================================
 Können auch Kreditkartendaten ausgespäht werden?
