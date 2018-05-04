@@ -18,7 +18,9 @@ if __name__ == '__main__':
 
     corpus = load_corpus(corpus_out_dir+'/'+corpus_proc_filename)
     new_corpus = Corpus('de')
-    new_corpus.spacy_lang.Defaults.lemma_lookup.update(CUSTOM_LOOKUP)
+
+    new_corpus.spacy_lang.Defaults.lemma_lookup.pop(CUSTOM_LOOKUP)
+
     new_corpus.add_texts([doc.text for doc in corpus] )
 
 
