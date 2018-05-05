@@ -1,6 +1,6 @@
 
 import yaml
-from repository import MongoRepository
+
 
 from repository import MongoRepository
 from preprocess import Preprocessor
