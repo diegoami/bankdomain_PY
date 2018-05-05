@@ -1,10 +1,5 @@
 CUSTOM_REMOVES = ["Abkommen", "deutsch", "reichen", "bequem", "Unterlagen", "Falle"]
 
-def remove_lemmas(nlp):
-    for word in CUSTOM_REMOVES:
-#        lexeme = nlp.vocab[word]
- #       lexeme.is_stop = True
-         pass
 CUSTOM_LOOKUP = {
 
     "Abkommen" : "Abkommen",
@@ -35,7 +30,11 @@ CUSTOM_LOOKUP = {
     "Android-Geräten" : "Android-Gerät",
     "Android-Gerätes": "Android-Gerät",
     "Android-Geräts": "Android-Gerät",
-
+    "Anlagebetrages" : "Anlagebetrag",
+    "Anlagebetrags": "Anlagebetrag",
+    "Anlagebeträge": "Anlagebetrag",
+    "Anlagebeträgen": "Anlagebetrag",
+    "Anlageberatungen" : "Anlageberatung",
     "Anlageentscheidungen" : "Anlageentscheidung",
     "Anlagekontos" : "Anlagekonto",
     "Anlagekonten": "Anlagekonto",
@@ -108,6 +107,9 @@ CUSTOM_LOOKUP = {
     "Bauzinse": "Bauzins",
     "Bauzinses": "Bauzins",
     "Bearbeitungsgebühren" : "Bearbeitungsgebühr",
+    "beeinflusst": "beeinflussen",
+    "beeinflusse": "beeinflussen",
+
     "Benachrichtigungen" : "Benachrichtigung",
     "Benutzernamen" : "Benutzername",
     "Beratungscentern" : "Beratungscenter",
@@ -248,12 +250,19 @@ CUSTOM_LOOKUP = {
     "Einzelverträgen": "Einzelvertrag",
     "Einzelvertrages": "Einzelvertrag",
     "Einzugsermächtigungen" : "Einzugsermächtigung",
+
     "E-Rechnungen" : "E-Rechnung",
     "E-Mails" : "E-Mail",
-     "Emittenten" : "Emittent",
+    "Emittenten" : "Emittent",
     "Empfängerkontos" : "Empfängerkonto",
     "Empfängerkonten": "Empfängerkonto",
+    "Endgeräts" : "Endgerät",
+    "Endgerätes": "Endgerät",
+    "Endgeräte": "Endgerät",
+    "Endgeräten": "Endgerät",
+
     "Entschädigungszahlungen" :"Entschädigungszahlung",
+
     "Erbscheines" : "Erbschein",
     "Erkanntes" : "erkannt",
     "Erkannter": "erkannt",
@@ -267,6 +276,12 @@ CUSTOM_LOOKUP = {
     "erneutes": "erneut",
     "erneuter": "erneut",
     "erneutem": "erneut",
+    "Eröffnungsantrag" : "Eröffnungsantrag",
+    "Eröffnungsantrages": "Eröffnungsantrag",
+    "Eröffnungsantrags": "Eröffnungsantrag",
+    "Eröffnungsanträge": "Eröffnungsantrag",
+    "Eröffnungsanträgen": "Eröffnungsantrag",
+
     "ETFs" : "ETF",
     "EURO-Überweisungen" : "EURO-Überweisung",
     "Fahrzeugbriefes" : "Fahrzeugbrief",
@@ -303,8 +318,11 @@ CUSTOM_LOOKUP = {
     "Finanzassistente": "Finanzassistent",
     "Finanzdienstleistungen" : "Finanzdienstleistung",
     "finanzielle" : "finanziell",
+    "finanzieller" : "finanziell",
+    "finanziellen" : "finanziell",
+    "finanzielles" : "finanziell",
+    "finanziellem" : "finanziell",
     "Finanzbehörden" : "Finanzbehörde",
-    "Finanzdienstleistungen" : "Finanzdienstleistung",
     "Finanzmärkten" : "Finanzmarkt",
     "Finanzmärkte": "Finanzmarkt",
     "Finanzmarktes": "Finanzmarkt",
@@ -333,6 +351,7 @@ CUSTOM_LOOKUP = {
     "Freistellungsauftrages": "Freistellungsauftrag",
     "Freistellungsaufträge" : "Freistellungsauftrag",
     "Freistellungsaufträgen" : "Freistellungsauftrag",
+    "freigeschaltet" : "freischalten",
     "freizuschalten" : "freischalten",
     "Freunden" : "Freund",
     "Freunde": "Freund",
@@ -376,6 +395,10 @@ CUSTOM_LOOKUP = {
     "geografischem": "geografisch",
     "geografischen": "geografisch",
     "geografisches": "geografisch",
+    "Gerätes" : "Gerät",
+    "Geräten": "Gerät",
+    "Geräte": "Gerät",
+    "Geräts": "Gerät",
 
     "Gerichtsurteile": "Gerichtsurteil",
     "Gerichtsurteilen": "Gerichtsurteil",
@@ -563,6 +586,11 @@ CUSTOM_LOOKUP = {
 
     "Kapitalertragsteuerverfahrens" :         "Kapitalertragsteuerverfahren",
     "Kapitalgesellschaften" : "Kapitalgesellschaft",
+    "Kontoeröffnungsantrag": "Kontoeröffnungsantrag",
+    "Kontoeröffnungsantrages": "Kontoeröffnungsantrag",
+    "Kontoeröffnungsantrags": "Kontoeröffnungsantrag",
+    "Kontoeröffnungsanträge": "Kontoeröffnungsantrag",
+    "Kontoeröffnungsanträgen": "Kontoeröffnungsantrag",
     "Kontonamen" : "Kontoname",
     "Kontos" : "Konto",
     "Konten": "Konto",
@@ -1035,12 +1063,23 @@ CUSTOM_LOOKUP = {
     "Terminkonten": "Terminkonto",
     "Terminüberweisungen" : "Terminüberweisung",
     "Tilgungen" : "Tilgung",
+    "TLS-Zertifikats" : "TLS-Zertifikat",
+    "TLS-Zertifikate": "TLS-Zertifikat",
+    "TLS-Zertifikaten": "TLS-Zertifikat",
+
     "Transaktionen": "Transaktion",
     "Transaktionsgebühren" : "Transaktionsgebühr",
     "Transaktionsnummern" : "Transaktionsnummer",
     "Turbos" : "Turbo",
+    "Überweisungsaufträge": "Überweisungsauftrag",
+    "Überweisungsaufträgen": "Überweisungsauftrag",
+    "Überweisungsauftrages": "Überweisungsauftrag",
+    "Überweisungsauftrags": "Überweisungsauftrag",
     "Überweisungsbetrages" : "Überweisungsbetrag",
     "Überweisungsbetrags": "Überweisungsbetrag",
+
+    "Überweisungsbeträge": "Überweisungsbetrag",
+    "Überweisungsbeträgen": "Überweisungsbetrag",
     "Überweisungen" : "Überweisung",
     "Überweisungslimits" : "Überweisungslimit",
     "Überweisungsvorlagen" : "Überweisungsvorlage",

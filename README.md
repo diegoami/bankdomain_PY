@@ -1,7 +1,7 @@
 ##
 
 * import_all.py
-* process_corpus.py
+* process_questions.py
 * print_all.py
 * create_model.py
 
