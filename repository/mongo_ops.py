@@ -36,7 +36,7 @@ def iterate_questions_in_mongo(mongo_connection,separator=False):
     bankdomain_db = mongo_client.bankdomain
     qa_questions_coll = bankdomain_db.qa_questions
     qa_questions_in_db = qa_questions_coll.find()
-    for el in qa_questions_in_db:
+    for index, el in enumerate(qa_questions_in_db):
         yield (el["question"] + "\n"+ el["answer"]+"\n")
         if (separator):
             yield "====================================================\n"
@@ -46,8 +46,8 @@ def iterate_proc_questions_in_mongo(mongo_connection,separator=False):
     bankdomain_db = mongo_client.bankdomain
     proc_questions_coll = bankdomain_db.proc_questions
     proc_questions_in_db = proc_questions_coll .find()
-    for el in proc_questions_in_db:
-        yield (el["question"] + "\n"+ el["answer"]+"\n")
+    for index, el in enumerate(proc_questions_in_db):
+        yield (str(index)+" "+el["question"] + "\n"+ el["answer"]+"\n")
         if (separator):
             yield "====================================================\n"
 
@@ -57,8 +57,8 @@ def iterate_mod_questions_in_mongo(mongo_connection,separator=False):
     bankdomain_db = mongo_client.bankdomain
     mod_questions_coll = bankdomain_db.mod_questions
     mod_questions_in_db = mod_questions_coll .find()
-    for el in mod_questions_in_db:
-        yield (el["question"] + "\n"+ el["answer"]+"\n")
+    for index, el in enumerate(mod_questions_in_db):
+        yield (str(index)+" "+el["question"] + "\n"+ el["answer"]+"\n")
         if (separator):
             yield "====================================================\n"
 

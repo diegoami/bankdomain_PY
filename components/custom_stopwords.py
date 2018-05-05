@@ -1,16 +1,17 @@
 CUSTOM_STOP_WORDS  = set("""
- above aufgrund and auf Auf at At
- Bei bevor bezüglich
+ --
+ above aufgrund and auf Auf at At aufs als Als
+ Bei bevor bezüglich bitte Bitte
  c
  d daraufhin demnach dennoch desto Da dass diesbezüglich
- e ein Ein ehe Ehe
+ e ein Ein ehe Ehe eher Eher
  f
  falls
- fast
+ fast for For
  Ferner ferner
  
  h. hierbei hierdurch hierfür hingegen hiervon
- in In
+ in In insoweit Insoweit
  innen im Im 
  jeweils
  meist Meist mittels Mit
@@ -21,10 +22,11 @@ CUSTOM_STOP_WORDS  = set("""
  u.
  unten Unten
  x
+ umso 
  unter Unter
  via vorab voraus
- weg wobei Wobei wozo Wozu
- wenn Wenn wieso woher Woher
+ weg wobei Wobei wozo Wozu Weg
+ wenn Wenn wieso woher Woher wonach Wonach
  zudem
  zugunsten
  zuvor

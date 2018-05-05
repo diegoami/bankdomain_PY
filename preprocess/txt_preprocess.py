@@ -3,15 +3,16 @@ from textacy.preprocess import preprocess_text
 import spacy
 from components.custom_lemmas import CUSTOM_LOOKUP, CUSTOM_REMOVES, remove_lemmas
 from components.custom_stopwords import CUSTOM_STOP_WORDS, add_stop_words
+from components.custom_words import remove_words
 import regex
 REGEXES = [regex.compile('\b\d+\b'),regex.compile('\b\d+\.\b'), regex.compile('\b\d+\.\d+\b')]
 POS_IGNORE = ["CONJ", "CCONJ", "DET", "NUM", "PRON", "PUNCT", "SYM", "PART",  ]
 
 PUNKT_PREPROCESS = ["/", "<", ">", "*", "=", "–", "+", "·", "|",  "1", "2", "3", "t", "x", "4", "5", "…", "#", "[", "]", "_"]
 
-first_banks = ["PostBank", "PSD", "EthikBank", "TARGOBANK", "Triodos", "Sparda-Bank", "targobank", "FerratumBank", "GarantiBank", "Hanseatic Bank", "Keytrade Bank", "Deutsche Bank", "MERKUR BANK", "Skatbank", "VR-Bank", "norisbank", "Skatbank", "BLKB", "ABN AMRO", "Austrian Anadi Bank", "De Nederlandsche Bank", "HypoVereinsbank", "L-Bank", "Deutschen Handelsbank","schlau-finanziert.at", "Ikano Bank AB", "KSK Köln", "FIL Fondsbank"]
-second_banks  = ["solarisBank AG", "solarisBank","SWK Bank", "DNB", "ING DiBa","ING-DiBa" ,"RCI Banque", "Commerzbank","Postbank", "AmExCo", "DB PGK", "UnionInvestment","FinReach", "Crédit Mutuel", "CIC Bank", "Unicredit", "Tigerstarker", "RBd", "Shell", "Ikano Bank", "Svenska Handelsbanken", "Yapı Kredi Bank", "DekaBank", "FGDL", "FFB"]
-companies = ["comdirect","CIM","Volkswagen", "Opel", "Renault", "Dacia", "Nissan","GRENKE", "Santander", "Fidor", "Credit Europe", "DKB", "HOB", "IKEA" ,"OKB", "Rabo",  "Ferratum", "NIBC", "Shaufelonline", "EdB", "GLS", "HVB", "PayPal" ,"East West Direkt", "COMPEON", "DHB", "FINAVI", "Finavi", "Fiducia GAD", "Fiducia & GAD", "AMRO", "Anadi", "MLP", "Interhyp", "Ikano",  "Deka", "LBS", "BBVA", "Netcetera AG"]
+first_banks = ["BS PAYONE","PostBank", "PSD", "EthikBank", "TARGOBANK", "Triodos", "Sparda-Bank", "targobank", "FerratumBank", "GarantiBank", "Hanseatic Bank", "Keytrade Bank", "Deutsche Bank", "MERKUR BANK", "Skatbank", "VR-Bank", "norisbank", "Skatbank", "BLKB", "ABN AMRO", "Austrian Anadi Bank", "De Nederlandsche Bank", "HypoVereinsbank", "L-Bank", "Deutschen Handelsbank","schlau-finanziert.at", "Ikano Bank AB", "KSK Köln", "FIL Fondsbank", "ProCredit Bank", "BBBank", "Nordax Bank", "VietinBank"]
+second_banks  = ["solarisBank AG", "solarisBank","SWK Bank", "DNB", "ING DiBa","ING-DiBa" ,"RCI Banque", "Commerzbank","Postbank", "AmExCo", "DB PGK", "UnionInvestment","FinReach", "Crédit Mutuel", "CIC Bank", "Unicredit", "Tigerstarker", "RBd", "Shell", "Ikano Bank", "Svenska Handelsbanken", "Yapı Kredi Bank", "DekaBank", "FGDL", "FFB", "creditweb"]
+companies = ["comdirect","CIM","Volkswagen", "Opel", "Renault", "Dacia", "Nissan","GRENKE", "Santander", "Fidor", "Credit Europe", "DKB", "HOB", "IKEA" ,"OKB", "Rabo",  "Ferratum", "NIBC", "Shaufelonline", "EdB", "GLS", "HVB", "PayPal" ,"East West Direkt", "COMPEON", "DHB", "FINAVI", "Finavi", "Fiducia GAD", "Fiducia & GAD", "AMRO", "Anadi", "MLP", "Interhyp", "Ikano",  "Deka", "LBS", "BBVA", "Netcetera AG", "Vostar", "ProCredit"]
 
 
 products_map = {
@@ -45,8 +46,6 @@ products_map = {
     "ZOIN" : "DidiPay",
     "MLP-Konto" : "DidiKonto",
     "S-direkt" : "DidiInvestor",
-    "girogo-Funktion": "DidiPay",
-    "girogo" : "DidiEasy",
     "S-Depot" : "DidiVermögen",
     "S-Broker" : "DidiBroker",
     "SPG-Verein" : "DidiVerein",
@@ -59,12 +58,17 @@ products_map = {
     "VERIMI" : "DidiLogin",
     "SIX Paynet AG" : "DidiPay",
     "PostFinance AG" : "DidiEasy",
-    "CrontoSign Swiss App": "DidiApp"
-
+    "CrontoSign Swiss App": "DidiApp",
+    "Vostar-Account" : "DidiKonto",
+    "\"Vostar\"-App" : "DidiApp",
+    "Vostar-App": "DidiApp",
+    "VR-ProfiBroker" : "DidiVermögen",
+    "VR-BankingApp" : "DidiApp",
+    "VR-NetWorld-Card" : "DidiLoginCard"
 
 }
-countries = ["Deutschland", "Schweiz", "Österreich", "Luxembourg", "Malta", "Belgien", "Ruhr", "Hessen", "España", "Spanien", "Niederlanden", "Niederlande", "Island", "Lichtenstein", "Australien", "Finnland", "Norwegen", "Luxemburg", "Thüringen", "Bayern", "Frankreich", "Türkei", "Italien"]
-towns = ["Berlin", "München", "Frankfurt am Main", "Hamburg", "Hannover", "Karlsruhe", "Stuttgart", "Köln", "Düsseldorf", "Duisburg", "Mannheim", "Dresden", "Ingolstadt", "Münster", "Amsterdam", "Helsinki", "Freiburg", "Hannover", "Zürich"]
+countries = ["Deutschland", "Schweiz", "Österreich", "Luxembourg", "Malta", "Belgien", "Ruhr", "Hessen", "España", "Spanien", "Niederlanden", "Niederlande", "Island", "Lichtenstein", "Australien", "Finnland", "Norwegen", "Luxemburg", "Thüringen", "Bayern", "Frankreich", "Türkei", "Italien", "Schweden"]
+towns = ["Berlin", "München", "Frankfurt am Main", "Hamburg", "Hannover", "Karlsruhe", "Stuttgart", "Köln", "Düsseldorf", "Duisburg", "Mannheim", "Dresden", "Ingolstadt", "Münster", "Amsterdam", "Helsinki", "Freiburg", "Hannover", "Zürich", "Stockholm"]
 first_bank_name = "DidiBank"
 second_bank_name = "AmbiBank"
 
@@ -74,7 +78,7 @@ country = "Poltawien"
 
 town = "Oglietzen"
 
-possible_integrator = ["girokonto",  "konto", "einlagen", "behörden", "einstellung", "auszahlung", "verzeichnis","name", "namens", "bank","banken","prozess","verhältnisse","vereinbarungen", "checks", "check", "fristen", "beratung", "kunde", "kunden", "adresse", "daten", "informationen", "spanne", "sprachen", "sprache", "planung", "bescheid", "situation", "verwaltung", "amt", "schulden", "zahlung", "gefühle", "beratungsstelle", "stunden", "beschluss", "schaden", "pfändung", "versicherung", "vertrag", "abtretung", "anteil", "verfahren", "gesellschaft", "datum", "kosten", "kurs", "transaktion", "order" , "verbot", "freiheit", "nummer", "gremium", "kammer", "unabhängig", "system", "limit", "eingang", "ausgang", "gang", "Verfahren", "posten", "vereinbarung", "form", "phase", "teile", "teil"]
+possible_integrator = ["girokonto",  "konto", "einlagen", "behörden", "einstellung", "auszahlung", "verzeichnis","name", "namens", "bank","banken","prozess","verhältnisse","vereinbarungen", "checks", "check", "fristen", "beratung", "kunde", "kunden", "adresse", "daten", "informationen", "spanne", "sprachen", "sprache", "planung", "bescheid", "situation", "verwaltung", "amt", "schulden", "zahlung", "gefühle", "beratungsstelle", "stunden", "beschluss", "schaden", "pfändung", "versicherung", "vertrag", "abtretung", "anteil", "verfahren", "gesellschaft", "datum", "kosten", "kurs", "transaktion", "order" , "verbot", "freiheit", "nummer", "gremium", "kammer", "unabhängig", "system", "limit", "eingang", "ausgang", "gang", "verfahren","Verfahren", "posten", "vereinbarung", "form", "phase", "teile", "teil", "vollmacht"]
 
 characters_to_space = ['/', "*", "(", ")", "+", "·"]
 characters_spaced = [" / ", " * ", " ( ", " ) ", " + ", " · "]
@@ -183,7 +187,7 @@ def model_process(text, nlp):
 
 if __name__ == '__main__':
     nlp = spacy.load('de')
-    remove_lemmas(nlp)
+    remove_words(nlp)
     map(nlp.Defaults.lemma_lookup.pop, CUSTOM_REMOVES)
 
     nlp.Defaults.lemma_lookup.update(CUSTOM_LOOKUP)
