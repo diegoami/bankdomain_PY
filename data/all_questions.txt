@@ -3680,6 +3680,84 @@ Der Leistungsumfang des Basiskontos
 Dispositionskredit und Kreditkarte gehören grundsätzlich nicht zum Leistungsumfang eines Basiskontos.
 
 ====================================================
+Was muss ich tun, um meine Kreditkarte für die TAN per Push-Nachricht zu registrieren?
+
+Über die eCom-TAN-App erhalten Sie eine Push-Nachricht mit der TAN direkt auf Ihr Endgerät. Die Übertragung der TAN erfolgt verschlüsselt über das Internet. Hierzu erzeugt die eCom-TAN App während des Registrierungsprozesses der App auf Ihrem Endgerät eine individuelle virtuelle Nummer. Diese virtuelle Nummer hinterlegen Sie bei der abschließenden Registrierung Ihrer Kreditkarte.
+
+====================================================
+Ich habe ein neues Smartphone/Tablet. Wie übertrage ich die Installation der App inkl. virtueller Handynummer auf das neue Gerät?
+
+Möchten Sie die App auf einem neuen Endgerät benutzen, gehen Sie bitte wie folgt vor:
+
+1. Installieren Sie die App auf dem neuen Gerät und starten diese. Vergeben Sie noch kein Kennwort.
+
+2. Wählen Sie in der eCom-TAN-App auf dem alten Gerät: Einstellungen/Rufnummernmigration. Der angezeigte Code kann 60 Minuten für einen Gerätewechsel genutzt werden.
+
+3. Wählen Sie auf dem neuen Gerät den Button "Vorhandene virt. Handynummer übernehmen" beim ersten Start und der Kennwortvergabe. Geben Sie nach Aufforderung den in Schritt 2 erhaltenen Migrationscode ein.
+
+4. Bei erfolgreichem Abschluss wird ihre virtuelle Handynummer über den Server in die neue eCom-TAN-App Installation übertragen und die Installation auf dem alten Gerät zurückgesetzt.
+
+====================================================
+Was ist der Unterschied zwischen eComTAN-App und der SecureGO-App?
+
+Die eComTAN-App dient zur Authentifizierung der Kreditkartenzahlungen. Die SecureGO-App dient zur Authentifizierung im MLP Financepilot.
+
+====================================================
+Ich möchte die App gerne per Fingerabdruck entsperren. Wie geht das?
+
+Die Entsperrung per Fingerabdruck wird momentan nur auf Apple Endgeräten mit TouchID-Unterstützung angeboten. Nach Installation der App und Vergabe eines Kennworts werden Sie innerhalb der App gefragt, ob Sie die TouchID als Alternative zum Kennwort aktivieren möchten. Sie können diese Funktion auch später unter „Einstellungen“ in der App aktivieren.
+
+====================================================
+Wie kann ich eine neue virtuelle Nummer ändern?
+
+Dies ist über die Benutzerverwaltung möglich. Die dort angezeigte Nummer kann einfach überschrieben werden. Sie erhalten zur Bestätigung dann eine TAN in die App mit der neuen virtuellen Nummer.
+
+====================================================
+Ich kann den Bezahlvorgang bei einem an Mastercard® SecureCode™ teilnehmenden Händler nicht abschließen. Woran liegt das?
+
+Bitte überprüfen Sie, ob Ihr Internetbrowser Pop-Up-Fenster blockiert. Das Fenster für die Bezahlung mittels Mastercard® SecureCode™ wird separat geöffnet. Werden Pop-Up-Fenster blockiert, kann dieses Fenster nicht angezeigt und die Zahlung nicht abgeschlossen werden. Bei weiteren Problemen steht Ihnen das MLP Card-Team unter nachstehender Servicenummer zur Verfügung. +49 (0) 721 66 499 500 (Auswahl 3)
+
+====================================================
+Wie funktioniert die TAN per SMS?
+
+Sie erhalten eine TAN per SMS direkt an Ihre Mobilfunknummer. Dabei kann nach dem Zufallsprinzip eine ausschließlich Ihnen bekannte Sicherheitsfrage abgefragt werden. Das bedeutet für Sie noch mehr Sicherheit bei Bezahlvorgängen im Internet.
+
+====================================================
+Was ist die Sicherheitsfrage?
+
+Die Sicherheitsfrage ist eine Erweiterung des bestehenden SMS-TAN-Verfahrens. In der Benutzerverwaltung können Sie Ihre bevorzugte Sicherheitsfrage auswählen und eine entsprechende Antwort hinterlegen. Als registrierter Karteninhaber gelangen Sie nach Eingabe der Kartennummer in die Benutzerverwaltung. Für den Zugriff auf die Benutzerverwaltung erhalten Sie eine TAN per SMS und Sie müssen Ihre Sicherheitsfrage beantworten.
+
+====================================================
+Warum wird die SMS um die Sicherheitsfrage ergänzt?
+
+Die Sicherheitsfrage ist zusätzliche Absicherung des bestehenden SMS-TAN-Verfahrens.
+
+====================================================
+Wie wechsle ich von der TAN per SMS auf die TAN per Push-Nachricht?
+
+Sie gelangen nach der Eingabe Ihrer Kreditkartennummer in die Benutzerverwaltung. Dort haben Sie über den im unteren Bereich der Benutzerverwaltung vorhandenen Link "TAN per Push-Nachricht" die Möglichkeit, das Zustellungsverfahren zu ändern. Hierzu ist der Download der eCOMTAN-App erforderlich.
+
+====================================================
+Benötige ich für den Wechsel auf die App erneut einen Aktivierungscode per Post?
+
+Nein, ein Aktivierungscode per Post erfolgt nur bei erstmaliger Registrierung für das SecureCode-Verfahren und dient als zusätzliche Sicherheit, um Sie als berechtigten Nutzer zu bestätigen. Ein Wechsel des Verfahrens/der Rufnummer ist nach der Anmeldung mit dem bestehenden Sicherheitsverfahren möglich und löst keinen erneuten Brief aus.
+
+Ich habe mehrfach eine neue TAN per SMS angefordert. Diese SMS kam aber nicht auf meinem Handy an, obwohl ich Empfang habe.
+
+Bitte prüfen Sie in der Benutzerverwaltung Ihre hinterlegte Mobilfunknummer auf Korrektheit.
+
+Sofern diese nicht mehr aktuell ist, bitten wir um eine Aktualisierung.
+
+Bei weiteren Problemen steht Ihnen das MLP Card-Team unter nachstehender Servicenummer zur Verfügung. +49 (0) 721 66 499 500 (Auswahl 3)
+
+====================================================
+Wie ändere ich meine hinterlegte Handynummer?
+
+Wechseln Sie die Handynummer und haben die alte Handynummer noch parallel in Betrieb, können Sie die hinterlegte Handynummer selbst über die Benutzerverwaltung abändern.
+
+Wechseln Sie die Handynummer und haben die alte Handynummer nicht mehr in Betrieb, müssen Sie sich direkt mit der neuen Handynummer neu registrieren. Sie bekommen den neuen Aktivierungscode mit der Post zugeschickt.
+
+====================================================
 Wie sind die Kreditlimite und Rückzahlungsmodalitäten der MLP Kreditkarten?
 
 Für unsere MLP Kreditkarten gelten unterschiedliche Kreditlimite und Rückzahlungsmodalitäten
@@ -3764,6 +3842,27 @@ MLP Reporting
 Das MLP Reporting stellen wir quartalsweise standardmäßig als PDF kostenfrei im Financepilot Report zur Verfügung.
 
 ====================================================
+Was ist Mastercard® SecureCode™?
+
+Mastercard® SecureCode™ ist ein von Mastercard® entwickelter Sicherheitsstandard für Kreditkartenzahlungen mit dem Ziel, die Gefahr des Kartenmissbrauchs erheblich zu reduzieren.
+
+Mastercard® SecureCode™ schützt Ihre Kreditkartenzahlung im Internet mit einem einzelumsatzbezogenem Passwort (TAN/SecureCode™) und soll damit verhindern, dass Unbefugte mit Ihren Kreditkartendaten im Internet einkaufen können.
+
+====================================================
+Welche Vorteile habe ich durch Mastercard® SecureCode™?
+
+Sichere Internet-Zahlungen: Sichere Internet-Zahlungen: Dieser für Sie kostenlose Service sichert Ihre Kreditkartenzahlungen im Internet vor unbefugtem Zugriff. Alle Angaben (persönliche Daten, Bestellinformationen, Kreditkartendaten, Passwort) werden mittels SSL (Secure Socket Layer) verschlüsselt übertragen. Alle Beteiligten (Händler, Karteninhaber, etc.) werden als rechtmäßige Teilnehmer am jeweiligen Bezahlvorgang identifiziert.
+
+Hohe Flexibilität: Sie können von jedem PC aus rund um die Uhr weltweit im Internet einkaufen und sicher mit Ihrer MLP-Kreditkarte bezahlen.
+
+====================================================
+Warum soll ich meine Kreditkarte jetzt gleich für Mastercard® SecureCode™ registrieren?
+
+Bisher konnten Sie Kreditkarten während des Einkaufs bei einem Internet-Händler, der am SecureCode-Verfahren teilnimmt, registrieren Dies ist aus Sicherheitsgründen nicht mehr möglich.
+
+Sie sollten daher Ihre Karte jetzt registrieren
+
+====================================================
 Wie ist mein Geld bzw. sind meine Einlagen bei der MLP Banking AG abgesichert?
 
 Kundeneinlagen sind bei der MLP Banking AG durch ein zweistufiges Einlagensicherungssystem gesichert.
@@ -3823,6 +3922,37 @@ Bei der kostenfreien MLP MasterCard für Studenten werden generell keine Abrechn
 MLP Reporting
 
 Das MLP Reporting stellen wir quartalsweise standardmäßig als PDF kostenfrei im Financepilot Report zur Verfügung.
+
+====================================================
+Ich habe den meine TAN dreimal falsch eingeben. Was kann ich tun?
+
+Ihre Karte ist leider für die das Verfahren gesperrt. Bitte setzen Sie sich mit unserer Hotline 0721/1209-66001 in Verbindung, um Ihre Karte wieder zu reaktivieren und einen neuen Aktivierungscode per Post zu erhalten.
+
+====================================================
+Wer sind die Dienstleister CardProcess und Netcetera, auf die die Domain des 3D-Secure Browserfensters lautet bzw. die diese Domain registriert haben?
+
+Die CardProcess GmbH in Karlsruhe ist der Dienstleister für die technische Abwicklung der Kreditkartenprozesse. Hier werden ihre Kreditkartentransaktionen verarbeitet.
+
+Die Netcetera AG in Zürich betreibt als Spezialanbieter den 3D-Secure Server u.a. für die Cardprocess GmbH.
+
+====================================================
+Was ist mit dem statischen Passwort?
+
+Das statische Passwort gibt es aus Sicherheitsgründen nicht mehr.
+
+Ich habe den Aktivierungscode nicht erhalten/verlegt.
+
+Bitte fordern Sie den Aktivierungscode erneut an. Wenn Sie über die Einstiegsseite Ihre Kartennummer eingeben, werden Sie zur Eingabe des Aktivierungscodes aufgefordert. Am unteren Ende des Fensters können Sie diesen aber auch erneut anfordern.
+
+====================================================
+Ich habe den Aktivierungscode dreimal falsch eingeben. Was kann ich tun?
+
+Ihre Karte ist leider für die Registrierung gesperrt. Bitte setzen Sie sich mit unserer Hotline 0721/1209-66001 in Verbindung, um Ihre Karte wieder zu aktivieren und einen neuen Aktivierungscode per Post zu erhalten.
+
+====================================================
+Ich habe eine SMS TAN bzw. eine Push Nachricht erhalten, ohne einen Einkauf getätigt oder eine TAN über die Benutzerverwaltung angefordert zu haben.
+
+Bitte setzen Sie sich umgehend mit unserer Hotline 0721/1209-66001 in Verbindung. Es kann sich hierbei um den Versuch einer betrügerischen Transaktion handeln.
 
 ====================================================
 Wie nehme ich Zuzahlungen in meine Geldanlagekonzepte bei der MLP Banking AG vor?
@@ -33698,6 +33828,33 @@ Bearbeiten Banken Onlineaufträge rund um die Uhr?
 Beispiel: Eine Überweisung, die Sie Freitag um 21 Uhr tätigen, wird erst montags ausgeführt. Überweisen Sie am Montag tagsüber, wird der Auftrag am selben Tag gebucht. Innerhalb derselben Bank taucht eine Onlineüberweisung von Konto zu Konto fast zeitgleich im Onlinebanking auf. Auch die Wertstellung erfolgt meist sofort.
 
 ====================================================
+Müssen die Bank Kreditbearbeitungsgebühren zurückerstatten ?
+
+Kreditbearbeitungsgebühren sind rechtswidrig. Die Banken müssen sie erstatten – sowohl Verbrauchern als auch Unternehmern. Erstattungsforderungen verjähren in der Regel drei Jahre nach Ende des Jahres, in dem die Gebühren gezahlt wurden. Ist der Kredit noch nicht getilgt, sind auch verjährte Forderungen oft noch durchsetzbar. Hier geben wir Antworten auf die wichtigsten Fragen zum Thema.
+
+====================================================
+Woran erkenne ich, ob ich jetzt Kreditbearbeitungsgebühren zurück fordern kann?
+
+Schauen Sie in Ihren Unterlagen nach, ob dort „Kreditbearbeitungsgebühren“, „Abschlussgebühren“, „Bearbeitungsprovisionen“ oder ähnliches ausgewiesen sind. Solche laufzeitunabhängigen Entgelte sind unwirksam, hat der Bundesgerichtshof geurteilt. Banken und Sparkassen stehen nur Zinsen zu. Zusätzlich einmalige Gebühren zu kassieren, die Kreditinstitute auch bei vorzeitiger Rückzahlung des Kredits behalten dürfen, ist eine unangemessene Benachteiligung und daher unwirksam.
+
+====================================================
+Gilt das BGH-Urteil nur für Raten- oder auch für Immobilienkredite?
+
+Es gilt für jeden Kreditvertrag. Ob damit Möbel, Autos oder sogar Immobilien und Investitionen finanziert wurden, spielt keine Rolle.
+
+====================================================
+Handelt es sich beim „Disagio“ auch um eine unzulässige Kreditbearbeitungsgebühr?
+
+Nein, das klassische Disagio ist rechtlich als vorweggenommene Zinsen zu werten. Die Vereinbarung ist wirksam. Bei vorzeitiger Ablösung erstattet die Bank das Disagio anteilig, so dass die mit Kreditbearbeitungsgebühren verbundene Benachteiligung dort nicht auftritt. Voraussetzung: Es handelt sich auch wirklich um ein Agio oder Disagio. Wir haben von Verträgen gehört, wo rechtswidrige laufzeitunabhängige Kredit- oder Darlehensgebühren als Agio bezeichnet wurden. Solche Pseudo-Agios sind selbstverständlich auch herauszugeben. Entscheidender Unterschied: Wird das Agio bei vorzeitiger Ablösung des Kredits teilweise erstattet? Falls ja, handelt es sich um ein wirksames Agio, falls nein liegen rechtswidrigen laufzeitunabhängige Gebühren vor.
+
+nach oben
+
+====================================================
+Was ist mit „laufzeitunabhängigen Individualbeiträgen“?
+
+Die „laufzeitunabhängigen Individualbeiträge“ der Targobank sind ebenfalls unwirksam. Eigentlich sollte der Bundesgerichtshof noch urteilen, nachdem die Targobank gegen eine Verurteilung zur Erstattung Revision eingelegt hatte. Doch die Bank hat die Revision zurückgenommen. Sie hat bereits begonnen, die Individualbeiträge zu erstatten.
+
+====================================================
 Habe ich einen Anspruch auf einen Dispokredit?
 
 Nein, die Banken räumen zwar vielen ihrer Kunden einen Überziehungsrahmen auf dem Girokonto ein, den sogenannten Dispokredit. Aber den gibt es nur, wenn der Kunde regelmäßige Geldeingänge hat. In diesem Fall kann er auch ohne Kontoguthaben Geld überweisen oder abheben und gegebenenfalls mit der Karte bezahlen. Auch Abbuchungen durch Dritte, werden dann ausgeführt, sofern eine Einzugsermächtigung vorliegt. Der Kredit ist unbefristet.
@@ -33801,6 +33958,40 @@ Ein BGH-Urteil (AZ: XI ZR 370/10) hat diesbezüglich die Rechte der Bankkunden g
 
 Tipp: Um die Girocard sperren zu können, brauchen Sie Bankleitzahl und Kontonummer, zur Sperrung der Kreditkarte die Kartennummer. Bei Diebstählen verlangen einige Institute zudem eine Strafanzeige. Am schnellsten geht die Sperrung über den Zentralen Notruf 116 116. Eine Schritt-für-Schritt-Anleitung finden Sie in unserem Gewusst wie: Plastikgeld sperrens
 ====================================================
+Muss mir die Bank auch Zinsen zu Kreditbearbeitungsgebühren zahlen?
+
+Die Bank muss nicht nur die rechtswidrig kassierte Kreditbearbeitungsgebühr herausgeben, sondern auch das, was sie mit dieser Gebühr erwirtschaftet hat. Nach der ständigen Rechtsprechung des Bundesgerichtshof ist bei Banken und Sparkassen davon auszugehen, dass sie bei übers Grundbuch abgesicherten Krediten Zinsen in Höhe von 2,5 Prozentpunkten über dem Basiszinssatz erwirtschaften und bei allen übrigen Kreditverträgen 5 Prozentpunkte über dem Basiszinssatz . Die Bank oder Sparkasse muss also die Gebühr zuzüglich Zinsen erstatten. Die Berechnung der Zinsen ist kompliziert. Hilfe bietet unsere
+
+====================================================
+Wie gehe ich mit Kreditbearbeitungsgebühren vor?
+
+Wenn Sie ab 2014 Kreditbearbeitungsgebühren gezahlt haben, fordern Sie – am besten mit Hilfe der Musterbriefe von test.de – die Erstattung der Kreditbearbeitungsgebühren. Wenn Sie die Gebühren bereits 2013 oder früher gezahlt haben, lesen Sie bitte die Antwort auf die Frage „Kann ich eigentlich verjährte Erstattungsforderungen noch durchsetzen, wenn der Kredit noch nicht getilgt ist?“.
+
+====================================================
+Wie stoppe ich die Verjährung der Forderung zur Erstattung von Kreditbearbeitungsgebühren ?
+
+Wenn Sie mit unserem Musterbrief oder einem entsprechendem Schreiben Erstattung verlangt haben und die Bank nicht innerhalb der Frist gezahlt hat, können Sie einen Rechtsanwalt beauftragen oder als Verbraucher auch den zuständigen Ombudsmann einschalten (Ausnahme: Die Schlichter der Bundesbank und einiger regionaler Sparkassenverbände – hier stoppt eine Beschwerde die Verjährung nicht). Beachten Sie: Die Beschwerde muss vor Ablauf der Verjährungsfrist beim Ombudsmann eingehen. Soll ein Rechtsanwalt für Sie die Verjährung stoppen, benötigt er dafür etwas mehr Zeit. Wenn Ihre Forderung am 1. Januar 2018 um 0.00 Uhr verjährt, sollten Sie den Rechtsanwalt deutlich vor Weihnachten beauftragen.
+
+nach oben
+
+====================================================
+Was ist, wenn ich die Unterlagen zum Kredit nicht mehr habe?
+
+Kein Problem, so lange Sie die Vertragsnummer noch haben und wissen, dass und wie viel Kreditbearbeitungsgebühr Sie gezahlt haben. Sie können dann wie alle anderen Erstattung fordern. Wenn diese Informationen fehlen, können Sie unter Umständen Auskunft von Ihrer Bank fordern; Rechtsanwalt Benedikt-Jansen hat so einen Fall mal gewonnen.
+
+====================================================
+Kann ich für vorzeitig abgelöste Kredite auch eine Erstattung der Gebühren fordern?
+
+Ja, das können Sie. Für die Verjährung kommt es nur darauf an, wann Sie die Gebühren gezahlt haben. Ob, wann und unter welchen Umständen der Kredit zurückgezahlt, gekündigt oder sonst beendet wurde, spielt keine Rolle.
+
+====================================================
+Wieso müssen die Banken trotz günstiger Zinsen die Gebühren erstatten?
+
+Bei Krediten mit Gebühren waren doch die Zinsen geringer und der Effektivzins genauso hoch wie bei vergleichbaren Krediten ohne Gebühr…
+
+Richtig: Banken verlieren durch die BGH-Rechtsprechung zu Kreditbearbeitungsgebühren erheblich mehr, als diese ihnen gebracht haben. Im Nachteil waren eigentlich nur Kunden, die ihren Kredit vorzeitig ablösen oder ihn früher als geplant kündigen oder widerrufen. Dann sind Kredite mit gleich zu Beginn fälliger Gebühr teurer als Kredite, für die keine Gebühren, aber höhere Zinsen fällig werden. Das ist der entscheidende Grund dafür, wieso die Gebühr unwirksam ist und die Bank sie zu erstatten hat. Würde der Bundesgerichtshof jetzt zwar die Gebühren verbieten, aber den Banken gleichzeitig höhere Zinsen zubilligen, dann stünden die Banken fast genau so, als wenn sie korrekte Klauseln verwendet hätten. Die Verwendung der unzulässigen Klausel würde praktisch kein Risiko darstellen und Banken könnten es dementsprechend häufiger darauf ankommen lassen. Das dürfte der Hintergrund dafür sein, dass der Bundesgerichtshof keine sogenannte „ergänzende Vertragsauslegung“ vornimmt und den Banken statt der Kreditbearbeitungsgebühr höhere Zinsen zubilligt.
+
+====================================================
 Darf eine Transaktionsnummer (Tan) etwas kosten?
 
 Ja, Banken dürfen für das Zusenden einer Transaktionsnummer (Tan) per SMS auf das Handy eine Gebühr verlangen, wenn der Kunde die Tan für einen Zahlungsauftrag erfolgreich nutzt. Das hat der Bundesgerichtshof (BGH) entschieden (Az. XI ZR 260/15).
@@ -33839,6 +34030,31 @@ Laut Bundesgerichtshof müssen Banken bei Verlust oder Diebstahl der Girocard ko
 Jein. Das BGH-Urteil (Az. XI ZR 166/14) ist zwar nur für den Verurteilten bindend, in diesem Fall die Postbank. Es gilt aber als Anhaltspunkt, wie andere Gerichte im vergleichbaren Fall entscheiden würden. Fakt ist, dass Ihre Bank keine Rechtsgrundlage für das Entgelt hat. Sie können sich an die Schlichtungsstelle Ihrer Bank wenden. Bei der Sparda Bank Hamburg zum Beispiel hielt der Ombudsmann das BGH-Urteil im vergleichbaren Fall für anwendbar. Oder Sie gehen zu einer Verbraucherzentrale. Sie kann Ihrer Forderung Gewicht verleihen. Gibt die Bank nicht nach, riskiert sie eine Abmahnung oder einen Rechtsstreit. Mehr zum Thema in unserem Special Schlichtungsstellen: So kommen Sie ohne Gericht zu Ihrem Recht.
 
 ====================================================
+Sind die Abschlussgebühren von Bausparverträgen auch vom neuen Gesetz betroffen?
+
+Nein, die bei Abschluss von Bausparverträgen fälligen Abschlussgebühren hat der Bundesgerichtshof in einem anderen Urteil ausdrücklich gebilligt (Urteil vom 07.12.2010, Aktenzeichen: XI ZR 3/10). Wenn eine Bausparkasse allerdings Darlehen vergibt und dafür Bearbeitungsgebühren oder sonstige laufzeitunabhängige Entgelte kassiert, dann muss sie diese erstatten. Das hat der Bundesgerichtshofs im November 2016 entschieden (Aktenzeichen XI ZR 552/15). test.de hat dafür eigens einen Musterbrief erarbeitet.
+
+====================================================
+Was ist mit Gebühren für Förderkredite der Landes- oder Investitionsbanken?
+
+Für auf der Grundlage öffentlich-rechtlicher Vorschriften bewilligte Förderkredite gilt die Rechtsprechung des Bundesgerichtshofs nicht. Das ist Verwaltungsrecht. Wahrscheinlich gibt’s keine Chance auf Erstattung.
+
+====================================================
+Was ist mit Gebühren für von Banken und Sparkassen vergebenen KfW-Darlehen?
+
+Die sind nicht zu erstatten. Ganz sicher ist das für in den Jahren um 2006 abgeschlossene KfW-Kredite mit der Klausel: „Es wird ein Disagio (Abzug vom Nennbetrag des Kredits) von 4,00 v.H. erhoben. Dieses umfasst eine Risikoprämie von 2,00 v.H. für das Recht zur außerplanmäßigen Tilgung des Kredits während des Zinsbindungszeitraums. Das Disagio kann grundsätzlich bei der Auszahlung des Kredits verrechnet werden. Die Risikoprämie wird bei vorzeitiger Rückzahlung des Darlehens nicht – auch nicht teilweise – erstattet. Das gleiche gilt für den gesamten Disagiobetrag, wenn dessen Rückzahlung gemäß den Bestimmungen des Förderinstituts nicht vorgesehen ist.“ So hat es der Bundesgerichtshof mit Urteil vom 05.07.2016 entschieden. Auch sonst haben Kreditnehmer mit KfW-Verträgen kaum Chancen auf Erstattung des Abschlags bei der Auszahlung von KfW-Krediten. Weitere Hintergründe in der Chronik Kreditbearbeitungsgebühren.
+
+====================================================
+Was ist mit Gebühren für Kredite von Unternehmen und Freiberuflern?
+
+Kreditbearbeitungsgebühren sind sogar dann unwirksam, wenn der Kredit für gewerbliche Zwecke gewährt wurde. Dazu zählt zum Beispiel auch die Finanzierung von Solar- oder Windkraftanlagen sowie Dienstfahrzeugen. Selbst für hohe Immobilienkredite gezahlte Einmalgebühren müssen Banken und Sparkassen erstatten. Das hat der Bundesgerichtshof Anfang Juli 2017 entschieden (Urteile vom 04.07.2017, Aktenzeichen: XI ZR 562/15 und XI ZR 233/16).
+
+====================================================
+Kann ich auch Kontoführungsgebühren für das Darlehenskonto und Schätzkosten zurückverlangen?
+
+Auch Kreditkontoführungsgebühren und Schätzkosten haben die Banken regelmäßig rechtswidrig kassiert.
+
+====================================================
 Wie sorgen die Banken für ein sicheres Onlinebanking?
 
 Die Banken schützen sich mit speziellen Firewalls gegen unberechtigte Zugriffe auf ihr System, sorgen für einen verschlüsselten Datenaustausch und lassen ihre Zugänge zum System von Dritten auf Sicherheitsmängel testen. Sie analysieren Verhaltensmuster, um unberechtigte Buchungen mit sogenannten schwarzen Listen vor der Ausführung zu stoppen. Eine Beschreibung der sicheren Onlinebanking-Verfahren finden Sie unter Tan-Verfahren im Überblick. Mit welchen Programmen Sie Ihren Rechner am besten gegen Angriffe schützen, zeigt unser aktueller Test von Sicherheitssoftware.
@@ -33868,6 +34084,55 @@ Fast alle modernen Browser warnen vor unsicheren Zertifikaten oder verdächtigen
 Ist die Funktion „Kennworte speichern“ unter Sicherheitsaspekten empfehlenswert?
 
 Bei einigen Browsern ist es möglich, Einträge und Passwörter in Formularfeldern – also auch im Anmeldeformular für das Onlinebanking – automatisch zu ergänzen oder zu speichern. Das ist aber gerade im Bezug auf das Onlinebanking aus Sicherheitsgründen nicht zu empfehlen. Wenn Sie die automatische Speicherung von Daten in Ihrem Browser aktiviert haben, sollten Sie die Funktion „Kennwörter speichern“ (Browser Mozilla Firefox) beziehungsweise „Auto-Vervollständigen“ (Browser Internet Explorer) besser abschalten.
+====================================================
+Wann verjährt meine Erstattungsforderung?
+
+Rückforderungsansprüche verjähren nach drei Jahren ab Ende des Jahres der Zahlung der rechtswidrigen Gebühr. Die Erstattungsforderung für 2014 gezahlte Beträge verjährt also Ende des Jahres 2017. Darlehensgebühren für Bauspardarlehen können eventuell noch bis zu zehn Jahre rückwirkend geltend gemacht werden, weil der Bundesgerichtshof diese Gebühr erst am 8. November 2016 für unzulässig erklärt hat und damit die Urteile mehrerer Oberlandesgerichte korrigiert hat. So hatte es der Bundesgerichtshof im Jahr 2014 für die Forderung auf Erstattung von Kreditbearbeitungsgebühren bei Ratenkrediten gesehen: Weil die Bundesrichter selbst solche Gebühren viele Jahre lang unbeanstandet durchwinkten, war es Verbrauchern unzumutbar, ihre Erstattungsforderung geltend zu machen. Deshalb lief die kurze Frist für die relative Verjährung nicht, sondern die zehnjährige Frist für die absolute Verjährung. Ob der Bundesgerichtshof das für die Bauspardarlehensgebühren auch so sehen wird, ist aber unklar. Die Forderung auf Erstattung von Bauspardarlehensgebühren werden Sie oft auch trotz Verjährung noch indirekt durchsetzen können. Lesen Sie dazu unten die Antwort auf die Frage „Kann ich eigentlich verjährte Erstattungsforderungen noch durchsetzen, wenn der Kredit noch nicht getilgt ist?“.
+
+====================================================
+Wann sind denn Kreditbearbeitungsgebühren überhaupt gezahlt worden?
+
+Das ist je nach Einzelfall unterschiedlich. Am häufigsten waren Kreditverträge mit Gebührenklausel so konstruiert: Der Kreditbetrag wurde um die Gebühr erhöht und dem Kreditnehmer nur der nach Abzug der Gebühr verbleibende Nettokreditbetrag ausgezahlt. Bei diesen Verträgen wurde die Gebühr also gezahlt, indem sie bei Auszahlung des Kredits mit dem höheren Bruttokredit verrechnet wurde. Es gibt aber auch andere Konstruktionen, bei denen die Gebühr extra zu zahlen war und auf alle oder bestimmte Kreditraten verteilt worden ist. Es kommt auf die genaue Formulierung in Ihrem Vertrag an. Fragen Sie im Zweifel einen Rechtsanwalt, der sich mit einschlägigen Fällen auskennt. Haben Sie die Gebühr für einen bereits 2013 oder früher abgeschlossenen Kreditvertrag verteilt über die Laufzeit gezahlt, können Sie auch heute noch die Erstattung aller Gebühren durchsetzen, die in den ab 1. Januar 2014 gezahlten Raten gesteckt haben.
+
+nach oben
+
+====================================================
+Kann ich eigentlich verjährte Erstattungsforderungen noch durchsetzen, wenn der Kredit noch nicht getilgt ist?
+
+Das geht auf jeden Fall dann, wenn Sie den Kredit jederzeit zurückzahlen dürfen. Nach Auffassung der Juristen der Stiftung Warentest und vieler anderer Verbraucherschützer geht das aber auch, wenn Sie noch ursprünglich vereinbarte Raten mindestens in Höhe der Bearbeitungsgebühren zu zahlen haben. Sie können dann die Erstattung der rechtswidrigen Gebühren trotz der Verjährung durch eine so genannte Aufrechnung noch durchsetzen. Dazu müssen Sie allerdings sehr genau formulieren und etwa mit dem Basiszinsrechner selbst ausrechnen, wie viel Zinsen die Bank oder Sparkasse Ihnen zu zahlen hat. Beispielhafter Mustertext für eine solche Aufrechnung:
+
+„Darlehensvertrag vom:
+
+Nummer/Aktenzeichen:
+
+Erstattung Kreditbearbeitungsgebühren
+
+Sehr geehrte Damen und Herren,
+
+im Rahmen des o. g. Kreditvertrags habe ich aufgrund Ihrer Geschäftsbedingungen … Euro Kreditbearbeitungsgebühren an Sie gezahlt. Die entsprechenden Geschäftsbedingungen sind jedoch unwirksam (so der Bundesgerichtshof in ständiger Rechtssprechung, zuletzt: Urteil vom 04.07.2017, Aktenzeichen: XI ZR 233/16). Sie sind um diese Zahlungen ungerechtfertigt bereichert und haben sie herauszugeben. Darüber hinaus haben Sie mir die mit den Zahlungen erwirtschafteten Nutzungen herauszugeben. Bei Banken ist nach der ständigen Rechtsprechung des Bundesgerichtshofs davon auszugehen, dass sie Nutzungen in Höhe von 2,5 (nur bei übers Grundbuch abgesicherten Krediten) oder 5 Prozentpunkten über dem Basiszinssatz erwirtschaften.
+
+Zur Erfüllung der Forderungen rechne ich Ihre Forderungen gegen mich wie folgt auf:
+
+1. Meine Forderung auf Herausgabe der Nutzungen in Höhe von … Euro rechne ich gegen Ihre Forderung auf Zahlung der Rate zu o. g. Kredit am … in Höhe von … Euro und den Rest von … Euro gegen Ihre Forderung auf Zahlung der Rate … am, so dass ich am genannten Tag statt … Euro an Sie nur … Euro zu zahlen habe.
+
+2. Meine Forderung auf Erstattung der Kreditbearbeitungsgebühren in Höhe von … Euro rechne ich gegen Ihre Forderung auf Zahlung der Raten in Höhe von jeweils … Euro am …, am … sowie am … auf, wobei von der letztgenannten Rate zu Ihren Gunsten ein Rest von … Euro zu zahlen bleibt.
+
+Sollten Sie durch Aufrechnung erloschene Raten von meinem Konto einziehen, erfolgt die Zahlung unter dem Vorbehalt der Rückforderung. Ich werde dann ohne weitere Ankündigung rechtliche Schritte einleiten, um daraus resultierende Forderungen gegen Sie durchzusetzen. Dabei entstehende Kosten hätten Sie mir dann zusätzlich zu ersetzen.
+
+Hilfsweise kündige ich den Kreditvertrag mit Ihnen und rechne ich Ihre Forderungen gegen mich wie folgt auf:
+
+1. Meine Forderung auf Herausgabe der Nutzungen in Höhe von … Euro rechne ich gegen Ihre Forderung auf Ausgleich der Restschuld im Rahmen des o. g. Kredits auf.
+
+2. Meine Forderung auf Erstattung der Kreditbearbeitungsgebühren in Höhe von …. Euro rechne ich gegen Ihre Forderung auf Ausgleich der Rechtschuld auf.
+
+Die Restschuld beläuft sich danach auf aktuell noch … Euro. Den Betrag habe ich Ihnen bereits zur Gutschrift auf dem Kreditkonto angewiesen. [Anmerkung: Wenn möglich, berechnen Sie die aktuelle Restschuld selbst oder lassen das einen Sachverständigen machen. Den folgenden Satz sollten Sie nur dann verwenden, wenn das nicht geht.) Bitte rechnen Sie den Kredit für mich nachvollziehbar ab. Ich werde die danach verbleibende Restschuld umgehen ausgleichen.
+
+Mit freundlichen Grüßen“
+
+Beachten Sie: Ob Sie Ihre Forderung auf Erstattung mit noch offenen Ratenzahlungen verrechnen dürfen, ist umstritten. In mindestens einem Bundesgerichtshof-Urteil findet sich eine Bemerkung, die darauf hindeutet, dass die Richter dort das für unzulässig halten. Rechtlicher Hintergrund: Zulässig ist die so genannte Aufrechnung, wenn sich die gegenseitigen Forderungen, die verrechnet werden sollen, bereits zu einem Zeitpunkt gegenübergestanden haben, als Ihre Forderung noch nicht verjährt war. Dafür kommt es bei nicht insgesamt vorzeitig rückzahlbaren Krediten darauf an, ob Sie berechtigt sind, Raten vorzeitig zu zahlen. Der Bundesgerichtshof verneint dies und sagt, der Kreditgeber dürfe sich darauf verlassen, dass sie den Kredit erst wie vereinbart zurückzahlen. test.de hält das nicht für richtig. Laut Bürgerlichem Gesetzbuch ist der Schuldner einer Forderung im Zweifel stets berechtigt, sie sofort auszugleichen. Es ist anerkannt, dass fest vereinbarte Ratenzahlungen selbstständig einklagbare Forderungen sind. Sie vorzeitig zu begleichen, führt nicht zu einer vorzeitigen Rückzahlung des Darlehens, sondern nur dazu, dass Sie die Rate zum vereinbarten Zeitpunkt nicht mehr zahlen müssen. Der Bank oder Sparkasse entsteht daher durch die vorzeitige Zahlung von Raten kein Nachteil.
+
+Beachten Sie außerdem: Voraussetzung für ein solche Aufrechnung ist, dass die Ratenzahlung spätestens vor Verjährung ihrer Erstattungsforderungen vereinbart worden ist. Ist die Höhe der Raten variabel, können Sie für die Aufrechnung nur die mindestens zu zahlende Rate heranziehen. Fragen Sie im Zweifel vor Erklärung der Aufrechnung unbedingt einen Rechtsanwalt. Misslingt Ihnen die Aufrechnungserklärung, kann Ihre Erstattungsforderung allein deswegen verloren sein.
+
 ====================================================
 Was ist eine Kleeblatt-Festgeldanlage?
 
@@ -49052,6 +49317,236 @@ Die RaboDirect ist eine reine Sparbank. Sparbanken zielen auf die Förderung und
 Falls Sie noch Sicherheitsbedenken haben, kontaktieren Sie uns bitte unter der kostenfreien Servicenummer 0800 7226 100. Unsere Geschäftszeiten sind montags bis freitags von 09.00 bis 18.00 Uhr. Sie können uns auch gerne eine E-Mail im geschützten Bereich schreiben, die wir schnellstmöglich beantworten werden!
 
 ====================================================
+Für wen eignet sich Tagesgeld?
+
+Anleger, die auf der Suche nach einer sicheren, lukrativen und dennoch flexiblen Kapitalanlage sind, sollten sich für ein Tagesgeld entscheiden. Es eignet sich sowohl zum „parken“ von größeren Geldmengen, als auch um nach und nach Vermögen anzusparen und Tagesgeldzinsen zu erwirtschaften.
+
+====================================================
+Gibt es einen Mindestanlagebetrag oder einen Höchstanlagebetrag?
+
+Bei einigen Banken ist ein Mindestanlagebetrag Voraussetzung für die Eröffnung eines Tagesgeldkontos. In einigen Fällen besteht auch eine Obergrenze für Anlagen. Bei den meisten Instituten ist dies jedoch nicht der Fall.
+
+====================================================
+Ist das Geld auf dem Tagesgeldkonto sicher?
+
+Um das Kapital der Anleger im Insolvenzfall abzusichern, ergreifen die Banken verschiedene gesetzliche und freiwillige Maßnahmen zur Einlagensicherung. Im Euro-Raum sind Anlagen bis zu einer Höhe von 100.000 Euro in vollem Umfang gesetzlich abgesichert.
+
+====================================================
+Können mehrere Tagesgeldkonten mein Schufa-Scoring verschlechtern?
+
+Da das Tagesgeldkonto nicht überzogen werden kann, gehen Banken bei der Kontoeröffnung keinerlei Risiken ein. Aus diesem Grund findet keine Schufa-Abfrage statt. Verbraucher können folglich beliebig viele Tagesgeldkonten eröffnen, ohne ihren Schufa-Score zu verschlechtern.
+
+====================================================
+Liegt die Höchstgrenze der gesetzlichen Einlagensicherung bei 100.000 Euro pro Kunde?
+
+Die gesetzliche Einlagensicherung in Deutschland schützt Spareinlagen von bis zu 100.000 Euro pro Kunde und Konto. Bei höheren Beträgen müssen Verbraucher bestimmte Details beachten, um ihre Ersparnisse dauerhaft abzusichern.
+
+====================================================
+Lohnt sich Tagesgeld Hopping?
+
+Beim Tagesgeld Hopping wechseln Anleger immer dann ihr Tagesgeldkonto, wenn sich bei einem anderen Anbieter eine höhere Rendite erzielen lässt. Hierbei orientieren sie sich an den jeweiligen Zinsen der Banken oder nutzen Neukundenangebote mit Sonderzinssätzen und Prämien.
+
+====================================================
+Müssen Zinserträge versteuert werden?
+
+In Deutschland sind Einkünfte aus Kapitalerträgen steuerpflichtig. Der Staat erhebt hierfür die so genannte Abgeltungssteuer, die durch einen Freistellungsauftrag bis zu einem gewissen Betrag umgangen werden kann.
+
+====================================================
+Was ist das Postident-Verfahren?
+
+Mit dem Postident-Verfahren können Direktbanken ihre Kunden eindeutig identifizieren, ohne dass dafür persönlicher Kontakt nötig ist. Dabei wird die Identität des Antragstellers durch einen Angestellten der Deutschen Post festgestellt.
+
+====================================================
+Was ist der Unterschied zwischen Tagesgeld und Festgeld?
+
+Auf das Tagesgeldkonto können Anleger täglich zugreifen. Hier gibt es keine festen Laufzeiten. Im Gegensatz zum Festgeld dürfen die Zinsen von den Banken jederzeit neu angepasst werden. Festgeld wird außerdem über einen im Vorfeld vereinbarten Zeitraum fest angelegt.
+
+====================================================
+Was ist ein Freistellungsauftrag?
+
+Indem Sparer ihrer Bank einen Freistellungsauftrag erteilen, können sie Kapitalerträge bis zu einem bestimmten Betrag ohne steuerliche Abzüge einnehmen. Der verfügbare Freibetrag kann auf mehrere Banken aufgeteilt werden.
+
+====================================================
+Was ist ein Referenzkonto?
+
+Da das Tagesgeldkonto keine Zahlungsfunktion besitzt, müssen Anleger immer ein zusätzliches Referenzkonto angeben. Hierbei handelt es sich meist um das eigene Girokonto, von dem aus Einzahlungen und Abbuchungen getätigt werden können.
+
+====================================================
+Was ist eine NV-Bescheinigung und wer kann sie beantragen?
+
+Die NV-Bescheinigung kann von Geringverdienern beantragt werden, deren jährliches Einkommen den steuerlichen Grundfreibetrag nicht übersteigt. Nach Einreichen der NV-Bescheinigung bei der Bank stellt diese die Abführung der Abgeltungssteuer ein – auch dann, wenn die Kapitalerträge den Sparer-Pauschbetrag überschreiten.
+
+====================================================
+Was sind die Vor- und Nachteile beim Tagesgeldkonto?
+
+Ein Tagesgeldkonto bietet dem Anleger Sicherheit, eine gute Rendite und dennoch Flexibilität. Auf der anderen Seite können die Zinsen jedoch täglich neu angepasst werden, und fallen meist niedriger aus als bei Festgeldanlagen.
+
+====================================================
+Welche Kosten entstehen durch ein Tagesgeldkonto?
+
+In der Regel fallen für Tagesgeldkonten weder Kontoführungsgebühren noch Kosten für die Eröffnung und Kündigung des Kontos an. Anleger sollten sich jedoch im Vorfeld gründlich über eventuelle versteckte Kosten informieren.
+
+====================================================
+Wie hoch ist der Zinssatz auf ein Tagesgeldkonto?
+
+Bei der Festlegung ihrer Tagesgeldzinsen orientieren sich Banken am Leitzins der Europäischen Zentralbank (EZB). Wird dieser gesenkt, so sinken auch die Zinsen aufs Tagesgeld und umgekehrt. Der Zinssatz kann von den Instituten täglich neu angepasst werden.
+
+====================================================
+Wie kann Geld auf ein Tagesgeldkonto eingezahlt oder abgebucht werden?
+
+Um Geld auf das Tagesgeldkonto einzuzahlen oder abzubuchen, benötigen Anleger ein Referenzkonto. Hierbei handelt es sich meist um das eigene Girokonto. Die Transaktionen erfolgen online, per Telefon oder bei Filialbanken auch in der Filiale.
+
+====================================================
+Wie kann ein Tagesgeldkonto aufgelöst werden?
+
+Zur Kündigung des Tagesgeldkontos kann entweder ein vorgefertigtes Formular ausgefüllt, oder ein formloses Kündigungsschreiben eingeschickt werden. Anleger sollten außerdem nicht vergessen ihren Freistellungsauftrag für Kapitalerträge zu kündigen.
+
+====================================================
+Wie können Sparer vom Zinseszinseffekt profitieren?
+
+Mit einem Tagesgeldkonto kann vom Zinseszins profitiert werden. Wichtige Faktoren sind dabei unter anderem die Höhe des Zinssatzes und die Häufigkeit der Zinsausschüttung.
+
+====================================================
+Wie viel Geld sollte in Form von Tagesgeld angelegt werden?
+
+Für Sparer bietet es sich an, ihre Finanzreserve für unvorhergesehene Ausgaben auf einem Tagesgeldkonto vorzuhalten. Hier wird das Guthaben vergleichsweise hoch verzinst und ist gleichzeitig flexibel verfügbar.
+
+====================================================
+Worauf sollte man bei der Wahl des Tagesgeldkontos achten?
+
+Bei der Wahl des Tagesgeldkontos sollten sich Sparer nicht ausschließlich an der Verzinsung orientieren, sondern auch andere Kriterien wie Zinsausschüttungen oder Neukundenvorteile nicht außer Acht lassen. Auch bei Lockangeboten ist Vorsicht geboten.
+
+====================================================
+Worauf ist beim Kreditvergleich zu achten?
+
+Über den Kreditvergleich von CHECK24 können Sie Kredite von bis zu 120.000 Euro beantragen. Bei der Nutzung des Kreditvergleichs sollten Sie alle Daten korrekt eingeben. Sofern Sie bestehende Kredite ablösen möchten, können Sie als Verwendungszweck Umschuldung/Kredit ablösen auswählen. Die Angabe eines zweiten Kreditnehmers kann zudem die Chancen auf Ihren Wunschkredit erhöhen und dafür sorgen, dass Sie das Darlehen zu günstigeren Zinsen erhalten.
+
+====================================================
+Welche Kredit Konditionen unterscheidet der Vergleich?
+
+Der Kreditvergleich von CHECK24 unterscheidet verschiedene Konditionen. Neben den Zinssätzen der angebotenen Kredite werden Sie auch über die anderen Kosten der verschiedenen Banken informiert. Sie erfahren beispielsweise, ob für Sondertilgungen Gebühren anfallen oder ob diese kostenlos möglich sind.
+
+====================================================
+Welche Kreditarten kann ich in Anspruch nehmen?
+
+Im Kreditvergleich von CHECK24 werden Ihnen verschiedene Kreditarten angeboten, mit denen Sie Ihre geplante Anschaffung umsetzen können. In der Regel kann der Großteil der offerierten Ratenkredite für verschiedene Finanzierungszwecke genutzt werden. Es gibt aber auch zweckgebundene Darlehen wie etwa den Autokredit und den Modernisierungskredit.
+
+====================================================
+Erhalte ich Angebote oder schließe ich einen Vertrag ab?
+
+Über den Kreditrechner fordern Sie Angebote an. Ein Vertrag kommt erst nach Unterzeichnung und Rücksendung der Kreditunterlagen an die gewählte Bank zustande. Nach einer positiv ausgefallenen Überprüfung der an das Kreditinstitut übersandten Unterlagen kommt der Vertrag zustande.
+
+====================================================
+Wie lange dauert es, bis das Geld auf meinem Konto erscheint?
+
+In der Regel steht Ihnen das Geld innerhalb weniger Tage auf Ihrem Konto zur Verfügung. Voraussetzung dafür ist, dass sämtliche unterschriebenen Unterlagen mitsamt den benötigten Nachweisen bei der Bank eingegangen sind und die Prüfung dieser Unterlagen positiv ausfällt. Bei einigen Krediten können Sie alle Schritte komplett online durchführen. In diesem Fall verkürzt sich die Auszahlungsdauer auf ein bis zwei Tage. Daneben gibt es noch den Kredit mit Sofort-Auszahlung. Bei diesem ist keine nachträgliche Prüfung mehr notwendig. Sobald Sie sich per Videoident-Verfahren ausgewiesen und den Kreditvertrag in dem Zuge unterschrieben haben, erhalten Sie Ihren Kreditbetrag oft noch am gleichen, spätestens am nächsten Werktag ausgezahlt.
+
+====================================================
+Welche Voraussetzung muss ich für die Aufnahme eines Kredits erfüllen?
+
+Eine Kreditaufnahme ist mit bestimmten Voraussetzungen verbunden. Wenn diese erfüllt sind, steht der Kreditbewilligung nichts im Wege. Eine zentrale Bedingung für die Kreditvergabe ist die Volljährigkeit des Antragstellers. Zudem muss ein ausreichendes Einkommen vorhanden sein, um den Kredit vertragsgemäß zurückzuzahlen. Eine positive Schufa muss ebenfalls vorliegen.
+
+====================================================
+Warum bewilligt die Bank meinen Kredit nicht?
+
+Die Bewilligung eines Kredites hängt von vielen Faktoren ab. Häufig wird ein Kredit nicht bewilligt, wenn die Bonität von der Schufa schlecht bewertet wurde. Ebenso wird ein Kredit häufig abgelehnt, wenn Sie bereits viele Kredite abbezahlen. Hier kann eine Umschuldung die Kreditzusage fördern. Auch ein zweiter Kreditnehmer kann zum Kredit verhelfen.
+
+====================================================
+Wie ist der weitere Ablauf der Kreditanfrage?
+
+Sobald Sie das Online-Formular vollständig ausgefüllt haben, erhalten Sie direkt Rückmeldung, bei welchen Banken Sie zu welchen Konditionen ein Darlehen erhalten können. Die Kreditverträge stehen Ihnen dann in der Regel bereits zum Download bereit oder werden Ihnen per E-Mail, auf Wunsch auch per Post, zugeschickt. Haben Sie sich für ein Angebot entschieden, können Sie dieses final beantragen. Je nach Bank funktioniert dies volldigital oder per Postversand der Unterlagen. Wie genau der Abschluss des Vertrages vonstattengeht, erfahren Sie bei der Zusendung der Unterlagen.
+
+====================================================
+Kann ich den Kredit auch früher zurückzahlen?
+
+In den Kreditkonditionen ist festgelegt, ob Sie einen Kredit schneller als vereinbart zurückzahlen können. In vielen Fällen, kann das Kreditinstitut jedoch eine Vorfälligkeitsentschädigung für die vorzeitige Tilgung eines Darlehens in Rechnung stellen. Eine Umschuldung kann sich trotzdem lohnen.
+
+====================================================
+Kann ich während der Laufzeit das Kreditinstitut wechseln?
+
+Ein Kreditvertrag kann nach den EU-weiten Kreditrichtlinien jederzeit gekündigt werden und anschließend in einen neuen Kredit bei einem anderen Kreditinstitut umgeschuldet werden. Die Bank kann dabei jedoch meist eine Vorfälligkeitsentschädigung für die vorzeitige Kündigung des Kredits in Rechnung stellen.
+
+====================================================
+Gibt es auch Kredite ohne SCHUFA?
+
+Bevor die Bank sich entscheidet Ihren Kredit zu bewilligen, wird Sie Ihre Kreditwürdigkeit durch eine Abfrage bei der Schutzgemeinschaft für allgemeine Kreditsicherung (Schufa) überprüft. Dass diese Prüfung nicht vorgenommen wird, ist äußerst selten. Stiftung Warentest warnt davor, dass es bei Krediten ohne Schufa häufig zu abzocken kommt.
+
+====================================================
+Werden Darlehen an Azubis, Zeitsoldaten und Rentner vergeben?
+
+Um einen Kredit bewilligt zu bekommen, muss ein unbefristetes Arbeitsverhältnis bestehen. Aus diesem Grund erhalten Auszubildende in der Regel keinen Kredit. Bei Zeitsoldaten, kommt es auf die Länge der Dienstzeit an. Bei Rentnern spielt die gewünschte Kreditlaufzeit und das Alter zum Zeitpunkt der Kreditantragstellung eine Rolle.
+
+====================================================
+Kann ich die monatliche Kreditrate während der Laufzeit verändern?
+
+Die Anpassung der monatlichen Kreditrate während der Laufzeit ist in der Regel möglich. Dabei können Sie zwischen einer Erhöhung oder Senkung der Raten wählen. Wenn Sie eine Ratenänderung vornehmen, setzt das Kreditinstitut einen neuen Kreditvertrag auf. Die Zinssätze Ihres Kredits können sich somit ändern.
+
+====================================================
+Wird bei meinem Arbeitgeber angefragt?
+
+Beim Arbeitgeber erfolgt keine Anfrage. Die Einkommensnachweise dienen lediglich dem Datenabgleich und der Sicherung des Kredits vor einem Zahlungsausfall. Sollten Sie in Zahlungsverzug kommen, kann die Bank Ihr Einkommen pfänden lassen, um die offene Kreditsumme zu tilgen.
+
+====================================================
+Was ist der Unterschied zwischen dem Soll- und dem Effektivzinssatz?
+
+Wenn Sie sich über Kredite informieren, stoßen Sie auf verschiedene Zinsangaben: Dem Sollzins dem effektiven Jahreszins. Beide müssen von den Kreditinstituten ausgewiesen werden, doch nur der Jahreseffektivzins eignet sich zum Kostenvergleich. Damit Sie für Ihren Kredit nicht zu viel zahlen, richten Sie Ihre Aufmerksamkeit auf diese Angabe.
+
+====================================================
+Was versteht man unter bonitätsabhängigen Zinssätzen?
+
+Ein Kredit wird entweder mit einem bonitätsabhängigen oder einem bonitätsunabhängigen Zinssatz vergeben. Bonitätsabhängige Zinssätze orientieren sich an der Kreditwürdigkeit des Kreditnehmers - Personen mit einer guten Bonität bekommen einen günstigeren Zinssatz als Antragsteller mit einer schlechteren Bonität. Diese wird durch verschiedene Faktoren bestimmt.
+
+====================================================
+Was sind bonitätsunabhängige Zinsen bei einem Kredit?
+
+Verfügt ein Kredit über einen bonitätsunabhängigen Zinssatz, bekommt jeder, der als Kreditnehmer akzeptiert wird, den gleichen Zinssatz. Somit richtet sich die Höhe des Zinssatzes nicht nach der Bonität des Antragstellers, oftmals aber nach der gewählten Laufzeit. Die Kosten eines bonitätsunabhängigen Kredits können im Vorfeld gut kalkuliert werden.
+
+====================================================
+Welche Rolle spielt die Schufa bei der Kreditvergabe?
+
+Vor der Kreditvergabe holen Kreditinstitute bei der Schufa Informationen zum Zahlungsverhalten des Antragstellers ein, um dessen Kreditwürdigkeit zu überprüfen. Auf diese Weise soll das Ausfallrisiko von Banken verringert werden. Damit ist die Auskunftei eine wichtige Informationsquelle für Unternehmen, die im Kreditgeschäft tätig sind.
+
+====================================================
+Wird eine Anfrage bei der Schufa gestellt?
+
+Kreditanfragen, die über den CHECK24 Kreditvergleich gestellt werden, sind immer schufaneutral. Das heißt, dass im Rahmen eines Kreditvergleiches von unseren Partnerbanken ausschließlich Konditionsanfragen bei der Schufa gestellt werden, welche keinerlei Einfluss auf die Berechnung und Bewertung Ihres Schufa Scorewertes haben. Erst, wenn der Bank die von Ihnen unterschriebenen Vertragsunterlagen vorliegen, wird aus der Konditions- eine Kreditanfrage.
+
+====================================================
+Wer haftet, wenn ich gemeinsam mit meinem Lebenspartner einen Kredit aufnehmen möchte?
+
+Wird ein zweiter Kreditnehmer wie etwa der Lebenspartner oder eine andere Person zur gemeinsamen Aufnahme eines Kredites herangezogen, haften beide Kreditnehmer zu gleichen Teilen. Im Falle eines Zahlungsausfalles wird das Kreditinstitut die Tilgung der Schuld vom zweiten Kreditnehmer fordern.
+
+====================================================
+Was passiert mit meinem Kredit, wenn ich ins Ausland ziehe?
+
+Wenn Sie während eines laufenden Kreditvertrages ins Ausland ziehen, wird es in der Regel keine Probleme von Seiten der Bank geben, solange ein deutsches Bankkonto besteht, von welchem die Kreditraten weiterhin jeden Monat abgehen. Um Komplikationen vorzubeugen empfiehlt es sich einen parallelen Wohnsitz in Deutschland zu behalten.
+
+====================================================
+Worin unterscheidet sich ein Autokredit?
+
+Ein Autokredit ist ein zweckgebundener Ratenkredit. Er dient dem Kauf, der Reparatur bzw. Umrüstung eines Kraftfahrzeuges oder dem Erwerb und Einbau von Kfz-Zubehör. Zusätzlich zum Einkommen dienen nicht selten eine Hinterlegung des Kfz-Briefes bei der Bank und eine Sicherungsübereignung als Sicherheit, um das Ausfallrisiko zu reduzieren.
+
+====================================================
+Gibt es Kredite für Studenten?
+
+Kredite für Studenten sind eine gute Möglichkeit, um finanzielle Engpässe während des Studiums zu überbrücken. Zur Vollfinanzierung ist der Studentenkredit allerdings nicht geeignet, da für das Darlehen Zinsen berechnet werden. Der bekannteste Anbieter für Studiendarlehen ist die staatliche KfW-Bankengruppe.
+
+====================================================
+Was ist bei Krediten für Selbstständige und Freiberufler zu beachten?
+
+Selbstständige und Freiberufler ohne festes Angestelltenverhältnis können unter Angabe ihrer gewerblichen Einkünfte ebenfalls einen Kredit beantragen und werden von einem speziellen CHECK24-Kundenberaterteam betreut.
+
+====================================================
+Was ist das Postident-Verfahren?
+
+Wenn ein Kreditinstitut die Identitätsprüfung eines Kunden nicht selbst durchführen kann, wird die Deutsche Post AG damit beauftragt. Dieser Prozess wird als Postident-Verfahren bezeichnet. Es gibt verschiedene Arten des Postident-Verfahrens, das Postident Basic wird dabei im Finanzbereich angewendet.
+
+====================================================
+Wie finde ich die optimale Kreditlaufzeit?
+
+Die Wahl der passenden und optimalen Kreditlaufzeit ist bei der Aufnahme eines Darlehens genauso wichtig, wie niedrige Zinsen – die Laufzeit ist beispielsweise entscheidend für die monatliche Tilgungsrate und die Höhe der Gesamtkreditkosten, die auf den Verbraucher zukommen.
+
+====================================================
 Wer kann eine Riester Rente abschließen?
 
 Gefördert werden alle Personen, die in die gesetzliche Rentenversicherung einzahlen müssen.
@@ -49129,6 +49624,56 @@ Das hängt von der Beitragshöhe, Dauer der Einzahlung und Anlageform sowie von 
 In jedem Fall müssen die Anbieter einer Riester Rente dem Sparer garantieren, dass die eingezahlten Beiträge sowie die Zulagen sicher sind.
 
 ====================================================
+Ist ein Onlinekredit besser?
+
+Die Darlehenskonditionen von Online Krediten sind in der Regel besser und überzeugen durch niedrigere Zinsen als Kredite bei Filialbanken. Ob für einen Verbraucher ein Online Kredit oder ein Darlehen bei der Bank die bessere Wahl ist, muss individuell entschieden werden.
+
+====================================================
+Wie läuft die Antragstellung ab?
+
+Einen Online Kredit im Internet zu beantragen ist nicht schwierig. Nachdem über den Online Kreditvergleich das beste Finanzierungsangebot gefunden wurde und in der Antragsstrecke einige persönliche Daten eingetragen wurden, wird der Kreditantrag per PostIdent Verfahren kostenlos an die Bank zurückgeschickt.
+
+====================================================
+Wann steht der Kredit zur Verfügung?
+
+Ein Online Kredit steht in der Regel zwei bis fünf Tage nach der erfolgreichen Prüfung durch die Bank auf dem Girokonto des Kunden zur Verfügung. Einige Banken bieten ihren Kunden bei sogenannten Sofort Online Krediten auch eine Blitzüberweisung an.
+
+====================================================
+Kann ich meinen Onlinekredit auch widerrufen?
+
+Bei einem Online Kredit können Verbraucher innerhalb der ersten 14 Tage nach Vertragsabschluss Gebrauch von ihrem Widerrufsrecht machen. Der Widerruf muss schriftlich an die Bank erklärt werden. Danach hat der Kunde in der Regel weitere 14 Tage Zeit um die bereits ausbezahlte Online Kreditsumme an die Bank zurückzuzahlen.
+
+====================================================
+Wie hoch ist der maximale Geldbetrag, den man beim Online Kredit beantragen kann?
+
+Für einen Online Kredit gibt es weder einen Minimal- noch einen Maximalbetrag. Die meisten Banken vergeben jedoch nur Online Kredite zwischen 1.000 und 50.000 Euro. Kredite ab 500 Euro können Kunden ebenfalls bei einigen Direktbanken als sogenannten Kleinkredit beantragen.
+
+====================================================
+Welche Voraussetzungen müssen erfüllt sein, um einen Online Kredit zu beantragen?
+
+Um erfolgreich bei einer Direktbank einen Online Kredit zu beantragen müssen Verbraucher mindestens 18 Jahre alt sein, ihren Wohnsitz in Deutschland gemeldet haben und zudem über ein Girokonto bei einer deutschen Bank verfügen. Außerdem müssen Kreditnehmer der Bank ein regelmäßiges Einkommen garantieren können.
+
+====================================================
+Wird die Schufa auch bei einem Online Kredit abgefragt?
+
+Beim Abschluss eines Online Kredites fragt die Bank, wie bei jedem Kredit, vor der finalen Kreditvergabe die Schufa-Akte des Antragsstellers ab. Durch die Abfrage will die Bank die Kreditwürdigkeit des künftigen Schuldners prüfen.
+
+====================================================
+Welche Unterlagen brauche ich, um einen Online Kredit zu beantragen?
+
+Um einen Online Kredit erfolgreich zu beantragen muss der Kunde, zusammen mit dem Kreditantrag, einige wichtige Unterlagen an die Bank schicken um beispielsweise seine Vermögensverhältnisse offen zu legen. Je nach Bank und Berufsgruppe des Antragsstellers ist die Einreichung unterschiedlicher Unterlagen notwendig.
+
+====================================================
+Kann ein Online Kredit auch vorzeitig zurückgezahlt werden?
+
+Kunden, die planen ihren Online Kredit schneller als vereinbart an die Bank zurückzuzahlen sollten im Kreditvertrag kostenlose Sonderzahlungen mit der Bank vereinbart werden. Auch wenn die Sondertilgung kostenfrei ist, kommen bei einer außerplanmäßigen Zahlung Kosten in Form der Vorfälligkeitsentschädigung auf den Kunden zu.
+
+====================================================
+Sind die Zinsen beim Online Kredit höher?
+
+Die Zinsen, die Verbraucher für einen Online Kredit zahlen müssen, sind in der Regel niedriger als die Zinsen von Filialkrediten. Online Kredite werden meist von Direktbanken vergeben, die durch die wegfallenden Filialen niedrigere Kosten haben als Filialbanken. Diese veränderte Kostenstruktur kommt dem Kunden durch niedrigere Zinsen und bessere Kreditkonditionen zugute.
+
+====================================================
 Welche Kreditkarten gibt es?
 
 Bei der Revolving Card Kreditkarte haben Sie die Möglichkeit die Kreditsumme in Raten abzubezahlen. Sie können die Abrechnungssumme jedoch auch monatlich begleichen, um keine Zinsen zahlen zu müssen. Eine Charge Card Kreditkarte kann hingegen nicht in Teilbeträgen beglichen werden. Eine Prepaid Kreditkarte ist dagegen nur nach Aufladung von Guthaben nutzbar.
@@ -49182,6 +49727,390 @@ Visa, MasterCard und American Express sind Anbieter von Kreditkarten. Dabei werd
 Welche speziellen Premium-Kreditkarten gibt es?
 
 Der Kreditkarten-Markt ist breit gefächert, für fast jede Zielgruppe gibt es das passende Angebot. Die goldene, schwarze und die Platin-Kreditkarte richten sich an die besonders exklusive Kundschaft. Erfahren Sie hier, wo genau die Unterschiede liegen und ob auch Sie die Voraussetzungen erfüllen, eine dieser exklusiven Kreditkarten zu besitzen.
+
+====================================================
+Was ist eine Umschuldung?
+
+Eine Umschuldung hat zum Ziel, eine verschuldete Person finanziell zu entlasten und seine Schuldentragfähigkeit zu erhöhen – also dass er seine Schulden samt Zinsen problemlos bedienen kann. Somit wird die Wahrscheinlichkeit eines Zahlungsausfalls deutlich verringert.
+
+Haben Sie beispielsweise einen laufenden Kredit, lohnt sich eine Umschuldung, wenn die Zinsen aktueller Darlehensangebote günstiger sind als die Ihrer bestehenden Schuld. Demnach ist eine Kreditablösung vor allem in Niedrigzinsphasen empfehlenswert. Gerade bei höheren Summen, die Sie über eine lange Laufzeit abbezahlen, macht sich dieser Schritt bezahlt. Mitunter können Sie mit einer Umschuldung viel Geld sparen.
+
+Eine Umschuldung können Sie auch vornehmen, wenn Sie mehrere bestehende Verbindlichkeiten besitzen. In dem Fall ist dieser Schritt dringend anzuraten, da Sie Ihren Überblick über Ihre Finanzen verbessern und ebenfalls Zinsen sparen. Dazu fassen Sie die Kredite zu einem zusammen – dabei ist es unerheblich, ob e sich um einen Ratenkredit, einen Dispokredit oder um Kreditkartenforderungen handelt. Vor allem die Kontoüberziehung und Kreditkarten schlagen im Schnitt mit sehr hohen Zinsen zu Buche. Dagegen sind die Zinssätze von Ratenkrediten weitaus günstiger.
+
+Handelt es sich bei dem Kredit um eine Baufinanzierung, handelt es sich bei einer Umschuldung um eine Anschlussfinanzierung. Dabei wechseln Sie nach Ablauf der Zinsbindung  die Bank und finanzieren die übrige Summe über das Institut.
+
+Ob sich eine Umschuldung lohnt, bringt ein Zinsvergleich zu Tage. Die aktuellen Kreditzinsen sollten dabei unter den Sätzen Ihrer bestehenden Forderungen liegen. Aber Achtung: Kredite können nicht bei allen Instituten kostenlos umgeschuldet werden. Einige stellen Ihren Kunden für die vorzeitige Kreditablösung eine Vorfälligkeitsentschädigung in Rechnung, durch die Ihre Gesamtkosten steigen können. Die Höhe der Gebühr ist gesetzlich gedeckelt und darf nicht mehr als 1,0 Prozent der ausstehenden Kreditsumme betragen. Wenn Ihre Restlaufzeit nicht mehr als 12 Monate beträgt, liegt der Satz bei 0,5 Prozent.
+
+====================================================
+Wann ist eine Umschuldung möglich?
+
+Wenn Sie eine Umschuldung vornehmen wollen, kommt bestimmt eine Frage auf: Wann kann ich meinen bestehenden Kredit ablösen? Diese Frage kann leicht beantwortet werden: Theoretisch können Sie eine Umschuldung jederzeit vornehmen – zumindest das gilt für Kreditverträge, die Sie nach dem 11. Juni 2010 abgeschlossen haben. Haben Sie das Darlehen dagegen vor diesem Stichtag aufgenommen, müssen Sie sich an das Kündigungsrecht halten, dass davor Gültigkeit genoss. Ihre Vertragsklauseln werden Ihnen mehr Aufschluss darüber geben.
+
+Der Juni 2010 hat viele Veränderungen für private Kreditnehmer mit sich gebracht – doch was genau hat sich geändert? In diesem Monat traten die Verbraucherkreditrichtlinien in der gesamten Europäischen Union in Kraft mit dem Ziel, Verbraucher stärker vor unlauteren Werbemaßnahmen von Banken und Kreditvermittlern zu schützen und dass sie transparentere Informationen zu den Kreditkonditionen erhalten. Zusätzlich beschlossen die Politiker, dass Kreditnehmer künftig ein vereinfachteres Kündigungsrecht erhalten sollen. Somit können Schuldner einen Kredit, den sie ab diesem Tag geschlossen haben, jederzeit ganz oder teilweise zurückzahlen. Das heißt: Wenn Sie vor einem Jahr einen Ratenkredit abgeschlossen haben und Sie sich ärgern, dass Banken aktuell günstigere Zinsen bieten, können Sie Ihren Ratenkredit einfach mit einem preiswerteren Angebot umschulden. Diesen Vorteil können Sie aber leider nicht immer kostenlos nutzen: Denn Banken haben im Gegenzug das Recht, eine Vorfälligkeitsentschädigung zu erheben, um die Zinsverluste, die aus der vorzeitigen Kündigung resultieren, auszugleichen. Es gibt aber Banken, die dieses Entgelt nicht in Rechnung stellen.
+
+Für die Baufinanzierung gelten dagegen andere Regeln: Einen entsprechenden Kredit können Sie nur mit einer Kündigungsfrist von sechs Monaten umschulden. Auch hier kann eine Vorfälligkeitsentschädigung anfallen. Diese wird aber nur dann von Banken erhoben, wenn Sie den Baukredit vor dem zehnten Jahr Ihrer Zinsbindung ablösen. Anschließend ist die Umschuldung kostenlos möglich.
+
+Bei älteren Kreditverträgen, die ein anderes Kündigungsrecht besitzen, müssen Sie sich dagegen an andere Fristen halten. Wenn Sie einen Kredit vor dem Inkrafttreten der EU-Richtlinien für Verbraucherkredite abgeschlossen haben, müssen Sie in der Regel eine Kündigungsfrist von drei Monaten einhalten. Kosten für die Umschuldung fallen dafür aber nicht an.
+
+====================================================
+Wann kann ich eine Baufinanzierung umschulden?
+
+Das Thema Umschuldung ist bei einer Baufinanzierung ein ständiger Begleiter. Spätestens wenn die Zinsbindung ausgelaufen ist, müssen Sie sich um einen neuen Kredit bemühen, mit dem Sie die Restschuld ablösen können. Entweder greifen Sie dabei auf ein Angebot Ihrer aktuellen Bank zurück und führen eine Prolongation durch, oder – und das ist aus finanzieller Sicht meist die günstigste Variante – Sie nutzen eine Anschlussfinanzierung und schulden den Betrag über ein anderes Institut um.
+
+Wenn Sie sich für die zweite Option entscheiden, gibt es verschiedene Möglichkeiten der Umschuldung. Bei einer vorzeitigen Rückzahlung eines Immobilienkredits müssen Sie zunächst eine Kündigungsfrist von sechs Monaten einhalten. Beachten Sie dabei aber folgendes: Erfolgt die Kreditablösung vor dem zehnten Zinsbindungsjahr, müssen Sie für das Vorhaben tief in die Tasche greifen. Denn Banken haben dann Anspruch auf eine Vorfälligkeitsentschädigung – ebenso wie beim Ratenkredit. Und die hat es bei einer Baufinanzierung in sich. Für die Kalkulation der Gebührenhöhe wird die Differenz Ihres Zinssatzes und einer aktuellen Rendite für eine alternative Anlage – zum Beispiel Pfandbriefe mit der gleichen Laufzeit wie Ihre restliche Sollzinsbindung – berechnet. Angesichts der damit verbundenen hohen Kosten sollten Sie daher von einer Umschuldung absehen. Sobald das zehnte Jahr überschritten ist, können Sie den Baukredit jedoch kostenlos ablösen.
+
+Alterativ haben Sie aber auch die Möglichkeit, sich die aktuellen Zinsen bereits Jahre im Vorfeld zu sichern und so einer teuren Vorfälligkeitsentschädigung zu entgehen. Das Forward-Darlehen macht das möglich: Bis zu 60 Monaten im Voraus können Sie sich die derzeitigen Konditionen für Ihre Anschlussfinanzierung sichern. Der Haken dabei ist, dass Ihnen die Bank dafür, dass sie die aktuell günstigen Zinsen für Sie bereithält, einen Aufschlag auf den effektiven Jahreszins anrechnet. Wie hoch dieser ist, hängt von der Vorlaufzeit und der Situation an den Kapitalmärkten ab. Diese Option lohnt sich aber nur, wenn aktuelle Prognosen steigende Zinsen voraussagen.
+
+====================================================
+Lohnt es sich, einen Kredit umzuschulden?
+
+Wenn die Umstände stimmen, kann sich eine Umschuldung durchaus bezahlt machen – abgesehen von der Kostenersparnis können Sie von übersichtlicheren Ratenzahlungen und einer besseren Bonität profitieren. Ob sich eine Kreditumschuldung in Ihrem speziellen Fall lohnt, ist von verschiedenen Faktoren abhängig.
+
+In erster Linie ist es für den finanziellen Erfolg eines Umschuldungsvorhabens wichtig, wie hoch die aktuellen Zinssätze von Ratenkrediten sind. Wenn sie günstiger sind als der Zinssatz Ihres bestehenden Kredits, sollten Sie eine Umschuldung in Betracht ziehen. Je nachdem, wie hoch der Zinsunterschied ist, können Sie so viel Geld sparen – das gilt insbesondere für die Umschuldung eines Dispokredits. Über die Konditionen, die Banken aktuell anbieten, können Sie sich über den CHECK24-Vergleich informieren.
+
+Besonders empfehlenswert ist eine Umschuldung, wenn Sie mehrere Kredite parallel abbezahlen. Selbst wenn die aktuellen Zinsen nicht günstiger sind als die Ihrer alten Kredite, kann sich eine Kreditablösung in diesem Fall bezahlt machen. Durch das Zusammenfassen der Kredite verbessern Sie nämlich Ihre Bonität: Mehrere Verbindlichkeiten nebenher laufen zu haben hat den Nachteil, dass Sie den Überblick über Ihre Schulden verlieren können – dadurch erhöht sich das Ausfallrisiko. Entweder verlieren Sie den Überblick über die Raten, die Sie monatlich aufbringen müssen, und es kommt zu Zahlungsverzügen. Oder Sie können sich die Zahlungen nicht mehr leisten, weil deren Gesamtsumme Ihr finanzielles Budget übersteigen. Bei beiden Szenarien wird Ihre Bonität erheblich beeinträchtigt. Wenn Sie die Kredite dagegen zusammenfassen und umschulden, können Sie dieses Risiko beseitigen. Die Bank, bei der Sie den Umschuldungskredit aufnehmen, wird die Höhe der Monatsrate genau auf Ihre Finanzanlage anpassen, damit Sie das Darlehen problemlos tilgen können. Eine Verbesserung Ihrer Kreditwürdigkeit hat auch zur Folge, dass Sie einen besseren Zinssatz für den neuen Kredit erhalten und so Ihre Gesamtkosten senken.
+
+Generell ist eine Kreditumschuldung aber nur empfehlenswert, wenn die Restlaufzeit Ihres Kredits noch mehrere Jahre in Anspruch nehmen wird. Ausnahme: Ihr bestehender Kredit läuft noch einige Monate und Sie benötigen eine weitere Finanzierung – dann kann eine Ablösung sinnvoll sein.
+
+====================================================
+Wieso dürfen Banken eine Vorfälligkeitsentschädigung in Rechnung stellen?
+
+Wenn Sie eine Umschuldung vornehmen, kann es passieren, dass Sie an Ihre Bank eine Vorfälligkeitsentschädigung zahlen müssen. Das Recht eine Gebühr zu erheben, wenn Schuldner ihren Kredit vorzeitig zurückzahlen, haben Banken seit dem 11. Juni 2010 – dem Tag, an dem die EU-Richtlinien für Verbraucherkredite eingeführt wurden. Grundlage dieses Beschlusses war, dass die Banken bei einer Umschuldung zum Teil hohe Verluste tragen müssen. Aber wie kommen diese Verluste zustande? Zum einen erleiden Banken bei einer Kreditkündigung einen Refinanzierungsschaden und zum anderen einen Margenschaden.
+
+Schuld an den Verlusten ist die Refinanzierungsstruktur der Bank: Die Zinssätze von Ratenkrediten sind gebunden und bleiben somit über die gesamte Laufzeit gleich. Damit die Banken langfristig sichere Zinsen anbieten können, refinanziert sie sich beim Abschluss des Kreditvertrags zum gegenwärtigen Marktzins für die Dauer der Zinsfestschreibung. Wenn Sie den Kredit nun vorzeitig zurückzahlen, kann die Bank das Geld nur zum aktuellen Marktzinssatz anlegen und nicht zum ursprünglichen. Der Refinanzierungsschaden ist dann die Differenz bezogen auf die Restlaufzeit.
+
+Bei dem Margenschaden handelt es sich um die Minderung des Gewinns der Bank. Das Kreditinstitut erzielt ihre Gewinne durch die Differenz, also die Marge, zwischen dem Kredit- und dem Einlagenzins – Einlagen werden in der Regel geringer verzinst. Je länger die Kreditlaufzeit ist, umso höher sind die Einnahmen des Instituts. Wenn der Kreditnehmer das Darlehen vorzeitig begleicht, kann die Bank für den bereits einkalkulierten Zeitraum keine Marge mehr erwirtschaften – der Margenschaden bezeichnet demnach den Verlust künftiger Erträge.
+
+Handelt es sich bei Ihrem Kredit um einen Ratenkredit, ist die Vorfälligkeitsentschädigung auf maximal 1,0 Prozent des Restkreditbetrags festgeschrieben. Wenn der Zeitraum zwischen der vereinbarten und der vorzeitigen Rückzahlung weniger als zwölf Monate liegen, dürfen Banken nicht mehr als 0,5 Prozent der Restschuld verlangen (nach § 502 BGB). Bevor Sie eine Umschuldung vornehmen, sollten Sie daher berechnen, ob sich diese aus finanzieller Sicht rentiert.
+
+====================================================
+Bei welcher Bank ist eine Umschuldung empfehlenswert?
+
+Pauschal kann diese Frage nicht beantwortet werden. Bei welcher Bank eine Umschuldung zinsgünstig möglich ist, finden Sie nur heraus, wenn Sie die Kreditangebote der Institute vergleichen. Denn die Höhe der Zinsen kann je nach Anbieter deutlich variieren. Einen umfassenden Überblick über die aktuellen Kreditzinsen erhalten Sie am ehesten mit dem Kreditvergleich von CHECK24. Darin sind zahlreiche Banken mit deren Konditionen aufgeführt. Gegen Sie in dem Rechner die Eckdaten Ihres Kreditwunsches an und er filtert Ihnen günstige Finanzierungsangebote heraus.
+
+So weit, so gut. Doch worauf müssen Sie bei einem Vergleich genau achten? Das Kreditangebot einer Bank ist für eine Umschuldung geeignet, wenn die Zinsen günstiger sind als der Zinssatz Ihres bestehenden Kreditvertrags. Besonders günstige Zinsen sind in der Regel über das Internet zu finden – Online-Kredite verfügen im Schnitt über preiswertere Konditionen als die Finanzierungen, die in Filialen angeboten werden. Der Grund dafür ist einfach: Wenn Sie einen Kredit in der Filiale aufnehmen, fallen für die Bank zusätzliche Kosten für das Personal und die Zweigstelle an. Diese werden auf das Produkt aufgeschlagen. Bei Ratenkrediten, die online vergeben werden, entfallen derartige Kosten. So können die Kredite zu einem günstigeren Zinssatz angeboten werden. Weit vorn liegen dabei die Direktbanken, deren Absatzmarkt in erster Linie das Internet ist. Aber auch Filialbanken vertreiben ihre Kredite vermehrt über das Internet – diese sind dann häufig preiswerter als vergleichbare Darlehen aus der Filiale.
+
+Wenn Sie die verschiedenen Finanzierungen der Banken vergleichen, sollten Sie vor allem dem effektiven Jahreszins Ihre Aufmerksamkeit widmen, der fast alle preisbestimmenden Faktoren in sich vereint. Einzig die Restschuldversicherung ist nicht darin verrechnet – durch diese werden sich Ihre Gesamtkosten zusätzlich erhöhen. In den meisten Fällen können Sie bei der Umschuldung aber auf eine solche Absicherung verzichten.
+
+Ein Hinweis zum Schluss: Wenn Sie selbstständig oder freiberuflich tätig sind, sollten Sie ebenfalls darauf achten, dass die Bank Kredite auch an diese Berufsgruppe vergibt. Wegen des vergleichsweise unsicheren Einkommens gibt es nämlich einige Institute, die an sie keine Darlehen vergeben.
+
+====================================================
+Wie viel kostet eine Umschuldung?
+
+Eine Umschuldung ist eine gute Sache: Indem Sie bestehende Kredite mit einem zinsgünstigeren Angebot ablösen, sparen Sie zum Teil sehr viel Geld. Eine Kreditablösung loht sich vor allem, wenn Sie mehrere Kredite parallel laufen haben. So sparen Sie nicht nur Geld, sondern erhalten auch einen besseren Überblick über die Forderungen, die Sie zurückzahlen müssen.
+
+Doch leider ist eine Umschuldung nicht immer kostenlos möglich. Banken haben die Möglichkeit, Gebühren für die vorzeitige Rückzahlung des Kreditbetrags in Rechnung zu stellen – das Entgelt ist allgemein als Vorfälligkeitsentschädigung bekannt. Dessen Höhe ist gesetzlich gedeckelt: So können Banken nicht mehr als 1,0 Prozent der Restkreditsumme erheben. Wenn die restliche Laufzeit Ihres bestehenden Darlehens aber nicht mehr als 12 Monate beträgt, darf die Bank nur 0,5 Prozent erheben. Diese Regelung wurde am 11. Juni 2010 in der Europäischen Union im Rahmen der Verbraucherkreditrichtlinien eingeführt.
+
+Die Gebührenerhebung ist aber auf freiwilliger Basis: Die Institute können sich somit auch dazu entschließen, auf die Vorfälligkeitsentschädigung zu verzichten und so ihren Kunden eine kostenlose Umschuldung zu ermöglichen. Bevor Sie einen neuen Kredit abschließen, lohnt es sich beim Konditionsvergleich auf darauf zu achten, dass Sie die Restschuld ganz oder teilweise kostenlos zurückzahlen zu können.
+
+Auch bei der Immobilienfinanzierung kann eine Gebühr für die vorzeitige Kreditkündigung anfallen. Hier gelten aber andere Regeln: Eine Vorfälligkeitsentschädigung wird berechnet, wenn Ihr Vertrag eine Zinsbindungsdauer von mehr als zehn Jahren besitzt und Sie den Kredit vor dem zehnten Vertragsjahr umschulden. Danach ist eine Umschuldung kostenlos – selbst wenn die Zinsbindung länger andauern würde. So können Sie sich selbst bei langen Vertragsfristen günstige Zinsen für Ihren Umschuldungskredit sichern. Die Kündigungsfrist einer Baufinanzierung beträgt ein halbes Jahr.
+
+Sollten Sie Ihren Kredit aber vor Einführung der EU-Richtlinien aufgenommen haben, gelten für Verbraucherkredite andere Regeln. Ihr Kündigungsrecht richtet sich dabei nach den Klauseln in Ihrem Kreditvertrag. Wenn Ihnen die Vertragsklauseln die Möglichkeit einer Umschuldung einräumen, müssen Sie eine Kündigungsfrist von drei Monaten einhalten, dafür entfällt aber die Gebühr.
+
+====================================================
+Kann der Umschuldungskredit auch bei einer anderen Bank abgeschlossen werden?
+
+Wenn Sie einen oder mehrere Kredite umschulden wollen, können Sie das auch bei einer anderen Bank durchführen – das steht außer Frage. Zu diesem Schritt ist sogar anzuraten, da ein Vergleich der Konditionen häufig zeigt, dass die Zinsen bei anderen Kreditinstituten günstiger sind als bei dem eigenen. Das ist nicht nur bei Ratenkrediten der Fall, sondern vor allem auch bei Baufinanzierungen. Wenn Sie sich also auf die Suche nach einem Institut machen, das einen günstigen Umschuldungskredit offeriert, sollten Sie unbedingt auf die Höhe des effektiven Jahreszinses achten.
+
+Gerade im Bereich der Baufinanzierung ist eine Ablösung der Restschuld über eine andere Bank sinnvoll. Denn hier erhalten Sie in der Regel einen besseren Zinssatz – und sparen so sehr viel Geld. Besonders bei hohen Kreditbeträgen mit langen Laufzeiten, wie es bei einer Immobilienfinanzierung der Fall ist, machen bereits kleinste Zinsunterschiede den Braten fett. Ein genauer und unvoreingenommener Vergleich der Konditionen ist daher unbedingt anzuraten. Selbst wenn Sie nur die besten Erfahrungen mit Ihrer Hausbank gemacht haben: Wenn Ihnen Ihr Geld lieb ist, sollten Sie die Umschuldung nur über das Institut Ihres Vertrauens laufen lassen, sofern es eines der günstigsten Zinsangebote bietet.
+
+Das Gleiche gilt bei Ratenkrediten, Dispokrediten und anderen Finanzierungen: Den Umschuldungskredit sollten Sie bei dem Geldhaus aufnehmen, bei dem Sie den günstigsten Zinssatz erhalten. In der Regel können Sie einen Ratenkredit zum Zusammenfassen und Umschulden von Krediten nutzen – sie können frei verwendet werden, Vorgaben für die Nutzung gibt es demnach nicht. Es gibt aber auch Institute, die ein Darlehen nicht für diesen Zweck herausgeben. Wenn Sie den Umschuldungskredit über den Kreditrechner von CHECK24 suchen, finden Sie aber problemlos passende Angebote. Geben Sie dazu einfach den entsprechenden Verwendungszweck an. Bei einem Umschuldungsvorhaben ist es wichtig, den Zweck der Finanzierung anzugeben, da die Banken eine Ablösevollmacht benötigen. Durch diese ist das Finanzhaus berechtigt, die Verbindlichkeiten in Ihrem Namen abzulösen.
+
+====================================================
+Was passiert mit der Restschuldversicherung, wenn ich meinen Kredit umschulde?
+
+Als Verbraucher haben Sie die Möglichkeit, sich und Ihre Familie mit einer Restschuldversicherung vor Zahlungsausfällen zu schützen. Häufig wird dieser Schutz gleich bei der kreditgebenden Bank abgeschlossen. Wenn Sie sich nach Jahren entscheiden, das Darlehen umzuschulden, müssen Sie sich fragen: Was passiert mit der Restschuldversicherung?
+
+Was sich zunächst als echtes Problem anhört, ist in Wahrheit keins. Denn in der Regel ist es problemlos möglich, die Kreditversicherung zu kündigen. Die gezahlte Versicherungsprämie wird Ihnen anschließend anteilig zurückerstattet. Das beste: Wenn Sie Ihren Kreditvertrag kündigen und umschulden, müssen Sie sich an keine Kündigungsfristen halten. So können Sie sowohl den Kredit- als auch den Versicherungsvertrag gleichzeitig auflösen. Zudem erhalten Sie die Prämie für die verblieben Laufzeit anteilig zurückerstattet.
+
+Wenn Sie einen bestehenden Kredit umschulden, kommen Sie kaum umhin auch die Restschuldversicherung zu kündigen, da es nicht möglich ist, den bestehenden Policenvertrag auf den neuen Ratenkredit zu übertragen. Wenn Sie sich und Ihre angehörigen auch beim Umschuldungskredit vor Zahlungsausfällen absichern wollen, müssen Sie bei der neuen Bank erneut eine Restschuldversicherung abschließen.
+
+Nach Möglichkeit ist es aber besser, darauf zu verzichten, weil diese Police Ihre Gesamtkosten deutlich in die Höhe schraubt. In der Regel werden die Versicherungsprämien über den Kredit mitfinanziert und somit auch mitverzinst. Daher kann sich Ihre Gesamtbelastung flugs um mehrere tausend Euro erhöhen – je nach Kredithöhe und Laufzeit. Lohnenswert ist ein solcher Schutz meist auch nur bei wirklich risikoreichen Geldleihen – wie etwa sehr langfristige Finanzierungen wie Baukredite. Für Ratenkredite ist eigentlich selten eine zusätzliche Absicherung erforderlich. Ein geregeltes und sicheres Einkommen ist eines der wichtigsten Kriterien. Als kostengünstigere Alternative zur Restschuldversicherung können Sie aber auch eine bereits bestehende Berufsunfähigkeitsversicherung oder eine Kapitallebensversicherung nutzen. So mindern Sie das Ausfallrisiko und sparen zusätzlich Geld.
+
+Sind Sie aktuell auf der Suche nach einer preiswerten Umschuldung? Im Kreditvergleich finden Sie zahlreiche Angebote von Banken, deren Zinsen Sie gegenüberstellen können. Ein guter Weg, um möglichst viel Geld bei der Kreditablösung zu sparen!
+
+====================================================
+Wie finde ich einen günstigen Umschuldungskredit?
+
+Mit einer Umschuldung können Sie viel Geld sparen – so weit, so gut. Damit Sie Ihre Ersparnis auch möglichst hoch ausfällt, müssen Sie aber auf einen wesentlichen Faktor achten: Die Zinsen des neuen Kredits müssen günstiger sein als die Ihres bestehenden Darlehens. Nun die Frage: Wie finden Sie einen solchen Kredit? Und hier kommt das unabhängige Vergleichsportal CHECK24 ins Spiel: Entweder machen Sie sich die Mühe und erkundigen sich bei den einzelnen Banken über deren Konditionen – das kostet aber sehr viel Zeit und Mühe. Oder Sie wählen den einfachen Weg und informieren sich bei CHECK24 über die aktuellen Kreditzinsen der Banken und finden so einen günstigen Umschuldungskredit.
+
+Der Vergleich ist ganz einfach: Geben Sie in die entsprechenden Eingabefelder die erforderliche Kreditsumme, Laufzeit und den Verwendungszweck an. Es ist wichtig, den Zweck der Finanzierung zu nennen, da sich die Banken in der Regel um die Kreditumschuldung kümmern. Wenn das Finanzinstitut Ihren Antrag bewilligt, setzt es sich mit Ihrer alten Bank in Verbindung und informiert sich über die Höhe des Ablösebetrags zum Zeitpunkt der Kreditablösung und gegebenenfalls auch über hinterlegte Sicherheiten. Dazu müssen Sie das neue Institut mit einer Ablösevollmacht in Ihrem Namen berechtigen. Hinterlegte Sicherheiten muss der alte Gläubiger an den neuen übertragen. Die Bedingungen dafür sind im Treuhandauftrag geregelt. Erst wenn das alte Institut die Kreditsicherheiten an das neue überträgt kommt eine Kreditablösung zustande.
+
+Damit es aber überhaupt so weit kommt, müssen Sie einen günstigeren Umschuldungskredit finden. Ein Blick auf die Konditionen der Banken verrät, welche das beste Angebot offeriert – besondere Aufmerksamkeit sollten Sie dabei dem effektiven Jahreszins zukommen lassen. Der Grund: In ihm sind gleich mehrere preisbestimmende Faktoren – der Sollzins, die Laufzeit und die Bearbeitungsgebühr – zusammengefasst und bietet daher eine hervorragende Vergleichsbasis. Durch die Restschuldversicherung werden die Gesamtkosten zwar ebenfalls deutlich beeinflusst, doch handelt es sich dabei um eine freiwillige Zusatzleistung – die Kosten werden deshalb nicht im Kreditrechner berücksichtigt.
+
+Allerdings bringt ein Zinsvergleich noch nicht ausreichend Licht ins Dunkel. Denn Kredite können entweder bonitätsabhängig oder bonitätsunabhängig vergeben werden. Während die Konditionen bonitätsunabhängiger Kredite transparent gestaltet und somit leicht gegenübergestellt werden können – jeder Darlehensnehmer, dem der Kredit bewilligt wird, erhält den gleichen Zinssatz – können bonitätsabhängige Finanzierungen nicht so leicht verglichen werden. Hier entscheidet die Kreditwürdigkeit des Einzelnen über die Höhe des Zinssatzes. Damit Sie die Konditionen aber dennoch vergleichen können und einen günstigen Umschuldungskredit finden, sind im CHECK24-Kreditrechner die durchschnittlichen Gesamtkosten, die im Schnitt zwei Drittel der Kreditnehmer zahlen, in einem repräsentativen Beispiel nach §6 der Preisangabeverordnung abgebildet.
+
+Ein Tipp: Besonders günstige Zinsen erhalten Sie im Internet. Die Banken können Finanzierungen wegen der wegfallenden Filial- und Personalkosten preiswerter anbieten. So finden Sie schnell und sicher den richtigen Kredit für Ihre Umschuldung!
+
+====================================================
+Wie finde ich das richtige Girokonto?
+
+Bei der Suche nach dem richtigen Girokonto sollten verschiedene Kriterien wie Bargeldversorgung, Konditionen und Gebühren in die Wahl einfließen. Zudem müssen Kunden entscheiden, ob sie ihr Konto in der Filiale oder online bei einer Direktbank führen möchten.
+
+====================================================
+Wie funktioniert Onlinebanking?
+
+Beim Onlinebanking wird sowohl von Direktbanken als auch von Filialbanken angeboten. Im Rahmen dessen können Bankgeschäfte ganz bequem im Internet abgewickelt werden. Onlinebanking bietet maximale Flexibilität, Sicherheit und ist von jedem Ort auf der ganzen Welt aus möglich.
+
+====================================================
+Wie kann ich ein Girokonto eröffnen?
+
+Ein Girokonto kann unkompliziert und ohne großen Aufwand online eröffnet werden, da die Banken mit Hilfe des PostIdent-Verfahrens die Identität des Antragstellers problemlos feststellen können. Vor der Kündigung des alten Kontos müssen sämtliche Zahlungspartner informiert werden.
+
+====================================================
+Welche TAN-Systeme gibt es beim Onlinebanking?
+
+Um im Onlinebanking eine Transaktion zu tätigen, benötigt der Bankkunde eine Transaktionsnummer (TAN). Diese wird von den Instituten über unterschiedliche TAN-Systeme bereitgestellt. Die gängigsten sind aktuell iTAN, MobileTan, FinTS und ChipTan.
+
+====================================================
+Wie legen die Banken ihre Dispozinsen fest?
+
+Für die Nutzung des Dispokredites fallen bei vielen Banken hohe Dispozinsen an. Das ist auch dann der Fall, wenn sich die Institute dank eines niedrigen Leitzinses selbst günstig refinanzieren können. An welchen Kriterien orientieren sie sich stattdessen bei der Festlegung der Zinsen?
+
+====================================================
+Was ist der Unterschied zwischen einer Filialbank und einer Direktbank?
+
+Girokonten werden sowohl von Filialbanken als auch von Direktbanken angeboten. Direktbanken können meist mit besseren Konditionen punkten und bieten ihren Kunden bequemes und flexibles Onlinebanking. Bei Filialbanken steht die Persönliche Beratung im Vordergrund.
+
+====================================================
+Was ist die Gläubiger-Identifikationsnummer und wie wird sie beantragt?
+
+Um Geld von Kunden bzw. Mitgliedern einzuziehen, benötigen Unternehmen und Vereine seit der SEPA-Umstellung am 1. Februar 2014 eine Gläubiger-Identifikationsnummer. Diese kann auf einer eigens dafür eingerichteten Webseite der Bundesbank beantragt werden.
+
+====================================================
+Wie können Direktbankkunden einen Scheck einreichen?
+
+Heutzutage kommt es nur noch selten vor, dass Bankkunden einen Scheck einlösen müssen. In einigen Fällen zahlen aber beispielsweise Versicherer oder Reiseveranstalter Prämien und Gutscheine in Scheckform aus. Da Direktbankkunden in diesem Fall nicht in die Filiale gehen können, müssen sie den Scheck per Post einreichen.
+
+====================================================
+Gibt es Zinsen auf das Girokonto?
+
+Girokonten sind in der Regel nur gering oder überhaupt nicht verzinst. Größere Summen sollten deshalb nicht über einen längeren Zeitraum auf dem Girokonto liegenbleiben. In einigen Fällen bieten die Banken zusätzlich ein verzinstes Kreditkartenkonto oder Tagesgeldkonto an.
+
+====================================================
+Was ist ein Dispositionskredit?
+
+Ein Girokonto, das mit einem Dispokredit ausgestattet ist, wird auch Kontokorrentkonto genannt. Im Rahmen dessen können Kunden ihr Konto jeden Monat bis zu einem bestimmten Betrag überziehen. Ein Dispokredit bietet folglich hohe Flexibilität. Er kann jedoch auch schnell zur Kostenfalle werden.
+
+====================================================
+Wie kann ich mein Girokonto kündigen?
+
+Das Girokonto kann problemlos und in kurzer Zeit gekündigt werden – auch Kosten fallen für den Kontoinhaber keine an. Die Kündigung sollte allerdings nicht überstürzt erfolgen. Zunächst gilt es, ein neues Girokonto zu eröffnen und alle Zahlungspartner über die neuen Kontodaten zu informieren.
+
+====================================================
+Was ist der Unterschied zwischen V PAY und Maestro?
+
+Girocards können entweder mit dem Bezahlsystem Maestro oder mit V PAY ausgestattet sein. Beide Technologien sind sehr sicher und unterscheiden sich kaum. Bei der V PAY Karte werden die Daten nur aus dem EMV-Chip gelesen, was die Sicherheit etwas erhöht. Maestro bietet dafür Vorteile beim Auslandseinsatz.
+
+====================================================
+Welche Vor- und Nachteile hat ein Gemeinschaftskonto?
+
+Gemeinschaftskonten bringen oftmals Vorteile mit sich, wenn mehrere Personen gemeinsame Zahlungen abwickeln wollen. Gleichzeitig sollten jedoch einige Aspekte berücksichtigt werden.
+
+====================================================
+Wie kann bei einer Direktbank Bargeld eingezahlt werden?
+
+Direktbanken verfügen in der Regel nicht über ein eigenes Filialnetz. Dennoch können Kunden Bargeldeinzahlungen vornehmen – allerdings ist dies nicht immer kostenlos möglich.
+
+====================================================
+Was ist das PostIdent-Verfahren
+
+Das PostIdent-Verfahren dient Banken dazu, Neukunden eindeutig zu identifizieren. Dies schreibt das Geldwäschegesetz vor. Dafür müssen Kunden nur mit dem PostIdent-Coupon, den unterschriebenen Antragsunterlagen und einem gültigen Lichtbildausweis zur Post gehen.
+
+====================================================
+Was sind Geldautomatenverbunde?
+
+Um ihren Kunden eine bessere und flächendeckende Bargeldversorgung zu ermöglichen, gehören viele Banken einem Geldautomatenverbund an. Auf diese Weise können Kunden an allen Geldautomaten der zum Verbund gehörigen Institute kostenlos Bargeld abheben.
+
+====================================================
+Was ist das "Girokonto für jedermann"?
+
+Verbraucher in Notsituationen oder mit einem negativen Schufa-Eintrag haben es oft schwer, ein Konto zu eröffnen. Künftig können sie in diesem Fall ein Girokonto für jedermann beantragen: Ein Basiskonto, das die Teilnahme am alltäglichen Zahlungsverkehr ermöglicht.
+
+====================================================
+Kann ich mit der Girocard auch im Ausland bezahlen und Geld abheben?
+
+Mit der Girocard kann auch im europäischen Ausland bargeldlos bezahlt und Geld abgehoben werden. Lediglich außerhalb Europas kann es in einigen Fällen vorkommen, dass der EMV-Chip der Girocard nicht gelesen wird. Kunden sollten sich im Vorfeld über Konditionen und Gebühren informieren.
+
+====================================================
+Was ist ein Girokonto?
+
+Das Girokonto zählt zu den wichtigsten Finanzprodukten, denn Menschen regeln hierüber ihren täglichen Zahlungsverkehr. Beispielsweise werden Zahlungen wie etwa Miete, Handy- oder Stromrechnung oft monatlich mittels Überweisung bezahlt. Zudem ermöglicht das Girokonto auch den Zugang zu Bargeld: Verbraucher erhalten bei der Kontoeröffnung standardmäßig eine Girokarte.
+
+====================================================
+Was ist ein P-Konto?
+
+Wenn die Schulden einer Person zu hoch werden, wird in manchen Fällen eine Zwangsvollstreckung eingeleitet. Diese soll sicherstellen, dass die Gläubiger ihre Ansprüche gegenüber den Schuldnern geltend machen können. Ein Pfändungsschutzkonto (P-Konto) schützt einen gewissen Freibetrag auf dem Konto, über den der Schuldner weiterhin frei verfügen kann.
+
+====================================================
+Was ist die Photo-TAN?
+
+Als Photo-TAN-Methode bezeichnet man eine moderne Sicherheitstechnik zur Legitimierung von Banktransaktionen. Die Generierung der Transaktionsnummer (TAN) wird bei dieser Methode durch das Einscannen eines farbigen, stark verpixelten Grafik-Codes generiert.
+
+====================================================
+Wo bekommt man einen Autokredit?
+
+Ein Autokredit kann über die Hausbank, eine Direktbank bzw. Online-Bank oder direkt über den Autohersteller beantragt werden. Da eine Direktbank oder Online-Bank auf Filialen verzichtet und so Kosten einspart, können diese Banken häufig besonders günstige Zinssätze auf Ihre Finanzierungen bieten. Ein Vergleichsrechner hilft Ihnen bei der Ermittlung des attraktivsten Angebotes.
+
+====================================================
+Welche Alternativen gibt es zum Autokredit?
+
+Es gibt verschiedene Alternativen zu einem Autokredit. Um ein Kraftfahrzeug zu finanzieren, kann beispielsweise auch eine Drei-Wege-Finanzierung von einer Autobank genutzt werden. Auch ein gewöhnlicher Ratenkredit bietet sich an, wenn zusätzlich alte Verbindlichkeiten auf den neuen Kredit umgeschuldet werden sollen.
+
+====================================================
+Muss ich für den Autokredit Sicherheiten hinterlegen?
+
+Bei einem Autokredit dient neben dem Einkommen häufig auch eine Hinterlegung des Fahrzeugbriefes bei der Bank als Sicherheit. Dabei geht das Eigentum am Kraftfahrzeug während der Kreditlaufzeit auf den Kreditgeber über. Sollte es zu einem Zahlungsausfall kommen, kann die Bank das Fahrzeug verwerten.
+
+====================================================
+Wie flexibel ist die Finanzierung beim Autokredit?
+
+Ein Autokredit ist zweckgebunden und muss zu 90 bis 95 Prozent für eine Finanzierung im Fahrzeugbereich verwendet werden. Durch eine Anzahlung kann die Ratenhöhe oder die Laufzeit verändert werden. Auch können durch eine längere Laufzeitniedrigere Monatsraten für den Kredit erzielt werden.
+
+====================================================
+Wird meine Kreditwürdigkeit überprüft?
+
+Eine Überprüfung Ihrer Kreditwürdigkeit wird auch beim Autokredit durchgeführt. Dafür wird die Bank eine Abfrage bei der Schutzgemeinschaft für allgemeine Kreditsicherung (Schufa) durchführen. Fällt die Bewertung negativ aus, bekommen Sie schwerer eine Zusage für Ihren gewünschten Kredit.
+
+====================================================
+Kann der Kredit nur für den Kauf eines Autos verwendet werden?
+
+Ein Autokredit kann für den Kauf eines Neu- oder Gebrauchtfahrzeuges verwendet werden und ebenso für den Einbau oder Erwerb von Fahrzeugzubehör oder die Umrüstung oder Reparatur eines Kraftfahrzeuges. Da das Fahrzeug den Kreditinstituten eine hohe Sicherheit bietet, sind die Konditionen für einen Autokredit besonders attraktiv.
+
+====================================================
+Wie komme ich an einen günstigen Autokredit?
+
+Einen Fahrzeugkredit erhalten Sie bei einer Onlinebank, Ihrer Hausbank oder direkt über Ihren Fahrzeughändler. Die Zinsen für eine Fahrzeugfinanzierung sind jedoch generell niedrig, da von vielen Banken eine Hinterlegung des Kfz-Briefes gefordert wird. Dabei sichert das Fahrzeug den Kredit ab und kann bei einem Zahlungsausfall verwertet werden.
+
+====================================================
+Welche Vorteile bietet eine Kfz-Finanzierung?
+
+Bei einem Autokredit profitieren Sie in der Regel von attraktiven Konditionen. Dies wird durch die Deponierung Ihres Kfz-Briefes bei der Bank möglich. So sicheren sich viele Kreditinstitute vor einem Zahlungsausfall ab. Wird der Kredit nicht getilgt, kann die Bank das Fahrzeug verwerten und aus dem Erlös die ausstehende Schuld begleichen.
+
+====================================================
+Warum muss ich den Fahrzeugbrief bei der Bank hinterlegen?
+
+Die Kreditinstitute fordern für einen Autokredit in der Regel, dass der Kfz-Brief (Zulassungsbescheinigung II) bei der Bank hinterlegt wird. Die Bank behält den Brief bis zur vollständigen Tilgung der Schuld ein. Mit der Übergabe des Briefes und einer Sicherungsübereignung sichert sich die Bank gegen Zahlungsausfälle ab.
+
+====================================================
+Was bedeutet "zweckgebunden" bei einem Autokredit?
+
+Bei einem Fahrzeugkredit handelt es sich um einen zweckgebundenen Ratenkredit. Dieser wird für eine Finanzierung im Kfz-Bereich verwendet werden. Dabei kann der Kredit sowohl für ein Neu- oder Gebrauchtfahrzeug, als auch beispielsweise für die Reparatur desselben verwendet werden. Das Fahrzeug dient dabei häufig als Sicherheit für die Bank.
+
+====================================================
+Für wen eignet sich Festgeld?
+
+Festgeld eignet sich besonders für Sparer, die Planungssicherheit schätzen. Denn die Verzinsung von Festgeld bleibt die gesamte Laufzeit über konstant, wodurch der Anleger bereits im Vorfeld der Eröffnung die Rendite berechnen kann.
+
+====================================================
+Ist ein Mindestanlagebetrag oder Höchstanlagebetrag zu beachten?
+
+Im Falle von Festgeldkonten sind in der Regel sowohl Mindest- als auch Höchstanlagebeträge zu beachten. Die für die Eröffnung eines Kontos erforderliche Summe kann wenige hundert aber auch mehrere tausend Euro betragen.
+
+====================================================
+Muss ein Festgeldkonto gekündigt werden?
+
+Sofern ein Kunde im Rahmen der Eröffnung eines Festgeldkontos mit der Bank eine automatische Prolongation vereinbart hat, muss er das Festgeldkonto kündigen, um nach Laufzeitende auf sein Guthaben zugreifen zu können. Andernfalls legt die Bank das Geld erneut an.
+
+====================================================
+Müssen Zinserträge aus Festgeld versteuert werden?
+
+Kapitalerträge unterliegen der sogenannten Abgeltungssteuer. Mit Hilfe eines Freistellungsauftrags haben Sparer allerdings die Möglichkeit, Erträge von bis zu 801 Euro ohne steuerliche Abzüge einzunehmen.
+
+====================================================
+Was ist der Unterschied zwischen einem Referenz- und einem Verrechnungskonto?
+
+Bei der Eröffnung eines Festgeldkontos ist in der Regel die Angabe eines Referenzkontos erforderlich. Dabei handelt es sich meist um das Girokonto des Sparers. Bei einigen Banken wird zwischen Anlage- und Referenzkonto zusätzlich noch ein Verrechnungskonto geschaltet.
+
+====================================================
+Was ist ein Freistellungsauftrag?
+
+Sparer dürfen pro Jahr Kapitalerträge von 801 Euro ohne steuerliche Abzüge einnehmen. Voraussetzung dafür ist, dass sie den Banken, bei denen sie Zinsen einfahren, Freistellungsaufträge erteilen.
+
+====================================================
+Welche Aspekte sind bei der Wahl eines Festgeldkontos zu beachten?
+
+Vor der Eröffnung eines Festgeldkontos sollten verschiedene Aspekte beachtet werden. Neben der Höhe der Verzinsung zählen dazu beispielsweise etwaige Mindest- und Höchstanlagebeträge. Auch das Thema Sicherheit sollte nicht außer Acht gelassen werden.
+
+====================================================
+Welche Kosten können bei einem Festgeldkonto anfallen?
+
+Festgeldkonten werden von Banken in der Regel gebührenfrei angeboten. Kosten können allerdings entstehen, wenn ein Sparer vor Ende der Laufzeit auf sein Guthaben zugreifen möchte.
+
+====================================================
+Welche Unterschiede bestehen zwischen Festgeld und Tagesgeld?
+
+Tagesgeld- und Festgeldkonten gelten gleichsam als sichere Anlageformen. Der zentrale Unterschied zwischen ihnen besteht im Hinblick auf die Verfügbarkeit des Guthabens: Während auf ein Tagesgeldkonto jederzeit zugegriffen werden kann, ist dies beim Festgeldkonto nicht der Fall.
+
+====================================================
+Wer darf ein Festgeldkonto eröffnen?
+
+Wer volljährig ist, im eigenen Namen handelt, in Deutschland gemeldet ist, ein Girokonto bei einer deutschen Bank und ein Mobiltelefon mit deutscher SIM-Karte besitzt, sowie eine gültige E-Mail-Adresse und Internetzugang hat, kann bei einer (Online-)Bank ein Festgeldkonto eröffnen.
+
+====================================================
+Wie funktioniert das Postident-Verfahren?
+
+Das Postident-Verfahren dient dazu, eine Person, die online bei einer Bank ein Finanzprodukt beantragt hat, eindeutig zu identifizieren. Durchgeführt wird es von der Deutschen Post.
+
+====================================================
+Wie hoch werden Festgeldkonten verzinst?
+
+Die Zinsen, die auf Festgeldanlagen gewährt werden, variieren zwischen den Banken. Einfluss auf die Höhe der Rendite hat auch die Frage, ob die Zinsen auf die Anlagesumme aufgeschlagen und anschließend mitverzinst werden.
+
+====================================================
+Wie viel Geld sollte auf einem Festgeldkonto angelegt werden?
+
+Festgeld wird für eine bestimmte Dauer angelegt – währenddessen besteht kein Zugriff auf das Guthaben. Sparer sollten in dieser Form dementsprechend nur Beträge anlegen, auf die sie im jeweiligen Zeitraum mit Sicherheit verzichten können.
+
+====================================================
+ Wofür kann ich einen Ratenkredit einsetzen?
+
+Ein Ratenkredit kann für verschiedene Anschaffungen genutzt werden wie beispielsweise einen Autokauf oder eine Urlaubsreise. Dabei ist der Kredit entweder an einen bestimmten Verwendungszweck gebunden sein oder er kann frei für jeden beliebigen Zweck genutzt werden. Häufig bieten die Banken einen besonders günstigen Zinssatz für einen zweckgebundenen Kredit.
+
+====================================================
+Wie steht es mit Laufzeiten und Kredithöhe?
+
+Bei einem Ratenkredit sind Laufzeiten zwischen 12 und 84 Monaten möglich. Manche Banken bieten sogar Laufzeiten von bis zu 120 Monaten. Auch die Höhe des Kredits kann variieren. Die Kreditsumme liegt in der Regel zwischen 1.000 und 75.000 Euro.
+
+====================================================
+Wie berechnen sich die Monatsraten?
+
+Bei einem Ratenkredit belaufen sich die monatlichen Zahlungen immer auf dieselbe Höhe. Dabei sinkt der Anteil der Zinsen mit jeder Rate, während der Tilgungsanteil zunimmt. Dies ist der Fall, da die Zinsen immer auf die Restschuld gerechnet werden, die Monatsraten jedoch jeden Monat die gleiche Höhe umfassen.
+
+====================================================
+Wer erhält einen Ratenkredit?
+
+Um die Zusage für einen Ratenkredit zu erhalten, müssen Sie verschiedene Voraussetzungen erfüllen. Hierzu müssen Sie unter anderem volljährig sein und über ein deutsches Bankkonto verfügen. In dem meisten Fällen muss zudem ein unbefristetes Arbeitsverhältnis nachgewiesen werden. Auch eine Überprüfung Ihrer Kreditwürdigkeit ist die Regel.
+
+====================================================
+Lohnt sich ein Ratenkredit oder sollte ich lieber den Dispo nutzen?
+
+Es lohnt sich meist statt eines Dispokredits einen Ratenkredit in Anspruch zu nehmen. Dies ist unter anderem der Fall, da bei einem Ratenkredit deutlich niedrigere Zinssätze genutzt werden können. Auch sind bei diesem Kredit die Laufzeiten mit 12 bis 120 Monaten bedeutend länger. Ein Dispositionskredit lohnt sich meist nur über kurze Zeiträume.
+
+====================================================
+Kann ich mit einem Ratenkredit einen Dispokredit umschulden?
+
+Einen Ratenkredit können Sie nutzen, um bereits bestehende Verbindlichkeiten umzuschulden. Dabei werden diese gekündigt und von einem neuen Kredit bei einem beliebigen Kreditinstitut übernommen. Jedoch kann die Bank in vielen Fällen eine Vorfälligkeitsentschädigung für die vorzeitige Kündigung des Darlehens berechnen.
+
+====================================================
+Wie lange dauert es bis der Kreditbetrag zur Verfügung steht?
+
+Nachdem Sie sich für den Ratenkredit eines bestimmten Kreditinstitutes entschieden haben und die Unterlagen von Ihnen per Postident-Verfahren unterzeichnet und gemeinsam mit den benötigten Nachweisen übermittelt haben, erhalten Sie nach positiver Prüfung innerhalb weniger Tage die Kreditsumme auf Ihrem Konto.
+
+====================================================
+Kann ich einen Ratenkredit schneller als geplant zurückzahlen?
+
+Im Kreditvertrag ist festgelegt, ob ein Ratenkredit auch früher als vereinbart zurückgezahlt werden kann. Dabei besteht die Möglichkeit zu kostenlosen Sondertilgungen nicht bei jedem Kreditinstitut. Manche Banken stellen für die vorzeitige Tilgung des Kredits auch eine Vorfälligkeitsentschädigung in Rechnung.
+
+====================================================
+Warum lehnt die Bank meinen Kreditantrag ab?
+
+Ob Sie eine Kreditzusage erhalten wird von vielen unterschiedlichen Faktoren beeinflusst. Ist Ihre Bonität negativ bewertet, wird der Kreditantrag in der Regel abgelehnt. Um doch noch einen Ratenkredit zu erhalten können Ihnen Sicherheiten oder das Hinzunehmen eines zweiten Kreditnehmers helfen.
+
+====================================================
+Wird meine Bonität durch die Schufa geprüft?
+
+Vor der Bewilligung eines Ratenkredits überprüft die Bank Ihre Bonität durch eine Abfrage bei der Schutzgemeinschaft für allgemeine Kreditsicherung, kurz Schufa. Diese bewertet Ihre Bonität und nennt den Banken einen Scorwert, welcher die Wahrscheinlichkeit wiedergibt, dass es zu einem Zahlungsausfall kommt und der Kredit nicht getilgt wird.
 
 ====================================================
 Was ist der Konto-Sofortcheck?
