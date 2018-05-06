@@ -5,6 +5,8 @@ if __name__ == '__main__':
     nlp = NlpWrapper()
     feature_processor = FeatureProcessor(nlp)
     print(feature_processor(
+        "Kann die mobileTAN auch im HBCI- und FinTS-Zugangs-Kanal genutzt werden? "))
+    print(feature_processor(
         "Alle Unterlagen senden Sie uns vollständig ausgefüllt und unterschrieben retour."))
     print(feature_processor(
         "Unten Ein DepotPlus können Sie ausschließlich online unter dem unten genannten Link eröffnen."))

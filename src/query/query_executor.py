@@ -30,18 +30,13 @@ class QueryExecutor:
 
 
     def retrieve_answers(self, text):
-        if str.isdigit(text):
 
-            scores_tfidf = self.model_facade.similar_id(text)
-            text_from_id = self.mongo_repository.get_preprocessed_question(id)
-            tokens = text_from_id.split()
-        else:
-            text = self.feature_processor(text)
-            tokens = text.lower().split()
-            logging.info("Split to {}".format(tokens))
+        text = self.feature_processor(text)
+        tokens = text.lower().split()
 
-            scores_tfidf = self.model_facade.similar_doc(tokens)
-        token_map = self.model_facade.retrieve_similar_words(tokens, threshold = 0.85, topn=20)
+        trigrams, scores_tfidf = self.model_facade.similar_doc(tokens)
+
+        token_map = self.model_facade.retrieve_similar_words(trigrams, threshold = 0.85, topn=20)
 
         return scores_tfidf, token_map
 

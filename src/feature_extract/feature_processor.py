@@ -26,6 +26,7 @@ class FeatureProcessor:
         curr_trunc = None
         keep_toks = []
         for index, token in enumerate(doc):
+
             if (token.is_stop):
                 pass
             elif (index < len(docl) and docl[index].is_stop):
