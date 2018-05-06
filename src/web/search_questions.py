@@ -6,12 +6,13 @@ import logging
 
 logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO)
 
-
+@app.route('/bankdomain/search_questions', methods=['GET'])
 @app.route('/search_questions', methods=['GET'])
 def search_questions():
 
     return render_template('search_questions.html')
 
+@app.route('/bankdomain/search_questions_submit', methods=['POST'])
 @app.route('/search_questions_submit', methods=['POST'])
 def search_questions_submit():
     _ = app.application
