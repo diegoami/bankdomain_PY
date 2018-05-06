@@ -8,7 +8,7 @@ import logging
 logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO)
 app.wsgi_app = ProxyFix(app.wsgi_app)
 
-config = yaml.safe_load(open("config.yml"))
+config = yaml.safe_load(open("../config.yml"))
 key_config = yaml.safe_load(open(config["key_file"]))
 key_config.get("secret_key")
 app.config['SECRET_KEY'] = key_config.get("secret_key")
