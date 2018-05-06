@@ -56,4 +56,4 @@ if __name__ == '__main__':
     print(feature_processor(
         "Bitte beachten Sie, dass das \"Verstecken\" die Sicherheit Ihrer vertraulichen Benutzer-ID oder Ihres Passworts in keiner Weise beeinflusst. Wenn Sie einen Computer an einem öffentlichen Ort verwenden, lesen Sie bitte den folgenden Absatz 'Was sollte ich tun, wenn ich einen \"öffentlichen\" Computer benutze?'"))
     print(feature_processor(
-        "Bitte beachten Sie, dass das \"Verstecken\" die Sicherheit Ihrer vertraulichen Benutzer-ID oder Ihres Passworts in keiner Weise beeinflusst. Wenn Sie einen Computer an einem öffentlichen Ort verwenden, lesen Sie bitte den folgenden Absatz 'Was sollte ich tun, wenn ich einen \"öffentlichen\" Computer benutze?'"))
+        "MacOS-Version: Buchstaben, Zahlen,  (   )  [ ] . , : ; _  +  -  *  "))

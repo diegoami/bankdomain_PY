@@ -10,6 +10,7 @@ import numpy as np
 from gensim.models.doc2vec import TaggedDocument
 from datetime import timedelta
 import logging
+logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.DEBUG)
 
 
 class LabeledLineSentence(object):
@@ -47,12 +48,12 @@ class Doc2VecFacade:
         self.model = Doc2Vec.load(model_filename)
 
     def get_vector_from_phrase(self, phrase):
-        infer_vector = self.model.infer_vector(phrase)
+        infer_vector = self.model.infer_vector(phrase, alpha=self.alpha, steps=self.epochs)
         return infer_vector
 
 
-    def get_most_similar(self, vector):
-        return self.model.docvecs.most_similar([vector], topn=None)
+    def get_most_similar(self, vector, topn):
+        return self.model.docvecs.most_similar([vector], topn=topn)
 
 
     def create_model(self, texts):

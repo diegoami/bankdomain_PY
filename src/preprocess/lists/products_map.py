@@ -55,6 +55,10 @@ products_map = {
     "SparkassenShop" : "DidiShop",
     "Sparkassen-App": "DidiApp",
     "KWITT" : "DidiPay",
-    "S-pushTAN-App" : "pushTAN-App"
-
+    "S-pushTAN-App" : "pushTAN-App",
+    "MeinRahmenKredit" : "DidiRahmenKredit",
+    "MeinWohnKredit" : "DidiWohnKredit",
+    "MeinWunschKredit" : "DidiKredit",
+    "Prepaid Trios" : "DidiKonto",
+    "KEYPLAN-Konto" : "DidiKonto"
 }

@@ -1,0 +1,16 @@
+.buttonrow {
+    padding-bottm: 5px;
+}
+/* Clear floats after the columns */
+.buttonrow:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.buttoncolumn {
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
