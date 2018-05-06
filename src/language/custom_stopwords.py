@@ -4,7 +4,7 @@ CUSTOM_STOP_WORDS  = set("""
  above aufgrund and auf Auf at At aufs als Als
  Bei bevor bezüglich bitte Bitte
  c
- d daraufhin demnach dennoch desto Da dass diesbezüglich das Das davon Davon daher Daher
+ d daraufhin demnach dennoch desto Da dass diesbezüglich das Das davon Davon daher Daher deine Deine
  e ein Ein ehe Ehe eher Eher einfach Einfach
  f ggf ggf. 
  falls

@@ -206,7 +206,8 @@ CUSTOM_LOOKUP = {
 
     "Buchungen" : "Buchung",
     "Buttons" : "Button",
-
+    "Bürgern" : "Bürger",
+    "Bürgers" : "Bürger",
     "Cards": "Card",
     "cards": "Card",
     "Codes" : "Code",
@@ -283,6 +284,10 @@ CUSTOM_LOOKUP = {
     "ec-Terminals" : "ec-Terminal",
     "ec-Terminale": "ec-Terminal",
     "ec-Terminaln": "ec-Terminal",
+    "Eigenmitteln": "Eigenmittel",
+    "Eigenmittels": "Eigenmittel",
+    "Eigenmitteles": "Eigenmittel",
+
     "Eilüberweisungen" : "Eilüberweisung",
     "Eingabefelder" : "Eingabefeld",
     "Eingabefeldern": "Eingabefeld",
@@ -378,6 +383,8 @@ CUSTOM_LOOKUP = {
     "erstmaligen": "erstmalig",
 
     "ETFs" : "ETF",
+    "EU-Bürgern": "EU-Bürger",
+    "EU-Bürgers": "EU-Bürger",
     "EURO-Überweisungen" : "Euro-Überweisung",
     "EURO-Überweisung" : "Euro-Überweisung",
     "Euro-Überweisungen" : "Euro-Überweisung",
@@ -469,6 +476,11 @@ CUSTOM_LOOKUP = {
 
     "Folgemonaten": "Folgemonat",
     "Folgemonats": "Folgemonat",
+    "Fondsanteils" : "Fondsanteil",
+    "Fondsanteile": "Fondsanteil",
+    "Fondsanteilen": "Fondsanteil",
+    "Fondsanteiles": "Fondsanteil",
+
     "FONDS" : "Fonds",
     "Förderbanken" : "Förderbank",
     "Förderkredite" : "Förderkredit",
@@ -511,7 +523,7 @@ CUSTOM_LOOKUP = {
     "Gehaltsnachweisen": "Gehaltsnachweis",
     "Geht" : "gehen",
 
-    "Geldabhebungen": "Ggeldabhebung",
+    "Geldabhebungen": "Geldabhebung",
     "Geldanlagen ": "Geldanlage",
     "Geldautomaten" : "Geldautomat",
     "Geldautomate": "Geldautomat",
@@ -1069,6 +1081,12 @@ CUSTOM_LOOKUP = {
     "P-Konten": "P-Konto",
     "Poltawiens" : "Poltawien",
     "Poltawiener": "Poltawien",
+    "poltawisches" : "poltawisch",
+    "poltawische": "poltawisch",
+    "poltawischem": "poltawisch",
+    "poltawischen": "poltawisch",
+    "poltawischer": "poltawisch",
+
     "Positivmerkmale": "Positivmerkmal",
     "Positivmerkmals": "Positivmerkmal",
     "Positivmerkmalen": "Positivmerkmal",
@@ -1293,6 +1311,7 @@ CUSTOM_LOOKUP = {
     "Steuerbescheide" : "Steuerbescheid",
     "Steuerbescheiden": "Steuerbescheid",
     "Steuerbescheides": "Steuerbescheid",
+    "Steuerrechts" : "Steuerrecht",
     "Steursatzes": "Steursatz",
     "Steursätze": "Steursatz",
     "Steursätzen": "Steursatz",
@@ -1394,6 +1413,13 @@ CUSTOM_LOOKUP = {
     "Unternehmenskonten": "Unternehmenskonto",
     "Unterkontos" : "Unterkonto",
     "Unterkonten": "Unterkonto",
+    "unterschrieben" : "unterschreiben",
+    "unterschriebenes": "unterschreiben",
+    "unterschriebener": "unterschreiben",
+    "unterschriebene": "unterschreiben",
+    "unterschriebenem": "unterschreiben",
+    "unterschriebenen": "unterschreiben",
+
     "unverschuldeter" : "unverschuldet",
     "unverschuldete": "unverschuldet",
     "unverschuldetes": "unverschuldet",
@@ -1603,7 +1629,6 @@ CUSTOM_LOOKUP = {
     "zusätzlichen": "zusätzlich",
     
     
-    "zweistufiges" : "zweistufig",
     "zweistufiges" : "zweistufig",
     "zweistufiger" : "zweistufig",
     "zweistufigem" : "zweistufig",
