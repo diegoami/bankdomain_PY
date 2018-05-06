@@ -59,3 +59,6 @@ if __name__ == '__main__':
         "Bitte beachten Sie, dass das \"Verstecken\" die Sicherheit Ihrer vertraulichen Benutzer-ID oder Ihres Passworts in keiner Weise beeinflusst. Wenn Sie einen Computer an einem öffentlichen Ort verwenden, lesen Sie bitte den folgenden Absatz 'Was sollte ich tun, wenn ich einen \"öffentlichen\" Computer benutze?'"))
     print(feature_processor(
         "MacOS-Version: Buchstaben, Zahlen,  (   )  [ ] . , : ; _  +  -  *  "))
+    print(feature_processor(
+        "Wie korrigiere ich meinen Kirchensteuerstatus?"))
+
