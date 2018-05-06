@@ -21,7 +21,8 @@ class FeatureProcessor:
     def model_process(self, text):
 
         doc = self.nlp(text)
-        docl = self.nlp(text.lower())
+        textl = text[0].lower() + text[1:]
+        docl = self.nlp(textl )
         curr_trunc = None
         keep_toks = []
         for index, token in enumerate(doc):
@@ -31,7 +32,7 @@ class FeatureProcessor:
                 pass
             elif any([regex.match(token.text) for regex in REGEXES ]):
                 pass
-            elif (token.text in PUNKT_PREPROCESS):
+            elif (token.is_punct):
                 pass
             elif (token.pos_ in POS_IGNORE):
                 pass
