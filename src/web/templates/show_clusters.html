@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/buttons.css') }}?v=102"  >
+     <script type="text/javascript" src="{{ url_for('static', filename='scripts/main.js') }}?v=125"></script>
+  <meta charset="UTF-8">
+  <title>Number of Clusters</title>
+
+</head>
+<body >
+
+<P>Enter questions </P>
+<!--suppress HtmlUnknownTarget -->
+<FORM id="clusters_form" ACTION="/show_clusters_submit" METHOD="POST">
+    <div class="surrond_form">
+    <p>
+    <label for="num_clusters" >N Clusters</label>
+
+         <input id="num_clusters" name="num_clusters" value="{{num_clusters | default('')}}"  />
+    <P><input type="submit" value="submit"  /></P>
+
+    </div>
+ </FORM>
+
+
+{% if clusters : %}
+
+<BR>
+<table border="1">
+    <CAPTION>Clusters</CAPTION>
+
+    <tr>
+        <th>Cluster</th>
+        <th><span>Words in cluster</span></th>
+
+
+      </tr>
+
+        {% for _ in clusters : %}
+
+            <tr>
+
+                <td > <!--suppress HtmlUnknownTarget, HtmlUnknownTarget -->
+                    {{_.index}}</A></td>
+
+                 <td > <!--suppress HtmlUnknownTarget, HtmlUnknownTarget -->
+                    {{_.words}}</A></td>
+            </tr>
+        {% endfor %}
+    </table>
+
+<BR>
+{% endif %}
+
+</body>
+</html>

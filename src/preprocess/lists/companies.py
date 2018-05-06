@@ -1,3 +1,3 @@
 
 companies = ["comdirect","CIM","Volkswagen", "Opel", "Renault", "Dacia", "Nissan","GRENKE", "Santander", "Fidor", "Credit Europe", "DKB", "HOB", "IKEA" ,"OKB", "Rabo",  "Ferratum", "NIBC", "Shaufelonline", "EdB", "GLS", "HVB", "PayPal" ,"East West Direkt", "COMPEON", "DHB", "FINAVI", "Finavi", "Fiducia GAD", "Fiducia & GAD", "AMRO", "Anadi", "MLP", "Interhyp", "Ikano",  "Deka", "LBS", "BBVA", "Netcetera AG", "Vostar", "ProCredit"]
-company_name = "Didi "
+company_name = "Didi"

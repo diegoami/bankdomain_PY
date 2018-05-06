@@ -29,7 +29,6 @@ class QueryExecutor:
         self.print_similar_words(token_map)
 
 
-
     def retrieve_answers(self, text):
         if str.isdigit(text):
 
@@ -56,7 +55,8 @@ class QueryExecutor:
         for id, score in scores:
             mongo_document = self.mongo_repository.get_preprocessed_question(id)
             lines_answer = mongo_document.split('\n')
-            all_documents.append({"question" : lines_answer[0], "answer" : "\n".join(lines_answer[1:]), "score" : score})
+            all_documents.append({"question" : lines_answer[0],
+                                  "answer" : "\n".join(lines_answer[1:]) if score > 0.2 else "", "score" : score})
         return all_documents
 
     def print_documents_for(self, scores):

@@ -11,5 +11,5 @@ class Application:
         models_dir = config['models_dir']
         mongo_connection = config['mongo_connection']
         self.query_executor = QueryExecutor(mongo_connection, models_dir)
-
+        self.model_facade = self.query_executor.model_facade
 
