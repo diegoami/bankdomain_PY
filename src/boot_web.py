@@ -14,4 +14,4 @@ key_config.get("secret_key")
 app.config['SECRET_KEY'] = key_config.get("secret_key")
 app.application = Application(config)
 if __name__ == '__main__':
-    app.run(debug=True,  use_reloader=False , port=8081)
+    app.run(debug=True,  use_reloader=False , port=9090)
