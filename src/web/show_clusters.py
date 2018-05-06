@@ -6,13 +6,13 @@ import logging
 
 logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO)
 
-@app.route('/banking/show_clusters', methods=['GET'])
+@app.route('/bankdomain/show_clusters', methods=['GET'])
 @app.route('/show_clusters', methods=['GET'])
 def show_clusters():
 
     return  render_template('show_clusters.html')
 
-@app.route('/banking/show_clusters_submit', methods=['POST'])
+@app.route('/bankdomain/show_clusters_submit', methods=['POST'])
 @app.route('/show_clusters_submit', methods=['POST'])
 def show_clusters_submit():
     _ = app.application
