@@ -50,7 +50,7 @@ class ModelFacade:
         vector = self.tfidfFacade.get_vec_from_tokenized(trigrams)
 
         scores = self.tfidfFacade.get_scores_from_vec(vector)
-        return scores
+        return trigrams, scores
 
     def similar_id(self, id):
 
