@@ -2,6 +2,7 @@ from repository import MongoRepository
 from .gram_facade import GramFacade
 from .doc2vec_facade import Doc2VecFacade
 from .tfidf_facade import TfidfFacade
+from .kmeans_facade import KMeansFacade
 import logging
 logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.DEBUG)
 class ModelFacade:
@@ -10,9 +11,9 @@ class ModelFacade:
         self.mongo_repository = mongo_repository
         self.models_dir = models_dir
         self.gramFacade = GramFacade(self.models_dir,  min_count_bigrams=8, min_count_trigrams=10)
-        self.doc2vecFacade = Doc2VecFacade(self.models_dir, window=8, min_count=3, sample=0, epochs=35, alpha=0.01,
-                                      vector_size=300, batch_size=10000)
-        self.tfidfFacade = TfidfFacade(self.models_dir, no_below=2, no_above=0.9, num_topics=400 )
+        self.doc2vecFacade = Doc2VecFacade(self.models_dir, window=8, min_count=4, sample=0, epochs=35, alpha=0.01,vector_size=300, batch_size=10000)
+        self.kmeansFacade = KMeansFacade()
+        self.tfidfFacade = TfidfFacade(self.models_dir, no_below=3, no_above=0.9, num_topics=400 )
 
     def create_model(self):
 
@@ -35,7 +36,7 @@ class ModelFacade:
     def similar_doc_wv(self, tokens, topn=20):
         trigrams = self.gramFacade.phrase(tokens)
 
-        vector = self.doc2vecFacade.get_vectoWr_from_phrase(trigrams)
+        vector = self.doc2vecFacade.get_vectorr_from_phrase(trigrams)
 
         scores = self.doc2vecFacade.get_most_similar(vector, topn=topn)
         return scores
@@ -72,3 +73,7 @@ class ModelFacade:
         scores = self.doc2vecFacade.model.most_similar(criteria, topn=topn)
         found_scores = [score for score in scores if score[1] > threshold]
         return found_scores
+
+
+    def retrieve_clusters(self, num_clusters=50):
+        return self.kmeansFacade.do_cluster(self.doc2vecFacade.model, num_clusters=num_clusters)
