@@ -101,6 +101,7 @@ CUSTOM_LOOKUP = {
     "außerbörsliches": "außerbörslich",
     "außerbörslichen": "außerbörslich",
     "außerbörsliche": "außerbörslich",
+    "Banken" : "Bank",
     "Bankomaten" : "Bankomat",
     "Bankomate": "Bankomat",
 
@@ -257,6 +258,9 @@ CUSTOM_LOOKUP = {
 
     "Dividendenzahlungen" : "Dividendenzahlung",
     "Dienstleistungen" : "Dienstleistung",
+    "Diebstahls" : "Diebstahl",
+    "Diebstähle" : "Diebstahl",
+    "Diebstählen": "Diebstahl",
 
     "Dienstleistern" : "Dienstleister",
     "digitaler" : "digital",
@@ -295,6 +299,8 @@ CUSTOM_LOOKUP = {
 
     "eingeräumt" : "einräumen",
     "eingereicht" : "einreichen",
+    "Einlegers" : "Einleger",
+    "Einlegern": "Einleger",
 
     "Einstandskurse" : "Einstandskurs",
     "eTAN-Verfahrens" : "eTAN-Verfahren",
@@ -381,7 +387,11 @@ CUSTOM_LOOKUP = {
     "erstmaliges": "erstmalig",
     "erstmaligem": "erstmalig",
     "erstmaligen": "erstmalig",
-
+    "erstrangiger": "erstrangig",
+    "erstrangige": "erstrangig",
+    "erstrangiges": "erstrangig",
+    "erstrangigem": "erstrangig",
+    "erstrangigen": "erstrangig",
     "ETFs" : "ETF",
     "EU-Bürgern": "EU-Bürger",
     "EU-Bürgers": "EU-Bürger",
@@ -586,6 +596,7 @@ CUSTOM_LOOKUP = {
     "Geschäftstages" : "Geschäftstag",
     "Geschäftstage": "Geschäftstag",
     "Geschäftstagen": "Geschäftstag",
+    "geschnellt": "schnellen",
     "Gibt" : "geben",
     "Gilt" : "gelten",
     "Girobriefumschläge" : "Girobriefumschlag",
@@ -687,7 +698,7 @@ CUSTOM_LOOKUP = {
     "Jugendtagesgeldkontos": "Jugendtagesgeldkonto",
     "Jugendtagesgeldkonten": "Jugendtagesgeldkonto",
     "Jahressteuerbescheinigungen" : "Jahressteuerbescheinigung",
-    "karten" : "Karte",
+    "Karten" : "Karte",
     "Kalendarjahres": "Kalendarjahr",
     "Kalendarjahre": "Kalendarjahr",
     "Kalendarmonates": "Kalendarmonat",
@@ -1044,6 +1055,7 @@ CUSTOM_LOOKUP = {
     "Ordervolumens" : "Ordervolumen",
     "Ordervolumenen": "Ordervolumen",
     "Ordervolumene": "Ordervolumen",
+    "Öffne" : "öffnen",
 
     "Partnerbanken" : "Partnerbank",
     "Passwörtern" : "Passwort",
@@ -1230,6 +1242,12 @@ CUSTOM_LOOKUP = {
     "Scheckeinreichungen" : "Scheckeinreichung",
     "Schlüsseln" : "Schlüssel",
     "Schuldverschreibungen" : "Schuldverschreibung",
+    "schnell": "schnell",
+    "schnelle": "schnell",
+    "schnellem": "schnell",
+    "schnellen": "schnell",
+    "schneller": "schnell",
+
     "Sicherheitsgründen" : "Sicherheitsgrund" ,
     "Sicherheitsmerkmale" : "Sicherheitsmerkmal",
     "Sicherheitsmerkmalen": "Sicherheitsmerkmal",
@@ -1371,6 +1389,7 @@ CUSTOM_LOOKUP = {
     "TLS-Zertifikats" : "TLS-Zertifikat",
     "TLS-Zertifikate": "TLS-Zertifikat",
     "TLS-Zertifikaten": "TLS-Zertifikat",
+    "Tokens" : "Token",
 
     "Transaktionen": "Transaktion",
     "Transaktionsgebühren" : "Transaktionsgebühr",

@@ -12,3 +12,4 @@ def home():
 
 import web.search_questions
 import web.show_clusters
+import web.show_words

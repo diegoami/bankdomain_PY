@@ -77,3 +77,10 @@ class ModelFacade:
 
     def retrieve_clusters(self, num_clusters=50):
         return self.kmeansFacade.do_cluster(self.doc2vecFacade.model, num_clusters=num_clusters)
+
+    def retrieve_words(self):
+        cw_l = []
+        for word, vocab_obj in self.doc2vecFacade.model.wv.vocab.items():
+            cw_l.append((word, vocab_obj.count))
+        cw_s = sorted(cw_l, key=lambda x: x[1], reverse=True)
+        return cw_s

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/buttons.css') }}?v=102"  >
+     <script type="text/javascript" src="{{ url_for('static', filename='scripts/main.js') }}?v=125"></script>
+  <meta charset="UTF-8">
+  <title>Number of Clusters</title>
+
+</head>
+<body >
+
+<P>Words</P>
+
+{% if wps : %}
+
+<BR>
+<table border="1">
+    <CAPTION>Words</CAPTION>
+
+    <tr>
+        <th>Word</th>
+        <th>Count</th>
+        <th></th>
+
+
+      </tr>
+
+        {% for _ in wps : %}
+
+            <tr>
+
+                <td >{{_.word}}</A></td>
+                <td >{{_.count}}</A></td>
+                <td >{{_.simw}}</A></td>
+
+            </tr>
+        {% endfor %}
+    </table>
+
+<BR>
+{% endif %}
+
+</body>
+</html>
