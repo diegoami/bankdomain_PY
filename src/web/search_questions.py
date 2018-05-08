@@ -28,7 +28,7 @@ def search_questions_submit():
             else:
                 page_id = read_int_from_form(form, 'page_id', "0")
                 logging.info("Processing {}".format(question))
-                scores_tfidf, token_map = _.query_executor.retrieve_answers(question )
+                scores_tfidf, token_map = _.query_executor.retrieve_answers(question, threshold=0.8, topn=20 )
                 docs_tfidf = _.query_executor.retrieve_documents(scores_tfidf, page_id)
                 token_list = [ {"token" : key, "rel_tokens": ", ".join([v[0]+" ("+str(round(v[1],2)) +")" for v in values])} for key, values in token_map.items()]
 

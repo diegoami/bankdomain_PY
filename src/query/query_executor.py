@@ -29,14 +29,14 @@ class QueryExecutor:
         self.print_similar_words(token_map)
 
 
-    def retrieve_answers(self, text):
+    def retrieve_answers(self, text, threshold=0.85, topn=20):
 
         text = self.feature_processor(text)
         tokens = text.lower().split()
 
         trigrams, scores_tfidf = self.model_facade.similar_doc(tokens)
 
-        token_map = self.model_facade.retrieve_similar_words(trigrams, threshold = 0.85, topn=20)
+        token_map = self.model_facade.retrieve_similar_words(trigrams, threshold = threshold, topn=topn)
 
         return scores_tfidf, token_map
 
