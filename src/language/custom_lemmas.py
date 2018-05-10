@@ -206,6 +206,7 @@ CUSTOM_LOOKUP = {
     "Börsenauftrages": "Börsenauftrag",
 
     "Bereitstellungszinsen" : "Bereitstellungszins",
+    "Briefkurse" : "Briefkurs",
     "Browsers" : "Browser",
     "Browsern": "Browser",
 
@@ -1078,7 +1079,10 @@ CUSTOM_LOOKUP = {
     "Oder-kontos": "Oderkonto",
     "Oder-konto": "Oderkonto",
     "Oder-konten": "Oderkonto",
-
+    "Online-Bereichs" : "Online-Bereich",
+    "Online-Bereiche": "Online-Bereich",
+    "Online-Bereichen": "Online-Bereich",
+    "Online-Einkaufs": "Online-Einkauf",
     "Online-Einkäufe" : "Online-Einkauf",
     "onlinefähiges" : "onlinefähig",
     "onlinefähige": "onlinefähig",
@@ -1620,6 +1624,10 @@ CUSTOM_LOOKUP = {
     "vorzeitiges": "vorzeitig",
 
     "VR-NetKeys" : "VR-NetKey",
+    "Warenkredite" : "Warenkredit",
+    "Warenkrediten": "Warenkredit",
+    "Warenkredites": "Warenkredit",
+    "Warenkredits": "Warenkredit",
 
     "Webseiten" : "Webseite",
     "wende" : "wenden",

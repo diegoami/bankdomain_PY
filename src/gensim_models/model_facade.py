@@ -40,23 +40,47 @@ class ModelFacade:
         self.load_models_for_create()
         self.tf2wv.load_weighted_vector()
 
-    def similar_doc_wv(self, tokens, topn=20):
+    def similar_doc(self, tokens):
+        min_level =  self.mongo_repository.num_questions
         trigrams = self.gramFacade.phrase(tokens)
-        vector = self.doc2vecFacade.get_vector_from_phrase(trigrams)
-        scores = self.doc2vecFacade.get_most_similar(vector, topn=topn)
-        return scores
+        scores_wv = self.similar_doc_wv(trigrams)
+        scores_tfidf = self.similar_doc_tfidf(trigrams)
+        scores_map = {}
+        for idx, score_wv in scores_wv:
+            ridx = int(idx if idx >= min_level else idx+min_level)
+            dict_score = scores_map.get(ridx, {})
+            if not "wv" in dict_score:
+                scores_map[ridx] = {"wv" : score_wv  }
+        for idx, score_tfidf in scores_tfidf:
+            ridx = int(idx if idx >= min_level else idx + min_level)
+            dict_score = scores_map.get(ridx,{})
+            if not "tfdif" in dict_score:
+                dict_score["tfidf"] = score_tfidf
+                dict_score["total"] = dict_score["tfidf"] + dict_score["wv"]
+        scores = sorted([(idx, dict_score["total"], dict_score["tfidf"], dict_score["wv"]) for idx, dict_score in scores_map.items()], key=lambda x: x[1], reverse=True)
+        return trigrams, scores
 
-    def similar_id_wv(self, id, topn=20):
+    def similar_doc_wv(self, trigrams, topn=None):
+        weighted_list = self.tf2wv.get_weighted_list(trigrams)
+        arg_scores = self.doc2vecFacade.model.docvecs.most_similar(weighted_list, topn=topn)
+        arr_range = np.expand_dims(np.arange(len(arg_scores)), axis=1)
+        arr_score = np.expand_dims(arg_scores, axis=1)
+        arr_total = np.concatenate([arr_range, arr_score], axis=1)
+        arsorted = np.argsort(-arg_scores)
+        arr_result = arr_total[arsorted]
+        scores = arr_result.tolist()
+        return  scores
+
+    def similar_id_wv(self, id, topn=None):
         scores = self.doc2vecFacade.model.docvecs.most_similar([int(id)], topn=topn)
         return scores
 
-    def similar_doc(self, tokens):
-        trigrams = self.gramFacade.phrase(tokens)
+    def similar_doc_tfidf(self, trigrams):
         vector = self.tfidfFacade.get_vec_from_tokenized(trigrams)
         scores = self.tfidfFacade.get_scores_from_vec(vector)
-        return trigrams, scores
+        return  scores
 
-    def similar_id(self, id):
+    def similar_id_tfidf(self, id):
         vector = self.tfidfFacade.get_vec_docid(id)
         scores = self.tfidfFacade.get_scores_from_vec(vector)
         return scores

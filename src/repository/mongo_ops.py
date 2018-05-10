@@ -108,15 +108,20 @@ class MongoRepository:
             target_collection.insert_one(to_write)
             all_texts.append(to_write["question"]+"\n"+to_write["answer"])
 
-
         logging.info("Finished transfer from collection {} to collection {}".format(source_collection, target_collection))
 
     def load_all_documents(self):
-        self.all_preprocessed_questions = [question for question in self.iterate_questions(collection=self.preprocessed_questions, only_question=True)]+[question for question in self.iterate_questions(collection=self.preprocessed_questions, only_question=False)]
-        self.all_processed_splitted_questions = [question.split() for question in self.iterate_questions(collection=self.processed_questions, lowercase=True, only_question=True)]+[question.split() for question in
-         self.iterate_questions(collection=self.processed_questions, lowercase=True, only_question=False)]
+        preprocessed_questions_no_answer = [question for question in self.iterate_questions(collection=self.preprocessed_questions, only_question=True)]
+        preprocessed_questions_with_aswer = [question for question in self.iterate_questions(collection=self.preprocessed_questions, only_question=False)]
+        self.num_questions = len(preprocessed_questions_no_answer)
+        self.all_preprocessed_questions = preprocessed_questions_no_answer + preprocessed_questions_with_aswer
+        processed_splitted_questions_no_answer = [question.split() for question in self.iterate_questions(collection=self.processed_questions, lowercase=True, only_question=True)]
+        processed_splitted_questions_with_answer = [question.split() for question in self.iterate_questions(collection=self.processed_questions, lowercase=True, only_question=False)]
+        self.all_processed_splitted_questions = processed_splitted_questions_no_answer+ processed_splitted_questions_with_answer
         self.panda = pandas.DataFrame(self.all_preprocessed_questions)
 
     def get_preprocessed_question(self, index):
+        if (index < self.num_questions):
+            index += self.num_questions
         return self.all_preprocessed_questions[index]
 

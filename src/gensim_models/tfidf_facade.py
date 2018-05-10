@@ -13,8 +13,6 @@ import logging
 from gensim import corpora, models, similarities
 from gensim.corpora import MmCorpus
 
-
-
 class TfidfFacade():
 
     def __init__(self, model_dir, no_below=5, no_above=0.78, num_topics=400, version=1):
