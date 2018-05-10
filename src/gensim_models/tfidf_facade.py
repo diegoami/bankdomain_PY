@@ -60,10 +60,11 @@ class TfidfFacade():
         index.save(self.model_dir+'/'+INDEX_FILENAME)
 
     def load_models(self):
-        self.dictionary = corpora.Dictionary.load(
-        self.model_dir + '/' + DICTIONARY_FILENAME)  # store the dictionary, for future reference
+        self.dictionary = corpora.Dictionary.load(self.model_dir + '/' + DICTIONARY_FILENAME)  # store the dictionary, for future reference
         self.corpus = MmCorpus(self.model_dir + '/' + CORPUS_FILENAME)
+        self.tfidf = models.TfidfModel(self.corpus)
         self.lsi = models.LsiModel.load(self.model_dir + '/' + LSI_FILENAME)
+        self.id2word = self.lsi.id2word
         self.index = similarities.MatrixSimilarity.load(self.model_dir + '/' + INDEX_FILENAME)
 
     def get_vec_from_tokenized(self, tokenized_doc):

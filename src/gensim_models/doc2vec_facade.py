@@ -70,3 +70,10 @@ class Doc2VecFacade:
         logging.info("Training completed, saving to  " + self.model_dir)
         self.model.save(self.model_dir + MODEL_FILENAME)
 
+
+    def retrieve_words(self):
+        cw_l = []
+        for word, vocab_obj in self.model.wv.vocab.items():
+            cw_l.append((word, vocab_obj.count))
+        cw_s = sorted(cw_l, key=lambda x: x[1], reverse=True)
+        return cw_s
