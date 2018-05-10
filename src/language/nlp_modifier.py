@@ -17,3 +17,7 @@ class NlpWrapper():
 
         self.nlp.Defaults.lemma_lookup.update(CUSTOM_LOOKUP)
         add_stop_words(self.nlp)
+
+    def retrieve_forms_for_lemma(self, lemma_to_find):
+        forms = [form for form, lemma in self.nlp.Defaults.lemma_lookup.items() if lemma.lower() == lemma_to_find.lower()]
+        return forms

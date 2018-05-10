@@ -1,8 +1,8 @@
-from repository import MongoRepository
 from .gram_facade import GramFacade
 from .doc2vec_facade import Doc2VecFacade
 from .tfidf_facade import TfidfFacade
 from .kmeans_facade import KMeansFacade
+from .tf2wv_mapper import Tf2WvMapper
 import logging
 logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.DEBUG)
 class ModelFacade:
@@ -10,10 +10,11 @@ class ModelFacade:
     def __init__(self, mongo_repository, models_dir):
         self.mongo_repository = mongo_repository
         self.models_dir = models_dir
-        self.gramFacade = GramFacade(self.models_dir,  min_count_bigrams=8, min_count_trigrams=10)
+        self.gramFacade = GramFacade(self.models_dir,  min_count_bigrams=10, min_count_trigrams=11)
         self.doc2vecFacade = Doc2VecFacade(self.models_dir, window=8, min_count=4, sample=0, epochs=35, alpha=0.01,vector_size=300, batch_size=10000)
         self.kmeansFacade = KMeansFacade()
         self.tfidfFacade = TfidfFacade(self.models_dir, no_below=3, no_above=0.9, num_topics=400 )
+        self.tf2wv = Tf2WvMapper(self.tfidfFacade, self.doc2vecFacade )
 
     def create_model(self):
 
@@ -32,11 +33,12 @@ class ModelFacade:
         self.gramFacade.load_models()
         self.doc2vecFacade.load_models()
         self.tfidfFacade.load_models()
+        self.tf2wv.remap()
 
     def similar_doc_wv(self, tokens, topn=20):
         trigrams = self.gramFacade.phrase(tokens)
 
-        vector = self.doc2vecFacade.get_vectorr_from_phrase(trigrams)
+        vector = self.doc2vecFacade.get_vector_from_phrase(trigrams)
 
         scores = self.doc2vecFacade.get_most_similar(vector, topn=topn)
         return scores
@@ -78,9 +80,3 @@ class ModelFacade:
     def retrieve_clusters(self, num_clusters=50):
         return self.kmeansFacade.do_cluster(self.doc2vecFacade.model, num_clusters=num_clusters)
 
-    def retrieve_words(self):
-        cw_l = []
-        for word, vocab_obj in self.doc2vecFacade.model.wv.vocab.items():
-            cw_l.append((word, vocab_obj.count))
-        cw_s = sorted(cw_l, key=lambda x: x[1], reverse=True)
-        return cw_s

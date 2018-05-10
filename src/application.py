@@ -5,6 +5,7 @@ import logging
 logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO)
 logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO)
 from query import QueryExecutor
+from gensim_models import LanguageFacade
 
 class Application:
     def __init__(self, config):
@@ -12,4 +13,6 @@ class Application:
         mongo_connection = config['mongo_connection']
         self.query_executor = QueryExecutor(mongo_connection, models_dir)
         self.model_facade = self.query_executor.model_facade
+
+        self.language_facade = LanguageFacade()
 
