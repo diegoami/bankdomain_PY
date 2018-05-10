@@ -17,7 +17,7 @@ def show_words():
     wps = []
     for word, count in words:
         if (count >= 8):
-            sim_w = _.model_facade.pull_scores_word(word, threshold=0.8, topn=20)
+            sim_w = _.model_facade.doc2vecFacade.pull_scores_word(word, threshold=0.8, topn=20)
             forms = _.language_facade.retrieve_forms_for_lemma(word)
             wps.append( { "word" : word, "count" : count,
                           "forms" : ", ".join([f for f in forms ]),

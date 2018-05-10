@@ -3,6 +3,7 @@ from pymongo import MongoClient
 import os
 import bson
 import logging
+import pandas
 logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO)
 class MongoRepository:
     def __init__(self, mongo_connection):
@@ -114,6 +115,8 @@ class MongoRepository:
         self.all_preprocessed_questions = [question for question in self.iterate_questions(collection=self.preprocessed_questions, only_question=True)]+[question for question in self.iterate_questions(collection=self.preprocessed_questions, only_question=False)]
         self.all_processed_splitted_questions = [question.split() for question in self.iterate_questions(collection=self.processed_questions, lowercase=True, only_question=True)]+[question.split() for question in
          self.iterate_questions(collection=self.processed_questions, lowercase=True, only_question=False)]
+        self.panda = pandas.DataFrame(self.all_preprocessed_questions)
 
     def get_preprocessed_question(self, index):
         return self.all_preprocessed_questions[index]
+

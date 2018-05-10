@@ -2,7 +2,7 @@
 import yaml
 import logging
 
-logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO)
+logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.DEBUG)
 from query import QueryExecutor
 def doc2vec_similar(query_executor):
 

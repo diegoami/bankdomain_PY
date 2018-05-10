@@ -72,6 +72,9 @@ class TfidfFacade():
         vec_lsi = self.lsi[vec_bow]  # convert the query to LSI space
         return vec_lsi
 
+    def get_doc_bow(self, tokenized_doc):
+        vec_bow = self.dictionary.doc2bow(tokenized_doc)
+        return vec_bow
 
     def get_vec_docid(self, id):
         vec_bow = self.corpus[id]

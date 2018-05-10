@@ -4,6 +4,7 @@ from .tfidf_facade import TfidfFacade
 from .kmeans_facade import KMeansFacade
 from .tf2wv_mapper import Tf2WvMapper
 import logging
+import numpy as np
 logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.DEBUG)
 class ModelFacade:
 
@@ -14,12 +15,10 @@ class ModelFacade:
         self.doc2vecFacade = Doc2VecFacade(self.models_dir, window=8, min_count=4, sample=0, epochs=35, alpha=0.01,vector_size=300, batch_size=10000)
         self.kmeansFacade = KMeansFacade()
         self.tfidfFacade = TfidfFacade(self.models_dir, no_below=3, no_above=0.9, num_topics=400 )
-        self.tf2wv = Tf2WvMapper(self.tfidfFacade, self.doc2vecFacade )
+        self.tf2wv = Tf2WvMapper(models_dir, self.gramFacade, self.tfidfFacade, self.doc2vecFacade )
 
     def create_model(self):
-
         self.mongo_repository.load_all_documents()
-
         all_questions_processed = self.mongo_repository.all_processed_splitted_questions
         self.gramFacade.create_model( all_questions_processed )
 
@@ -28,18 +27,22 @@ class ModelFacade:
 
         self.doc2vecFacade.create_model(trigrams)
         self.tfidfFacade.create_all_models(trigrams)
+        self.load_models_for_create()
+        self.tf2wv.create_weighted_vector_docs()
 
-    def load_models(self):
+    def load_models_for_create(self):
         self.gramFacade.load_models()
         self.doc2vecFacade.load_models()
         self.tfidfFacade.load_models()
         self.tf2wv.remap()
 
+    def load_models(self):
+        self.load_models_for_create()
+        self.tf2wv.load_weighted_vector()
+
     def similar_doc_wv(self, tokens, topn=20):
         trigrams = self.gramFacade.phrase(tokens)
-
         vector = self.doc2vecFacade.get_vector_from_phrase(trigrams)
-
         scores = self.doc2vecFacade.get_most_similar(vector, topn=topn)
         return scores
 
@@ -50,33 +53,19 @@ class ModelFacade:
     def similar_doc(self, tokens):
         trigrams = self.gramFacade.phrase(tokens)
         vector = self.tfidfFacade.get_vec_from_tokenized(trigrams)
-
         scores = self.tfidfFacade.get_scores_from_vec(vector)
         return trigrams, scores
 
     def similar_id(self, id):
-
         vector = self.tfidfFacade.get_vec_docid(id)
-
         scores = self.tfidfFacade.get_scores_from_vec(vector)
         return scores
-
-    def retrieve_similar_words(self, arg_tokens, threshold = 0.9, topn=15):
-        tokens_map = {}
-        tokens =[ token for token in arg_tokens if token in self.doc2vecFacade.model.wv.vocab]
-        for token in tokens:
-            tokens_map[token] = self.pull_scores_word(token, threshold, topn)
-        if (len(tokens) > 0):
-            tokens_map["ALL"] = self.pull_scores_word(tokens, threshold, topn)
-
-        return tokens_map
-
-    def pull_scores_word(self, criteria, threshold, topn=15):
-        scores = self.doc2vecFacade.model.most_similar(criteria, topn=topn)
-        found_scores = [score for score in scores if score[1] > threshold]
-        return found_scores
-
 
     def retrieve_clusters(self, num_clusters=50):
         return self.kmeansFacade.do_cluster(self.doc2vecFacade.model, num_clusters=num_clusters)
 
+    def get_similar_questions(self, tokens):
+        trigrams = self.gramFacade.phrase(tokens)
+        sim_matrx = self.tf2wv.get_similarity_matrix(trigrams)
+        sort_index = np.argsort(sim_matrx)
+        return self.mongo_repository.panda.iloc[sort_index]

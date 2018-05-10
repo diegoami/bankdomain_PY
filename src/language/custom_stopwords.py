@@ -5,7 +5,7 @@ CUSTOM_STOP_WORDS  = set("""
  Bei bevor bezüglich bitte Bitte beim Beim
  c
  d daraufhin demnach dennoch desto Da dass diesbezüglich das Das davon Davon daher Daher deine Deine deines Deines  d
- dabei Dabei damit Damit dazu Dazu danach Danach dort Dort darüber Darüber durch Durch dann Dann derzeit Derzeit
+ dabei Dabei damit Damit dazu Dazu danach Danach dort Dort darüber Darüber durch Durch dann Dann derzeit Derzeit demnächst Demnächst
  e ein Ein ehe Ehe eher Eher einfach Einfach ebenfalls Ebenfalls
  f ggf ggf. 
  falls
@@ -14,7 +14,8 @@ CUSTOM_STOP_WORDS  = set("""
  geht´s
  Hast hast
  h. hierbei hierdurch hierfür hingegen hiervon hinaus hierzu Hierzu hier Hier Hierdurch 
- in In insoweit Insoweit ist Ist
+ in In insoweit Insoweit ist Ist 
+ Ihrer Ihres Ihre Ihrem Ihren
  innen im Im innerhalb Innerhalb insbesondere insbesonders Insbesondere Insbesonders insgesamt Insgesamt
  jeweils jetzt Jetzt je
  klicken Klicken 
