@@ -32,8 +32,7 @@ class Tf2WvMapper:
         return self.idfs[self.self.dictionary.token2id[word]]
 
 
-    def get_weighted_vector(self, tokens):
-        trigrams = self.gram_facade.phrase(tokens)
+    def get_weighted_vector(self, trigrams):
         vec_bow = self.dictionary.doc2bow(trigrams)
         return self.get_vec_bow(vec_bow)
 
@@ -51,6 +50,21 @@ class Tf2WvMapper:
             vec_sum = vec_sum + (token_count * idf) * vec
         vec_norm = unitvec(vec_sum )
         return vec_norm
+
+    def get_vec_list(self, vec_bow):
+        vec_list = []
+
+        for token_id, token_count in vec_bow:
+            idf = self.idfs[token_id]
+            token = self.dictionary[token_id]
+            vec = self.get_wv(token)
+            vec_weight_tuple = (vec, idf * token_count)
+            vec_list.append(vec_weight_tuple )
+        return vec_list
+
+    def get_weighted_list(self, trigrams):
+        vec_bow = self.dictionary.doc2bow(trigrams)
+        return self.get_vec_list(vec_bow)
 
     def create_weighted_vector_docs(self):
         for index, doc_bow in enumerate(self.tfidf_facade.corpus):

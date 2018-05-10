@@ -5,6 +5,13 @@ if __name__ == '__main__':
     nlp = NlpWrapper()
     feature_processor = FeatureProcessor(nlp)
 
+
+    print(feature_processor(
+        "Die Schutzgemeinschaft für allgemeine Kreditsicherung  ( SCHUFA )  ist eine Gemeinschaftseinrichtung von Wirtschaftsunternehmen, die Ihren Kunden Geld- oder Warenkredite einräumen."))
+
+    print(feature_processor(
+        "Überweisungen zwischen DidiBank Giro- und Kreditkartenkonten können Sie auch an allen DidiBank Geldautomaten ausführen."))
+
     print(feature_processor(
         "Für Ihre Giro-, Tagesgeld-, Spar- und Kreditkartenkonten stellen wir Ihnen die Umsätze für einen Zeitraum von 90 Tagen zur Verfügung. Bei Darlehenskonten und Termineinlagen sind alle Umsätze seit dem letzten Auszug sichtbar. "))
 
