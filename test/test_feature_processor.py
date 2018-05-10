@@ -4,6 +4,10 @@ from feature_extract import FeatureProcessor
 if __name__ == '__main__':
     nlp = NlpWrapper()
     feature_processor = FeatureProcessor(nlp)
+
+    print(feature_processor(
+        "Für Ihre Giro-, Tagesgeld-, Spar- und Kreditkartenkonten stellen wir Ihnen die Umsätze für einen Zeitraum von 90 Tagen zur Verfügung. Bei Darlehenskonten und Termineinlagen sind alle Umsätze seit dem letzten Auszug sichtbar. "))
+
     print(feature_processor(
         "Kann die mobileTAN auch im HBCI- und FinTS-Zugangs-Kanal genutzt werden? "))
     print(feature_processor(

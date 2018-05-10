@@ -35,7 +35,7 @@ if __name__ == '__main__':
     mongo_connection = config['mongo_connection']
     mongo_repository = MongoRepository(mongo_connection)
 
-    process_documents(data_dir)
+  #  process_documents(data_dir)
 
     model_facade = ModelFacade(mongo_repository, model_dir)
     model_facade.create_model()

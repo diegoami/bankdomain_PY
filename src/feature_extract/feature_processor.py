@@ -23,7 +23,7 @@ class FeatureProcessor:
         doc = self.nlp(text)
         textl = text[0].lower() + text[1:]
         docl = self.nlp(textl )
-        curr_trunc = None
+        curr_truncs = []
         keep_toks = []
         for index, token in enumerate(doc):
 
@@ -37,18 +37,20 @@ class FeatureProcessor:
                 pass
             elif (token.pos_ in POS_IGNORE):
                 pass
-            elif curr_trunc:
+            elif curr_truncs and token.pos_ == "NOUN":
                 found_ende = [p for p in possible_integrator if token.lemma_.lower().endswith(p)]
-                if (len(found_ende) > 0):
+                for curr_trunc in curr_truncs:
+                    if (len(found_ende) > 0):
 
-                    keep_toks.append(curr_trunc+found_ende[0])
-                else:
-                    keep_toks.append(curr_trunc)
-                keep_toks.append(token.lemma_)
-                curr_trunc = None
+                        keep_toks.append(curr_trunc+found_ende[0])
+                    else:
+                        keep_toks.append(curr_trunc)
+                    keep_toks.append(token.lemma_)
+                curr_truncs = []
             else:
                 if (token.tag_ == "TRUNC" and token.text[-1] == '-'):
                     curr_trunc = token.text[:-1]
+                    curr_truncs.append(curr_trunc)
                 elif token.pos_ == "VERB":
                     sep_part = [x for x in token.children if x.tag_ == "PTKVZ"
                                 and x.text in GERMAN_SEPARABLE ]

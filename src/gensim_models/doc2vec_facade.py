@@ -51,10 +51,8 @@ class Doc2VecFacade:
         infer_vector = self.model.infer_vector(phrase, alpha=self.alpha, steps=self.epochs)
         return infer_vector
 
-
-    def get_most_similar(self, vector, topn):
+    def get_most_similar(self, vector, topn=20):
         return self.model.docvecs.most_similar([vector], topn=topn)
-
 
     def create_model(self, texts):
         it = LabeledLineSentence(range(len(texts)), texts)
@@ -70,10 +68,24 @@ class Doc2VecFacade:
         logging.info("Training completed, saving to  " + self.model_dir)
         self.model.save(self.model_dir + MODEL_FILENAME)
 
-
     def retrieve_words(self):
         cw_l = []
         for word, vocab_obj in self.model.wv.vocab.items():
             cw_l.append((word, vocab_obj.count))
         cw_s = sorted(cw_l, key=lambda x: x[1], reverse=True)
         return cw_s
+
+    def pull_scores_word(self, criteria, threshold, topn=15):
+        scores = self.model.most_similar(criteria, topn=topn)
+        found_scores = [score for score in scores if score[1] > threshold]
+        return found_scores
+
+    def retrieve_similar_words(self, arg_tokens, threshold = 0.9, topn=15):
+        tokens_map = {}
+        tokens =[ token for token in arg_tokens if token in self.model.wv.vocab]
+        for token in tokens:
+            tokens_map[token] = self.pull_scores_word(token, threshold, topn)
+        if (len(tokens) > 0):
+            tokens_map["ALL"] = self.pull_scores_word(tokens, threshold, topn)
+
+        return tokens_map

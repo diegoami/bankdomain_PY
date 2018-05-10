@@ -21,6 +21,8 @@ class QueryExecutor:
         self.feature_processor = FeatureProcessor(nlp)
         self.model_facade = ModelFacade(self.mongo_repository, models_dir)
         self.model_facade.load_models()
+        self.model_facade.tf2wv.load_weighted_vector()
+
 
     def process_input(self, text):
         scores_tfidf, token_map = self.retrieve_answers(text)
@@ -36,12 +38,12 @@ class QueryExecutor:
 
         trigrams, scores_tfidf = self.model_facade.similar_doc(tokens)
 
-        token_map = self.model_facade.retrieve_similar_words(trigrams, threshold = threshold, topn=topn)
+        token_map = self.model_facade.doc2vecFacade.retrieve_similar_words(trigrams, threshold = threshold, topn=topn)
 
         return scores_tfidf, token_map
 
     def retrieve_similar_words(self, tokens, threshold=0.85, topn=30):
-        token_map = self.model_facade.retrieve_similar_words(tokens, threshold=threshold, topn=topn)
+        token_map = self.model_facade.doc2vecFacade.retrieve_similar_words(tokens, threshold=threshold, topn=topn)
         return token_map
 
     def retrieve_documents(self,  all_scores, page_id):
