@@ -49,11 +49,11 @@ class QueryExecutor:
     def retrieve_documents(self,  all_scores, page_id):
         all_documents = []
         scores = all_scores[PER_PAGE*page_id:PER_PAGE*(page_id+1)]
-        for id, score, tf_score, wv_score in scores:
+        for id, score, tfidf_score, wv_score in scores:
             mongo_document = self.mongo_repository.get_preprocessed_question(id)
             lines_answer = mongo_document.split('\n')
             all_documents.append({"question" : lines_answer[0],
-                                  "answer" : "\n".join(lines_answer[1:]), "score" : score})
+                                  "answer" : "\n".join(lines_answer[1:]), "score" : score, "tfidf_score" : tfidf_score, "wv_score" : wv_score})
         return all_documents
 
     def print_documents_for(self, scores):

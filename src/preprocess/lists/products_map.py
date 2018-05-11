@@ -61,5 +61,6 @@ products_map = {
     "MeinWunschKredit" : "DidiKredit",
     "Prepaid Trios" : "DidiKonto",
     "KEYPLAN-Konto" : "DidiKonto",
-    "EvoRepair" : "DidiRepair"
+    "EvoRepair" : "DidiRepair",
+    "CASH26" : "DidiCash"
 }
