@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/buttons.css') }}?v=102"  >
-     <script type="text/javascript" src="{{ url_for('static', filename='scripts/main.js') }}?v=125"></script>
+{% include 'header_files.html' %}
   <meta charset="UTF-8">
   <title>Search Questions (Case sensitive!)</title>
 
 </head>
-<body >
+<body onload="select_header('topnav_search_questions')">
+{% include 'header.html' %}
 
 <P>Enter questions </P>
 <!--suppress HtmlUnknownTarget -->
-<FORM id="question_form" ACTION="/bankdomain/search_questions_submit" METHOD="POST">
+<div class="surrond_form">
+    <FORM id="question_form" ACTION="/bankdomain/search_questions_submit" METHOD="POST">
     <div class="surrond_form">
     <p>
     <label for="question" ></label>
@@ -23,7 +24,7 @@
 
     </div>
  </FORM>
-
+</div>
 
 
 
@@ -66,7 +67,7 @@ Related concepts (must be entered in correct case):
     <tr>
         <th>Question</th>
         <th><span>Answer</span></th>
-        <th>Score</th>
+        <th class="columnscore">Score</th>
         <th>TfIdf</th>
         <th>Wv</th>
       </tr>
@@ -80,12 +81,12 @@ Related concepts (must be entered in correct case):
 
                  <td > <!--suppress HtmlUnknownTarget, HtmlUnknownTarget -->
                     {{_.answer}}</A></td>
-                <td > <!--suppress HtmlUnknownTarget, HtmlUnknownTarget -->
-                    {{_.score}}</A></td>
+                <td class="columnscore"> <!--suppress HtmlUnknownTarget, HtmlUnknownTarget -->
+                    {{'%0.3f'| format(_.score|float)}}</A></td>
                 <td> <!--suppress HtmlUnknownTarget, HtmlUnknownTarget -->
-                    {{_.tfidf_score}}</A></td>
+                    {{'%0.3f'| format(_.tfidf_score|float)}}</A></td>
                 <td> <!--suppress HtmlUnknownTarget, HtmlUnknownTarget -->
-                    {{_.wv_score}}</A></td>
+                    {{'%0.3f'| format(_.wv_score|float)}}</A></td>
             </tr>
         {% endfor %}
     </table>
@@ -94,7 +95,6 @@ Related concepts (must be entered in correct case):
     <div class="buttonrow">
             {% if page_id and page_id > 0: %}
                     <input class="main" type="submit" value="<<< Back" onclick="move_to_page('{{ page_id - 1 }}','question_form')"/>
-
             {% endif %}
 
             <div class="buttoncolumn">
