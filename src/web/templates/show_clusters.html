@@ -1,15 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/buttons.css') }}?v=102"  >
-     <script type="text/javascript" src="{{ url_for('static', filename='scripts/main.js') }}?v=125"></script>
+{% include 'header_files.html' %}
   <meta charset="UTF-8">
   <title>Number of Clusters</title>
 
 </head>
 <body >
 
-<P>Enter questions </P>
+<P>Number of clusters</P>
 <!--suppress HtmlUnknownTarget -->
 <FORM id="clusters_form" ACTION="/bankdomain/show_clusters_submit" METHOD="POST">
     <div class="surrond_form">
