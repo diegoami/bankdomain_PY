@@ -1,6 +1,9 @@
 from .feature_consts import *
 from common import replace_strings
-
+from .bundeslaender import *
+from .countries import *
+from .towns import *
+from .nationalities import *
 class FeatureProcessor:
 
     def __init__(self, nlp):
@@ -15,6 +18,11 @@ class FeatureProcessor:
 
     def replace_concepts(self, text):
         text = replace_strings(text, month_names, month_name)
+        text = replace_strings(text, countries, country)
+        text = replace_strings(text, towns, town)
+        text = replace_strings(text, bundeslaender, bundesland)
+        text = replace_strings(text, nationalities, nationality)
+
         text = IBAN_REGEX.sub('IBAN', text)
         return text
 

@@ -67,7 +67,8 @@ Related concepts (must be entered in correct case):
         <th>Question</th>
         <th><span>Answer</span></th>
         <th>Score</th>
-
+        <th>TfIdf</th>
+        <th>Wv</th>
       </tr>
 
         {% for _ in docs_tfidf : %}
@@ -81,6 +82,10 @@ Related concepts (must be entered in correct case):
                     {{_.answer}}</A></td>
                 <td > <!--suppress HtmlUnknownTarget, HtmlUnknownTarget -->
                     {{_.score}}</A></td>
+                <td> <!--suppress HtmlUnknownTarget, HtmlUnknownTarget -->
+                    {{_.tfidf_score}}</A></td>
+                <td> <!--suppress HtmlUnknownTarget, HtmlUnknownTarget -->
+                    {{_.wv_score}}</A></td>
             </tr>
         {% endfor %}
     </table>

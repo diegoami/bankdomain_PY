@@ -14,9 +14,9 @@ class Preprocessor:
         text = replace_strings(text, first_banks, first_bank_name)
         text = replace_strings(text, second_banks, second_bank_name)
         text = replace_strings(text, companies, company_name)
-        text = replace_strings(text, countries, country)
+
         text = replace_strings(text, nationalities, nationality)
-        text = replace_strings(text, towns, town)
+
         return text
 
     def replace_characters_to_space(self, text):

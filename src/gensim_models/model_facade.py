@@ -54,9 +54,10 @@ class ModelFacade:
         for idx, score_tfidf in scores_tfidf:
             ridx = int(idx if idx >= min_level else idx + min_level)
             dict_score = scores_map.get(ridx,{})
-            if not "tfdif" in dict_score:
+            if not "tfidf" in dict_score:
                 dict_score["tfidf"] = score_tfidf
                 dict_score["total"] = dict_score["tfidf"] + dict_score["wv"]
+                scores_map[ridx] = dict_score
         scores = sorted([(idx, dict_score["total"], dict_score["tfidf"], dict_score["wv"]) for idx, dict_score in scores_map.items()], key=lambda x: x[1], reverse=True)
         return trigrams, scores
 
