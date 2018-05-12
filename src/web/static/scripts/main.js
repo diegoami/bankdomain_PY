@@ -17,3 +17,10 @@ function move_to_page(page_id, form) {
     mainForm.target= "";
     mainForm.submit();
 }
+
+find_similar = function(question) {
+    var mainForm = document.getElementById('question_form');
+    document.getElementById("question").value = question;
+    mainForm.method="POST";
+    mainForm.submit();
+}

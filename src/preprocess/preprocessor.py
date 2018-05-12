@@ -1,10 +1,12 @@
 
 from .lists import *
 from textacy.preprocess import preprocess_text
+import regex
 
 from common import map_products, replace_strings
 
-
+IBAN_REGEX = regex.compile('DE\d{2}[ ]\d{4}[ ]\d{4}[ ]\d{4}[ ]\d{4}[ ]\d{2}|DE\d{20}')
+TELEPHONE_REGEX = regex.compile('[0-9\-\(\)\+\s]{6,24}')
 class Preprocessor:
     def __call__(self, text):
         return self.custom_preprocess(text)
@@ -15,7 +17,8 @@ class Preprocessor:
         text = replace_strings(text, second_banks, second_bank_name)
         text = replace_strings(text, companies, company_name)
 
-        text = replace_strings(text, nationalities, nationality)
+        text = IBAN_REGEX.sub('IBAN', text)
+        text = TELEPHONE_REGEX.sub(' TELEPHONE ', text)
 
         return text
 

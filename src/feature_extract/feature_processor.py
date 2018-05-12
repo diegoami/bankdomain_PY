@@ -1,9 +1,11 @@
+import logging
 from .feature_consts import *
 from common import replace_strings
 from .bundeslaender import *
 from .countries import *
 from .towns import *
 from .nationalities import *
+
 class FeatureProcessor:
 
     def __init__(self, nlp):
@@ -12,7 +14,8 @@ class FeatureProcessor:
 
     def __call__(self, text):
         text = self.replace_concepts(text)
-        text = self.model_process(text)
+        if (text.lower() != text):
+            text = self.model_process(text)
 
         return text
 
@@ -23,7 +26,6 @@ class FeatureProcessor:
         text = replace_strings(text, bundeslaender, bundesland)
         text = replace_strings(text, nationalities, nationality)
 
-        text = IBAN_REGEX.sub('IBAN', text)
         return text
 
     def model_process(self, text):
@@ -44,6 +46,7 @@ class FeatureProcessor:
             elif (token.is_punct):
                 pass
             elif (token.pos_ in POS_IGNORE):
+
                 pass
             elif curr_truncs and token.pos_ == "NOUN":
                 found_ende = [p for p in possible_integrator if token.lemma_.lower().endswith(p)]

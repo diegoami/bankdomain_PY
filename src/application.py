@@ -30,6 +30,8 @@ class Application:
         words = self.model_facade.doc2vecFacade.retrieve_words()
         wps = []
         logging.info("Retrieving {} words".format(len(words)))
+        proc_words = [word for word, count in words if (count >= 8)]
+
         for word, count in words:
             if (count >= 8):
                 sim_w = self.model_facade.doc2vecFacade.pull_scores_word(word, threshold=0.78, topn=20)

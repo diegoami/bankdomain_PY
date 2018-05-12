@@ -65,6 +65,11 @@ CUSTOM_LOOKUP = {
     "Anmeldenamen" : "Anmeldename",
     "Arbeitsvertrages" : "Arbeitsvertrag",
     "Aufgaben" : "Aufgabe",
+    "Aufstockungskredits" : "Aufstockungskredit",
+    "Aufstockungskredites": "Aufstockungskredit",
+    "Aufstockungskredite": "Aufstockungskredit",
+    "Aufstockungskrediten": "Aufstockungskredit",
+
     "Auftrags" : "Auftrag",
     "Auftrages": "Auftrag",
     "Aufträgen": "Auftrag",
@@ -78,6 +83,9 @@ CUSTOM_LOOKUP = {
     "Autokredites": "Autokredit",
     "Autokredite": "Autokredit",
     "Autokrediten": "Autokredit",
+    "Automatenverbundes" : "Automatenverbund",
+    "Automatenverbunden": "Automatenverbund",
+    "Automatenverbunde": "Automatenverbund",
 
     "Apps" : "App",
     "Arbeitstage" : "Arbeitstag",
@@ -418,7 +426,7 @@ CUSTOM_LOOKUP = {
     "erfasstes": "erfassen",
     "erfasstem": "erfassen",
     "erfassten": "erfassen",
-
+    "Erhält" : "erhalten",
     "erkanntes": "erkannt",
     "erkannter": "erkannt",
     "erkannten": "erkannt",
@@ -1759,6 +1767,7 @@ CUSTOM_LOOKUP = {
     "Wirtschaftsraums" : "Wirtschaftsraum",
     "Wirtschaftsraumes" : "Wirtschaftsraum",
     "Wochenlimits" : "Wochenlimit",
+    "Wohnortwechsels" : "Wohnortwechsel",
     "Wohnungseigentümern" : "Wohnungseigentümer",
     "Wunschbetrags" : "Wunschbetrag",
     "Wurde": "werden",

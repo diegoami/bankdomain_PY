@@ -1,7 +1,8 @@
 from .custom_words import remove_words
-from .custom_stopwords import CUSTOM_STOP_WORDS, add_stop_words
+from .custom_stopwords import add_stop_words
 from .custom_lemmas import CUSTOM_REMOVES, CUSTOM_LOOKUP
 import spacy
+
 class NlpWrapper():
 
     def __init__(self):
@@ -19,5 +20,10 @@ class NlpWrapper():
         add_stop_words(self.nlp)
 
     def retrieve_forms_for_lemma(self, lemma_to_find):
-        forms = [form for form, lemma in self.nlp.Defaults.lemma_lookup.items() if lemma.lower() == lemma_to_find.lower()]
-        return forms
+        all_forms = set()
+        for form, lemma in self.nlp.Defaults.lemma_lookup.items():
+            if (lemma != lemma.lower()):
+                all_forms.add(lemma)
+            if lemma.lower() == lemma_to_find.lower():
+                all_forms.add(form)
+        return all_forms

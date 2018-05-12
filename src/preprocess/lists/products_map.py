@@ -62,5 +62,7 @@ products_map = {
     "Prepaid Trios" : "DidiKonto",
     "KEYPLAN-Konto" : "DidiKonto",
     "EvoRepair" : "DidiRepair",
-    "CASH26" : "DidiCash"
+    "CASH26" : "DidiCash",
+    "NetBanking Plus" : "DidiOnline",
+    "auxmoney" : "DidiKredit"
 }
