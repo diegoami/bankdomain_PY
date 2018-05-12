@@ -25,7 +25,7 @@ CUSTOM_STOP_WORDS  = set("""
  klicken Klicken 
  lediglich Lediglich
  meist Meist mittels Mit mitunter Mitunter mitsamt Mitsamt manchmal Manchmal mindestens Mindestens möchten Möchten
- n N nebst Nebst nur Nur nachdem Nachdem nach Nach nämlich Nämlich
+ n N nebst Nebst nur Nur nachdem Nachdem nach Nach nämlich Nämlich nun Nun
  ok of oftmals Oftmals or  
  sobald sodass sofern sogar solange somit soweit stattdessen seit Seit s S so So    Sie sie sofern Sofern sollte Sollte stets Stets
  t T 

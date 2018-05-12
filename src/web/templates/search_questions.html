@@ -9,7 +9,7 @@
 <body onload="select_header('topnav_search_questions')">
 {% include 'header.html' %}
 
-<P>Enter question </P>
+<P>Enter question (Case sensitive!) </P>
 <!--suppress HtmlUnknownTarget -->
 <div class="surrond_form">
     <FORM id="question_form" ACTION="/bankdomain/search_questions_submit" METHOD="POST">
@@ -80,6 +80,7 @@
     <CAPTION>Answers Found</CAPTION>
 
     <tr>
+        <th class="icon"><span class="hide-1000">Similar</span></th>
         <th>Question</th>
         <th><span>Answer</span></th>
         <th class="columnscore">Score</th>
@@ -90,6 +91,11 @@
         {% for _ in docs : %}
 
             <tr>
+                <td class="icon">
+                    <A HREF="javascript:find_similar('{{_.question}}')" >
+                        <IMG SRC="{{ url_for('static', filename='images/find_similar.png') }}" ALT="Find similar" TITLE="Find similar">
+                    </A>
+                </td>
 
                 <td > <!--suppress HtmlUnknownTarget, HtmlUnknownTarget -->
                     {{_.question}}</A></td>

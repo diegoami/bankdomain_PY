@@ -33,8 +33,11 @@ class QueryExecutor:
 
 
     def retrieve_answers(self, text, threshold=0.78, topn=20):
+        logging.info("Retrieving answers for {}".format(text))
         text = self.feature_processor(text)
         tokens = text.lower().split()
+        logging.info("Tokens after preprocessing : {}".format(tokens))
+
 
         trigrams, scores = self.model_facade.similar_doc(tokens)
         if (len(scores) > 0):

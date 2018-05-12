@@ -6,6 +6,7 @@ if __name__ == '__main__':
     feature_processor = FeatureProcessor(nlp)
 
 
+
     print(feature_processor(
         "Die Schutzgemeinschaft für allgemeine Kreditsicherung  ( SCHUFA )  ist eine Gemeinschaftseinrichtung von Wirtschaftsunternehmen, die Ihren Kunden Geld- oder Warenkredite einräumen."))
 

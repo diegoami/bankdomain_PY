@@ -86,15 +86,16 @@ class MongoRepository:
                 yield (el["question"].lower() + (("\n"+ el["answer"].lower() ) if not only_question else "") +"\n")
             else:
                 yield (el["question"] + (("\n"+ el["answer"] )if not only_question else "")  + "\n")
-    def print_all_files(self):
-        with open('data/questions.txt', 'w') as f:
+
+    def print_all_files(self, output_dir):
+        with open(output_dir + '/questions.txt', 'w') as f:
             f.writelines(self.iterate_questions(collection=self.questions, separator=True, print_number=True))
 
-        with open('data/preprocessed_questions.txt', 'w') as f:
+        with open(output_dir + '/preprocessed_questions.txt', 'w') as f:
             f.writelines(
                 self.iterate_questions(collection=self.preprocessed_questions, separator=True,  print_number=True))
 
-        with open('data/processed_questions.txt', 'w') as f:
+        with open(output_dir + '/processed_questions.txt', 'w') as f:
             f.writelines(
                 self.iterate_questions(collection=self.processed_questions, separator=True,  print_number=True))
 
