@@ -27,10 +27,27 @@ def search_questions_submit():
                 return render_template('search_questions.html',messages = messages)
             else:
                 page_id = read_int_from_form(form, 'page_id', "0")
-                logging.info("Processing {}".format(question))
-                scores_tfidf, token_map = _.query_executor.retrieve_answers(question, threshold=0.8, topn=20 )
-                docs_tfidf = _.query_executor.retrieve_documents(scores_tfidf, page_id)
-                token_list = [ {"token" : key, "rel_tokens": ", ".join([v[0]+" ("+str(round(v[1],2)) +")" for v in values])} for key, values in token_map.items()]
+                return do_search(_, page_id, question)
 
-                return render_template('search_questions.html', docs_tfidf=docs_tfidf, page_id = page_id, question=question, token_list = token_list)
+
+def do_search(_, page_id, question):
+    logging.info("Processing {}".format(question))
+    answers = _.query_executor.retrieve_answers(question, threshold=0.78, topn=20)
+    scores, token_map, tokens_not_found = answers["scores"], answers["token_map"], answers[
+        "tokens_not_found"]
+    docs = _.query_executor.retrieve_documents(scores, page_id)
+    token_list = [{"token": key, "rel_tokens": ", ".join([v[0] + " (" + str(round(v[1], 2)) + ")" for v in values])} for
+                  key, values in token_map.items()]
+    return render_template('search_questions.html', docs=docs, page_id=page_id, question=question,
+                           token_list=token_list, tokens_not_found=tokens_not_found)
+
+
+@app.route('/bankdomain/random_questions_submit', methods=['POST'])
+@app.route('/random_questions_submit', methods=['POST'])
+def random_question_submit():
+    _ = app.application
+    if request.method == 'POST':
+        form = request.form
+        question = _.mongo_repository.retrieve_random_question()
+        return do_search(_, 0, question)
 

@@ -9,7 +9,7 @@
 <body onload="select_header('topnav_search_questions')">
 {% include 'header.html' %}
 
-<P>Enter questions </P>
+<P>Enter question </P>
 <!--suppress HtmlUnknownTarget -->
 <div class="surrond_form">
     <FORM id="question_form" ACTION="/bankdomain/search_questions_submit" METHOD="POST">
@@ -20,21 +20,36 @@
     <textarea class="textarea_big" id="question" name="question" rows="10" cols="60">{{question | default('')}}</textarea>
     </p>
          <input id="page_id" name="page_id"  type="hidden" value="0"  />
-    <P><input type="submit" value="submit"  /></P>
 
+        <input  class="main" type="submit" value="Submit"  />
+        <input class="main" type="submit" value="Random" onclick="random_question('question_form');"  />
     </div>
  </FORM>
 </div>
 
 
+{% if tokens_not_found : %}
+<table border="1">
+    <CAPTION>Not in Dictionary (Check spelling)</CAPTION>
 
+    <tr>
+        <th>Missing Token</th>
+
+    </tr>
+    {% for token in tokens_not_found: %}
+    <tr><td>{{token}}</td></tr>
+    {% endfor %}
+{% endif %}
+<BR>
 
 {% if token_list : %}
 
+
+
 <BR>
-Related concepts (must be entered in correct case):
+
 <table border="1">
-    <CAPTION>Related concepts</CAPTION>
+    <CAPTION>Found tokens</CAPTION>
 
     <tr>
         <th>Orig Token</th>
@@ -59,20 +74,20 @@ Related concepts (must be entered in correct case):
 <BR>
 {% endif %}
 
-{% if docs_tfidf : %}
+{% if docs : %}
 
     <table border="1">
-    <CAPTION>Questions- TFIDF</CAPTION>
+    <CAPTION>Answers Found</CAPTION>
 
     <tr>
         <th>Question</th>
         <th><span>Answer</span></th>
         <th class="columnscore">Score</th>
-        <th>TfIdf</th>
-        <th>Wv</th>
+        <th class="columnscore">TfIdf</th>
+        <th class="columnscore">Wv</th>
       </tr>
 
-        {% for _ in docs_tfidf : %}
+        {% for _ in docs : %}
 
             <tr>
 
@@ -83,7 +98,7 @@ Related concepts (must be entered in correct case):
                     {{_.answer}}</A></td>
                 <td class="columnscore"> <!--suppress HtmlUnknownTarget, HtmlUnknownTarget -->
                     {{'%0.3f'| format(_.score|float)}}</A></td>
-                <td> <!--suppress HtmlUnknownTarget, HtmlUnknownTarget -->
+                <td > <!--suppress HtmlUnknownTarget, HtmlUnknownTarget -->
                     {{'%0.3f'| format(_.tfidf_score|float)}}</A></td>
                 <td> <!--suppress HtmlUnknownTarget, HtmlUnknownTarget -->
                     {{'%0.3f'| format(_.wv_score|float)}}</A></td>
@@ -91,7 +106,7 @@ Related concepts (must be entered in correct case):
         {% endfor %}
     </table>
 {% endif %}
-{% if docs_tfidf: %}
+{% if docs: %}
     <div class="buttonrow">
             {% if page_id and page_id > 0: %}
                     <input class="main" type="submit" value="<<< Back" onclick="move_to_page('{{ page_id - 1 }}','question_form')"/>

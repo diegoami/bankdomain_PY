@@ -4,7 +4,11 @@ select_header = function(element) {
 }
 
 
-
+random_question = function(form) {
+    var mainForm = document.getElementById(form);
+    mainForm.action = '/bankdomain/random_questions_submit';
+    mainForm.submit();
+}
 
 
 function move_to_page(page_id, form) {

@@ -27,7 +27,7 @@ CUSTOM_STOP_WORDS  = set("""
  meist Meist mittels Mit mitunter Mitunter mitsamt Mitsamt manchmal Manchmal mindestens Mindestens möchten Möchten
  n N nebst Nebst nur Nur nachdem Nachdem nach Nach nämlich Nämlich
  ok of oftmals Oftmals or  
- sobald sodass sofern sogar solange somit soweit stattdessen seit Seit s Sie sie sofern Sofern sollte Sollte stets Stets
+ sobald sodass sofern sogar solange somit soweit stattdessen seit Seit s S so So    Sie sie sofern Sofern sollte Sollte stets Stets
  t T 
  u. über Über
  unten Unten

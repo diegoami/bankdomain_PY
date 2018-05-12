@@ -22,11 +22,7 @@ class Tf2WvMapper:
 
 
     def get_wv(self, word):
-        try:
-            return self.wv.word_vec(word)
-        except:
-            logging.debug("Could not find word {}".format(word))
-            return np.zeros((1,self.doc_shape))
+        return self.wv.word_vec(word)
 
     def get_idf(self, word):
         return self.idfs[self.self.dictionary.token2id[word]]
@@ -46,8 +42,12 @@ class Tf2WvMapper:
         for token_id, token_count in vec_bow:
             idf = self.idfs[token_id]
             token = self.dictionary[token_id]
-            vec = self.get_wv(token)
-            vec_sum = vec_sum + (token_count * idf) * vec
+            try:
+                vec = self.get_wv(token)
+                vec_sum = vec_sum + (token_count * idf) * vec
+            except KeyError:
+                logging.info("Ignoring token {} - not found in WV".format(token))
+                continue
         vec_norm = unitvec(vec_sum )
         return vec_norm
 
@@ -57,9 +57,14 @@ class Tf2WvMapper:
         for token_id, token_count in vec_bow:
             idf = self.idfs[token_id]
             token = self.dictionary[token_id]
-            vec = self.get_wv(token)
-            vec_weight_tuple = (vec, idf * token_count)
-            vec_list.append(vec_weight_tuple )
+            try:
+                vec = self.get_wv(token)
+                vec_weight_tuple = (vec, idf * token_count)
+                if (idf > 0 ):
+                    vec_list.append(vec_weight_tuple )
+            except KeyError:
+                logging.info("Ignoring token {} - not found in WV".format(token))
+                continue
         return vec_list
 
     def get_weighted_list(self, trigrams):
