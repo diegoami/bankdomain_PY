@@ -44,34 +44,42 @@ class ModelFacade:
         min_level =  self.mongo_repository.num_questions
         trigrams = self.gramFacade.phrase(tokens)
         scores_wv = self.similar_doc_wv(trigrams)
-        scores_tfidf = self.similar_doc_tfidf(trigrams)
-        scores_map = {}
-        for idx, score_wv in scores_wv:
-            ridx = int(idx if idx >= min_level else idx+min_level)
-            dict_score = scores_map.get(ridx, {})
-            if not "wv" in dict_score:
-                scores_map[ridx] = {"wv" : score_wv  }
-        for idx, score_tfidf in scores_tfidf:
-            ridx = int(idx if idx >= min_level else idx + min_level)
-            dict_score = scores_map.get(ridx,{})
-            if not "tfidf" in dict_score:
-                dict_score["tfidf"] = score_tfidf
-                dict_score["total"] = dict_score["tfidf"] + dict_score["wv"]
-                scores_map[ridx] = dict_score
-        scores = sorted([(idx, dict_score["total"], dict_score["tfidf"], dict_score["wv"]) for idx, dict_score in scores_map.items()], key=lambda x: x[1], reverse=True)
-        return trigrams, scores
+        if len(scores_wv) > 0 :
+            scores_tfidf = self.similar_doc_tfidf(trigrams)
+            scores_map = {}
+            for idx, score_wv in scores_wv:
+                ridx = int(idx if idx >= min_level else idx+min_level)
+                dict_score = scores_map.get(ridx, {})
+                if not "wv" in dict_score:
+                    scores_map[ridx] = {"wv" : score_wv  }
+            for idx, score_tfidf in scores_tfidf:
+                ridx = int(idx if idx >= min_level else idx + min_level)
+                dict_score = scores_map.get(ridx,{})
+                if not "tfidf" in dict_score:
+                    dict_score["tfidf"] = score_tfidf
+                    dict_score["total"] = dict_score["tfidf"] + dict_score["wv"]
+                    scores_map[ridx] = dict_score
+            scores = sorted([(idx, dict_score["total"], dict_score["tfidf"], dict_score["wv"]) for idx, dict_score in scores_map.items()], key=lambda x: x[1], reverse=True)
+            return trigrams, scores
+        else:
+            return trigrams, []
 
     def similar_doc_wv(self, trigrams, topn=None):
+        logging.info("Processing trigrams : {}".format(trigrams))
         weighted_list = self.tf2wv.get_weighted_list(trigrams)
-        arg_scores = self.doc2vecFacade.model.docvecs.most_similar(weighted_list, topn=topn)
-        arr_range = np.expand_dims(np.arange(len(arg_scores)), axis=1)
-        arr_score = np.expand_dims(arg_scores, axis=1)
-        arr_total = np.concatenate([arr_range, arr_score], axis=1)
-        arsorted = np.argsort(-arg_scores)
-        arr_result = arr_total[arsorted]
-        scores = arr_result.tolist()
-        return  scores
 
+        if len(weighted_list) > 0:
+            logging.info("Weighted list of length: {}".format(len(weighted_list)))
+            arg_scores = self.doc2vecFacade.model.docvecs.most_similar(weighted_list, topn=topn)
+            arr_range = np.expand_dims(np.arange(len(arg_scores)), axis=1)
+            arr_score = np.expand_dims(arg_scores, axis=1)
+            arr_total = np.concatenate([arr_range, arr_score], axis=1)
+            arsorted = np.argsort(-arg_scores)
+            arr_result = arr_total[arsorted]
+            scores = arr_result.tolist()
+            return scores
+        else:
+            return []
     def similar_id_wv(self, id, topn=None):
         scores = self.doc2vecFacade.model.docvecs.most_similar([int(id)], topn=topn)
         return scores

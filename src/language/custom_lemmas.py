@@ -58,6 +58,7 @@ CUSTOM_LOOKUP = {
     "Anlagekontos" : "Anlagekonto",
     "Anlagekonten": "Anlagekonto",
     "Anlagen" : "Anlage",
+    "Anschriften" : "Anschrift",
 
     "Anspruchsberechtigten" : "Anspruchsberechtigte",
     "Antragsprozesses" : "Antragsprozess",
@@ -139,6 +140,7 @@ CUSTOM_LOOKUP = {
     "Bankkonten": "Bankkonto",
     "Bankkontos" : "Bankkonto",
     "Bankkunden" : "Bankkunde",
+    "Bank-Shops" : "Bank-Shop",
     "Bankverbindungen" : "Bankverbindung",
     "Barabhebungen" : "Barabhebung",
     "Bareinzahlungen" : "Bareinzahlung",
@@ -187,6 +189,8 @@ CUSTOM_LOOKUP = {
     "Betriebssysteme": "Betriebssystem",
 
     "Bevollmächtigter" : "Bevollmächtigte",
+    "Bevollmächtigten" : "Bevollmächtigte",
+    "Bevollmächtigen" : "Bevollmächtigte",
     "Bezahlkarten" : "Bezahlkarte",
 
     "Bezahlvorganges" : "Bezahlvorgang",
@@ -394,6 +398,8 @@ CUSTOM_LOOKUP = {
     "E-Mails" : "E-Mail",
     "eMails" : "E-Mail",
     "eMail": "E-Mail",
+    "Emails" : "E-Mail",
+    "Email": "E-Mail",
     "Emittenten" : "Emittent",
     "Empfängerkontos" : "Empfängerkonto",
     "Empfängerkonten": "Empfängerkonto",
@@ -535,6 +541,7 @@ CUSTOM_LOOKUP = {
     "Finanzinstituts": "Finanzinstitut",
 
     "Finanzinstituten" : "Finanzinstitut",
+    "Finanzsoftwares" : "Finanzsoftware",
     "Firewalls" : "Firewall",
     "Firmenkonten" : "Firmenkonto",
     "Firmenkontos": "Firmenkonto",
@@ -729,6 +736,10 @@ CUSTOM_LOOKUP = {
     "Halbjahreskontoauszugs" : "Halbjahreskontoauszug",
     "Halbjahreskontoauszüge": "Halbjahreskontoauszug",
     "Halbjahreskontoauszügen": "Halbjahreskontoauszug",
+    "Handelsplatzes" : "Handelsplatz",
+    "Handelsplätze": "Handelsplatz",
+    "Handelsplätzen": "Handelsplatz",
+
     "IBANs" : "IBAN",
     "Identitätsnachweises" : "Identitätsnachweis",
     "Immobilienkrediten" : "Immobilienkredit",
@@ -1423,6 +1434,10 @@ CUSTOM_LOOKUP = {
     "Sicherungssystemen": "Sicherungssystem",
     "Sichteinlagen" : "Sichteinlage",
     "Sollzinsbindungen" : "Sollzinsbindung",
+    "Sofortkredite" : "Sofortkredit",
+    "Sofortkrediten": "Sofortkredit",
+    "Sofortkredits": "Sofortkredit",
+    "Sofortkredites": "Sofortkredit",
 
     "Sondertilgungen" : "Sondertilgung",
     "Sonderzahlungen" : "Sonderzahlung",

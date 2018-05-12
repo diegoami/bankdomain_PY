@@ -4,7 +4,9 @@ import os
 import bson
 import logging
 import pandas
+from random import randint
 logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO)
+
 class MongoRepository:
     def __init__(self, mongo_connection):
         self.mongo_connection = mongo_connection
@@ -125,3 +127,6 @@ class MongoRepository:
             index += self.num_questions
         return self.all_preprocessed_questions[index]
 
+    def retrieve_random_question(self):
+        rand_index = randint(0, self.num_questions)
+        return self.all_preprocessed_questions[rand_index]
