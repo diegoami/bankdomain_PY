@@ -18,7 +18,7 @@ products_map = {
     "SparkassenCard": "DidiCard",
 
     "Kleeblatt" : "Didi",
-    "sparSmart" : "DidiSuperSparkonto",
+    "sparSmart" : "DidiSuperSparKonto",
     "TWINT" : "DidiPay",
     "easyKonto" :"DidiEasy",
     "SpardaApp" : "DidiApp",
@@ -35,8 +35,7 @@ products_map = {
     "S-Depot" : "DidiVermögen",
     "S-Broker" : "DidiBroker",
     "SPG-Verein" : "DidiVerein",
-    "SFirm" : "DidiApp",
-    "sfirm" : "didiapp",
+
     "S-Tagesgeld" : "DidiTagesgeld",
     "meine.deutsche-bank.de" : "DidiApp",
     "netsp@r_konto" : "DidiSparKonto",
@@ -55,6 +54,7 @@ products_map = {
     "SparkassenShop" : "DidiShop",
     "Sparkassen-App": "DidiApp",
     "KWITT" : "DidiPay",
+    "Kwitt": "DidiPay",
     "S-pushTAN-App" : "pushTAN-App",
     "MeinRahmenKredit" : "DidiRahmenKredit",
     "MeinWohnKredit" : "DidiWohnKredit",
@@ -64,5 +64,8 @@ products_map = {
     "EvoRepair" : "DidiRepair",
     "CASH26" : "DidiCash",
     "NetBanking Plus" : "DidiOnline",
-    "auxmoney" : "DidiKredit"
+    "auxmoney" : "DidiKredit",
+    "OYAK-Keys" : "DidiLogin",
+     "\"Deutsche Bank Mobile\"-App" : "DidiApp",
+    "KEYPLAN" : "DidiBroker"
 }

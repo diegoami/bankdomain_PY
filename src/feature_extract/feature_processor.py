@@ -5,7 +5,8 @@ from .bundeslaender import *
 from .countries import *
 from .towns import *
 from .nationalities import *
-
+DATE_REGEX = regex.compile('\b[0-9]{1,2}\.[0-9]{1,2}\.([0-9]{4})?\b')
+import regex
 class FeatureProcessor:
 
     def __init__(self, nlp):
@@ -15,8 +16,12 @@ class FeatureProcessor:
     def __call__(self, text):
         text = self.replace_concepts(text)
         if (text.lower() != text):
-            text = self.model_process(text)
-
+            text_out = ""
+            doc = self.nlp(text)
+            for sent in doc.sents:
+                sent_out = self.model_process(sent.text)
+                text_out = text_out +" " +sent_out;
+            text = text_out
         return text
 
     def replace_concepts(self, text):
@@ -25,6 +30,7 @@ class FeatureProcessor:
         text = replace_strings(text, towns, town)
         text = replace_strings(text, bundeslaender, bundesland)
         text = replace_strings(text, nationalities, nationality)
+        text = DATE_REGEX.sub('IBAN', text)
 
         return text
 
@@ -79,7 +85,7 @@ class FeatureProcessor:
                         to_app = sep_part[0].text + docl[index].lemma_.lower()
 
                         keep_toks.append(to_app)
-                elif (index < len(docl)      and docl[index].pos_ == "VERB") and (docl[index].lemma_ != docl[index].text):
+                elif (index < len(docl)      and docl[index].pos_ in ["VERB", "ADJ"]) and (docl[index].lemma_ != docl[index].text):
                     keep_toks.append(docl[index].lemma_)
                 else:
                     keep_toks.append(token.lemma_)

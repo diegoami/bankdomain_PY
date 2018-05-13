@@ -50,14 +50,15 @@ class MongoRepository:
             el["processed"] = True
             state = 0
 
-            for line in content:
+            for line_l in content:
+                line = line_l.strip()
                 if '###' in line:
                     state = 0
                     if len(question) > 0 and len(answer) > 0:
                         qa_questions_coll.insert_one({"question": question, "answer" : answer, "full_file": el["full_file"], "index" :  bson.Int64(index)})
                         index += 1
                         answer, question = "", ""
-                elif len(line.strip()) == 0:
+                elif len(line) == 0:
                     continue
                 elif state == 0:
                     question = line

@@ -19,7 +19,7 @@ class Application:
         self.language_facade = LanguageFacade()
         self.wps = None
 
-        if config['preload_words'] and config['preload_words'].strip() == 'True':
+        if config['preload_words'] and config['preload_words'] == True:
             thread = threading.Thread(target=self.preload_words)
             thread.start()
         else:

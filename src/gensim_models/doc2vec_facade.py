@@ -28,7 +28,7 @@ class LabeledLineSentence(object):
 
 class Doc2VecFacade:
 
-    def __init__(self, model_dir,  window=10, min_count=5, sample=0.001, epochs=30, alpha=0.1, vector_size=400, batch_size=10000, queue_factor=2, workers=8, version=1):
+    def __init__(self, model_dir, window=9, min_count=3, sample=0, epochs=35, alpha=0.01,vector_size=300, batch_size=10000, queue_factor=2, workers=8, version=1):
 
         self.model_dir = model_dir
         self.name="DOC2VEC-V"+str(version)
