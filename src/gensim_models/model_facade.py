@@ -12,7 +12,7 @@ class ModelFacade:
         self.mongo_repository = mongo_repository
         self.models_dir = models_dir
         self.gramFacade = GramFacade(self.models_dir,  min_count_bigrams=10, min_count_trigrams=11)
-        self.doc2vecFacade = Doc2VecFacade(self.models_dir, window=8, min_count=4, sample=0, epochs=35, alpha=0.01,vector_size=300, batch_size=10000)
+        self.doc2vecFacade = Doc2VecFacade(self.models_dir, window=9, min_count=3, sample=0, epochs=35, alpha=0.01,vector_size=300, batch_size=10000)
         self.kmeansFacade = KMeansFacade()
         self.tfidfFacade = TfidfFacade(self.models_dir, no_below=3, no_above=0.9, num_topics=400 )
         self.tf2wv = Tf2WvMapper(models_dir, self.gramFacade, self.tfidfFacade, self.doc2vecFacade )
