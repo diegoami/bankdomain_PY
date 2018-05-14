@@ -20,7 +20,8 @@ class NlpWrapper():
         add_stop_words(self.nlp)
 
     def retrieve_forms_for_lemma(self, lemma_to_find):
-        all_forms = set(lemma_to_find)
+        all_forms = set()
+        all_forms.add(lemma_to_find)
         for form, lemma in self.nlp.Defaults.lemma_lookup.items():
             if lemma.lower() == lemma_to_find.lower():
                 all_forms.add(form)

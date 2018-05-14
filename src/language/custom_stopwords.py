@@ -29,7 +29,7 @@ CUSTOM_STOP_WORDS  = set("""
  ok of oftmals Oftmals or ohnehin Ohnehin
  sobald sodass sofern sogar solange Solange somit soweit stattdessen seit Seit s S so So    Sie sie sofern Sofern sollte Sollte stets Stets
  soweit Soweit statt Statt
- 
+ r R
  t T 
  u. über Über
  unten Unten 
