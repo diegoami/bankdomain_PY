@@ -21,7 +21,10 @@ class FeatureProcessor:
             for sent in doc.sents:
                 sent_out = self.model_process(sent.text)
                 text_out = text_out +" " +sent_out;
-            text = text_out
+            if (len(text_out.strip()) == 0):
+                text_out = self.model_process(text)
+            if (len(text_out.strip()) > 0):
+                text = text_out.strip()
         return text
 
     def replace_concepts(self, text):

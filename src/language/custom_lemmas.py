@@ -515,6 +515,8 @@ CUSTOM_LOOKUP = {
 
     "Ehepaaren" : "Ehepaar",
     "Ehepaare": "Ehepaar",
+    "Ehepartners" : "Ehepartner",
+    "Ehepartnern": "Ehepartner",
     "Ehepaars": "Ehepaar",
     "Eigenleistungen" : "Eigenleistung",
     "Eigenmitteln": "Eigenmittel",
@@ -538,6 +540,7 @@ CUSTOM_LOOKUP = {
     "Einlegern": "Einleger",
 
     "Einstandskurse" : "Einstandskurs",
+    "einzuloggen" : "einloggen",
     "eTAN-Verfahrens" : "eTAN-Verfahren",
     "effektiver" : "effektiv",
     "effektive": "effektiv",

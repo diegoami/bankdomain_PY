@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 
 @app.route('/')
-@app.route('/banking/')
+@app.route('/bankdomain/')
 def home():
     return redirect(url_for('search_questions'))
 
