@@ -1,0 +1,522 @@
+2018-10-16 22:00:36,688 : INFO : 'pattern' package not found; tag filters are not available for English
+2018-10-16 22:00:37,881 : INFO : loading Phraser object from /media/diego/QData/bankdomain/model//bigrams_phraser
+2018-10-16 22:00:37,885 : INFO : loaded /media/diego/QData/bankdomain/model//bigrams_phraser
+2018-10-16 22:00:37,886 : INFO : loading Phraser object from /media/diego/QData/bankdomain/model//trigrams_phraser
+2018-10-16 22:00:37,890 : INFO : loaded /media/diego/QData/bankdomain/model//trigrams_phraser
+2018-10-16 22:00:37,890 : INFO : loading Doc2Vec object from /media/diego/QData/bankdomain/model//doc2vec
+2018-10-16 22:00:38,677 : INFO : loading vocabulary recursively from /media/diego/QData/bankdomain/model//doc2vec.vocabulary.* with mmap=None
+2018-10-16 22:00:38,677 : INFO : loading trainables recursively from /media/diego/QData/bankdomain/model//doc2vec.trainables.* with mmap=None
+2018-10-16 22:00:38,677 : INFO : loading wv recursively from /media/diego/QData/bankdomain/model//doc2vec.wv.* with mmap=None
+2018-10-16 22:00:38,677 : INFO : loading docvecs recursively from /media/diego/QData/bankdomain/model//doc2vec.docvecs.* with mmap=None
+2018-10-16 22:00:38,677 : INFO : loaded /media/diego/QData/bankdomain/model//doc2vec
+2018-10-16 22:00:38,691 : INFO : loading Dictionary object from /media/diego/QData/bankdomain/model//dictionary
+2018-10-16 22:00:38,696 : INFO : loaded /media/diego/QData/bankdomain/model//dictionary
+2018-10-16 22:00:38,702 : INFO : loaded corpus index from /media/diego/QData/bankdomain/model//corpus.index
+2018-10-16 22:00:38,702 : INFO : initializing cython corpus reader from /media/diego/QData/bankdomain/model//corpus
+2018-10-16 22:00:38,703 : INFO : accepted corpus with 17320 documents, 8942 features, 215007 non-zero entries
+2018-10-16 22:00:38,703 : INFO : collecting document frequencies
+2018-10-16 22:00:38,703 : INFO : PROGRESS: processing document #0
+2018-10-16 22:00:38,751 : INFO : PROGRESS: processing document #10000
+2018-10-16 22:00:38,859 : INFO : calculating IDF weights for 17320 documents and 8941 features (215007 matrix non-zeros)
+2018-10-16 22:00:38,880 : INFO : loading LsiModel object from /media/diego/QData/bankdomain/model//lsi
+2018-10-16 22:00:38,886 : INFO : loading id2word recursively from /media/diego/QData/bankdomain/model//lsi.id2word.* with mmap=None
+2018-10-16 22:00:38,886 : INFO : setting ignored attribute projection to None
+2018-10-16 22:00:38,886 : INFO : setting ignored attribute dispatcher to None
+2018-10-16 22:00:38,886 : INFO : loaded /media/diego/QData/bankdomain/model//lsi
+2018-10-16 22:00:38,886 : INFO : loading LsiModel object from /media/diego/QData/bankdomain/model//lsi.projection
+2018-10-16 22:00:39,376 : INFO : loaded /media/diego/QData/bankdomain/model//lsi.projection
+2018-10-16 22:00:39,376 : INFO : loading MatrixSimilarity object from /media/diego/QData/bankdomain/model//index
+2018-10-16 22:00:39,851 : INFO : loaded /media/diego/QData/bankdomain/model//index
+2018-10-16 22:00:40,780 : INFO : Not preloading words....
+2018-10-16 22:04:45,150 : INFO : Processing Wie und wann erhalte ich meinen Digipass?
+
+2018-10-16 22:04:45,150 : INFO : Retrieving answers for Wie und wann erhalte ich meinen Digipass?
+
+2018-10-16 22:04:45,179 : INFO : Tokens after preprocessing : ['erhalten', 'digipass']
+2018-10-16 22:04:45,179 : INFO : Processing trigrams : ['erhalten', 'digipass']
+2018-10-16 22:04:45,180 : INFO : Weighted list of length: 2
+2018-10-16 22:04:45,180 : INFO : precomputing L2-norms of doc weight vectors
+/home/ubuntu/anaconda3/envs/bankdomain/lib/python3.7/site-packages/gensim/matutils.py:737: FutureWarning: Conversion of the second argument of issubdtype from `int` to `np.signedinteger` is deprecated. In future, it will be treated as `np.int64 == np.dtype(int).type`.
+  if np.issubdtype(vec.dtype, np.int):
+2018-10-16 22:04:45,316 : INFO : precomputing L2-norms of word weight vectors
+2018-10-16 22:05:36,439 : INFO : 'pattern' package not found; tag filters are not available for English
+2018-10-16 22:11:35,719 : INFO : 'pattern' package not found; tag filters are not available for English
+2018-10-16 22:11:37,410 : INFO : loading Phraser object from /media/diego/QData/bankdomain/model//bigrams_phraser
+2018-10-16 22:11:37,415 : INFO : loaded /media/diego/QData/bankdomain/model//bigrams_phraser
+2018-10-16 22:11:37,415 : INFO : loading Phraser object from /media/diego/QData/bankdomain/model//trigrams_phraser
+2018-10-16 22:11:37,417 : INFO : loaded /media/diego/QData/bankdomain/model//trigrams_phraser
+2018-10-16 22:11:37,417 : INFO : loading Doc2Vec object from /media/diego/QData/bankdomain/model//doc2vec
+2018-10-16 22:11:38,292 : INFO : loading vocabulary recursively from /media/diego/QData/bankdomain/model//doc2vec.vocabulary.* with mmap=None
+2018-10-16 22:11:38,292 : INFO : loading trainables recursively from /media/diego/QData/bankdomain/model//doc2vec.trainables.* with mmap=None
+2018-10-16 22:11:38,293 : INFO : loading wv recursively from /media/diego/QData/bankdomain/model//doc2vec.wv.* with mmap=None
+2018-10-16 22:11:38,293 : INFO : loading docvecs recursively from /media/diego/QData/bankdomain/model//doc2vec.docvecs.* with mmap=None
+2018-10-16 22:11:38,293 : INFO : loaded /media/diego/QData/bankdomain/model//doc2vec
+2018-10-16 22:11:38,306 : INFO : loading Dictionary object from /media/diego/QData/bankdomain/model//dictionary
+2018-10-16 22:11:38,317 : INFO : loaded /media/diego/QData/bankdomain/model//dictionary
+2018-10-16 22:11:38,321 : INFO : loaded corpus index from /media/diego/QData/bankdomain/model//corpus.index
+2018-10-16 22:11:38,321 : INFO : initializing cython corpus reader from /media/diego/QData/bankdomain/model//corpus
+2018-10-16 22:11:38,322 : INFO : accepted corpus with 17320 documents, 8942 features, 215007 non-zero entries
+2018-10-16 22:11:38,323 : INFO : collecting document frequencies
+2018-10-16 22:11:38,323 : INFO : PROGRESS: processing document #0
+2018-10-16 22:11:38,372 : INFO : PROGRESS: processing document #10000
+2018-10-16 22:11:38,481 : INFO : calculating IDF weights for 17320 documents and 8941 features (215007 matrix non-zeros)
+2018-10-16 22:11:38,501 : INFO : loading LsiModel object from /media/diego/QData/bankdomain/model//lsi
+2018-10-16 22:11:38,515 : INFO : loading id2word recursively from /media/diego/QData/bankdomain/model//lsi.id2word.* with mmap=None
+2018-10-16 22:11:38,515 : INFO : setting ignored attribute projection to None
+2018-10-16 22:11:38,515 : INFO : setting ignored attribute dispatcher to None
+2018-10-16 22:11:38,515 : INFO : loaded /media/diego/QData/bankdomain/model//lsi
+2018-10-16 22:11:38,515 : INFO : loading LsiModel object from /media/diego/QData/bankdomain/model//lsi.projection
+2018-10-16 22:11:39,006 : INFO : loaded /media/diego/QData/bankdomain/model//lsi.projection
+2018-10-16 22:11:39,006 : INFO : loading MatrixSimilarity object from /media/diego/QData/bankdomain/model//index
+2018-10-16 22:11:39,487 : INFO : loaded /media/diego/QData/bankdomain/model//index
+2018-10-16 22:11:40,648 : INFO : Not preloading words....
+2018-10-16 22:12:04,094 : INFO : Processing Warum wurde meine Kreditanfrage abgelehnt?
+
+2018-10-16 22:12:04,094 : INFO : Retrieving answers for Warum wurde meine Kreditanfrage abgelehnt?
+
+2018-10-16 22:12:04,211 : INFO : Tokens after preprocessing : ['kreditanfrage', 'ablehnen']
+2018-10-16 22:12:04,212 : INFO : Processing trigrams : ['kreditanfrage', 'ablehnen']
+2018-10-16 22:12:04,213 : INFO : Weighted list of length: 2
+2018-10-16 22:12:04,213 : INFO : precomputing L2-norms of doc weight vectors
+/home/ubuntu/anaconda3/envs/bankdomain/lib/python3.7/site-packages/gensim/matutils.py:737: FutureWarning: Conversion of the second argument of issubdtype from `int` to `np.signedinteger` is deprecated. In future, it will be treated as `np.int64 == np.dtype(int).type`.
+  if np.issubdtype(vec.dtype, np.int):
+2018-10-16 22:12:04,473 : INFO : precomputing L2-norms of word weight vectors
+2018-10-16 22:12:06,364 : INFO : Processing Wo finde ich die Vertragsunterlagen von DidiBank?
+
+2018-10-16 22:12:06,364 : INFO : Retrieving answers for Wo finde ich die Vertragsunterlagen von DidiBank?
+
+2018-10-16 22:12:06,394 : INFO : Tokens after preprocessing : ['finden', 'vertragsunterlagen', 'didibank']
+2018-10-16 22:12:06,395 : INFO : Processing trigrams : ['finden', 'vertragsunterlagen', 'didibank']
+2018-10-16 22:12:06,395 : INFO : Weighted list of length: 3
+2018-10-16 22:12:13,395 : INFO : Processing Meine Maestro-Card bzw. Servicecard läuft bald ab. Wie bekomme ich eine neue?
+
+2018-10-16 22:12:13,395 : INFO : Retrieving answers for Meine Maestro-Card bzw. Servicecard läuft bald ab. Wie bekomme ich eine neue?
+
+2018-10-16 22:12:13,442 : INFO : Tokens after preprocessing : ['maestro-card', 'servicecard', 'ablaufen', 'bekommen']
+2018-10-16 22:12:13,443 : INFO : Processing trigrams : ['maestro-card', 'servicecard', 'ablaufen', 'bekommen']
+2018-10-16 22:12:13,443 : INFO : Weighted list of length: 4
+2018-10-16 22:16:32,559 : INFO : Processing Was ändert sich durch SEPA bezogen auf Zahlungsverkehr über Service-Rechenzentren?
+
+2018-10-16 22:16:32,560 : INFO : Retrieving answers for Was ändert sich durch SEPA bezogen auf Zahlungsverkehr über Service-Rechenzentren?
+
+2018-10-16 22:16:32,606 : INFO : Tokens after preprocessing : ['durchändern', 'sepa', 'beziehen', 'zahlungsverkehr', 'service-rechenzentren']
+2018-10-16 22:16:32,607 : INFO : Processing trigrams : ['durchändern', 'sepa', 'beziehen', 'zahlungsverkehr', 'service-rechenzentren']
+2018-10-16 22:16:32,607 : INFO : Weighted list of length: 3
+2018-10-16 22:16:48,644 : INFO : 'pattern' package not found; tag filters are not available for English
+2018-10-16 22:24:05,898 : INFO : 'pattern' package not found; tag filters are not available for English
+2018-10-16 22:24:13,276 : INFO : 'pattern' package not found; tag filters are not available for English
+2018-10-16 22:24:18,594 : INFO : 'pattern' package not found; tag filters are not available for English
+2018-10-16 22:24:24,212 : INFO : 'pattern' package not found; tag filters are not available for English
+2018-10-16 22:24:29,453 : INFO : 'pattern' package not found; tag filters are not available for English
+2018-10-16 22:24:36,741 : INFO : 'pattern' package not found; tag filters are not available for English
+2018-10-16 22:24:43,876 : INFO : 'pattern' package not found; tag filters are not available for English
+2018-10-16 22:24:50,781 : INFO : 'pattern' package not found; tag filters are not available for English
+2018-10-16 22:24:57,552 : INFO : 'pattern' package not found; tag filters are not available for English
+2018-10-16 22:25:10,195 : INFO : 'pattern' package not found; tag filters are not available for English
+2018-10-16 22:25:18,952 : INFO : 'pattern' package not found; tag filters are not available for English
+2018-10-16 22:25:25,863 : INFO : 'pattern' package not found; tag filters are not available for English
+2018-10-16 22:25:32,954 : INFO : 'pattern' package not found; tag filters are not available for English
+2018-10-16 22:25:45,609 : INFO : 'pattern' package not found; tag filters are not available for English
+2018-10-16 22:26:24,519 : INFO : 'pattern' package not found; tag filters are not available for English
+2018-10-16 23:04:09,448 : INFO : 'pattern' package not found; tag filters are not available for English
+2018-10-16 23:04:15,277 : INFO : 'pattern' package not found; tag filters are not available for English
+2018-10-16 23:04:21,738 : INFO : 'pattern' package not found; tag filters are not available for English
+2018-10-16 23:04:26,622 : INFO : 'pattern' package not found; tag filters are not available for English
+2018-10-16 23:04:32,040 : INFO : 'pattern' package not found; tag filters are not available for English
+2018-10-16 23:04:38,218 : INFO : 'pattern' package not found; tag filters are not available for English
+2018-10-16 23:04:43,344 : INFO : 'pattern' package not found; tag filters are not available for English
+2018-10-16 23:04:49,378 : INFO : 'pattern' package not found; tag filters are not available for English
+2018-10-16 23:04:56,164 : INFO : 'pattern' package not found; tag filters are not available for English
+2018-10-16 23:05:01,380 : INFO : 'pattern' package not found; tag filters are not available for English
+2018-10-16 23:05:09,948 : INFO : 'pattern' package not found; tag filters are not available for English
+2018-10-16 23:05:15,070 : INFO : 'pattern' package not found; tag filters are not available for English
+2018-10-16 23:05:25,856 : INFO : 'pattern' package not found; tag filters are not available for English
+2018-10-16 23:05:34,943 : INFO : 'pattern' package not found; tag filters are not available for English
+2018-10-16 23:05:41,988 : INFO : 'pattern' package not found; tag filters are not available for English
+2018-10-16 23:05:48,153 : INFO : 'pattern' package not found; tag filters are not available for English
+2018-10-16 23:05:55,688 : INFO : 'pattern' package not found; tag filters are not available for English
+2018-10-16 23:06:00,916 : INFO : 'pattern' package not found; tag filters are not available for English
+2018-10-16 23:06:09,433 : INFO : 'pattern' package not found; tag filters are not available for English
+2018-10-16 23:06:15,880 : INFO : 'pattern' package not found; tag filters are not available for English
+2018-10-16 23:06:24,047 : INFO : 'pattern' package not found; tag filters are not available for English
+2018-10-16 23:06:31,030 : INFO : 'pattern' package not found; tag filters are not available for English
+2018-10-16 23:06:40,118 : INFO : 'pattern' package not found; tag filters are not available for English
+2018-10-16 23:06:52,686 : INFO : 'pattern' package not found; tag filters are not available for English
+2018-10-16 23:07:07,709 : INFO : 'pattern' package not found; tag filters are not available for English
+2018-10-16 23:07:23,980 : INFO : 'pattern' package not found; tag filters are not available for English
+2018-10-16 23:07:45,908 : INFO : 'pattern' package not found; tag filters are not available for English
+2018-10-16 23:08:18,095 : INFO : 'pattern' package not found; tag filters are not available for English
+2018-10-16 23:08:44,983 : INFO : 'pattern' package not found; tag filters are not available for English
+2018-10-16 23:09:00,624 : INFO : 'pattern' package not found; tag filters are not available for English
+2018-10-16 23:09:15,175 : INFO : 'pattern' package not found; tag filters are not available for English
+2018-10-16 23:09:28,317 : INFO : 'pattern' package not found; tag filters are not available for English
+2018-10-16 23:10:00,921 : INFO : 'pattern' package not found; tag filters are not available for English
+2018-10-16 23:14:35,521 : INFO : 'pattern' package not found; tag filters are not available for English
+2018-10-16 23:14:37,195 : INFO : loading Phraser object from /media/diego/QData/bankdomain/model//bigrams_phraser
+2018-10-16 23:14:37,200 : INFO : loaded /media/diego/QData/bankdomain/model//bigrams_phraser
+2018-10-16 23:14:37,200 : INFO : loading Phraser object from /media/diego/QData/bankdomain/model//trigrams_phraser
+2018-10-16 23:14:37,202 : INFO : loaded /media/diego/QData/bankdomain/model//trigrams_phraser
+2018-10-16 23:14:37,202 : INFO : loading Doc2Vec object from /media/diego/QData/bankdomain/model//doc2vec
+2018-10-16 23:14:38,024 : INFO : loading vocabulary recursively from /media/diego/QData/bankdomain/model//doc2vec.vocabulary.* with mmap=None
+2018-10-16 23:14:38,024 : INFO : loading trainables recursively from /media/diego/QData/bankdomain/model//doc2vec.trainables.* with mmap=None
+2018-10-16 23:14:38,024 : INFO : loading wv recursively from /media/diego/QData/bankdomain/model//doc2vec.wv.* with mmap=None
+2018-10-16 23:14:38,024 : INFO : loading docvecs recursively from /media/diego/QData/bankdomain/model//doc2vec.docvecs.* with mmap=None
+2018-10-16 23:14:38,024 : INFO : loaded /media/diego/QData/bankdomain/model//doc2vec
+2018-10-16 23:14:38,038 : INFO : loading Dictionary object from /media/diego/QData/bankdomain/model//dictionary
+2018-10-16 23:14:38,043 : INFO : loaded /media/diego/QData/bankdomain/model//dictionary
+2018-10-16 23:14:38,047 : INFO : loaded corpus index from /media/diego/QData/bankdomain/model//corpus.index
+2018-10-16 23:14:38,047 : INFO : initializing cython corpus reader from /media/diego/QData/bankdomain/model//corpus
+2018-10-16 23:14:38,048 : INFO : accepted corpus with 17320 documents, 8942 features, 215007 non-zero entries
+2018-10-16 23:14:38,048 : INFO : collecting document frequencies
+2018-10-16 23:14:38,048 : INFO : PROGRESS: processing document #0
+2018-10-16 23:14:38,095 : INFO : PROGRESS: processing document #10000
+2018-10-16 23:14:38,204 : INFO : calculating IDF weights for 17320 documents and 8941 features (215007 matrix non-zeros)
+2018-10-16 23:14:38,224 : INFO : loading LsiModel object from /media/diego/QData/bankdomain/model//lsi
+2018-10-16 23:14:38,231 : INFO : loading id2word recursively from /media/diego/QData/bankdomain/model//lsi.id2word.* with mmap=None
+2018-10-16 23:14:38,231 : INFO : setting ignored attribute projection to None
+2018-10-16 23:14:38,231 : INFO : setting ignored attribute dispatcher to None
+2018-10-16 23:14:38,231 : INFO : loaded /media/diego/QData/bankdomain/model//lsi
+2018-10-16 23:14:38,231 : INFO : loading LsiModel object from /media/diego/QData/bankdomain/model//lsi.projection
+2018-10-16 23:14:38,698 : INFO : loaded /media/diego/QData/bankdomain/model//lsi.projection
+2018-10-16 23:14:38,699 : INFO : loading MatrixSimilarity object from /media/diego/QData/bankdomain/model//index
+2018-10-16 23:14:39,165 : INFO : loaded /media/diego/QData/bankdomain/model//index
+2018-10-16 23:14:40,289 : INFO : Not preloading words....
+2018-10-16 23:15:08,292 : INFO : Processing Wie registriere ich mich für Masterpass?
+
+2018-10-16 23:15:08,292 : INFO : Retrieving answers for Wie registriere ich mich für Masterpass?
+
+2018-10-16 23:15:08,424 : INFO : Tokens after preprocessing : ['registrieren', 'masterpass']
+2018-10-16 23:15:08,425 : INFO : Processing trigrams : ['registrieren', 'masterpass']
+2018-10-16 23:15:08,426 : INFO : Weighted list of length: 2
+2018-10-16 23:15:08,426 : INFO : precomputing L2-norms of doc weight vectors
+/home/ubuntu/anaconda3/envs/bankdomain/lib/python3.7/site-packages/gensim/matutils.py:737: FutureWarning: Conversion of the second argument of issubdtype from `int` to `np.signedinteger` is deprecated. In future, it will be treated as `np.int64 == np.dtype(int).type`.
+  if np.issubdtype(vec.dtype, np.int):
+2018-10-16 23:15:08,716 : INFO : precomputing L2-norms of word weight vectors
+2018-10-17 09:34:48,640 : INFO : 'pattern' package not found; tag filters are not available for English
+2018-10-17 09:34:52,248 : INFO : loading Phraser object from /media/diego/QData/bankdomain/model//bigrams_phraser
+2018-10-17 09:34:52,281 : INFO : loaded /media/diego/QData/bankdomain/model//bigrams_phraser
+2018-10-17 09:34:52,281 : INFO : loading Phraser object from /media/diego/QData/bankdomain/model//trigrams_phraser
+2018-10-17 09:34:52,290 : INFO : loaded /media/diego/QData/bankdomain/model//trigrams_phraser
+2018-10-17 09:34:52,290 : INFO : loading Doc2Vec object from /media/diego/QData/bankdomain/model//doc2vec
+2018-10-17 09:34:55,021 : INFO : loading vocabulary recursively from /media/diego/QData/bankdomain/model//doc2vec.vocabulary.* with mmap=None
+2018-10-17 09:34:55,021 : INFO : loading trainables recursively from /media/diego/QData/bankdomain/model//doc2vec.trainables.* with mmap=None
+2018-10-17 09:34:55,021 : INFO : loading wv recursively from /media/diego/QData/bankdomain/model//doc2vec.wv.* with mmap=None
+2018-10-17 09:34:55,021 : INFO : loading docvecs recursively from /media/diego/QData/bankdomain/model//doc2vec.docvecs.* with mmap=None
+2018-10-17 09:34:55,021 : INFO : loaded /media/diego/QData/bankdomain/model//doc2vec
+2018-10-17 09:34:55,035 : INFO : loading Dictionary object from /media/diego/QData/bankdomain/model//dictionary
+2018-10-17 09:34:55,041 : INFO : loaded /media/diego/QData/bankdomain/model//dictionary
+2018-10-17 09:34:55,044 : INFO : loaded corpus index from /media/diego/QData/bankdomain/model//corpus.index
+2018-10-17 09:34:55,044 : INFO : initializing cython corpus reader from /media/diego/QData/bankdomain/model//corpus
+2018-10-17 09:34:55,045 : INFO : accepted corpus with 17320 documents, 8942 features, 215007 non-zero entries
+2018-10-17 09:34:55,045 : INFO : collecting document frequencies
+2018-10-17 09:34:55,045 : INFO : PROGRESS: processing document #0
+2018-10-17 09:34:55,091 : INFO : PROGRESS: processing document #10000
+2018-10-17 09:34:55,198 : INFO : calculating IDF weights for 17320 documents and 8941 features (215007 matrix non-zeros)
+2018-10-17 09:34:55,219 : INFO : loading LsiModel object from /media/diego/QData/bankdomain/model//lsi
+2018-10-17 09:34:55,226 : INFO : loading id2word recursively from /media/diego/QData/bankdomain/model//lsi.id2word.* with mmap=None
+2018-10-17 09:34:55,226 : INFO : setting ignored attribute projection to None
+2018-10-17 09:34:55,226 : INFO : setting ignored attribute dispatcher to None
+2018-10-17 09:34:55,226 : INFO : loaded /media/diego/QData/bankdomain/model//lsi
+2018-10-17 09:34:55,226 : INFO : loading LsiModel object from /media/diego/QData/bankdomain/model//lsi.projection
+2018-10-17 09:34:56,837 : INFO : loaded /media/diego/QData/bankdomain/model//lsi.projection
+2018-10-17 09:34:56,837 : INFO : loading MatrixSimilarity object from /media/diego/QData/bankdomain/model//index
+2018-10-17 09:34:58,445 : INFO : loaded /media/diego/QData/bankdomain/model//index
+2018-10-17 09:35:04,379 : INFO : Not preloading words....
+2018-10-17 10:53:20,266 : INFO : 'pattern' package not found; tag filters are not available for English
+2018-10-17 10:53:23,942 : INFO : loading Phraser object from /media/diego/QData/bankdomain/model//bigrams_phraser
+2018-10-17 10:53:23,977 : INFO : loaded /media/diego/QData/bankdomain/model//bigrams_phraser
+2018-10-17 10:53:23,978 : INFO : loading Phraser object from /media/diego/QData/bankdomain/model//trigrams_phraser
+2018-10-17 10:53:23,987 : INFO : loaded /media/diego/QData/bankdomain/model//trigrams_phraser
+2018-10-17 10:53:23,987 : INFO : loading Doc2Vec object from /media/diego/QData/bankdomain/model//doc2vec
+2018-10-17 10:53:26,737 : INFO : loading vocabulary recursively from /media/diego/QData/bankdomain/model//doc2vec.vocabulary.* with mmap=None
+2018-10-17 10:53:26,737 : INFO : loading trainables recursively from /media/diego/QData/bankdomain/model//doc2vec.trainables.* with mmap=None
+2018-10-17 10:53:26,737 : INFO : loading wv recursively from /media/diego/QData/bankdomain/model//doc2vec.wv.* with mmap=None
+2018-10-17 10:53:26,737 : INFO : loading docvecs recursively from /media/diego/QData/bankdomain/model//doc2vec.docvecs.* with mmap=None
+2018-10-17 10:53:26,737 : INFO : loaded /media/diego/QData/bankdomain/model//doc2vec
+2018-10-17 10:53:26,752 : INFO : loading Dictionary object from /media/diego/QData/bankdomain/model//dictionary
+2018-10-17 10:53:26,760 : INFO : loaded /media/diego/QData/bankdomain/model//dictionary
+2018-10-17 10:53:26,764 : INFO : loaded corpus index from /media/diego/QData/bankdomain/model//corpus.index
+2018-10-17 10:53:26,764 : INFO : initializing cython corpus reader from /media/diego/QData/bankdomain/model//corpus
+2018-10-17 10:53:26,765 : INFO : accepted corpus with 17320 documents, 8942 features, 215007 non-zero entries
+2018-10-17 10:53:26,765 : INFO : collecting document frequencies
+2018-10-17 10:53:26,765 : INFO : PROGRESS: processing document #0
+2018-10-17 10:53:26,812 : INFO : PROGRESS: processing document #10000
+2018-10-17 10:53:26,919 : INFO : calculating IDF weights for 17320 documents and 8941 features (215007 matrix non-zeros)
+2018-10-17 10:53:26,940 : INFO : loading LsiModel object from /media/diego/QData/bankdomain/model//lsi
+2018-10-17 10:53:26,946 : INFO : loading id2word recursively from /media/diego/QData/bankdomain/model//lsi.id2word.* with mmap=None
+2018-10-17 10:53:26,946 : INFO : setting ignored attribute projection to None
+2018-10-17 10:53:26,947 : INFO : setting ignored attribute dispatcher to None
+2018-10-17 10:53:26,947 : INFO : loaded /media/diego/QData/bankdomain/model//lsi
+2018-10-17 10:53:26,947 : INFO : loading LsiModel object from /media/diego/QData/bankdomain/model//lsi.projection
+2018-10-17 10:53:28,624 : INFO : loaded /media/diego/QData/bankdomain/model//lsi.projection
+2018-10-17 10:53:28,625 : INFO : loading MatrixSimilarity object from /media/diego/QData/bankdomain/model//index
+2018-10-17 10:53:30,242 : INFO : loaded /media/diego/QData/bankdomain/model//index
+2018-10-17 10:53:34,855 : INFO : Not preloading words....
+2018-10-17 11:00:57,094 : INFO : Processing Wie lange ist meine Mastercard Karte gültig?
+
+2018-10-17 11:00:57,094 : INFO : Retrieving answers for Wie lange ist meine Mastercard Karte gültig?
+
+2018-10-17 11:00:57,295 : INFO : Tokens after preprocessing : ['mastercard', 'karten', 'gültig']
+2018-10-17 11:00:57,295 : INFO : Processing trigrams : ['mastercard', 'karten', 'gültig']
+2018-10-17 11:00:57,296 : INFO : Weighted list of length: 3
+2018-10-17 11:00:57,296 : INFO : precomputing L2-norms of doc weight vectors
+/home/ubuntu/anaconda3/envs/bankdomain/lib/python3.7/site-packages/gensim/matutils.py:737: FutureWarning: Conversion of the second argument of issubdtype from `int` to `np.signedinteger` is deprecated. In future, it will be treated as `np.int64 == np.dtype(int).type`.
+  if np.issubdtype(vec.dtype, np.int):
+2018-10-17 11:00:57,732 : INFO : precomputing L2-norms of word weight vectors
+2018-10-17 11:13:21,096 : INFO : Processing Kann die Obwaldner Kantonalbank Didi DidiPay blockieren oder gar löschen?
+
+2018-10-17 11:13:21,098 : INFO : Retrieving answers for Kann die Obwaldner Kantonalbank Didi DidiPay blockieren oder gar löschen?
+
+2018-10-17 11:13:21,713 : INFO : Tokens after preprocessing : ['obwaldner', 'kantonalbank', 'didi', 'didipay', 'blockieren', 'löschen']
+2018-10-17 11:13:21,715 : INFO : Processing trigrams : ['obwaldner', 'kantonalbank', 'didi_didipay', 'blockieren', 'löschen']
+2018-10-17 11:13:21,715 : INFO : Weighted list of length: 4
+2018-10-20 06:37:13,691 : INFO : 'pattern' package not found; tag filters are not available for English
+2018-10-20 06:37:15,411 : INFO : loading Phraser object from /media/diego/QData/bankdomain/model//bigrams_phraser
+2018-10-20 06:37:15,416 : INFO : loaded /media/diego/QData/bankdomain/model//bigrams_phraser
+2018-10-20 06:37:15,416 : INFO : loading Phraser object from /media/diego/QData/bankdomain/model//trigrams_phraser
+2018-10-20 06:37:15,418 : INFO : loaded /media/diego/QData/bankdomain/model//trigrams_phraser
+2018-10-20 06:37:15,418 : INFO : loading Doc2Vec object from /media/diego/QData/bankdomain/model//doc2vec
+2018-10-20 06:37:16,169 : INFO : loading vocabulary recursively from /media/diego/QData/bankdomain/model//doc2vec.vocabulary.* with mmap=None
+2018-10-20 06:37:16,170 : INFO : loading trainables recursively from /media/diego/QData/bankdomain/model//doc2vec.trainables.* with mmap=None
+2018-10-20 06:37:16,170 : INFO : loading wv recursively from /media/diego/QData/bankdomain/model//doc2vec.wv.* with mmap=None
+2018-10-20 06:37:16,170 : INFO : loading docvecs recursively from /media/diego/QData/bankdomain/model//doc2vec.docvecs.* with mmap=None
+2018-10-20 06:37:16,170 : INFO : loaded /media/diego/QData/bankdomain/model//doc2vec
+2018-10-20 06:37:16,183 : INFO : loading Dictionary object from /media/diego/QData/bankdomain/model//dictionary
+2018-10-20 06:37:16,189 : INFO : loaded /media/diego/QData/bankdomain/model//dictionary
+2018-10-20 06:37:16,192 : INFO : loaded corpus index from /media/diego/QData/bankdomain/model//corpus.index
+2018-10-20 06:37:16,192 : INFO : initializing cython corpus reader from /media/diego/QData/bankdomain/model//corpus
+2018-10-20 06:37:16,193 : INFO : accepted corpus with 17320 documents, 8942 features, 215007 non-zero entries
+2018-10-20 06:37:16,193 : INFO : collecting document frequencies
+2018-10-20 06:37:16,193 : INFO : PROGRESS: processing document #0
+2018-10-20 06:37:16,241 : INFO : PROGRESS: processing document #10000
+2018-10-20 06:37:16,350 : INFO : calculating IDF weights for 17320 documents and 8941 features (215007 matrix non-zeros)
+2018-10-20 06:37:16,371 : INFO : loading LsiModel object from /media/diego/QData/bankdomain/model//lsi
+2018-10-20 06:37:16,377 : INFO : loading id2word recursively from /media/diego/QData/bankdomain/model//lsi.id2word.* with mmap=None
+2018-10-20 06:37:16,378 : INFO : setting ignored attribute projection to None
+2018-10-20 06:37:16,378 : INFO : setting ignored attribute dispatcher to None
+2018-10-20 06:37:16,378 : INFO : loaded /media/diego/QData/bankdomain/model//lsi
+2018-10-20 06:37:16,378 : INFO : loading LsiModel object from /media/diego/QData/bankdomain/model//lsi.projection
+2018-10-20 06:37:16,858 : INFO : loaded /media/diego/QData/bankdomain/model//lsi.projection
+2018-10-20 06:37:16,858 : INFO : loading MatrixSimilarity object from /media/diego/QData/bankdomain/model//index
+2018-10-20 06:37:17,322 : INFO : loaded /media/diego/QData/bankdomain/model//index
+2018-10-20 06:37:18,483 : INFO : Not preloading words....
+2018-10-20 09:22:41,140 : INFO : 'pattern' package not found; tag filters are not available for English
+2018-10-20 09:22:44,024 : INFO : loading Phraser object from /media/diego/QData/bankdomain/model//bigrams_phraser
+2018-10-20 09:22:44,031 : INFO : loaded /media/diego/QData/bankdomain/model//bigrams_phraser
+2018-10-20 09:22:44,031 : INFO : loading Phraser object from /media/diego/QData/bankdomain/model//trigrams_phraser
+2018-10-20 09:22:44,033 : INFO : loaded /media/diego/QData/bankdomain/model//trigrams_phraser
+2018-10-20 09:22:44,033 : INFO : loading Doc2Vec object from /media/diego/QData/bankdomain/model//doc2vec
+2018-10-20 09:22:45,227 : INFO : loading vocabulary recursively from /media/diego/QData/bankdomain/model//doc2vec.vocabulary.* with mmap=None
+2018-10-20 09:22:45,231 : INFO : loading trainables recursively from /media/diego/QData/bankdomain/model//doc2vec.trainables.* with mmap=None
+2018-10-20 09:22:45,231 : INFO : loading wv recursively from /media/diego/QData/bankdomain/model//doc2vec.wv.* with mmap=None
+2018-10-20 09:22:45,231 : INFO : loading docvecs recursively from /media/diego/QData/bankdomain/model//doc2vec.docvecs.* with mmap=None
+2018-10-20 09:22:45,231 : INFO : loaded /media/diego/QData/bankdomain/model//doc2vec
+2018-10-20 09:22:45,265 : INFO : loading Dictionary object from /media/diego/QData/bankdomain/model//dictionary
+2018-10-20 09:22:45,276 : INFO : loaded /media/diego/QData/bankdomain/model//dictionary
+2018-10-20 09:22:45,282 : INFO : loaded corpus index from /media/diego/QData/bankdomain/model//corpus.index
+2018-10-20 09:22:45,282 : INFO : initializing cython corpus reader from /media/diego/QData/bankdomain/model//corpus
+2018-10-20 09:22:45,283 : INFO : accepted corpus with 17320 documents, 8942 features, 215007 non-zero entries
+2018-10-20 09:22:45,284 : INFO : collecting document frequencies
+2018-10-20 09:22:45,284 : INFO : PROGRESS: processing document #0
+2018-10-20 09:22:45,376 : INFO : PROGRESS: processing document #10000
+2018-10-20 09:22:45,594 : INFO : calculating IDF weights for 17320 documents and 8941 features (215007 matrix non-zeros)
+2018-10-20 09:22:45,642 : INFO : loading LsiModel object from /media/diego/QData/bankdomain/model//lsi
+2018-10-20 09:22:45,648 : INFO : loading id2word recursively from /media/diego/QData/bankdomain/model//lsi.id2word.* with mmap=None
+2018-10-20 09:22:45,648 : INFO : setting ignored attribute projection to None
+2018-10-20 09:22:45,648 : INFO : setting ignored attribute dispatcher to None
+2018-10-20 09:22:45,648 : INFO : loaded /media/diego/QData/bankdomain/model//lsi
+2018-10-20 09:22:45,648 : INFO : loading LsiModel object from /media/diego/QData/bankdomain/model//lsi.projection
+2018-10-20 09:22:46,320 : INFO : loaded /media/diego/QData/bankdomain/model//lsi.projection
+2018-10-20 09:22:46,320 : INFO : loading MatrixSimilarity object from /media/diego/QData/bankdomain/model//index
+2018-10-20 09:22:46,973 : INFO : loaded /media/diego/QData/bankdomain/model//index
+2018-10-20 09:22:48,167 : INFO : Not preloading words....
+2018-10-21 07:04:57,600 : INFO : 'pattern' package not found; tag filters are not available for English
+2018-10-21 07:04:59,278 : INFO : loading Phraser object from /media/diego/QData/bankdomain/model//bigrams_phraser
+2018-10-21 07:04:59,282 : INFO : loaded /media/diego/QData/bankdomain/model//bigrams_phraser
+2018-10-21 07:04:59,282 : INFO : loading Phraser object from /media/diego/QData/bankdomain/model//trigrams_phraser
+2018-10-21 07:04:59,285 : INFO : loaded /media/diego/QData/bankdomain/model//trigrams_phraser
+2018-10-21 07:04:59,285 : INFO : loading Doc2Vec object from /media/diego/QData/bankdomain/model//doc2vec
+2018-10-21 07:05:00,081 : INFO : loading vocabulary recursively from /media/diego/QData/bankdomain/model//doc2vec.vocabulary.* with mmap=None
+2018-10-21 07:05:00,081 : INFO : loading trainables recursively from /media/diego/QData/bankdomain/model//doc2vec.trainables.* with mmap=None
+2018-10-21 07:05:00,081 : INFO : loading wv recursively from /media/diego/QData/bankdomain/model//doc2vec.wv.* with mmap=None
+2018-10-21 07:05:00,081 : INFO : loading docvecs recursively from /media/diego/QData/bankdomain/model//doc2vec.docvecs.* with mmap=None
+2018-10-21 07:05:00,082 : INFO : loaded /media/diego/QData/bankdomain/model//doc2vec
+2018-10-21 07:05:00,097 : INFO : loading Dictionary object from /media/diego/QData/bankdomain/model//dictionary
+2018-10-21 07:05:00,102 : INFO : loaded /media/diego/QData/bankdomain/model//dictionary
+2018-10-21 07:05:00,105 : INFO : loaded corpus index from /media/diego/QData/bankdomain/model//corpus.index
+2018-10-21 07:05:00,106 : INFO : initializing cython corpus reader from /media/diego/QData/bankdomain/model//corpus
+2018-10-21 07:05:00,106 : INFO : accepted corpus with 17320 documents, 8942 features, 215007 non-zero entries
+2018-10-21 07:05:00,107 : INFO : collecting document frequencies
+2018-10-21 07:05:00,107 : INFO : PROGRESS: processing document #0
+2018-10-21 07:05:00,153 : INFO : PROGRESS: processing document #10000
+2018-10-21 07:05:00,260 : INFO : calculating IDF weights for 17320 documents and 8941 features (215007 matrix non-zeros)
+2018-10-21 07:05:00,281 : INFO : loading LsiModel object from /media/diego/QData/bankdomain/model//lsi
+2018-10-21 07:05:00,287 : INFO : loading id2word recursively from /media/diego/QData/bankdomain/model//lsi.id2word.* with mmap=None
+2018-10-21 07:05:00,287 : INFO : setting ignored attribute projection to None
+2018-10-21 07:05:00,287 : INFO : setting ignored attribute dispatcher to None
+2018-10-21 07:05:00,287 : INFO : loaded /media/diego/QData/bankdomain/model//lsi
+2018-10-21 07:05:00,287 : INFO : loading LsiModel object from /media/diego/QData/bankdomain/model//lsi.projection
+2018-10-21 07:05:00,755 : INFO : loaded /media/diego/QData/bankdomain/model//lsi.projection
+2018-10-21 07:05:00,755 : INFO : loading MatrixSimilarity object from /media/diego/QData/bankdomain/model//index
+2018-10-21 07:05:01,204 : INFO : loaded /media/diego/QData/bankdomain/model//index
+2018-10-21 07:05:02,420 : INFO : Not preloading words....
+2018-10-21 16:11:18,096 : INFO : 'pattern' package not found; tag filters are not available for English
+2018-10-21 16:11:21,142 : INFO : loading Phraser object from /media/diego/QData/bankdomain/model//bigrams_phraser
+2018-10-21 16:11:21,152 : INFO : loaded /media/diego/QData/bankdomain/model//bigrams_phraser
+2018-10-21 16:11:21,152 : INFO : loading Phraser object from /media/diego/QData/bankdomain/model//trigrams_phraser
+2018-10-21 16:11:21,155 : INFO : loaded /media/diego/QData/bankdomain/model//trigrams_phraser
+2018-10-21 16:11:21,155 : INFO : loading Doc2Vec object from /media/diego/QData/bankdomain/model//doc2vec
+2018-10-21 16:11:22,469 : INFO : loading vocabulary recursively from /media/diego/QData/bankdomain/model//doc2vec.vocabulary.* with mmap=None
+2018-10-21 16:11:22,469 : INFO : loading trainables recursively from /media/diego/QData/bankdomain/model//doc2vec.trainables.* with mmap=None
+2018-10-21 16:11:22,469 : INFO : loading wv recursively from /media/diego/QData/bankdomain/model//doc2vec.wv.* with mmap=None
+2018-10-21 16:11:22,469 : INFO : loading docvecs recursively from /media/diego/QData/bankdomain/model//doc2vec.docvecs.* with mmap=None
+2018-10-21 16:11:22,469 : INFO : loaded /media/diego/QData/bankdomain/model//doc2vec
+2018-10-21 16:11:22,504 : INFO : loading Dictionary object from /media/diego/QData/bankdomain/model//dictionary
+2018-10-21 16:11:22,509 : INFO : loaded /media/diego/QData/bankdomain/model//dictionary
+2018-10-21 16:11:22,514 : INFO : loaded corpus index from /media/diego/QData/bankdomain/model//corpus.index
+2018-10-21 16:11:22,514 : INFO : initializing cython corpus reader from /media/diego/QData/bankdomain/model//corpus
+2018-10-21 16:11:22,519 : INFO : accepted corpus with 17320 documents, 8942 features, 215007 non-zero entries
+2018-10-21 16:11:22,519 : INFO : collecting document frequencies
+2018-10-21 16:11:22,520 : INFO : PROGRESS: processing document #0
+2018-10-21 16:11:22,610 : INFO : PROGRESS: processing document #10000
+2018-10-21 16:11:22,832 : INFO : calculating IDF weights for 17320 documents and 8941 features (215007 matrix non-zeros)
+2018-10-21 16:11:22,873 : INFO : loading LsiModel object from /media/diego/QData/bankdomain/model//lsi
+2018-10-21 16:11:22,885 : INFO : loading id2word recursively from /media/diego/QData/bankdomain/model//lsi.id2word.* with mmap=None
+2018-10-21 16:11:22,886 : INFO : setting ignored attribute projection to None
+2018-10-21 16:11:22,886 : INFO : setting ignored attribute dispatcher to None
+2018-10-21 16:11:22,886 : INFO : loaded /media/diego/QData/bankdomain/model//lsi
+2018-10-21 16:11:22,886 : INFO : loading LsiModel object from /media/diego/QData/bankdomain/model//lsi.projection
+2018-10-21 16:11:23,604 : INFO : loaded /media/diego/QData/bankdomain/model//lsi.projection
+2018-10-21 16:11:23,604 : INFO : loading MatrixSimilarity object from /media/diego/QData/bankdomain/model//index
+2018-10-21 16:11:24,111 : INFO : loaded /media/diego/QData/bankdomain/model//index
+2018-10-21 16:11:25,354 : INFO : Not preloading words....
+2018-10-22 09:00:57,490 : INFO : 'pattern' package not found; tag filters are not available for English
+2018-10-22 09:01:01,222 : INFO : loading Phraser object from /media/diego/QData/bankdomain/model//bigrams_phraser
+2018-10-22 09:01:01,262 : INFO : loaded /media/diego/QData/bankdomain/model//bigrams_phraser
+2018-10-22 09:01:01,262 : INFO : loading Phraser object from /media/diego/QData/bankdomain/model//trigrams_phraser
+2018-10-22 09:01:01,272 : INFO : loaded /media/diego/QData/bankdomain/model//trigrams_phraser
+2018-10-22 09:01:01,272 : INFO : loading Doc2Vec object from /media/diego/QData/bankdomain/model//doc2vec
+2018-10-22 09:01:04,020 : INFO : loading vocabulary recursively from /media/diego/QData/bankdomain/model//doc2vec.vocabulary.* with mmap=None
+2018-10-22 09:01:04,021 : INFO : loading trainables recursively from /media/diego/QData/bankdomain/model//doc2vec.trainables.* with mmap=None
+2018-10-22 09:01:04,021 : INFO : loading wv recursively from /media/diego/QData/bankdomain/model//doc2vec.wv.* with mmap=None
+2018-10-22 09:01:04,021 : INFO : loading docvecs recursively from /media/diego/QData/bankdomain/model//doc2vec.docvecs.* with mmap=None
+2018-10-22 09:01:04,021 : INFO : loaded /media/diego/QData/bankdomain/model//doc2vec
+2018-10-22 09:01:04,035 : INFO : loading Dictionary object from /media/diego/QData/bankdomain/model//dictionary
+2018-10-22 09:01:04,040 : INFO : loaded /media/diego/QData/bankdomain/model//dictionary
+2018-10-22 09:01:04,044 : INFO : loaded corpus index from /media/diego/QData/bankdomain/model//corpus.index
+2018-10-22 09:01:04,044 : INFO : initializing cython corpus reader from /media/diego/QData/bankdomain/model//corpus
+2018-10-22 09:01:04,044 : INFO : accepted corpus with 17320 documents, 8942 features, 215007 non-zero entries
+2018-10-22 09:01:04,045 : INFO : collecting document frequencies
+2018-10-22 09:01:04,045 : INFO : PROGRESS: processing document #0
+2018-10-22 09:01:04,091 : INFO : PROGRESS: processing document #10000
+2018-10-22 09:01:04,198 : INFO : calculating IDF weights for 17320 documents and 8941 features (215007 matrix non-zeros)
+2018-10-22 09:01:04,219 : INFO : loading LsiModel object from /media/diego/QData/bankdomain/model//lsi
+2018-10-22 09:01:04,226 : INFO : loading id2word recursively from /media/diego/QData/bankdomain/model//lsi.id2word.* with mmap=None
+2018-10-22 09:01:04,226 : INFO : setting ignored attribute projection to None
+2018-10-22 09:01:04,226 : INFO : setting ignored attribute dispatcher to None
+2018-10-22 09:01:04,226 : INFO : loaded /media/diego/QData/bankdomain/model//lsi
+2018-10-22 09:01:04,226 : INFO : loading LsiModel object from /media/diego/QData/bankdomain/model//lsi.projection
+2018-10-22 09:01:05,835 : INFO : loaded /media/diego/QData/bankdomain/model//lsi.projection
+2018-10-22 09:01:05,835 : INFO : loading MatrixSimilarity object from /media/diego/QData/bankdomain/model//index
+2018-10-22 09:01:07,729 : INFO : loaded /media/diego/QData/bankdomain/model//index
+2018-10-22 09:01:12,831 : INFO : Not preloading words....
+2018-10-23 05:05:31,211 : INFO : 'pattern' package not found; tag filters are not available for English
+2018-10-23 05:05:34,115 : INFO : loading Phraser object from /media/diego/QData/bankdomain/model//bigrams_phraser
+2018-10-23 05:05:34,123 : INFO : loaded /media/diego/QData/bankdomain/model//bigrams_phraser
+2018-10-23 05:05:34,123 : INFO : loading Phraser object from /media/diego/QData/bankdomain/model//trigrams_phraser
+2018-10-23 05:05:34,126 : INFO : loaded /media/diego/QData/bankdomain/model//trigrams_phraser
+2018-10-23 05:05:34,126 : INFO : loading Doc2Vec object from /media/diego/QData/bankdomain/model//doc2vec
+2018-10-23 05:05:35,369 : INFO : loading vocabulary recursively from /media/diego/QData/bankdomain/model//doc2vec.vocabulary.* with mmap=None
+2018-10-23 05:05:35,369 : INFO : loading trainables recursively from /media/diego/QData/bankdomain/model//doc2vec.trainables.* with mmap=None
+2018-10-23 05:05:35,369 : INFO : loading wv recursively from /media/diego/QData/bankdomain/model//doc2vec.wv.* with mmap=None
+2018-10-23 05:05:35,369 : INFO : loading docvecs recursively from /media/diego/QData/bankdomain/model//doc2vec.docvecs.* with mmap=None
+2018-10-23 05:05:35,369 : INFO : loaded /media/diego/QData/bankdomain/model//doc2vec
+2018-10-23 05:05:35,398 : INFO : loading Dictionary object from /media/diego/QData/bankdomain/model//dictionary
+2018-10-23 05:05:35,408 : INFO : loaded /media/diego/QData/bankdomain/model//dictionary
+2018-10-23 05:05:35,412 : INFO : loaded corpus index from /media/diego/QData/bankdomain/model//corpus.index
+2018-10-23 05:05:35,412 : INFO : initializing cython corpus reader from /media/diego/QData/bankdomain/model//corpus
+2018-10-23 05:05:35,416 : INFO : accepted corpus with 17320 documents, 8942 features, 215007 non-zero entries
+2018-10-23 05:05:35,416 : INFO : collecting document frequencies
+2018-10-23 05:05:35,416 : INFO : PROGRESS: processing document #0
+2018-10-23 05:05:35,510 : INFO : PROGRESS: processing document #10000
+2018-10-23 05:05:35,721 : INFO : calculating IDF weights for 17320 documents and 8941 features (215007 matrix non-zeros)
+2018-10-23 05:05:35,762 : INFO : loading LsiModel object from /media/diego/QData/bankdomain/model//lsi
+2018-10-23 05:05:35,773 : INFO : loading id2word recursively from /media/diego/QData/bankdomain/model//lsi.id2word.* with mmap=None
+2018-10-23 05:05:35,773 : INFO : setting ignored attribute projection to None
+2018-10-23 05:05:35,773 : INFO : setting ignored attribute dispatcher to None
+2018-10-23 05:05:35,773 : INFO : loaded /media/diego/QData/bankdomain/model//lsi
+2018-10-23 05:05:35,773 : INFO : loading LsiModel object from /media/diego/QData/bankdomain/model//lsi.projection
+2018-10-23 05:05:36,722 : INFO : loaded /media/diego/QData/bankdomain/model//lsi.projection
+2018-10-23 05:05:36,722 : INFO : loading MatrixSimilarity object from /media/diego/QData/bankdomain/model//index
+2018-10-23 05:05:37,611 : INFO : loaded /media/diego/QData/bankdomain/model//index
+2018-10-23 05:05:40,023 : INFO : Not preloading words....
+2018-11-04 06:51:22,125 : INFO : 'pattern' package not found; tag filters are not available for English
+2018-11-04 06:51:23,865 : INFO : loading Phraser object from /media/diego/QData/bankdomain/model//bigrams_phraser
+2018-11-04 06:51:23,870 : INFO : loaded /media/diego/QData/bankdomain/model//bigrams_phraser
+2018-11-04 06:51:23,870 : INFO : loading Phraser object from /media/diego/QData/bankdomain/model//trigrams_phraser
+2018-11-04 06:51:23,872 : INFO : loaded /media/diego/QData/bankdomain/model//trigrams_phraser
+2018-11-04 06:51:23,872 : INFO : loading Doc2Vec object from /media/diego/QData/bankdomain/model//doc2vec
+2018-11-04 06:51:24,789 : INFO : loading vocabulary recursively from /media/diego/QData/bankdomain/model//doc2vec.vocabulary.* with mmap=None
+2018-11-04 06:51:24,789 : INFO : loading trainables recursively from /media/diego/QData/bankdomain/model//doc2vec.trainables.* with mmap=None
+2018-11-04 06:51:24,789 : INFO : loading wv recursively from /media/diego/QData/bankdomain/model//doc2vec.wv.* with mmap=None
+2018-11-04 06:51:24,789 : INFO : loading docvecs recursively from /media/diego/QData/bankdomain/model//doc2vec.docvecs.* with mmap=None
+2018-11-04 06:51:24,789 : INFO : loaded /media/diego/QData/bankdomain/model//doc2vec
+2018-11-04 06:51:24,804 : INFO : loading Dictionary object from /media/diego/QData/bankdomain/model//dictionary
+2018-11-04 06:51:24,809 : INFO : loaded /media/diego/QData/bankdomain/model//dictionary
+2018-11-04 06:51:24,813 : INFO : loaded corpus index from /media/diego/QData/bankdomain/model//corpus.index
+2018-11-04 06:51:24,813 : INFO : initializing cython corpus reader from /media/diego/QData/bankdomain/model//corpus
+2018-11-04 06:51:24,814 : INFO : accepted corpus with 17320 documents, 8942 features, 215007 non-zero entries
+2018-11-04 06:51:24,814 : INFO : collecting document frequencies
+2018-11-04 06:51:24,814 : INFO : PROGRESS: processing document #0
+2018-11-04 06:51:24,860 : INFO : PROGRESS: processing document #10000
+2018-11-04 06:51:24,968 : INFO : calculating IDF weights for 17320 documents and 8941 features (215007 matrix non-zeros)
+2018-11-04 06:51:24,988 : INFO : loading LsiModel object from /media/diego/QData/bankdomain/model//lsi
+2018-11-04 06:51:24,995 : INFO : loading id2word recursively from /media/diego/QData/bankdomain/model//lsi.id2word.* with mmap=None
+2018-11-04 06:51:24,995 : INFO : setting ignored attribute projection to None
+2018-11-04 06:51:24,995 : INFO : setting ignored attribute dispatcher to None
+2018-11-04 06:51:24,995 : INFO : loaded /media/diego/QData/bankdomain/model//lsi
+2018-11-04 06:51:24,995 : INFO : loading LsiModel object from /media/diego/QData/bankdomain/model//lsi.projection
+2018-11-04 06:51:25,505 : INFO : loaded /media/diego/QData/bankdomain/model//lsi.projection
+2018-11-04 06:51:25,505 : INFO : loading MatrixSimilarity object from /media/diego/QData/bankdomain/model//index
+2018-11-04 06:51:26,154 : INFO : loaded /media/diego/QData/bankdomain/model//index
+2018-11-04 06:51:27,644 : INFO : Not preloading words....
+2018-11-07 06:26:37,663 : INFO : Processing Ich habe geheiratet. Hat das Auswirkungen auf meinen Riestervertrag?
+
+2018-11-07 06:26:37,665 : INFO : Retrieving answers for Ich habe geheiratet. Hat das Auswirkungen auf meinen Riestervertrag?
+
+2018-11-07 06:26:37,913 : INFO : Tokens after preprocessing : ['heiraten', 'auswirkung', 'riestervertrag']
+2018-11-07 06:26:37,913 : INFO : Processing trigrams : ['heiraten', 'auswirkung', 'riestervertrag']
+2018-11-07 06:26:37,915 : INFO : Weighted list of length: 3
+2018-11-07 06:26:37,916 : INFO : precomputing L2-norms of doc weight vectors
+2018-11-07 06:28:59,604 : INFO : 'pattern' package not found; tag filters are not available for English
+2018-11-07 06:29:01,287 : INFO : loading Phraser object from /media/diego/QData/bankdomain/model//bigrams_phraser
+2018-11-07 06:29:01,292 : INFO : loaded /media/diego/QData/bankdomain/model//bigrams_phraser
+2018-11-07 06:29:01,292 : INFO : loading Phraser object from /media/diego/QData/bankdomain/model//trigrams_phraser
+2018-11-07 06:29:01,294 : INFO : loaded /media/diego/QData/bankdomain/model//trigrams_phraser
+2018-11-07 06:29:01,294 : INFO : loading Doc2Vec object from /media/diego/QData/bankdomain/model//doc2vec
+2018-11-07 06:29:02,068 : INFO : loading vocabulary recursively from /media/diego/QData/bankdomain/model//doc2vec.vocabulary.* with mmap=None
+2018-11-07 06:29:02,068 : INFO : loading trainables recursively from /media/diego/QData/bankdomain/model//doc2vec.trainables.* with mmap=None
+2018-11-07 06:29:02,068 : INFO : loading wv recursively from /media/diego/QData/bankdomain/model//doc2vec.wv.* with mmap=None
+2018-11-07 06:29:02,068 : INFO : loading docvecs recursively from /media/diego/QData/bankdomain/model//doc2vec.docvecs.* with mmap=None
+2018-11-07 06:29:02,068 : INFO : loaded /media/diego/QData/bankdomain/model//doc2vec
+2018-11-07 06:29:02,083 : INFO : loading Dictionary object from /media/diego/QData/bankdomain/model//dictionary
+2018-11-07 06:29:02,088 : INFO : loaded /media/diego/QData/bankdomain/model//dictionary
+2018-11-07 06:29:02,092 : INFO : loaded corpus index from /media/diego/QData/bankdomain/model//corpus.index
+2018-11-07 06:29:02,092 : INFO : initializing cython corpus reader from /media/diego/QData/bankdomain/model//corpus
+2018-11-07 06:29:02,093 : INFO : accepted corpus with 17320 documents, 8942 features, 215007 non-zero entries
+2018-11-07 06:29:02,093 : INFO : collecting document frequencies
+2018-11-07 06:29:02,093 : INFO : PROGRESS: processing document #0
+2018-11-07 06:29:02,140 : INFO : PROGRESS: processing document #10000
+2018-11-07 06:29:02,247 : INFO : calculating IDF weights for 17320 documents and 8941 features (215007 matrix non-zeros)
+2018-11-07 06:29:02,268 : INFO : loading LsiModel object from /media/diego/QData/bankdomain/model//lsi
+2018-11-07 06:29:02,274 : INFO : loading id2word recursively from /media/diego/QData/bankdomain/model//lsi.id2word.* with mmap=None
+2018-11-07 06:29:02,274 : INFO : setting ignored attribute projection to None
+2018-11-07 06:29:02,274 : INFO : setting ignored attribute dispatcher to None
+2018-11-07 06:29:02,275 : INFO : loaded /media/diego/QData/bankdomain/model//lsi
+2018-11-07 06:29:02,275 : INFO : loading LsiModel object from /media/diego/QData/bankdomain/model//lsi.projection
+2018-11-07 06:29:02,824 : INFO : loaded /media/diego/QData/bankdomain/model//lsi.projection
+2018-11-07 06:29:02,824 : INFO : loading MatrixSimilarity object from /media/diego/QData/bankdomain/model//index
+2018-11-07 06:29:03,311 : INFO : loaded /media/diego/QData/bankdomain/model//index
+2018-11-07 06:29:04,440 : INFO : Not preloading words....
+2018-11-07 06:34:08,862 : INFO : 'pattern' package not found; tag filters are not available for English
+2018-11-07 06:34:08,863 : INFO : 'pattern' package not found; tag filters are not available for English
