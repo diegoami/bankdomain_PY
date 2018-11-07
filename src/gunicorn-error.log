@@ -1,0 +1,380 @@
+[2018-10-16 21:56:12 +0000] [1565] [INFO] Starting gunicorn 19.9.0
+[2018-10-16 21:56:12 +0000] [1565] [INFO] Listening at: http://0.0.0.0:9090 (1565)
+[2018-10-16 21:56:12 +0000] [1565] [INFO] Using worker: sync
+[2018-10-16 21:56:12 +0000] [1568] [INFO] Booting worker with pid: 1568
+[2018-10-16 21:56:12 +0000] [1568] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/envs/bankdomain/lib/python3.7/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/home/ubuntu/anaconda3/envs/bankdomain/lib/python3.7/site-packages/gunicorn/workers/base.py", line 129, in init_process
+    self.load_wsgi()
+  File "/home/ubuntu/anaconda3/envs/bankdomain/lib/python3.7/site-packages/gunicorn/workers/base.py", line 138, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/ubuntu/anaconda3/envs/bankdomain/lib/python3.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/ubuntu/anaconda3/envs/bankdomain/lib/python3.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load
+    return self.load_wsgiapp()
+  File "/home/ubuntu/anaconda3/envs/bankdomain/lib/python3.7/site-packages/gunicorn/app/wsgiapp.py", line 41, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/ubuntu/anaconda3/envs/bankdomain/lib/python3.7/site-packages/gunicorn/util.py", line 350, in import_app
+    __import__(module)
+  File "/home/ubuntu/projects/bankdomain_PY/src/boot_web.py", line 2, in <module>
+    import yaml
+ModuleNotFoundError: No module named 'yaml'
+[2018-10-16 21:56:12 +0000] [1568] [INFO] Worker exiting (pid: 1568)
+[2018-10-16 21:56:12 +0000] [1565] [INFO] Shutting down: Master
+[2018-10-16 21:56:12 +0000] [1565] [INFO] Reason: Worker failed to boot.
+[2018-10-16 21:56:21 +0000] [1572] [INFO] Starting gunicorn 19.9.0
+[2018-10-16 21:56:21 +0000] [1572] [INFO] Listening at: http://0.0.0.0:9090 (1572)
+[2018-10-16 21:56:21 +0000] [1572] [INFO] Using worker: sync
+[2018-10-16 21:56:21 +0000] [1575] [INFO] Booting worker with pid: 1575
+[2018-10-16 21:56:21 +0000] [1575] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/envs/bankdomain/lib/python3.7/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/home/ubuntu/anaconda3/envs/bankdomain/lib/python3.7/site-packages/gunicorn/workers/base.py", line 129, in init_process
+    self.load_wsgi()
+  File "/home/ubuntu/anaconda3/envs/bankdomain/lib/python3.7/site-packages/gunicorn/workers/base.py", line 138, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/ubuntu/anaconda3/envs/bankdomain/lib/python3.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/ubuntu/anaconda3/envs/bankdomain/lib/python3.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load
+    return self.load_wsgiapp()
+  File "/home/ubuntu/anaconda3/envs/bankdomain/lib/python3.7/site-packages/gunicorn/app/wsgiapp.py", line 41, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/ubuntu/anaconda3/envs/bankdomain/lib/python3.7/site-packages/gunicorn/util.py", line 350, in import_app
+    __import__(module)
+  File "/home/ubuntu/projects/bankdomain_PY/src/boot_web.py", line 2, in <module>
+    import yaml
+ModuleNotFoundError: No module named 'yaml'
+[2018-10-16 21:56:21 +0000] [1575] [INFO] Worker exiting (pid: 1575)
+[2018-10-16 21:56:21 +0000] [1572] [INFO] Shutting down: Master
+[2018-10-16 21:56:21 +0000] [1572] [INFO] Reason: Worker failed to boot.
+[2018-10-16 21:57:09 +0000] [1620] [INFO] Starting gunicorn 19.9.0
+[2018-10-16 21:57:09 +0000] [1620] [INFO] Listening at: http://0.0.0.0:9090 (1620)
+[2018-10-16 21:57:09 +0000] [1620] [INFO] Using worker: sync
+[2018-10-16 21:57:09 +0000] [1623] [INFO] Booting worker with pid: 1623
+[2018-10-16 21:57:09 +0000] [1623] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/envs/bankdomain/lib/python3.7/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/home/ubuntu/anaconda3/envs/bankdomain/lib/python3.7/site-packages/gunicorn/workers/base.py", line 129, in init_process
+    self.load_wsgi()
+  File "/home/ubuntu/anaconda3/envs/bankdomain/lib/python3.7/site-packages/gunicorn/workers/base.py", line 138, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/ubuntu/anaconda3/envs/bankdomain/lib/python3.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/ubuntu/anaconda3/envs/bankdomain/lib/python3.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load
+    return self.load_wsgiapp()
+  File "/home/ubuntu/anaconda3/envs/bankdomain/lib/python3.7/site-packages/gunicorn/app/wsgiapp.py", line 41, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/ubuntu/anaconda3/envs/bankdomain/lib/python3.7/site-packages/gunicorn/util.py", line 350, in import_app
+    __import__(module)
+  File "/home/ubuntu/projects/bankdomain_PY/src/boot_web.py", line 3, in <module>
+    from web import *
+  File "/home/ubuntu/projects/bankdomain_PY/src/web/__init__.py", line 1, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+[2018-10-16 21:57:09 +0000] [1623] [INFO] Worker exiting (pid: 1623)
+[2018-10-16 21:57:09 +0000] [1620] [INFO] Shutting down: Master
+[2018-10-16 21:57:09 +0000] [1620] [INFO] Reason: Worker failed to boot.
+[2018-10-16 21:57:29 +0000] [1659] [INFO] Starting gunicorn 19.9.0
+[2018-10-16 21:57:29 +0000] [1659] [INFO] Listening at: http://0.0.0.0:9090 (1659)
+[2018-10-16 21:57:29 +0000] [1659] [INFO] Using worker: sync
+[2018-10-16 21:57:29 +0000] [1662] [INFO] Booting worker with pid: 1662
+[2018-10-16 21:57:30 +0000] [1662] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/envs/bankdomain/lib/python3.7/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/home/ubuntu/anaconda3/envs/bankdomain/lib/python3.7/site-packages/gunicorn/workers/base.py", line 129, in init_process
+    self.load_wsgi()
+  File "/home/ubuntu/anaconda3/envs/bankdomain/lib/python3.7/site-packages/gunicorn/workers/base.py", line 138, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/ubuntu/anaconda3/envs/bankdomain/lib/python3.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/ubuntu/anaconda3/envs/bankdomain/lib/python3.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load
+    return self.load_wsgiapp()
+  File "/home/ubuntu/anaconda3/envs/bankdomain/lib/python3.7/site-packages/gunicorn/app/wsgiapp.py", line 41, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/ubuntu/anaconda3/envs/bankdomain/lib/python3.7/site-packages/gunicorn/util.py", line 350, in import_app
+    __import__(module)
+  File "/home/ubuntu/projects/bankdomain_PY/src/boot_web.py", line 4, in <module>
+    from application import Application
+  File "/home/ubuntu/projects/bankdomain_PY/src/application.py", line 7, in <module>
+    from query import QueryExecutor
+  File "/home/ubuntu/projects/bankdomain_PY/src/query/__init__.py", line 1, in <module>
+    from .query_executor import QueryExecutor
+  File "/home/ubuntu/projects/bankdomain_PY/src/query/query_executor.py", line 8, in <module>
+    from repository import MongoRepository
+  File "/home/ubuntu/projects/bankdomain_PY/src/repository/__init__.py", line 1, in <module>
+    from .mongo_ops import MongoRepository
+  File "/home/ubuntu/projects/bankdomain_PY/src/repository/mongo_ops.py", line 2, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2018-10-16 21:57:30 +0000] [1662] [INFO] Worker exiting (pid: 1662)
+[2018-10-16 21:57:30 +0000] [1659] [INFO] Shutting down: Master
+[2018-10-16 21:57:30 +0000] [1659] [INFO] Reason: Worker failed to boot.
+[2018-10-16 21:58:15 +0000] [1743] [INFO] Starting gunicorn 19.9.0
+[2018-10-16 21:58:15 +0000] [1743] [INFO] Listening at: http://0.0.0.0:9090 (1743)
+[2018-10-16 21:58:15 +0000] [1743] [INFO] Using worker: sync
+[2018-10-16 21:58:15 +0000] [1746] [INFO] Booting worker with pid: 1746
+[2018-10-16 21:58:15 +0000] [1746] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/envs/bankdomain/lib/python3.7/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/home/ubuntu/anaconda3/envs/bankdomain/lib/python3.7/site-packages/gunicorn/workers/base.py", line 129, in init_process
+    self.load_wsgi()
+  File "/home/ubuntu/anaconda3/envs/bankdomain/lib/python3.7/site-packages/gunicorn/workers/base.py", line 138, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/ubuntu/anaconda3/envs/bankdomain/lib/python3.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/ubuntu/anaconda3/envs/bankdomain/lib/python3.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load
+    return self.load_wsgiapp()
+  File "/home/ubuntu/anaconda3/envs/bankdomain/lib/python3.7/site-packages/gunicorn/app/wsgiapp.py", line 41, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/ubuntu/anaconda3/envs/bankdomain/lib/python3.7/site-packages/gunicorn/util.py", line 350, in import_app
+    __import__(module)
+  File "/home/ubuntu/projects/bankdomain_PY/src/boot_web.py", line 4, in <module>
+    from application import Application
+  File "/home/ubuntu/projects/bankdomain_PY/src/application.py", line 7, in <module>
+    from query import QueryExecutor
+  File "/home/ubuntu/projects/bankdomain_PY/src/query/__init__.py", line 1, in <module>
+    from .query_executor import QueryExecutor
+  File "/home/ubuntu/projects/bankdomain_PY/src/query/query_executor.py", line 8, in <module>
+    from repository import MongoRepository
+  File "/home/ubuntu/projects/bankdomain_PY/src/repository/__init__.py", line 1, in <module>
+    from .mongo_ops import MongoRepository
+  File "/home/ubuntu/projects/bankdomain_PY/src/repository/mongo_ops.py", line 6, in <module>
+    import pandas
+ModuleNotFoundError: No module named 'pandas'
+[2018-10-16 21:58:15 +0000] [1746] [INFO] Worker exiting (pid: 1746)
+[2018-10-16 21:58:15 +0000] [1743] [INFO] Shutting down: Master
+[2018-10-16 21:58:15 +0000] [1743] [INFO] Reason: Worker failed to boot.
+[2018-10-16 21:59:01 +0000] [1785] [INFO] Starting gunicorn 19.9.0
+[2018-10-16 21:59:01 +0000] [1785] [INFO] Listening at: http://0.0.0.0:9090 (1785)
+[2018-10-16 21:59:01 +0000] [1785] [INFO] Using worker: sync
+[2018-10-16 21:59:01 +0000] [1788] [INFO] Booting worker with pid: 1788
+[2018-10-16 21:59:02 +0000] [1788] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/envs/bankdomain/lib/python3.7/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/home/ubuntu/anaconda3/envs/bankdomain/lib/python3.7/site-packages/gunicorn/workers/base.py", line 129, in init_process
+    self.load_wsgi()
+  File "/home/ubuntu/anaconda3/envs/bankdomain/lib/python3.7/site-packages/gunicorn/workers/base.py", line 138, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/ubuntu/anaconda3/envs/bankdomain/lib/python3.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/ubuntu/anaconda3/envs/bankdomain/lib/python3.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load
+    return self.load_wsgiapp()
+  File "/home/ubuntu/anaconda3/envs/bankdomain/lib/python3.7/site-packages/gunicorn/app/wsgiapp.py", line 41, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/ubuntu/anaconda3/envs/bankdomain/lib/python3.7/site-packages/gunicorn/util.py", line 350, in import_app
+    __import__(module)
+  File "/home/ubuntu/projects/bankdomain_PY/src/boot_web.py", line 4, in <module>
+    from application import Application
+  File "/home/ubuntu/projects/bankdomain_PY/src/application.py", line 7, in <module>
+    from query import QueryExecutor
+  File "/home/ubuntu/projects/bankdomain_PY/src/query/__init__.py", line 1, in <module>
+    from .query_executor import QueryExecutor
+  File "/home/ubuntu/projects/bankdomain_PY/src/query/query_executor.py", line 9, in <module>
+    from preprocess import Preprocessor
+  File "/home/ubuntu/projects/bankdomain_PY/src/preprocess/__init__.py", line 1, in <module>
+    from .preprocessor import  Preprocessor
+  File "/home/ubuntu/projects/bankdomain_PY/src/preprocess/preprocessor.py", line 3, in <module>
+    from textacy.preprocess import preprocess_text
+ModuleNotFoundError: No module named 'textacy'
+[2018-10-16 21:59:02 +0000] [1788] [INFO] Worker exiting (pid: 1788)
+[2018-10-16 21:59:02 +0000] [1785] [INFO] Shutting down: Master
+[2018-10-16 21:59:02 +0000] [1785] [INFO] Reason: Worker failed to boot.
+[2018-10-16 21:59:57 +0000] [1840] [INFO] Starting gunicorn 19.9.0
+[2018-10-16 21:59:57 +0000] [1840] [INFO] Listening at: http://0.0.0.0:9090 (1840)
+[2018-10-16 21:59:57 +0000] [1840] [INFO] Using worker: sync
+[2018-10-16 21:59:57 +0000] [1843] [INFO] Booting worker with pid: 1843
+[2018-10-16 21:59:58 +0000] [1843] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/envs/bankdomain/lib/python3.7/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/home/ubuntu/anaconda3/envs/bankdomain/lib/python3.7/site-packages/gunicorn/workers/base.py", line 129, in init_process
+    self.load_wsgi()
+  File "/home/ubuntu/anaconda3/envs/bankdomain/lib/python3.7/site-packages/gunicorn/workers/base.py", line 138, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/ubuntu/anaconda3/envs/bankdomain/lib/python3.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/ubuntu/anaconda3/envs/bankdomain/lib/python3.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load
+    return self.load_wsgiapp()
+  File "/home/ubuntu/anaconda3/envs/bankdomain/lib/python3.7/site-packages/gunicorn/app/wsgiapp.py", line 41, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/ubuntu/anaconda3/envs/bankdomain/lib/python3.7/site-packages/gunicorn/util.py", line 350, in import_app
+    __import__(module)
+  File "/home/ubuntu/projects/bankdomain_PY/src/boot_web.py", line 4, in <module>
+    from application import Application
+  File "/home/ubuntu/projects/bankdomain_PY/src/application.py", line 7, in <module>
+    from query import QueryExecutor
+  File "/home/ubuntu/projects/bankdomain_PY/src/query/__init__.py", line 1, in <module>
+    from .query_executor import QueryExecutor
+  File "/home/ubuntu/projects/bankdomain_PY/src/query/query_executor.py", line 10, in <module>
+    from gensim_models import ModelFacade
+  File "/home/ubuntu/projects/bankdomain_PY/src/gensim_models/__init__.py", line 1, in <module>
+    from .model_facade import ModelFacade
+  File "/home/ubuntu/projects/bankdomain_PY/src/gensim_models/model_facade.py", line 1, in <module>
+    from .gram_facade import GramFacade
+  File "/home/ubuntu/projects/bankdomain_PY/src/gensim_models/gram_facade.py", line 12, in <module>
+    from gensim.models.phrases import Phraser, Phrases
+ModuleNotFoundError: No module named 'gensim'
+[2018-10-16 21:59:58 +0000] [1843] [INFO] Worker exiting (pid: 1843)
+[2018-10-16 21:59:58 +0000] [1840] [INFO] Shutting down: Master
+[2018-10-16 21:59:58 +0000] [1840] [INFO] Reason: Worker failed to boot.
+[2018-10-16 22:00:35 +0000] [1917] [INFO] Starting gunicorn 19.9.0
+[2018-10-16 22:00:35 +0000] [1917] [INFO] Listening at: http://0.0.0.0:9090 (1917)
+[2018-10-16 22:00:35 +0000] [1917] [INFO] Using worker: sync
+[2018-10-16 22:00:35 +0000] [1920] [INFO] Booting worker with pid: 1920
+[2018-10-16 22:05:34 +0000] [1917] [INFO] Handling signal: hup
+[2018-10-16 22:05:34 +0000] [1917] [INFO] Hang up: Master
+[2018-10-16 22:05:34 +0000] [1917] [INFO] Handling signal: term
+[2018-10-16 22:05:34 +0000] [2003] [INFO] Booting worker with pid: 2003
+[2018-10-16 22:06:04 +0000] [1917] [INFO] Shutting down: Master
+[2018-10-16 22:11:31 +0000] [1506] [INFO] Starting gunicorn 19.9.0
+[2018-10-16 22:11:31 +0000] [1506] [INFO] Listening at: http://0.0.0.0:9090 (1506)
+[2018-10-16 22:11:31 +0000] [1506] [INFO] Using worker: sync
+[2018-10-16 22:11:31 +0000] [1509] [INFO] Booting worker with pid: 1509
+[2018-10-16 22:16:43 +0000] [1509] [INFO] Worker exiting (pid: 1509)
+[2018-10-16 22:16:43 +0000] [1506] [INFO] Handling signal: hup
+[2018-10-16 22:16:43 +0000] [1506] [INFO] Hang up: Master
+[2018-10-16 22:16:43 +0000] [1506] [INFO] Handling signal: term
+[2018-10-16 22:16:43 +0000] [1542] [INFO] Booting worker with pid: 1542
+[2018-10-16 22:17:14 +0000] [1506] [INFO] Shutting down: Master
+[2018-10-16 22:24:01 +0000] [1495] [INFO] Starting gunicorn 19.9.0
+[2018-10-16 22:24:01 +0000] [1495] [INFO] Listening at: http://0.0.0.0:9090 (1495)
+[2018-10-16 22:24:01 +0000] [1495] [INFO] Using worker: sync
+[2018-10-16 22:24:01 +0000] [1498] [INFO] Booting worker with pid: 1498
+[2018-10-16 22:24:10 +0000] [1505] [INFO] Booting worker with pid: 1505
+[2018-10-16 22:24:15 +0000] [1511] [INFO] Booting worker with pid: 1511
+[2018-10-16 22:24:21 +0000] [1517] [INFO] Booting worker with pid: 1517
+[2018-10-16 22:24:26 +0000] [1523] [INFO] Booting worker with pid: 1523
+[2018-10-16 22:24:33 +0000] [1529] [INFO] Booting worker with pid: 1529
+[2018-10-16 22:24:40 +0000] [1535] [INFO] Booting worker with pid: 1535
+[2018-10-16 22:24:47 +0000] [1541] [INFO] Booting worker with pid: 1541
+[2018-10-16 22:24:54 +0000] [1547] [INFO] Booting worker with pid: 1547
+[2018-10-16 22:25:07 +0000] [1556] [INFO] Booting worker with pid: 1556
+[2018-10-16 22:25:15 +0000] [1562] [INFO] Booting worker with pid: 1562
+[2018-10-16 22:25:22 +0000] [1568] [INFO] Booting worker with pid: 1568
+[2018-10-16 22:25:30 +0000] [1574] [INFO] Booting worker with pid: 1574
+[2018-10-16 22:25:42 +0000] [1580] [INFO] Booting worker with pid: 1580
+[2018-10-16 22:26:21 +0000] [1589] [INFO] Booting worker with pid: 1589
+[2018-10-16 22:26:54 +0000] [1589] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/envs/bankdomain/lib/python3.7/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/home/ubuntu/anaconda3/envs/bankdomain/lib/python3.7/site-packages/gunicorn/workers/base.py", line 129, in init_process
+    self.load_wsgi()
+  File "/home/ubuntu/anaconda3/envs/bankdomain/lib/python3.7/site-packages/gunicorn/workers/base.py", line 138, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/ubuntu/anaconda3/envs/bankdomain/lib/python3.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/ubuntu/anaconda3/envs/bankdomain/lib/python3.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load
+    return self.load_wsgiapp()
+  File "/home/ubuntu/anaconda3/envs/bankdomain/lib/python3.7/site-packages/gunicorn/app/wsgiapp.py", line 41, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/ubuntu/anaconda3/envs/bankdomain/lib/python3.7/site-packages/gunicorn/util.py", line 350, in import_app
+    __import__(module)
+  File "/home/ubuntu/projects/bankdomain_PY/src/boot_web.py", line 15, in <module>
+    app.application = Application(config)
+  File "/home/ubuntu/projects/bankdomain_PY/src/application.py", line 15, in __init__
+    self.query_executor = QueryExecutor(mongo_connection, models_dir)
+  File "/home/ubuntu/projects/bankdomain_PY/src/query/query_executor.py", line 19, in __init__
+    self.mongo_repository.load_all_documents()
+  File "/home/ubuntu/projects/bankdomain_PY/src/repository/mongo_ops.py", line 118, in load_all_documents
+    preprocessed_questions_no_answer = [question for question in self.iterate_questions(collection=self.preprocessed_questions, only_question=True)]
+  File "/home/ubuntu/projects/bankdomain_PY/src/repository/mongo_ops.py", line 118, in <listcomp>
+    preprocessed_questions_no_answer = [question for question in self.iterate_questions(collection=self.preprocessed_questions, only_question=True)]
+  File "/home/ubuntu/projects/bankdomain_PY/src/repository/mongo_ops.py", line 79, in iterate_questions
+    for index, el in enumerate(questions_db):
+  File "/home/ubuntu/anaconda3/envs/bankdomain/lib/python3.7/site-packages/pymongo/cursor.py", line 1189, in next
+    if len(self.__data) or self._refresh():
+  File "/home/ubuntu/anaconda3/envs/bankdomain/lib/python3.7/site-packages/pymongo/cursor.py", line 1087, in _refresh
+    self.__session = self.__collection.database.client._ensure_session()
+  File "/home/ubuntu/anaconda3/envs/bankdomain/lib/python3.7/site-packages/pymongo/mongo_client.py", line 1558, in _ensure_session
+    return self.__start_session(True, causal_consistency=False)
+  File "/home/ubuntu/anaconda3/envs/bankdomain/lib/python3.7/site-packages/pymongo/mongo_client.py", line 1511, in __start_session
+    server_session = self._get_server_session()
+  File "/home/ubuntu/anaconda3/envs/bankdomain/lib/python3.7/site-packages/pymongo/mongo_client.py", line 1544, in _get_server_session
+    return self._topology.get_server_session()
+  File "/home/ubuntu/anaconda3/envs/bankdomain/lib/python3.7/site-packages/pymongo/topology.py", line 427, in get_server_session
+    None)
+  File "/home/ubuntu/anaconda3/envs/bankdomain/lib/python3.7/site-packages/pymongo/topology.py", line 199, in _select_servers_loop
+    self._error_message(selector))
+pymongo.errors.ServerSelectionTimeoutError: localhost:27017: [Errno 111] Connection refused
+[2018-10-16 22:26:54 +0000] [1589] [INFO] Worker exiting (pid: 1589)
+[2018-10-16 22:26:55 +0000] [1495] [INFO] Shutting down: Master
+[2018-10-16 22:26:55 +0000] [1495] [INFO] Reason: Worker failed to boot.
+[2018-10-16 23:04:06 +0000] [1705] [INFO] Starting gunicorn 19.9.0
+[2018-10-16 23:04:06 +0000] [1705] [INFO] Listening at: http://0.0.0.0:9090 (1705)
+[2018-10-16 23:04:06 +0000] [1705] [INFO] Using worker: sync
+[2018-10-16 23:04:06 +0000] [1708] [INFO] Booting worker with pid: 1708
+[2018-10-16 23:04:12 +0000] [1715] [INFO] Booting worker with pid: 1715
+[2018-10-16 23:04:18 +0000] [1722] [INFO] Booting worker with pid: 1722
+[2018-10-16 23:04:23 +0000] [1728] [INFO] Booting worker with pid: 1728
+[2018-10-16 23:04:29 +0000] [1734] [INFO] Booting worker with pid: 1734
+[2018-10-16 23:04:35 +0000] [1741] [INFO] Booting worker with pid: 1741
+[2018-10-16 23:04:40 +0000] [1748] [INFO] Booting worker with pid: 1748
+[2018-10-16 23:04:46 +0000] [1754] [INFO] Booting worker with pid: 1754
+[2018-10-16 23:04:53 +0000] [1760] [INFO] Booting worker with pid: 1760
+[2018-10-16 23:04:58 +0000] [1766] [INFO] Booting worker with pid: 1766
+[2018-10-16 23:05:06 +0000] [1772] [INFO] Booting worker with pid: 1772
+[2018-10-16 23:05:12 +0000] [1779] [INFO] Booting worker with pid: 1779
+[2018-10-16 23:05:22 +0000] [1786] [INFO] Booting worker with pid: 1786
+[2018-10-16 23:05:31 +0000] [1792] [INFO] Booting worker with pid: 1792
+[2018-10-16 23:05:38 +0000] [1798] [INFO] Booting worker with pid: 1798
+[2018-10-16 23:05:45 +0000] [1804] [INFO] Booting worker with pid: 1804
+[2018-10-16 23:05:52 +0000] [1810] [INFO] Booting worker with pid: 1810
+[2018-10-16 23:05:57 +0000] [1816] [INFO] Booting worker with pid: 1816
+[2018-10-16 23:06:06 +0000] [1822] [INFO] Booting worker with pid: 1822
+[2018-10-16 23:06:13 +0000] [1828] [INFO] Booting worker with pid: 1828
+[2018-10-16 23:06:21 +0000] [1836] [INFO] Booting worker with pid: 1836
+[2018-10-16 23:06:28 +0000] [1842] [INFO] Booting worker with pid: 1842
+[2018-10-16 23:06:37 +0000] [1848] [INFO] Booting worker with pid: 1848
+[2018-10-16 23:06:49 +0000] [1854] [INFO] Booting worker with pid: 1854
+[2018-10-16 23:07:04 +0000] [1860] [INFO] Booting worker with pid: 1860
+[2018-10-16 23:07:21 +0000] [1866] [INFO] Booting worker with pid: 1866
+[2018-10-16 23:07:42 +0000] [1872] [INFO] Booting worker with pid: 1872
+[2018-10-16 23:08:15 +0000] [1878] [INFO] Booting worker with pid: 1878
+[2018-10-16 23:08:42 +0000] [1884] [INFO] Booting worker with pid: 1884
+[2018-10-16 23:08:57 +0000] [1890] [INFO] Booting worker with pid: 1890
+[2018-10-16 23:09:12 +0000] [1896] [INFO] Booting worker with pid: 1896
+[2018-10-16 23:09:25 +0000] [1903] [INFO] Booting worker with pid: 1903
+[2018-10-16 23:09:57 +0000] [1911] [INFO] Booting worker with pid: 1911
+[2018-10-16 23:09:57 +0000] [1705] [INFO] Handling signal: hup
+[2018-10-16 23:09:57 +0000] [1705] [INFO] Hang up: Master
+[2018-10-16 23:09:57 +0000] [1705] [INFO] Handling signal: term
+[2018-10-16 23:09:57 +0000] [1916] [INFO] Booting worker with pid: 1916
+[2018-10-16 23:10:27 +0000] [1705] [INFO] Shutting down: Master
+[2018-10-16 23:14:31 +0000] [1482] [INFO] Starting gunicorn 19.9.0
+[2018-10-16 23:14:31 +0000] [1482] [INFO] Listening at: http://0.0.0.0:9090 (1482)
+[2018-10-16 23:14:31 +0000] [1482] [INFO] Using worker: sync
+[2018-10-16 23:14:31 +0000] [1485] [INFO] Booting worker with pid: 1485
+[2018-10-17 09:29:03 +0000] [1482] [CRITICAL] WORKER TIMEOUT (pid:1485)
+[2018-10-17 09:33:45 +0000] [2970] [INFO] Booting worker with pid: 2970
+[2018-10-17 10:47:23 +0000] [1482] [CRITICAL] WORKER TIMEOUT (pid:2970)
+[2018-10-17 10:52:02 +0000] [3509] [INFO] Booting worker with pid: 3509
+[2018-10-20 06:36:50 +0000] [1482] [CRITICAL] WORKER TIMEOUT (pid:3509)
+[2018-10-20 06:37:09 +0000] [9755] [INFO] Booting worker with pid: 9755
+[2018-10-20 09:21:43 +0000] [1482] [CRITICAL] WORKER TIMEOUT (pid:9755)
+[2018-10-20 09:22:35 +0000] [10266] [INFO] Booting worker with pid: 10266
+[2018-10-21 07:04:12 +0000] [1482] [CRITICAL] WORKER TIMEOUT (pid:10266)
+[2018-10-21 07:04:52 +0000] [12383] [INFO] Booting worker with pid: 12383
+[2018-10-21 16:10:19 +0000] [1482] [CRITICAL] WORKER TIMEOUT (pid:12383)
+[2018-10-21 16:11:11 +0000] [13231] [INFO] Booting worker with pid: 13231
+[2018-10-22 08:59:11 +0000] [1482] [CRITICAL] WORKER TIMEOUT (pid:13231)
+[2018-10-22 08:59:50 +0000] [14680] [INFO] Booting worker with pid: 14680
+[2018-10-23 05:04:47 +0000] [1482] [CRITICAL] WORKER TIMEOUT (pid:14680)
+[2018-10-23 05:05:25 +0000] [16737] [INFO] Booting worker with pid: 16737
+[2018-11-04 06:50:22 +0000] [1482] [CRITICAL] WORKER TIMEOUT (pid:16737)
+[2018-11-04 06:51:16 +0000] [10061] [INFO] Booting worker with pid: 10061
+[2018-11-07 06:28:40 +0000] [1482] [CRITICAL] WORKER TIMEOUT (pid:10061)
+[2018-11-07 06:28:55 +0000] [21050] [INFO] Booting worker with pid: 21050
+[2018-11-07 06:34:04 +0000] [1482] [INFO] Handling signal: hup
+[2018-11-07 06:34:04 +0000] [1482] [INFO] Hang up: Master
+[2018-11-07 06:34:04 +0000] [21174] [INFO] Booting worker with pid: 21174
+[2018-11-07 06:34:04 +0000] [1482] [INFO] Handling signal: term
+[2018-11-07 06:34:04 +0000] [21206] [INFO] Booting worker with pid: 21206
+[2018-11-07 06:34:34 +0000] [1482] [INFO] Shutting down: Master
