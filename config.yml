@@ -1,4 +1,4 @@
-data_dir: /home/diego/projects/bankdomain/qa_documents
+  data_dir: /home/diego/projects/bankdomain/qa_documents
 mongo_connection : mongodb://localhost:27017
 corpus_dir: /media/diego/QData/bankdomain/corpus
 output_dir: /media/diego/QData/bankdomain/data
