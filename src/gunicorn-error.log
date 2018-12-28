@@ -378,3 +378,401 @@ pymongo.errors.ServerSelectionTimeoutError: localhost:27017: [Errno 111] Connect
 [2018-11-07 06:34:04 +0000] [1482] [INFO] Handling signal: term
 [2018-11-07 06:34:04 +0000] [21206] [INFO] Booting worker with pid: 21206
 [2018-11-07 06:34:34 +0000] [1482] [INFO] Shutting down: Master
+[2018-11-07 06:42:36 +0000] [1606] [INFO] Starting gunicorn 19.9.0
+[2018-11-07 06:42:36 +0000] [1606] [INFO] Listening at: http://0.0.0.0:9090 (1606)
+[2018-11-07 06:42:36 +0000] [1606] [INFO] Using worker: sync
+[2018-11-07 06:42:36 +0000] [1609] [INFO] Booting worker with pid: 1609
+[2018-11-07 06:43:10 +0000] [1609] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/envs/bankdomain/lib/python3.7/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/home/ubuntu/anaconda3/envs/bankdomain/lib/python3.7/site-packages/gunicorn/workers/base.py", line 129, in init_process
+    self.load_wsgi()
+  File "/home/ubuntu/anaconda3/envs/bankdomain/lib/python3.7/site-packages/gunicorn/workers/base.py", line 138, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/ubuntu/anaconda3/envs/bankdomain/lib/python3.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/ubuntu/anaconda3/envs/bankdomain/lib/python3.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load
+    return self.load_wsgiapp()
+  File "/home/ubuntu/anaconda3/envs/bankdomain/lib/python3.7/site-packages/gunicorn/app/wsgiapp.py", line 41, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/ubuntu/anaconda3/envs/bankdomain/lib/python3.7/site-packages/gunicorn/util.py", line 350, in import_app
+    __import__(module)
+  File "/home/ubuntu/projects/bankdomain_PY/src/boot_web.py", line 15, in <module>
+    app.application = Application(config)
+  File "/home/ubuntu/projects/bankdomain_PY/src/application.py", line 15, in __init__
+    self.query_executor = QueryExecutor(mongo_connection, models_dir)
+  File "/home/ubuntu/projects/bankdomain_PY/src/query/query_executor.py", line 19, in __init__
+    self.mongo_repository.load_all_documents()
+  File "/home/ubuntu/projects/bankdomain_PY/src/repository/mongo_ops.py", line 118, in load_all_documents
+    preprocessed_questions_no_answer = [question for question in self.iterate_questions(collection=self.preprocessed_questions, only_question=True)]
+  File "/home/ubuntu/projects/bankdomain_PY/src/repository/mongo_ops.py", line 118, in <listcomp>
+    preprocessed_questions_no_answer = [question for question in self.iterate_questions(collection=self.preprocessed_questions, only_question=True)]
+  File "/home/ubuntu/projects/bankdomain_PY/src/repository/mongo_ops.py", line 79, in iterate_questions
+    for index, el in enumerate(questions_db):
+  File "/home/ubuntu/anaconda3/envs/bankdomain/lib/python3.7/site-packages/pymongo/cursor.py", line 1189, in next
+    if len(self.__data) or self._refresh():
+  File "/home/ubuntu/anaconda3/envs/bankdomain/lib/python3.7/site-packages/pymongo/cursor.py", line 1087, in _refresh
+    self.__session = self.__collection.database.client._ensure_session()
+  File "/home/ubuntu/anaconda3/envs/bankdomain/lib/python3.7/site-packages/pymongo/mongo_client.py", line 1558, in _ensure_session
+    return self.__start_session(True, causal_consistency=False)
+  File "/home/ubuntu/anaconda3/envs/bankdomain/lib/python3.7/site-packages/pymongo/mongo_client.py", line 1511, in __start_session
+    server_session = self._get_server_session()
+  File "/home/ubuntu/anaconda3/envs/bankdomain/lib/python3.7/site-packages/pymongo/mongo_client.py", line 1544, in _get_server_session
+    return self._topology.get_server_session()
+  File "/home/ubuntu/anaconda3/envs/bankdomain/lib/python3.7/site-packages/pymongo/topology.py", line 427, in get_server_session
+    None)
+  File "/home/ubuntu/anaconda3/envs/bankdomain/lib/python3.7/site-packages/pymongo/topology.py", line 199, in _select_servers_loop
+    self._error_message(selector))
+pymongo.errors.ServerSelectionTimeoutError: localhost:27017: [Errno 111] Connection refused
+[2018-11-07 06:43:10 +0000] [1609] [INFO] Worker exiting (pid: 1609)
+[2018-11-07 06:43:11 +0000] [1606] [INFO] Shutting down: Master
+[2018-11-07 06:43:11 +0000] [1606] [INFO] Reason: Worker failed to boot.
+[2018-11-07 06:45:23 +0000] [1678] [INFO] Starting gunicorn 19.9.0
+[2018-11-07 06:45:23 +0000] [1678] [INFO] Listening at: http://0.0.0.0:9090 (1678)
+[2018-11-07 06:45:23 +0000] [1678] [INFO] Using worker: sync
+[2018-11-07 06:45:23 +0000] [1681] [INFO] Booting worker with pid: 1681
+[2018-11-11 00:31:57 +0000] [1678] [CRITICAL] WORKER TIMEOUT (pid:1681)
+[2018-11-11 00:32:23 +0000] [13211] [INFO] Booting worker with pid: 13211
+[2018-11-11 00:32:23 +0000] [1678] [INFO] Handling signal: term
+[2018-11-11 00:32:53 +0000] [1678] [INFO] Shutting down: Master
+[2018-11-11 00:43:18 +0000] [1485] [INFO] Starting gunicorn 19.9.0
+[2018-11-11 00:43:18 +0000] [1485] [INFO] Listening at: http://0.0.0.0:9090 (1485)
+[2018-11-11 00:43:18 +0000] [1485] [INFO] Using worker: sync
+[2018-11-11 00:43:18 +0000] [1488] [INFO] Booting worker with pid: 1488
+[2018-11-11 01:38:48 +0000] [1488] [INFO] Worker exiting (pid: 1488)
+[2018-11-11 01:38:48 +0000] [1485] [INFO] Handling signal: term
+[2018-11-11 01:38:49 +0000] [1485] [INFO] Shutting down: Master
+[2018-11-11 10:03:43 +0000] [2801] [INFO] Starting gunicorn 19.9.0
+[2018-11-11 10:03:43 +0000] [2801] [INFO] Listening at: http://0.0.0.0:9090 (2801)
+[2018-11-11 10:03:43 +0000] [2801] [INFO] Using worker: sync
+[2018-11-11 10:03:43 +0000] [2804] [INFO] Booting worker with pid: 2804
+[2018-11-12 02:02:01 +0000] [2804] [INFO] Worker exiting (pid: 2804)
+[2018-11-12 02:02:01 +0000] [2801] [INFO] Handling signal: term
+[2018-11-12 02:02:03 +0000] [2801] [INFO] Shutting down: Master
+[2018-11-12 02:02:32 +0000] [4303] [INFO] Starting gunicorn 19.9.0
+[2018-11-12 02:02:32 +0000] [4303] [INFO] Listening at: http://0.0.0.0:9090 (4303)
+[2018-11-12 02:02:32 +0000] [4303] [INFO] Using worker: sync
+[2018-11-12 02:02:32 +0000] [4306] [INFO] Booting worker with pid: 4306
+[2018-11-13 02:02:01 +0000] [4306] [INFO] Worker exiting (pid: 4306)
+[2018-11-13 02:02:01 +0000] [4303] [INFO] Handling signal: term
+[2018-11-13 02:02:07 +0000] [4303] [INFO] Shutting down: Master
+[2018-11-13 02:02:32 +0000] [6038] [INFO] Starting gunicorn 19.9.0
+[2018-11-13 02:02:32 +0000] [6038] [INFO] Listening at: http://0.0.0.0:9090 (6038)
+[2018-11-13 02:02:32 +0000] [6038] [INFO] Using worker: sync
+[2018-11-13 02:02:32 +0000] [6041] [INFO] Booting worker with pid: 6041
+[2018-11-14 02:02:01 +0000] [6041] [INFO] Worker exiting (pid: 6041)
+[2018-11-14 02:02:01 +0000] [6038] [INFO] Handling signal: term
+[2018-11-14 02:02:02 +0000] [6038] [INFO] Shutting down: Master
+[2018-11-14 02:02:32 +0000] [9180] [INFO] Starting gunicorn 19.9.0
+[2018-11-14 02:02:32 +0000] [9180] [INFO] Listening at: http://0.0.0.0:9090 (9180)
+[2018-11-14 02:02:32 +0000] [9180] [INFO] Using worker: sync
+[2018-11-14 02:02:32 +0000] [9183] [INFO] Booting worker with pid: 9183
+[2018-11-15 02:02:01 +0000] [9183] [INFO] Worker exiting (pid: 9183)
+[2018-11-15 02:02:01 +0000] [9180] [INFO] Handling signal: term
+[2018-11-15 02:02:07 +0000] [9180] [INFO] Shutting down: Master
+[2018-11-15 02:02:32 +0000] [16312] [INFO] Starting gunicorn 19.9.0
+[2018-11-15 02:02:32 +0000] [16312] [INFO] Listening at: http://0.0.0.0:9090 (16312)
+[2018-11-15 02:02:32 +0000] [16312] [INFO] Using worker: sync
+[2018-11-15 02:02:32 +0000] [16315] [INFO] Booting worker with pid: 16315
+[2018-11-16 02:02:01 +0000] [16315] [INFO] Worker exiting (pid: 16315)
+[2018-11-16 02:02:01 +0000] [16312] [INFO] Handling signal: term
+[2018-11-16 02:02:03 +0000] [16312] [INFO] Shutting down: Master
+[2018-11-16 02:02:32 +0000] [20935] [INFO] Starting gunicorn 19.9.0
+[2018-11-16 02:02:32 +0000] [20935] [INFO] Listening at: http://0.0.0.0:9090 (20935)
+[2018-11-16 02:02:32 +0000] [20935] [INFO] Using worker: sync
+[2018-11-16 02:02:32 +0000] [20938] [INFO] Booting worker with pid: 20938
+[2018-11-17 02:02:01 +0000] [20938] [INFO] Worker exiting (pid: 20938)
+[2018-11-17 02:02:01 +0000] [20935] [INFO] Handling signal: term
+[2018-11-17 02:02:06 +0000] [20935] [INFO] Shutting down: Master
+[2018-11-17 02:02:32 +0000] [22639] [INFO] Starting gunicorn 19.9.0
+[2018-11-17 02:02:32 +0000] [22639] [INFO] Listening at: http://0.0.0.0:9090 (22639)
+[2018-11-17 02:02:32 +0000] [22639] [INFO] Using worker: sync
+[2018-11-17 02:02:32 +0000] [22642] [INFO] Booting worker with pid: 22642
+[2018-11-18 02:02:01 +0000] [22642] [INFO] Worker exiting (pid: 22642)
+[2018-11-18 02:02:01 +0000] [22639] [INFO] Handling signal: term
+[2018-11-18 02:02:03 +0000] [22639] [INFO] Shutting down: Master
+[2018-11-18 02:02:32 +0000] [24398] [INFO] Starting gunicorn 19.9.0
+[2018-11-18 02:02:32 +0000] [24398] [INFO] Listening at: http://0.0.0.0:9090 (24398)
+[2018-11-18 02:02:32 +0000] [24398] [INFO] Using worker: sync
+[2018-11-18 02:02:32 +0000] [24401] [INFO] Booting worker with pid: 24401
+[2018-11-19 02:02:01 +0000] [24401] [INFO] Worker exiting (pid: 24401)
+[2018-11-19 02:02:01 +0000] [24398] [INFO] Handling signal: term
+[2018-11-19 02:02:07 +0000] [24398] [INFO] Shutting down: Master
+[2018-11-19 02:02:32 +0000] [26860] [INFO] Starting gunicorn 19.9.0
+[2018-11-19 02:02:32 +0000] [26860] [INFO] Listening at: http://0.0.0.0:9090 (26860)
+[2018-11-19 02:02:32 +0000] [26860] [INFO] Using worker: sync
+[2018-11-19 02:02:32 +0000] [26863] [INFO] Booting worker with pid: 26863
+[2018-11-20 02:02:01 +0000] [26863] [INFO] Worker exiting (pid: 26863)
+[2018-11-20 02:02:01 +0000] [26860] [INFO] Handling signal: term
+[2018-11-20 02:02:02 +0000] [26860] [INFO] Shutting down: Master
+[2018-11-20 02:02:32 +0000] [28762] [INFO] Starting gunicorn 19.9.0
+[2018-11-20 02:02:32 +0000] [28762] [INFO] Listening at: http://0.0.0.0:9090 (28762)
+[2018-11-20 02:02:32 +0000] [28762] [INFO] Using worker: sync
+[2018-11-20 02:02:32 +0000] [28765] [INFO] Booting worker with pid: 28765
+[2018-11-21 02:02:01 +0000] [28765] [INFO] Worker exiting (pid: 28765)
+[2018-11-21 02:02:01 +0000] [28762] [INFO] Handling signal: term
+[2018-11-21 02:02:05 +0000] [28762] [INFO] Shutting down: Master
+[2018-11-21 02:02:32 +0000] [30754] [INFO] Starting gunicorn 19.9.0
+[2018-11-21 02:02:32 +0000] [30754] [INFO] Listening at: http://0.0.0.0:9090 (30754)
+[2018-11-21 02:02:32 +0000] [30754] [INFO] Using worker: sync
+[2018-11-21 02:02:32 +0000] [30757] [INFO] Booting worker with pid: 30757
+[2018-11-22 02:02:01 +0000] [30757] [INFO] Worker exiting (pid: 30757)
+[2018-11-22 02:02:02 +0000] [30754] [INFO] Handling signal: term
+[2018-11-22 02:02:02 +0000] [30754] [INFO] Shutting down: Master
+[2018-11-22 02:02:32 +0000] [32481] [INFO] Starting gunicorn 19.9.0
+[2018-11-22 02:02:32 +0000] [32481] [INFO] Listening at: http://0.0.0.0:9090 (32481)
+[2018-11-22 02:02:32 +0000] [32481] [INFO] Using worker: sync
+[2018-11-22 02:02:32 +0000] [32484] [INFO] Booting worker with pid: 32484
+[2018-11-23 02:02:01 +0000] [32484] [INFO] Worker exiting (pid: 32484)
+[2018-11-23 02:02:01 +0000] [32481] [INFO] Handling signal: term
+[2018-11-23 02:02:06 +0000] [32481] [INFO] Shutting down: Master
+[2018-11-23 02:02:32 +0000] [1444] [INFO] Starting gunicorn 19.9.0
+[2018-11-23 02:02:32 +0000] [1444] [INFO] Listening at: http://0.0.0.0:9090 (1444)
+[2018-11-23 02:02:32 +0000] [1444] [INFO] Using worker: sync
+[2018-11-23 02:02:32 +0000] [1449] [INFO] Booting worker with pid: 1449
+[2018-11-24 02:02:01 +0000] [1449] [INFO] Worker exiting (pid: 1449)
+[2018-11-24 02:02:01 +0000] [1444] [INFO] Handling signal: term
+[2018-11-24 02:02:05 +0000] [1444] [INFO] Shutting down: Master
+[2018-11-24 02:02:32 +0000] [3075] [INFO] Starting gunicorn 19.9.0
+[2018-11-24 02:02:32 +0000] [3075] [INFO] Listening at: http://0.0.0.0:9090 (3075)
+[2018-11-24 02:02:32 +0000] [3075] [INFO] Using worker: sync
+[2018-11-24 02:02:32 +0000] [3078] [INFO] Booting worker with pid: 3078
+[2018-11-25 02:02:01 +0000] [3078] [INFO] Worker exiting (pid: 3078)
+[2018-11-25 02:02:01 +0000] [3075] [INFO] Handling signal: term
+[2018-11-25 02:02:05 +0000] [3075] [INFO] Shutting down: Master
+[2018-11-25 02:02:32 +0000] [4696] [INFO] Starting gunicorn 19.9.0
+[2018-11-25 02:02:32 +0000] [4696] [INFO] Listening at: http://0.0.0.0:9090 (4696)
+[2018-11-25 02:02:32 +0000] [4696] [INFO] Using worker: sync
+[2018-11-25 02:02:32 +0000] [4699] [INFO] Booting worker with pid: 4699
+[2018-11-26 02:02:01 +0000] [4699] [INFO] Worker exiting (pid: 4699)
+[2018-11-26 02:02:01 +0000] [4696] [INFO] Handling signal: term
+[2018-11-26 02:02:02 +0000] [4696] [INFO] Shutting down: Master
+[2018-11-26 02:02:32 +0000] [6142] [INFO] Starting gunicorn 19.9.0
+[2018-11-26 02:02:32 +0000] [6142] [INFO] Listening at: http://0.0.0.0:9090 (6142)
+[2018-11-26 02:02:32 +0000] [6142] [INFO] Using worker: sync
+[2018-11-26 02:02:32 +0000] [6145] [INFO] Booting worker with pid: 6145
+[2018-11-27 02:02:01 +0000] [6145] [INFO] Worker exiting (pid: 6145)
+[2018-11-27 02:02:01 +0000] [6142] [INFO] Handling signal: term
+[2018-11-27 02:02:05 +0000] [6142] [INFO] Shutting down: Master
+[2018-11-27 02:02:32 +0000] [7906] [INFO] Starting gunicorn 19.9.0
+[2018-11-27 02:02:32 +0000] [7906] [INFO] Listening at: http://0.0.0.0:9090 (7906)
+[2018-11-27 02:02:32 +0000] [7906] [INFO] Using worker: sync
+[2018-11-27 02:02:32 +0000] [7909] [INFO] Booting worker with pid: 7909
+[2018-11-28 02:02:01 +0000] [7909] [INFO] Worker exiting (pid: 7909)
+[2018-11-28 02:02:01 +0000] [7906] [INFO] Handling signal: term
+[2018-11-28 02:02:01 +0000] [7906] [INFO] Shutting down: Master
+[2018-11-28 02:02:32 +0000] [10566] [INFO] Starting gunicorn 19.9.0
+[2018-11-28 02:02:32 +0000] [10566] [INFO] Listening at: http://0.0.0.0:9090 (10566)
+[2018-11-28 02:02:32 +0000] [10566] [INFO] Using worker: sync
+[2018-11-28 02:02:32 +0000] [10569] [INFO] Booting worker with pid: 10569
+[2018-11-29 02:02:01 +0000] [10569] [INFO] Worker exiting (pid: 10569)
+[2018-11-29 02:02:01 +0000] [10566] [INFO] Handling signal: term
+[2018-11-29 02:02:01 +0000] [10566] [INFO] Shutting down: Master
+[2018-11-29 02:02:32 +0000] [14347] [INFO] Starting gunicorn 19.9.0
+[2018-11-29 02:02:32 +0000] [14347] [INFO] Listening at: http://0.0.0.0:9090 (14347)
+[2018-11-29 02:02:32 +0000] [14347] [INFO] Using worker: sync
+[2018-11-29 02:02:32 +0000] [14350] [INFO] Booting worker with pid: 14350
+[2018-11-30 02:02:01 +0000] [14350] [INFO] Worker exiting (pid: 14350)
+[2018-11-30 02:02:01 +0000] [14347] [INFO] Handling signal: term
+[2018-11-30 02:02:01 +0000] [14347] [INFO] Shutting down: Master
+[2018-11-30 02:02:32 +0000] [19569] [INFO] Starting gunicorn 19.9.0
+[2018-11-30 02:02:32 +0000] [19569] [INFO] Listening at: http://0.0.0.0:9090 (19569)
+[2018-11-30 02:02:32 +0000] [19569] [INFO] Using worker: sync
+[2018-11-30 02:02:32 +0000] [19572] [INFO] Booting worker with pid: 19572
+[2018-12-01 02:02:01 +0000] [19572] [INFO] Worker exiting (pid: 19572)
+[2018-12-01 02:02:01 +0000] [19569] [INFO] Handling signal: term
+[2018-12-01 02:02:07 +0000] [19569] [INFO] Shutting down: Master
+[2018-12-01 02:02:32 +0000] [28328] [INFO] Starting gunicorn 19.9.0
+[2018-12-01 02:02:32 +0000] [28328] [INFO] Listening at: http://0.0.0.0:9090 (28328)
+[2018-12-01 02:02:32 +0000] [28328] [INFO] Using worker: sync
+[2018-12-01 02:02:32 +0000] [28331] [INFO] Booting worker with pid: 28331
+[2018-12-02 02:02:01 +0000] [28331] [INFO] Worker exiting (pid: 28331)
+[2018-12-02 02:02:01 +0000] [28328] [INFO] Handling signal: term
+[2018-12-02 02:02:05 +0000] [28328] [INFO] Shutting down: Master
+[2018-12-02 02:02:32 +0000] [4170] [INFO] Starting gunicorn 19.9.0
+[2018-12-02 02:02:32 +0000] [4170] [INFO] Listening at: http://0.0.0.0:9090 (4170)
+[2018-12-02 02:02:32 +0000] [4170] [INFO] Using worker: sync
+[2018-12-02 02:02:32 +0000] [4173] [INFO] Booting worker with pid: 4173
+[2018-12-03 02:02:01 +0000] [4173] [INFO] Worker exiting (pid: 4173)
+[2018-12-03 02:02:01 +0000] [4170] [INFO] Handling signal: term
+[2018-12-03 02:02:08 +0000] [4170] [INFO] Shutting down: Master
+[2018-12-03 02:02:32 +0000] [10868] [INFO] Starting gunicorn 19.9.0
+[2018-12-03 02:02:32 +0000] [10868] [INFO] Listening at: http://0.0.0.0:9090 (10868)
+[2018-12-03 02:02:32 +0000] [10868] [INFO] Using worker: sync
+[2018-12-03 02:02:32 +0000] [10871] [INFO] Booting worker with pid: 10871
+[2018-12-04 02:02:01 +0000] [10871] [INFO] Worker exiting (pid: 10871)
+[2018-12-04 02:02:02 +0000] [10868] [INFO] Handling signal: term
+[2018-12-04 02:02:02 +0000] [10868] [INFO] Shutting down: Master
+[2018-12-04 02:02:32 +0000] [16392] [INFO] Starting gunicorn 19.9.0
+[2018-12-04 02:02:32 +0000] [16392] [INFO] Listening at: http://0.0.0.0:9090 (16392)
+[2018-12-04 02:02:32 +0000] [16392] [INFO] Using worker: sync
+[2018-12-04 02:02:32 +0000] [16395] [INFO] Booting worker with pid: 16395
+[2018-12-05 02:02:01 +0000] [16395] [INFO] Worker exiting (pid: 16395)
+[2018-12-05 02:02:01 +0000] [16392] [INFO] Handling signal: term
+[2018-12-05 02:02:07 +0000] [16392] [INFO] Shutting down: Master
+[2018-12-05 02:02:32 +0000] [19146] [INFO] Starting gunicorn 19.9.0
+[2018-12-05 02:02:32 +0000] [19146] [INFO] Listening at: http://0.0.0.0:9090 (19146)
+[2018-12-05 02:02:32 +0000] [19146] [INFO] Using worker: sync
+[2018-12-05 02:02:32 +0000] [19149] [INFO] Booting worker with pid: 19149
+[2018-12-06 02:02:01 +0000] [19149] [INFO] Worker exiting (pid: 19149)
+[2018-12-06 02:02:01 +0000] [19146] [INFO] Handling signal: term
+[2018-12-06 02:02:09 +0000] [19146] [INFO] Shutting down: Master
+[2018-12-06 02:02:32 +0000] [22351] [INFO] Starting gunicorn 19.9.0
+[2018-12-06 02:02:32 +0000] [22351] [INFO] Listening at: http://0.0.0.0:9090 (22351)
+[2018-12-06 02:02:32 +0000] [22351] [INFO] Using worker: sync
+[2018-12-06 02:02:32 +0000] [22354] [INFO] Booting worker with pid: 22354
+[2018-12-07 02:02:01 +0000] [22354] [INFO] Worker exiting (pid: 22354)
+[2018-12-07 02:02:01 +0000] [22351] [INFO] Handling signal: term
+[2018-12-07 02:02:08 +0000] [22351] [INFO] Shutting down: Master
+[2018-12-07 02:02:32 +0000] [27252] [INFO] Starting gunicorn 19.9.0
+[2018-12-07 02:02:32 +0000] [27252] [INFO] Listening at: http://0.0.0.0:9090 (27252)
+[2018-12-07 02:02:32 +0000] [27252] [INFO] Using worker: sync
+[2018-12-07 02:02:32 +0000] [27255] [INFO] Booting worker with pid: 27255
+[2018-12-08 02:02:01 +0000] [27255] [INFO] Worker exiting (pid: 27255)
+[2018-12-08 02:02:01 +0000] [27252] [INFO] Handling signal: term
+[2018-12-08 02:02:05 +0000] [27252] [INFO] Shutting down: Master
+[2018-12-08 02:02:32 +0000] [29768] [INFO] Starting gunicorn 19.9.0
+[2018-12-08 02:02:32 +0000] [29768] [INFO] Listening at: http://0.0.0.0:9090 (29768)
+[2018-12-08 02:02:32 +0000] [29768] [INFO] Using worker: sync
+[2018-12-08 02:02:32 +0000] [29771] [INFO] Booting worker with pid: 29771
+[2018-12-09 02:02:01 +0000] [29771] [INFO] Worker exiting (pid: 29771)
+[2018-12-09 02:02:02 +0000] [29768] [INFO] Handling signal: term
+[2018-12-09 02:02:08 +0000] [29768] [INFO] Shutting down: Master
+[2018-12-09 02:02:33 +0000] [32090] [INFO] Starting gunicorn 19.9.0
+[2018-12-09 02:02:33 +0000] [32090] [INFO] Listening at: http://0.0.0.0:9090 (32090)
+[2018-12-09 02:02:33 +0000] [32090] [INFO] Using worker: sync
+[2018-12-09 02:02:33 +0000] [32093] [INFO] Booting worker with pid: 32093
+[2018-12-10 02:02:01 +0000] [32093] [INFO] Worker exiting (pid: 32093)
+[2018-12-10 02:02:01 +0000] [32090] [INFO] Handling signal: term
+[2018-12-10 02:02:09 +0000] [32090] [INFO] Shutting down: Master
+[2018-12-10 02:02:32 +0000] [2348] [INFO] Starting gunicorn 19.9.0
+[2018-12-10 02:02:32 +0000] [2348] [INFO] Listening at: http://0.0.0.0:9090 (2348)
+[2018-12-10 02:02:32 +0000] [2348] [INFO] Using worker: sync
+[2018-12-10 02:02:32 +0000] [2351] [INFO] Booting worker with pid: 2351
+[2018-12-11 02:02:01 +0000] [2351] [INFO] Worker exiting (pid: 2351)
+[2018-12-11 02:02:01 +0000] [2348] [INFO] Handling signal: term
+[2018-12-11 02:02:07 +0000] [2348] [INFO] Shutting down: Master
+[2018-12-11 02:02:32 +0000] [4766] [INFO] Starting gunicorn 19.9.0
+[2018-12-11 02:02:32 +0000] [4766] [INFO] Listening at: http://0.0.0.0:9090 (4766)
+[2018-12-11 02:02:32 +0000] [4766] [INFO] Using worker: sync
+[2018-12-11 02:02:32 +0000] [4769] [INFO] Booting worker with pid: 4769
+[2018-12-12 02:02:01 +0000] [4769] [INFO] Worker exiting (pid: 4769)
+[2018-12-12 02:02:01 +0000] [4766] [INFO] Handling signal: term
+[2018-12-12 02:02:02 +0000] [4766] [INFO] Shutting down: Master
+[2018-12-12 02:02:32 +0000] [6696] [INFO] Starting gunicorn 19.9.0
+[2018-12-12 02:02:32 +0000] [6696] [INFO] Listening at: http://0.0.0.0:9090 (6696)
+[2018-12-12 02:02:32 +0000] [6696] [INFO] Using worker: sync
+[2018-12-12 02:02:32 +0000] [6699] [INFO] Booting worker with pid: 6699
+[2018-12-13 02:02:01 +0000] [6699] [INFO] Worker exiting (pid: 6699)
+[2018-12-13 02:02:01 +0000] [6696] [INFO] Handling signal: term
+[2018-12-13 02:02:06 +0000] [6696] [INFO] Shutting down: Master
+[2018-12-13 02:02:32 +0000] [8363] [INFO] Starting gunicorn 19.9.0
+[2018-12-13 02:02:32 +0000] [8363] [INFO] Listening at: http://0.0.0.0:9090 (8363)
+[2018-12-13 02:02:32 +0000] [8363] [INFO] Using worker: sync
+[2018-12-13 02:02:32 +0000] [8366] [INFO] Booting worker with pid: 8366
+[2018-12-14 02:02:01 +0000] [8366] [INFO] Worker exiting (pid: 8366)
+[2018-12-14 02:02:01 +0000] [8363] [INFO] Handling signal: term
+[2018-12-14 02:02:07 +0000] [8363] [INFO] Shutting down: Master
+[2018-12-14 02:02:32 +0000] [10036] [INFO] Starting gunicorn 19.9.0
+[2018-12-14 02:02:32 +0000] [10036] [INFO] Listening at: http://0.0.0.0:9090 (10036)
+[2018-12-14 02:02:32 +0000] [10036] [INFO] Using worker: sync
+[2018-12-14 02:02:32 +0000] [10039] [INFO] Booting worker with pid: 10039
+[2018-12-15 02:02:01 +0000] [10039] [INFO] Worker exiting (pid: 10039)
+[2018-12-15 02:02:01 +0000] [10036] [INFO] Handling signal: term
+[2018-12-15 02:02:06 +0000] [10036] [INFO] Shutting down: Master
+[2018-12-15 02:02:32 +0000] [12228] [INFO] Starting gunicorn 19.9.0
+[2018-12-15 02:02:32 +0000] [12228] [INFO] Listening at: http://0.0.0.0:9090 (12228)
+[2018-12-15 02:02:32 +0000] [12228] [INFO] Using worker: sync
+[2018-12-15 02:02:32 +0000] [12231] [INFO] Booting worker with pid: 12231
+[2018-12-16 02:02:01 +0000] [12231] [INFO] Worker exiting (pid: 12231)
+[2018-12-16 02:02:01 +0000] [12228] [INFO] Handling signal: term
+[2018-12-16 02:02:06 +0000] [12228] [INFO] Shutting down: Master
+[2018-12-16 02:02:32 +0000] [14623] [INFO] Starting gunicorn 19.9.0
+[2018-12-16 02:02:32 +0000] [14623] [INFO] Listening at: http://0.0.0.0:9090 (14623)
+[2018-12-16 02:02:32 +0000] [14623] [INFO] Using worker: sync
+[2018-12-16 02:02:32 +0000] [14626] [INFO] Booting worker with pid: 14626
+[2018-12-17 02:02:01 +0000] [14626] [INFO] Worker exiting (pid: 14626)
+[2018-12-17 02:02:01 +0000] [14623] [INFO] Handling signal: term
+[2018-12-17 02:02:01 +0000] [14623] [INFO] Shutting down: Master
+[2018-12-17 02:02:32 +0000] [16894] [INFO] Starting gunicorn 19.9.0
+[2018-12-17 02:02:32 +0000] [16894] [INFO] Listening at: http://0.0.0.0:9090 (16894)
+[2018-12-17 02:02:32 +0000] [16894] [INFO] Using worker: sync
+[2018-12-17 02:02:32 +0000] [16897] [INFO] Booting worker with pid: 16897
+[2018-12-18 02:02:01 +0000] [16897] [INFO] Worker exiting (pid: 16897)
+[2018-12-18 02:02:01 +0000] [16894] [INFO] Handling signal: term
+[2018-12-18 02:02:06 +0000] [16894] [INFO] Shutting down: Master
+[2018-12-18 02:02:32 +0000] [22159] [INFO] Starting gunicorn 19.9.0
+[2018-12-18 02:02:32 +0000] [22159] [INFO] Listening at: http://0.0.0.0:9090 (22159)
+[2018-12-18 02:02:32 +0000] [22159] [INFO] Using worker: sync
+[2018-12-18 02:02:32 +0000] [22162] [INFO] Booting worker with pid: 22162
+[2018-12-19 02:02:01 +0000] [22162] [INFO] Worker exiting (pid: 22162)
+[2018-12-19 02:02:01 +0000] [22159] [INFO] Handling signal: term
+[2018-12-19 02:02:02 +0000] [22159] [INFO] Shutting down: Master
+[2018-12-19 02:02:31 +0000] [24914] [INFO] Starting gunicorn 19.9.0
+[2018-12-19 02:02:31 +0000] [24914] [INFO] Listening at: http://0.0.0.0:9090 (24914)
+[2018-12-19 02:02:31 +0000] [24914] [INFO] Using worker: sync
+[2018-12-19 02:02:31 +0000] [24917] [INFO] Booting worker with pid: 24917
+[2018-12-20 02:02:01 +0000] [24917] [INFO] Worker exiting (pid: 24917)
+[2018-12-20 02:02:01 +0000] [24914] [INFO] Handling signal: term
+[2018-12-20 02:02:02 +0000] [24914] [INFO] Shutting down: Master
+[2018-12-20 02:02:32 +0000] [27680] [INFO] Starting gunicorn 19.9.0
+[2018-12-20 02:02:32 +0000] [27680] [INFO] Listening at: http://0.0.0.0:9090 (27680)
+[2018-12-20 02:02:32 +0000] [27680] [INFO] Using worker: sync
+[2018-12-20 02:02:32 +0000] [27683] [INFO] Booting worker with pid: 27683
+[2018-12-21 02:02:01 +0000] [27683] [INFO] Worker exiting (pid: 27683)
+[2018-12-21 02:02:01 +0000] [27680] [INFO] Handling signal: term
+[2018-12-21 02:02:05 +0000] [27680] [INFO] Shutting down: Master
+[2018-12-21 02:02:32 +0000] [29936] [INFO] Starting gunicorn 19.9.0
+[2018-12-21 02:02:32 +0000] [29936] [INFO] Listening at: http://0.0.0.0:9090 (29936)
+[2018-12-21 02:02:32 +0000] [29936] [INFO] Using worker: sync
+[2018-12-21 02:02:32 +0000] [29939] [INFO] Booting worker with pid: 29939
+[2018-12-22 02:02:01 +0000] [29939] [INFO] Worker exiting (pid: 29939)
+[2018-12-22 02:02:01 +0000] [29936] [INFO] Handling signal: term
+[2018-12-22 02:02:07 +0000] [29936] [INFO] Shutting down: Master
+[2018-12-22 02:02:32 +0000] [32166] [INFO] Starting gunicorn 19.9.0
+[2018-12-22 02:02:32 +0000] [32166] [INFO] Listening at: http://0.0.0.0:9090 (32166)
+[2018-12-22 02:02:32 +0000] [32166] [INFO] Using worker: sync
+[2018-12-22 02:02:32 +0000] [32169] [INFO] Booting worker with pid: 32169
+[2018-12-23 02:02:02 +0000] [32169] [INFO] Worker exiting (pid: 32169)
+[2018-12-23 02:02:02 +0000] [32166] [INFO] Handling signal: term
+[2018-12-23 02:02:02 +0000] [32166] [INFO] Shutting down: Master
+[2018-12-23 02:02:32 +0000] [1498] [INFO] Starting gunicorn 19.9.0
+[2018-12-23 02:02:32 +0000] [1498] [INFO] Listening at: http://0.0.0.0:9090 (1498)
+[2018-12-23 02:02:32 +0000] [1498] [INFO] Using worker: sync
+[2018-12-23 02:02:32 +0000] [1501] [INFO] Booting worker with pid: 1501
+[2018-12-24 02:02:01 +0000] [1501] [INFO] Worker exiting (pid: 1501)
+[2018-12-24 02:02:01 +0000] [1498] [INFO] Handling signal: term
+[2018-12-24 02:02:06 +0000] [1498] [INFO] Shutting down: Master
+[2018-12-24 02:02:32 +0000] [3223] [INFO] Starting gunicorn 19.9.0
+[2018-12-24 02:02:32 +0000] [3223] [INFO] Listening at: http://0.0.0.0:9090 (3223)
+[2018-12-24 02:02:32 +0000] [3223] [INFO] Using worker: sync
+[2018-12-24 02:02:32 +0000] [3226] [INFO] Booting worker with pid: 3226
+[2018-12-25 02:02:01 +0000] [3226] [INFO] Worker exiting (pid: 3226)
+[2018-12-25 02:02:01 +0000] [3223] [INFO] Handling signal: term
+[2018-12-25 02:02:06 +0000] [3223] [INFO] Shutting down: Master
+[2018-12-25 02:02:32 +0000] [5255] [INFO] Starting gunicorn 19.9.0
+[2018-12-25 02:02:32 +0000] [5255] [INFO] Listening at: http://0.0.0.0:9090 (5255)
+[2018-12-25 02:02:32 +0000] [5255] [INFO] Using worker: sync
+[2018-12-25 02:02:32 +0000] [5259] [INFO] Booting worker with pid: 5259
+[2018-12-26 02:02:02 +0000] [5259] [INFO] Worker exiting (pid: 5259)
+[2018-12-26 02:02:02 +0000] [5255] [INFO] Handling signal: term
+[2018-12-26 02:02:02 +0000] [5255] [INFO] Shutting down: Master
+[2018-12-26 02:02:32 +0000] [6969] [INFO] Starting gunicorn 19.9.0
+[2018-12-26 02:02:32 +0000] [6969] [INFO] Listening at: http://0.0.0.0:9090 (6969)
+[2018-12-26 02:02:32 +0000] [6969] [INFO] Using worker: sync
+[2018-12-26 02:02:32 +0000] [6972] [INFO] Booting worker with pid: 6972
+[2018-12-27 02:02:01 +0000] [6972] [INFO] Worker exiting (pid: 6972)
+[2018-12-27 02:02:01 +0000] [6969] [INFO] Handling signal: term
+[2018-12-27 02:02:01 +0000] [6969] [INFO] Shutting down: Master
+[2018-12-27 02:02:32 +0000] [9719] [INFO] Starting gunicorn 19.9.0
+[2018-12-27 02:02:32 +0000] [9719] [INFO] Listening at: http://0.0.0.0:9090 (9719)
+[2018-12-27 02:02:32 +0000] [9719] [INFO] Using worker: sync
+[2018-12-27 02:02:32 +0000] [9722] [INFO] Booting worker with pid: 9722
+[2018-12-28 02:02:01 +0000] [9722] [INFO] Worker exiting (pid: 9722)
+[2018-12-28 02:02:01 +0000] [9719] [INFO] Handling signal: term
+[2018-12-28 02:02:06 +0000] [9719] [INFO] Shutting down: Master
+[2018-12-28 02:02:31 +0000] [11524] [INFO] Starting gunicorn 19.9.0
+[2018-12-28 02:02:31 +0000] [11524] [INFO] Listening at: http://0.0.0.0:9090 (11524)
+[2018-12-28 02:02:31 +0000] [11524] [INFO] Using worker: sync
+[2018-12-28 02:02:31 +0000] [11527] [INFO] Booting worker with pid: 11527

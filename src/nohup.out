@@ -520,3 +520,240 @@
 2018-11-07 06:29:04,440 : INFO : Not preloading words....
 2018-11-07 06:34:08,862 : INFO : 'pattern' package not found; tag filters are not available for English
 2018-11-07 06:34:08,863 : INFO : 'pattern' package not found; tag filters are not available for English
+2018-11-07 06:42:40,618 : INFO : 'pattern' package not found; tag filters are not available for English
+2018-11-07 06:45:25,402 : INFO : 'pattern' package not found; tag filters are not available for English
+2018-11-07 06:45:27,200 : INFO : loading Phraser object from /media/diego/QData/bankdomain/model//bigrams_phraser
+2018-11-07 06:45:27,204 : INFO : loaded /media/diego/QData/bankdomain/model//bigrams_phraser
+2018-11-07 06:45:27,205 : INFO : loading Phraser object from /media/diego/QData/bankdomain/model//trigrams_phraser
+2018-11-07 06:45:27,207 : INFO : loaded /media/diego/QData/bankdomain/model//trigrams_phraser
+2018-11-07 06:45:27,207 : INFO : loading Doc2Vec object from /media/diego/QData/bankdomain/model//doc2vec
+2018-11-07 06:45:28,059 : INFO : loading vocabulary recursively from /media/diego/QData/bankdomain/model//doc2vec.vocabulary.* with mmap=None
+2018-11-07 06:45:28,060 : INFO : loading trainables recursively from /media/diego/QData/bankdomain/model//doc2vec.trainables.* with mmap=None
+2018-11-07 06:45:28,060 : INFO : loading wv recursively from /media/diego/QData/bankdomain/model//doc2vec.wv.* with mmap=None
+2018-11-07 06:45:28,060 : INFO : loading docvecs recursively from /media/diego/QData/bankdomain/model//doc2vec.docvecs.* with mmap=None
+2018-11-07 06:45:28,060 : INFO : loaded /media/diego/QData/bankdomain/model//doc2vec
+2018-11-07 06:45:28,073 : INFO : loading Dictionary object from /media/diego/QData/bankdomain/model//dictionary
+2018-11-07 06:45:28,079 : INFO : loaded /media/diego/QData/bankdomain/model//dictionary
+2018-11-07 06:45:28,082 : INFO : loaded corpus index from /media/diego/QData/bankdomain/model//corpus.index
+2018-11-07 06:45:28,082 : INFO : initializing cython corpus reader from /media/diego/QData/bankdomain/model//corpus
+2018-11-07 06:45:28,085 : INFO : accepted corpus with 17320 documents, 8942 features, 215007 non-zero entries
+2018-11-07 06:45:28,085 : INFO : collecting document frequencies
+2018-11-07 06:45:28,085 : INFO : PROGRESS: processing document #0
+2018-11-07 06:45:28,133 : INFO : PROGRESS: processing document #10000
+2018-11-07 06:45:28,241 : INFO : calculating IDF weights for 17320 documents and 8941 features (215007 matrix non-zeros)
+2018-11-07 06:45:28,264 : INFO : loading LsiModel object from /media/diego/QData/bankdomain/model//lsi
+2018-11-07 06:45:28,271 : INFO : loading id2word recursively from /media/diego/QData/bankdomain/model//lsi.id2word.* with mmap=None
+2018-11-07 06:45:28,271 : INFO : setting ignored attribute projection to None
+2018-11-07 06:45:28,271 : INFO : setting ignored attribute dispatcher to None
+2018-11-07 06:45:28,271 : INFO : loaded /media/diego/QData/bankdomain/model//lsi
+2018-11-07 06:45:28,271 : INFO : loading LsiModel object from /media/diego/QData/bankdomain/model//lsi.projection
+2018-11-07 06:45:28,759 : INFO : loaded /media/diego/QData/bankdomain/model//lsi.projection
+2018-11-07 06:45:28,760 : INFO : loading MatrixSimilarity object from /media/diego/QData/bankdomain/model//index
+2018-11-07 06:45:29,269 : INFO : loaded /media/diego/QData/bankdomain/model//index
+2018-11-07 06:45:30,470 : INFO : Not preloading words....
+2018-11-07 06:45:53,648 : INFO : Processing Was passiert mit der Restschuldversicherung, wenn ich meinen Kredit umschulde?
+
+2018-11-07 06:45:53,648 : INFO : Retrieving answers for Was passiert mit der Restschuldversicherung, wenn ich meinen Kredit umschulde?
+
+2018-11-07 06:45:53,740 : INFO : Tokens after preprocessing : ['passieren', 'restschuldversicherung', 'kredit', 'umschulden']
+2018-11-07 06:45:53,741 : INFO : Processing trigrams : ['passieren', 'restschuldversicherung', 'kredit', 'umschulden']
+2018-11-07 06:45:53,742 : INFO : Weighted list of length: 4
+2018-11-07 06:45:53,742 : INFO : precomputing L2-norms of doc weight vectors
+/home/ubuntu/anaconda3/envs/bankdomain/lib/python3.7/site-packages/gensim/matutils.py:737: FutureWarning: Conversion of the second argument of issubdtype from `int` to `np.signedinteger` is deprecated. In future, it will be treated as `np.int64 == np.dtype(int).type`.
+  if np.issubdtype(vec.dtype, np.int):
+2018-11-07 06:45:54,097 : INFO : precomputing L2-norms of word weight vectors
+2018-11-07 09:24:39,373 : INFO : Processing interest rate
+
+2018-11-07 09:24:39,373 : INFO : Retrieving answers for interest rate
+
+2018-11-07 09:24:39,373 : INFO : Tokens after preprocessing : ['interest', 'rate']
+2018-11-07 09:24:39,373 : INFO : Processing trigrams : ['interest', 'rate']
+2018-11-07 09:24:39,373 : INFO : Weighted list of length: 1
+2018-11-07 22:26:15,727 : INFO : Processing Welche Sicherheitsaspekte enthält das Online-Banking?
+
+2018-11-07 22:26:15,731 : INFO : Retrieving answers for Welche Sicherheitsaspekte enthält das Online-Banking?
+
+2018-11-07 22:26:15,928 : INFO : Tokens after preprocessing : ['sicherheitsaspekte', 'enthalten', 'online-banking']
+2018-11-07 22:26:15,928 : INFO : Processing trigrams : ['sicherheitsaspekte', 'enthalten', 'online-banking']
+2018-11-07 22:26:15,928 : INFO : Weighted list of length: 3
+2018-11-11 00:32:28,661 : INFO : 'pattern' package not found; tag filters are not available for English
+2018-11-11 00:43:22,447 : INFO : 'pattern' package not found; tag filters are not available for English
+2018-11-11 00:43:24,183 : INFO : loading Phraser object from /media/diego/QData/bankdomain/model//bigrams_phraser
+2018-11-11 00:43:24,188 : INFO : loaded /media/diego/QData/bankdomain/model//bigrams_phraser
+2018-11-11 00:43:24,188 : INFO : loading Phraser object from /media/diego/QData/bankdomain/model//trigrams_phraser
+2018-11-11 00:43:24,190 : INFO : loaded /media/diego/QData/bankdomain/model//trigrams_phraser
+2018-11-11 00:43:24,191 : INFO : loading Doc2Vec object from /media/diego/QData/bankdomain/model//doc2vec
+2018-11-11 00:43:25,054 : INFO : loading vocabulary recursively from /media/diego/QData/bankdomain/model//doc2vec.vocabulary.* with mmap=None
+2018-11-11 00:43:25,054 : INFO : loading trainables recursively from /media/diego/QData/bankdomain/model//doc2vec.trainables.* with mmap=None
+2018-11-11 00:43:25,055 : INFO : loading wv recursively from /media/diego/QData/bankdomain/model//doc2vec.wv.* with mmap=None
+2018-11-11 00:43:25,055 : INFO : loading docvecs recursively from /media/diego/QData/bankdomain/model//doc2vec.docvecs.* with mmap=None
+2018-11-11 00:43:25,055 : INFO : loaded /media/diego/QData/bankdomain/model//doc2vec
+2018-11-11 00:43:25,069 : INFO : loading Dictionary object from /media/diego/QData/bankdomain/model//dictionary
+2018-11-11 00:43:25,081 : INFO : loaded /media/diego/QData/bankdomain/model//dictionary
+2018-11-11 00:43:25,084 : INFO : loaded corpus index from /media/diego/QData/bankdomain/model//corpus.index
+2018-11-11 00:43:25,084 : INFO : initializing cython corpus reader from /media/diego/QData/bankdomain/model//corpus
+2018-11-11 00:43:25,085 : INFO : accepted corpus with 17320 documents, 8942 features, 215007 non-zero entries
+2018-11-11 00:43:25,085 : INFO : collecting document frequencies
+2018-11-11 00:43:25,085 : INFO : PROGRESS: processing document #0
+2018-11-11 00:43:25,132 : INFO : PROGRESS: processing document #10000
+2018-11-11 00:43:25,241 : INFO : calculating IDF weights for 17320 documents and 8941 features (215007 matrix non-zeros)
+2018-11-11 00:43:25,262 : INFO : loading LsiModel object from /media/diego/QData/bankdomain/model//lsi
+2018-11-11 00:43:25,274 : INFO : loading id2word recursively from /media/diego/QData/bankdomain/model//lsi.id2word.* with mmap=None
+2018-11-11 00:43:25,274 : INFO : setting ignored attribute projection to None
+2018-11-11 00:43:25,274 : INFO : setting ignored attribute dispatcher to None
+2018-11-11 00:43:25,274 : INFO : loaded /media/diego/QData/bankdomain/model//lsi
+2018-11-11 00:43:25,274 : INFO : loading LsiModel object from /media/diego/QData/bankdomain/model//lsi.projection
+2018-11-11 00:43:25,794 : INFO : loaded /media/diego/QData/bankdomain/model//lsi.projection
+2018-11-11 00:43:25,794 : INFO : loading MatrixSimilarity object from /media/diego/QData/bankdomain/model//index
+2018-11-11 00:43:26,317 : INFO : loaded /media/diego/QData/bankdomain/model//index
+2018-11-11 00:43:27,596 : INFO : Not preloading words....
+2018-11-11 00:44:17,255 : INFO : Processing Wie kann man sich vor Phishing schützen?
+
+2018-11-11 00:44:17,255 : INFO : Retrieving answers for Wie kann man sich vor Phishing schützen?
+
+2018-11-11 00:44:17,362 : INFO : Tokens after preprocessing : ['phishing', 'schützen']
+2018-11-11 00:44:17,362 : INFO : Processing trigrams : ['phishing', 'schützen']
+2018-11-11 00:44:17,363 : INFO : Weighted list of length: 2
+2018-11-11 00:44:17,363 : INFO : precomputing L2-norms of doc weight vectors
+/home/ubuntu/anaconda3/envs/bankdomain/lib/python3.7/site-packages/gensim/matutils.py:737: FutureWarning: Conversion of the second argument of issubdtype from `int` to `np.signedinteger` is deprecated. In future, it will be treated as `np.int64 == np.dtype(int).type`.
+  if np.issubdtype(vec.dtype, np.int):
+2018-11-11 00:44:17,691 : INFO : precomputing L2-norms of word weight vectors
+2018-11-11 00:44:27,115 : INFO : Processing Kann ich meine Überweisungsvorlagen aus dem Online-Banking mobil verwenden?
+
+2018-11-11 00:44:27,115 : INFO : Retrieving answers for Kann ich meine Überweisungsvorlagen aus dem Online-Banking mobil verwenden?
+
+2018-11-11 00:44:27,148 : INFO : Tokens after preprocessing : ['überweisungsvorlage', 'online-banking', 'mobil', 'verwenden']
+2018-11-11 00:44:27,148 : INFO : Processing trigrams : ['überweisungsvorlage', 'online-banking', 'mobil', 'verwenden']
+2018-11-11 00:44:27,148 : INFO : Weighted list of length: 4
+2018-11-11 00:44:28,648 : INFO : Processing Was kann ich tun, wenn falsche Daten  ( z.B. unvollständig, nicht mehr aktuell oder unzutreffend )  bei der SCHUFA gespeichert sind und mein Kreditantrag abgelehnt wurde?
+
+2018-11-11 00:44:28,648 : INFO : Retrieving answers for Was kann ich tun, wenn falsche Daten  ( z.B. unvollständig, nicht mehr aktuell oder unzutreffend )  bei der SCHUFA gespeichert sind und mein Kreditantrag abgelehnt wurde?
+
+2018-11-11 00:44:28,693 : INFO : Tokens after preprocessing : ['falsch', 'datum', 'zum', 'beispiel', 'unvollständig', 'aktuell', 'unzutreffend', 'schufa', 'speichern', 'kreditantrag', 'ablehnen']
+2018-11-11 00:44:28,694 : INFO : Processing trigrams : ['falsch', 'datum', 'zum_beispiel', 'unvollständig', 'aktuell', 'unzutreffend', 'schufa_speichern', 'kreditantrag', 'ablehnen']
+2018-11-11 00:44:28,694 : INFO : Weighted list of length: 9
+2018-11-11 00:44:29,417 : INFO : Processing Für welche Banken funktioniert Multibanking?
+
+2018-11-11 00:44:29,417 : INFO : Retrieving answers for Für welche Banken funktioniert Multibanking?
+
+2018-11-11 00:44:29,444 : INFO : Tokens after preprocessing : ['bank', 'funktionieren', 'multibanking']
+2018-11-11 00:44:29,444 : INFO : Processing trigrams : ['bank', 'funktionieren', 'multibanking']
+2018-11-11 00:44:29,444 : INFO : Weighted list of length: 3
+2018-11-11 00:44:30,168 : INFO : Processing Muss der Fahrzeugbrief als Sicherheit hinterlegt werden?
+
+2018-11-11 00:44:30,168 : INFO : Retrieving answers for Muss der Fahrzeugbrief als Sicherheit hinterlegt werden?
+
+2018-11-11 00:44:30,197 : INFO : Tokens after preprocessing : ['fahrzeugbrief', 'sicherheit', 'hinterlegen']
+2018-11-11 00:44:30,197 : INFO : Processing trigrams : ['fahrzeugbrief', 'sicherheit', 'hinterlegen']
+2018-11-11 00:44:30,197 : INFO : Weighted list of length: 3
+2018-11-11 01:14:29,751 : INFO : Processing Wie hoch darf meine Finanzierungssumme sein?
+
+2018-11-11 01:14:29,751 : INFO : Retrieving answers for Wie hoch darf meine Finanzierungssumme sein?
+
+2018-11-11 01:14:29,780 : INFO : Tokens after preprocessing : ['finanzierungssumme']
+2018-11-11 01:14:29,780 : INFO : Processing trigrams : ['finanzierungssumme']
+2018-11-11 01:14:29,780 : INFO : Weighted list of length: 1
+2018-11-11 01:33:52,833 : INFO : Processing Was mache ich, wenn ich mein Handy verloren habe oder es mir gestohlen wurde?
+
+2018-11-11 01:33:52,837 : INFO : Retrieving answers for Was mache ich, wenn ich mein Handy verloren habe oder es mir gestohlen wurde?
+
+2018-11-11 01:33:52,937 : INFO : Tokens after preprocessing : ['machen', 'handy', 'verlieren', 'stehlen']
+2018-11-11 01:33:52,937 : INFO : Processing trigrams : ['machen', 'handy', 'verlieren_stehlen']
+2018-11-11 01:33:52,937 : INFO : Weighted list of length: 3
+2018-11-11 01:33:59,069 : INFO : Processing Kann ich VL-Sparen vorzeitig kündigen oder ruhen lassen?
+
+2018-11-11 01:33:59,069 : INFO : Retrieving answers for Kann ich VL-Sparen vorzeitig kündigen oder ruhen lassen?
+
+2018-11-11 01:33:59,103 : INFO : Tokens after preprocessing : ['vl-sparen', 'vorzeitig', 'kündigen', 'ruhen', 'lassen']
+2018-11-11 01:33:59,104 : INFO : Processing trigrams : ['vl-sparen', 'vorzeitig_kündigen', 'ruhen_lassen']
+2018-11-11 01:33:59,104 : INFO : Weighted list of length: 3
+2018-11-11 01:34:08,879 : INFO : Processing Kann ich auch mehrere Geräte  ( z. B. ein iPhone und ein iPad )  gleichzeitig für pushTAN anmelden?
+
+2018-11-11 01:34:08,879 : INFO : Retrieving answers for Kann ich auch mehrere Geräte  ( z. B. ein iPhone und ein iPad )  gleichzeitig für pushTAN anmelden?
+
+2018-11-11 01:34:08,918 : INFO : Tokens after preprocessing : ['gerät', 'z.', 'b.', 'iphone', 'ipad', 'gleichzeitig', 'pushtan', 'anmelden']
+2018-11-11 01:34:08,918 : INFO : Processing trigrams : ['gerät', 'z._b.', 'iphone_ipad', 'gleichzeitig', 'pushtan', 'anmelden']
+2018-11-11 01:34:08,918 : INFO : Weighted list of length: 6
+2018-11-11 01:34:10,929 : INFO : Processing Wie kann ich die Ansichten zu meinem Wertpapierdepot anpassen?
+
+2018-11-11 01:34:10,930 : INFO : Retrieving answers for Wie kann ich die Ansichten zu meinem Wertpapierdepot anpassen?
+
+2018-11-11 01:34:10,961 : INFO : Tokens after preprocessing : ['ansicht', 'wertpapierdepot', 'anpassen']
+2018-11-11 01:34:10,961 : INFO : Processing trigrams : ['ansicht', 'wertpapierdepot', 'anpassen']
+2018-11-11 01:34:10,962 : INFO : Weighted list of length: 3
+2018-11-11 01:34:13,620 : INFO : Processing Warum werden im Firefox-Browser in manchen PDFs Umlaute falsch dargestellt?
+
+2018-11-11 01:34:13,620 : INFO : Retrieving answers for Warum werden im Firefox-Browser in manchen PDFs Umlaute falsch dargestellt?
+
+2018-11-11 01:34:13,657 : INFO : Tokens after preprocessing : ['firefox-browser', 'pdfs', 'umlauten', 'falsch', 'darstellen']
+2018-11-11 01:34:13,657 : INFO : Processing trigrams : ['firefox-browser', 'pdfs', 'umlauten', 'falsch', 'darstellen']
+2018-11-11 01:34:13,657 : INFO : Weighted list of length: 2
+2018-11-11 01:34:18,583 : INFO : Processing Was ist ein Erbbaurecht?
+
+2018-11-11 01:34:18,583 : INFO : Retrieving answers for Was ist ein Erbbaurecht?
+
+2018-11-11 01:34:18,610 : INFO : Tokens after preprocessing : ['erbbaurecht']
+2018-11-11 01:34:18,610 : INFO : Processing trigrams : ['erbbaurecht']
+2018-11-11 01:34:18,610 : INFO : Weighted list of length: 1
+2018-11-11 01:34:20,733 : INFO : Processing Wie kann ich meine Karten bei Verlust bzw. mein eBanking sperren lassen?
+
+2018-11-11 01:34:20,733 : INFO : Retrieving answers for Wie kann ich meine Karten bei Verlust bzw. mein eBanking sperren lassen?
+
+2018-11-11 01:34:20,766 : INFO : Tokens after preprocessing : ['karte', 'verlust', 'ebanking', 'sperren', 'lassen']
+2018-11-11 01:34:20,766 : INFO : Processing trigrams : ['karte', 'verlust', 'ebanking', 'sperren_lassen']
+2018-11-11 01:34:20,766 : INFO : Weighted list of length: 4
+2018-11-11 10:03:46,864 : INFO : 'pattern' package not found; tag filters are not available for English
+2018-11-11 10:03:48,556 : INFO : loading Phraser object from /media/diego/QData/bankdomain/model//bigrams_phraser
+2018-11-11 10:03:48,560 : INFO : loaded /media/diego/QData/bankdomain/model//bigrams_phraser
+2018-11-11 10:03:48,561 : INFO : loading Phraser object from /media/diego/QData/bankdomain/model//trigrams_phraser
+2018-11-11 10:03:48,563 : INFO : loaded /media/diego/QData/bankdomain/model//trigrams_phraser
+2018-11-11 10:03:48,563 : INFO : loading Doc2Vec object from /media/diego/QData/bankdomain/model//doc2vec
+2018-11-11 10:03:49,484 : INFO : loading vocabulary recursively from /media/diego/QData/bankdomain/model//doc2vec.vocabulary.* with mmap=None
+2018-11-11 10:03:49,485 : INFO : loading trainables recursively from /media/diego/QData/bankdomain/model//doc2vec.trainables.* with mmap=None
+2018-11-11 10:03:49,485 : INFO : loading wv recursively from /media/diego/QData/bankdomain/model//doc2vec.wv.* with mmap=None
+2018-11-11 10:03:49,485 : INFO : loading docvecs recursively from /media/diego/QData/bankdomain/model//doc2vec.docvecs.* with mmap=None
+2018-11-11 10:03:49,485 : INFO : loaded /media/diego/QData/bankdomain/model//doc2vec
+2018-11-11 10:03:49,499 : INFO : loading Dictionary object from /media/diego/QData/bankdomain/model//dictionary
+2018-11-11 10:03:49,505 : INFO : loaded /media/diego/QData/bankdomain/model//dictionary
+2018-11-11 10:03:49,508 : INFO : loaded corpus index from /media/diego/QData/bankdomain/model//corpus.index
+2018-11-11 10:03:49,508 : INFO : initializing cython corpus reader from /media/diego/QData/bankdomain/model//corpus
+2018-11-11 10:03:49,511 : INFO : accepted corpus with 17320 documents, 8942 features, 215007 non-zero entries
+2018-11-11 10:03:49,511 : INFO : collecting document frequencies
+2018-11-11 10:03:49,511 : INFO : PROGRESS: processing document #0
+2018-11-11 10:03:49,558 : INFO : PROGRESS: processing document #10000
+2018-11-11 10:03:49,664 : INFO : calculating IDF weights for 17320 documents and 8941 features (215007 matrix non-zeros)
+2018-11-11 10:03:49,684 : INFO : loading LsiModel object from /media/diego/QData/bankdomain/model//lsi
+2018-11-11 10:03:49,690 : INFO : loading id2word recursively from /media/diego/QData/bankdomain/model//lsi.id2word.* with mmap=None
+2018-11-11 10:03:49,690 : INFO : setting ignored attribute projection to None
+2018-11-11 10:03:49,690 : INFO : setting ignored attribute dispatcher to None
+2018-11-11 10:03:49,690 : INFO : loaded /media/diego/QData/bankdomain/model//lsi
+2018-11-11 10:03:49,690 : INFO : loading LsiModel object from /media/diego/QData/bankdomain/model//lsi.projection
+2018-11-11 10:03:50,176 : INFO : loaded /media/diego/QData/bankdomain/model//lsi.projection
+2018-11-11 10:03:50,176 : INFO : loading MatrixSimilarity object from /media/diego/QData/bankdomain/model//index
+2018-11-11 10:03:50,657 : INFO : loaded /media/diego/QData/bankdomain/model//index
+2018-11-11 10:03:51,921 : INFO : Not preloading words....
+2018-11-11 10:11:17,706 : INFO : Processing Ist mein Geld auf einem Girokonto sicher?
+
+2018-11-11 10:11:17,706 : INFO : Retrieving answers for Ist mein Geld auf einem Girokonto sicher?
+
+2018-11-11 10:11:17,849 : INFO : Tokens after preprocessing : ['geld', 'girokonto', 'sichern']
+2018-11-11 10:11:17,850 : INFO : Processing trigrams : ['geld', 'girokonto', 'sichern']
+2018-11-11 10:11:17,851 : INFO : Weighted list of length: 3
+2018-11-11 10:11:17,851 : INFO : precomputing L2-norms of doc weight vectors
+/home/ubuntu/anaconda3/envs/bankdomain/lib/python3.7/site-packages/gensim/matutils.py:737: FutureWarning: Conversion of the second argument of issubdtype from `int` to `np.signedinteger` is deprecated. In future, it will be treated as `np.int64 == np.dtype(int).type`.
+  if np.issubdtype(vec.dtype, np.int):
+2018-11-11 10:11:18,304 : INFO : precomputing L2-norms of word weight vectors
+2018-11-11 20:11:49,296 : INFO : Processing Was ist 3D Secure beziehungsweise Verified by Visa?
+
+2018-11-11 20:11:49,296 : INFO : Retrieving answers for Was ist 3D Secure beziehungsweise Verified by Visa?
+
+2018-11-11 20:11:49,339 : INFO : Tokens after preprocessing : ['3d', 'secure', 'verified', 'by', 'visa']
+2018-11-11 20:11:49,339 : INFO : Processing trigrams : ['3d_secure', 'verified_by_visa']
+2018-11-11 20:11:49,339 : INFO : Weighted list of length: 2
+2018-11-11 20:11:50,706 : INFO : Processing Bekomme ich den Direkt-Kredit, wenn ich selbstständig bin?
+
+2018-11-11 20:11:50,706 : INFO : Retrieving answers for Bekomme ich den Direkt-Kredit, wenn ich selbstständig bin?
+
+2018-11-11 20:11:50,743 : INFO : Tokens after preprocessing : ['bekomme', 'direkt-kredit', 'selbstständig']
+2018-11-11 20:11:50,743 : INFO : Processing trigrams : ['bekomme', 'direkt-kredit', 'selbstständig']
+2018-11-11 20:11:50,743 : INFO : Weighted list of length: 3
