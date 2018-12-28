@@ -14,7 +14,6 @@ cycler==0.10.0
 cymem==1.31.2
 Cython==0.28.2
 cytoolz==0.8.2
-de-core-news-sm==2.0.0
 decorator==4.3.0
 dill==0.2.7.1
 docutils==0.14
@@ -97,4 +96,3 @@ webencodings==0.5.1
 Werkzeug==0.14.1
 widgetsnbextension==3.2.1
 wrapt==1.10.11
--e git+https://github.com/dmlc/xgboost@9a81c74a7bd8db06c2f2ccb28b88ffeecf4c0309#egg=xgboost&subdirectory=python-package
