@@ -97,4 +97,3 @@ webencodings==0.5.1
 Werkzeug==0.14.1
 widgetsnbextension==3.2.1
 wrapt==1.10.11
--e git+https://github.com/dmlc/xgboost@9a81c74a7bd8db06c2f2ccb28b88ffeecf4c0309#egg=xgboost&subdirectory=python-package
