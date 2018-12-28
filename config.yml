@@ -1,11 +1,11 @@
-  data_dir: /home/diego/projects/bankdomain/qa_documents
-mongo_connection : mongodb://localhost:27017
+data_dir: /home/diego/projects/bankdomain/qa_documents
+mongo_connection: mongodb://localhost:27017
 corpus_dir: /media/diego/QData/bankdomain/corpus
 output_dir: /media/diego/QData/bankdomain/data
-
-corpus_filename : qa_questions.corpus
-corpus_proc_filename : proc_questions.corpus
-corpus_mod_filename : mod_questions.corpus
+corpus_filename: qa_questions.corpus
+corpus_proc_filename: proc_questions.corpus
+corpus_mod_filename: mod_questions.corpus
 models_dir: /media/diego/QData/bankdomain/model/
-key_file           : /media/diego/keys/db_coords.yml
+dump_dir: /media/diego/QData/bankdomain/dump/
+key_file: /media/diego/keys/db_coords.yml
 preload_words : False
