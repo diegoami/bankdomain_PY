@@ -42,6 +42,7 @@ if __name__ == '__main__':
     parser.add_argument('--do_import', default=True)
     parser.add_argument('--do_process', default=True)
     parser.add_argument('--do_print_files', default=False)
+    parser.add_argument('--do_model', default=True)
 
     args = parser.parse_args()
     config = yaml.safe_load(open("../config.yml"))
@@ -57,5 +58,6 @@ if __name__ == '__main__':
     process_documents(data_dir, output_dir, do_import=args.do_import, do_process=args.do_process,
                       do_print_files=args.do_print_files)
 
-    model_facade = ModelFacade(mongo_repository, model_dir)
-    model_facade.create_model()
+    if args.do_model:
+        model_facade = ModelFacade(mongo_repository, model_dir)
+        model_facade.create_model()
