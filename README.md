@@ -21,5 +21,5 @@ docker run -d --network=mybridge -p 27017:27017 --name bankdomain_mongo bankdoma
 
 docker exec -it bankdomain_mongo /bin/sh /app/entry_point.sh
 
-docker run -it --network=mybridge -p 9090:9090 -p 9091:9091 --name bankdomain_model bankdomain/model /bin/cd /app/src/entry_point.sh
+docker run -it --network=mybridge -p 9090:9090 -p 9091:9091 --name bankdomain_model bankdomain/model /bin/sh /app/src/entry_point.sh
 ~~~~
