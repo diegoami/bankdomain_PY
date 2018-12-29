@@ -23,6 +23,6 @@ RUN echo "aws_secret_access_key=$AWS_SECRET_ACCESS_KEY" >> ~/.aws/credentials
 EXPOSE 27017
 RUN mkdir -p /app
 COPY docker/mongo/*.sh /app
-
+COPY scripts/* /app
 WORKDIR /app
 
