@@ -11,7 +11,6 @@ RUN curl "https://s3.amazonaws.com/aws-cli/awscli-bundle.zip" -o "awscli-bundle.
 
 ARG AWS_ACCESS_KEY_ID
 ARG AWS_SECRET_ACCESS_KEY
-ARG DB_ARCHIVE_NAME
 
 RUN mkdir -p ~/.aws
 RUN mkdir -p /media/diego/QData/bankdomain/
@@ -20,12 +19,10 @@ RUN echo "[default]" >> ~/.aws/credentials
 RUN echo "aws_access_key_id=$AWS_ACCESS_KEY_ID" >> ~/.aws/credentials
 RUN echo "aws_secret_access_key=$AWS_SECRET_ACCESS_KEY" >> ~/.aws/credentials
 
-RUN aws s3 cp $DB_ARCHIVE_NAME /media/diego/QData/bankdomain/bankdomain_dump.tgz
-RUN tar xvf /media/diego/QData/bankdomain/bankdomain_dump.tgz -C /
 
 EXPOSE 27017
 RUN mkdir -p /app
-COPY docker/mongo/entry_point.sh /app
+COPY docker/mongo/*.sh /app
 
 WORKDIR /app
 
