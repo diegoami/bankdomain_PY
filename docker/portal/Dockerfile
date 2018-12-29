@@ -30,25 +30,22 @@ RUN mkdir ~/.aws
 
 ARG AWS_ACCESS_KEY_ID
 ARG AWS_SECRET_ACCESS_KEY
-
-ARG MODEL_ARCHIVE_NAME
 ARG SECRET_KEY
 
 RUN echo "[default]" >> ~/.aws/credentials
 RUN echo "aws_access_key_id=$AWS_ACCESS_KEY_ID" >> ~/.aws/credentials
 RUN echo "aws_secret_access_key=$AWS_SECRET_ACCESS_KEY" >> ~/.aws/credentials
 
-RUN aws s3 cp $MODEL_ARCHIVE_NAME /media/diego/QData/bankdomain/bankdomain_model.tgz
-RUN tar xvf /media/diego/QData/bankdomain/bankdomain_model.tgz -C /
-
 RUN echo "secret_key : $SECRET_KEY" >> /media/diego/keys/db_coords.yml
-
-
 COPY . /app
 
-
 RUN cd /app && sed -i.bak s/localhost/bankdomain_mongo/g config.yml
-RUN cp /app/docker/portal/entry_point.sh /app/src/
+RUN mkdir -p  /media/diego/QData/bankdomain/docs
+
+RUN mkdir -p /app/docs && cd /app/docs/ && git clone https://github.com/diegoami/bankdomain.git
+RUN ln -s $(pwd)/bankdomain/qa_documents /media/diego/QData/bankdomain/docs/qa_documents
+
+RUN cp /app/docker/portal/*.sh /app/src
 
 EXPOSE 9091
 EXPOSE 9090
