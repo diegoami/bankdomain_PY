@@ -1,9 +1,12 @@
 
 from pymongo import MongoClient
 import os
+import sys
 import bson
 import logging
 import pandas
+import traceback
+
 from random import randint
 logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO)
 
@@ -25,16 +28,22 @@ class MongoRepository:
         logging.info("Importing all documents")
         qa_documents_coll = self.bankdomain_db.qa_documents
         qa_documents_coll.remove()
-
+        errors = 0
         for root, subdirs, files in os.walk(data_dir):
             for file in files:
-                full_file = root + "/" + file
+                full_file = os.path.join(root,file)
                 try:
-                    with open(full_file, 'r') as f:
+                    with open(full_file, 'r', encoding="utf-8") as f:
                         content = f.readlines()
-                        qa_documents_coll.save({'full_file': full_file, 'content': content})
+                        qa_documents_coll.save({'full_file': full_file.encode('utf-8', 'surrogateescape').decode('ISO-8859-1'), 'content': content})
                 except:
+                    errors += 1
+                    traceback.print_exc()
                     logging.error("Could not read file {}".format(full_file))
+
+                if errors > 10:
+                    logging.fatal("Too many files unaccessible")
+                    sys.exit(1)
         logging.info("Finished Importing all documents")
 
     def split_qa_documents_into_questions(self):
