@@ -18,7 +18,7 @@ from gensim_models import ModelFacade
 logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.DEBUG)
 
 
-def process_documents(data_dir, output_dir, do_import, do_process):
+def process_documents(data_dir, output_dir, do_import, do_process, do_print_files):
     logging.info("Processing documents: {}, {}, {}, {}".format(data_dir, output_dir, do_import, do_process))
     nlp = NlpWrapper()
     if do_import:
@@ -32,7 +32,8 @@ def process_documents(data_dir, output_dir, do_import, do_process):
         mongo_repository.process_questions(source_collection=mongo_repository.preprocessed_questions,
                                            target_collection=mongo_repository.processed_questions,
                                            processor=feature_processor)
-    mongo_repository.print_all_files(output_dir)
+    if do_print_files:
+        mongo_repository.print_all_files(output_dir)
 
 
 if __name__ == '__main__':
@@ -40,6 +41,7 @@ if __name__ == '__main__':
 
     parser.add_argument('--do_import', default=True)
     parser.add_argument('--do_process', default=True)
+    parser.add_argument('--do_print_files', default=False)
 
     args = parser.parse_args()
     config = yaml.safe_load(open("../config.yml"))
@@ -52,7 +54,8 @@ if __name__ == '__main__':
     mongo_connection = config['mongo_connection']
     mongo_repository = MongoRepository(mongo_connection)
 
-    process_documents(data_dir, output_dir, do_import=args.do_import, do_process=args.do_process)
+    process_documents(data_dir, output_dir, do_import=args.do_import, do_process=args.do_process,
+                      do_print_files=args.do_print_files)
 
     model_facade = ModelFacade(mongo_repository, model_dir)
     model_facade.create_model()
