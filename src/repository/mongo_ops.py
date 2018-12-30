@@ -130,7 +130,6 @@ class MongoRepository:
         self.questions_no_answer = [question.split() for question in self.iterate_questions(collection=self.processed_questions, lowercase=True, only_question=True)]
         self.questions_with_answer = [question.split() for question in self.iterate_questions(collection=self.processed_questions, lowercase=True, only_question=False)]
 
-
     def get_preprocessed_question(self, index):
         if (index < self.num_questions):
             index += self.num_questions
