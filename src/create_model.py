@@ -19,7 +19,7 @@ logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=lo
 
 
 def process_documents(data_dir, output_dir, do_import, do_process, do_print_files):
-    logging.info("Processing documents: {}, {}, {}, {}".format(data_dir, output_dir, do_import, do_process))
+    logging.info("Processing documents: {}, {}, {}, {}, {}".format(data_dir, output_dir, do_import, do_process, do_print_files))
     nlp = NlpWrapper()
     if do_import:
         mongo_repository.import_questions(data_dir)
@@ -34,15 +34,18 @@ def process_documents(data_dir, output_dir, do_import, do_process, do_print_file
                                            processor=feature_processor)
     if do_print_files:
         mongo_repository.print_all_files(output_dir)
+    logging.info("Finished processing documents")
 
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
 
-    parser.add_argument('--do_import', default=True)
-    parser.add_argument('--do_process', default=True)
-    parser.add_argument('--do_print_files', default=False)
-    parser.add_argument('--do_model', default=True)
+    parser.add_argument('--import_qa', dest="import_qa", action = 'store_true')
+    parser.add_argument('--process', dest="do_process", action = 'store_true')
+    parser.add_argument('--print_files', dest="do_print_files", action = 'store_true')
+    parser.add_argument('--model',  dest="model", action = 'store_true')
+
+    parser.set_defaults(import_qa=False, process=False, print_files=False, model=False)
 
     args = parser.parse_args()
     config = yaml.safe_load(open("../config.yml"))
@@ -55,9 +58,11 @@ if __name__ == '__main__':
     mongo_connection = config['mongo_connection']
     mongo_repository = MongoRepository(mongo_connection)
 
-    process_documents(data_dir, output_dir, do_import=args.do_import, do_process=args.do_process,
-                      do_print_files=args.do_print_files)
+    process_documents(data_dir, output_dir, do_import=args.import_qa, do_process=args.process,
+                      do_print_files=args.print_files)
 
-    if args.do_model:
+    if args.model:
+        logging.info("Started creation of model...")
         model_facade = ModelFacade(mongo_repository, model_dir)
         model_facade.create_model()
+        logging.info("Finished started creation of model...")

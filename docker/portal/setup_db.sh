@@ -1,1 +1,1 @@
-cd /app/src/ && python create_model.py
+cd /app/src/ && python create_model.py --import_qa --process --print_files --model
