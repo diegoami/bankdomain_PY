@@ -1336,6 +1336,11 @@ CUSTOM_LOOKUP = {
     "Laufzeiten" : "Laufzeit",
     "Leasingraten" : "Leasingrate",
     "Lebensjahres" : "Lebensjahr",
+    "Lebenspartners" : "Lebenspartner",
+    "Lebenspartnern": "Lebenspartner",
+    "Lebenspartnerin": "Lebenspartner",
+    "LebenspartnerIn": "Lebenspartner",
+
     "Lebenspartnerschaften" : "Lebenspartnerschaft",
     "Leuchtfeldes" : "Leuchtfeld",
     "Leuchtfelder": "Leuchtfeld",
