@@ -41,8 +41,8 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
 
     parser.add_argument('--import_qa', dest="import_qa", action = 'store_true')
-    parser.add_argument('--process', dest="do_process", action = 'store_true')
-    parser.add_argument('--print_files', dest="do_print_files", action = 'store_true')
+    parser.add_argument('--process', dest="process", action = 'store_true')
+    parser.add_argument('--print_files', dest="print_files", action = 'store_true')
     parser.add_argument('--model',  dest="model", action = 'store_true')
 
     parser.set_defaults(import_qa=False, process=False, print_files=False, model=False)
