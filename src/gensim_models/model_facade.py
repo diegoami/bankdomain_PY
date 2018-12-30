@@ -11,7 +11,7 @@ class ModelFacade:
     def __init__(self, mongo_repository, models_dir):
         self.mongo_repository = mongo_repository
         self.models_dir = models_dir
-        self.gramFacade = GramFacade(self.models_dir,  min_count_bigrams=10, min_count_trigrams=11)
+        self.gramFacade = GramFacade(self.models_dir, bigrams_threshold=0.90, trigrams_threshold=0.90 )
         self.doc2vecFacade = Doc2VecFacade(self.models_dir, window=9, min_count=3, sample=0, epochs=35, alpha=0.01,vector_size=300, batch_size=10000)
         self.kmeansFacade = KMeansFacade()
         self.tfidfFacade = TfidfFacade(self.models_dir, no_below=3, no_above=0.9, num_topics=400 )
@@ -40,18 +40,31 @@ class ModelFacade:
         self.load_models_for_create()
         self.tf2wv.load_weighted_vector()
 
-    def similar_doc(self, tokens):
+    def find_documents_with_tokens(self, tokens_not_found):
+        all_questions = self.mongo_repository.all_processed_splitted_questions
+        questions, questions_answers = all_questions[:len(all_questions)/2]
+        found_with_tokens = {}
+        for token in tokens_not_found:
+            found_with_token = [i for i, x in enumerate(all_questions) if token in x ]
+            found_with_tokens += found_with_token
+        return found_with_tokens
+
+
+    def similar_doc(self, trigrams, tokens_not_found):
         min_level =  self.mongo_repository.num_questions
-        trigrams = self.gramFacade.phrase(tokens)
         scores_wv = self.similar_doc_wv(trigrams)
+
         if len(scores_wv) > 0 :
             scores_tfidf = self.similar_doc_tfidf(trigrams)
+            idx_with_tokens_nf = self.find_documents_with_tokens(tokens_not_found)
             scores_map = {}
             for idx, score_wv in scores_wv:
                 ridx = int(idx if idx >= min_level else idx+min_level)
                 dict_score = scores_map.get(ridx, {})
                 if not "wv" in dict_score:
                     scores_map[ridx] = {"wv" : score_wv  }
+            for id in idx_with_tokens_nf:
+
             for idx, score_tfidf in scores_tfidf:
                 ridx = int(idx if idx >= min_level else idx + min_level)
                 dict_score = scores_map.get(ridx,{})
@@ -59,10 +72,11 @@ class ModelFacade:
                     dict_score["tfidf"] = score_tfidf
                     dict_score["total"] = dict_score["tfidf"] + dict_score["wv"]
                     scores_map[ridx] = dict_score
+
             scores = sorted([(idx, dict_score["total"], dict_score["tfidf"], dict_score["wv"]) for idx, dict_score in scores_map.items()], key=lambda x: x[1], reverse=True)
-            return trigrams, scores
+            return scores
         else:
-            return trigrams, []
+            return  []
 
     def similar_doc_wv(self, trigrams, topn=None):
         logging.info("Processing trigrams : {}".format(trigrams))

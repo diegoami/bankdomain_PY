@@ -4,7 +4,6 @@ import os
 import sys
 import bson
 import logging
-import pandas
 import traceback
 
 from random import randint
@@ -116,7 +115,7 @@ class MongoRepository:
         all_texts = []
         for idx, el in enumerate(source_records) :
             if (idx % 100) == 0:
-                logging.debug("Processed {} rows".format(idx))
+                logging.info("process_questions: Processed {} rows".format(idx))
             to_write = {"question": processor(el["question"]) , "answer":processor(el["answer"]), "index": el["index"] }
             target_collection.insert_one(to_write)
             all_texts.append(to_write["question"]+"\n"+to_write["answer"])
@@ -128,10 +127,9 @@ class MongoRepository:
         preprocessed_questions_with_aswer = [question for question in self.iterate_questions(collection=self.preprocessed_questions, only_question=False)]
         self.num_questions = len(preprocessed_questions_no_answer)
         self.all_preprocessed_questions = preprocessed_questions_no_answer + preprocessed_questions_with_aswer
-        processed_splitted_questions_no_answer = [question.split() for question in self.iterate_questions(collection=self.processed_questions, lowercase=True, only_question=True)]
-        processed_splitted_questions_with_answer = [question.split() for question in self.iterate_questions(collection=self.processed_questions, lowercase=True, only_question=False)]
-        self.all_processed_splitted_questions = processed_splitted_questions_no_answer+ processed_splitted_questions_with_answer
-        self.panda = pandas.DataFrame(self.all_preprocessed_questions)
+        self.questions_no_answer = [question.split() for question in self.iterate_questions(collection=self.processed_questions, lowercase=True, only_question=True)]
+        self.questions_with_answer = [question.split() for question in self.iterate_questions(collection=self.processed_questions, lowercase=True, only_question=False)]
+
 
     def get_preprocessed_question(self, index):
         if (index < self.num_questions):

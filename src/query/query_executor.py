@@ -37,12 +37,11 @@ class QueryExecutor:
         text = self.feature_processor(text)
         tokens = text.lower().split()
         logging.info("Tokens after preprocessing : {}".format(tokens))
-
-
-        trigrams, scores = self.model_facade.similar_doc(tokens)
+        trigrams = self.model_facade.gramFacade.phrase(tokens)
+        token_map = self.model_facade.doc2vecFacade.retrieve_similar_words(trigrams, threshold=threshold, topn=topn)
+        tokens_not_found = [word for word in trigrams if word not in token_map]
+        scores = self.model_facade.similar_doc(trigrams, tokens_not_found )
         if (len(scores) > 0):
-            token_map = self.model_facade.doc2vecFacade.retrieve_similar_words(trigrams, threshold = threshold, topn=topn)
-            tokens_not_found = [word for word in trigrams if word not in token_map]
             return {"scores" : scores, "token_map" : token_map, "tokens_not_found" : tokens_not_found }
         else:
             return {"scores" : [], "token_map" : {}, "tokens_not_found" :  trigrams }
