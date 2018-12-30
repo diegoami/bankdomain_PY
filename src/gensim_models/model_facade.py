@@ -43,12 +43,13 @@ class ModelFacade:
     def find_documents_with_tokens(self, tokens_not_found):
         questions, answers = self.mongo_repository.questions_no_answer, self.mongo_repository.questions_with_answer
 
-        found_with_tokens = {}
+        found_with_tokens = []
         for token in tokens_not_found:
             found_in_questions = [i for i, x in enumerate(questions) if token in x ]
             found_in_answers = [i for i, x in enumerate(answers) if token in x]
             found_with_tokens += found_in_questions
             found_with_tokens += found_in_answers
+
         return found_with_tokens
 
 
@@ -56,30 +57,31 @@ class ModelFacade:
         min_level =  self.mongo_repository.num_questions
         scores_wv = self.similar_doc_wv(trigrams)
 
-        if len(scores_wv) > 0 :
-            scores_tfidf = self.similar_doc_tfidf(trigrams)
-            idx_with_tokens_nf = self.find_documents_with_tokens(tokens_not_found)
-            scores_map = {}
-            for idx, score_wv in scores_wv:
-                ridx = int(idx if idx >= min_level else idx+min_level)
-                dict_score = scores_map.get(ridx, {})
-                if not "wv" in dict_score:
-                    scores_map[ridx] = {"wv" : score_wv  }
-            for idx in idx_with_tokens_nf:
-                dict_score = scores_map.get(idx, {})
-                dict_score["token_nf"] = dict_score.get("token_nf", 0) + 1
-            for idx, score_tfidf in scores_tfidf:
-                ridx = int(idx if idx >= min_level else idx + min_level)
-                dict_score = scores_map.get(ridx,{})
-                if not "tfidf" in dict_score:
-                    dict_score["tfidf"] = score_tfidf
-                    dict_score["total"] = dict_score["tfidf"] + dict_score["wv"] + dict_score["token_nf"]
-                    scores_map[ridx] = dict_score
 
-            scores = sorted([(idx, dict_score["total"], dict_score["tfidf"], dict_score["wv"]) for idx, dict_score in scores_map.items()], key=lambda x: x[1], reverse=True)
-            return scores
-        else:
-            return  []
+        scores_tfidf = self.similar_doc_tfidf(trigrams)
+        idx_with_tokens_nf = self.find_documents_with_tokens(tokens_not_found)
+        scores_map = {}
+        for idx, score_wv in scores_wv:
+            ridx = int(idx if idx >= min_level else idx+min_level)
+            dict_score = scores_map.get(ridx, {})
+            if not "wv" in dict_score:
+                scores_map[ridx] = {"wv" : score_wv, "total" : score_wv  }
+        for idx in idx_with_tokens_nf:
+            dict_score = scores_map.get(idx, {})
+            dict_score["token_nf"] = dict_score.get("token_nf", 0) + 1
+            dict_score["total"] = dict_score.get("total", 0) + 1
+            logging.info("Word not found: {}".format(dict_score))
+            scores_map[idx] = dict_score
+        for idx, score_tfidf in scores_tfidf:
+            ridx = int(idx if idx >= min_level else idx + min_level)
+            dict_score = scores_map.get(ridx,{})
+            if not "tfidf" in dict_score:
+                dict_score["tfidf"] = score_tfidf
+                dict_score["total"] = dict_score.get("total", 0) + score_tfidf
+                scores_map[ridx] = dict_score
+
+        scores = sorted([(idx, dict_score.get("total",0), dict_score.get("tfidf",0), dict_score.get("wv",0)) for idx, dict_score in scores_map.items()], key=lambda x: x[1], reverse=True)
+        return scores
 
     def similar_doc_wv(self, trigrams, topn=None):
         logging.info("Processing trigrams : {}".format(trigrams))
