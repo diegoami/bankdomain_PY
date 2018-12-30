@@ -41,12 +41,14 @@ class ModelFacade:
         self.tf2wv.load_weighted_vector()
 
     def find_documents_with_tokens(self, tokens_not_found):
-        all_questions = self.mongo_repository.all_processed_splitted_questions
-        questions, questions_answers = all_questions[:len(all_questions)/2]
+        questions, answers = self.mongo_repository.questions_no_answer, self.mongo_repository.questions_with_answer
+
         found_with_tokens = {}
         for token in tokens_not_found:
-            found_with_token = [i for i, x in enumerate(all_questions) if token in x ]
-            found_with_tokens += found_with_token
+            found_in_questions = [i for i, x in enumerate(questions) if token in x ]
+            found_in_answers = [i for i, x in enumerate(answers) if token in x]
+            found_with_tokens += found_in_questions
+            found_with_tokens += found_in_answers
         return found_with_tokens
 
 
@@ -63,14 +65,15 @@ class ModelFacade:
                 dict_score = scores_map.get(ridx, {})
                 if not "wv" in dict_score:
                     scores_map[ridx] = {"wv" : score_wv  }
-            for id in idx_with_tokens_nf:
-
+            for idx in idx_with_tokens_nf:
+                dict_score = scores_map.get(idx, {})
+                dict_score["token_nf"] = dict_score.get("token_nf", 0) + 1
             for idx, score_tfidf in scores_tfidf:
                 ridx = int(idx if idx >= min_level else idx + min_level)
                 dict_score = scores_map.get(ridx,{})
                 if not "tfidf" in dict_score:
                     dict_score["tfidf"] = score_tfidf
-                    dict_score["total"] = dict_score["tfidf"] + dict_score["wv"]
+                    dict_score["total"] = dict_score["tfidf"] + dict_score["wv"] + dict_score["token_nf"]
                     scores_map[ridx] = dict_score
 
             scores = sorted([(idx, dict_score["total"], dict_score["tfidf"], dict_score["wv"]) for idx, dict_score in scores_map.items()], key=lambda x: x[1], reverse=True)
