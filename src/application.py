@@ -18,22 +18,30 @@ class Application:
 
         self.language_facade = LanguageFacade()
         self.wps = None
+        self.wps_count = None
+        self.grams = None
+        self.loading_words_thread = None
+        self.config = config
+        logging.info("Application config: {}".format(config))
 
         if config['preload_words'] and config['preload_words'] == True:
-            thread = threading.Thread(target=self.preload_words)
-            thread.start()
+            self.start_load_words()
         else:
             logging.info("Not preloading words....")
 
-    def preload_words(self):
+    def start_load_words(self, min_count = 8):
+        if not self.loading_words_thread or not self.loading_words_thread.is_alive():
+            self.loading_words_thread = threading.Thread(name='load_words', target=self.load_words, kwargs={'min_count':min_count})
+            self.loading_words_thread.start()
 
+    def load_words(self, min_count=8):
+        logging.info("Retrieving words ...")
         words = self.model_facade.doc2vecFacade.retrieve_words()
         wps = []
-        logging.info("Retrieving {} words".format(len(words)))
-        proc_words = [word for word, count in words if (count >= 8)]
+        logging.info("Retrieved {} words".format(len(words)))
 
         for word, count in words:
-            if (count >= 8):
+            if (count >= min_count):
                 sim_w = self.model_facade.doc2vecFacade.pull_scores_word(word, threshold=0.78, topn=20)
                 forms = self.language_facade.retrieve_forms_for_lemma(word)
                 wps.append({"word": word, "count": count,
@@ -41,5 +49,16 @@ class Application:
                             "simw": ", ".join([v[0] + " (" + str(round(v[1], 2)) + ")" for v in sim_w])
 
                             })
+                if (len(wps) % 100 == 0):
+                    logging.info("Added {} words".format(len(wps)))
         logging.info("Finished retrieving words")
         self.wps = wps
+        self.wps_count = min_count
+
+    def load_grams(self):
+        if not self.grams:
+            logging.info("Retrieving grams...")
+            grams = self.model_facade.gramFacade.retrieve_grams()
+            logging.info("Finished retrieving")
+            self.grams = grams
+        return self.grams

@@ -31,12 +31,14 @@ RUN mkdir ~/.aws
 ARG AWS_ACCESS_KEY_ID
 ARG AWS_SECRET_ACCESS_KEY
 ARG SECRET_KEY
+ARG SIGNIN_KEY
 
 RUN echo "[default]" >> ~/.aws/credentials
 RUN echo "aws_access_key_id=$AWS_ACCESS_KEY_ID" >> ~/.aws/credentials
 RUN echo "aws_secret_access_key=$AWS_SECRET_ACCESS_KEY" >> ~/.aws/credentials
 
 RUN echo "secret_key : $SECRET_KEY" >> /media/diego/keys/db_coords.yml
+RUN echo "signin_key : $SIGNIN_KEY" >> /media/diego/keys/db_coords.yml
 
 RUN mkdir -p /media/diego/QData/bankdomain/docs/ && cd /media/diego/QData/bankdomain/docs/  && git clone https://github.com/diegoami/bankdomain.git
 RUN mv /media/diego/QData/bankdomain/docs/bankdomain/qa_documents /media/diego/QData/bankdomain/docs/qa_documents

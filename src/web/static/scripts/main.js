@@ -6,7 +6,7 @@ select_header = function(element) {
 
 random_question = function(form) {
     var mainForm = document.getElementById(form);
-    mainForm.action = '/bankdomain/random_questions_submit';
+    mainForm.action = '/random_questions_submit';
     mainForm.submit();
 }
 

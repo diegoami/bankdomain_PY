@@ -51,3 +51,14 @@ class GramFacade:
     def words_not_in_vocab(self, tok_doc, threshold):
         word_not_in_doc =set([ x for x in tok_doc if self.trigrams_phrases.vocab[str.encode(x)] < threshold ])
         return word_not_in_doc
+
+
+    def retrieve_grams(self):
+        pgrams = self.trigrams_phraser.phrasegrams
+        gram_list = []
+        for word, values in pgrams.items():
+            gram = b'_'.join(word)
+            count, score = values[0], values[1]
+            gram_list.append({"gram": gram.decode("utf-8"), "count": count, "score": score})
+        gram_sorted = sorted(gram_list, key=lambda x: x["score"], reverse=True )
+        return gram_sorted

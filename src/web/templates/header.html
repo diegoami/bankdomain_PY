@@ -3,6 +3,16 @@
   <!--suppress HtmlUnknownTarget -->
     <a id="topnav_search_questions" href="/search_questions">Questions</a>
 
+    {% if session['signed_in']: %}
+  <!--suppress HtmlUnknownTarget -->
+    <a id="topnav_show_words" href="/show_words">Words</a>
+  <!--suppress HtmlUnknownTarget -->
+    <a id="topnav_show_grams" href="/show_grams">Grams</a>
+  <!--suppress HtmlUnknownTarget -->
+    <a id="topnav_show_clusters" href="/show_clusters">Clusters</a>
+
+
+    {% endif %}
 
 
  </div>
