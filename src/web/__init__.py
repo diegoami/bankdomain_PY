@@ -13,3 +13,5 @@ def home():
 import web.search_questions
 import web.show_clusters
 import web.show_words
+import web.show_grams
+import web.sign_in

@@ -20,7 +20,6 @@ logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=lo
 
 def process_documents(data_dir, output_dir, do_import, do_process, do_print_files):
     logging.info("Processing documents: {}, {}, {}, {}, {}".format(data_dir, output_dir, do_import, do_process, do_print_files))
-    nlp = NlpWrapper()
     if do_import:
         mongo_repository.import_questions(data_dir)
     if do_process:
@@ -28,6 +27,7 @@ def process_documents(data_dir, output_dir, do_import, do_process, do_print_file
         mongo_repository.process_questions(source_collection=mongo_repository.questions,
                                            target_collection=mongo_repository.preprocessed_questions,
                                            processor=preprocessor)
+        nlp = NlpWrapper()
         feature_processor = FeatureProcessor(nlp)
         mongo_repository.process_questions(source_collection=mongo_repository.preprocessed_questions,
                                            target_collection=mongo_repository.processed_questions,
