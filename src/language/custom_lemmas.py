@@ -507,6 +507,7 @@ CUSTOM_LOOKUP = {
     "dreistelligem": "dreistellig",
     "dreistellige": "dreistellig",
     "Drittanbietern" : "Drittanbieter",
+    "drucke" : "drucken",
     "eBankings" : "eBanking",
 
     "ec-Terminals" : "ec-Terminal",
