@@ -19,14 +19,16 @@ class MongoRepository:
         self.preprocessed_questions = self.bankdomain_db.proc_questions
         self.processed_questions = self.bankdomain_db.mod_questions
 
-    def import_questions(self, data_dirs):
-        self.copy_into_qa_documents(data_dirs)
-        self.split_qa_documents_into_questions()
+    def import_questions(self, data_dirs, append=False):
+        new_documents = self.copy_into_qa_documents(data_dirs, append=append)
+        self.split_qa_documents_into_questions(new_documents)
 
-    def copy_into_qa_documents(self, data_dirs):
+    def copy_into_qa_documents(self, data_dirs, append=False):
         logging.info("Importing all documents")
         qa_documents_coll = self.bankdomain_db.qa_documents
-        qa_documents_coll.remove()
+        if not append:
+            qa_documents_coll.remove()
+        new_documents = []
         errors = 0
         for data_dir in data_dirs:
             logging.info("Importing documents from {}".format(data_dir))
@@ -34,10 +36,17 @@ class MongoRepository:
             for root, subdirs, files in os.walk(data_dir):
                 for file in files:
                     full_file = os.path.join(root,file)
+                    full_file_db = full_file.encode('utf-8', 'surrogateescape').decode('ISO-8859-1')
                     try:
-                        with open(full_file, 'r', encoding="utf-8") as f:
-                            content = f.readlines()
-                            qa_documents_coll.save({'full_file': full_file.encode('utf-8', 'surrogateescape').decode('ISO-8859-1'), 'content': content})
+                        if not append or not qa_documents_coll.find({'full_file': full_file}):
+                            with open(full_file, 'r', encoding="utf-8") as f:
+                                content = f.readlines()
+
+                                qa_documents_coll.save(
+                                    {'full_file': full_file_db, 'content': content}
+                                )
+                                new_documents.append(full_file)
+
                     except:
                         errors += 1
                         traceback.print_exc()
@@ -49,8 +58,9 @@ class MongoRepository:
             logging.info("Imported files from {}".format(data_dir))
 
         logging.info("Finished Importing all documents")
+        return new_documents
 
-    def split_qa_documents_into_questions(self):
+    def split_qa_documents_into_questions(self, new_documents):
         logging.info("Splitting documents into questions....")
         qa_documents_coll = self.bankdomain_db.qa_documents
         qa_questions_coll = self.bankdomain_db.qa_questions
@@ -58,33 +68,39 @@ class MongoRepository:
         qa_documents_in_db = qa_documents_coll.find()
         answer, question = "", ""
         index = 0
-        for  el in qa_documents_in_db:
-            content = el["content"]
-            el["processed"] = True
-            state = 0
+        for i, el in enumerate(qa_documents_in_db):
+            full_file = el["full_file"]
+            if full_file in new_documents:
+                logging.info("Processing document {}...".format(full_file))
+                content = el["content"]
+                el["processed"] = True
+                state = 0
 
-            for line_l in content:
-                line = line_l.strip()
-                if '###' in line:
-                    state = 0
-                    if len(question) > 0 and len(answer) > 0:
-                        qa_questions_coll.insert_one({"question": question, "answer" : answer, "full_file": el["full_file"], "index" :  bson.Int64(index)})
-                        index += 1
-                        answer, question = "", ""
-                elif len(line) == 0:
-                    continue
-                elif state == 0:
-                    question = line
-                    state = 1
-                else:
-                    if len(answer) > 0:
-                        answer = answer + "\n"
-                    answer = answer + line
-            if len(question) > 0 and len(answer) > 0:
-                qa_questions_coll.insert_one({"question": question, "answer": answer, "full_file": el["full_file"],  "index" :bson.Int64(index)})
-                index += 1
-                answer, question = "", ""
-            qa_documents_coll.save(el)
+                for line_l in content:
+                    line = line_l.strip()
+                    if '###' in line:
+                        state = 0
+                        if len(question) > 0 and len(answer) > 0:
+                            qa_questions_coll.insert_one({"question": question, "answer" : answer, "full_file": el["full_file"], "index" :  bson.Int64(index)})
+                            index += 1
+                            answer, question = "", ""
+                    elif len(line) == 0:
+                        continue
+                    elif state == 0:
+                        question = line
+                        state = 1
+                    else:
+                        if len(answer) > 0:
+                            answer = answer + "\n"
+                        answer = answer + line
+                if len(question) > 0 and len(answer) > 0:
+                    qa_questions_coll.insert_one({"question": question, "answer": answer, "full_file": el["full_file"],  "index" :bson.Int64(index)})
+                    index += 1
+                    answer, question = "", ""
+                qa_documents_coll.save(el)
+            else:
+                logging.info("Skipping document {}...".format(full_file))
+
         logging.info("Finished splitting documents into questions....")
 
     def iterate_questions (self, collection, separator=False, print_number=False, lowercase = False, only_question=False):
@@ -133,11 +149,15 @@ class MongoRepository:
 
     def load_all_documents(self):
         preprocessed_questions_no_answer = [question for question in self.iterate_questions(collection=self.preprocessed_questions, only_question=True)]
-        preprocessed_questions_with_aswer = [question for question in self.iterate_questions(collection=self.preprocessed_questions, only_question=False)]
+        preprocessed_questions_with_answer = [question for question in self.iterate_questions(collection=self.preprocessed_questions, only_question=False)]
         self.num_questions = len(preprocessed_questions_no_answer)
-        self.all_preprocessed_questions = preprocessed_questions_no_answer + preprocessed_questions_with_aswer
+        self.all_preprocessed_questions = preprocessed_questions_no_answer + preprocessed_questions_with_answer
         self.questions_no_answer = [question.split() for question in self.iterate_questions(collection=self.processed_questions, lowercase=True, only_question=True)]
         self.questions_with_answer = [question.split() for question in self.iterate_questions(collection=self.processed_questions, lowercase=True, only_question=False)]
+        self.all_questions = self.questions_no_answer + self.questions_with_answer
+
+    def get_all_questions(self):
+        return self.all_questions
 
     def get_preprocessed_question(self, index):
         if (index < self.num_questions):
