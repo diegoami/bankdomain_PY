@@ -84,3 +84,7 @@ class TfidfFacade():
         args_scores = np.argsort(-scores)
 
         return list(zip(args_scores, scores[args_scores]))
+
+    def retrieve_words_not_found(self, trigrams):
+
+        return [trigram for trigram in trigrams if trigram not in self.dictionary.token2id ]

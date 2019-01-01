@@ -35,25 +35,10 @@ class Application:
             self.loading_words_thread.start()
 
     def load_words(self, min_count=8):
-        logging.info("Retrieving words ...")
-        words = self.model_facade.doc2vecFacade.retrieve_words()
-        wps = []
-        logging.info("Retrieved {} words".format(len(words)))
-
-        for word, count in words:
-            if (count >= min_count):
-                sim_w = self.model_facade.doc2vecFacade.pull_scores_word(word, threshold=0.78, topn=20)
-                forms = self.language_facade.retrieve_forms_for_lemma(word)
-                wps.append({"word": word, "count": count,
-                            "forms": ", ".join([f for f in forms]),
-                            "simw": ", ".join([v[0] + " (" + str(round(v[1], 2)) + ")" for v in sim_w])
-
-                            })
-                if (len(wps) % 100 == 0):
-                    logging.info("Added {} words".format(len(wps)))
-        logging.info("Finished retrieving words")
+        wps = self.model_facade.words_report(min_count)
         self.wps = wps
         self.wps_count = min_count
+
 
     def load_grams(self):
         if not self.grams:

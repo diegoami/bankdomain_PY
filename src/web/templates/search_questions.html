@@ -80,6 +80,8 @@
     <CAPTION>Answers Found</CAPTION>
 
     <tr>
+        <TH>IDX</TH>
+        <TH>RIDX</TH>
         <th class="icon"><span class="hide-1000">Similar</span></th>
         <th>Question</th>
         <th><span>Answer</span></th>
@@ -91,6 +93,8 @@
         {% for _ in docs : %}
 
             <tr>
+                <td>{{_.idx}}</td>
+                <td>{{_.ridx}}</td>
                 <td class="icon">
                     <A HREF="javascript:find_similar('{{_.question}}')" >
                         <IMG SRC="{{ url_for('static', filename='images/find_similar.png') }}" ALT="Find similar" TITLE="Find similar">

@@ -12,7 +12,7 @@ class ModelFacade:
         self.mongo_repository = mongo_repository
         self.models_dir = models_dir
         self.gramFacade = GramFacade(self.models_dir, bigrams_threshold=0.90, trigrams_threshold=0.90 )
-        self.doc2vecFacade = Doc2VecFacade(self.models_dir, window=9, min_count=3, sample=0, epochs=35, alpha=0.01,vector_size=300, batch_size=10000)
+        self.doc2vecFacade = Doc2VecFacade(self.models_dir, window=9, min_count=4, sample=0, epochs=35, alpha=0.01,vector_size=300, batch_size=10000)
         self.kmeansFacade = KMeansFacade()
         self.tfidfFacade = TfidfFacade(self.models_dir, no_below=3, no_above=0.9, num_topics=400 )
         self.tf2wv = Tf2WvMapper(models_dir, self.gramFacade, self.tfidfFacade, self.doc2vecFacade )
@@ -42,14 +42,14 @@ class ModelFacade:
 
     def find_documents_with_tokens(self, tokens_not_found):
         questions, answers = self.mongo_repository.questions_no_answer, self.mongo_repository.questions_with_answer
-
+        found_in_questions, found_in_answers = 0, 0
         found_with_tokens = []
         for token in tokens_not_found:
-            found_in_questions = [i for i, x in enumerate(questions) if token in x ]
-            found_in_answers = [i for i, x in enumerate(answers) if token in x]
+            found_in_questions = [i  for i, x in enumerate(questions) if token in x ]
+            found_in_answers = [i - len(found_in_questions) + 1 for i, x in enumerate(answers) if token in x]
             found_with_tokens += found_in_questions
             found_with_tokens += found_in_answers
-
+        logging.info("Ids for tokens : Questions {}, Answers {} ".format(found_in_questions, found_in_answers))
         return found_with_tokens
 
 
@@ -63,24 +63,26 @@ class ModelFacade:
         scores_map = {}
         for idx, score_wv in scores_wv:
             ridx = int(idx if idx >= min_level else idx+min_level)
-            dict_score = scores_map.get(ridx, {})
+            dict_score = scores_map.get(ridx, {"idx": idx})
             if not "wv" in dict_score:
-                scores_map[ridx] = {"wv" : score_wv, "total" : score_wv  }
+                dict_score.update({"wv" : score_wv, "total" : score_wv  })
+                scores_map[ridx] = dict_score
         for idx in idx_with_tokens_nf:
-            dict_score = scores_map.get(idx, {})
+            ridx = int(idx if idx >= min_level else idx + min_level)
+            dict_score = scores_map.get(ridx, {"idx": idx})
             dict_score["token_nf"] = dict_score.get("token_nf", 0) + 1
             dict_score["total"] = dict_score.get("total", 0) + 1
             logging.info("Word not found: {}".format(dict_score))
-            scores_map[idx] = dict_score
+            scores_map[ridx] = dict_score
         for idx, score_tfidf in scores_tfidf:
             ridx = int(idx if idx >= min_level else idx + min_level)
-            dict_score = scores_map.get(ridx,{})
+            dict_score = scores_map.get(ridx,{"idx": idx})
             if not "tfidf" in dict_score:
                 dict_score["tfidf"] = score_tfidf
                 dict_score["total"] = dict_score.get("total", 0) + score_tfidf
                 scores_map[ridx] = dict_score
 
-        scores = sorted([(idx, dict_score.get("total",0), dict_score.get("tfidf",0), dict_score.get("wv",0)) for idx, dict_score in scores_map.items()], key=lambda x: x[1], reverse=True)
+        scores = sorted([(ridx, dict_score.get("idx",0), dict_score.get("total",0), dict_score.get("tfidf",0), dict_score.get("wv",0)) for ridx, dict_score in scores_map.items()], key=lambda x: x[2], reverse=True)
         return scores
 
     def similar_doc_wv(self, trigrams, topn=None):
@@ -121,3 +123,23 @@ class ModelFacade:
         sim_matrx = self.tf2wv.get_similarity_matrix(trigrams)
         sort_index = np.argsort(sim_matrx)
         return self.mongo_repository.panda.iloc[sort_index]
+
+
+    def words_report(self, min_count):
+        logging.info("Retrieving words for count ")
+        words = self.model_facade.doc2vecFacade.retrieve_words()
+        wps = []
+        logging.info("Retrieved {} words".format(len(words)))
+        for word, count in words:
+            if (count >= min_count):
+                sim_w = self.model_facade.doc2vecFacade.pull_scores_word(word, threshold=0.78, topn=20)
+                forms = self.language_facade.retrieve_forms_for_lemma(word)
+                wps.append({"word": word, "count": count,
+                            "forms": ", ".join([f for f in forms]),
+                            "simw": ", ".join([v[0] + " (" + str(round(v[1], 2)) + ")" for v in sim_w])
+
+                            })
+                if (len(wps) % 100 == 0):
+                    logging.info("Added {} words".format(len(wps)))
+        logging.info("Finished retrieving words")
+        return wps

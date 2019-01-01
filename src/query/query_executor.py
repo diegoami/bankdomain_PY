@@ -38,8 +38,13 @@ class QueryExecutor:
         tokens = text.lower().split()
         logging.info("Tokens after preprocessing : {}".format(tokens))
         trigrams = self.model_facade.gramFacade.phrase(tokens)
-        token_map = self.model_facade.doc2vecFacade.retrieve_similar_words(trigrams, threshold=threshold, topn=topn)
-        tokens_not_found = [word for word in trigrams if word not in token_map]
+        token_map = {}
+        dc_token_map = self.model_facade.doc2vecFacade.retrieve_similar_words(trigrams, threshold=threshold, topn=topn)
+        dc_tokens_not_found = [word for word in trigrams if word not in dc_token_map]
+        token_map.update(dc_token_map )
+        tf_tokens_not_found = self.model_facade.tfidfFacade.retrieve_words_not_found(trigrams)
+
+        tokens_not_found = set(dc_tokens_not_found + tf_tokens_not_found)
         scores = self.model_facade.similar_doc(trigrams, tokens_not_found )
         if (len(scores) > 0):
             return {"scores" : scores, "token_map" : token_map, "tokens_not_found" : tokens_not_found }
@@ -53,10 +58,10 @@ class QueryExecutor:
     def retrieve_documents(self,  all_scores, page_id):
         all_documents = []
         scores = all_scores[PER_PAGE*page_id:PER_PAGE*(page_id+1)]
-        for id, score, tfidf_score, wv_score in scores:
-            mongo_document = self.mongo_repository.get_preprocessed_question(id)
+        for ridx, idx, score, tfidf_score, wv_score in scores:
+            mongo_document = self.mongo_repository.get_preprocessed_question(ridx)
             lines_answer = mongo_document.split('\n')
-            all_documents.append({"question" : lines_answer[0],
+            all_documents.append({"idx": idx, "ridx": ridx, "question" : lines_answer[0],
                                   "answer" : "\n".join(lines_answer[1:]), "score" : score, "tfidf_score" : tfidf_score, "wv_score" : wv_score})
         return all_documents
 

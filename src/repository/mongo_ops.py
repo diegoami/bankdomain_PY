@@ -104,7 +104,7 @@ class MongoRepository:
         logging.info("Finished splitting documents into questions....")
 
     def iterate_questions (self, collection, separator=False, print_number=False, lowercase = False, only_question=False):
-        questions_db = collection.find()
+        questions_db = collection.find().sort( u"index", 1  )
         for index, el in enumerate(questions_db):
 
             if (separator):
@@ -148,21 +148,25 @@ class MongoRepository:
         logging.info("Finished transfer from collection {} to collection {}".format(source_collection, target_collection))
 
     def load_all_documents(self):
-        preprocessed_questions_no_answer = [question for question in self.iterate_questions(collection=self.preprocessed_questions, only_question=True)]
-        preprocessed_questions_with_answer = [question for question in self.iterate_questions(collection=self.preprocessed_questions, only_question=False)]
-        self.num_questions = len(preprocessed_questions_no_answer)
-        self.all_preprocessed_questions = preprocessed_questions_no_answer + preprocessed_questions_with_answer
+        self.preprocessed_questions_no_answer = [question for question in self.iterate_questions(collection=self.preprocessed_questions, only_question=True)]
+        self.preprocessed_questions_with_answer = [question for question in self.iterate_questions(collection=self.preprocessed_questions, only_question=False)]
+        self.num_questions = len(self.preprocessed_questions_no_answer)
+        self.all_preprocessed_questions = self.preprocessed_questions_no_answer + self.preprocessed_questions_with_answer
         self.questions_no_answer = [question.split() for question in self.iterate_questions(collection=self.processed_questions, lowercase=True, only_question=True)]
         self.questions_with_answer = [question.split() for question in self.iterate_questions(collection=self.processed_questions, lowercase=True, only_question=False)]
         self.all_questions = self.questions_no_answer + self.questions_with_answer
+
 
     def get_all_questions(self):
         return self.all_questions
 
     def get_preprocessed_question(self, index):
-        if (index < self.num_questions):
-            index += self.num_questions
-        return self.all_preprocessed_questions[index]
+        logging.info("get_preprocessed_question({})".format(index))
+        if (index >= len(self.preprocessed_questions_with_answer)):
+            index -= len(self.preprocessed_questions_with_answer)
+        logging.info("Retrieving preprocessed question with answer ({})".format(index))
+
+        return self.preprocessed_questions_with_answer[index]
 
     def retrieve_random_question(self):
         rand_index = randint(0, self.num_questions)
