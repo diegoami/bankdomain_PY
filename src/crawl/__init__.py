@@ -38,7 +38,7 @@ def get_next_available_file(dir_to_write):
             file_index += 1
 
 
-def build_qas(url, block, title, text):
+def build_qas(url, block, title, texts):
     r = requests.get(url)
     soup = BeautifulSoup(r.content)
     blocks = soup.select(block)
@@ -51,8 +51,8 @@ def build_qas(url, block, title, text):
                 if qa:
                     qas.append(qa)
                     qa = {}
-                qa = {'title': "".join(part.contents)}
-            elif part.name == text and "title" in qa:
+                qa = {'title': "".join(map(str,part.text))}
+            elif part.name in texts and "title" in qa:
                 qa['text'] = qa.get('text', "") + "".join(map(str, part.text))
     if qa:
         qas.append(qa)
