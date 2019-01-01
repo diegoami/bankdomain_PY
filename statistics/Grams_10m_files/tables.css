@@ -1,0 +1,204 @@
+
+
+.filterInput {
+  background-image: url('../images/searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+
+
+table {
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: left;
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+caption {
+    padding-bottom: 10px;
+    font-size:larger;
+}
+
+
+tr:nth-child(even) {background-color:  #FAFAD2}
+tr:nth-child(odd)  {background-color:  #FFFFCC}
+
+
+th {
+  background-color:  #9999CC;
+}
+
+th.date, td.date {
+  width:80px;
+}
+
+
+.columnscore {
+   width:100px;
+}
+
+
+
+.smallcolumn {
+    float: left;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+    font-size: 1.3em;
+
+}
+
+
+/* Clear floats after the columns */
+.smallrow:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.gridbox {
+    box-sizing: border-box;
+
+    text-align: left;
+    width: 100%;
+}
+
+.gridentry {
+    border: 2px solid black;
+}
+
+.gridtop {
+
+}
+
+.col-title  {
+    width: 90%;
+    font-size: x-large;
+    padding: 15px;
+
+}
+
+
+.rcol-articleid {
+    width: 10%;
+    padding-top: 6px;
+}
+
+
+.rcol-source  {
+    font-weight: bolder;
+    padding-top: 6px;
+}
+
+
+@media screen and (min-width:1200px) {
+    .rcol-source  { width: 15%; } /* Increase the font size */
+}
+
+@media screen and (min-width:1600px) {
+    .rcol-source  { width: 18%; } /* Increase the font size */
+}
+
+.rcol-date {
+    width: 12%;
+    padding-top: 6px;
+}
+
+
+@media screen and (min-width:1200px) {
+    .rcol-findsimilar  { width: 3%;  }
+}
+.col-compare  {
+
+}
+
+.toprow {
+    background-color: #ffc319;
+    width : 20%;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+@media screen and (max-width:800px) {
+    .toprow { width : 30%; }
+}
+
+.toprow::after {
+    content: "";
+    clear: both;
+    display: table;
+
+}
+
+.tcol-showall {
+    width: 30%;
+}
+
+.tcol-showindex {
+    width: 70%;
+}
+
+
+.mainrow {
+    background-color: #FFFFCC;
+    font-size: larger;
+    border: 1px solid black;
+}
+
+.mainrow::after {
+    content: "";
+    clear: both;
+    display: table;
+
+}
+
+.smallrow {
+    background-color:  #FAFAD2;
+    font-size: smaller;
+}
+
+.smallrow::after {
+    content: "";
+    clear: both;
+    display: table;
+    font-size: smaller;
+    font-family: Consolas;
+}
+
+.compare_row {
+    background-color: #FAFAD2;
+    font-size: smaller;
+}
+
+.compare_row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+[class*="col-"] {
+    float: left;
+}
+
+[class*="rcol-"] {
+    float: right;
+
+}
+
+[class*="tcol-"] {
+    float: right;
+}
+
+
+

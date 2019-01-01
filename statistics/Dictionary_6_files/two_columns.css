@@ -1,0 +1,26 @@
+
+
+.left {
+  width: 46%;
+  float: left;
+}
+
+.middle {
+  width: 8%;
+}
+
+.right {
+  width: 46%;
+  float: right;
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.shorturl {
+    font-size: 0.7em;
+}
