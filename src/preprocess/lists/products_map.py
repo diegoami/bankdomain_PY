@@ -67,5 +67,6 @@ products_map = {
     "auxmoney" : "DidiKredit",
     "OYAK-Keys" : "DidiLogin",
      "\"Deutsche Bank Mobile\"-App" : "DidiApp",
-    "KEYPLAN" : "DidiBroker"
+    "KEYPLAN" : "DidiBroker",
+    "uniVersa-Card" : "DidiCard"
 }

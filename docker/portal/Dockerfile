@@ -41,7 +41,9 @@ RUN echo "secret_key : $SECRET_KEY" >> /media/diego/keys/db_coords.yml
 RUN echo "signin_key : $SIGNIN_KEY" >> /media/diego/keys/db_coords.yml
 
 RUN mkdir -p /media/diego/QData/bankdomain/docs/ && cd /media/diego/QData/bankdomain/docs/  && git clone https://github.com/diegoami/bankdomain.git
-RUN mv /media/diego/QData/bankdomain/docs/bankdomain/qa_documents /media/diego/QData/bankdomain/docs/qa_documents
+RUN mkdir -p /media/diego/QData/bankdomain/docs/ && cd /media/diego/QData/bankdomain/docs/  && git clone https://github.com/diegoami/insurancedomain.git
+
+# RUN mv /media/diego/QData/bankdomain/docs/bankdomain/qa_documents /media/diego/QData/bankdomain/docs/qa_documents
 
 COPY . /app
 

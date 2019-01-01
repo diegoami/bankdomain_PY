@@ -18,20 +18,20 @@ from gensim_models import ModelFacade
 logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.DEBUG)
 
 
-def process_documents(data_dir, output_dir, do_import, do_process, do_print_files):
-    logging.info("Processing documents: {}, {}, {}, {}, {}".format(data_dir, output_dir, do_import, do_process, do_print_files))
+def process_documents(data_dirs, output_dir, do_import, do_process, do_print_files, append):
+    logging.info("Processing documents: {}, {}, {}, {}, {}, {}".format(data_dirs, output_dir, do_import, do_process, do_print_files, append))
     if do_import:
-        mongo_repository.import_questions(data_dir)
+        mongo_repository.import_questions(data_dirs)
     if do_process:
         preprocessor = Preprocessor()
         mongo_repository.process_questions(source_collection=mongo_repository.questions,
                                            target_collection=mongo_repository.preprocessed_questions,
-                                           processor=preprocessor)
+                                           processor=preprocessor, append=append)
         nlp = NlpWrapper()
         feature_processor = FeatureProcessor(nlp)
         mongo_repository.process_questions(source_collection=mongo_repository.preprocessed_questions,
                                            target_collection=mongo_repository.processed_questions,
-                                           processor=feature_processor)
+                                           processor=feature_processor, append=append)
     if do_print_files:
         mongo_repository.print_all_files(output_dir)
     logging.info("Finished processing documents")
@@ -44,8 +44,8 @@ if __name__ == '__main__':
     parser.add_argument('--process', dest="process", action = 'store_true')
     parser.add_argument('--print_files', dest="print_files", action = 'store_true')
     parser.add_argument('--model',  dest="model", action = 'store_true')
-
-    parser.set_defaults(import_qa=False, process=False, print_files=False, model=False)
+    parser.add_argument('--append', dest="append", action='store_true')
+    parser.set_defaults(import_qa=False, process=False, print_files=False, model=False, append=False)
 
     args = parser.parse_args()
     config = yaml.safe_load(open("../config.yml"))
@@ -54,12 +54,12 @@ if __name__ == '__main__':
     os.makedirs(model_dir, exist_ok=True)
     os.makedirs(output_dir, exist_ok=True)
 
-    data_dir = config['data_dir']
+    data_dirs = config['data_dirs']
     mongo_connection = config['mongo_connection']
     mongo_repository = MongoRepository(mongo_connection)
 
-    process_documents(data_dir, output_dir, do_import=args.import_qa, do_process=args.process,
-                      do_print_files=args.print_files)
+    process_documents(data_dirs, output_dir, do_import=args.import_qa, do_process=args.process,
+                      do_print_files=args.print_files, append=args.append)
 
     if args.model:
         logging.info("Started creation of model...")
