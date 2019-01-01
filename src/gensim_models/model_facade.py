@@ -19,7 +19,7 @@ class ModelFacade:
 
     def create_model(self):
         self.mongo_repository.load_all_documents()
-        all_questions_processed = self.mongo_repository.all_processed_splitted_questions
+        all_questions_processed = self.mongo_repository.get_all_questions()
         self.gramFacade.create_model( all_questions_processed )
 
         bigrams = self.gramFacade.export_bigrams(all_questions_processed)

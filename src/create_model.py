@@ -21,7 +21,7 @@ logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=lo
 def process_documents(data_dirs, output_dir, do_import, do_process, do_print_files, append):
     logging.info("Processing documents: {}, {}, {}, {}, {}, {}".format(data_dirs, output_dir, do_import, do_process, do_print_files, append))
     if do_import:
-        mongo_repository.import_questions(data_dirs)
+        mongo_repository.import_questions(data_dirs, append)
     if do_process:
         preprocessor = Preprocessor()
         mongo_repository.process_questions(source_collection=mongo_repository.questions,
