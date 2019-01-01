@@ -1,4 +1,7 @@
-data_dir: /media/diego/QData/bankdomain/docs/qa_documents
+data_dirs:
+  - /media/diego/QData/bankdomain/docs/bankdomain/qa_documents
+  - /media/diego/QData/bankdomain/docs/insurancedomain/qa_documents
+
 mongo_connection: mongodb://localhost:27017
 corpus_dir: /media/diego/QData/bankdomain/corpus
 output_dir: /media/diego/QData/bankdomain/data

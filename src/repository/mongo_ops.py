@@ -19,30 +19,35 @@ class MongoRepository:
         self.preprocessed_questions = self.bankdomain_db.proc_questions
         self.processed_questions = self.bankdomain_db.mod_questions
 
-    def import_questions(self, data_dir):
-        self.copy_into_qa_documents(data_dir)
+    def import_questions(self, data_dirs):
+        self.copy_into_qa_documents(data_dirs)
         self.split_qa_documents_into_questions()
 
-    def copy_into_qa_documents(self, data_dir):
+    def copy_into_qa_documents(self, data_dirs):
         logging.info("Importing all documents")
         qa_documents_coll = self.bankdomain_db.qa_documents
         qa_documents_coll.remove()
         errors = 0
-        for root, subdirs, files in os.walk(data_dir):
-            for file in files:
-                full_file = os.path.join(root,file)
-                try:
-                    with open(full_file, 'r', encoding="utf-8") as f:
-                        content = f.readlines()
-                        qa_documents_coll.save({'full_file': full_file.encode('utf-8', 'surrogateescape').decode('ISO-8859-1'), 'content': content})
-                except:
-                    errors += 1
-                    traceback.print_exc()
-                    logging.error("Could not read file {}".format(full_file))
+        for data_dir in data_dirs:
+            logging.info("Importing documents from {}".format(data_dir))
 
-                if errors > 10:
-                    logging.fatal("Too many files unaccessible")
-                    sys.exit(1)
+            for root, subdirs, files in os.walk(data_dir):
+                for file in files:
+                    full_file = os.path.join(root,file)
+                    try:
+                        with open(full_file, 'r', encoding="utf-8") as f:
+                            content = f.readlines()
+                            qa_documents_coll.save({'full_file': full_file.encode('utf-8', 'surrogateescape').decode('ISO-8859-1'), 'content': content})
+                    except:
+                        errors += 1
+                        traceback.print_exc()
+                        logging.error("Could not read file {}".format(full_file))
+
+                    if errors > 10:
+                        logging.fatal("Too many files unaccessible")
+                        sys.exit(1)
+            logging.info("Imported files from {}".format(data_dir))
+
         logging.info("Finished Importing all documents")
 
     def split_qa_documents_into_questions(self):
@@ -108,12 +113,16 @@ class MongoRepository:
             f.writelines(
                 self.iterate_questions(collection=self.processed_questions, separator=True,  print_number=True))
 
-    def process_questions(self, source_collection, target_collection, processor):
+    def process_questions(self, source_collection, target_collection, processor, append=False):
         logging.info("Starting transfer from collection {} to collection {}".format(source_collection, target_collection))
         source_records = source_collection.find().sort( u"index", 1  )
-        target_collection.remove()
+        if append:
+            start_index = target_collection.count()
+        else:
+            start_index = 0
+            target_collection.remove()
         all_texts = []
-        for idx, el in enumerate(source_records) :
+        for idx, el in enumerate(source_records, start=start_index) :
             if (idx % 100) == 0:
                 logging.info("process_questions: Processed {} rows".format(idx))
             to_write = {"question": processor(el["question"]) , "answer":processor(el["answer"]), "index": el["index"] }

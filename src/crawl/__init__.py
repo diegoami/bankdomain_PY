@@ -53,7 +53,7 @@ def build_qas(url, block, title, texts):
                     qa = {}
                 qa = {'title': "".join(map(str,part.text))}
             elif part.name in texts and "title" in qa:
-                qa['text'] = qa.get('text', "") + "".join(map(str, part.text))
+                qa['text'] = qa.get('text', "") + "".join(map(str, part.text)) + " "
     if qa:
         qas.append(qa)
     return qas
@@ -83,11 +83,13 @@ def save_qas_to_file(url, file_name, qas):
     all_lines += "### {}\n".format(url)
     all_lines += "###\n"
     for qa in qas:
-        all_lines += qa["title"]
-        all_lines += "\n"
-        all_lines += qa["text"]
-        all_lines += "\n###\n"
-
+        if "text" in qa:
+            all_lines += qa["title"]
+            all_lines += "\n"
+            all_lines += qa["text"]
+            all_lines += "\n###\n"
+        else:
+            logging.info("No answer found for {}".format(qa.get("title", "No title found")))
     with open(file_name, 'w') as f_qas:
         print(all_lines, file=f_qas)
 
