@@ -35,7 +35,7 @@ class Application:
             self.loading_words_thread.start()
 
     def load_words(self, min_count=8):
-        wps = self.model_facade.words_report(min_count)
+        wps = self.model_facade.words_report(min_count, self.language_facade)
         self.wps = wps
         self.wps_count = min_count
 

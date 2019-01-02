@@ -28,11 +28,15 @@
 
         {% for _ in wps : %}
 
-            <tr>
-                {% if _.forms|length <= 1 %}
+            <tr
+                {% if _.n_forms <= 1 %}
+                    class="alarm"
+                {% endif  %}
+            >
+                {% if _.n_forms <= 1 %}
                     <td>UQ</td>
                 {% else  %}
-                    <td></td>
+                    <td>{{_.n_forms}}</td>
                 {% endif  %}
                 <td >{{_.word}}</A></td>
                 <td >{{_.count}}</A></td>

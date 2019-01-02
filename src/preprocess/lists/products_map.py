@@ -68,5 +68,6 @@ products_map = {
     "OYAK-Keys" : "DidiLogin",
      "\"Deutsche Bank Mobile\"-App" : "DidiApp",
     "KEYPLAN" : "DidiBroker",
-    "uniVersa-Card" : "DidiCard"
+    "uniVersa-Card" : "DidiCard",
+    "CHECK24-Vergleich" : "DidiVergleich"
 }

@@ -12,7 +12,7 @@ TRIGRAMS_PICKLE = 'bigrams.p'
 from gensim.models.phrases import Phraser, Phrases
 class GramFacade:
 
-    def __init__(self, model_dir, bigrams_threshold=0.95, trigrams_threshold=0.95):
+    def __init__(self, model_dir, bigrams_threshold=0.88, trigrams_threshold=0.88):
         self.model_dir = model_dir
         self.bigrams_threshold=bigrams_threshold
         self.trigrams_threshold=trigrams_threshold
