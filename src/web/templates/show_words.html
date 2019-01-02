@@ -17,6 +17,7 @@
     <CAPTION>Words</CAPTION>
 
     <tr>
+        <th>Unique</th>
         <th>Word</th>
         <th>Count</th>
         <th>Forms</th>
@@ -28,7 +29,11 @@
         {% for _ in wps : %}
 
             <tr>
-
+                {% if _.forms|length <= 1 %}
+                    <td>UQ</td>
+                {% else  %}
+                    <td></td>
+                {% endif  %}
                 <td >{{_.word}}</A></td>
                 <td >{{_.count}}</A></td>
                 <td >{{_.forms}}</A></td>

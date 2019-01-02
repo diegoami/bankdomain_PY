@@ -3,6 +3,7 @@ from urllib.parse import urlparse, urlsplit, urljoin
 from bs4 import BeautifulSoup
 import requests
 import os
+from fake_useragent import UserAgent
 import logging
 
 def extract_source( url):
@@ -39,7 +40,11 @@ def get_next_available_file(dir_to_write):
 
 
 def build_qas(url, block, title, texts):
-    r = requests.get(url)
+    ua = UserAgent()
+    headers = {'User-Agent': ua.firefox}
+
+    response = requests.get(url, headers=headers)
+    r = requests.get(url, headers=headers)
     soup = BeautifulSoup(r.content)
     blocks = soup.select(block)
 

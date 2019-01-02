@@ -141,14 +141,15 @@ class MongoRepository:
         logging.info("Starting transfer from collection {} to collection {}".format(source_collection, target_collection))
         if append:
             start_index = target_collection.count()
-            source_records = source_collection.find().sort(u"index", 1)
+            condition = { "$gte" : start_index }
+            source_records = source_collection.find( {"index": condition }).sort(u"index", 1)
 
         else:
             source_records = source_collection.find().sort(u"index", 1)
             start_index = 0
             target_collection.remove()
         all_texts = []
-        for idx, el in enumerate(source_records, start=start_index) :
+        for idx, el in enumerate(source_records) :
             if (idx % 100) == 0:
                 logging.info("process_questions: Processed {} rows".format(idx))
             to_write = {"question": processor(el["question"]) , "answer":processor(el["answer"]), "index": el["index"] }
