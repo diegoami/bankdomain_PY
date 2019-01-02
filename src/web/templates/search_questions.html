@@ -9,7 +9,7 @@
 <body onload="select_header('topnav_search_questions')">
 {% include 'header.html' %}
 
-<P>Enter question (Case sensitive!) </P>
+<P>Stellen Sie eine Frage zum Thema Banken oder Versicherungen </P>
 <!--suppress HtmlUnknownTarget -->
 <div class="surrond_form">
     <FORM id="question_form" ACTION="/bankdomain/search_questions_submit" METHOD="POST">
@@ -30,10 +30,10 @@
 
 {% if tokens_not_found : %}
 <table border="1">
-    <CAPTION>Not in Dictionary (Check spelling)</CAPTION>
+    <CAPTION>Unbekannte Tokens (Rechtschreibung beachten)</CAPTION>
 
     <tr>
-        <th>Missing Token</th>
+        <th>Token</th>
 
     </tr>
     {% for token in tokens_not_found: %}
@@ -49,11 +49,11 @@
 <BR>
 
 <table border="1">
-    <CAPTION>Found tokens</CAPTION>
+    <CAPTION>Bekannte Tokens</CAPTION>
 
     <tr>
-        <th>Orig Token</th>
-        <th><span>Related concepts</span></th>
+        <th>Token</th>
+        <th><span>Verwandte Tokens</span></th>
 
 
       </tr>
@@ -74,17 +74,25 @@
 <BR>
 {% endif %}
 
+{% if random_questions: %}
+<h4>Beispiele: </h4>
+    <UL>
+        {% for question in random_questions: %}
+            <LI>{{ question }}</LI>
+        {% endfor %}
+    </UL>
+{%  endif %}
 {% if docs : %}
 
     <table border="1">
-    <CAPTION>Answers Found</CAPTION>
+    <CAPTION>Gefundene Antworten</CAPTION>
 
     <tr>
         <TH>IDX</TH>
         <TH>RIDX</TH>
-        <th class="icon"><span class="hide-1000">Similar</span></th>
-        <th>Question</th>
-        <th><span>Answer</span></th>
+        <th class="icon"><span class="hide-1000">Suche</span></th>
+        <th>Frage</th>
+        <th><span>Antwort</span></th>
         <th class="columnscore">Score</th>
         <th class="columnscore">TfIdf</th>
         <th class="columnscore">Wv</th>

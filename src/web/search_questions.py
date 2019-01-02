@@ -9,8 +9,11 @@ logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=lo
 @app.route('/bankdomain/search_questions', methods=['GET'])
 @app.route('/search_questions', methods=['GET'])
 def search_questions():
-
-    return render_template('search_questions.html')
+    _ = app.application
+    random_questions = []
+    for i in range(5):
+        random_questions.append(_.mongo_repository.retrieve_random_question())
+    return render_template('search_questions.html', random_questions=random_questions)
 
 @app.route('/bankdomain/search_questions_submit', methods=['POST'])
 @app.route('/search_questions_submit', methods=['POST'])
@@ -24,7 +27,10 @@ def search_questions_submit():
             question = form['question']
             if not question or len(question.strip()) < 3:
                 messages.append('Please enter a question')
-                return render_template('search_questions.html',messages = messages)
+                random_questions = []
+                for i in range(5):
+                    random_questions.append(_.mongo_repository.retrieve_random_question())
+                return render_template('search_questions.html',messages = messages, random_questions=random_questions)
             else:
                 page_id = read_int_from_form(form, 'page_id', "0")
                 return do_search(_, page_id, question)
