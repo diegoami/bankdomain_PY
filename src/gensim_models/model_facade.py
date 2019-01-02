@@ -11,7 +11,7 @@ class ModelFacade:
     def __init__(self, mongo_repository, models_dir):
         self.mongo_repository = mongo_repository
         self.models_dir = models_dir
-        self.gramFacade = GramFacade(self.models_dir, bigrams_threshold=0.90, trigrams_threshold=0.90 )
+        self.gramFacade = GramFacade(self.models_dir, bigrams_threshold=0.88, trigrams_threshold=0.88 )
         self.doc2vecFacade = Doc2VecFacade(self.models_dir, window=9, min_count=4, sample=0, epochs=35, alpha=0.01,vector_size=300, batch_size=10000)
         self.kmeansFacade = KMeansFacade()
         self.tfidfFacade = TfidfFacade(self.models_dir, no_below=3, no_above=0.9, num_topics=400 )
@@ -125,21 +125,23 @@ class ModelFacade:
         return self.mongo_repository.panda.iloc[sort_index]
 
 
-    def words_report(self, min_count):
-        logging.info("Retrieving words for count ")
-        words = self.model_facade.doc2vecFacade.retrieve_words()
+    def words_report(self, min_count, language_facade):
+        logging.info("Retrieving words for min count {}".format(min_count))
+        words = self.doc2vecFacade.retrieve_words()
         wps = []
         logging.info("Retrieved {} words".format(len(words)))
-        for word, count in words:
+        for index, word_count in enumerate(words):
+            word, count = word_count
             if (count >= min_count):
-                sim_w = self.model_facade.doc2vecFacade.pull_scores_word(word, threshold=0.78, topn=20)
-                forms = self.language_facade.retrieve_forms_for_lemma(word)
+                sim_w = self.doc2vecFacade.pull_scores_word(word, threshold=0.78, topn=20)
+                forms = language_facade.retrieve_forms_for_lemma(word)
                 wps.append({"word": word, "count": count,
                             "forms": ", ".join([f for f in forms]),
+                            "n_forms": len(forms),
                             "simw": ", ".join([v[0] + " (" + str(round(v[1], 2)) + ")" for v in sim_w])
 
                             })
                 if (len(wps) % 100 == 0):
-                    logging.info("Added {} words".format(len(wps)))
+                    logging.info("{}:  Added {} words".format(index, len(wps)))
         logging.info("Finished retrieving words")
         return wps
