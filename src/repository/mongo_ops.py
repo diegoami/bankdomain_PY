@@ -21,7 +21,7 @@ class MongoRepository:
 
     def import_questions(self, data_dirs, append=False):
         new_documents = self.copy_into_qa_documents(data_dirs, append=append)
-        self.split_qa_documents_into_questions(new_documents)
+        self.split_qa_documents_into_questions(new_documents, append=append)
 
     def copy_into_qa_documents(self, data_dirs, append=False):
         logging.info("Importing all documents")
@@ -37,8 +37,10 @@ class MongoRepository:
                 for file in files:
                     full_file = os.path.join(root,file)
                     full_file_db = full_file.encode('utf-8', 'surrogateescape').decode('ISO-8859-1')
+                    logging.info("Processing file {}".format(full_file))
                     try:
-                        if not append or not qa_documents_coll.find({'full_file': full_file}):
+                        if not append or not qa_documents_coll.count({'full_file': full_file_db}):
+                            logging.info("Inserting document {}".format(full_file_db))
                             with open(full_file, 'r', encoding="utf-8") as f:
                                 content = f.readlines()
 
@@ -46,6 +48,8 @@ class MongoRepository:
                                     {'full_file': full_file_db, 'content': content}
                                 )
                                 new_documents.append(full_file)
+                        else:
+                            logging.info("Skpping document {}".format(full_file_db))
 
                     except:
                         errors += 1
@@ -60,14 +64,18 @@ class MongoRepository:
         logging.info("Finished Importing all documents")
         return new_documents
 
-    def split_qa_documents_into_questions(self, new_documents):
+    def split_qa_documents_into_questions(self, new_documents, append):
         logging.info("Splitting documents into questions....")
         qa_documents_coll = self.bankdomain_db.qa_documents
         qa_questions_coll = self.bankdomain_db.qa_questions
-        qa_questions_coll.remove()
+        if not append:
+            qa_questions_coll.remove()
+            index = 0
+        else:
+            index = qa_questions_coll.count()
         qa_documents_in_db = qa_documents_coll.find()
         answer, question = "", ""
-        index = 0
+
         for i, el in enumerate(qa_documents_in_db):
             full_file = el["full_file"]
             if full_file in new_documents:
@@ -131,10 +139,12 @@ class MongoRepository:
 
     def process_questions(self, source_collection, target_collection, processor, append=False):
         logging.info("Starting transfer from collection {} to collection {}".format(source_collection, target_collection))
-        source_records = source_collection.find().sort( u"index", 1  )
         if append:
             start_index = target_collection.count()
+            source_records = source_collection.find().sort(u"index", 1)
+
         else:
+            source_records = source_collection.find().sort(u"index", 1)
             start_index = 0
             target_collection.remove()
         all_texts = []
@@ -161,11 +171,8 @@ class MongoRepository:
         return self.all_questions
 
     def get_preprocessed_question(self, index):
-        logging.info("get_preprocessed_question({})".format(index))
         if (index >= len(self.preprocessed_questions_with_answer)):
             index -= len(self.preprocessed_questions_with_answer)
-        logging.info("Retrieving preprocessed question with answer ({})".format(index))
-
         return self.preprocessed_questions_with_answer[index]
 
     def retrieve_random_question(self):

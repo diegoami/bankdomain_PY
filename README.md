@@ -1,4 +1,10 @@
 
+## SCRIPTS
+
+* faqs_from_yml.py: to generate FAQs from a crawl definition file
+* create_model.py: to create database and model
+* boot_web.py: to start the web application
+
 
 ## SET UP DATABASE
 
