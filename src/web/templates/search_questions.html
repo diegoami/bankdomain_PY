@@ -9,7 +9,7 @@
 <body onload="select_header('topnav_search_questions')">
 {% include 'header.html' %}
 
-<P>Stellen Sie eine Frage zum Thema Banken oder Versicherungen </P>
+<P>Stellen Sie eine Frage zum Thema Banken oder Versicherungen an die fiktive Firma <B>Didi</B></P>
 <!--suppress HtmlUnknownTarget -->
 <div class="surrond_form">
     <FORM id="question_form" ACTION="/bankdomain/search_questions_submit" METHOD="POST">
@@ -82,7 +82,7 @@
 <h4>Beispiele: </h4>
     <UL>
         {% for question in random_questions: %}
-            <LI>{{ question }}</LI>
+            <LI><A HREF="javascript:find_similar('{{question}}')" >{{ question }}</A></LI>
         {% endfor %}
     </UL>
 {%  endif %}
@@ -92,8 +92,6 @@
     <CAPTION>Gefundene Antworten</CAPTION>
 
     <tr>
-        <TH>IDX</TH>
-        <TH>RIDX</TH>
         <th class="icon"><span class="hide-1000">Suche</span></th>
         <th>Frage</th>
         <th><span>Antwort</span></th>
@@ -105,8 +103,6 @@
         {% for _ in docs : %}
 
             <tr>
-                <td>{{_.idx}}</td>
-                <td>{{_.ridx}}</td>
                 <td class="icon">
                     <A HREF="javascript:find_similar('{{_.question}}')" >
                         <IMG SRC="{{ url_for('static', filename='images/find_similar.png') }}" ALT="Find similar" TITLE="Find similar">
