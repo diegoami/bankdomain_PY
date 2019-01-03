@@ -26,7 +26,7 @@ def search_questions_submit():
 
             question = form['question']
             if not question or len(question.strip()) < 3:
-                messages.append('Please enter a question')
+                messages.append('Bitte geben Sie eine Frage ein.')
                 random_questions = []
                 for i in range(5):
                     random_questions.append(_.mongo_repository.retrieve_random_question())
