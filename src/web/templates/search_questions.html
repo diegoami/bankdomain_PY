@@ -27,6 +27,10 @@
  </FORM>
 </div>
 
+{% if question: %}
+        <span>Frage: <h3>{{ question }}</h3></span>
+{% endif %}
+
 
 {% if tokens_not_found : %}
 <table border="1">
