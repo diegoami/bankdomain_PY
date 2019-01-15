@@ -1,4 +1,6 @@
 
+See it live at http://www.faqportal.de
+
 ## SCRIPTS
 
 * faqs_from_yml.py: to generate FAQs from a crawl definition file
