@@ -3,3 +3,5 @@
 *.pyc
 **/*.log
 *.log
+src/nohup.out
+config.yml
