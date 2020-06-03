@@ -757,3 +757,189 @@
 2018-11-11 20:11:50,743 : INFO : Tokens after preprocessing : ['bekomme', 'direkt-kredit', 'selbstständig']
 2018-11-11 20:11:50,743 : INFO : Processing trigrams : ['bekomme', 'direkt-kredit', 'selbstständig']
 2018-11-11 20:11:50,743 : INFO : Weighted list of length: 3
+2019-01-03 16:48:44,740 : INFO : 'pattern' package not found; tag filters are not available for English
+2019-01-03 16:48:46,957 : INFO : loading Phraser object from /media/diego/QData/bankdomain/model//bigrams_phraser
+2019-01-03 16:48:46,958 : INFO : loaded /media/diego/QData/bankdomain/model//bigrams_phraser
+2019-01-03 16:48:46,959 : INFO : loading Phraser object from /media/diego/QData/bankdomain/model//trigrams_phraser
+2019-01-03 16:48:46,960 : INFO : loaded /media/diego/QData/bankdomain/model//trigrams_phraser
+2019-01-03 16:48:46,960 : INFO : loading Doc2Vec object from /media/diego/QData/bankdomain/model//doc2vec
+2019-01-03 16:48:47,536 : INFO : loading vocabulary recursively from /media/diego/QData/bankdomain/model//doc2vec.vocabulary.* with mmap=None
+2019-01-03 16:48:47,536 : INFO : loading trainables recursively from /media/diego/QData/bankdomain/model//doc2vec.trainables.* with mmap=None
+2019-01-03 16:48:47,536 : INFO : loading wv recursively from /media/diego/QData/bankdomain/model//doc2vec.wv.* with mmap=None
+2019-01-03 16:48:47,536 : INFO : loading docvecs recursively from /media/diego/QData/bankdomain/model//doc2vec.docvecs.* with mmap=None
+2019-01-03 16:48:47,536 : INFO : loaded /media/diego/QData/bankdomain/model//doc2vec
+2019-01-03 16:48:47,549 : INFO : loading Dictionary object from /media/diego/QData/bankdomain/model//dictionary
+2019-01-03 16:48:47,554 : INFO : loaded /media/diego/QData/bankdomain/model//dictionary
+2019-01-03 16:48:47,557 : INFO : loaded corpus index from /media/diego/QData/bankdomain/model//corpus.index
+2019-01-03 16:48:47,557 : INFO : initializing cython corpus reader from /media/diego/QData/bankdomain/model//corpus
+2019-01-03 16:48:47,557 : INFO : accepted corpus with 20442 documents, 10619 features, 294020 non-zero entries
+2019-01-03 16:48:47,558 : INFO : collecting document frequencies
+2019-01-03 16:48:47,558 : INFO : PROGRESS: processing document #0
+2019-01-03 16:48:47,587 : INFO : PROGRESS: processing document #10000
+2019-01-03 16:48:47,755 : INFO : PROGRESS: processing document #20000
+2019-01-03 16:48:47,767 : INFO : calculating IDF weights for 20442 documents and 10618 features (294020 matrix non-zeros)
+2019-01-03 16:48:47,789 : INFO : loading LsiModel object from /media/diego/QData/bankdomain/model//lsi
+2019-01-03 16:48:47,795 : INFO : loading id2word recursively from /media/diego/QData/bankdomain/model//lsi.id2word.* with mmap=None
+2019-01-03 16:48:47,795 : INFO : setting ignored attribute projection to None
+2019-01-03 16:48:47,795 : INFO : setting ignored attribute dispatcher to None
+2019-01-03 16:48:47,795 : INFO : loaded /media/diego/QData/bankdomain/model//lsi
+2019-01-03 16:48:47,795 : INFO : loading LsiModel object from /media/diego/QData/bankdomain/model//lsi.projection
+2019-01-03 16:48:48,282 : INFO : loaded /media/diego/QData/bankdomain/model//lsi.projection
+2019-01-03 16:48:48,282 : INFO : loading MatrixSimilarity object from /media/diego/QData/bankdomain/model//index
+2019-01-03 16:48:49,052 : INFO : loaded /media/diego/QData/bankdomain/model//index
+2019-01-03 16:48:49,940 : INFO : Application config: {'data_dirs': ['/media/diego/QData/bankdomain/docs/bankdomain/qa_documents', '/media/diego/QData/bankdomain/docs/insurancedomain/qa_documents'], 'mongo_connection': 'mongodb://ec2-18-194-147-93.eu-central-1.compute.amazonaws.com:27017', 'corpus_dir': '/media/diego/QData/bankdomain/corpus', 'output_dir': '/media/diego/QData/bankdomain/data', 'corpus_filename': 'qa_questions.corpus', 'corpus_proc_filename': 'proc_questions.corpus', 'corpus_mod_filename': 'mod_questions.corpus', 'models_dir': '/media/diego/QData/bankdomain/model/', 'dump_dir': '/media/diego/QData/bankdomain/dump/', 'key_file': '/media/diego/keys/db_coords.yml', 'preload_words': False, 'db_url': 'mysql://diegoami:amicabile@localhost:3306/tnaggregator?charset=utf8', 'rdb_url': 'mysql://diegoami:k3csk3m37@tnaggregator.cwxflajutmks.eu-central-1.rds.amazonaws.com:3306/tnaggregator?charset=utf8', 'secret_key': '61defdd7c5af00db6b4e8b6c35f23a26e819bd76a46f16b0', 'version': 1, 'signin_key': 'bambi'}
+2019-01-03 16:48:49,940 : INFO : Not preloading words....
+2019-01-03 16:49:13,143 : INFO : Processing Wie beantrage ich die DidiBank Sparcard?
+
+2019-01-03 16:49:13,143 : INFO : Retrieving answers for Wie beantrage ich die DidiBank Sparcard?
+
+2019-01-03 16:49:13,202 : INFO : Tokens after preprocessing : ['beantragen', 'didibank', 'sparcard']
+2019-01-03 16:49:13,202 : INFO : precomputing L2-norms of word weight vectors
+/home/ubuntu/anaconda3/envs/bankdomain/lib/python3.7/site-packages/gensim/matutils.py:737: FutureWarning: Conversion of the second argument of issubdtype from `int` to `np.signedinteger` is deprecated. In future, it will be treated as `np.int64 == np.dtype(int).type`.
+  if np.issubdtype(vec.dtype, np.int):
+2019-01-03 16:49:13,240 : INFO : Processing trigrams : ['beantragen', 'didibank', 'sparcard']
+2019-01-03 16:49:13,242 : INFO : Weighted list of length: 3
+2019-01-03 16:49:13,242 : INFO : precomputing L2-norms of doc weight vectors
+2019-01-03 16:49:13,420 : INFO : Ids for tokens : Questions 0, Answers 0 
+2019-01-03 17:37:55,233 : INFO : Processing Ist 3D Secure auch auf einem Smartphone nutzbar?
+
+2019-01-03 17:37:55,233 : INFO : Retrieving answers for Ist 3D Secure auch auf einem Smartphone nutzbar?
+
+2019-01-03 17:37:55,272 : INFO : Tokens after preprocessing : ['3d', 'secure', 'smartphone', 'nutzbar']
+2019-01-03 17:37:55,276 : INFO : Processing trigrams : ['3d_secure', 'smartphone', 'nutzbar']
+2019-01-03 17:37:55,276 : INFO : Weighted list of length: 3
+2019-01-03 17:37:55,294 : INFO : Ids for tokens : Questions 0, Answers 0 
+2019-01-03 17:39:26,671 : INFO : Processing Wie ist eine Sortenbestellung über die Didi Banking AG möglich?
+
+2019-01-03 17:39:26,671 : INFO : Retrieving answers for Wie ist eine Sortenbestellung über die Didi Banking AG möglich?
+
+2019-01-03 17:39:26,702 : INFO : Tokens after preprocessing : ['sortenbestellung', 'didi', 'banking', 'ag']
+2019-01-03 17:39:26,707 : INFO : Processing trigrams : ['sortenbestellung', 'didi', 'banking', 'ag']
+2019-01-03 17:39:26,707 : INFO : Weighted list of length: 4
+2019-01-03 17:39:26,771 : INFO : Ids for tokens : Questions 0, Answers 0 
+2019-01-03 18:43:39,198 : INFO : 'pattern' package not found; tag filters are not available for English
+2019-01-03 18:43:41,412 : INFO : loading Phraser object from /media/diego/QData/bankdomain/model//bigrams_phraser
+2019-01-03 18:43:41,415 : INFO : loaded /media/diego/QData/bankdomain/model//bigrams_phraser
+2019-01-03 18:43:41,415 : INFO : loading Phraser object from /media/diego/QData/bankdomain/model//trigrams_phraser
+2019-01-03 18:43:41,416 : INFO : loaded /media/diego/QData/bankdomain/model//trigrams_phraser
+2019-01-03 18:43:41,416 : INFO : loading Doc2Vec object from /media/diego/QData/bankdomain/model//doc2vec
+2019-01-03 18:43:42,261 : INFO : loading vocabulary recursively from /media/diego/QData/bankdomain/model//doc2vec.vocabulary.* with mmap=None
+2019-01-03 18:43:42,261 : INFO : loading trainables recursively from /media/diego/QData/bankdomain/model//doc2vec.trainables.* with mmap=None
+2019-01-03 18:43:42,261 : INFO : loading wv recursively from /media/diego/QData/bankdomain/model//doc2vec.wv.* with mmap=None
+2019-01-03 18:43:42,261 : INFO : loading docvecs recursively from /media/diego/QData/bankdomain/model//doc2vec.docvecs.* with mmap=None
+2019-01-03 18:43:42,261 : INFO : loaded /media/diego/QData/bankdomain/model//doc2vec
+2019-01-03 18:43:42,275 : INFO : loading Dictionary object from /media/diego/QData/bankdomain/model//dictionary
+2019-01-03 18:43:42,282 : INFO : loaded /media/diego/QData/bankdomain/model//dictionary
+2019-01-03 18:43:42,285 : INFO : loaded corpus index from /media/diego/QData/bankdomain/model//corpus.index
+2019-01-03 18:43:42,286 : INFO : initializing cython corpus reader from /media/diego/QData/bankdomain/model//corpus
+2019-01-03 18:43:42,286 : INFO : accepted corpus with 20442 documents, 10619 features, 294020 non-zero entries
+2019-01-03 18:43:42,287 : INFO : collecting document frequencies
+2019-01-03 18:43:42,287 : INFO : PROGRESS: processing document #0
+2019-01-03 18:43:42,316 : INFO : PROGRESS: processing document #10000
+2019-01-03 18:43:42,482 : INFO : PROGRESS: processing document #20000
+2019-01-03 18:43:42,495 : INFO : calculating IDF weights for 20442 documents and 10618 features (294020 matrix non-zeros)
+2019-01-03 18:43:42,517 : INFO : loading LsiModel object from /media/diego/QData/bankdomain/model//lsi
+2019-01-03 18:43:42,525 : INFO : loading id2word recursively from /media/diego/QData/bankdomain/model//lsi.id2word.* with mmap=None
+2019-01-03 18:43:42,525 : INFO : setting ignored attribute projection to None
+2019-01-03 18:43:42,525 : INFO : setting ignored attribute dispatcher to None
+2019-01-03 18:43:42,525 : INFO : loaded /media/diego/QData/bankdomain/model//lsi
+2019-01-03 18:43:42,525 : INFO : loading LsiModel object from /media/diego/QData/bankdomain/model//lsi.projection
+2019-01-03 18:43:43,119 : INFO : loaded /media/diego/QData/bankdomain/model//lsi.projection
+2019-01-03 18:43:43,119 : INFO : loading MatrixSimilarity object from /media/diego/QData/bankdomain/model//index
+2019-01-03 18:43:43,713 : INFO : loaded /media/diego/QData/bankdomain/model//index
+2019-01-03 18:43:44,859 : INFO : Application config: {'data_dirs': ['/media/diego/QData/bankdomain/docs/bankdomain/qa_documents', '/media/diego/QData/bankdomain/docs/insurancedomain/qa_documents'], 'mongo_connection': 'mongodb://ec2-18-194-147-93.eu-central-1.compute.amazonaws.com:27017', 'corpus_dir': '/media/diego/QData/bankdomain/corpus', 'output_dir': '/media/diego/QData/bankdomain/data', 'corpus_filename': 'qa_questions.corpus', 'corpus_proc_filename': 'proc_questions.corpus', 'corpus_mod_filename': 'mod_questions.corpus', 'models_dir': '/media/diego/QData/bankdomain/model/', 'dump_dir': '/media/diego/QData/bankdomain/dump/', 'key_file': '/media/diego/keys/db_coords.yml', 'preload_words': False, 'db_url': 'mysql://diegoami:amicabile@localhost:3306/tnaggregator?charset=utf8', 'rdb_url': 'mysql://diegoami:k3csk3m37@tnaggregator.cwxflajutmks.eu-central-1.rds.amazonaws.com:3306/tnaggregator?charset=utf8', 'secret_key': '61defdd7c5af00db6b4e8b6c35f23a26e819bd76a46f16b0', 'version': 1, 'signin_key': 'bambi'}
+2019-01-03 18:43:44,859 : INFO : Not preloading words....
+2019-01-03 18:44:49,761 : INFO : Processing Kann man in den AmbiBankfilialen Geldscheine gegen Münzen  ( oder umgekehrt )  wechseln?
+2019-01-03 18:44:49,761 : INFO : Retrieving answers for Kann man in den AmbiBankfilialen Geldscheine gegen Münzen  ( oder umgekehrt )  wechseln?
+2019-01-03 18:44:49,823 : INFO : Tokens after preprocessing : ['ambibankfilialen', 'geldscheine', 'münze', 'umkehren', 'wechseln']
+2019-01-03 18:44:49,823 : INFO : precomputing L2-norms of word weight vectors
+/home/ubuntu/anaconda3/envs/bankdomain/lib/python3.7/site-packages/gensim/matutils.py:737: FutureWarning: Conversion of the second argument of issubdtype from `int` to `np.signedinteger` is deprecated. In future, it will be treated as `np.int64 == np.dtype(int).type`.
+  if np.issubdtype(vec.dtype, np.int):
+2019-01-03 18:44:49,876 : INFO : Processing trigrams : ['ambibankfilialen', 'geldscheine', 'münze', 'umkehren', 'wechseln']
+2019-01-03 18:44:49,878 : INFO : Weighted list of length: 4
+2019-01-03 18:44:49,878 : INFO : precomputing L2-norms of doc weight vectors
+2019-01-03 18:44:50,039 : INFO : Ids for tokens : Questions [1075], Answers [1075] 
+2019-01-03 18:44:50,055 : INFO : Word not found: {'idx': 11296.0, 'wv': 0.8378753662109375, 'total': 1.8378753662109375, 'token_nf': 1}
+2019-01-03 18:44:50,055 : INFO : Word not found: {'idx': 11296.0, 'wv': 0.8378753662109375, 'total': 2.8378753662109375, 'token_nf': 2}
+2019-01-03 18:45:16,742 : INFO : Processing Wie lange hat mein Unternehmen Zeit, um Anleger zu finden?
+
+2019-01-03 18:45:16,742 : INFO : Retrieving answers for Wie lange hat mein Unternehmen Zeit, um Anleger zu finden?
+
+2019-01-03 18:45:16,775 : INFO : Tokens after preprocessing : ['unternehmen', 'zeit', 'anleger', 'finden']
+2019-01-03 18:45:16,780 : INFO : Processing trigrams : ['unternehmen', 'zeit', 'anleger', 'finden']
+2019-01-03 18:45:16,780 : INFO : Weighted list of length: 4
+2019-01-03 18:45:16,798 : INFO : Ids for tokens : Questions 0, Answers 0 
+2019-01-03 23:11:41,592 : INFO : Processing Wie ist die Anzahl von Sternen zu interpretieren, die von dem Rating-System vergeben werden?
+2019-01-03 23:11:41,592 : INFO : Retrieving answers for Wie ist die Anzahl von Sternen zu interpretieren, die von dem Rating-System vergeben werden?
+2019-01-03 23:11:41,629 : INFO : Tokens after preprocessing : ['anzahl', 'stern', 'interpretieren', 'rating-system', 'vergeben']
+2019-01-03 23:11:41,633 : INFO : Processing trigrams : ['anzahl', 'stern', 'interpretieren', 'rating-system', 'vergeben']
+2019-01-03 23:11:41,633 : INFO : Ignoring token interpretieren - not found in WV
+2019-01-03 23:11:41,633 : INFO : Ignoring token rating-system - not found in WV
+2019-01-03 23:11:41,633 : INFO : Weighted list of length: 3
+2019-01-03 23:11:41,719 : INFO : Ids for tokens : Questions [3586], Answers [2799, 3586] 
+2019-01-03 23:11:41,738 : INFO : Word not found: {'idx': 3586.0, 'wv': 0.7144553661346436, 'total': 1.7144553661346436, 'token_nf': 1}
+2019-01-03 23:11:41,738 : INFO : Word not found: {'idx': 3585.0, 'wv': 0.6654597520828247, 'total': 1.6654597520828247, 'token_nf': 1}
+2019-01-03 23:11:41,738 : INFO : Word not found: {'idx': 3586.0, 'wv': 0.7144553661346436, 'total': 2.7144553661346436, 'token_nf': 2}
+2019-01-03 23:11:41,738 : INFO : Word not found: {'idx': 3586.0, 'wv': 0.7144553661346436, 'total': 3.7144553661346436, 'token_nf': 3}
+2019-01-03 23:11:41,739 : INFO : Word not found: {'idx': 13020.0, 'wv': 0.38704705238342285, 'total': 1.3870470523834229, 'token_nf': 1}
+2019-01-03 23:11:41,739 : INFO : Word not found: {'idx': 3586.0, 'wv': 0.7144553661346436, 'total': 4.7144553661346436, 'token_nf': 4}
+2019-01-03 23:11:57,469 : INFO : Processing Gibt es für den Wertpapiersparplan eine Kündigungsfrist?
+
+2019-01-03 23:11:57,470 : INFO : Retrieving answers for Gibt es für den Wertpapiersparplan eine Kündigungsfrist?
+
+2019-01-03 23:11:57,499 : INFO : Tokens after preprocessing : ['wertpapiersparplan', 'kündigungsfrist']
+2019-01-03 23:11:57,502 : INFO : Processing trigrams : ['wertpapiersparplan', 'kündigungsfrist']
+2019-01-03 23:11:57,502 : INFO : Weighted list of length: 2
+2019-01-03 23:11:57,520 : INFO : Ids for tokens : Questions 0, Answers 0 
+2019-01-03 23:12:22,860 : INFO : Processing Kann bei girocard / electronic cash die PIN nicht an der Kasse ausgespäht werden?
+
+2019-01-03 23:12:22,860 : INFO : Retrieving answers for Kann bei girocard / electronic cash die PIN nicht an der Kasse ausgespäht werden?
+
+2019-01-03 23:12:22,894 : INFO : Tokens after preprocessing : ['girocard', 'electronic', 'cash', 'pin', 'kasse', 'ausspähen']
+2019-01-03 23:12:22,900 : INFO : Processing trigrams : ['girocard', 'electronic', 'cash', 'pin', 'kasse', 'ausspähen']
+2019-01-03 23:12:22,900 : INFO : Weighted list of length: 6
+2019-01-03 23:12:22,964 : INFO : Ids for tokens : Questions 0, Answers 0 
+2020-06-03 20:48:59,557 : INFO : 'pattern' package not found; tag filters are not available for English
+2020-06-03 20:49:09,926 : INFO : loading Phraser object from /media/diego/QData/bankdomain/model//bigrams_phraser
+2020-06-03 20:49:09,935 : INFO : loaded /media/diego/QData/bankdomain/model//bigrams_phraser
+2020-06-03 20:49:09,936 : INFO : loading Phraser object from /media/diego/QData/bankdomain/model//trigrams_phraser
+2020-06-03 20:49:09,937 : INFO : loaded /media/diego/QData/bankdomain/model//trigrams_phraser
+2020-06-03 20:49:09,937 : INFO : loading Doc2Vec object from /media/diego/QData/bankdomain/model//doc2vec
+2020-06-03 20:49:13,427 : INFO : loading vocabulary recursively from /media/diego/QData/bankdomain/model//doc2vec.vocabulary.* with mmap=None
+2020-06-03 20:49:13,427 : INFO : loading trainables recursively from /media/diego/QData/bankdomain/model//doc2vec.trainables.* with mmap=None
+2020-06-03 20:49:13,427 : INFO : loading wv recursively from /media/diego/QData/bankdomain/model//doc2vec.wv.* with mmap=None
+2020-06-03 20:49:13,427 : INFO : loading docvecs recursively from /media/diego/QData/bankdomain/model//doc2vec.docvecs.* with mmap=None
+2020-06-03 20:49:13,427 : INFO : loaded /media/diego/QData/bankdomain/model//doc2vec
+2020-06-03 20:49:13,443 : INFO : loading Dictionary object from /media/diego/QData/bankdomain/model//dictionary
+2020-06-03 20:49:13,449 : INFO : loaded /media/diego/QData/bankdomain/model//dictionary
+2020-06-03 20:49:13,452 : INFO : loaded corpus index from /media/diego/QData/bankdomain/model//corpus.index
+2020-06-03 20:49:13,452 : INFO : initializing cython corpus reader from /media/diego/QData/bankdomain/model//corpus
+2020-06-03 20:49:13,454 : INFO : accepted corpus with 20442 documents, 10619 features, 294020 non-zero entries
+2020-06-03 20:49:13,454 : INFO : collecting document frequencies
+2020-06-03 20:49:13,454 : INFO : PROGRESS: processing document #0
+2020-06-03 20:49:13,485 : INFO : PROGRESS: processing document #10000
+2020-06-03 20:49:13,661 : INFO : PROGRESS: processing document #20000
+2020-06-03 20:49:13,674 : INFO : calculating IDF weights for 20442 documents and 10618 features (294020 matrix non-zeros)
+2020-06-03 20:49:13,699 : INFO : loading LsiModel object from /media/diego/QData/bankdomain/model//lsi
+2020-06-03 20:49:13,708 : INFO : loading id2word recursively from /media/diego/QData/bankdomain/model//lsi.id2word.* with mmap=None
+2020-06-03 20:49:13,708 : INFO : setting ignored attribute projection to None
+2020-06-03 20:49:13,708 : INFO : setting ignored attribute dispatcher to None
+2020-06-03 20:49:13,708 : INFO : loaded /media/diego/QData/bankdomain/model//lsi
+2020-06-03 20:49:13,708 : INFO : loading LsiModel object from /media/diego/QData/bankdomain/model//lsi.projection
+2020-06-03 20:49:14,880 : INFO : loaded /media/diego/QData/bankdomain/model//lsi.projection
+2020-06-03 20:49:14,880 : INFO : loading MatrixSimilarity object from /media/diego/QData/bankdomain/model//index
+2020-06-03 20:49:16,676 : INFO : loaded /media/diego/QData/bankdomain/model//index
+2020-06-03 20:49:20,864 : INFO : Application config: {'data_dirs': ['/media/diego/QData/bankdomain/docs/bankdomain/qa_documents', '/media/diego/QData/bankdomain/docs/insurancedomain/qa_documents'], 'mongo_connection': 'mongodb://ec2-18-194-147-93.eu-central-1.compute.amazonaws.com:27017', 'corpus_dir': '/media/diego/QData/bankdomain/corpus', 'output_dir': '/media/diego/QData/bankdomain/data', 'corpus_filename': 'qa_questions.corpus', 'corpus_proc_filename': 'proc_questions.corpus', 'corpus_mod_filename': 'mod_questions.corpus', 'models_dir': '/media/diego/QData/bankdomain/model/', 'dump_dir': '/media/diego/QData/bankdomain/dump/', 'key_file': '/media/diego/keys/db_coords.yml', 'preload_words': False, 'db_url': 'mysql://diegoami:amicabile@localhost:3306/tnaggregator?charset=utf8', 'rdb_url': 'mysql://diegoami:k3csk3m37@tnaggregator.cwxflajutmks.eu-central-1.rds.amazonaws.com:3306/tnaggregator?charset=utf8', 'secret_key': '61defdd7c5af00db6b4e8b6c35f23a26e819bd76a46f16b0', 'version': 1, 'signin_key': 'bambi'}
+2020-06-03 20:49:20,864 : INFO : Not preloading words....
+2020-06-03 20:49:47,019 : INFO : Processing Kann ein Online Kredit auch vorzeitig zurückgezahlt werden?
+
+2020-06-03 20:49:47,019 : INFO : Retrieving answers for Kann ein Online Kredit auch vorzeitig zurückgezahlt werden?
+
+2020-06-03 20:49:47,111 : INFO : Tokens after preprocessing : ['online', 'kredit', 'vorzeitig', 'zurückzahlen']
+2020-06-03 20:49:47,111 : INFO : precomputing L2-norms of word weight vectors
+/home/ubuntu/anaconda3/envs/faqportal2/lib/python3.6/site-packages/gensim/matutils.py:737: FutureWarning: Conversion of the second argument of issubdtype from `int` to `np.signedinteger` is deprecated. In future, it will be treated as `np.int64 == np.dtype(int).type`.
+  if np.issubdtype(vec.dtype, np.int):
+2020-06-03 20:49:47,150 : INFO : Processing trigrams : ['online', 'kredit', 'vorzeitig', 'zurückzahlen']
+2020-06-03 20:49:47,153 : INFO : Weighted list of length: 4
+2020-06-03 20:49:47,153 : INFO : precomputing L2-norms of doc weight vectors
+2020-06-03 20:49:47,227 : INFO : Ids for tokens : Questions 0, Answers 0 
